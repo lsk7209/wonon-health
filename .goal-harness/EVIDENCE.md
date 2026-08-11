@@ -55,3 +55,9 @@ Level: 3
 | Mobile navigation | IMPLEMENTED | Search remains visible; essential links retain 44px targets; compact 410px layout |
 
 DNS verification is intentionally excluded from this increment at the user's direction.
+
+### 2026-08-11 10:24 KST - Deployed verification
+
+- Vercel deployment `dpl_3gZ71FDrxZ7cYkutYnmmFD6iBzyV`: READY; 24 static pages generated.
+- `https://wonon-health.vercel.app/`, `/search`, two representative article routes, `/robots.txt`, and `/sitemap.xml`: HTTP 200.
+- Independent verifier found the legacy mobile selector hiding Search; selector repaired in commit `1b3adf7`, then build and typecheck passed again.
