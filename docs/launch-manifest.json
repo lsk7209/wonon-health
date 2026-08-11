@@ -123,7 +123,7 @@
   "analytics": {
     "gsc": "not_started",
     "ga4": "configured",
-    "ga4_measurement_id": "G-3NJ07LPVXD",
+    "ga4_measurement_id": "G-GHW1NZJ8FE",
     "ga4_tag_files": [
       "app/layout.tsx"
     ],

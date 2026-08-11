@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "status": "not_started",
-  "verification_token": "",
+  "status": "configured",
+  "verification_token": "9325fb1919d794cbd7665f8037e5c4cb47848ce7",
   "meta_name": "naver-site-verification",
-  "injected_files": [],
+  "injected_files": ["app/layout.tsx"],
   "errors": [],
-  "last_updated": "2026-08-11T00:17:35.603498+00:00"
+  "last_updated": "2026-08-12T00:00:00+09:00"
 }

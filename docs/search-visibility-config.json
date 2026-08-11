@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "status": "planned",
-  "domain": "TODO_DOMAIN",
-  "canonical_url": "https://TODO_DOMAIN",
+  "status": "configured",
+  "domain": "wonon.ehon365.kr",
+  "canonical_url": "https://wonon.ehon365.kr",
   "gsc": {
     "status": "not_started",
     "property_type": "",
@@ -14,7 +14,7 @@
   },
   "ga4": {
     "status": "configured",
-    "measurement_id": "G-3NJ07LPVXD",
+    "measurement_id": "G-GHW1NZJ8FE",
     "consent_mode": "not_started",
     "cookie_notice_status": "not_started",
     "verified_at": "",
@@ -30,8 +30,8 @@
     "evidence": []
   },
   "naver": {
-    "status": "not_started",
-    "verification_token": "",
+    "status": "configured",
+    "verification_token": "9325fb1919d794cbd7665f8037e5c4cb47848ce7",
     "meta_name": "naver-site-verification",
     "verified_at": "",
     "evidence": []

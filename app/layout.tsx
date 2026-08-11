@@ -11,12 +11,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return <html lang="ko"><head>
+        <meta name="naver-site-verification" content="9325fb1919d794cbd7665f8037e5c4cb47848ce7" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3050601904412736" crossOrigin="anonymous"></script>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NJ07LPVXD"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHW1NZJ8FE"></script>
         <script
           dangerouslySetInnerHTML={{
-            __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-3NJ07LPVXD');",
+            __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-GHW1NZJ8FE');",
           }}
         />
       </head>
