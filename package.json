@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "tsc --ignoreConfig --target ES2022 --module node16 --moduleResolution node16 --types node --esModuleInterop --outDir .test-dist content/publication-selector.test.ts && node --test .test-dist/publication-selector.test.js"
+    "test": "tsc --ignoreConfig --target ES2022 --module node16 --moduleResolution node16 --types node --esModuleInterop --outDir .test-dist content/publication-selector.test.ts components/longform-table.test.ts components/longform-seo-contract.test.ts && node --test .test-dist/publication-selector.test.js .test-dist/components/longform-table.test.js .test-dist/components/longform-seo-contract.test.js"
   },
   "dependencies": {
     "next": "latest",

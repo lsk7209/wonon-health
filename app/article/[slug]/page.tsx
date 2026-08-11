@@ -73,7 +73,7 @@ export default async function ArticlePage({ params }: Props) {
           <time dateTime={article.updatedAt}>수정 {article.updatedAt}</time>
         </p>
 
-        {longform ? <LongformArticle markdown={longform.body} /> : <>
+        {longform ? <LongformArticle markdown={longform.body} topicHref={`/topic/${article.topicSlug}`} topicName={article.topic} /> : <>
           {guide && <section className="takeaway-box" aria-labelledby="takeaway-title">
             <h2 id="takeaway-title">먼저 기억할 세 가지</h2>
             <ul>{guide.takeaways.map((item) => <li key={item}>{item}</li>)}</ul>

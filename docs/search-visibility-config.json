@@ -9,12 +9,12 @@
     "property_url": "https://wonon.ehon365.kr/",
     "verification_method": "existing_site_owner_service_account",
     "verification_value": "",
-    "verified_at": "2026-08-12T00:41:47.775228+09:00",
+    "verified_at": "2026-08-12T08:19:44.522+09:00",
     "evidence": [
       "Search Console API permission: siteOwner",
-      "sitemap.xml submitted 2026-08-12T00:40:24.518+09:00",
-      "final API poll: isPending=false, errors=0, warnings=0",
-      "lastDownloaded=2026-08-12T00:40:25.734+09:00",
+      "sitemap.xml resubmitted 2026-08-12T08:19:30.515+09:00",
+      "final API poll: isPending=false, errors=0, warnings=0, submitted=36",
+      "lastDownloaded=2026-08-12T08:19:44.522+09:00",
       "docs/gsc-sitemap-submission-2026-08-12.json"
     ]
   },
@@ -51,5 +51,5 @@
     "evidence": []
   },
   "notes": [],
-  "last_updated": "2026-08-12T00:41:47.775228+09:00"
+  "last_updated": "2026-08-12T08:19:44.522+09:00"
 }

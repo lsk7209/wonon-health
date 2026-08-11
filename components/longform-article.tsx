@@ -1,6 +1,11 @@
 import type { ReactNode } from 'react';
+import { isMarkdownTableSeparator, markdownTableCells } from './longform-table';
 
-type LongformArticleProps = { markdown: string };
+type LongformArticleProps = {
+  markdown: string;
+  topicHref: string;
+  topicName: string;
+};
 
 type InlinePart = { type: 'text'; value: string } | { type: 'link'; label: string; href: string };
 
@@ -40,15 +45,7 @@ function renderInline(text: string, keyPrefix: string): ReactNode[] {
   });
 }
 
-function isTableSeparator(line: string): boolean {
-  return /^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*){0,2}\|?\s*$/.test(line);
-}
-
-function tableCells(line: string): string[] {
-  return line.trim().replace(/^\||\|$/g, '').split('|').map((cell) => cell.trim());
-}
-
-export function LongformArticle({ markdown }: LongformArticleProps) {
+export function LongformArticle({ markdown, topicHref, topicName }: LongformArticleProps) {
   const lines = markdown.replace(/\r\n/g, '\n').split('\n');
   const blocks: ReactNode[] = [];
   let index = 0;
@@ -75,15 +72,15 @@ export function LongformArticle({ markdown }: LongformArticleProps) {
       continue;
     }
 
-    if (index + 1 < lines.length && line.includes('|') && isTableSeparator(lines[index + 1])) {
-      const header = tableCells(line);
+    if (index + 1 < lines.length && line.includes('|') && isMarkdownTableSeparator(lines[index + 1])) {
+      const header = markdownTableCells(line);
       const rows: string[][] = [];
       index += 2;
-      while (index < lines.length && lines[index].includes('|') && tableCells(lines[index]).length === header.length) {
-        rows.push(tableCells(lines[index]));
+      while (index < lines.length && lines[index].includes('|') && markdownTableCells(lines[index]).length === header.length) {
+        rows.push(markdownTableCells(lines[index]));
         index += 1;
       }
-      if (header.length <= 3) blocks.push(<div className="longform-table-wrap" key={`table-${index}`}><table><thead><tr>{header.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell, `th-${index}-${cellIndex}`)}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell, `td-${index}-${rowIndex}-${cellIndex}`)}</td>)}</tr>)}</tbody></table></div>);
+      blocks.push(<div className="longform-table-wrap" key={`table-${index}`}><table><thead><tr>{header.map((cell, cellIndex) => <th key={cellIndex}>{renderInline(cell, `th-${index}-${cellIndex}`)}</th>)}</tr></thead><tbody>{rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{renderInline(cell, `td-${index}-${rowIndex}-${cellIndex}`)}</td>)}</tr>)}</tbody></table></div>);
       continue;
     }
 
@@ -103,12 +100,19 @@ export function LongformArticle({ markdown }: LongformArticleProps) {
 
     const paragraph: string[] = [line.trim()];
     index += 1;
-    while (index < lines.length && lines[index].trim() && !/^(#{2,3})\s+|^>|^\s*([-*]|\d+\.)\s+/.test(lines[index]) && !(lines[index].includes('|') && isTableSeparator(lines[index + 1] ?? ''))) {
+    while (index < lines.length && lines[index].trim() && !/^(#{2,3})\s+|^>|^\s*([-*]|\d+\.)\s+/.test(lines[index]) && !(lines[index].includes('|') && isMarkdownTableSeparator(lines[index + 1] ?? ''))) {
       paragraph.push(lines[index].trim()); index += 1;
     }
     const key = `paragraph-${index}`;
     blocks.push(<p key={key}>{renderInline(paragraph.join(' '), key)}</p>);
   }
 
-  return <div className="longform-content">{blocks}</div>;
+  return <div className="longform-content">
+    {blocks}
+    <section className="longform-continue-reading" aria-labelledby="continue-reading-title">
+      <h2 id="continue-reading-title">이 주제를 더 살펴보세요</h2>
+      <p>읽은 내용을 바탕으로, 나에게 맞는 다음 질문을 정리할 수 있는 건강 노트를 이어서 살펴보세요.</p>
+      <a className="button button-primary" href={topicHref}>{topicName} 건강 노트 살펴보기</a>
+    </section>
+  </div>;
 }
