@@ -1,0 +1,48 @@
+{
+  "site": "wonon",
+  "target": "nextjs",
+  "created_at": "2026-08-11",
+  "persona": "personas/wonon/persona.md",
+  "insight_source": "public current-source research and existing-site content audit",
+  "items": [
+    {
+      "id": "a007",
+      "status": "done",
+      "score": 94,
+      "title": "갱년기 불면으로 넘기기 전, 여성 수면무호흡 의심 신호",
+      "subtitle": "여성 수면무호흡 의심 신호를 코골이·아침 두통·잦은 각성 기록으로 구분하는 법",
+      "slug": "women-sleep-apnea-menopause-signs",
+      "cluster": "sleep-mood",
+      "is_pillar": false,
+      "main_keyword": "여성 수면무호흡",
+      "extended_keywords": ["갱년기 불면", "수면무호흡 의심 신호", "수면검사"],
+      "long_tail": "갱년기 불면 여성 수면무호흡 의심 신호",
+      "search_intent": "수면위생을 계속할지 수면호흡 평가를 상담할지 결정",
+      "primary_reader_situation": "폐경 전후 잦은 각성과 낮 피로가 있지만 큰 코골이는 듣지 못한 여성",
+      "decision_criterion": "본인 낮 증상과 동침자 야간 호흡 관찰의 중첩 및 안전 영향",
+      "reader_job": "갱년기 불면과 수면무호흡 평가 필요성을 구분해 진료 질문 준비",
+      "decision_moment": "반복 각성·아침 두통·낮 졸림이 이어지지만 코골이가 뚜렷하지 않을 때",
+      "answer_claim": "큰 코골이 유무만으로 배제하지 말고 관찰자별 기록을 바탕으로 평가 필요성을 상담한다",
+      "evidence_plan": "NHLBI 여성 특이 증상과 KDCA 국내 코골이 자료 교차 확인",
+      "non_overlap_claim": "기존 sleep-after-45의 수면위생이 아니라 수면호흡장애 선별 상담만 다룸",
+      "not_answered_here": "자가진단, 검사 결과 해석, 치료법 선택",
+      "structure_type": "판단트리형",
+      "structure_reason": "독자가 두 가능한 설명 사이에서 다음 행동을 정해야 함",
+      "visual_elements": ["summary box", "scenario branch table", "checklist box"],
+      "internal_link_targets": ["sleep-after-45", "hot-flash-daily-record", "menopause-when-to-see-a-doctor"],
+      "draft_path": "output/wonon/drafts/a007-women-sleep-apnea.mdx",
+      "research_path": "output/wonon/research/a007-women-sleep-apnea.json",
+      "qa_path": "output/wonon/qa/a007-women-sleep-apnea.json",
+      "title_pattern_signature": "menopause-insomnia-before-assumption-women-sleep-apnea-signs",
+      "opening_frame": "새벽 각성 장면",
+      "section_role_sequence": ["direct answer", "gender signal", "observer table", "branch", "record", "consultation", "decision close"],
+      "cta_type": "오늘 한 장 기록 시작"
+    },
+    {
+      "id": "a008", "status": "pending", "title": "폐경 뒤 질 건조·따가움·빈뇨, 갱년기로 넘기기 전에 구분할 신호", "slug": "gsm-dryness-urinary-signs", "cluster": "menopause", "reader_job": "생활관리와 진료 예약 사이의 판단", "non_overlap_claim": "GSM의 질·외음부·배뇨 증상과 감염·출혈 경계만 다룸"
+    },
+    {
+      "id": "a009", "status": "pending", "title": "골밀도 검사 결과표, T점수만 보지 말아야 하는 이유", "slug": "bone-density-result-next-questions", "cluster": "bone-muscle", "reader_job": "검사 수치를 골절 위험과 다음 상담 질문으로 번역", "non_overlap_claim": "기존 운동 글과 달리 결과표·병력·재검 질문만 다룸"
+    }
+  ]
+}

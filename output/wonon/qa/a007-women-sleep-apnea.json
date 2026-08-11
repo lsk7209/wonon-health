@@ -1,0 +1,27 @@
+{
+  "article_id": "a007",
+  "status": "done",
+  "score": 94,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 14 },
+  "hard_gate_results": {
+    "persona_consistency": "pass",
+    "fact_traceability": "pass",
+    "research_gate": "pass",
+    "per_article_research_packet": "pass",
+    "source_interpretation": "pass",
+    "ymyl": "pass",
+    "content_uniqueness": "pass",
+    "helpful_content_purpose": "pass",
+    "article_contract_uniqueness": "pass",
+    "title_subtitle_keyword_coverage": "pass",
+    "structure_variation": "pass",
+    "visual_elements": "pass",
+    "heading_quality": "pass",
+    "body_length": "pass"
+  },
+  "measurements": { "reader_visible_korean_characters": 3609, "h2_count": 7, "internal_link_count": 3, "official_source_count": 6 },
+  "compared_rows": ["sleep-after-45", "hot-flash-daily-record", "menopause-when-to-see-a-doctor"],
+  "similarity_signals": { "intro_frame": "distinct 새벽 각성 장면", "section_role_sequence": "distinct 판단트리", "source_interpretation": "distinct 여성 특이 신호와 관찰자 분리", "cta_type": "one-action record" },
+  "repair_attempted": true,
+  "remaining_risks": ["의료전문가 개별 검토 전", "한국 검색 콘솔 실측 쿼리 데이터 미반영", "공개 전 MDX를 현재 TypeScript 콘텐츠 스키마로 편입해야 함"]
+}

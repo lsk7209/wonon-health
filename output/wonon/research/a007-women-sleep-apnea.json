@@ -1,0 +1,51 @@
+{
+  "article_id": "a007",
+  "title": "갱년기 불면으로 넘기기 전, 여성 수면무호흡 의심 신호",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    { "query": "site:nhlbi.nih.gov sleep apnea women menopause symptoms", "date": "2026-08-11", "purpose": "여성 특이 증상과 폐경기 위험 공식 확인" },
+    { "query": "site:health.kdca.go.kr 코골이 수면무호흡 여성 폐경", "date": "2026-08-11", "purpose": "한국 공식 건강정보와 상담 신호 확인" },
+    { "query": "여성 수면무호흡 갱년기 불면 검색 결과", "date": "2026-08-11", "purpose": "검색 의도와 기존 콘텐츠 공백 검토" }
+  ],
+  "article_research_question": "갱년기 전후 자주 깨는 여성이 단순 불면 관리와 수면무호흡 평가 필요성을 어떤 관찰 정보로 구분할 수 있는가?",
+  "reader_outcome": "코골이 유무만으로 배제하지 않고 본인 증상과 동침자 관찰을 분리 기록해 진료 질문을 준비한다.",
+  "competitor_gap": "일반 검색 결과는 수면위생이나 큰 코골이를 중심으로 설명하는 경우가 많아, 여성에서 피로·불면·아침 두통·잦은 각성이 더 두드러질 수 있다는 공식 근거와 관찰자별 기록법을 함께 제공하는 글이 부족하다.",
+  "information_gain": "본인이 느끼는 낮 증상과 동침자가 관찰하는 밤 호흡 신호를 2열 기록표로 분리하고, 기존 원온 수면위생 글과 달리 검사 상담 결정만 다룬다.",
+  "unique_angle": "코골이가 크지 않아도 수면무호흡을 배제하지 않는 여성 중심의 상담 준비 도구",
+  "source_interpretation": "NHLBI의 여성 특이 증상과 KDCA의 국내 코골이·무호흡 설명을 결합하되 자가진단 점수 대신 관찰 정보의 출처를 나누는 의사결정 도구로 번역한다.",
+  "original_contribution": { "type": "two-observer decision table", "description": "본인 관찰과 동침자 관찰을 분리해 수면 진료에 가져갈 기록표", "source_ids": ["S1", "S2", "S3"] },
+  "angle_supporting_detail": { "claim": "여성은 큰 코골이 없이 불면, 피로, 아침 두통, 잦은 각성으로 나타날 수 있다.", "source_id": "S1" },
+  "article_specific_details": [
+    { "claim": "NHLBI는 여성 수면무호흡에서 불면, 피로, 아침 두통, 잦은 각성이 더 흔할 수 있다고 설명한다.", "source_id": "S1" },
+    { "claim": "질병관리청 자료는 여성의 코골이가 폐경기 후 증가한다고 설명하며 2026-05-11에 갱신됐다.", "source_id": "S3" }
+  ],
+  "structure": { "structure_type": "판단트리형", "why": "독자가 수면위생을 계속할지 평가 상담을 잡을지 구분해야 한다.", "intro_style": "새벽 각성 장면", "section_sequence": ["direct answer", "women-specific signals", "two-observer table", "decision branches", "recording week", "consultation questions", "safety close"] },
+  "visual_elements": ["summary box", "scenario branch table", "checklist box"],
+  "semantic_colors": ["#2563EB", "#B45309"],
+  "sources": [
+    { "id": "S1", "title": "Sleep Apnea and Women", "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/women", "publisher": "NHLBI, NIH", "date": "2025-02-04", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "여성 특이 증상과 폐경 전후 위험" },
+    { "id": "S2", "title": "Sleep Apnea Symptoms", "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms", "publisher": "NHLBI, NIH", "date": "2025-01-09", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "야간 호흡 신호와 낮 증상, 수면검사 상담" },
+    { "id": "S3", "title": "코골이", "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5362", "publisher": "질병관리청 국가건강정보포털", "date": "2026-05-11", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "국내 설명, 폐경 후 증가 경향, 정확한 진단 필요성" },
+    { "id": "S4", "title": "Sleep Apnea", "url": "https://medlineplus.gov/sleepapnea.html", "publisher": "MedlinePlus, U.S. National Library of Medicine", "date": "2026-01-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "검사·치료는 의료진 평가가 필요하다는 교차 확인" },
+    { "id": "S5", "title": "Healthy Sleep Habits", "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits", "publisher": "NHLBI, NIH", "date": "2022-03-24", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "기존 수면위생 글과 범위 분리 및 보조 행동" },
+    { "id": "S6", "title": "What are menopause and perimenopause?", "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/what-are-menopause-and-perimenopause/", "publisher": "NHS", "date": "2026-05-19", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "갱년기 자체도 수면 문제를 일으킬 수 있다는 경계" }
+  ],
+  "data_points": [
+    { "claim": "여성의 수면무호흡 위험은 폐경 중과 이후 증가할 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2025-02-04", "supports_section": "여성 수면무호흡은 큰 코골이만으로 찾기 어렵습니다" },
+    { "claim": "여성에게 불면, 피로, 아침 두통, 잦은 각성이 더 흔한 표현일 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2025-02-04", "supports_section": "여성 수면무호흡은 큰 코골이만으로 찾기 어렵습니다" },
+    { "claim": "수면 중 호흡 시작과 정지, 헐떡임은 관찰 가능한 증상이다.", "source_id": "S2", "claim_type": "medical", "source_date": "2025-01-09", "supports_section": "내가 느낀 것과 옆 사람이 본 것을 나눠 적으세요" },
+    { "claim": "질병관리청은 여성의 코골이가 폐경기 후 증가한다고 설명한다.", "source_id": "S3", "claim_type": "medical", "source_date": "2026-05-11", "supports_section": "갱년기 불면과 수면무호흡을 한쪽으로 단정하지 않는 법" },
+    { "claim": "증상에 따라 수면검사가 진단에 필요할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-01-09", "supports_section": "수면무호흡 상담을 예약할 결정 기준" }
+    ,{ "claim": "갱년기에는 열감·수면 문제·기분 변화가 나타날 수 있다.", "source_id": "S6", "claim_type": "medical", "source_date": "2026-05-19", "supports_section": "도입부와 갱년기 불면 분기" }
+    ,{ "claim": "수면무호흡은 낮 피로와 집중 저하를 일으킬 수 있고 심한 경우 기계 조작·졸음운전 사고 위험과 연결된다.", "source_id": "S3", "claim_type": "safety", "source_date": "2026-05-11", "supports_section": "코골이는 없지만 낮 기능이 무너진다면" }
+    ,{ "claim": "음주와 일부 진정 작용 약물은 기존 코골이나 수면무호흡을 악화시킬 수 있다.", "source_id": "S3", "claim_type": "medical", "source_date": "2026-05-11", "supports_section": "수면무호흡 상담을 예약할 결정 기준" }
+    ,{ "claim": "혀·입천장·턱 등 상기도 구조가 코골이와 수면무호흡의 원인이 될 수 있다.", "source_id": "S3", "claim_type": "medical", "source_date": "2026-05-11", "supports_section": "수면무호흡 상담을 예약할 결정 기준" }
+    ,{ "claim": "일정한 수면 일정, 신체활동, 늦은 카페인과 취침 전 음주 조절은 건강한 수면 습관에 포함된다.", "source_id": "S5", "claim_type": "behavior", "source_date": "2022-03-24", "supports_section": "일주일 수면 기록은 검사 대신이 아니라 상담 자료입니다" }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

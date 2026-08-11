@@ -61,3 +61,11 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - Vercel deployment `dpl_3gZ71FDrxZ7cYkutYnmmFD6iBzyV`: READY; 24 static pages generated.
 - `https://wonon-health.vercel.app/`, `/search`, two representative article routes, `/robots.txt`, and `/sitemap.xml`: HTTP 200.
 - Independent verifier found the legacy mobile selector hiding Search; selector repaired in commit `1b3adf7`, then build and typecheck passed again.
+
+### 2026-08-11 11:08 KST - High-quality editorial pilot
+
+- `a007` women-specific sleep-apnea draft: 3,609 reader-visible Korean characters, 7 H2 sections, 3 internal links, and 6 official sources.
+- Independent editorial QA initially failed length, claim-ledger, and heading gates; all three were repaired.
+- Final editorial QA: PASS, 94/100, zero hard-gate failures; research/QA/manifest JSON parse successfully.
+- Local `npm run build`: PASS, 24 static pages. `npx tsc --noEmit`: PASS.
+- Draft publication, medical-expert sign-off, AdSense operations, and DNS changes were deliberately not performed.
