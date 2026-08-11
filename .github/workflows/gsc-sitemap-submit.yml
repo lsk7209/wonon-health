@@ -54,8 +54,8 @@ jobs:
           for _ in range(12):
               item = service.sitemaps().get(siteUrl=site, feedpath=sitemap).execute()
               if not item.get('isPending'):
-                  assert not item.get('errors'), item
-                  assert not item.get('warnings'), item
+                  assert int(item.get('errors', 0)) == 0, item
+                  assert int(item.get('warnings', 0)) == 0, item
                   assert item.get('lastDownloaded'), item
                   print('GSC sitemap verified: downloaded with zero errors and warnings')
                   break
