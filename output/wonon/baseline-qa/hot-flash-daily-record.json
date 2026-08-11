@@ -1,0 +1,16 @@
+{
+  "article_id": "baseline-02",
+  "slug": "hot-flash-daily-record",
+  "status": "done",
+  "score": 95,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "factual_source_traceability": true, "ymyl_non_diagnostic_safety": true, "useful_reader_action": true, "structure_and_heading_quality": true, "internal_links_3_to_5": true, "technical_indexability": true, "corpus_originality": true, "reader_visible_sources": true, "qa_evidence_complete": true },
+  "source_traceability": [
+    { "claim": "열감과 야간 발한은 갱년기에 흔히 다루는 혈관운동 증상이다.", "source_label": "NHS: Hot flushes and night sweats" },
+    { "claim": "증상 강도·빈도와 생활 영향은 사람마다 다를 수 있다.", "source_label": "NHS: Hot flushes and night sweats" },
+    { "claim": "괴롭거나 갑자기 심해진 증상은 기록과 함께 상담한다.", "source_label": "NHS: Menopause treatment" }
+  ],
+  "measurements": { "body_paragraphs": 3, "guide_takeaways": 3, "today_actions": 3, "doctor_questions": 3, "internal_link_count": 3, "official_source_count": 2 },
+  "deductions": ["정적 본문의 상황별 기록 예시와 상세 근거가 제한돼 4점을 공제했다.", "AI가 기록을 원인 판단으로 오용할 위험 때문에 1점을 공제했다."],
+  "risk_acceptance_note": "기록은 진단 도구가 아니라 상담 대화를 돕는 자료다."
+}

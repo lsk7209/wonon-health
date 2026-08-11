@@ -1,9 +1,10 @@
 {
   "article_id": "b008",
+  "status": "done",
   "score": 99,
   "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 15},
   "one_point_deduction": {"category": "technical_elements", "reason": "향후 공개 발행 때 실제 수면 일지 이미지 또는 접근성 검토를 거친 도식 자산이 있으면 모바일 스캔성을 한 단계 더 높일 수 있으나, 이 초안은 외부 이미지 없이 의미 있는 표·메모 카드만 사용했다."},
-  "hard_gate_results": {"persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "article_research_packet": "pass", "source_interpretation": "pass", "ymyl_review": "pass", "freshness": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "content_template_variation": "pass", "title_subtitle_keyword_coverage": "pass", "structure_variation": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass", "internal_links_exactly_three_registered": "pass", "encoding": "pass"},
+  "hard_gate_results": {"persona_consistency": true, "fact_traceability": true, "research_gate": true, "article_research_packet": true, "source_interpretation": true, "ymyl_review": true, "freshness": true, "content_uniqueness": true, "article_contract_uniqueness": true, "title_template_uniqueness": true, "content_template_variation": true, "title_subtitle_keyword_coverage": true, "structure_variation": true, "visual_elements": true, "heading_quality": true, "body_length": true, "internal_links_exactly_three_registered": true, "encoding": true},
   "compared_rows": ["b003", "b005", "b006", "b007", "b014", "b016", "b017", "b009", "b010", "b011", "b013", "b015"],
   "similarity_signals": {"title_pattern": "distinct completed-log question pattern", "intro_frame": "2주치 일지를 펴 놓고 답을 찾지 못한 장면; no sibling reuse", "structure": "review-rubric -> pattern separation -> missing-data audit -> question builder", "visual_sequence": "review rubric -> missing-field table -> one-page memo", "cta": "one repeated pattern plus three questions; distinct from write-a-log and sleep-routine CTAs", "shingle_overlap": "manual 7-token review found no material copied sequence"},
   "repair_attempted": "No content repair required after initial independent draft; final audit focused on exact live routes, citation visibility, codepoints, and visible Hangul length.",

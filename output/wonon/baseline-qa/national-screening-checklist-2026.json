@@ -1,0 +1,16 @@
+{
+  "article_id": "baseline-06",
+  "slug": "national-screening-checklist-2026",
+  "status": "done",
+  "score": 95,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "factual_source_traceability": true, "ymyl_non_diagnostic_safety": true, "useful_reader_action": true, "structure_and_heading_quality": true, "internal_links_3_to_5": true, "technical_indexability": true, "corpus_originality": true, "reader_visible_sources": true, "qa_evidence_complete": true },
+  "source_traceability": [
+    { "claim": "국가건강검진의 대상과 항목은 연령·성별·가입 유형 등에 따라 달라질 수 있다.", "source_label": "국민건강보험공단" },
+    { "claim": "일반건강검진은 보통 2년 주기로 운영되고 성별·연령별 항목이 다를 수 있다.", "source_label": "질병관리청 국가건강정보포털: 건강검진(국가건강검진)" },
+    { "claim": "증상이나 병력이 있으면 국가검진 일정과 별개로 진료 상담이 필요할 수 있다.", "source_label": "질병관리청: 국가건강검진 기준 및 질 관리" }
+  ],
+  "measurements": { "body_paragraphs": 3, "guide_takeaways": 3, "today_actions": 3, "doctor_questions": 3, "internal_link_count": 3, "official_source_count": 3 },
+  "deductions": ["대상·항목은 매년 달라질 수 있어 개별 조회 화면의 예시와 세부 절차를 본문에 싣지 않아 4점을 공제했다.", "AI가 현재 자격을 대신 판정할 위험 때문에 1점을 공제했다."],
+  "risk_acceptance_note": "현재 대상 여부와 준비 사항은 국민건강보험공단의 공식 조회·검진기관 안내로 재확인해야 한다."
+}

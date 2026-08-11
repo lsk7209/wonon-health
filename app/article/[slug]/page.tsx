@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Disclaimer } from '../../../components/disclaimer';
 import { LongformArticle } from '../../../components/longform-article';
@@ -81,6 +82,7 @@ export default async function ArticlePage({ params }: Props) {
           {guide && <>
             <section className="action-section"><h2>오늘 해볼 수 있는 작은 행동</h2><ul className="check-list">{guide.today.map((item) => <li key={item}>{item}</li>)}</ul></section>
             <section className="action-section"><h2>진료실에서 물어볼 질문</h2><ol>{guide.doctorQuestions.map((item) => <li key={item}>{item}</li>)}</ol></section>
+            {guide.relatedArticles && <section className="action-section" aria-labelledby="related-reading-title"><h2 id="related-reading-title">함께 읽으면 좋은 건강 노트</h2><ul>{guide.relatedArticles.map((related) => <li key={related.href}><Link href={related.href}>{related.label}</Link></li>)}</ul></section>}
           </>}
           <aside className="source-box"><h2>이 글이 확인한 자료</h2><ul>{article.sources.map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul><p>본문 자료는 새 창에서 열립니다. 진료 결정은 개인의 상태에 따라 달라질 수 있습니다.</p></aside>
         </>}

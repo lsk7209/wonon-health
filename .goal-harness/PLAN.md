@@ -1,5 +1,35 @@
 # PLAN
 
+## Active Increment — GSC API And Quality Revalidation
+
+### Phase 1 — Safe discovery
+- Objective: prove stack, canonical sitemap health, and available GSC credential type without exposing secrets.
+- Tasks: inspect Next.js/Vercel markers, live robots/sitemap, D:\env filenames and credential schema only.
+- Completion criteria: exact stack and matching credential source identified.
+- Test point: HTTP/XML parse and redacted auth preflight.
+- Rollback: read-only.
+
+### Phase 2 — Search Console API submission
+- Objective: submit only the canonical sitemap to the matching owned property.
+- Tasks: list accessible matching properties, confirm permission, call sitemaps.submit, poll sitemaps.get/list.
+- Completion criteria: non-pending, zero errors, submitted path matches canonical URL.
+- Test point: fresh API response plus live XML.
+- Rollback: Search Console `sitemaps.delete` for only this feed if a wrong-property submission is detected.
+
+### Phase 3 — Independent content gate
+- Objective: reconfirm the whole current editorial corpus meets the minimum 95-point policy.
+- Tasks: reconcile manifests, QA scores, paths, hard gates, and representative live output; repair only concrete failures.
+- Completion criteria: no released/scheduled packet below 95 and no hidden failed/review-needed row.
+- Test point: deterministic corpus scan and independent verifier report.
+- Rollback: content edits, if any, remain narrow and revertible.
+
+### Phase 4 — Final verification and handoff
+- Objective: preserve durable, non-secret proof.
+- Tasks: update search visibility config, evidence, handoff, and run project checks when files change.
+- Completion criteria: GSC status and corpus gate are both evidenced; no secrets recorded.
+- Test point: API reread, build/test where applicable, diff check.
+- Rollback: revert documentation/code commit; API sitemap deletion only if required.
+
 ## Classification
 
 - Size: large

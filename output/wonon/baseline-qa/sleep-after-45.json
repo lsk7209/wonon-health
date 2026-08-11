@@ -1,0 +1,16 @@
+{
+  "article_id": "baseline-03",
+  "slug": "sleep-after-45",
+  "status": "done",
+  "score": 95,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "factual_source_traceability": true, "ymyl_non_diagnostic_safety": true, "useful_reader_action": true, "structure_and_heading_quality": true, "internal_links_3_to_5": true, "technical_indexability": true, "corpus_originality": true, "reader_visible_sources": true, "qa_evidence_complete": true },
+  "source_traceability": [
+    { "claim": "갱년기 전후의 야간 발한과 기분 변화는 수면을 방해할 수 있다.", "source_label": "NHS: Menopause symptoms" },
+    { "claim": "일정한 취침·기상 시간, 낮 활동, 아침 빛, 음주·카페인 조절은 건강한 수면 습관의 일부다.", "source_label": "NHLBI: Healthy Sleep Habits" },
+    { "claim": "코골이·숨 멎음·심한 낮 졸림은 다른 수면 문제 평가가 필요한 신호일 수 있다.", "source_label": "NHLBI: Healthy Sleep Habits" }
+  ],
+  "measurements": { "body_paragraphs": 3, "guide_takeaways": 3, "today_actions": 3, "doctor_questions": 3, "internal_link_count": 3, "official_source_count": 2 },
+  "deductions": ["정적 본문은 불면의 감별과 개인별 수면 계획을 깊게 다루지 않아 4점을 공제했다.", "AI가 수면장애 평가 필요성을 누락할 위험 때문에 1점을 공제했다."],
+  "risk_acceptance_note": "수면 문제의 원인을 갱년기로 단정하지 않으며, 진단·치료를 대신하지 않는다."
+}

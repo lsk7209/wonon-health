@@ -1,0 +1,16 @@
+{
+  "article_id": "baseline-04",
+  "slug": "bone-health-small-steps",
+  "status": "done",
+  "score": 95,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "factual_source_traceability": true, "ymyl_non_diagnostic_safety": true, "useful_reader_action": true, "structure_and_heading_quality": true, "internal_links_3_to_5": true, "technical_indexability": true, "corpus_originality": true, "reader_visible_sources": true, "qa_evidence_complete": true },
+  "source_traceability": [
+    { "claim": "폐경 후 골 손실 속도는 호르몬 변화와 함께 달라질 수 있다.", "source_label": "ACOG: Osteoporosis" },
+    { "claim": "골 건강 평가는 골절 경험·약물·가족력 등 여러 위험 요인을 함께 본다.", "source_label": "ACOG: Osteoporosis" },
+    { "claim": "체중부하와 근육 강화 활동은 신체활동 권고의 일부이며 상태에 맞춰야 한다.", "source_label": "WHO: Physical activity" }
+  ],
+  "measurements": { "body_paragraphs": 3, "guide_takeaways": 3, "today_actions": 3, "doctor_questions": 3, "internal_link_count": 3, "official_source_count": 2 },
+  "deductions": ["정적 본문은 골절 위험 평가와 운동 적응을 깊게 다루지 않아 4점을 공제했다.", "AI가 개인별 운동 제한을 빠뜨릴 위험 때문에 1점을 공제했다."],
+  "risk_acceptance_note": "운동·검사·보충제 선택은 개인 병력과 상태를 반영해 의료진과 상의한다."
+}

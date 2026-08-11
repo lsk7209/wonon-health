@@ -1,5 +1,14 @@
 # RISKS
 
+# Risk Notice — Search Console API Sitemap Submission
+
+Task: Authenticate with an existing Google credential under `D:\env` and submit the canonical sitemap to the matching Search Console property.
+Why Needed: The user explicitly requested real GSC sitemap activation and success verification.
+Impact Scope: Only the matching `wonon.ehon365.kr` GSC property and `https://wonon.ehon365.kr/sitemap.xml`; no unrelated properties, DNS, GA4, or AdSense settings.
+Rollback: Delete only the submitted sitemap feed through the Search Console API if the wrong property/path is detected. Credential files remain read-only.
+Safer Alternative: Public sitemap validation only, which would not satisfy the requested GSC success outcome.
+Approval Needed: Explicitly authorized by the user in this thread.
+
 | Risk | Impact | Likelihood | Mitigation | Trigger | Status |
 |---|---|---|---|---|---|
 | Medical misinformation or implied diagnosis | high | medium | Official sources, non-diagnostic wording, visible care boundaries, no invented reviewer | content review | active |

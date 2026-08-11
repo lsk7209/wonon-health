@@ -1,5 +1,14 @@
 # GOAL
 
+## Active Goal — GSC Sitemap Success And 95-Point Content Gate
+
+- Final deliverable: confirm the site is Next.js or WordPress, submit `https://wonon.ehon365.kr/sitemap.xml` to the matching Google Search Console property through the Search Console API, and verify the API reports a completed sitemap with zero errors. Independently confirm published and scheduled editorial packets meet the requested minimum 95-point gate.
+- User value: Google receives the canonical sitemap through an owned property, while low-quality or weakly evidenced content cannot silently enter the publication queue.
+- Required features: secret-safe credential discovery under `D:\env`; property/permission match; live sitemap and robots validation; API submission and polling; durable non-secret evidence; independent corpus QA review.
+- Non-goals: printing or editing credentials, changing DNS, deleting GSC properties, rewriting medical content without a concrete failed gate, or submitting unrelated domains.
+- Done conditions: stack identified; matching property accessible; sitemap API state is non-pending with `errors=0`; live sitemap parses; corpus verifier finds no article below 95 or repairs and re-verifies failures; handoff and evidence updated.
+- User-visible result: GSC Sitemaps shows the canonical sitemap as successful, and the editorial release gate remains at least 95.
+
 ## Final Deliverable
 
 기존 원온 59편과 의미·검색의도·독자 작업이 겹치지 않는 중년여성 건강 콘텐츠 30편을 추가한다. 각 글은 공식·1차 출처 연구, 3,500자 이상의 독자용 한국어 본문, 내부 링크, 독립 QA 99점 증거를 갖추고 사이트에 통합된다. 현재 마지막 예약 시각인 2026-08-19 18:00 KST 이후부터 5시간 간격으로 자동 공개한다.

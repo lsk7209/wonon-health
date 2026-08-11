@@ -1,5 +1,18 @@
 # Current Handoff
 
+- Timestamp: 2026-08-12 00:42 KST
+- User goal: Activate automatic GSC sitemap submission until the canonical sitemap reports success, and enforce a minimum 95-point quality gate across all current content.
+- Exact current state: The site is Next.js 16 App Router on Vercel. Search Console API submission for `https://wonon.ehon365.kr/sitemap.xml` succeeded on the exact URL-prefix property with `siteOwner`; final API reread is non-pending with zero errors/warnings and a completed download. All 89 release-covered articles now have exactly one QA packet, status done, score at least 95, exact category sums, and strict-boolean passing hard gates.
+- Completed work: Live robots/sitemap validation; credential-safe GSC property lookup and submission; six legacy QA schema normalizations; six baseline QA packets at a defensible 95; contextual related-reading links for baseline guides; one invalid internal article link repaired; independent full-corpus re-audit.
+- Changed files/live systems: GSC sitemap entry was submitted; QA/evidence artifacts, baseline related links, article renderer, search visibility configuration, harness, and this handoff changed. Credentials, DNS, GA4, AdSense, publication schedule, and article medical claims were not changed.
+- Fresh validation: GSC `isPending=false`, errors=0, warnings=0, lastDownloaded present; public sitemap HTTP 200/application XML/34 canonical URLs; 89/89 QA coverage; 249 internal MDX article links with zero absent targets; npm test 3/3, TypeScript, Next.js production build, and diff check pass.
+- Side effects/rollback: If the GSC feed were wrong, delete only `https://wonon.ehon365.kr/sitemap.xml` from the exact property. Code rollback is a normal revert of this increment; no DNS rollback is needed.
+- Blocker/risk: `indexed=0` is the immediate Search Console sitemap content count and is not an indexing guarantee; Google indexing occurs asynchronously. No task blocker remains.
+- Deliberately not run/sent: No credential edits, DNS changes, URL Inspection indexing requests, GA4/AdSense changes, medical-expert signature, email, or broadcast.
+- Single next step: commit/push/deploy the narrow code and evidence changes, then verify the live related-reading links and unchanged sitemap.
+
+## Previous completed batch-60 handoff
+
 - Timestamp: 2026-08-11 (batch-60 completed)
 - User goal: Add another thirty non-duplicative, research-backed Korean middle-aged women's health articles, independently score each at 99, integrate them, and schedule them every five hours after the current final reservation.
 - Exact current state: Batch-60 c001-c030 are all done at 99 with final corpus audit PASS, integrated into an 89-article catalog, committed, pushed, and deployed to Vercel production. The thirty new request-time slots run every five hours from 2026-08-19 23:00 KST through 2026-08-26 00:00 KST.

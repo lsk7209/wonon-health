@@ -4,13 +4,19 @@
   "domain": "wonon.ehon365.kr",
   "canonical_url": "https://wonon.ehon365.kr",
   "gsc": {
-    "status": "not_started",
-    "property_type": "",
-    "property_url": "",
-    "verification_method": "",
+    "status": "sitemap_success",
+    "property_type": "url-prefix",
+    "property_url": "https://wonon.ehon365.kr/",
+    "verification_method": "existing_site_owner_service_account",
     "verification_value": "",
-    "verified_at": "",
-    "evidence": []
+    "verified_at": "2026-08-12T00:41:47.775228+09:00",
+    "evidence": [
+      "Search Console API permission: siteOwner",
+      "sitemap.xml submitted 2026-08-12T00:40:24.518+09:00",
+      "final API poll: isPending=false, errors=0, warnings=0",
+      "lastDownloaded=2026-08-12T00:40:25.734+09:00",
+      "docs/gsc-sitemap-submission-2026-08-12.json"
+    ]
   },
   "ga4": {
     "status": "configured",
@@ -45,5 +51,5 @@
     "evidence": []
   },
   "notes": [],
-  "last_updated": "2026-08-11T00:25:04.228697+00:00"
+  "last_updated": "2026-08-12T00:41:47.775228+09:00"
 }

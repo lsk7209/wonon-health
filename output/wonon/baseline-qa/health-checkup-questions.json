@@ -1,0 +1,16 @@
+{
+  "article_id": "baseline-05",
+  "slug": "health-checkup-questions",
+  "status": "done",
+  "score": 95,
+  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "factual_source_traceability": true, "ymyl_non_diagnostic_safety": true, "useful_reader_action": true, "structure_and_heading_quality": true, "internal_links_3_to_5": true, "technical_indexability": true, "corpus_originality": true, "reader_visible_sources": true, "qa_evidence_complete": true },
+  "source_traceability": [
+    { "claim": "검진 결과 수치는 현재 상태를 살피는 단서이며 개인 맥락에서 해석해야 한다.", "source_label": "질병관리청 국가건강정보포털" },
+    { "claim": "예방과 건강 증진은 개인의 필요와 상담을 포함한다.", "source_label": "WHO: Health promotion" },
+    { "claim": "증상이나 가족력이 있으면 정기 검진 시기와 별도로 상담할 수 있다.", "source_label": "질병관리청 국가건강정보포털" }
+  ],
+  "measurements": { "body_paragraphs": 3, "guide_takeaways": 3, "today_actions": 3, "doctor_questions": 3, "internal_link_count": 3, "official_source_count": 2 },
+  "deductions": ["검사별 기준과 결과 해석 예시를 제공하지 않아 4점을 공제했다.", "AI가 수치 하나로 다음 행동을 결정하게 만들 위험 때문에 1점을 공제했다."],
+  "risk_acceptance_note": "개별 검사 결과의 진단·치료 판단을 제공하지 않는다."
+}

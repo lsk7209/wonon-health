@@ -3,7 +3,7 @@ import { getLongformArticles } from './longform';
 import { isArticlePublic, selectPublicArticles } from './publication-selector';
 
 export type Article = { slug: string; topic: string; topicSlug: string; title: string; summary: string; publishedAt: string; updatedAt: string; body: string[]; sources: { label: string; href: string }[]; tags?: string[]; longform?: boolean; searchText?: string };
-export type ArticleGuide = { takeaways: string[]; today: string[]; doctorQuestions: string[] };
+export type ArticleGuide = { takeaways: string[]; today: string[]; doctorQuestions: string[]; relatedArticles?: { href: string; label: string }[] };
 
 export const topics: Topic[] = [
   { slug: 'menopause', name: '갱년기 이해하기', description: '몸의 변화와 치료 선택지를 차분히 살펴봅니다.', icon: '◐' },
@@ -191,3 +191,12 @@ export const articleGuides: Record<string, ArticleGuide> = {
     doctorQuestions: ['제 연령과 병력에 추가로 필요한 검사가 있나요?', '복용 중인 약은 검진 당일 어떻게 해야 하나요?', '결과 중 어느 항목을 언제 다시 확인해야 하나요?'],
   },
 };
+
+Object.assign(articleGuides, {
+  'menopause-when-to-see-a-doctor': { ...articleGuides['menopause-when-to-see-a-doctor'], relatedArticles: [{ href: '/article/hot-flash-daily-record', label: '열감과 땀의 7일 기록' }, { href: '/article/sleep-after-45', label: '자꾸 깨는 밤의 수면 신호' }, { href: '/article/gsm-dryness-urinary-signs', label: '질 건조·빈뇨 기록 메모' }] },
+  'hot-flash-daily-record': { ...articleGuides['hot-flash-daily-record'], relatedArticles: [{ href: '/article/menopause-when-to-see-a-doctor', label: '갱년기 상담을 시작할 신호' }, { href: '/article/sleep-after-45', label: '야간 각성과 수면 신호' }, { href: '/article/women-sleep-apnea-menopause-signs', label: '여성 수면무호흡 의심 신호' }] },
+  'sleep-after-45': { ...articleGuides['sleep-after-45'], relatedArticles: [{ href: '/article/hot-flash-daily-record', label: '열감·야간 발한 기록' }, { href: '/article/women-sleep-apnea-menopause-signs', label: '여성 수면무호흡 의심 신호' }, { href: '/article/menopause-when-to-see-a-doctor', label: '갱년기 증상 상담 준비' }] },
+  'bone-health-small-steps': { ...articleGuides['bone-health-small-steps'], relatedArticles: [{ href: '/article/bone-density-result-next-questions', label: '골밀도 결과표 읽는 질문' }, { href: '/article/health-checkup-questions', label: '검진 결과 뒤에 물어볼 세 가지' }, { href: '/article/national-screening-checklist-2026', label: '국가건강검진 대상 확인' }] },
+  'health-checkup-questions': { ...articleGuides['health-checkup-questions'], relatedArticles: [{ href: '/article/national-screening-checklist-2026', label: '2026년 국가건강검진 대상 확인' }, { href: '/article/bone-health-small-steps', label: '뼈 건강 평가를 물어볼 때' }, { href: '/article/bone-density-result-next-questions', label: '골밀도 결과 다음 질문' }] },
+  'national-screening-checklist-2026': { ...articleGuides['national-screening-checklist-2026'], relatedArticles: [{ href: '/article/health-checkup-questions', label: '검진 결과에 먼저 물어볼 세 가지' }, { href: '/article/bone-health-small-steps', label: '골 건강을 함께 살피는 방법' }, { href: '/article/menopause-when-to-see-a-doctor', label: '증상이 있으면 별도 상담이 필요한 때' }] },
+});

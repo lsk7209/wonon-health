@@ -1,5 +1,18 @@
 # ACCEPTANCE
 
+## Active Acceptance — 2026-08-12
+
+| Criterion | Status | Evidence |
+|---|---|---|
+| Site type is identified from local and live evidence | pass | Next.js 16 App Router + Vercel headers/project markers |
+| Canonical sitemap and robots routes return 200 and sitemap parses as XML | pass | 34 unique canonical URLs, XML parse PASS |
+| Matching GSC property is accessible with sufficient permission | pass | URL-prefix property, `siteOwner` |
+| `https://wonon.ehon365.kr/sitemap.xml` is submitted through the API | pass | submitted 2026-08-12 00:40:24 KST |
+| Sitemap processing is complete with zero errors | pass | `isPending=false`, errors=0, warnings=0, lastDownloaded present |
+| No current released/scheduled content has QA below 95 | pass | 89/89 QA coverage; minimum 95; all done/strict gates true |
+| No credential material is printed or persisted in reports | pass | redacted evidence only; credential files unchanged |
+| Durable handoff and rollback evidence are current | pass | docs/HANDOFF.md and EVIDENCE.md updated |
+
 | Criterion | Status | Evidence |
 |---|---|---|
 | Exactly 30 new contracts are distinct from the current 59 and each other | pending | Contract validator and independent audit |

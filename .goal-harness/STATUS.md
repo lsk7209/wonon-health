@@ -1,8 +1,8 @@
-Current State: COMPLETE
-Current Phase: Production verified
-Completed: Batch-60 30/30 articles independently done at 99; final 89-article corpus audit PASS; all 30 integrated and scheduled at exact five-hour intervals; GitHub push and Vercel production deployment complete; live privacy/discovery/analytics checks PASS
-In Progress: none
-Remaining: none for the requested goal
+Current State: REVIEWING
+Current Phase: Final release and evidence review
+Completed: Next.js/Vercel stack confirmed; live sitemap validated; exact GSC URL-prefix property confirmed at siteOwner; sitemap submitted and downloaded with zero errors/warnings; 89/89 content QA coverage passes at minimum 95; stale QA schemas and one dead internal article link repaired
+In Progress: Commit/push/deploy of the narrow public related-reading and link repair, followed by live smoke
+Remaining: Production deployment verification and final handoff closure
 Blocked: none
-Last Verification: production https://wonon-health.vercel.app returns 200; future c001 route 404 with noindex/nofollow and absent from articles/sitemap; stable article 200 with Article JSON-LD; AdSense and GA4 IDs present; Vercel deployment dpl_9bMEurt2BMpbA95Y7KT98ohTpQ4c READY
-Next Action: none; allow request-time schedule to publish automatically through 2026-08-26 00:00 KST
+Last Verification: GSC API isPending=false/errors=0/warnings=0; 89 QA packets clean; 249 internal MDX links valid; npm test 3/3, TypeScript, and Next.js build PASS
+Next Action: Commit, push, deploy, and verify live related-reading plus sitemap stability

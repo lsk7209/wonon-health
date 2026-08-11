@@ -1,5 +1,21 @@
 # EVIDENCE
 
+## 2026-08-12 Active Goal
+
+- Goal: submit the canonical sitemap through Search Console API, verify completed zero-error status, and independently reconfirm the minimum 95-point content gate.
+- Credential handling: `D:\env` is read-only; secret values and token bodies must not appear in logs or reports.
+- External side effect authorized: sitemap submission to the matching owned GSC property only.
+
+### Completion evidence
+
+- Stack: Next.js 16 App Router on Vercel; live home, robots, and sitemap HTTP 200.
+- Sitemap: 34 unique canonical URLs, XML parse PASS, zero off-host URLs.
+- GSC property: `https://wonon.ehon365.kr/`, URL-prefix, permission `siteOwner`.
+- Search Console API: submitted `https://wonon.ehon365.kr/sitemap.xml`; final reread `isPending=false`, errors=0, warnings=0, lastDownloaded=`2026-08-11T15:40:25.734Z`.
+- Content gate: 89/89 catalog rows map to one QA packet; all `done`, score >=95, category sums exact, strict boolean gates true; 249 MDX article links, zero missing targets.
+- Regression checks: `npm test` 3/3, `npx tsc --noEmit`, `npm run build`, and `git diff --check` PASS.
+- Reports: `docs/gsc-sitemap-submission-2026-08-12.json`, `output/wonon/content-95-independent-audit.md`, `output/wonon/baseline-qa/baseline-95-audit.md`.
+
 ## Validation Level
 
 Level: 3
