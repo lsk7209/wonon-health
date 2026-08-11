@@ -105,3 +105,9 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - Each has 4 research runs, 5-6 sources, at least two official/primary sources, mapped data points, two materially used article-specific details, 3 valid internal links, and 3,500+ visible Korean characters.
 - `manifest.py audit --window 5 --strict --fail-on-warning`: PASS, warnings 0; five distinct structure, visual, heading, CTA, and section-role patterns.
 - Independent verifier: PASS; maximum pairwise 7-Hangul shingle Jaccard 0.0103; no exact H2 reuse; JSON parsing and route inventory clean.
+
+## Article 6 checkpoint
+
+- b017 cholesterol-result context/history: QA 94, 5,233 visible Korean characters, 4 research runs, 6 official sources, 3 valid internal links.
+- Actual persona-writer research, material-detail, QA-evidence, and old-source gates: PASS.
+- Strict recent five-row audit after b017: PASS, warnings 0; batch progress 6/20 done.

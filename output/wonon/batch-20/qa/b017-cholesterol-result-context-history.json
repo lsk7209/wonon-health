@@ -1,0 +1,43 @@
+{
+  "article_id":"b017","status":"done","score":94,"reviewed_at":"2026-08-11",
+  "category_scores":{"content_quality":29,"seo":24,"eeat":14,"technical_elements":13,"ai_citation_readiness":14},
+  "hard_gate_results":{
+    "persona_consistency":true,
+    "fact_traceability":true,
+    "research_gate":true,
+    "content_uniqueness":true,
+    "article_contract_uniqueness":true,
+    "title_template_uniqueness":true,
+    "structure_variation":true,
+    "content_template_variation":true,
+    "heading_quality":true,
+    "body_length":true,
+    "title_subtitle_keyword_coverage":true,
+    "article_specific_detail_usage":true,
+    "ymyl_freshness":true,
+    "visual_elements":true,
+    "internal_links":true,
+    "public_placeholders_absent":true
+  },
+  "hard_gate_evidence":{
+    "research_gate":"4회 연구 질의, 6개 날짜·접근일·역할이 있는 공식 출처, 6개 supports_section data point를 확인했다.",
+    "fact_traceability":"LDL 패널, 가족력, 혈압·당뇨·흡연, 복용약 관련 사실이 research.json의 S1~S6 claim ledger와 연결된다.",
+    "article_specific_detail_usage":"manifest.py validate_article_specific_detail_usage가 두 개의 source-backed detail 모두 PASS로 반환했다.",
+    "content_template_variation":"b016의 측정 조건 글과 달리 결과지-병력 카드-상담 질문 문서 맥락형이며, 도입·H2 역할·시각 요소·CTA가 다르다.",
+    "body_length":"manifest.py visible_prose 길이 5,242자; 최소 3,500자를 넘는다.",
+    "ymyl_freshness":"모든 YMYL 출처는 날짜가 명시된 CDC·NHLBI·AHA 공식 자료이고 undated/old source는 없다.",
+    "internal_links":"/article/health-checkup-questions, /article/menopause-when-to-see-a-doctor, /article/national-screening-checklist-2026를 사용했다."
+  },
+  "compared_rows":[
+    {"id":"b016","reason":"가정혈압의 측정 조건·반복 기록이 아니라 LDL 결과표에 연결할 병력과 질문을 다룬다."},
+    {"id":"b018","reason":"공복혈당 결과의 검사 조건·추세와 달리 지질 결과의 가족력·흡연·복용약 카드에 한정한다."},
+    {"id":"a009","reason":"골밀도 결과표의 측정부위·골절 병력과 달리 심혈관 상담 입력값을 묶는다."},
+    {"id":"health-checkup-questions","reason":"일반 결과 질문이 아니라 LDL 결과의 병력 맥락을 구체화한다."}
+  ],
+  "similarity_signals":{"intro_frame":"LDL 줄만 확대해 보는 검진표 장면","section_role_sequence":"direct-answer,result-scope,history-card,family-context,medication-context,question-card,interpretation-boundary,faq","visual_sequence":"summary-box,history-card-table,caution-box,question-card","faq_shape":"HDL·공복 여부·복용약의 세 경계 질문","cta_type":"prepare-history-card","assessment":"같은 클러스터 계약과 도입, 구조, 시각 요소, 결말 행동이 다르며 차단 수준의 템플릿 신호가 없다."},
+  "repair_attempted":true,
+  "repairs":["article_specific_details를 본문의 정확한 source-backed 문장으로 맞춘 뒤 manifest.py 물질적 사용 검증을 통과했다.","공개 본문에서 [S#] source-id placeholder를 사용하지 않고 공식 자료 링크 목록만 남겼다."],
+  "remaining_risks":["지질 검사·진료 기준과 기관별 검사 운영은 변동될 수 있다.","이 초안은 개인별 심혈관 위험도, 약물, 식단, 재검 간격을 결정하지 않는다."],
+  "risk_acceptance_note":"발행 전 최신 국내 진료·기관 안내를 확인하는 조건에서만 수용한다. 본문은 날짜에 민감한 개인별 기준을 제시하지 않고 의료진 상담으로 경계를 명확히 했다.",
+  "result":"score 94; all required hard gates pass"
+}
