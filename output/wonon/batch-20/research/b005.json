@@ -1,0 +1,216 @@
+{
+  "article_id": "b005",
+  "researched_at": "2026-08-11",
+  "article_research_question": "새벽에 깬 뒤 다시 잠들기 어려운 경험을 정확한 시간 측정 강박 없이 수면 상담용 자료로 어떻게 남길 수 있는가?",
+  "reader_outcome": "각성 시각, 몸의 신호, 그 뒤 행동, 다음 날 기능을 3일간 짧게 기록해 상담 초점을 정리한다.",
+  "original_contribution": {
+    "type": "troubleshooting_path",
+    "description": "잠든 시각이 아닌 각성 후 20분의 관찰과 다음 날 기능을 연결한다.",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S4"
+    ]
+  },
+  "search_intent_insight": "독자는 수면위생의 일반 조언보다 새벽 각성 뒤 무엇을 기록할지 찾는다.",
+  "competitor_gap": "총 수면시간 계산표를 반복하지 않고 각성 뒤 증상과 다음 날 영향을 한 흐름으로 묶는다.",
+  "angle_supporting_detail": {
+    "claim": "NHLBI는 수면일지에 야간 각성 횟수, 재입면까지 걸린 시간, 아침 상쾌함과 주간 피로를 적을 수 있다고 안내한다.",
+    "source_id": "S2"
+  },
+  "research_runs": [
+    {
+      "query": "NHLBI sleep diary",
+      "date": "2026-08-11",
+      "purpose": "수면일지 항목 확인"
+    },
+    {
+      "query": "NHLBI insomnia diagnosis sleep diary awakenings",
+      "date": "2026-08-11",
+      "purpose": "상담 전 기록 기간과 항목 확인"
+    },
+    {
+      "query": "NIA sleep problems menopause",
+      "date": "2026-08-11",
+      "purpose": "갱년기와 수면 변화의 비단정적 맥락 확인"
+    },
+    {
+      "query": "NHLBI sleep apnea symptoms gasping snoring",
+      "date": "2026-08-11",
+      "purpose": "별도 평가가 필요한 동반 신호 확인"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sleep Diary",
+      "url": "https://www.nhlbi.nih.gov/resources/sleep-diary",
+      "publisher": "NHLBI, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2019",
+      "accessed": "2026-08-11",
+      "freshness": "reviewed-current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2019",
+      "used_for": "수면의 질, 카페인, 약물, 낮 졸림을 기록해 의료진과 검토하는 일지"
+    },
+    {
+      "id": "S2",
+      "title": "Insomnia - Diagnosis",
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+      "publisher": "NHLBI, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2022-03-24",
+      "accessed": "2026-08-11",
+      "freshness": "reviewed-current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2022-03-24",
+      "used_for": "1~2주 수면일지와 야간 각성, 재입면, 주간 기능의 상담 항목"
+    },
+    {
+      "id": "S3",
+      "title": "Insomnia - Symptoms",
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/symptoms",
+      "publisher": "NHLBI, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2022-03-24",
+      "accessed": "2026-08-11",
+      "freshness": "reviewed-current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2022-03-24",
+      "used_for": "이른 각성과 재입면 어려움, 낮 졸림의 연결"
+    },
+    {
+      "id": "S4",
+      "title": "Sleep Problems and Menopause: What Can I Do?",
+      "url": "https://www.nia.nih.gov/health/sleep-problems-and-menopause-what-can-i-do",
+      "publisher": "National Institute on Aging, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2021",
+      "accessed": "2026-08-11",
+      "freshness": "reviewed-current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2021",
+      "used_for": "열감, 야간 발한, 기분 변화가 수면에 기여할 수 있다는 맥락"
+    },
+    {
+      "id": "S5",
+      "title": "Sleep Apnea - Symptoms",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+      "publisher": "NHLBI, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2025-01-09",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2025-01-09",
+      "used_for": "큰 코골이, 숨이 막히는 느낌, 숨멎 관찰은 별도 상담 단서라는 안내"
+    },
+    {
+      "id": "S6",
+      "title": "What Is Menopause?",
+      "url": "https://www.nia.nih.gov/health/menopause/what-menopause",
+      "publisher": "National Institute on Aging, NIH",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2024",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2024",
+      "used_for": "열감과 야간뇨, 이른 각성 등 수면 변화의 관련 맥락"
+    },
+    {
+      "id": "S7",
+      "title": "Symptoms of menopause and perimenopause",
+      "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/",
+      "publisher": "NHS",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2026-05-19",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2026-05-19",
+      "used_for": "폐경 전후 열감과 야간 발한이 수면을 방해할 수 있다는 독자용 문장과, 이를 상담에서 별도로 말할 관찰 신호로 제한하는 맥락"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "의료진은 야간에 몇 번 깨는지, 다시 잠들기까지 얼마나 걸리는지, 아침 및 낮 상태를 물을 수 있다.",
+      "source_id": "S2",
+      "claim_type": "clinical-guidance",
+      "source_date": "2022-03-24",
+      "supports_section": "각성 후 20분 로그"
+    },
+    {
+      "claim": "수면일지는 수면의 질과 양, 카페인과 약물, 낮 졸림을 기록해 의료진과 검토하도록 만들어졌다.",
+      "source_id": "S1",
+      "claim_type": "clinical-guidance",
+      "source_date": "2019",
+      "supports_section": "다음 날 연결 카드"
+    },
+    {
+      "claim": "이른 아침 각성 뒤 다시 잠들기 어려움과 주간 졸림은 수면 문제의 증상으로 나타날 수 있다.",
+      "source_id": "S3",
+      "claim_type": "clinical-guidance",
+      "source_date": "2022-03-24",
+      "supports_section": "기록이 상담에 주는 정보"
+    },
+    {
+      "claim": "열감, 야간 발한, 기분 변화는 갱년기 전환기의 수면 문제에 기여할 수 있다.",
+      "source_id": "S4",
+      "claim_type": "clinical-guidance",
+      "source_date": "2021",
+      "supports_section": "몸의 신호를 따로 적는 이유"
+    },
+    {
+      "claim": "큰 코골이, 숨이 막히는 느낌, 수면 중 호흡 중단 관찰은 수면무호흡 증상일 수 있어 의료진과 상의할 신호다.",
+      "source_id": "S5",
+      "claim_type": "clinical-guidance",
+      "source_date": "2025-01-09",
+      "supports_section": "기록보다 상담이 먼저인 신호"
+    },
+    {
+      "claim": "폐경 전후의 열감과 야간 발한은 잠들거나 잠을 유지하는 데 영향을 줄 수 있으며, 개인의 수면 변화는 여러 요인과 함께 볼 수 있다.",
+      "source_id": "S7",
+      "claim_type": "clinical-guidance",
+      "source_date": "2026-05-19",
+      "supports_section": "다섯 칸 기록에서 몸의 신호를 따로 적는 이유"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "여기서 특히 중요한 것은 열감, 배뇨, 통증, 걱정 생각을 한 덩어리로 쓰지 않는 것입니다.",
+      "source_id": "S2"
+    },
+    {
+      "claim": "수면 시간이 아니라 다음 날 기능을 같이 적는 것이 이 글의 정보 이득입니다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "열감과 야간 발한은 원인을 확정하는 표지가 아니라 상담에서 별도로 전달할 관찰 신호로 기록한다.",
+      "source_id": "S7"
+    }
+  ],
+  "source_interpretation": "수면일지를 불면 진단 점수표나 수면제 선택 도구로 쓰지 않고, 이른 각성 후 경험과 낮 기능을 의료진에게 전달하는 관찰 기록으로 한정한다.",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "ymyl_review_note": "공식 NIH 및 NHS 출처 7개를 사용하고 진단, 약물, 수면 시간 처방은 하지 않았다.",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

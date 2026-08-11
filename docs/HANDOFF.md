@@ -1,12 +1,12 @@
 # Current Handoff
 
-- Timestamp: 2026-08-11 12:05 KST
-- User goal: Build and launch `wonon.ehon365.kr` as a Korean middle-aged women's health site using goal harness and routed multi-agent execution.
-- Exact current state: The three live long-form source articles a007/a008/a009 and six additional batch articles are independently verified at 99/100. Fourteen batch contracts remain pending. The six batch drafts are not yet integrated into site routes.
-- Completed work: Existing site work plus a locked non-credentialed editorial persona, two voice samples, three distinct contracts, three long-form drafts, 18 official/expert sources, 11 research runs, nine internal links, claim ledgers, individual QA, and independent batch-pattern audit.
+- Timestamp: 2026-08-11 13:50 KST
+- User goal: Complete twenty additional 99-point Korean middle-aged women's health articles and reflect them on the site using goal harness and routed multi-agent execution.
+- Exact current state: All twenty batch articles now have draft, research, and QA packets; every manifest row is `done` at 99/100. Strict 20-row persona-writer audit passes with zero warnings. A final independent corpus audit and Next.js integration are running in parallel; production has not yet been redeployed for this batch.
+- Completed work: Four staged writing waves, independent verification and repair of UTF-8 reading, internal routes, source dates, dead links, reader-visible citations, exact traceability locators, distinct structures/visuals/CTA metadata, and final manifest promotion for all twenty rows.
 - Changed files/live systems: GitHub `https://github.com/lsk7209/wonon-health`; Vercel project `limsubs-projects/wonon-health`; production deployment `dpl_9fwY6Gk4kQgkxfYJdjg5WutPy2UC`; Vercel domain mapping for `wonon.ehon365.kr`. Authoritative DNS was not changed.
-- Fresh validation: Local TypeScript and Next.js builds pass with 27 static pages. Vercel deployment `dpl_7Psz9wVYNh7T1hhEosREzdKr51vk` is READY. Stable preview URLs for a007/a008/a009 return HTTP 200, contain long-form markup and 13-15 external citations, and contain no tested encoding corruption markers.
+- Fresh validation: `manifest.py stats` reports 20/20 done and zero failures/review-needed rows. `manifest.py audit --window 20 --strict --fail-on-warning` exits 0 with no planning, contract, duplicate, source-reuse, research, or CTA warnings. Wave 2, 3, and 4 independent audit reports record their repair trails and final packet readiness.
 - Side effects/rollback: GitHub repo and Vercel project/domain mapping created. Rollback is to remove the Vercel domain mapping/project or revert Git commits. No parent-domain record requires rollback.
-- Blocker/risk: No current development blocker. DNS is deliberately deferred; when resumed, the required record is exactly `A wonon 76.76.21.21` and apex, www, and nameservers must remain unchanged. Medical-expert review and AdSense submission are also outside this development increment.
+- Blocker/risk: No current content blocker. Site integration, build, final review, deployment, and live route verification remain. DNS is deliberately deferred; apex, www, and nameservers must remain unchanged. Medical-expert review and AdSense console actions remain outside this increment.
 - Deliberately not run/sent: No AdSense account action, GSC/Naver/IndexNow submission, affiliate link, medical expert sign-off, email, or authoritative DNS mutation.
-- Single next step: Resume b002/b005/b010/b014 at the same independently verified 99-point standard.
+- Single next step: Finish the final 20-article independent audit, integrate all twenty routes into Next.js, then build, deploy, and live-verify without changing DNS.

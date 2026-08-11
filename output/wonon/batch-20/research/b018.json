@@ -1,0 +1,43 @@
+{
+  "article_id": "b018",
+  "title": "공복혈당이 기준 밖일 때, 다음 진료 전에 확인할 생활 맥락",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health", "ymyl_review": "pass", "volatile": true,
+  "research_runs": [
+    {"query":"ADA fasting plasma glucose diagnosis repeat test official", "date":"2026-08-11", "purpose":"공복혈당 검사 조건과 반복 확인 원칙 확인"},
+    {"query":"NIDDK diabetes tests fasting plasma glucose repeat diagnosis official", "date":"2026-08-11", "purpose":"검사 종류와 단일 결과의 한계 확인"},
+    {"query":"CDC diabetes symptoms frequent urination thirst official", "date":"2026-08-11", "purpose":"결과 대기보다 즉시 상담할 증상 경계 확인"},
+    {"query":"질병관리청 국가건강정보포털 당뇨병 혈당검사", "date":"2026-08-11", "purpose":"국내 건강검진 맥락과 공식 조회 경로 확인"}
+  ],
+  "search_intent_insight": "공복혈당 표시를 본 독자는 기준표보다 검사 전 조건을 틀리게 기억했을 때 무엇을 적고, 진료에서 무엇을 물어야 하는지 찾는다.",
+  "competitor_gap": "수치 구간과 식단 처방이 많은 검색 결과와 달리, 이 글은 금식·검사 시각·최근 질병·수면·약물·이전 결과를 사실과 추정으로 나누는 기록 양식을 제공한다.",
+  "information_gain": "검사 전날부터 결과 수령일까지의 4칸 맥락 타임라인과 ‘같은 조건인가’ 질문 순서.",
+  "unique_angle": "생활 습관 처방보다 검사 조건·변화 추세·증상·약물 맥락을 정리한다",
+  "source_interpretation": "ADA와 NIDDK의 검사·확인 원칙을 자가 진단 기준으로 재현하지 않고, 단일 결과를 고정된 결론으로 읽지 않기 위한 상담 입력값으로 번역한다.",
+  "article_research_question": "공복혈당이 기준 밖으로 표시된 사람이 재검·진료 논의 전에 어떤 검사 조건과 시간 변화를 빠뜨리지 않고 준비할 수 있는가?",
+  "reader_outcome": "독자가 한 수치로 당뇨 여부를 확정하지 않고, 금식 시간·검사 시각·최근 질병·수면·복용약·이전 결과를 원본 결과지와 함께 전달한다.",
+  "original_contribution": {"type":"decision_rule", "description":"검사 전날-검사 당일-결과 수령-상담 직전의 네 칸을 나눠 사실과 확인 중인 정보를 기록하는 맥락 타임라인", "source_ids":["S1","S2","S3","S4","S5","S6"]},
+  "angle_supporting_detail": {"claim":"공복혈장포도당 검사의 공복은 물 외에는 먹거나 마시지 않은 최소 8시간이며, 보통 아침 식사 전에 검사한다.","source_id":"S1"},
+  "article_specific_details": [
+    {"claim":"ADA는 공복혈장포도당 검사의 공복을 물 외에는 먹거나 마시지 않은 최소 8시간으로 설명하며, 보통 아침 식사 전에 시행한다고 안내한다.", "source_id":"S1"},
+    {"claim":"ADA는 전형적 고혈당 증상과 매우 높은 혈당의 특별한 경우를 제외하면 진단을 위해 보통 다른 날에 검사를 반복한다고 설명한다.", "source_id":"S1"}
+  ],
+  "structure": {"structure_type":"timeline-context", "why":"결과 해석보다 검사 전후 사실을 시간 순서로 회수하는 독자 과업에 맞는다.", "intro_style":"검진 앱의 공복혈당 표시를 보며 전날 밤을 되짚는 장면", "section_sequence":["direct-answer","four-cell-timeline","fact-vs-assumption","previous-results","question-order","safety-boundary","faq"]},
+  "visual_elements":["four-cell timeline","fact-or-unknown table","question card","caution callout"], "semantic_colors":{"info":"#0F766E","caution":"#9A3412"},
+  "sources":[
+    {"id":"S1","title":"Diabetes Diagnosis & Tests","url":"https://diabetes.org/about-diabetes/diagnosis","publisher":"American Diabetes Association","date":"2026-08-11","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"current","used_for":"공복의 의미와 단일 양성 검사 확인 원칙"},
+    {"id":"S2","title":"Diabetes Tests & Diagnosis","url":"https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis","publisher":"NIDDK, NIH","date":"2025-10-01","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"검사 종류가 다르고 의료진이 결과를 종합한다는 배경"},
+    {"id":"S3","title":"Diabetes Basics","url":"https://www.cdc.gov/diabetes/about/index.html","publisher":"CDC","date":"2026-01-02","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"current","used_for":"당뇨병이 만성질환이며 검진·진료 연결이 필요하다는 안전 경계"},
+    {"id":"S4","title":"Symptoms of Diabetes","url":"https://www.cdc.gov/diabetes/signs-symptoms/index.html","publisher":"CDC","date":"2024-05-15","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"갈증·잦은 소변 등 증상은 결과 대기와 분리해 상담할 신호라는 경계"},
+    {"id":"S5","title":"당뇨병","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5230","publisher":"질병관리청 국가건강정보포털","date":"2025-01-01","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"국내 공식 건강정보를 확인하는 경로와 검진 결과 상담의 국내 맥락"},
+    {"id":"S6","title":"국가건강검진 대상 여부부터 확인하는 방법","url":"/article/national-screening-checklist-2026","publisher":"원온 편집팀","date":"2026-08-11","accessed":"2026-08-11","source_type":"context","source_role":"context_only","is_official":false,"freshness":"current","used_for":"국가검진 대상 조회는 별도 공식 조회 경로를 따르도록 연결"}
+  ],
+  "data_points":[
+    {"claim":"공복혈장포도당 검사의 공복은 물 외에는 먹거나 마시지 않은 최소 8시간이며, 보통 아침 식사 전에 검사한다.","source_id":"S1","claim_type":"procedure","source_date":"2026-08-11","supports_section":"공복혈당의 ‘공복’부터 결과지 옆에 적습니다"},
+    {"claim":"전형적 고혈당 증상과 매우 높은 혈당의 특별한 경우를 제외하면 진단에는 보통 다른 날의 반복 검사가 필요하다.","source_id":"S1","claim_type":"procedure","source_date":"2026-08-11","supports_section":"한 번의 표시를 진단으로 바꾸지 않는 이유"},
+    {"claim":"당뇨병 검사는 여러 종류가 있으며 의료 환경에서 시행·해석된다.","source_id":"S2","claim_type":"procedure","source_date":"2025-10-01","supports_section":"공복혈당의 ‘공복’부터 결과지 옆에 적습니다"},
+    {"claim":"당뇨병은 만성질환이며 정기 진료와 관리가 중요하다.","source_id":"S3","claim_type":"safety","source_date":"2026-01-02","supports_section":"한 번의 표시를 진단으로 바꾸지 않는 이유"},
+    {"claim":"갈증이나 잦은 소변 같은 증상은 검진 결과 해석과 별도로 의료진에게 알려야 할 정보가 될 수 있다.","source_id":"S4","claim_type":"safety","source_date":"2024-05-15","supports_section":"다음 진료에서 사용할 질문은 세 개면 충분합니다"},
+    {"claim":"국내 검진 대상과 항목은 공식 조회로 확인해야 한다.","source_id":"S5","claim_type":"procedure","source_date":"2025-01-01","supports_section":"전날부터 결과 수령까지, 네 칸으로 나눠 적어 보세요"}
+  ], "fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],"conflict_note":"개인별 수치 해석, 재검 시점, 생활·약물 처방을 제시하지 않는다. 변동 가능한 국내 운영은 공식 포털 확인으로 한정한다."
+}

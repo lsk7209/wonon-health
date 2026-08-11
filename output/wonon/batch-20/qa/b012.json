@@ -1,0 +1,14 @@
+{
+  "article_id": "b012",
+  "score": 99,
+  "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 15},
+  "one_point_deduction": {"category": "technical_elements", "reason": "향후 공개 발행 때 실제 회복 단계별 접근성 검토를 거친 도식 자산을 더하면 모바일 정보 탐색을 강화할 수 있으나, 이 초안은 외부 이미지 없이 구분표·메모 카드·질문 경로를 사용했다."},
+  "hard_gate_results": {"persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "article_research_packet": "pass", "source_interpretation": "pass", "ymyl_review": "pass", "freshness": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "content_template_variation": "pass", "title_subtitle_keyword_coverage": "pass", "structure_variation": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass", "internal_links_exactly_three_registered": "pass", "encoding": "pass"},
+  "compared_rows": ["b009", "b010", "b011", "b013", "b014", "b015", "b016", "b017", "b019", "b001", "b002", "b005"],
+  "similarity_signals": {"title_pattern": "distinct post-fracture question pattern", "intro_frame": "깁스를 풀고 회복 종료를 들은 장면; no sibling reuse", "structure": "care-journey -> recovery/evaluation split -> fracture-scene -> five-question pathway -> fall context", "visual_sequence": "two-column split -> fracture-scene card -> ordered question path", "cta": "two-line note separating recovery from future evaluation; distinct from fall map and height-loss CTA", "shingle_overlap": "manual 7-token review found no material copied sequence"},
+  "repair_attempted": "No content repair required after initial independent draft; final audit focused on exact live routes, citation visibility, codepoints, and visible Hangul length.",
+  "remaining_risks": ["골절 양상·검사·약물·재활의 판단은 개인 의료 평가가 필요하다.", "의료 콘텐츠 공개 전 현지 임상 검토 및 실제 렌더링 접근성 점검이 필요하다."],
+  "risk_acceptance_note": "초안 상태로만 보관하며, 진단·치료 지시를 하지 않고 공개 전 임상·렌더링 검토를 별도 게이트로 남긴다.",
+  "source_citation_audit": {"sources": 5, "all_sources_materially_used_and_reader_visible": true, "official_or_primary_sources": 5},
+  "internal_link_audit": {"count": 3, "routes": ["/article/bone-density-result-next-questions", "/article/bone-health-small-steps", "/article/health-checkup-questions"], "all_currently_registered": true}
+}

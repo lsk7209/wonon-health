@@ -1,0 +1,74 @@
+{
+  "article_id": "b010",
+  "status": "done",
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b009",
+    "b012",
+    "a009-bone-density-result",
+    "a008-gsm-signs",
+    "b014"
+  ],
+  "similarity_signals": {
+    "intro_frame": "오래된 검진표와 현재 수치를 비교하는 장면이며, 검사 결과표·낙상 장면과 구별된다.",
+    "section_role_sequence": "comparison condition > parallel symptom ledger > record-versus-test boundary > escalation > consultation questions > record hygiene",
+    "faq_shape": "집 측정의 기록 가치와 자세만으로 단정할 수 없는지에 한정된다.",
+    "ending_cta": "비교 가능한 수치 한 줄과 동반 변화 세 줄을 적도록 닫는다.",
+    "source_interpretation": "척추 골절과 키 감소 자료를 자가 진단이 아닌 측정 맥락·상담 질문 카드로 바꾼다."
+  },
+  "repair_attempted": "가시 본문을 재계수하고, 측정값과 느낌을 분리하는 독립 섹션을 추가했다. 두 개의 기사 고유 세부사항(NIAMS의 평가 맥락, BHOF의 무통 척추 골절 가능성)이 인용 문장과 기록 카드에 모두 반영돼 있다. S6을 현재 HTTP 200인 MedlinePlus 공식 골다공증 안내로 교체하고, 자가 키 측정만으로 진단하지 않는 경계 문장에 독자용 인라인 인용을 추가했다.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "AI 요약이 ‘키가 줄면 척추 골절’이라는 조건 없는 문장만 가져갈 위험이 있어 1점을 의도적으로 보류한다. 이 YMYL 글은 동일 조건의 추세와 개별 평가 경계를 함께 읽어야 한다.",
+  "remaining_risks": [
+    "키 감소와 통증의 원인은 개별 평가가 필요하며, 급성 통증 또는 신경학적 변화는 기록보다 신속한 진료가 우선이다."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 6,
+    "official_or_primary_sources": 4,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "external_citations": 6,
+    "body_hangul": 3729,
+    "structure_type": "measurement-context",
+    "visual_elements": [
+      "measurement comparison table",
+      "height-change card",
+      "caution callout"
+    ],
+    "semantic_colors": [
+      "#2563EB",
+      "#B45309"
+    ],
+    "encoding_check": "UTF-8, U+FFFD 0, HTML numeric entities 0, C1 controls 0",
+    "reader_visible_source_mapping": "S1-S6 모두 본문 또는 readerSources에서 독자용 링크로 확인"
+  },
+  "risk_acceptance_note": "이 글은 검사·치료 선택이 아니라 비교 가능한 기록과 상담 경계를 제공한다."
+}

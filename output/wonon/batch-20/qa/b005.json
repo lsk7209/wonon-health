@@ -1,0 +1,74 @@
+{
+  "article_id": "b005",
+  "status": "done",
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b001",
+    "b002",
+    "b006",
+    "b007",
+    "b008"
+  ],
+  "similarity_signals": {
+    "intro_frame": "waking at 3 a.m. and looking at a clock; distinct from calendar and bleeding openings",
+    "section_role_sequence": "purpose boundary > four-line wake log > daytime function bridge > escalation signals > separation from sleep hygiene > consultation script > FAQ",
+    "faq_shape": "record frequency and unknown return-to-sleep time",
+    "ending_cta": "one time, one body signal, one next-day state",
+    "source_interpretation": "NIH diary guidance becomes post-awakening observation rather than a total-sleep score"
+  },
+  "repair_attempted": "Reviewed the sleep diary claims against S1-S7, removed any sleep-time prescription and made the next-day-function bridge explicit. The draft avoids a general sleep-hygiene checklist and uses a wake-after-sleep flow plus a green three-day card. The reader-visible NHS menopause-symptoms citation is now registered as S7 with its source date, role, used_for mapping, data point, and exact section locator.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "One point is withheld because an AI summary may overread a diary as a diagnostic test or overlook breathing-related warning signs; the complete article preserves these limits.",
+  "remaining_risks": [
+    "Educational health information only; the article does not diagnose insomnia, sleep apnea, menopause, or select medication."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 7,
+    "official_or_primary_sources": 7,
+    "article_specific_details_used": 3,
+    "internal_links": 3,
+    "structure_type": "24-hour-log",
+    "visual_elements": [
+      "blue minimum-record callout",
+      "four-line wake table",
+      "green three-day card"
+    ],
+    "semantic_colors": [
+      "#1D4ED8",
+      "#047857"
+    ],
+    "body_hangul": 3662,
+    "encoding_check": "UTF-8, U+FFFD 0, HTML numeric entities 0, C1 controls 0",
+    "reader_visible_source_mapping": "S1-S7 all map to reader-visible citations or the article source list; S7 NHS is cited in the body for menopause symptoms and is mapped to its exact data-point locator.",
+    "external_citations": 7
+  },
+  "risk_acceptance_note": "Sleep changes can have multiple causes; the draft confines itself to observation and consultation preparation."
+}

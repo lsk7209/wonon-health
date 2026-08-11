@@ -1,0 +1,15 @@
+{
+  "article_id": "b015",
+  "status": "done",
+  "score": 99,
+  "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14},
+  "hard_gate_results": {"persona_consistency": true, "fact_traceability": true, "research_gate": true, "research_packet": true, "source_interpretation": true, "ymyl_two_official_or_primary_sources": true, "content_uniqueness": true, "article_contract_uniqueness": true, "title_template_uniqueness": true, "title_subtitle_keyword_coverage": true, "structure_variation": true, "content_template_variation": true, "heading_quality": true, "visual_elements": true, "internal_links_3_to_5": true, "no_public_editor_notes": true, "qa_evidence_complete": true, "body_length": true},
+  "compared_rows": ["b013", "b014", "b011", "a008-gsm-signs", "a009-bone-density-result"],
+  "similarity_signals": {"intro_frame": "예전 처치 경험 때문에 같은 염증이라고 결론 내리는 장면으로 시작해, 누출·야간뇨·측정 결과 글과 구별된다.", "section_role_sequence": "suspend diagnosis > vertical episode table > symptom/safety split > test-history boundary > scope-separated internal links > four-line CTA", "faq_shape": "FAQ 대신 세 에피소드를 비교하는 표의 열과 상담 전 네 줄을 사용했다.", "ending_cta": "최근 세 에피소드를 한 표에 놓고 빈칸과 새 신호에 표시하는 행동으로 끝난다.", "source_interpretation": "UTI·혈뇨 자료를 자가 진단 기준이 아닌 에피소드별 경고 신호 기록으로 해석했다."},
+  "repair_attempted": "감염 예방법이나 항생제 조언을 제거하고, 병력·소변검사·배양의 역할을 결과 해석이 아닌 이력 기록으로 한정했다. NIDDK 반복 감염 평가와 NHS 혈뇨 안내를 각기 다른 본문 문장에 연결했다.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "인라인 근거 링크는 충분하지만, 비교표의 일부 열은 개인별 검사 흐름에 따라 더 세분화될 수 있어 1점을 보수적으로 공제했다.",
+  "remaining_risks": ["이 글은 감염 진단·항생제 선택·검사 결과 판정을 하지 않는다. 혈뇨, 고열·오한, 옆구리 통증, 소변을 전혀 보지 못함은 표 작성보다 신속한 평가가 우선이다."],
+  "validation": {"research_runs": 4, "sources": 5, "official_or_primary_sources": 5, "article_specific_details_used": 2, "internal_links": 3, "external_citations": 6, "body_hangul": 3537, "structure_type": "episode-comparison", "visual_elements": ["episode comparison table", "interpretation boundary callout", "urgent-signal callout"], "semantic_colors": ["#0F766E", "#B45309"]},
+  "risk_acceptance_note": "반복 불편감을 같은 감염으로 단정하지 않게 하면서도, 혈뇨와 전신 신호를 지체 없이 알릴 안전 경계를 명확히 뒀다."
+}

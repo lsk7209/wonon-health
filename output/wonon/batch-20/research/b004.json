@@ -1,0 +1,35 @@
+{
+  "article_id": "b004",
+  "researched_at": "2026-08-11",
+  "article_research_question": "갱년기 상담을 앞둔 독자가 약이나 보충제를 추천·중단하지 않고, 안전한 문진을 위해 어떤 복용 이력을 한 장으로 준비할 수 있는가?",
+  "reader_outcome": "처방약·일반약·영양제를 세 구획으로 나누고 이름, 용량, 시작·변경 시점, 목적을 한 장에 남긴다.",
+  "original_contribution": {"type": "source_synthesis", "description": "공식 안전 안내를 제품 비교가 아닌 약물 이력 대화 시트로 번역한다.", "source_ids": ["S1", "S2", "S3"]},
+  "angle_supporting_detail": {"claim": "의사나 약사에게 처방약 외 허브·비타민·보충제까지 알려야 한다.", "source_id": "S2"},
+  "search_intent_insight": "독자는 어떤 보충제를 사야 하는지가 아니라 예약 전 무엇을 챙겨야 의료진과 정확하게 말할 수 있는지 찾는다.",
+  "competitor_gap": "성분 효능 순위 대신 처방약·일반약·보충제를 나누고 변화 시점까지 남기는 문진용 서식을 제공한다.",
+  "research_runs": [
+    {"query": "NHS menopause treatment herbal remedies supplements medicines", "date": "2026-08-11", "purpose": "갱년기 보충제 안전성·상담 필요성 확인"},
+    {"query": "NHS HRT other medicines herbal supplements tell doctor pharmacist", "date": "2026-08-11", "purpose": "복용 이력에 포함할 범위 확인"},
+    {"query": "ACOG hormone therapy menopause supplements safety effectiveness", "date": "2026-08-11", "purpose": "공식 산부인과 환자 안내 교차 확인"},
+    {"query": "FDA dietary supplements interactions medicines consumer update", "date": "2026-08-11", "purpose": "보충제와 약물 상호작용의 일반 안전 경계 확인"}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Treatment for menopause and perimenopause", "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/treatment/", "publisher": "NHS", "source_role": "official", "source_type": "official", "is_official": true, "date": "2026-05-19", "source_date": "2026-05-19", "accessed": "2026-08-11", "freshness": "current", "used_for": "갱년기 치료 선택이 개인 상태에 따라 논의되며 허브·보완요법의 근거와 안전성 한계가 있다는 안내"},
+    {"id": "S2", "title": "Taking sequential combined HRT with other medicines and herbal supplements", "url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/sequential-combined-hormone-replacement-therapy-hrt-tablets-and-patches/taking-sequential-combined-hormone-replacement-therapy-hrt-with-other-medicines-and-herbal-supplements/", "publisher": "NHS", "source_role": "official", "source_type": "official", "is_official": true, "date": "2023-01-18", "source_date": "2023-01-18", "accessed": "2026-08-11", "freshness": "reviewed-current", "used_for": "의사·약사에게 처방약 외 허브·비타민·보충제를 알려야 한다는 문진 근거"},
+    {"id": "S3", "title": "Hormone Therapy for Menopause", "url": "https://www.acog.org/womens-health/faqs/hormone-therapy-for-menopause", "publisher": "ACOG", "source_role": "official", "source_type": "official", "is_official": true, "date": "2026-08-11", "source_date": "current page", "accessed": "2026-08-11", "freshness": "current", "used_for": "호르몬 치료 제형과 식물성·허브 보충제의 안전성·효과 근거 한계"},
+    {"id": "S4", "title": "Menopause Misinformation Is Everywhere", "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/menopause-misinformation-is-everywhere-heres-how-to-detect-it", "publisher": "ACOG", "source_role": "official", "source_type": "official", "is_official": true, "date": "2024-11", "source_date": "2024-11", "accessed": "2026-08-11", "freshness": "current", "used_for": "보충제가 다른 약 또는 건강 상태에 영향을 줄 수 있다는 상담 맥락"},
+    {"id": "S5", "title": "Dietary Supplements", "url": "https://www.fda.gov/food/dietary-supplements", "publisher": "U.S. Food and Drug Administration", "source_role": "official", "source_type": "official", "is_official": true, "date": "2026-08-11", "source_date": "current page", "accessed": "2026-08-11", "freshness": "current", "used_for": "식이보충제의 규제와 안전 정보 확인의 배경"}
+  ],
+  "data_points": [
+    {"claim": "의사나 약사에게 다른 약뿐 아니라 허브, 비타민, 보충제를 알려야 한다.", "source_id": "S2", "claim_type": "clinical-guidance", "source_date": "2023-01-18", "supports_section": "한 장의 첫 줄은 현재 쓰는 모든 품목"},
+    {"claim": "세인트존스워트를 포함한 일부 허브 제품은 HRT의 작용에 영향을 줄 수 있으며 시작 전 확인이 필요하다.", "source_id": "S2", "claim_type": "clinical-guidance", "source_date": "2023-01-18", "supports_section": "세 구획을 섞지 않으면 누락을 줄인다"},
+    {"claim": "식물성·허브 보충제 중 안전성과 효과가 충분히 연구되지 않은 것이 있다.", "source_id": "S3", "claim_type": "clinical-guidance", "source_date": "current page", "supports_section": "한 장의 첫 줄은 현재 쓰는 모든 품목"},
+    {"claim": "갱년기 치료 선택은 증상과 개인 상황에 따라 의료진과 논의된다.", "source_id": "S1", "claim_type": "clinical-guidance", "source_date": "2026-05-19", "supports_section": "제품의 효능 비교표가 아니라 변경 타임라인"}
+  ],
+  "article_specific_details": [
+    {"claim": "처방약·일반약·영양제를 세 구획으로 나누고 각 구획에서 누락을 찾는다.", "source_id": "S2"},
+    {"claim": "복용 시작·중단·용량 변경 시점을 증상 변화와 같은 시간축에 사실로 기록한다.", "source_id": "S1"}
+  ],
+  "source_interpretation": "공식 자료의 상호작용·안전성 경고를 제품 추천이나 중단 지시로 확대하지 않고, 상담에서 확인할 수 있는 복용 이력의 필드 설계로만 사용한다.",
+  "ymyl_category": "health", "ymyl_review": "pass", "ymyl_review_note": "공식·1차 기관 출처 5개를 사용하고 복용 변경, 상호작용 판정, 치료 선택을 하지 않았다.", "volatile": true, "fact_traceability_pass": true, "unresolved_claims": [], "source_conflicts": []
+}

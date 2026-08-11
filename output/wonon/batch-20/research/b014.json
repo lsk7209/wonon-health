@@ -1,0 +1,197 @@
+{
+  "article_id": "b014",
+  "article_research_question": "밤에 화장실에 가는 일을 물 섭취량 하나로 단정하지 않고, 수면 각성과 배뇨의 순서 및 동반 신호를 상담 가능한 기록으로 어떻게 바꿀 수 있는가?",
+  "reader_outcome": "독자는 저녁부터 다음 날 아침까지 잠든 시각, 먼저 깬 시각, 배뇨 시각, 섭취와 동반 증상을 3일간 시간 순서로 남긴다.",
+  "original_contribution": {
+    "type": "source_synthesis",
+    "description": "‘소변 때문에 깼다’와 ‘이미 깬 뒤 화장실에 갔다’를 분리하는 저녁-아침 배뇨 흐름표",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "research_runs": [
+    {
+      "query": "NIDDK bladder diary what when how much drink urinate 2 3 days",
+      "date": "2026-08-11",
+      "purpose": "공식 배뇨 일지 항목 확인"
+    },
+    {
+      "query": "NIDDK nocturia frequent urination night causes official",
+      "date": "2026-08-11",
+      "purpose": "단일 원인 단정 경계 확인"
+    },
+    {
+      "query": "NHLBI sleep apnea symptoms waking at night urinate",
+      "date": "2026-08-11",
+      "purpose": "수면 각성과 배뇨의 연결 맥락 확인"
+    },
+    {
+      "query": "AUA nocturia patient information bladder diary official",
+      "date": "2026-08-11",
+      "purpose": "비뇨기 상담 맥락 교차 확인"
+    }
+  ],
+  "search_intent_insight": "검색자는 저녁 물을 끊어야 하는지를 묻지만, 실제로는 수면이 먼저 끊겼는지와 통증·갈증·부종을 어떻게 말할지 필요로 한다.",
+  "competitor_gap": "일반 결과는 저녁 수분 제한을 빠른 해법처럼 제시한다. 이 글은 수면 각성의 순서와 배뇨 양상을 기록해 원인 추정을 의료진에게 맡긴다.",
+  "information_gain": "저녁 섭취·잠든 시각·각성·배뇨·다시 잠든 시각을 한 줄로 연결하고, ‘먼저 깼는지’를 체크하는 3일 흐름표.",
+  "unique_angle": "물의 양 외에 수면 단절과 부종·통증 등 시간대 맥락을 본다.",
+  "source_interpretation": "비뇨기 자료와 수면 자료를 하나의 질환 설명으로 합치지 않고, 순서와 동반 신호를 기록하는 도구로 사용한다.",
+  "article_specific_details": [
+    {
+      "claim": "NIDDK는 방광 일지에 무엇을 언제 얼마나 마셨는지와 언제 얼마나 소변을 봤는지를 기록하고, 진료 전 2~3일 기록할 수 있다고 안내한다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "NHLBI는 수면무호흡 증상 중 밤에 자주 소변을 보기 위해 깨는 일을 포함하며, 이 증상만으로 수면무호흡을 진단하지는 않는다.",
+      "source_id": "S3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Diagnosis of Bladder Control Problems",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/diagnosis",
+      "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2021-07-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "2~3일 방광 일지와 섭취·배뇨 기록 항목",
+      "accessed_date": "2026-08-11",
+      "source_date": "2021-07-01"
+    },
+    {
+      "id": "S2",
+      "title": "Definition & Facts for Bladder Control Problems",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/definition-facts",
+      "publisher": "NIDDK",
+      "date": "2021-07-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "야간뇨와 여러 건강 문제의 관련 가능성, 단일 원인 단정 금지",
+      "accessed_date": "2026-08-11",
+      "source_date": "2021-07-01"
+    },
+    {
+      "id": "S3",
+      "title": "Sleep Apnea Symptoms",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+      "publisher": "National Heart, Lung, and Blood Institute",
+      "date": "2025-01-09",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "수면무호흡 증상 중 야간 배뇨 각성 언급과 수면 평가 경계",
+      "accessed_date": "2026-08-11",
+      "source_date": "2025-01-09"
+    },
+    {
+      "id": "S4",
+      "title": "Bladder Diary",
+      "url": "https://repository.niddk.nih.gov/media/studies/be-dri/forms/F206A_7day_bladder_diary_evaluation.pdf",
+      "publisher": "NIDDK Central Repository",
+      "date": "2025-11-01",
+      "accessed": "2026-08-11",
+      "source_type": "primary_data",
+      "source_role": "primary_data",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "시간, 섭취, 배뇨를 24시간 흐름으로 보는 기록 형식",
+      "accessed_date": "2026-08-11",
+      "source_date": "2025-11-01"
+    },
+    {
+      "id": "S5",
+      "title": "Diagnosis of Bladder Control Problems",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/diagnosis",
+      "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "date": "2021-07-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "방광 일지와 상담 시 병력 및 증상 기록을 함께 검토하는 공식 안내",
+      "accessed_date": "2026-08-11",
+      "source_date": "2021-07-01"
+    },
+    {
+      "id": "S6",
+      "title": "Sleep Apnea Treatment",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/treatment",
+      "publisher": "NHLBI",
+      "date": "2025-01-09",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "수면 관련 증상은 평가 후 치료가 정해진다는 경계",
+      "accessed_date": "2026-08-11",
+      "source_date": "2025-01-09"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "방광 일지는 마신 것의 종류·시각·양과 배뇨 시각·양을 기록하며, 진료 전 2~3일 기록이 패턴을 보는 데 쓰일 수 있다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2021-07-01",
+      "supports_section": "3일 흐름표"
+    },
+    {
+      "claim": "야간 배뇨나 잦은 배뇨는 요로감염, 결석, 심부전, 만성콩팥병, 수면무호흡 등 여러 문제와 관련될 수 있다.",
+      "source_id": "S2",
+      "claim_type": "clinical_context",
+      "source_date": "2021-07-01",
+      "supports_section": "물만 보지 않는 이유"
+    },
+    {
+      "claim": "수면무호흡의 증상에는 밤에 소변을 보기 위해 자주 깨는 일이 포함될 수 있다.",
+      "source_id": "S3",
+      "claim_type": "clinical_context",
+      "source_date": "2025-01-09",
+      "supports_section": "먼저 깼는지 기록"
+    },
+    {
+      "claim": "배뇨 일지는 24시간 동안 섭취 시각·양과 매 배뇨 시각을 함께 적는 형식을 사용한다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "source_date": "2025-11-01",
+      "supports_section": "저녁-아침 흐름표"
+    },
+    {
+      "claim": "야간뇨 평가는 병력과 배뇨 일지를 포함할 수 있다.",
+      "source_id": "S5",
+      "claim_type": "procedure",
+      "source_date": "2024-01-01",
+      "supports_section": "상담 질문"
+    },
+    {
+      "claim": "수면 관련 치료는 평가 결과에 따라 정해지며, 증상 하나로 자가 치료를 결정하지 않는다.",
+      "source_id": "S6",
+      "claim_type": "guideline",
+      "source_date": "2025-01-09",
+      "supports_section": "주의사항"
+    }
+  ],
+  "angle_supporting_detail": {
+    "claim": "NIDDK는 방광 일지에 무엇을 언제 얼마나 마셨는지와 언제 얼마나 소변을 봤는지를 기록하고, 진료 전 2~3일 기록할 수 있다고 안내한다.",
+    "source_id": "S1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "article_id": "b002",
+  "status": "done",
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b001",
+    "b003",
+    "b004",
+    "b013",
+    "b019"
+  ],
+  "similarity_signals": {
+    "intro_frame": "unexpected spotting after a final period; unlike b001 calendar change",
+    "section_role_sequence": "urgent framing > five-field document > medication context > evidence boundary > escalation > visit questions",
+    "faq_shape": "one-time bleeding and stopped-bleeding questions",
+    "ending_cta": "contact first, then write the observation",
+    "source_interpretation": "official bleeding guidance becomes a communication checklist, never a diagnosis"
+  },
+  "repair_attempted": "Reviewed every factual sentence against S1-S6 and kept causes, tests, treatment, and urgency decisions outside the article. Reworked the opening and visual sequence away from b001's time-axis record into a red-flag-first consultation-note format.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "One point is withheld because a short AI answer could quote the one-time-bleeding rule while losing the article's essential instruction to contact a clinician and avoid self-triage.",
+  "remaining_risks": [
+    "Educational health information only; the article does not diagnose a source of bleeding or choose tests or treatment."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 6,
+    "official_or_primary_sources": 6,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "structure_type": "consultation-prep",
+    "visual_elements": [
+      "red warning callout",
+      "five-field table",
+      "blue carry-along card"
+    ],
+    "semantic_colors": [
+      "#B91C1C",
+      "#2563EB"
+    ],
+    "body_hangul": 3763,
+    "encoding_check": "UTF-8, U+FFFD 0, HTML numeric entities 0, C1 controls 0"
+  },
+  "risk_acceptance_note": "Any bleeding after menopause needs individual clinical assessment; the draft deliberately avoids cause ranking and treatment advice."
+}

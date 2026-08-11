@@ -1,0 +1,12 @@
+{
+  "article_id": "b006", "status": "done", "score": 99,
+  "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14},
+  "hard_gate_results": {"persona_consistency": true, "fact_traceability": true, "research_gate": true, "research_packet": true, "source_interpretation": true, "ymyl_two_official_or_primary_sources": true, "content_uniqueness": true, "article_contract_uniqueness": true, "title_template_uniqueness": true, "title_subtitle_keyword_coverage": true, "structure_variation": true, "content_template_variation": true, "heading_quality": true, "visual_elements": true, "internal_links_3_to_5": true, "no_public_editor_notes": true, "qa_evidence_complete": true, "body_length": true},
+  "compared_rows": ["b003", "b005", "b007", "b008", "b014", "b016", "b017"],
+  "similarity_signals": {"intro_frame": "잠을 설친 다음 날 모든 일이 무거운 장면; 각성 후 로그와 구분", "section_role_sequence": "dual-log table > night stream > function line > question-mark chronology > signal separation > seven-day review", "visual_sequence": "dual log > purple causality hold callout > chronology matrix", "ending_cta": "일주일 후 반복 하나와 질문 세 개만 꺼냄", "source_interpretation": "수면·정신건강 자료를 개인 원인 판단이 아닌 인과 보류 기록으로 사용"},
+  "repair_attempted": "수면과 기분의 관계를 설명하던 문장을 모두 인과 보류 문장으로 교체하고, 치료 팁 대신 변화 순서와 기능 영향의 관찰 언어를 강화했다. 독립 감사에서 확인된 미등록 내부 경로는 등록된 `/article/women-sleep-apnea-menopause-signs`로 교체해, 수면의 다른 신호를 확인하는 문맥을 유지했다.",
+  "single_deducted_point": "ai_citation_readiness", "deduction_reason": "한 점은 짧은 AI 요약이 2주 기준만 떼어내 개인의 위험을 자가분류할 수 있어, 기능 변화와 위기 신호의 맥락 보존을 요구하기 때문에 보류했다.",
+  "remaining_risks": ["교육용 기록법이며 우울증 진단·치료를 제공하지 않는다. 자해·죽음에 관한 생각은 기록보다 즉시 위기 지원이 우선이다."],
+  "validation": {"research_runs": 4, "sources": 5, "official_or_primary_sources": 5, "article_specific_details_used": 2, "internal_links": 3, "structure_type": "comparison-log", "visual_elements": ["dual-log table", "purple causality-hold callout", "chronology matrix"], "semantic_colors": ["#7C3AED"]},
+  "risk_acceptance_note": "수면과 기분은 함께 변할 수 있으나 기록만으로 원인·진단을 확정하지 않는다."
+}

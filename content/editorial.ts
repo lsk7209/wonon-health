@@ -1,5 +1,7 @@
 export type Topic = { slug: string; name: string; description: string; icon: string };
-export type Article = { slug: string; topic: string; topicSlug: string; title: string; summary: string; publishedAt: string; updatedAt: string; body: string[]; sources: { label: string; href: string }[]; longform?: boolean; searchText?: string };
+import { getLongformArticles } from './longform';
+
+export type Article = { slug: string; topic: string; topicSlug: string; title: string; summary: string; publishedAt: string; updatedAt: string; body: string[]; sources: { label: string; href: string }[]; tags?: string[]; longform?: boolean; searchText?: string };
 export type ArticleGuide = { takeaways: string[]; today: string[]; doctorQuestions: string[] };
 
 export const topics: Topic[] = [
@@ -8,6 +10,64 @@ export const topics: Topic[] = [
   { slug: 'bone-muscle', name: '뼈와 근육', description: '오래 움직이기 위한 생활 습관을 찾습니다.', icon: '⌁' },
   { slug: 'everyday-care', name: '일상 건강', description: '검진과 식사, 활동을 생활에 맞게 정리합니다.', icon: '✳' },
 ];
+
+const longformTopicSlugs: Record<string, string> = {
+  'menopause-transition': 'menopause',
+  menopause: 'menopause',
+  'sleep-mood': 'sleep-mood',
+  'bone-muscle': 'bone-muscle',
+  'bone-muscle-falls': 'bone-muscle',
+  'pelvic-urinary': 'everyday-care',
+  cardiometabolic: 'everyday-care',
+  'preventive-screening': 'everyday-care',
+};
+
+const topicNames = new Map(topics.map((topic) => [topic.slug, topic.name]));
+
+const batchLongformSlugs = new Set([
+  'irregular-period-change-timeline',
+  'postmenopausal-bleeding-visit-note',
+  'menopause-palpitations-separate-log',
+  'menopause-medication-supplement-one-page',
+  'early-waking-return-to-sleep-log',
+  'sleep-mood-dual-log',
+  'night-leg-discomfort-description',
+  'two-week-sleep-log-next-questions',
+  'stairs-fall-risk-situation-map',
+  'height-loss-context-check',
+  'back-pain-exercise-adjustment-questions',
+  'after-fracture-bone-health-questions',
+  'urine-leakage-situation-log',
+  'nighttime-urination-evening-flow',
+  'recurrent-bladder-discomfort-episode-log',
+  'blood-pressure-log-measurement-conditions',
+  'cholesterol-result-context-history',
+  'fasting-glucose-result-context',
+  'breast-screening-notice-personal-context',
+  'cervical-screening-follow-up-result-questions',
+]);
+
+const batchLongformArticles: Article[] = getLongformArticles()
+  .filter((article) => batchLongformSlugs.has(article.slug))
+  .map((article) => {
+    const topicSlug = longformTopicSlugs[article.cluster];
+    const topic = topicNames.get(topicSlug);
+    if (!topic) throw new Error(`Unknown topic for long-form cluster: ${article.cluster}`);
+    return {
+      slug: article.slug,
+      topic,
+      topicSlug,
+      title: article.title,
+      summary: article.description,
+      publishedAt: article.date,
+      updatedAt: article.date,
+      body: [],
+      sources: [],
+      tags: article.tags,
+      longform: true,
+      searchText: [article.title, article.subtitle, article.description, ...article.tags].join(' '),
+    };
+  });
 
 export const articles: Article[] = [
   { slug: 'menopause-when-to-see-a-doctor', topic: '갱년기 이해하기', topicSlug: 'menopause', title: '갱년기 증상, 언제 진료 상담을 시작하면 좋을까요?', summary: '참는 것이 답인지 헷갈릴 때 살펴볼 신호와 진료 준비 방법입니다.', publishedAt: '2026-08-11', updatedAt: '2026-08-11', body: ['갱년기는 마지막 월경 전후의 전환기를 말하며, 안면홍조·야간 발한·수면 변화·기분 변화처럼 사람마다 다른 증상이 나타날 수 있습니다. 증상이 있다는 사실만으로 위험하다는 뜻은 아니지만, 생활에 영향을 준다면 상담할 이유가 충분합니다.', '특히 월경이 끝난 뒤 다시 출혈이 있거나, 출혈 양상이 갑자기 달라졌다면 갱년기라고 단정하지 말고 진료를 받아야 합니다. 심한 두근거림, 흉통, 호흡 곤란, 갑작스러운 신경학적 증상도 즉시 평가가 필요한 신호입니다.', '진료 전에는 증상이 언제 시작됐는지, 잠·기분·일상에 어떤 영향을 주는지, 복용 중인 약과 가족력을 간단히 적어 보세요. 기록은 정답을 찾기 위한 시험지가 아니라 의료진과 대화를 시작하는 지도입니다.'], sources: [{ label: 'NHS: Menopause', href: 'https://www.nhs.uk/conditions/menopause/' }, { label: 'NAMS: MenoNote (symptoms)', href: 'https://menopause.org/patient-education/menonotes' }] },
@@ -19,6 +79,7 @@ export const articles: Article[] = [
   { slug: 'women-sleep-apnea-menopause-signs', topic: '잠과 마음', topicSlug: 'sleep-mood', title: '갱년기 불면으로 넘기기 전, 여성 수면무호흡 의심 신호', summary: '큰 코골이가 없어도 놓치기 쉬운 여성 수면무호흡 신호를 본인 증상과 동침자 관찰로 나눠 기록하는 방법입니다.', publishedAt: '2026-08-11', updatedAt: '2026-08-11', body: ['여성에게 수면무호흡은 불면, 피로, 아침 두통, 잦은 각성처럼 나타날 수 있습니다. 본인이 느낀 낮 증상과 동침자가 본 밤의 호흡 신호를 나눠 기록해 상담 질문을 준비합니다.'], sources: [{ label: 'NHLBI: Sleep Apnea and Women', href: 'https://www.nhlbi.nih.gov/health/sleep-apnea/women' }, { label: '질병관리청 국가건강정보포털: 코골이', href: 'https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5362' }], longform: true, searchText: '수면검사 수면다원검사 폐경 코골이 무호흡 저호흡 낮 졸림 아침 두통 동침자 관찰' },
   { slug: 'gsm-dryness-urinary-signs', topic: '갱년기 이해하기', topicSlug: 'menopause', title: '질 건조와 빈뇨가 함께 왔을 때: 증상 위치로 정리하는 폐경 후 진료 메모', summary: '질·외음부·배뇨 증상을 나눠 기록하고 출혈·혈뇨·비정상 분비물처럼 별도 평가가 필요한 신호를 구분합니다.', publishedAt: '2026-08-11', updatedAt: '2026-08-11', body: ['폐경 전후 질 건조와 외음부 자극, 배뇨 불편은 함께 나타날 수 있지만 증상만으로 원인을 단정할 수 없습니다. 위치와 동반 신호를 기록해 생활관리와 진료 질문을 구분합니다.'], sources: [{ label: 'The Menopause Society: GSM MenoNote', href: 'https://menopause.org/wp-content/uploads/for-women/MenoNote-GSM.pdf' }, { label: 'NHS: Vaginal dryness', href: 'https://www.nhs.uk/symptoms/vaginal-dryness/' }], longform: true, searchText: '비뇨생식기증후군 GSM 윤활제 보습제 유방암 자궁암 질출혈 성관계후출혈 혈뇨 요로감염 배뇨통 절박뇨' },
   { slug: 'bone-density-result-next-questions', topic: '뼈와 근육', topicSlug: 'bone-muscle', title: '골밀도 검사 결과표, T점수만 보지 말아야 하는 이유', summary: '폐경 후 골밀도 결과를 측정부위·골절력·키 변화·복용 약과 함께 읽고 재검 질문을 준비하는 순서입니다.', publishedAt: '2026-08-11', updatedAt: '2026-08-11', body: ['T점수는 골밀도 결과를 이해하는 출발점이지만 다음 행동을 혼자 결정하는 숫자는 아닙니다. 측정부위와 골절·키 변화·약물·가족력·재검 목적을 함께 확인합니다.'], sources: [{ label: 'NIAMS: Bone Mineral Density Tests', href: 'https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean' }, { label: 'ISCD: Official Adult Positions 2023', href: 'https://iscd.org/official-positions-2023/' }], longform: true, searchText: 'DXA DEXA T점수 대퇴골경부 총고관절 척추골절 압박골절 키감소 글루코코르티코이드 재검 VFA' },
+  ...batchLongformArticles,
 ];
 
 export function getArticle(slug: string) { return articles.find((article) => article.slug === slug); }

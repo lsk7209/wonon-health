@@ -1,0 +1,183 @@
+{
+  "article_id": "b002",
+  "researched_at": "2026-08-11",
+  "article_research_question": "폐경 후 출혈을 발견한 독자가 원인을 추정하지 않고 진료에 필요한 정보를 어떻게 짧고 정확하게 전달할 수 있는가?",
+  "reader_outcome": "출혈의 색과 양, 반복, 통증, 복용약, 마지막 생리 시점을 한 장의 메모로 준비한다.",
+  "original_contribution": {
+    "type": "source_synthesis",
+    "description": "공식 경고를 다섯 칸의 전달 메모로 번역한다.",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "search_intent_insight": "경고 문구보다 진료 전에 실제로 무엇을 적을지 찾는 의도가 핵심이다.",
+  "competitor_gap": "원인 목록을 늘어놓지 않고 출혈의 관찰값과 약물 정보를 분리해 전달하는 서식을 제공한다.",
+  "angle_supporting_detail": {
+    "claim": "ACOG는 평가에서 마지막 생리 시점과 새 약을 묻는다고 설명한다.",
+    "source_id": "S3"
+  },
+  "research_runs": [
+    {
+      "query": "NHS postmenopausal bleeding",
+      "date": "2026-08-11",
+      "purpose": "공식 진료 필요성 확인"
+    },
+    {
+      "query": "ACOG perimenopausal bleeding bleeding after menopause",
+      "date": "2026-08-11",
+      "purpose": "출혈 변화와 평가 맥락 확인"
+    },
+    {
+      "query": "ACOG bleeding after menopause medications questions",
+      "date": "2026-08-11",
+      "purpose": "진료 메모 항목 확인"
+    },
+    {
+      "query": "MedlinePlus vaginal bleeding after menopause",
+      "date": "2026-08-11",
+      "purpose": "관찰 및 전달 정보 교차 확인"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Postmenopausal bleeding",
+      "url": "https://www.nhs.uk/symptoms/post-menopausal-bleeding/",
+      "publisher": "NHS",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2023",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2023",
+      "used_for": "12개월 무월경 뒤의 출혈은 한 번 또는 소량이어도 확인이 필요하다는 안내"
+    },
+    {
+      "id": "S2",
+      "title": "Perimenopausal Bleeding and Bleeding After Menopause",
+      "url": "https://www.acog.org/womens-health/faqs/perimenopausal-bleeding-and-bleeding-after-menopause",
+      "publisher": "ACOG",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2026-08-11",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "current page",
+      "used_for": "폐경 후 출혈과 출혈 변화는 산부인과 상담이 필요하다는 안내"
+    },
+    {
+      "id": "S3",
+      "title": "Bleeding After Menopause Could Be a Problem",
+      "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/bleeding-after-menopause-could-be-a-problem-heres-what-to-know",
+      "publisher": "ACOG",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2026-08-11",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "current page",
+      "used_for": "마지막 생리 시점, 새 약, 동반 건강 상태를 묻는 평가 대화"
+    },
+    {
+      "id": "S4",
+      "title": "Abnormal Uterine Bleeding",
+      "url": "https://www.acog.org/womens-health/faqs/abnormal-uterine-bleeding",
+      "publisher": "ACOG",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2021",
+      "accessed": "2026-08-11",
+      "freshness": "reviewed-current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2021",
+      "used_for": "시간당 생리용품이 젖는 출혈 등 즉시 평가가 필요한 상황의 표현"
+    },
+    {
+      "id": "S5",
+      "title": "Vaginal bleeding between periods or after sex",
+      "url": "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+      "publisher": "NHS",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2024-08-13",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2024-08-13",
+      "used_for": "출혈의 출처와 동반 골반 통증을 확인하는 상담 맥락"
+    },
+    {
+      "id": "S6",
+      "title": "Vaginal bleeding between periods",
+      "url": "https://medlineplus.gov/ency/article/003156.htm",
+      "publisher": "MedlinePlus",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "date": "2025",
+      "accessed": "2026-08-11",
+      "freshness": "current",
+      "accessed_date": "2026-08-11",
+      "source_date": "2025",
+      "used_for": "패드 사용량과 교체 빈도를 기록하는 보조 근거"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "12개월 이상 생리가 없던 뒤의 질 출혈은 한 번이거나 소량이어도 확인이 필요하다.",
+      "source_id": "S1",
+      "claim_type": "clinical-guidance",
+      "source_date": "2023",
+      "supports_section": "폐경 후 출혈은 메모보다 연락이 먼저인 이유"
+    },
+    {
+      "claim": "폐경 후 출혈의 평가 대화에서는 폐경 시점과 새로 시작한 약을 확인한다.",
+      "source_id": "S3",
+      "claim_type": "clinical-guidance",
+      "source_date": "current page",
+      "supports_section": "다섯 칸 메모"
+    },
+    {
+      "claim": "시간당 한 장 이상 생리용품이 젖는 출혈은 비정상 출혈의 한 표현이다.",
+      "source_id": "S4",
+      "claim_type": "clinical-guidance",
+      "source_date": "2021",
+      "supports_section": "기다리지 말아야 할 신호"
+    },
+    {
+      "claim": "진료에서 원인을 판단하기 위해 증상과 병력을 묻고 검사가 제안될 수 있다.",
+      "source_id": "S1",
+      "claim_type": "clinical-guidance",
+      "source_date": "2023",
+      "supports_section": "진료실에서 할 질문"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "갈색이었다, 휴지에 분홍빛이 묻었다, 선홍색이 다시 보였다처럼 본인이 본 모습을 남기면 됩니다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "약 봉투를 모두 해석하려 하지 말고, 복용 중인 약과 보충제의 이름 또는 사진, 시작일이나 최근 변경일을 준비하세요.",
+      "source_id": "S3"
+    }
+  ],
+  "source_interpretation": "공식 자료의 ‘확인 필요’ 경고를 원인 목록이나 치료 선택으로 확장하지 않고, 진료 전 전달 품질을 높이는 메모 항목으로만 사용한다.",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "ymyl_review_note": "공식 출처 6개를 사용하고 진단, 응급 분류, 치료 선택은 하지 않았다.",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

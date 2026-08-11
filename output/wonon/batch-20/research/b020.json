@@ -1,0 +1,29 @@
+{
+  "article_id":"b020","title":"자궁경부 검진 결과에 ‘추적’이 적혔을 때, 결과지를 보며 묻는 말","accessed":"2026-08-11","ymyl_category":"health","ymyl_review":"pass","volatile":true,
+  "research_runs":[
+    {"query":"CDC cervical cancer screening test results follow up official","date":"2026-08-11","purpose":"검사 종류·비정상 결과·후속 확인의 일반 원칙 확인"},
+    {"query":"NCI HPV Pap test results next steps official","date":"2026-08-11","purpose":"결과가 암 확정이 아니며 다음 단계가 결과·이력에 따라 달라지는 근거 확인"},
+    {"query":"ASCCP patient resources abnormal cervical screening result official","date":"2026-08-11","purpose":"개인 이력이 추적 결정에 연결되는 전문학회 설명 확인"},
+    {"query":"국가암정보센터 자궁경부암 검진 결과 추적 공식","date":"2026-08-11","purpose":"국내 공식 검진·결과 문의 맥락 확인"}
+  ],
+  "search_intent_insight":"‘추적’이라는 단어를 본 독자는 정해진 기간을 찾기보다, 결과지에서 무엇을 읽고 어떤 말을 해야 하는지 알고 싶어 한다.",
+  "competitor_gap":"결과 용어와 추적 간격을 단정하는 페이지와 달리, 이 글은 검사 종류·채취일·원문·이전 이력·증상을 분리해 가져가는 문서 읽기 순서를 제공한다.",
+  "information_gain":"결과지의 여섯 필드를 복사하고 통화 전 질문을 완성하는 ‘결과지 대화 스크립트’.",
+  "unique_angle":"추적 문구를 일반적인 치료 단계로 오해하지 않고 결과지 원문·이력을 준비한다",
+  "source_interpretation":"CDC·NCI·ASCCP의 검사·후속 원칙을 한국의 고정 검사 주기나 개인별 판정으로 옮기지 않고, 결과지 원문과 이력 없이는 추적의 뜻을 확정할 수 없다는 대화 규칙으로 사용한다.",
+  "article_research_question":"자궁경부 검진 결과의 ‘추적’ 문구를 본 사람이 불안을 키우지 않으면서 다음 연락 전 어떤 원문과 이전 정보를 준비할 수 있는가?","reader_outcome":"독자가 ‘추적’을 암 확정이나 즉시 치료로 오해하지 않고, 검사 종류·채취일·원문·이전 결과·증상을 분리해 구체적인 질문으로 바꾼다.",
+  "original_contribution":{"type":"decision_rule","description":"결과지의 여섯 필드를 읽어 통화·진료 전 세 문장 질문으로 바꾸는 문서 분석 카드","source_ids":["S1","S2","S3","S4","S5","S6"]},
+  "angle_supporting_detail":{"claim":"비정상 검사 결과는 대개 자궁경부암을 뜻하지 않으며, 후속 방법은 의료진이 결정한다.","source_id":"S1"},
+  "article_specific_details":[{"claim":"CDC는 HPV 검사가 자궁경부 세포 변화를 일으킬 수 있는 바이러스를, Pap 검사가 세포 변화를 찾는 검사라고 구분한다.","source_id":"S1"},{"claim":"NCI는 어떤 검사와 얼마나 자주 검사를 받을지는 나이와 건강 이력에 따라 달라진다고 설명한다.","source_id":"S2"}],
+  "structure":{"structure_type":"document-analysis","why":"독자가 받아 든 결과지의 필드를 해체하고 질문으로 재조립해야 하므로 문서 분석형이 맞는다.","intro_style":"결과지의 ‘추적’ 두 글자에서 화면을 멈춘 장면","section_sequence":["direct-answer","word-boundary","six-fields","history-separation","call-script","symptom-boundary","faq"]},
+  "visual_elements":["document field table","three-line call script","two-column separation card","urgent notice"],"semantic_colors":{"info":"#4F46E5","caution":"#B45309"},
+  "sources":[
+    {"id":"S1","title":"Screening for Cervical Cancer","url":"https://www.cdc.gov/cervical-cancer/screening/index.html","publisher":"CDC","date":"2025-02-26","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"HPV·Pap 검사 차이와 비정상 결과가 곧 암을 뜻하지 않는다는 배경"},
+    {"id":"S2","title":"Cervical Cancer Screening","url":"https://www.cancer.gov/types/cervical/screening","publisher":"National Cancer Institute, NIH","date":"2025-12-10","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"검사 방식·추적 필요가 나이·건강 이력·최근 결과에 따라 달라진다는 배경"},
+    {"id":"S3","title":"HPV and Pap Test Results: Next Steps after an Abnormal Test","url":"https://www.cancer.gov/types/cervical/screening/abnormal-hpv-pap-test-results","publisher":"National Cancer Institute, NIH","date":"2025-07-15","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"recent","used_for":"검사 결과와 후속 과정은 결과 조합에 따라 다르다는 안전 경계"},
+    {"id":"S4","title":"Patient Resources","url":"https://www.asccp.org/patient-resources","publisher":"American Society for Colposcopy and Cervical Pathology","date":"2025-01-01","accessed":"2026-08-11","source_type":"expert","source_role":"expert_reference","is_official":false,"freshness":"recent","used_for":"개인 병력과 이전 결과를 진료팀에 전달하는 전문학회 맥락"},
+    {"id":"S5","title":"건강검진(암 검진)","url":"https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5296","publisher":"질병관리청 국가건강정보포털","date":"2026-05-15","accessed":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"freshness":"current","used_for":"국내 암검진은 증상이 없는 사람을 위한 예방 과정이고 이상소견 뒤 추가검사가 필요할 수 있다는 공식 맥락"},
+    {"id":"S6","title":"국가건강검진 대상 여부부터 확인하는 방법","url":"/article/national-screening-checklist-2026","publisher":"원온 편집팀","date":"2026-08-11","accessed":"2026-08-11","source_type":"context","source_role":"context_only","is_official":false,"freshness":"current","used_for":"국내 검진 대상·안내문은 공식 조회로 분리하도록 연결"}
+  ],
+  "data_points":[{"claim":"HPV 검사는 바이러스를, Pap 검사는 자궁경부 세포 변화를 찾는 검사다.","source_id":"S1","claim_type":"named_entity","source_date":"2025-02-26","supports_section":"‘추적’은 먼저 결과지의 검사 종류와 함께 읽습니다"},{"claim":"비정상 결과는 대개 자궁경부암을 의미하지 않으며, 후속 방법은 의료진이 결정한다.","source_id":"S1","claim_type":"safety","source_date":"2025-02-26","supports_section":"‘추적’은 먼저 결과지의 검사 종류와 함께 읽습니다"},{"claim":"검사 방법과 빈도는 나이와 건강 이력에 따라 달라질 수 있다.","source_id":"S2","claim_type":"procedure","source_date":"2025-12-10","supports_section":"결과지에서 여섯 줄을 복사하면 질문이 구체해집니다"},{"claim":"비정상 HPV·Pap 결과의 다음 단계는 결과 조합에 따라 달라질 수 있다.","source_id":"S3","claim_type":"procedure","source_date":"2025-07-15","supports_section":"통화나 진료에서 쓸 세 문장 스크립트"},{"claim":"이전 검사·시술 이력은 다음 상담의 배경 정보가 된다.","source_id":"S4","claim_type":"procedure","source_date":"2025-01-01","supports_section":"이전 이력과 새 증상은 같은 칸에 쓰지 않습니다"},{"claim":"국내 암검진은 증상이 없는 사람을 대상으로 하며 이상소견 뒤에는 추가 검사가 필요할 수 있다.","source_id":"S5","claim_type":"procedure","source_date":"2026-05-15","supports_section":"‘추적 일정’보다 먼저 알려야 하는 변화는 따로 기록합니다"}],"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],"conflict_note":"개인별 세포검사 해석, HPV 유형 의미, 추적 기간, 시술·치료를 제시하지 않는다. 국내 제도와 개인 일정은 기관과 의료진 확인으로 한정한다."
+}

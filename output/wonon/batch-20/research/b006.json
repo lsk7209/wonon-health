@@ -1,0 +1,34 @@
+{
+  "article_id": "b006", "researched_at": "2026-08-11",
+  "article_research_question": "수면 변화와 기분 저하가 함께 나타날 때 독자가 한 원인으로 단정하지 않고, 상담에서 유용한 변화 순서와 일상 기능을 어떻게 기록할 수 있는가?",
+  "reader_outcome": "같은 날 수면 줄과 기분·기능 줄을 따로 적고, 화살표 대신 물음표로 변화 순서를 남긴다.",
+  "original_contribution": {"type": "source_synthesis", "description": "수면 일지의 관찰 항목과 정신건강 안내의 기능 언어를 한 원인으로 묶지 않는 이중 기록표로 결합한다.", "source_ids": ["S1", "S2", "S3"]},
+  "angle_supporting_detail": {"claim": "수면 일지는 낮 졸림과 약물·카페인 같은 맥락을 함께 기록해 의사와 검토하게 한다.", "source_id": "S1"},
+  "search_intent_insight": "독자는 잠과 기분의 관계를 알고 싶지만, 실제로 필요한 것은 자가진단보다 진료에 전달할 관찰 언어다.",
+  "competitor_gap": "수면위생 팁이나 기분 점수표 대신 변화 순서·낮 기능·야간 신호를 인과 보류로 남기는 비교형 기록을 제공한다.",
+  "research_runs": [
+    {"query": "NHLBI sleep diary daytime sleepiness medicines caffeine doctor", "date": "2026-08-11", "purpose": "수면 일지의 공식 항목 확인"},
+    {"query": "NIMH depression symptoms sleep interest concentration official", "date": "2026-08-11", "purpose": "기분·기능 줄의 비진단적 관찰 항목 확인"},
+    {"query": "CDC sadness depression two weeks daily functioning health provider", "date": "2026-08-11", "purpose": "상담 시점과 기능 영향의 공식 안내 확인"},
+    {"query": "CDC sleep mental health mood official", "date": "2026-08-11", "purpose": "수면과 기분의 관계를 단정하지 않는 보조 맥락 확인"}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Sleep Diary", "url": "https://www.nhlbi.nih.gov/resources/sleep-diary", "publisher": "NHLBI, NIH", "source_role": "official", "source_type": "official", "is_official": true, "date": "2019-01", "source_date": "2019-01", "accessed": "2026-08-11", "freshness": "current-resource", "used_for": "수면의 질·양, 약물·술·카페인, 낮 졸림을 기록해 의사와 검토하는 방식"},
+    {"id": "S2", "title": "Depression", "url": "https://www.nimh.nih.gov/health/publications/depression", "publisher": "NIMH, NIH", "source_role": "official", "source_type": "official", "is_official": true, "date": "2026-08-11", "source_date": "current page", "accessed": "2026-08-11", "freshness": "current", "used_for": "수면 변화와 함께 흥미·에너지·집중·자해 사고 등 기분 변화의 관찰 범위"},
+    {"id": "S3", "title": "Sadness & Depression", "url": "https://www.cdc.gov/emotional-well-being/managing-difficult-emotions/sadness-depression.html", "publisher": "CDC", "source_role": "official", "source_type": "official", "is_official": true, "date": "2024-10-01", "source_date": "2024-10-01", "accessed": "2026-08-11", "freshness": "current", "used_for": "2주 이상 지속과 일상 기능 영향이 있을 때 의료진과 상담하라는 안내"},
+    {"id": "S4", "title": "Improve Sleep: Tips to Improve Your Sleep When Times Are Tough", "url": "https://www.cdc.gov/niosh/bulletin/2020/sleep.html", "publisher": "CDC/NIOSH", "source_role": "official", "source_type": "official", "is_official": true, "date": "2020", "source_date": "2020", "accessed": "2026-08-11", "freshness": "context-current", "used_for": "수면과 기분·사고 기능이 관련될 수 있다는 일반 맥락"},
+    {"id": "S5", "title": "My Mental Health: Do I Need Help?", "url": "https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help", "publisher": "NIMH, NIH", "source_role": "official", "source_type": "official", "is_official": true, "date": "2026-08-11", "source_date": "current page", "accessed": "2026-08-11", "freshness": "current", "used_for": "증상이 악화되거나 일상 기능을 어렵게 할 때 도움을 찾는 경계"}
+  ],
+  "data_points": [
+    {"claim": "NHLBI 수면 일지는 수면의 질·양, 약물·술·카페인, 낮 졸림을 기록해 의사와 검토하도록 한다.", "source_id": "S1", "claim_type": "clinical-guidance", "source_date": "2019-01", "supports_section": "수면 줄에는 시간을 맞히려 하지 말고 밤의 흐름을 적는다"},
+    {"claim": "우울 증상에는 수면 변화뿐 아니라 흥미 상실, 에너지 저하, 집중의 어려움이 포함될 수 있다.", "source_id": "S2", "claim_type": "clinical-guidance", "source_date": "current page", "supports_section": "기분 줄에는 감정 이름과 일상 기능을 함께 쓴다"},
+    {"claim": "슬픔이 2주 이상 이어지고 일상 기능에 영향을 주면 의료진과 상담하는 것이 권고된다.", "source_id": "S3", "claim_type": "clinical-guidance", "source_date": "2024-10-01", "supports_section": "기분 줄에는 감정 이름과 일상 기능을 함께 쓴다"},
+    {"claim": "자해나 죽음에 관한 생각은 즉시 위기 지원과 의료 도움을 찾아야 하는 신호다.", "source_id": "S2", "claim_type": "clinical-guidance", "source_date": "current page", "supports_section": "잘 못 잔다에 가려진 다른 신호"}
+  ],
+  "article_specific_details": [
+    {"claim": "기분 변화 전후의 수면 변화 순서를 화살표가 아니라 물음표로 기록해 인과를 보류한다.", "source_id": "S1"},
+    {"claim": "흥미·집중·대인 관계와 기본 일과 수행 같은 기능 영향을 기분 줄에 함께 적는다.", "source_id": "S2"}
+  ],
+  "source_interpretation": "공식 수면·정신건강 자료의 연관성 정보를 개인별 원인 결론으로 바꾸지 않고, 변화 순서와 기능 영향을 분리해 의료진과 검토할 기록으로 적용한다.",
+  "ymyl_category": "health", "ymyl_review": "pass", "ymyl_review_note": "공식·1차 기관 출처 5개를 사용하고 우울증 진단이나 치료 선택을 하지 않았다.", "volatile": true, "fact_traceability_pass": true, "unresolved_claims": [], "source_conflicts": []
+}

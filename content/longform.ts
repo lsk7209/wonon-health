@@ -16,7 +16,10 @@ export type LongformArticle = {
   body: string;
 };
 
-const draftsDirectory = join(process.cwd(), 'output', 'wonon', 'drafts');
+const draftsDirectories = [
+  join(process.cwd(), 'output', 'wonon', 'drafts'),
+  join(process.cwd(), 'output', 'wonon', 'batch-20', 'drafts'),
+];
 
 function readScalar(value: string): string | boolean {
   const trimmed = value.trim().replace(/^['"]|['"]$/g, '');
@@ -25,8 +28,8 @@ function readScalar(value: string): string | boolean {
   return trimmed;
 }
 
-function parseDraft(fileName: string): LongformArticle {
-  const raw = readFileSync(join(draftsDirectory, fileName), 'utf8').replace(/^\uFEFF/, '');
+function parseDraft(directory: string, fileName: string): LongformArticle {
+  const raw = readFileSync(join(directory, fileName), 'utf8').replace(/^\uFEFF/, '');
   const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);
   if (!match) throw new Error(`Missing frontmatter in ${fileName}`);
 
@@ -43,7 +46,12 @@ function parseDraft(fileName: string): LongformArticle {
     const field = line.match(/^([A-Za-z][\w-]*):\s*(.*)$/);
     if (!field) continue;
     activeList = field[2] === '' ? field[1] : undefined;
-    fields[field[1]] = field[2] === '' ? [] : readScalar(field[2]);
+    const inlineList = field[2].match(/^\[(.*)\]$/);
+    fields[field[1]] = field[2] === ''
+      ? []
+      : inlineList
+        ? inlineList[1].split(',').map((item) => String(readScalar(item)))
+        : readScalar(field[2]);
   }
 
   const required = (key: keyof LongformArticle) => {
@@ -52,9 +60,14 @@ function parseDraft(fileName: string): LongformArticle {
     return value;
   };
 
+  const description = required('description');
+  const subtitle = typeof fields.subtitle === 'string' && fields.subtitle
+    ? fields.subtitle
+    : description;
+
   return {
-    title: required('title'), subtitle: required('subtitle'), slug: required('slug'),
-    description: required('description'), author: required('author'), date: required('date'),
+    title: required('title'), subtitle, slug: required('slug'),
+    description, author: required('author'), date: required('date'),
     tags: Array.isArray(fields.tags) ? fields.tags : [], cluster: required('cluster'),
     isPillar: fields.isPillar === true, target: required('target'), draft: fields.draft === true,
     body: match[2].trim(),
@@ -62,10 +75,16 @@ function parseDraft(fileName: string): LongformArticle {
 }
 
 export function getLongformArticles(): LongformArticle[] {
-  return readdirSync(draftsDirectory)
+  const articles = draftsDirectories.flatMap((directory) => readdirSync(directory)
     .filter((fileName) => fileName.endsWith('.mdx'))
     .sort()
-    .map(parseDraft);
+    .map((fileName) => parseDraft(directory, fileName)));
+  const slugs = new Set<string>();
+  for (const article of articles) {
+    if (slugs.has(article.slug)) throw new Error(`Duplicate long-form slug: ${article.slug}`);
+    slugs.add(article.slug);
+  }
+  return articles;
 }
 
 export function getLongformArticle(slug: string): LongformArticle | undefined {

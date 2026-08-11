@@ -1,0 +1,73 @@
+{
+  "article_id": "b014",
+  "status": "done",
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b005",
+    "b013",
+    "a007-women-sleep-apnea",
+    "a008-gsm-signs",
+    "b010"
+  ],
+  "similarity_signals": {
+    "intro_frame": "새벽에 이미 깬 뒤 습관적으로 화장실로 가는 장면으로, 일반 수면 기록 및 요실금 상황 기록과 구분된다.",
+    "section_role_sequence": "sequence distinction > evening context table > sleep branch > 3-day flow procedure > safety boundary > imperfect-log guidance",
+    "faq_shape": "수분 제한과 한 번의 밤중 배뇨를 진단할 수 없는지에 한정된다.",
+    "ending_cta": "잠든·깬·배뇨·다시 잠든 네 시각을 한 장에 적도록 닫는다.",
+    "source_interpretation": "비뇨기와 수면 자료를 단일 질환 설명으로 합치지 않고, 먼저 깼는지까지 남기는 시간 흐름 기록으로 전환한다."
+  },
+  "repair_attempted": "가시 본문을 재계수하고, 불완전한 기록을 보존하는 법과 약·수분 조정 전의 경계를 추가했다. 두 고유 세부사항(NIDDK의 2~3일 방광 일지, NHLBI의 야간 배뇨를 포함할 수 있는 수면무호흡 증상)이 본문과 흐름표에 직접 반영돼 있다.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "AI 요약이 야간 화장실과 수면무호흡을 인과로 단정하거나 수분 제한을 일반화할 위험이 있어 1점을 의도적으로 보류한다. 이 YMYL 글의 핵심은 순서 기록과 개별 평가 경계다.",
+  "remaining_risks": [
+    "통증, 혈뇨, 발열, 급격한 부종·호흡 변화, 소변을 보기 어려운 증상은 개별 의료 평가가 우선이다."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 6,
+    "official_or_primary_sources": 5,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "external_citations": 3,
+    "body_hangul": 4318,
+    "structure_type": "time-flow",
+    "visual_elements": [
+      "evening-to-morning flow table",
+      "sleep-void sequence card",
+      "safety callout"
+    ],
+    "semantic_colors": [
+      "#2563EB",
+      "#B45309"
+    ],
+    "encoding_check": "UTF-8, U+FFFD 0, HTML numeric entities 0, C1 controls 0"
+  },
+  "risk_acceptance_note": "이 글은 수분 제한·약 조정·원인 진단을 하지 않고, 시간 순서를 상담 자료로 보존한다."
+}

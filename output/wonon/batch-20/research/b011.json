@@ -1,0 +1,42 @@
+{
+  "article_id": "b011",
+  "article_research_question": "운동 중 새로 생기거나 달라진 허리 통증을 운동 처방으로 단정하지 않고, 어떤 변화와 동반 신호를 기록해 상담해야 하는가?",
+  "reader_outcome": "독자는 다음 운동 전까지 통증의 시간·동작·기능 변화를 한 장에 적고, 중단 또는 조정 결정을 의료진과 논의할 질문을 준비한다.",
+  "original_contribution": {"type": "decision_rule", "description": "운동 전·운동 중·운동 직후·다음 날을 분리한 통증-기능 대화 카드와 신경학적 신호 분리 규칙", "source_ids": ["S1", "S2", "S3"]},
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "research_runs": [
+    {"query": "NIAMS back pain symptoms exercise official", "date": "2026-08-11", "purpose": "통증 양상과 진료가 필요한 동반 신호 확인"},
+    {"query": "NICE NG59 low back pain exercise physical activity official", "date": "2026-08-11", "purpose": "운동을 개인의 능력과 선호에 맞춰 논의하는 원칙 확인"},
+    {"query": "NIAMS back pain diagnosis treatment limit activities causing pain official", "date": "2026-08-11", "purpose": "침상안정·활동 제한을 처방처럼 일반화하지 않는 경계 확인"},
+    {"query": "NHS back pain emergency numbness bladder bowel symptoms", "date": "2026-08-11", "purpose": "즉시 평가가 필요한 증상 기록 항목 확인"}
+  ],
+  "search_intent_insight": "검색자는 운동을 계속할지 멈출지 즉답을 원하지만, 안전한 다음 행동은 통증의 원인 추정이 아니라 변화와 위험 신호를 구분한 상담 준비다.",
+  "competitor_gap": "일반 운동 권고는 많지만 걷기·근력 활동 중 통증이 생긴 뒤 무엇을 어떻게 적어 질문할지 보여 주는 자료는 드물다.",
+  "information_gain": "같은 통증 점수라도 동작, 지속 시간, 다리 증상, 다음 날 기능을 분리해 말하게 하는 4시점 대화 카드",
+  "unique_angle": "운동 처방 대신 통증 발생 뒤의 상담 자료를 만든다",
+  "angle_supporting_detail": {"claim": "운동 선택은 개인의 필요·선호·능력을 고려해 논의하며, 다리 저림·약화 또는 배뇨 곤란 같은 동반 신호는 운동량보다 먼저 평가에 알린다.", "source_id": "S2"},
+  "source_interpretation": "NICE와 NIAMS의 활동 관련 안내를 모든 통증에 운동 지속을 권하는 말로 확대하지 않는다. 새롭거나 변한 증상에서는 개인의 능력·동반 신호·기능 저하를 의료진과 함께 평가하기 위한 기록 원칙으로 사용한다.",
+  "article_specific_details": [
+    {"claim": "NIAMS는 허리 통증이 다리 또는 발의 저림·약화, 배뇨 곤란, 발열, 의도하지 않은 체중 감소와 함께 있거나 낙상 뒤 발생하면 진료를 받도록 안내한다.", "source_id": "S1"},
+    {"claim": "NICE는 운동 종류를 개인의 필요·선호·능력에 맞춰 선택하도록 하며, 새롭거나 달라진 증상에서는 다른 원인을 고려하도록 권고한다.", "source_id": "S2"}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Back Pain: Symptoms, Types, and Causes", "url": "https://www.niams.nih.gov/health-topics/back-pain", "publisher": "NIAMS", "date": "2025-07-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "통증 양상과 진료가 필요한 동반 신호"},
+    {"id": "S2", "title": "Low back pain and sciatica in over 16s: assessment and management", "url": "https://www.nice.org.uk/guidance/NG59/chapter/recommendations", "publisher": "NICE", "date": "2020-12-11", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "개별 능력에 맞춘 활동 논의와 새 증상 평가 원칙"},
+    {"id": "S3", "title": "Back Pain: Diagnosis, Treatment, and Steps to Take", "url": "https://www.niams.nih.gov/health-topics/back-pain/diagnosis-treatment-and-steps-to-take", "publisher": "NIAMS", "date": "2025-07-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "통증을 유발하는 활동의 제한과 점진적 활동 증가의 임상 맥락"},
+    {"id": "S4", "title": "Exercise and physical activity", "url": "https://www.nice.org.uk/guidance/ng59/ifp/chapter/Exercise-and-physical-activity", "publisher": "NICE", "date": "2020-09-22", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "운동 유형을 의료진과 논의하는 공공 안내"},
+    {"id": "S5", "title": "Back pain", "url": "https://www.nhs.uk/conditions/back-pain/", "publisher": "NHS", "date": "2024-01-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "응급 또는 신속한 평가가 필요한 신호의 보조 확인"}
+  ],
+  "data_points": [
+    {"claim": "허리 통증이 다리 저림·약화, 배뇨 곤란, 발열, 의도하지 않은 체중 감소와 함께 있거나 낙상 뒤 생기면 진료가 필요하다.", "source_id": "S1", "claim_type": "safety", "source_date": "2025-07-01", "supports_section": "바로 기록보다 평가가 앞서는 신호"},
+    {"claim": "새롭거나 달라진 허리 통증은 암·감염·외상·염증성 질환 같은 다른 원인을 고려해 평가한다.", "source_id": "S2", "claim_type": "guideline", "source_date": "2020-12-11", "supports_section": "계속 또는 중단의 이분법을 멈추는 이유"},
+    {"claim": "운동 선택은 개인의 필요·선호·능력을 고려해 논의한다.", "source_id": "S2", "claim_type": "guideline", "source_date": "2020-12-11", "supports_section": "상담 질문 카드"},
+    {"claim": "통증을 유발하는 활동은 제한하고, 견딜 수 있는 범위에서 신체활동을 점진적으로 늘리는 접근이 소개된다.", "source_id": "S3", "claim_type": "clinical_context", "source_date": "2025-07-01", "supports_section": "기록은 처방이 아니라 대화 자료"},
+    {"claim": "운동과 움직임은 증상 완화에 도움이 될 수 있으나 알맞은 운동의 종류는 의료진과 논의한다.", "source_id": "S4", "claim_type": "guideline", "source_date": "2020-09-22", "supports_section": "운동 이름 대신 질문을 적는 법"}
+  ]
+}
