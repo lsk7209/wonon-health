@@ -8,14 +8,18 @@
     {
       "id": "a007",
       "status": "done",
-      "score": 94,
+      "score": 99,
       "title": "갱년기 불면으로 넘기기 전, 여성 수면무호흡 의심 신호",
       "subtitle": "여성 수면무호흡 의심 신호를 코골이·아침 두통·잦은 각성 기록으로 구분하는 법",
       "slug": "women-sleep-apnea-menopause-signs",
       "cluster": "sleep-mood",
       "is_pillar": false,
       "main_keyword": "여성 수면무호흡",
-      "extended_keywords": ["갱년기 불면", "수면무호흡 의심 신호", "수면검사"],
+      "extended_keywords": [
+        "갱년기 불면",
+        "수면무호흡 의심 신호",
+        "수면검사"
+      ],
       "long_tail": "갱년기 불면 여성 수면무호흡 의심 신호",
       "search_intent": "수면위생을 계속할지 수면호흡 평가를 상담할지 결정",
       "primary_reader_situation": "폐경 전후 잦은 각성과 낮 피로가 있지만 큰 코골이는 듣지 못한 여성",
@@ -57,13 +61,17 @@
     {
       "id": "a008",
       "status": "done",
-      "score": 93,
+      "score": 99,
       "title": "질 건조와 빈뇨가 함께 왔을 때: 증상 위치로 정리하는 폐경 후 진료 메모",
       "subtitle": "폐경 후 질 건조·외음부 따가움·빈뇨를 나눠 기록하고 출혈·혈뇨·비정상 분비물의 진료 신호를 구분하는 법",
       "slug": "gsm-dryness-urinary-signs",
       "cluster": "menopause",
       "main_keyword": "폐경 후 질 건조",
-      "extended_keywords": ["갱년기 빈뇨", "외음부 따가움", "폐경 후 출혈"],
+      "extended_keywords": [
+        "갱년기 빈뇨",
+        "외음부 따가움",
+        "폐경 후 출혈"
+      ],
       "search_intent": "제품 구매와 진료 사이에서 증상 위치와 경고 신호를 구분",
       "primary_reader_situation": "질 건조·외음부 자극·빈뇨가 함께 생겨 모두 갱년기인지 망설이는 폐경 전후 여성",
       "decision_criterion": "증상 위치와 출혈·혈뇨·비정상 분비물 동반 여부",
@@ -90,13 +98,17 @@
     {
       "id": "a009",
       "status": "done",
-      "score": 94,
+      "score": 99,
       "title": "골밀도 검사 결과표, T점수만 보지 말아야 하는 이유",
       "subtitle": "폐경 후 골밀도 검사 결과를 측정부위·골절력·키 변화·복용 약과 함께 읽고 재검 질문을 준비하는 법",
       "slug": "bone-density-result-next-questions",
       "cluster": "bone-muscle",
       "main_keyword": "골밀도 검사 결과",
-      "extended_keywords": ["T점수", "폐경 후 골밀도", "골밀도 재검"],
+      "extended_keywords": [
+        "T점수",
+        "폐경 후 골밀도",
+        "골밀도 재검"
+      ],
       "search_intent": "DXA 결과표의 T점수를 다음 진료 질문으로 해석",
       "primary_reader_situation": "폐경 후 DXA 결과표를 받고 수치 하나만 검색 중인 여성",
       "decision_criterion": "측정부위, 골절·키 변화, 약물·질환, 재검 목적의 동시 확인",
@@ -110,14 +122,29 @@
       "not_answered_here": "치료 시작 기준, 약 선택, 해외 FRAX 자가계산",
       "structure_type": "서류분석형",
       "structure_reason": "실제 결과표의 필드와 빠진 임상 맥락을 순서대로 읽어야 함",
-      "visual_elements": ["summary box", "document anatomy table", "caution box", "checklist box"],
+      "visual_elements": [
+        "summary box",
+        "document anatomy table",
+        "caution box",
+        "checklist box"
+      ],
       "draft_path": "output/wonon/drafts/a009-bone-density-result.mdx",
       "research_path": "output/wonon/research/a009-bone-density-result.json",
       "qa_path": "output/wonon/qa/a009-bone-density-result.json",
       "title_pattern_signature": "bone-density-report-t-score-not-alone",
       "subtitle_pattern_signature": "postmenopause-bmd-sites-history-meds-followup",
       "opening_frame": "결과표 T점수에 동그라미를 치는 장면",
-      "section_role_sequence": ["direct answer", "document anatomy", "score limit", "measurement exception", "risk context", "screening boundary", "follow-up purpose", "consultation", "document close"],
+      "section_role_sequence": [
+        "direct answer",
+        "document anatomy",
+        "score limit",
+        "measurement exception",
+        "risk context",
+        "screening boundary",
+        "follow-up purpose",
+        "consultation",
+        "document close"
+      ],
       "cta_type": "결과표 전체와 네 가지 병력 메모 준비"
     }
   ]

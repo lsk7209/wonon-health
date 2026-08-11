@@ -1,12 +1,78 @@
 {
   "article_id": "a008",
   "status": "done",
-  "score": 93,
-  "category_scores": { "content_quality": 28, "seo": 22, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 14 },
-  "hard_gate_results": { "persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "source_interpretation": "pass", "ymyl": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass" },
-  "measurements": { "reader_visible_korean_characters": 3515, "h2_count": 8, "internal_link_count": 3, "official_source_count": 6 },
-  "compared_rows": ["a007", "menopause-when-to-see-a-doctor", "hot-flash-daily-record"],
-  "similarity_signals": { "title_pattern": "distinct", "intro_frame": "distinct product-selection scene", "section_role_sequence": "distinct three-zone map", "cta_type": "four-cell symptom map" },
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "deduction": {
+    "points": 1,
+    "category": "technical_elements",
+    "reason": "MDX frontmatter, image alt text, canonical slug, mobile-scannable tables, internal links, and reader-visible citations are ready, but this draft alone cannot prove the production renderer's JSON-LD output until the shared content schema is integrated."
+  },
+  "hard_gate_results": {
+    "persona_consistency": "pass",
+    "fact_traceability": "pass",
+    "research_gate": "pass",
+    "source_interpretation": "pass",
+    "article_specific_detail_usage": "pass",
+    "ymyl": "pass",
+    "no_diagnosis_or_product_recommendation": "pass",
+    "breast_and_uterine_cancer_history_safety": "pass",
+    "content_uniqueness": "pass",
+    "article_contract_uniqueness": "pass",
+    "title_template_uniqueness": "pass",
+    "structure_variation": "pass",
+    "visual_elements": "pass",
+    "heading_quality": "pass",
+    "reader_visible_official_citations": "pass",
+    "technical_readiness": "pass",
+    "body_length": "pass"
+  },
+  "measurements": {
+    "reader_visible_korean_characters": 3832,
+    "h2_count": 8,
+    "h3_count": 1,
+    "internal_link_count": 3,
+    "official_source_count": 5,
+    "reader_visible_official_citation_count": 10,
+    "decision_artifacts": ["three-zone symptom map", "red-flag split table", "lubricant-versus-moisturizer comparison", "four-cell seven-day record"]
+  },
+  "material_detail_mapping": [
+    {
+      "research_detail": "S2: 윤활제는 성활동 시 마찰 감소, 질 보습제는 규칙적 수분 유지",
+      "draft_section": "질 윤활제와 질 보습제는 제품 이름이 아니라 쓰는 순간이 다릅니다",
+      "visible_sentence_match": "윤활제는 성활동 때 마찰을 줄이는 용도이고, 질 보습제는 규칙적으로 사용해 일상적인 수분 유지를 돕는 용도로 구분됩니다."
+    },
+    {
+      "research_detail": "S3: 방향화효소억제제 복용 시 환자·산부인과·종양의 공동결정",
+      "draft_section": "유방암·자궁암 병력이 있으면 치료 선택 대신 공동결정 질문을 준비합니다",
+      "visible_sentence_match": "방향화효소억제제를 쓰는 경우 저용량 질 에스트로겐은 환자·산부인과·종양의가 함께 결정하도록 안내합니다."
+    }
+  ],
+  "technical_readiness": {
+    "frontmatter_title_subtitle_description_slug": "pass",
+    "image_alt_suggestion": "pass",
+    "mobile_scannable_tables": "pass",
+    "semantic_visual_elements": "pass",
+    "og_meta_input": "pass",
+    "schema_rendering_verification": "deferred_to_shared_site_integration"
+  },
+  "compared_rows": ["a007", "a009", "menopause-when-to-see-a-doctor", "hot-flash-daily-record", "health-checkup-questions"],
+  "similarity_signals": {
+    "title_pattern": "distinct symptom-location consultation memo",
+    "intro_frame": "product-selection decision under symptom ambiguity",
+    "section_role_sequence": "direct answer → three-zone map → red-flag split → purpose comparison → seven-day record → cancer-history branch → consultation questions → one-action close",
+    "cta_type": "four-cell observation memo",
+    "source_interpretation": "GSM scope is translated into a location map while bleeding, hematuria, and cancer-history treatment discussions remain separate decision branches"
+  },
   "repair_attempted": true,
-  "remaining_risks": ["medical-expert review not completed", "not yet integrated into production content schema"]
+  "remaining_risks": [
+    "Medical-expert review is not completed.",
+    "The MDX is not yet integrated into the shared production content schema, so rendered JSON-LD is intentionally the sole one-point technical deduction."
+  ]
 }

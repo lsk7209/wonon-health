@@ -46,8 +46,29 @@
     ,{ "claim": "질용이 아닌 일반 크림이나 로션을 질 안에 사용하면 자극이나 감염을 일으킬 수 있다.", "source_id": "S4", "claim_type": "safety", "source_date": "2025-01-01", "supports_section": "윤활제와 질 보습제는 쓰는 순간이 다릅니다" }
     ,{ "claim": "유방암 또는 자궁암 병력이 있는 사람의 저용량 질 호르몬 치료는 주치의·종양의와 공동 의사결정으로 논의할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-05-01", "supports_section": "유방암·자궁암 병력이 있다면 치료 질문이 달라집니다" }
   ],
+  "reader_visible_citation_plan": [
+    { "source_id": "S1", "draft_section": "폐경 후 질 건조와 갱년기 빈뇨는 세 위치로 나눠 적습니다", "citation_text": "The Menopause Society의 증상 안내" },
+    { "source_id": "S2", "draft_section": "질 윤활제와 질 보습제는 제품 이름이 아니라 쓰는 순간이 다릅니다", "citation_text": "The Menopause Society GSM MenoNote" },
+    { "source_id": "S4", "draft_section": "폐경 후 출혈·비정상 분비물·혈뇨는 같은 칸에 쓰지 않습니다", "citation_text": "NHS의 질 건조 안내" },
+    { "source_id": "S6", "draft_section": "폐경 후 출혈·비정상 분비물·혈뇨는 같은 칸에 쓰지 않습니다", "citation_text": "미국 국립암연구소(NCI)" },
+    { "source_id": "S3", "draft_section": "유방암·자궁암 병력이 있으면 치료 선택 대신 공동결정 질문을 준비합니다", "citation_text": "ACOG 임상 합의문" }
+  ],
+  "material_detail_usage": [
+    {
+      "detail_source_id": "S2",
+      "detail_claim": "윤활제는 성활동 때 마찰을 줄이고, 질 보습제는 규칙적으로 사용해 수분 유지를 돕는다.",
+      "draft_section": "질 윤활제와 질 보습제는 제품 이름이 아니라 쓰는 순간이 다릅니다",
+      "draft_sentence": "윤활제는 성활동 때 마찰을 줄이는 용도이고, 질 보습제는 규칙적으로 사용해 일상적인 수분 유지를 돕는 용도로 구분됩니다."
+    },
+    {
+      "detail_source_id": "S3",
+      "detail_claim": "방향화효소억제제 복용자는 저용량 질 에스트로겐을 환자·산부인과·종양의가 공동결정한다.",
+      "draft_section": "유방암·자궁암 병력이 있으면 치료 선택 대신 공동결정 질문을 준비합니다",
+      "draft_sentence": "방향화효소억제제를 쓰는 경우 저용량 질 에스트로겐은 환자·산부인과·종양의가 함께 결정하도록 안내합니다."
+    }
+  ],
   "fact_traceability_pass": true,
   "unresolved_claims": [],
   "source_conflicts": [],
-  "conflict_note": "ACOG 2021과 NCI 2023은 오래된 자료지만 현행 공식 페이지이며, TMS 2025/2026 및 NHS 2026 자료로 현재성을 교차 확인했다."
+  "conflict_note": "ACOG 2021과 NCI 2023은 오래된 자료지만 현행 공식 페이지이며, TMS 2025/2026 및 NHS 2025 자료로 현재성을 교차 확인했다. 2026-08-11에 TMS·NHS·NCI 원문 접근을 재확인했고, ACOG는 원문 접근 제한에도 공식 영구 URL과 기존 사실 추적을 유지했다."
 }

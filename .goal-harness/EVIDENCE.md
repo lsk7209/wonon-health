@@ -121,3 +121,14 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - Actual `manifest.py update` accepted score 99 for all six rows.
 - Strict audits `--window 5` and `--window 20`: PASS, warnings 0.
 - Independent final audit: PASS for all six; see `output/wonon/batch-20/qa-99-independent-audit.md`.
+
+## Three live-article 99-point upgrade
+
+- a007/a008/a009 QA and manifest scores: 99/100.
+- Actual reader-visible Hangul bodies: 4,215 / 3,859 / 4,150.
+- Generated HTML has no U+5A9B, U+0080, or U+FFFD corruption markers.
+- Reader-visible official citations map to research packets; material-detail sentence similarity exceeds policy threshold.
+- `npm run build`: PASS, 27 static pages. `npx tsc --noEmit`: PASS.
+- Independent audit: PASS; prior false length result was withdrawn after ASCII-safe Unicode measurement.
+- Vercel deployment `dpl_7Psz9wVYNh7T1hhEosREzdKr51vk`: READY, remote build 27 pages.
+- Stable preview smoke: all three upgraded URLs HTTP 200, long-form markup present, bad encoding markers absent, and 13-15 external citation links per page.

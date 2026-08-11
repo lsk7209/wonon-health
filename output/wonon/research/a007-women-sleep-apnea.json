@@ -1,4 +1,14 @@
 {
+  "draft_citation_plan": {
+    "source_ids": ["S1", "S2", "S3", "S5"],
+    "placement": "각 의료·안전·수면위생 사실 문장 뒤의 독자용 공식 링크와 frontmatter readerSources",
+    "purpose": "독자가 증상·안전·상담 근거를 직접 확인하되, 링크를 자가진단이나 치료 지시로 오해하지 않게 한다."
+  },
+  "technical_readiness": {
+    "schema_type": "Article",
+    "about": "여성 수면무호흡 의심 신호와 상담 준비",
+    "og_image_alt": "새벽 각성, 낮 졸림, 동침자 호흡 관찰을 두 칸으로 나눠 적은 수면 상담 기록표"
+  },
   "article_id": "a007",
   "title": "갱년기 불면으로 넘기기 전, 여성 수면무호흡 의심 신호",
   "accessed": "2026-08-11",
@@ -12,6 +22,7 @@
   ],
   "article_research_question": "갱년기 전후 자주 깨는 여성이 단순 불면 관리와 수면무호흡 평가 필요성을 어떤 관찰 정보로 구분할 수 있는가?",
   "reader_outcome": "코골이 유무만으로 배제하지 않고 본인 증상과 동침자 관찰을 분리 기록해 진료 질문을 준비한다.",
+  "search_intent_insight": "검색자는 여성에게 큰 코골이가 없을 때도 수면무호흡 평가를 물어봐야 하는지, 갱년기 불면과 무엇을 구분해 기록할지 찾는다.",
   "competitor_gap": "일반 검색 결과는 수면위생이나 큰 코골이를 중심으로 설명하는 경우가 많아, 여성에서 피로·불면·아침 두통·잦은 각성이 더 두드러질 수 있다는 공식 근거와 관찰자별 기록법을 함께 제공하는 글이 부족하다.",
   "information_gain": "본인이 느끼는 낮 증상과 동침자가 관찰하는 밤 호흡 신호를 2열 기록표로 분리하고, 기존 원온 수면위생 글과 달리 검사 상담 결정만 다룬다.",
   "unique_angle": "코골이가 크지 않아도 수면무호흡을 배제하지 않는 여성 중심의 상담 준비 도구",
@@ -35,9 +46,11 @@
   ],
   "data_points": [
     { "claim": "여성의 수면무호흡 위험은 폐경 중과 이후 증가할 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2025-02-04", "supports_section": "여성 수면무호흡은 큰 코골이만으로 찾기 어렵습니다" },
+    { "claim": "NHLBI 여성 안내의 최종 갱신일은 2025-02-04이다.", "source_id": "S1", "claim_type": "date", "source_date": "2025-02-04", "supports_section": "여성 수면무호흡은 큰 코골이만으로 찾기 어렵습니다" },
     { "claim": "여성에게 불면, 피로, 아침 두통, 잦은 각성이 더 흔한 표현일 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2025-02-04", "supports_section": "여성 수면무호흡은 큰 코골이만으로 찾기 어렵습니다" },
     { "claim": "수면 중 호흡 시작과 정지, 헐떡임은 관찰 가능한 증상이다.", "source_id": "S2", "claim_type": "medical", "source_date": "2025-01-09", "supports_section": "내가 느낀 것과 옆 사람이 본 것을 나눠 적으세요" },
     { "claim": "질병관리청은 여성의 코골이가 폐경기 후 증가한다고 설명한다.", "source_id": "S3", "claim_type": "medical", "source_date": "2026-05-11", "supports_section": "갱년기 불면과 수면무호흡을 한쪽으로 단정하지 않는 법" },
+    { "claim": "질병관리청 코골이 자료의 갱신일은 2026-05-11이다.", "source_id": "S3", "claim_type": "date", "source_date": "2026-05-11", "supports_section": "갱년기 불면과 수면무호흡을 한쪽으로 단정하지 않는 법" },
     { "claim": "증상에 따라 수면검사가 진단에 필요할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-01-09", "supports_section": "수면무호흡 상담을 예약할 결정 기준" }
     ,{ "claim": "갱년기에는 열감·수면 문제·기분 변화가 나타날 수 있다.", "source_id": "S6", "claim_type": "medical", "source_date": "2026-05-19", "supports_section": "도입부와 갱년기 불면 분기" }
     ,{ "claim": "수면무호흡은 낮 피로와 집중 저하를 일으킬 수 있고 심한 경우 기계 조작·졸음운전 사고 위험과 연결된다.", "source_id": "S3", "claim_type": "safety", "source_date": "2026-05-11", "supports_section": "코골이는 없지만 낮 기능이 무너진다면" }

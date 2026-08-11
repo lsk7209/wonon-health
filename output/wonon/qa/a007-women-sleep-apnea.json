@@ -1,27 +1,81 @@
 {
   "article_id": "a007",
   "status": "done",
-  "score": 94,
-  "category_scores": { "content_quality": 28, "seo": 23, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 14 },
-  "hard_gate_results": {
-    "persona_consistency": "pass",
-    "fact_traceability": "pass",
-    "research_gate": "pass",
-    "per_article_research_packet": "pass",
-    "source_interpretation": "pass",
-    "ymyl": "pass",
-    "content_uniqueness": "pass",
-    "helpful_content_purpose": "pass",
-    "article_contract_uniqueness": "pass",
-    "title_subtitle_keyword_coverage": "pass",
-    "structure_variation": "pass",
-    "visual_elements": "pass",
-    "heading_quality": "pass",
-    "body_length": "pass"
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
+    "ai_citation_readiness": 14
   },
-  "measurements": { "reader_visible_korean_characters": 3609, "h2_count": 7, "internal_link_count": 3, "official_source_count": 6 },
-  "compared_rows": ["sleep-after-45", "hot-flash-daily-record", "menopause-when-to-see-a-doctor"],
-  "similarity_signals": { "intro_frame": "distinct 새벽 각성 장면", "section_role_sequence": "distinct 판단트리", "source_interpretation": "distinct 여성 특이 신호와 관찰자 분리", "cta_type": "one-action record" },
-  "repair_attempted": true,
-  "remaining_risks": ["의료전문가 개별 검토 전", "한국 검색 콘솔 실측 쿼리 데이터 미반영", "공개 전 MDX를 현재 TypeScript 콘텐츠 스키마로 편입해야 함"]
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "per_article_research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "ymyl_review": true,
+    "content_uniqueness": true,
+    "helpful_content_purpose": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "technical_schema_image_alt_readiness": true,
+    "reader_visible_official_citations": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true,
+    "utf8_korean_text": true
+  },
+  "measurements": {
+    "reader_visible_korean_characters": 4122,
+    "h2_count": 7,
+    "h3_count": 4,
+    "internal_link_count": 3,
+    "official_source_count": 6,
+    "reader_visible_official_citation_count": 8,
+    "article_specific_details_used": 2
+  },
+  "compared_rows": [
+    "sleep-after-45",
+    "hot-flash-daily-record",
+    "menopause-when-to-see-a-doctor",
+    "a008-gsm-signs",
+    "a009-bone-density-result"
+  ],
+  "similarity_signals": {
+    "intro_frame": "새벽 각성과 동침자의 '심하게 골지 않았다'는 말 사이에서 판단을 미루는 장면",
+    "section_role_sequence": "직접 답 > 여성 특이 신호 > 2관찰자 표 > 갱년기 분기 > 상담 기준 > 3갈래 결정 메모 > 기록 > 진료 질문 > 안전 행동",
+    "faq_shape": "FAQ 없이 수면검사 상담 질문 카드로 종료",
+    "cta_type": "오늘 밤부터 2열 관찰 메모를 시작하거나 안전 영향이 있으면 먼저 상담",
+    "source_interpretation": "NHLBI 여성 증상과 KDCA의 국내 안전·악화 요인을 자가진단 점수 대신 관찰자 분리와 상담 우선순위로 번역",
+    "prose_overlap": "대상 비교 글들과 동일한 정의-원인-치료 순서를 사용하지 않으며, 판정 도구와 결말 행동이 수면호흡 상담에 한정된다."
+  },
+  "repair_attempted": "기존 94점 초안을 exact 30/25/15/15/15 루브릭으로 다시 읽고, 의료·안전·수면위생 사실 문장에 독자용 공식 링크를 추가했다. NHLBI 2025-02-04와 KDCA 2026-05-11이라는 두 정확한 자료 세부사항을 본문·근거팩에 맞췄고, 3갈래 결정 메모와 Article schema·OG/image-alt 준비도를 보강했다.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "직접 답, 명확한 엔터티, 질문 카드와 공식 인용은 갖췄지만, 이 YMYL 글은 독립된 답변만으로 진단·검사 필요성을 확정할 수 없고 개인 병력과 안전 상황의 진료 맥락이 반드시 필요하다. 그 불가피한 맥락 의존성으로 AI 인용 준비도에서만 1점을 공제한다.",
+  "remaining_risks": [
+    "의료전문가의 개별 검토와 개인 진단·치료 결정은 아직 수행되지 않았다.",
+    "MDX 초안은 현재 TypeScript 콘텐츠 스키마에 아직 편입되지 않았다."
+  ],
+  "validation": {
+    "research_runs": 3,
+    "sources": 6,
+    "official_or_primary_sources": 6,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "structure_type": "판단트리형",
+    "visual_elements": ["summary box", "two-observer table", "three-way decision memo", "consultation questions"],
+    "semantic_colors": ["#2563EB", "#B45309"],
+    "technical_readiness": ["Article schema notes", "OG image alt", "two image-alt suggestions", "readerSources"],
+    "utf8_encoding": "validated"
+  },
+  "risk_acceptance_note": "교육용 상담 준비 정보이며, 증상으로 질병을 단정하거나 약·치료를 선택하지 않는다."
 }

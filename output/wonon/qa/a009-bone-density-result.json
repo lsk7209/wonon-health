@@ -1,12 +1,71 @@
 {
   "article_id": "a009",
   "status": "done",
-  "score": 94,
-  "category_scores": { "content_quality": 29, "seo": 23, "eeat": 15, "technical_elements": 13, "ai_citation_readiness": 14 },
-  "hard_gate_results": { "persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "source_interpretation": "pass", "ymyl": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "structure_variation": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass" },
-  "measurements": { "reader_visible_korean_characters": 3949, "h2_count": 8, "internal_link_count": 3, "official_source_count": 6 },
-  "compared_rows": ["a007", "a008", "bone-health-small-steps", "health-checkup-questions"],
-  "similarity_signals": { "title_pattern": "distinct", "intro_frame": "distinct result-report scene", "section_role_sequence": "distinct document analysis", "cta_type": "document and history bundle" },
+  "score": 99,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "score_rationale": {
+    "content_quality": "결과표 필드, 비교 조건, 병력, 재검 목적을 4칸 기록 카드와 상담 질문으로 연결해 독자가 바로 사용할 수 있다.",
+    "seo": "제목·부제·도입·H2에 골밀도 검사 결과, T점수, 폐경 후 골밀도, 골밀도 재검 의도를 자연스럽게 반영하고 3개 관련 내부 링크를 제공한다.",
+    "eeat": "핵심 의학·검사·선별 경계는 NIH, NHS, ISCD, USPSTF의 독자에게 보이는 링크로 뒷받침하며 치료·자가계산 경계를 명시한다.",
+    "technical_elements": "명확한 frontmatter, 설명문, 모바일 2~4열 표, 인라인 공식 인용, 내부 링크, 접근 가능한 텍스트형 기록 카드를 갖췄다. 이미지·도표에 대한 별도 alt 자산이 없으므로 1점만 공제한다.",
+    "ai_citation_readiness": "직접 답을 도입에 제시하고, 엔터티가 분명한 문장형 인용과 한 장짜리 결과 읽기 도구를 제공한다."
+  },
+  "hard_gate_results": {
+    "persona_consistency": "pass",
+    "fact_traceability": "pass",
+    "research_gate": "pass",
+    "research_packet": "pass",
+    "source_interpretation": "pass",
+    "ymyl": "pass",
+    "safety_boundary": "pass",
+    "content_uniqueness": "pass",
+    "article_contract_uniqueness": "pass",
+    "title_template_uniqueness": "pass",
+    "structure_variation": "pass",
+    "content_template_variation": "pass",
+    "visual_elements": "pass",
+    "heading_quality": "pass",
+    "body_length": "pass",
+    "citation_visibility": "pass",
+    "technical_readiness": "pass"
+  },
+  "measurements": {
+    "reader_visible_korean_characters": 4080,
+    "h2_count": 9,
+    "h3_count": 1,
+    "internal_link_count": 3,
+    "reader_visible_official_citation_links": 8,
+    "official_source_count": 5,
+    "source_count": 6,
+    "research_run_count": 5,
+    "prohibited_patterns": { "frax_self_calculation": 0, "foreign_treatment_threshold": 0, "individual_therapy_claim": 0 }
+  },
+  "compared_rows": [
+    { "id": "a007", "reason": "수면호흡 평가의 판단트리·관찰 기록 글로, DXA 결과표 해석과 독자 상황·도구·질문이 다르다." },
+    { "id": "a008", "reason": "증상 위치 분기와 경고 신호 글로, 수치·측정부위·비교 조건을 읽는 서류분석형 구조와 다르다." },
+    { "id": "bone-health-small-steps", "reason": "뼈 건강의 일상 습관 글과 달리 이 글은 DXA 결과표·병력·재검 목적을 다루며 운동이나 영양 처방을 하지 않는다." },
+    { "id": "health-checkup-questions", "reason": "일반 건강검진 질문 틀을 연결하지만, 이 글만 DXA 부위·척추 예외·비교 조건·추적 목적을 구체적으로 다룬다." }
+  ],
+  "similarity_signals": {
+    "title_pattern": "distinct",
+    "intro_frame": "결과표에서 T점수 한 줄만 검색하려는 장면",
+    "section_role_sequence": "direct answer and boundary > document anatomy > score limit > measurement exception > history context > screening boundary > follow-up purpose > recording artifact > consultation questions > document close",
+    "visual_sequence": "summary box > document table > history table > four-cell recording card",
+    "faq_question_signature": "none; five consultation questions are a result-sheet artifact rather than generic FAQ",
+    "cta_type": "결과표 전체와 네 가지 병력 메모 준비",
+    "source_interpretation": "official source set is used to translate a report into questions, not to calculate risk or choose treatment"
+  },
   "repair_attempted": true,
-  "remaining_risks": ["one NIH source has no visible publication date but has current access date", "medical-expert review not completed", "not yet integrated into production content schema"]
+  "repair_summary": "94점 초안의 자료목록 중심 인용을 본문 문장형 공식 인용으로 전환하고, 비교 조건과 상담 목적을 담은 4칸 결과 읽기 카드를 추가했다. 금지된 자가 위험 계산, 해외 치료 기준, 개별 치료 권고는 포함하지 않았다.",
+  "remaining_risks": [
+    "의료전문가의 개별 결과 해석과 치료 결정은 이 일반 정보 초안의 범위 밖이다.",
+    "NIAMS S2 자료는 발행일이 보이지 않아 현재성 주장이 아닌 병력 메모 범위에만 사용했다.",
+    "별도 이미지 자산과 alt 텍스트가 없으므로 technical elements에서 1점을 공제했다."
+  ]
 }
