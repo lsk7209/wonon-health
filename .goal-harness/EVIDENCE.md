@@ -17,6 +17,12 @@ Level: 3
 | project-stack-audit.py | PASS | Next.js/npm/Vercel, zero warnings/errors |
 | ga4-auto-setup.py --inject | PASS | `G-3NJ07LPVXD` configured |
 | adsense-auto-setup.py --inject --ads-txt | PASS | Auto ads and ads.txt configured |
+| gh repo create/push | PASS | `lsk7209/wonon-health`, commits `ad2ad17` and `58f5f16` |
+| vercel --prod | PASS | deployment `dpl_CDrE5eWBFxcVgQtufV7dXSoXqH6a`, 22 pages |
+| vercel domains add/inspect | ACTION REQUIRED | exact record `A wonon.ehon365.kr 76.76.21.21` |
+| public Vercel route smoke | PASS | home, articles, trust, robots, sitemap, ads.txt all HTTP 200 |
+| canonical audit | FAIL then FIXED | per-route self canonicals added in `58f5f16` and redeployed |
+| custom domain DNS | BLOCKED | NXDOMAIN; server-1 account does not control zone |
 
 ## Test Results
 
