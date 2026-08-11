@@ -2,6 +2,7 @@ node_modules/
 .next/
 .vercel/
 .omx/
+.playwright-cli/
 .env*
 !.env.example
 npm-debug.log*
