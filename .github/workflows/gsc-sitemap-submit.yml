@@ -18,40 +18,48 @@ jobs:
   submit:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Authenticate service account
         id: auth
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
-          token_format: access_token
-          access_token_scopes: https://www.googleapis.com/auth/webmasters
+          create_credentials_file: true
 
       - name: Wait for the production deployment
         run: sleep 90
 
       - name: Submit and verify the canonical sitemap
         env:
-          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           SITE_URL: https://wonon.ehon365.kr/
           SITEMAP_URL: https://wonon.ehon365.kr/sitemap.xml
         run: |
           set -euo pipefail
-          site_path=$(python3 -c "import os, urllib.parse; print(urllib.parse.quote(os.environ['SITE_URL'], safe=''))")
-          sitemap_path=$(python3 -c "import os, urllib.parse; print(urllib.parse.quote(os.environ['SITEMAP_URL'], safe=''))")
-          endpoint="https://www.googleapis.com/webmasters/v3/sites/${site_path}/sitemaps/${sitemap_path}"
+          python3 -m pip install --quiet google-api-python-client google-auth
+          python3 <<'PY'
+          import os
+          import time
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
 
-          curl --fail-with-body --silent --show-error \
-            -X PUT \
-            -H "Authorization: Bearer ${ACCESS_TOKEN}" \
-            "$endpoint"
-
-          for attempt in $(seq 1 12); do
-            payload=$(curl --fail-with-body --silent --show-error \
-              -H "Authorization: Bearer ${ACCESS_TOKEN}" \
-              "$endpoint")
-            printf '%s' "$payload" | python3 -c "import json,sys; item=json.load(sys.stdin); assert not item.get('isPending', True), item; assert not item.get('errors'), item; assert not item.get('warnings'), item; assert item.get('lastDownloaded'), item; print('GSC sitemap verified: downloaded with zero errors and warnings')" && exit 0
-            sleep 20
-          done
-
-          echo 'GSC did not finish processing within the verification window.' >&2
-          exit 1
+          site = os.environ['SITE_URL']
+          sitemap = os.environ['SITEMAP_URL']
+          credentials = service_account.Credentials.from_service_account_file(
+              os.environ['GOOGLE_APPLICATION_CREDENTIALS'],
+              scopes=['https://www.googleapis.com/auth/webmasters'],
+          )
+          service = build('searchconsole', 'v1', credentials=credentials, cache_discovery=False)
+          service.sitemaps().submit(siteUrl=site, feedpath=sitemap).execute()
+          for _ in range(12):
+              item = service.sitemaps().get(siteUrl=site, feedpath=sitemap).execute()
+              if not item.get('isPending'):
+                  assert not item.get('errors'), item
+                  assert not item.get('warnings'), item
+                  assert item.get('lastDownloaded'), item
+                  print('GSC sitemap verified: downloaded with zero errors and warnings')
+                  break
+              time.sleep(20)
+          else:
+              raise SystemExit('GSC did not finish processing within the verification window.')
+          PY
