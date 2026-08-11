@@ -1,15 +1,15 @@
 # Current Handoff
 
-- Timestamp: 2026-08-11 19:49 KST
+- Timestamp: 2026-08-11 20:01 KST
 - User goal: Keep the initial twenty articles public, create thirty additional 99-point research-backed Korean health articles, and release all later content automatically at five-hour intervals.
-- Exact current state: Goal harness is active. All thirty batch-30 articles are independently verified at 99/done and integrated into a unified 59-article catalog. The explicit request-time schedule contains the original baseline twenty, the existing nine five-hour slots, and thirty additional five-hour slots from 2026-08-13 17:00 KST through 2026-08-19 18:00 KST. Local final verification is active before production deployment.
+- Exact current state: Goal is complete. All thirty batch-30 articles are independently verified at 99/done, integrated into a unified 59-article catalog, committed, pushed, and deployed to Vercel production. The request-time schedule contains baseline twenty, the existing nine slots, and thirty additional five-hour slots from 2026-08-13 17:00 KST through 2026-08-19 18:00 KST.
 - Completed work: Thirty research-backed drafts, research packets, and QA packets; five checkpoint audits; final corpus audit; unified catalog/search/topic/article integration; JSON-LD citation extraction; request-time schedule and deterministic privacy tests.
-- Changed files/live systems: Scheduler and route discovery surfaces are modified; `content/longform.ts` loads batch-30; all batch artifacts and audits exist under `output/wonon/batch-30/`. No new deployment, DNS, AdSense, or indexing action has occurred yet in this increment.
-- Fresh validation: Final corpus audit PASS; manifest 30/30 done at 99; catalog 59 unique; baseline 20 and schedule 39 with exact five-hour gaps and no missing/unscheduled catalog slugs. Contract validator, scheduler tests 3/3, TypeScript, production build, and diff check pass.
-- Side effects/rollback: Local changes only so far; restore the pre-scheduler route/content files to roll back. Existing production deployment remains unchanged.
-- Blocker/risk: Production deployment and live behavior remain unverified. DNS remains deliberately deferred. At the 2026-08-11 19:49 KST local smoke, the first existing scheduled slot at 20:00 KST was still correctly private.
-- Deliberately not run/sent: No new article publication, Vercel deployment, DNS mutation, AdSense action, or indexing submission.
-- Single next step: finish final manifest/catalog/schedule alignment verification, deploy to Vercel production, and verify live public/future route behavior and discovery surfaces.
+- Changed files/live systems: Git commit `582848e` pushed to `origin/main`; Vercel production deployment `dpl_FrLH27tmCy2MQEq9DTtCXyMxUxNr` is Ready and aliased to `https://wonon-health.vercel.app`. DNS, AdSense console, and indexing services were not mutated.
+- Fresh validation: Final corpus audit PASS; manifest 30/30 done at 99; catalog 59 unique; baseline 20 and schedule 39 with exact five-hour gaps. Contract validator, scheduler tests 3/3, TypeScript, local and Vercel production builds, and diff check pass. Live at 19:54 KST: 20 public articles and all 39 scheduled routes private. At 20:00:22 KST the first scheduled article changed to 200 with JSON-LD and appeared in `/articles` and sitemap, raising both counts to 21; the next slot remained 404/noindex and undiscoverable.
+- Side effects/rollback: Production deployment and Git commit were created. Rollback is a Vercel promotion to the prior production deployment plus reverting commit `582848e`; no DNS rollback is required.
+- Blocker/risk: No blocker for the requested goal. Future 404 pages render restrictive `noindex` without contradictory index/follow; they do not literally preserve `nofollow`, which is a non-blocking Next.js rendering detail. DNS remains deliberately deferred.
+- Deliberately not run/sent: No authoritative DNS mutation, AdSense console action, GSC/Naver/IndexNow submission, medical-expert signature, email, or external broadcast.
+- Single next step: none required; allow the request-time schedule to continue automatically. The last of the thirty new articles is scheduled for 2026-08-19 18:00 KST.
 
 ## Previous completed increment
 
