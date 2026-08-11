@@ -24,6 +24,13 @@ Level: 3
 | canonical audit | FAIL then FIXED | per-route self canonicals added in `58f5f16` and redeployed |
 | custom domain DNS | BLOCKED | NXDOMAIN; server-1 account does not control zone |
 
+### 2026-08-11 09:42 KST - Third blocker audit
+
+- `Resolve-DnsName wonon.ehon365.kr`: no A answer / NXDOMAIN.
+- `curl https://hosting.co.kr`: connection timed out again.
+- `vercel domains inspect wonon.ehon365.kr`: domain mapping exists, configuration remains invalid, exact required record remains `A wonon.ehon365.kr 76.76.21.21`.
+- Conclusion: No meaningful in-scope progress is possible without authenticated authoritative DNS access; objective remains incomplete.
+
 ## Test Results
 
 | Test | Result | Notes |
