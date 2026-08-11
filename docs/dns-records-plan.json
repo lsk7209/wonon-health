@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "status": "planned",
+  "provider": "vercel",
+  "domain": "wonon.ehon365.kr",
+  "records": [
+    {
+      "host": "@",
+      "type": "A",
+      "value": "76.76.21.21",
+      "purpose": "Vercel apex domain routing"
+    },
+    {
+      "host": "www",
+      "type": "CNAME",
+      "value": "cname.vercel-dns.com",
+      "purpose": "Vercel www subdomain routing"
+    }
+  ],
+  "verification": {
+    "required_receipt": "docs/dns-change-receipt.json",
+    "required_post_change_check": "scripts/production-health-check.py",
+    "mark_verified_only_after": [
+      "Vercel domain dashboard shows valid configuration.",
+      "Production URL resolves over HTTPS.",
+      "robots.txt and sitemap.xml return 200 from production."
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "last_updated": "2026-08-11T00:25:16.340280+00:00"
+}

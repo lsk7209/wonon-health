@@ -1,0 +1,268 @@
+{
+  "project": {
+    "site_name": "원온",
+    "framework": "nextjs",
+    "stack_config_file": "docs/project-stack-audit.json",
+    "root_path": "D:\\web\\wononehon365kr",
+    "docs_path": "docs",
+    "status": "planned",
+    "completion_state": "local_only_complete"
+  },
+  "orchestration": {
+    "mode": "leader_only",
+    "active_phase": "brief",
+    "integration_owner": "leader",
+    "phase_gates": [
+      {
+        "name": "brief_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "plan_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "build_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "external_action_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "content_publish_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "growth_ready",
+        "status": "not_started",
+        "evidence": []
+      },
+      {
+        "name": "done",
+        "status": "not_started",
+        "evidence": []
+      }
+    ],
+    "role_assignments": [],
+    "handoff_files": [],
+    "file_locks": [
+      "docs/project-plan.md",
+      "docs/launch-manifest.json",
+      "docs/content-schedule.json",
+      ".goal-harness/*"
+    ],
+    "last_gate_decision": ""
+  },
+  "brief": {
+    "site_topic": "중년여성 건강",
+    "one_line_concept": "45~65세 한국 여성을 위한 근거 기반 갱년기·검진·생활 건강 가이드",
+    "target_country": "KR",
+    "primary_language": "ko",
+    "audience": "45~65세 한국 여성",
+    "monetization_primary": "adsense",
+    "monetization_secondary": "affiliate"
+  },
+  "domain": {
+    "preferred_tld": ".kr",
+    "max_price_usd": 20,
+    "candidates": [],
+    "selected": "wonon.ehon365.kr",
+    "registrar": "",
+    "purchase_status": "not_started",
+    "dns_plan_file": "docs/dns-records-plan.json",
+    "renewal_note": ""
+  },
+  "repository": {
+    "git_status": "unknown",
+    "remote_url": "",
+    "latest_commit": "",
+    "push_status": "not_started"
+  },
+  "deployment": {
+    "provider": "vercel",
+    "project_name": "",
+    "production_url": "",
+    "status": "not_started",
+    "plan_file": "docs/deployment-plan.json",
+    "framework_preset": "nextjs",
+    "root_directory": ".",
+    "output_directory": "",
+    "environment_variables": []
+  },
+  "seo": {
+    "robots": "not_started",
+    "sitemap": "not_started",
+    "sitemap_config_file": "docs/sitemap.json",
+    "sitemap_file": "public/sitemap.xml",
+    "sitemap_url_count": 0,
+    "sitemap_placeholder_urls": 0,
+    "sitemap_duplicate_urls": 0,
+    "rss": "not_started",
+    "rss_config_file": "docs/rss-feed.json",
+    "rss_file": "public/feed.xml",
+    "rss_item_count": 0,
+    "llms": "not_started",
+    "crawler_config_file": "docs/crawler-files.json",
+    "crawler_placeholder_files": 0,
+    "robots_file": "public/robots.txt",
+    "llms_file": "public/llms.txt",
+    "metadata": "not_started",
+    "structured_data": "not_started",
+    "structured_data_file": "docs/structured-data.json",
+    "article_schema": "not_started",
+    "ai_visibility": "not_started",
+    "aeo": "not_started",
+    "geo": "not_started"
+  },
+  "analytics": {
+    "gsc": "not_started",
+    "ga4": "configured",
+    "ga4_measurement_id": "G-3NJ07LPVXD",
+    "ga4_tag_files": [
+      "app/layout.tsx"
+    ],
+    "indexnow": "not_started",
+    "naver_search_advisor": "not_started",
+    "naver_config_file": "docs/naver-search-advisor.json",
+    "config_file": "docs/search-visibility-config.json"
+  },
+  "monetization": {
+    "adsense": "configured",
+    "ads_txt": "configured",
+    "ads_txt_file": "public/ads.txt",
+    "adsense_publisher_id": "pub-3050601904412736",
+    "adsense_client_id": "ca-pub-3050601904412736",
+    "affiliate_disclosure": "not_started",
+    "affiliate_status": "not_started",
+    "affiliate_config_file": "docs/affiliate-monetization.json",
+    "affiliate_link_count": 0,
+    "affiliate_undisclosed_files": 0,
+    "policy_pages": "not_started",
+    "policy_config_file": "docs/policy-pages.json",
+    "policy_page_count": 0,
+    "policy_missing_required": 0,
+    "policy_placeholder_files": 0,
+    "adsense_readiness": {
+      "status": "not_started",
+      "original_content_evidence": [],
+      "navigation_crawl_check": "not_started",
+      "policy_pages_verified": "not_started",
+      "placeholder_scan": "not_started",
+      "ad_code_placement_status": "configured",
+      "affiliate_value_add_status": "not_started",
+      "human_review_status": "not_started",
+      "approval_status": "not_verified"
+    }
+  },
+  "public_data": {
+    "apis": [],
+    "cache_strategy": "",
+    "license_notes": ""
+  },
+  "pseo": {
+    "templates": [],
+    "indexable_pages": 0,
+    "noindex_pages": 0,
+    "status": "not_started"
+  },
+  "content": {
+    "target_count": 12,
+    "output_mode": "briefs_and_drafts_first",
+    "generated": 0,
+    "published": 0,
+    "scheduled": 0,
+    "draft": 0,
+    "blocked": 0,
+    "quality_reviewed": 0,
+    "schedule_file": "docs/content-schedule.json"
+  },
+  "validation": {
+    "commands": [
+      "ga4-auto-setup.py",
+      "adsense-auto-setup.py"
+    ],
+    "files_inspected": [],
+    "crawler_files": "not_started",
+    "sitemap_exclusions": "not_started",
+    "placeholder_scan": "not_started",
+    "broken_links": "not_started",
+    "canonical_domain_consistency": "not_started",
+    "source_license_attribution": "not_started",
+    "content_dedupe": "not_started",
+    "sample_article_review": "not_started",
+    "content_files": "not_started",
+    "site_baseline": "created",
+    "site_baseline_files": 4,
+    "adsense_auto_ads_script": "configured",
+    "adsense_auto_ads_files": [
+      "app/layout.tsx"
+    ],
+    "seo_page_audit": "not_started",
+    "seo_page_audit_file": "docs/seo-page-audit.json",
+    "seo_page_audit_findings": 0,
+    "gsc_sitemap_submission": "not_started",
+    "gsc_sitemap_submission_file": "docs/gsc-sitemap-submission.json",
+    "ga4_tag": "configured",
+    "ga4_tag_files": [
+      "app/layout.tsx"
+    ],
+    "ga4_tag_errors": [],
+    "naver_search_advisor": "not_started",
+    "naver_search_advisor_file": "docs/naver-search-advisor.json",
+    "naver_site_verification_files": [],
+    "indexnow_submission": "not_started",
+    "indexnow_submission_file": "docs/indexnow-submission.json",
+    "indexnow_submitted_urls": 0,
+    "rss_feed": "not_started",
+    "ai_visibility_audit": "not_started",
+    "ai_visibility_audit_file": "docs/ai-visibility-audit.json",
+    "ai_visibility_findings": 0,
+    "external_action_gate": "not_started",
+    "external_action_gate_file": "docs/external-actions.json",
+    "external_action_count": 0,
+    "crawlable_url_audit": "not_started",
+    "crawlable_url_audit_file": "docs/crawlable-url-audit.json",
+    "crawlable_url_findings": 0,
+    "adsense_readiness_audit": "not_started",
+    "adsense_readiness_audit_file": "docs/adsense-readiness-audit.json",
+    "adsense_readiness_findings": 0,
+    "structured_data": "not_started",
+    "structured_data_file": "docs/structured-data.json",
+    "structured_data_scripts": 0,
+    "article_schema": "not_started",
+    "article_schema_file": "docs/article-schema.json",
+    "article_schema_files": 0,
+    "mobile_navigation_smoke": "not_started",
+    "chrome_devtools_audit": "not_started",
+    "chrome_devtools_audit_file": "docs/chrome-devtools-audit.json",
+    "chrome_devtools_diagnostics": 0,
+    "chrome_devtools_performance": null,
+    "chrome_devtools_seo": null,
+    "chrome_devtools_accessibility": null,
+    "project_stack": "pass",
+    "project_stack_config_file": "docs/project-stack-audit.json",
+    "project_stack_warnings": 0,
+    "deployment_plan": "pass",
+    "deployment_plan_file": "docs/deployment-plan.json",
+    "dns_records_plan": "pass",
+    "dns_records_plan_file": "docs/dns-records-plan.json",
+    "dns_record_count": 2,
+    "production_health": "not_started",
+    "production_health_file": "docs/production-health.json",
+    "production_health_checked_urls": 0,
+    "one_click_launch": "not_started",
+    "one_click_launch_file": "docs/one-click-launch.json",
+    "one_click_launch_steps": 0,
+    "one_click_launch_failed_steps": 0,
+    "status": "not_started",
+    "adsense_auto_ads_errors": []
+  },
+  "gated_actions": [],
+  "last_updated": "2026-08-11T00:25:16.340821+00:00"
+}

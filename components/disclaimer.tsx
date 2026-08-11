@@ -1,0 +1,1 @@
+export function Disclaimer() { return <aside className="disclaimer" aria-label="의료 정보 안내"><strong>의료 정보 안내</strong><p>원온의 콘텐츠는 일반적인 건강 정보이며 개인별 진단·치료를 대신하지 않습니다. 증상이 지속되거나 걱정된다면 의사·약사 등 자격 있는 의료 전문가와 상담하세요. 응급 증상이 의심되면 지체하지 말고 응급 의료기관에 연락하세요.</p></aside>; }

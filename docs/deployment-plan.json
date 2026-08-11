@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "status": "planned",
+  "git": {
+    "remote_url": "",
+    "latest_commit": "",
+    "required_receipt": "docs/git-push-receipt.json"
+  },
+  "vercel": {
+    "project_name": "wonon-health",
+    "provider": "vercel",
+    "required_receipt": "docs/deployment-receipt.json",
+    "environment_variables": []
+  },
+  "domain": {
+    "production_domain": "wonon.ehon365.kr",
+    "required_dns_plan": "docs/dns-records-plan.json",
+    "required_receipt": "docs/domain-connection-receipt.json"
+  },
+  "stack": {
+    "framework": "nextjs",
+    "package_manager": "npm",
+    "build_command": "npm run build",
+    "framework_preset": "nextjs",
+    "root_directory": ".",
+    "output_directory": ""
+  },
+  "steps": [
+    "Confirm git status is clean or intentionally dirty.",
+    "Create or select GitHub repository, then push the current branch.",
+    "Create or link Vercel project from the GitHub repository.",
+    "Set root directory, build command, output directory, and environment variables.",
+    "Deploy preview, inspect build logs, then promote production.",
+    "Add production domain to Vercel and configure DNS records.",
+    "Run production-health-check.py after DNS propagation.",
+    "Record receipts with external-action-gate.py before marking external states verified."
+  ],
+  "errors": [],
+  "warnings": [
+    "git_remote_missing"
+  ],
+  "last_updated": "2026-08-11T00:25:16.274954+00:00"
+}

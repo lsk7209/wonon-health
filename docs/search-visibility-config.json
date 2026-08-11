@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "status": "planned",
+  "domain": "TODO_DOMAIN",
+  "canonical_url": "https://TODO_DOMAIN",
+  "gsc": {
+    "status": "not_started",
+    "property_type": "",
+    "property_url": "",
+    "verification_method": "",
+    "verification_value": "",
+    "verified_at": "",
+    "evidence": []
+  },
+  "ga4": {
+    "status": "configured",
+    "measurement_id": "G-3NJ07LPVXD",
+    "consent_mode": "not_started",
+    "cookie_notice_status": "not_started",
+    "verified_at": "",
+    "evidence": [],
+    "tag_status": "configured"
+  },
+  "indexnow": {
+    "status": "not_started",
+    "key": "",
+    "key_file_path": "",
+    "endpoint": "https://api.indexnow.org/indexnow",
+    "last_submission_at": "",
+    "evidence": []
+  },
+  "naver": {
+    "status": "not_started",
+    "verification_token": "",
+    "meta_name": "naver-site-verification",
+    "verified_at": "",
+    "evidence": []
+  },
+  "adsense": {
+    "publisher_id": "pub-3050601904412736",
+    "client_id": "ca-pub-3050601904412736",
+    "auto_ads_script_status": "configured",
+    "ads_txt_status": "configured",
+    "application_status": "install_configured",
+    "evidence": []
+  },
+  "notes": [],
+  "last_updated": "2026-08-11T00:25:04.228697+00:00"
+}

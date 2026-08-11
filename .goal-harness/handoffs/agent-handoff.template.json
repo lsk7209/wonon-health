@@ -1,0 +1,14 @@
+{
+  "role": "",
+  "phase": "",
+  "scope": "",
+  "files_inspected": [],
+  "files_changed": [],
+  "proposed_changes": [],
+  "commands_run": [],
+  "evidence": [],
+  "blockers": [],
+  "risks": [],
+  "next_gate": "",
+  "ready_for_gate": false
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "status": "planned",
+  "domain": "TODO_DOMAIN",
+  "output": "public/sitemap.xml",
+  "include_policy_pages": true,
+  "include_content_statuses": [
+    "published",
+    "scheduled"
+  ],
+  "include_pseo_statuses": [
+    "indexable"
+  ],
+  "urls": [],
+  "scan": {
+    "last_scanned_at": "",
+    "url_count": 0,
+    "placeholder_urls": 0,
+    "duplicate_urls": 0,
+    "noindex_urls": 0,
+    "findings": []
+  },
+  "last_updated": "2026-08-11T00:17:35.602960+00:00"
+}

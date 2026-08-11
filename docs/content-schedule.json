@@ -1,0 +1,8 @@
+{
+  "schedule_policy": {
+    "initial_publish_count": 6,
+    "interval_hours_after_initial_batch": 24,
+    "timezone": "Asia/Seoul"
+  },
+  "items": []
+}

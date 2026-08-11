@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "status": "not_started",
+  "domain": "TODO_DOMAIN",
+  "output": "public/feed.xml",
+  "include_statuses": [
+    "published",
+    "scheduled"
+  ],
+  "scan": {
+    "exists": false,
+    "item_count": 0,
+    "findings": [],
+    "last_scanned_at": ""
+  },
+  "last_updated": "2026-08-11T00:17:35.604037+00:00"
+}

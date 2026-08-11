@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "status": "not_started",
+  "domain": "https://TODO_DOMAIN",
+  "scanned_files": 0,
+  "updated_files": 0,
+  "schema_type_counts": {
+    "Article": 0,
+    "FAQPage": 0,
+    "BreadcrumbList": 0
+  },
+  "updated_paths": [],
+  "errors": [],
+  "warnings": [],
+  "last_updated": "2026-08-11T00:17:35.606319+00:00"
+}

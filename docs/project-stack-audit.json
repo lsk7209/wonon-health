@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "status": "configured",
+  "detected_framework": "nextjs",
+  "package_manager": "npm",
+  "source": {
+    "has_package_json": true,
+    "has_next_config": true,
+    "has_app_dir": true,
+    "has_pages_dir": false,
+    "has_public_dir": true,
+    "has_wp_config": false,
+    "has_htaccess": false,
+    "has_vercel_config": false
+  },
+  "commands": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "start": "npm run start",
+    "lint": "",
+    "test": ""
+  },
+  "deployment": {
+    "recommended_provider": "vercel",
+    "framework_preset": "nextjs",
+    "root_directory": ".",
+    "output_directory": "",
+    "node_version": "",
+    "environment_variables": []
+  },
+  "warnings": [],
+  "last_scanned_at": "2026-08-11T00:25:16.125985+00:00",
+  "last_updated": "2026-08-11T00:25:16.125985+00:00"
+}
