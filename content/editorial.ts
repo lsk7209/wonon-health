@@ -1,5 +1,6 @@
 export type Topic = { slug: string; name: string; description: string; icon: string };
 export type Article = { slug: string; topic: string; topicSlug: string; title: string; summary: string; publishedAt: string; updatedAt: string; body: string[]; sources: { label: string; href: string }[] };
+export type ArticleGuide = { takeaways: string[]; today: string[]; doctorQuestions: string[] };
 
 export const topics: Topic[] = [
   { slug: 'menopause', name: '갱년기 이해하기', description: '몸의 변화와 치료 선택지를 차분히 살펴봅니다.', icon: '◐' },
@@ -19,3 +20,36 @@ export const articles: Article[] = [
 
 export function getArticle(slug: string) { return articles.find((article) => article.slug === slug); }
 export function getTopic(slug: string) { return topics.find((topic) => topic.slug === slug); }
+
+export const articleGuides: Record<string, ArticleGuide> = {
+  'menopause-when-to-see-a-doctor': {
+    takeaways: ['증상이 일상과 수면을 방해한다면 상담할 충분한 이유가 됩니다.', '폐경 후 출혈이나 갑작스러운 심한 증상은 갱년기로 단정하지 않습니다.', '증상과 복용 약을 간단히 기록하면 진료 대화가 더 구체적이 됩니다.'],
+    today: ['증상이 시작된 시점과 빈도를 메모합니다.', '수면·업무·기분에 미친 영향을 한 문장으로 적습니다.', '복용 중인 약과 건강기능식품 목록을 준비합니다.'],
+    doctorQuestions: ['이 증상에서 먼저 확인해야 할 다른 원인이 있나요?', '생활 조절과 치료 선택지는 각각 어떤 장단점이 있나요?', '어떤 변화가 생기면 더 빨리 다시 진료받아야 하나요?'],
+  },
+  'hot-flash-daily-record': {
+    takeaways: ['열감의 빈도와 영향은 사람마다 다릅니다.', '7일 기록은 원인을 단정하기보다 내 패턴을 찾는 도구입니다.', '괴롭거나 갑자기 심해진 증상은 기록과 함께 상담합니다.'],
+    today: ['시간·강도·지속 시간을 짧게 적습니다.', '직전 활동과 음식·음료, 스트레스 상황을 함께 표시합니다.', '밤에 깼다면 다음 날 피로 정도도 기록합니다.'],
+    doctorQuestions: ['제 기록에서 추가로 확인할 점이 있나요?', '현재 복용 약이 증상에 영향을 줄 수 있나요?', '저에게 맞는 비호르몬·호르몬 치료 선택지는 무엇인가요?'],
+  },
+  'sleep-after-45': {
+    takeaways: ['수면 변화가 모두 갱년기 때문인 것은 아닙니다.', '일정한 기상 시간과 낮 활동은 수면 리듬을 점검하는 출발점입니다.', '코골이·숨 멎음·심한 낮 졸림은 별도 평가가 필요할 수 있습니다.'],
+    today: ['일주일간 취침·기상·각성 시간을 적습니다.', '오후 카페인과 취침 전 음주 시간을 확인합니다.', '코골이나 숨 멎음을 들은 적이 있는지 가족에게 묻습니다.'],
+    doctorQuestions: ['갱년기 외에 확인할 수면 문제가 있나요?', '현재 약이나 음주 습관이 잠에 영향을 주나요?', '수면 검사가 필요한 신호가 있나요?'],
+  },
+  'bone-health-small-steps': {
+    takeaways: ['폐경 후 뼈 건강은 여러 위험 요인을 함께 살펴야 합니다.', '체중 부하 활동과 근력 운동은 일상 기능을 지키는 기본입니다.', '골절 경험이나 키 감소가 있다면 평가 시기를 상담합니다.'],
+    today: ['최근 골절·낙상·키 변화를 떠올려 적습니다.', '무리 없이 반복할 수 있는 걷기나 근력 활동을 정합니다.', '골다공증 가족력과 장기 복용 약을 확인합니다.'],
+    doctorQuestions: ['제 위험 요인에서 골밀도 검사가 필요한가요?', '관절이나 기존 질환을 고려한 운동 강도는 어느 정도인가요?', '칼슘과 비타민 D는 식사와 보충제 중 어떻게 확인하나요?'],
+  },
+  'health-checkup-questions': {
+    takeaways: ['검진 수치는 개인의 병력과 변화 추세를 함께 해석합니다.', '재검 여부·생활 변화·다음 확인 시점을 구체적으로 묻습니다.', '새롭거나 지속되는 증상은 검진 결과와 별개로 상담합니다.'],
+    today: ['이전 결과지가 있다면 나란히 놓고 변화를 봅니다.', '재검·추적 관찰 표시가 있는 항목에 동그라미를 칩니다.', '진료실에서 물을 세 가지 질문을 메모합니다.'],
+    doctorQuestions: ['이 수치가 제 병력에서 어떤 의미인가요?', '가장 먼저 바꿀 생활 습관 한 가지는 무엇인가요?', '언제, 어떤 검사로 다시 확인해야 하나요?'],
+  },
+  'national-screening-checklist-2026': {
+    takeaways: ['국가검진 대상과 항목은 공단 조회로 확인하는 것이 정확합니다.', '개인 병력이나 증상에 필요한 진료는 국가검진 일정과 다를 수 있습니다.', '검진 뒤 재검·상담 권고까지 확인해야 다음 행동이 완성됩니다.'],
+    today: ['국민건강보험공단에서 올해 대상 여부를 조회합니다.', '검진 기관의 금식·복용 약 안내를 확인합니다.', '결과를 받을 방법과 예상 시점을 메모합니다.'],
+    doctorQuestions: ['제 연령과 병력에 추가로 필요한 검사가 있나요?', '복용 중인 약은 검진 당일 어떻게 해야 하나요?', '결과 중 어느 항목을 언제 다시 확인해야 하나요?'],
+  },
+};

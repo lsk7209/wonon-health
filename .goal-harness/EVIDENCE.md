@@ -41,3 +41,17 @@ Level: 3
 ## Fixes Applied
 
 ## Completion Evidence
+
+### 2026-08-11 10:14 KST - Site-development increment
+
+| Check | Result | Evidence |
+|---|---|---|
+| `npm run build` | PASS | Next.js 16.3.0 compiled and generated 24 static pages, including `/search` |
+| `npx tsc --noEmit` | PASS | No TypeScript errors |
+| `git diff --check` | PASS | No whitespace errors; only Windows line-ending notices |
+| Search experience | IMPLEMENTED | Keyword input, five quick filters, live result count, empty state, topic fallbacks |
+| Symptom-led guide | IMPLEMENTED | Four private client-side paths, explicit non-diagnostic label, urgent-care warning |
+| Article depth | IMPLEMENTED | Per-article key takeaways, today checklist, and three clinician questions for all six articles |
+| Mobile navigation | IMPLEMENTED | Search remains visible; essential links retain 44px targets; compact 410px layout |
+
+DNS verification is intentionally excluded from this increment at the user's direction.

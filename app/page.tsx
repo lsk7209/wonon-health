@@ -4,6 +4,7 @@ import { ArticleCard } from '../components/article-card';
 import { Disclaimer } from '../components/disclaimer';
 import { SiteFooter } from '../components/site-footer';
 import { SiteHeader } from '../components/site-header';
+import { SymptomGuide } from '../components/symptom-guide';
 import { articles, topics } from '../content/editorial';
 
 export const metadata: Metadata = { alternates: { canonical: '/' } };
@@ -66,6 +67,8 @@ export default function Home() {
             <div className="feature-quote"><span>“</span><p>건강 정보의 목적은 불안을 키우는 것이 아니라, 나에게 필요한 도움을 더 빨리 찾게 하는 데 있습니다.</p><small>원온 편집 원칙</small></div>
           </div>
         </section>
+
+        <section className="section container"><SymptomGuide /></section>
 
         <section className="section container">
           <div className="section-heading"><p className="kicker">RECENT NOTES</p><h2>천천히 읽어도 괜찮은 건강 노트</h2></div>
