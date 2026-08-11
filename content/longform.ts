@@ -20,6 +20,7 @@ const draftsDirectories = [
   join(process.cwd(), 'output', 'wonon', 'drafts'),
   join(process.cwd(), 'output', 'wonon', 'batch-20', 'drafts'),
   join(process.cwd(), 'output', 'wonon', 'batch-30', 'drafts'),
+  join(process.cwd(), 'output', 'wonon', 'batch-60', 'drafts'),
 ];
 
 const batchDraftDefaults = {

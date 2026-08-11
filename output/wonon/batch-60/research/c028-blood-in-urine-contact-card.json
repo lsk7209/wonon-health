@@ -1,0 +1,60 @@
+{
+  "article_id":"c028","slug":"blood-in-urine-contact-card","researched_at":"2026-08-11T21:20:00+09:00","ymyl_category":"health","ymyl_review":"pass",
+  "research_runs":[
+    {"query":"site:niddk.nih.gov hematuria blood in urine symptoms evaluation","date":"2026-08-11","purpose":"눈에 보이는 혈뇨의 평가 필요성과 진단 경계 확인"},
+    {"query":"site:nhs.uk blood in urine urgent appointment even first time","date":"2026-08-11","purpose":"처음·소량·무증상 혈뇨도 연락하는 환자용 경계 확인"},
+    {"query":"site:medlineplus.gov blood urine hematuria patient","date":"2026-08-11","purpose":"혈뇨에서 소변 검사와 병력 확인의 환자용 정보 교차 확인"},
+    {"query":"site:auanet.org hematuria patient visible blood urine","date":"2026-08-11","purpose":"비뇨의학 전문학회의 평가 맥락 확인"}
+  ],
+  "article_research_question":"배뇨 뒤 피가 보이거나 붉게 보인 사람이 원인이나 자가 처치를 정하지 않고, 의료기관에 지체 없이 연락하며 어떤 시각·양상·통증·동반 신호를 전달할 수 있는가?",
+  "reader_outcome":"보인 시각, 색과 반복, 소변 전체·끝부분·닦을 때의 맥락, 통증·열·옆구리 통증·혈전, 생리·질 출혈 가능성을 나눈 통화 카드를 만든다.",
+  "search_intent_insight":"독자는 붉은 소변을 물이나 음식 탓으로 기다려도 되는지보다, 전화에서 무엇을 말하고 언제 더 급하게 도움을 구해야 하는지 알고 싶어 한다.",
+  "competitor_gap":"원인 목록은 불안을 키우거나 안심을 유도할 수 있다. 이 글은 원인을 나열하지 않고 보이는 혈뇨를 확인받아야 한다는 경계와 통화용 사실 카드를 제시한다.",
+  "information_gain":"‘소변에 섞였는가’라는 추측 칸 대신, 첫 발견 시각·반복·색·혈전·통증·열·옆구리 통증·질/생리 출혈 가능성을 순서대로 읽는 연락 카드.",
+  "unique_angle":"눈에 보인 출혈을 기다리거나 희석하려 하지 않고, 전화에서 바로 읽을 수 있는 출혈 맥락 카드로 바꾸는 안전 기록.",
+  "source_interpretation":"NHS의 첫 발생·소량·무증상도 확인받아야 한다는 안내는 연락을 미루지 않는 경계로만 쓴다. NIDDK와 MedlinePlus는 소변 표본·증상·병력 확인이 이뤄질 수 있다는 사실로, AUA는 평가가 원인을 온라인에서 맞히는 과정이 아니라는 설명으로 사용한다. 어느 자료도 개인의 원인이나 치료를 결정하는 데 쓰지 않는다.",
+  "original_contribution":{"type":"urgent-contact-card","description":"원인 추정 대신 확인 시점·출혈 맥락·동반 신호·통화 첫 문장으로 구성한 혈뇨 연락 카드","source_ids":["S1","S2","S3","S4","S5"]},
+  "article_specific_details":[
+    {"claim":"NHS는 혈뇨가 처음이거나 소량이거나 다른 증상이 없어도, 또는 혈액인지 확실하지 않아도 긴급 진료 상담을 권한다.","source_id":"S2"},
+    {"claim":"NHS는 비트 섭취, 새 약, 직장 출혈, 월경이 붉거나 갈색으로 보이는 소변과 혼동될 수 있다고 안내한다.","source_id":"S2"},
+    {"claim":"NIDDK는 혈뇨 평가에서 의료진이 증상·병력을 묻고 소변검사 등으로 원인을 확인할 수 있다고 설명한다.","source_id":"S1"}
+  ],
+  "structure":{"structure_type":"긴급-연락-카드형","why":"독자의 핵심 과제는 출혈의 원인을 분류하는 일이 아니라, 보인 혈뇨를 지체하지 않고 안전하게 연락하며 필요한 관찰을 전달하는 일이다.","section_sequence":["즉시-답","확인-시점","출혈-맥락","동반-신호","전화-우선순위","통화-카드","마무리"]},
+  "visual_elements":["연락-우선순위-상자","출혈-맥락-표","통화-카드","질문-체크리스트"],"semantic_colors":["red-safety","blue-record"],
+  "sources":[
+    {"id":"S1","organization":"NIDDK","title":"Hematuria (Blood in the Urine)","url":"https://www.niddk.nih.gov/health-information/urologic-diseases/hematuria-blood-in-the-urine","published_or_updated":"2023-10-01","source_date":"2023-10-01","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"혈뇨가 증상·병력·소변검사 등을 통해 평가될 수 있다는 진단 경계"},
+    {"id":"S2","organization":"NHS","title":"Blood in urine","url":"https://www.nhs.uk/symptoms/blood-in-urine/","published_or_updated":"2023-05-19","source_date":"2023-05-19","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"처음·소량·무증상·불확실한 혈뇨도 확인받는 연락 경계와 혼동 가능 맥락"},
+    {"id":"S3","organization":"MedlinePlus / U.S. National Library of Medicine","title":"Blood in urine","url":"https://medlineplus.gov/ency/article/003138.htm","published_or_updated":"2024-05-01","source_date":"2024-05-01","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"소변 색 변화와 증상·약·검사 관련 정보를 의료진에게 전달하는 환자용 보조 정보"},
+    {"id":"S4","organization":"American Urological Association","title":"Hematuria","url":"https://www.auanet.org/education/patient-education/hematuria","published_or_updated":"2025-01-01","source_date":"2025-01-01","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"보이는 혈뇨가 평가 대상이며 원인을 자가진단하지 않는 전문학회 맥락"},
+    {"id":"S5","organization":"National Cancer Institute","title":"Blood in Urine","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hematuria","published_or_updated":"2024-11-01","source_date":"2024-11-01","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"혈뇨라는 관찰 용어를 진단명과 구별하는 공공 기관 정의"}
+  ],
+  "data_points":[
+    {"claim":"혈뇨는 증상·병력 확인과 소변검사 등을 포함해 의료진이 평가할 수 있는 관찰이며, 온라인 정보만으로 원인을 정할 수 없다.","source_id":"S1","claim_type":"procedure","source_date":"2023-10-01","supports_section":"피가 보였다면 원인 추측보다 연락이 먼저입니다"},
+    {"claim":"혈뇨가 처음이거나 소량이거나 다른 증상이 없거나 혈액인지 확실하지 않아도 확인을 받아야 한다.","source_id":"S2","claim_type":"safety","source_date":"2023-05-19","supports_section":"첫 발견 시각과 반복을 한 줄에 적습니다"},
+    {"claim":"비트 섭취, 새 약, 직장 출혈, 월경은 붉거나 갈색으로 보이는 소변과 혼동될 수 있어 맥락을 따로 전달할 수 있다.","source_id":"S2","claim_type":"medical","source_date":"2023-05-19","supports_section":"소변의 어느 장면에서 보였는지와 혼동 가능성을 나눕니다"},
+    {"claim":"소변 색 변화, 통증·발열·옆구리 통증, 복용 약 등은 의료진이 상황을 확인할 때 물을 수 있는 사실이다.","source_id":"S3","claim_type":"medical","source_date":"2024-05-01","supports_section":"통증·열·옆구리 통증·혈전은 별도 줄입니다"},
+    {"claim":"눈에 보이는 혈뇨는 평가가 필요한 증상이며, 평가는 개인별 원인을 확인하는 과정이다.","source_id":"S4","claim_type":"medical","source_date":"2025-01-01","supports_section":"연락 카드에는 ‘해석’이 아니라 사실을 읽습니다"}
+  ],
+  "reader_visible_citation_plan":[
+    {"source_id":"S1","draft_section":"피가 보였다면 원인 추측보다 연락이 먼저입니다","citation_text":"NIDDK의 혈뇨 안내"},
+    {"source_id":"S2","draft_section":"첫 발견 시각과 반복을 한 줄에 적습니다","citation_text":"NHS의 혈뇨 안내"},
+    {"source_id":"S2","draft_section":"소변의 어느 장면에서 보였는지와 혼동 가능성을 나눕니다","citation_text":"NHS의 환자용 설명"},
+    {"source_id":"S3","draft_section":"통증·열·옆구리 통증·혈전은 별도 줄입니다","citation_text":"MedlinePlus의 혈뇨 정보"},
+    {"source_id":"S4","draft_section":"통화 카드에는 ‘해석’이 아니라 사실을 읽습니다","citation_text":"미국비뇨의학회 환자 교육"}
+  ],
+  "material_detail_usage":[
+    {"detail_source_id":"S2","detail_claim":"처음·소량·무증상·불확실한 혈뇨도 확인받아야 한다.","draft_section":"첫 발견 시각과 반복을 한 줄에 적습니다","draft_sentence":"NHS는 처음이거나 아주 적은 양이거나 다른 증상이 없거나 혈액인지 확실하지 않은 경우도 확인받으라고 안내합니다."},
+    {"detail_source_id":"S2","detail_claim":"비트·새 약·직장 출혈·월경은 혼동 가능 맥락이다.","draft_section":"소변의 어느 장면에서 보였는지와 혼동 가능성을 나눕니다","draft_sentence":"최근 비트를 먹었는지, 새 약이 있는지, 월경 또는 질·직장 출혈 가능성이 있는지는 결론이 아니라 통화에서 함께 말할 맥락입니다."}
+  ],
+  "ymyl_boundaries":["요로감염·결석·암 또는 다른 질환을 진단하지 않는다.","물을 더 마시기, 약·항생제·진통제·검사·치료를 선택하거나 권하지 않는다.","많은 출혈·혈전으로 소변을 보기 어려움, 심한 통증, 고열·오한, 실신감·심한 어지러움 또는 급격한 악화가 있으면 기록보다 지역 응급의료 도움을 우선한다."],
+  "h2_mapping":[
+    {"heading":"피가 보였다면 원인 추측보다 연락이 먼저입니다","role":"즉시 연락의 비진단 경계","evidence":["S1","S2"]},
+    {"heading":"첫 발견 시각과 반복을 한 줄에 적습니다","role":"시간 기록","evidence":["S2"]},
+    {"heading":"소변의 어느 장면에서 보였는지와 혼동 가능성을 나눕니다","role":"출혈 맥락","evidence":["S2","S5"]},
+    {"heading":"통증·열·옆구리 통증·혈전은 별도 줄입니다","role":"동반 신호","evidence":["S3","S1"]},
+    {"heading":"연락 카드에는 ‘해석’이 아니라 사실을 읽습니다","role":"상담 전달","evidence":["S4","S1"]},
+    {"heading":"한 번의 통화에 읽을 연락 카드","role":"통화 준비","evidence":["S1","S2","S3"]},
+    {"heading":"오늘은 기다림 대신 연락할 사실을 적습니다","role":"마무리와 안전 경계","evidence":["S2","S4"]}
+  ],
+  "fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[]
+}

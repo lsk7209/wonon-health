@@ -1,0 +1,290 @@
+{
+  "article_id": "c012",
+  "slug": "slow-wound-healing-card",
+  "title": "상처가 잘 낫지 않는 느낌: 위치·크기·분비물·생활 제한을 적는 경과 카드",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-wound-safety",
+  "ymyl_review": "pass-no-diagnosis-no-antiseptic-dressing-or-medication-direction",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "research_runs": [
+    {
+      "query": "NIDDK diabetes foot problems cut blister does not start to heal after a few days red warm painful",
+      "date": "2026-08-11",
+      "purpose": "당뇨 관련 발 상처에서 연락 우선 경계와 감각 저하 맥락 확인"
+    },
+    {
+      "query": "NHS cuts grazes red swollen more painful pus high temperature urgent medical help",
+      "date": "2026-08-11",
+      "purpose": "일반 상처의 붉어짐·통증·분비물·전신 증상 연락 기준 확인"
+    },
+    {
+      "query": "MedlinePlus how wounds heal redness pain pus fluid black edges when call doctor",
+      "date": "2026-08-11",
+      "purpose": "경과 카드의 주변 피부·분비물·변화 방향 항목 검증"
+    },
+    {
+      "query": "Society for Vascular Surgery peripheral arterial disease open wound ulcer toes feet patient",
+      "date": "2026-08-11",
+      "purpose": "발 상처와 순환 관련 병력을 질문 칸으로 제한하는 근거 확인"
+    },
+    {
+      "query": "MedlinePlus wounds when contact provider bleeding sensation movement embedded object",
+      "date": "2026-08-11",
+      "purpose": "기록보다 긴급 평가가 먼저인 출혈·감각·움직임 경계 확인"
+    }
+  ],
+  "search_intent_insight": "상처가 안 낫는다는 검색은 연고·드레싱 선택으로 곧장 이어지기 쉽다. 이 글은 제품 비교를 하지 않고, 상담에서 필요한 변화 방향과 연락 우선 신호를 한 장의 카드로 분리한다.",
+  "competitor_gap": "일반 상처 글은 자가 처치 순서를 많이 제시하지만, 발의 위치·감각·당뇨·순환 병력과 분비물·생활 제한을 한 문장으로 전달하는 한국어 상담 카드가 부족하다.",
+  "article_research_question": "상처가 오래가거나 달라 보일 때, 원인을 자가진단하거나 치료를 고르지 않고도 어떤 위치·변화·전신 신호·당뇨 및 순환 맥락을 기록해 연락 우선순위를 정할 수 있는가?",
+  "reader_outcome": "독자는 상처의 병명을 추정하지 않은 채 발견일·위치·비교 기준·분비물·주변 피부·생활 제한·관련 병력을 한 장에 적고, 긴급 신호가 있으면 기록보다 연락을 우선한다.",
+  "original_contribution": {
+    "type": "wound-course-contact-card",
+    "description": "상처 중심의 모양과 상처 바깥의 열·통증·생활 제한을 두 영역으로 나누고, 당뇨·감각·순환 정보를 진단명이 아닌 질문 칸으로 두는 연락 카드",
+    "source_ids": [
+      "S1",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ]
+  },
+  "source_interpretation": "S1은 당뇨 관련 발 상처의 빠른 연락 경계에만, S3·S4는 분비물·붉어짐·통증·발열 같은 관찰 언어와 일반 긴급 경계에만 사용했다. S5는 순환 문제를 자가진단하지 않고 발의 열린 상처와 병력 조합을 전달하는 질문 칸의 근거로 제한했다. 어떤 출처도 소독제·드레싱·약물 선택이나 감염 진단으로 확장하지 않았다.",
+  "angle_supporting_detail": "NIDDK는 당뇨가 있는 사람에서 발의 자상·물집·멍이 며칠 안에 낫기 시작하지 않거나 발 피부가 붉고 뜨겁거나 아픈 경우 의료진에게 바로 연락하라고 안내한다. 이 글은 이를 당뇨발 판단표가 아니라 발 상처 카드의 연락 우선 경계로만 쓴다.",
+  "article_specific_details": [
+    {
+      "claim": "발 상처가 며칠 안에 낫기 시작하지 않거나 발 피부가 붉고 뜨겁거나 아픈 경우에는 당뇨가 있는 사람에게 의료진 연락이 우선이라는 NIDDK의 환자 안내를 카드의 경계로 사용한다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "열감·오한·통증·생활 제한을 상처의 크기와 분리해 적어 상처 바깥의 변화까지 한 장의 상담 카드에 담는다.",
+      "source_id": "S3"
+    },
+    {
+      "claim": "발이나 발가락의 열린 상처·궤양은 말초동맥질환의 심한 상태 신호일 수 있다는 혈관외과학회 환자용 설명을, 순환을 단정하지 않고 병력·관찰을 알리는 질문 칸에 한정한다.",
+      "source_id": "S5"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "당뇨가 있는 사람은 발의 자상·물집·멍이 며칠 안에 낫기 시작하지 않거나 발이 붉고 뜨겁거나 아프면 의료진에게 연락해야 한다.",
+      "source_id": "S1",
+      "claim_type": "official-patient-safety-guidance",
+      "source_date": "2017-01",
+      "supports_section": "당뇨·감각·순환 관련 정보는 추측 없이 질문으로 남깁니다"
+    },
+    {
+      "claim": "상처의 크기와 깊이에 따라 회복 기간은 다르며, 감염은 회복을 늦출 수 있다.",
+      "source_id": "S3",
+      "claim_type": "expert-reference",
+      "source_date": "2024-05-29",
+      "supports_section": "상처가 잘 낫지 않는 느낌, 날짜보다 ‘변화 방향’을 먼저 적습니다"
+    },
+    {
+      "claim": "붉어짐·통증 증가·노랗거나 초록색 고름·과도한 맑은 액체·검은 가장자리·발열은 의료진 연락이 필요한 변화로 제시된다.",
+      "source_id": "S3",
+      "claim_type": "expert-reference",
+      "source_date": "2024-05-29",
+      "supports_section": "크기·분비물·주변 피부 변화는 같은 기준으로 비교합니다"
+    },
+    {
+      "claim": "상처가 붓고 붉어지며 더 아프거나 고름이 나오고, 전신 불편 또는 고열이 있으면 긴급 도움을 받도록 NHS가 안내한다.",
+      "source_id": "S4",
+      "claim_type": "official-patient-safety-guidance",
+      "source_date": "2026-04-02",
+      "supports_section": "열·통증·생활 제한은 상처 바깥의 변화로 적습니다"
+    },
+    {
+      "claim": "발 또는 발가락의 열린 상처·궤양은 말초동맥질환의 심한 상태 신호일 수 있다.",
+      "source_id": "S5",
+      "claim_type": "professional-society-patient-guidance",
+      "source_date": "accessed-2026-08-11",
+      "supports_section": "당뇨·감각·순환 관련 정보는 추측 없이 질문으로 남깁니다"
+    },
+    {
+      "claim": "멈추지 않는 출혈, 감각 소실, 움직임 문제, 매우 크거나 깊은 상처, 박힌 물체는 즉시 평가가 필요한 상황으로 NHS가 제시한다.",
+      "source_id": "S4",
+      "claim_type": "official-emergency-guidance",
+      "source_date": "2026-04-02",
+      "supports_section": "기록보다 연락이 먼저인 변화: 감염·출혈·감각 경계"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "NIDDK",
+      "title": "Diabetes & Foot Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems",
+      "source_role": "official",
+      "publication_or_review_date": "2017-01",
+      "accessed_date": "2026-08-11",
+      "used_for": "당뇨 관련 발 상처·감각 저하·발 피부 변화의 연락 경계",
+      "source_date": "2017-01"
+    },
+    {
+      "id": "S2",
+      "organization": "NIDDK",
+      "title": "Preventing Diabetes Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems",
+      "source_role": "official",
+      "publication_or_review_date": "2017-01",
+      "accessed_date": "2026-08-11",
+      "used_for": "당뇨 합병증 예방 자료의 환자용 맥락 확인; 직접 사실 주장에는 사용하지 않음",
+      "source_date": "2017-01"
+    },
+    {
+      "id": "S3",
+      "organization": "MedlinePlus Medical Encyclopedia",
+      "title": "How wounds heal",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000741.htm",
+      "source_role": "expert_reference",
+      "publication_or_review_date": "2024-05-29",
+      "accessed_date": "2026-08-11",
+      "used_for": "상처 회복의 개인차, 분비물·주변 피부·발열·검은 가장자리 관찰 언어",
+      "source_date": "2024-05-29"
+    },
+    {
+      "id": "S4",
+      "organization": "NHS",
+      "title": "Cuts and grazes",
+      "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+      "source_role": "official",
+      "publication_or_review_date": "2026-04-02",
+      "accessed_date": "2026-08-11",
+      "used_for": "붉어짐·통증 증가·고름·전신 불편 및 출혈·감각·박힌 물체의 긴급 경계",
+      "source_date": "2026-04-02"
+    },
+    {
+      "id": "S5",
+      "organization": "Society for Vascular Surgery",
+      "title": "Peripheral Arterial Disease patient guide",
+      "url": "https://vascular.org/sites/files/2022-02/Peripheral%20Arterial%20Disease%20-%202019-07-29.pdf",
+      "source_role": "expert_reference",
+      "publication_or_review_date": "2019-07-29",
+      "accessed_date": "2026-08-11",
+      "used_for": "발의 열린 상처와 순환 관련 병력 질문의 안전한 맥락",
+      "source_date": "2019-07-29"
+    },
+    {
+      "id": "S6",
+      "organization": "MedlinePlus Medical Encyclopedia",
+      "title": "Wounds",
+      "url": "https://medlineplus.gov/ency/article/000043.htm",
+      "source_role": "expert_reference",
+      "publication_or_review_date": "2024-08-06",
+      "accessed_date": "2026-08-11",
+      "used_for": "깊거나 큰 상처의 평가 필요성 교차 확인",
+      "source_date": "2024-08-06"
+    }
+  ],
+  "structure_type": "contact-card-triage",
+  "structure_reason": "발견 시점→외관 변화→상처 바깥의 전신·기능 변화→당뇨·순환 질문→기록보다 연락이 먼저인 경계 순서가 독자의 실제 연락 준비 과업을 보존한다.",
+  "visual_elements": [
+    "comparison-table",
+    "contact-card-template",
+    "warning-callout"
+  ],
+  "semantic_colors": [
+    "rose-warning",
+    "slate-record"
+  ],
+  "internal_link_targets": [
+    "/article/health-checkup-questions",
+    "/article/menopause-medication-supplement-one-page",
+    "/article/menopause-when-to-see-a-doctor"
+  ],
+  "internal_link_count": 3,
+  "h2_mapping": [
+    {
+      "heading": "상처가 잘 낫지 않는 느낌, 날짜보다 ‘변화 방향’을 먼저 적습니다",
+      "role": "경과의 방향을 비교하는 관찰 기준",
+      "evidence": [
+        "S3"
+      ]
+    },
+    {
+      "heading": "상처 경과 카드의 첫 줄: 위치와 발견일을 분리합니다",
+      "role": "위치·발견일과 당뇨 관련 발 상처의 연락 맥락",
+      "evidence": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "heading": "크기·분비물·주변 피부 변화는 같은 기준으로 비교합니다",
+      "role": "분비물·붉어짐·통증·주변 피부 관찰 언어",
+      "evidence": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "heading": "열·통증·생활 제한은 상처 바깥의 변화로 적습니다",
+      "role": "전신 불편과 기능 제한을 별도 칸에 기록",
+      "evidence": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "heading": "당뇨·감각·순환 관련 정보는 추측 없이 질문으로 남깁니다",
+      "role": "당뇨 발 상처·감각 저하·순환 병력을 진단 없이 전달",
+      "evidence": [
+        "S1",
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "heading": "기록보다 연락이 먼저인 변화: 감염·출혈·감각 경계",
+      "role": "감염·출혈·감각·움직임 변화의 긴급 연락 경계",
+      "evidence": [
+        "S3",
+        "S4",
+        "S6"
+      ]
+    },
+    {
+      "heading": "상처 경과 카드는 상담에 건넬 한 장으로 끝냅니다",
+      "role": "상담에 읽어 줄 한 장의 기록 문장",
+      "evidence": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "h2_mappings": {
+    "상처가 잘 낫지 않는 느낌, 날짜보다 ‘변화 방향’을 먼저 적습니다": [
+      "S3"
+    ],
+    "상처 경과 카드의 첫 줄: 위치와 발견일을 분리합니다": [
+      "S1",
+      "S4"
+    ],
+    "크기·분비물·주변 피부 변화는 같은 기준으로 비교합니다": [
+      "S3",
+      "S4"
+    ],
+    "열·통증·생활 제한은 상처 바깥의 변화로 적습니다": [
+      "S3",
+      "S4"
+    ],
+    "당뇨·감각·순환 관련 정보는 추측 없이 질문으로 남깁니다": [
+      "S1",
+      "S3",
+      "S5"
+    ],
+    "기록보다 연락이 먼저인 변화: 감염·출혈·감각 경계": [
+      "S3",
+      "S4"
+    ],
+    "상처 경과 카드는 상담에 건넬 한 장으로 끝냅니다": [
+      "S1",
+      "S3",
+      "S4"
+    ]
+  }
+}

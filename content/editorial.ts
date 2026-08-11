@@ -56,6 +56,39 @@ const batch30TopicSlugs: Record<string, string> = {
   'palpitations-avoidance-loop': 'sleep-mood',
 };
 
+const batch60TopicSlugs: Record<string, string> = {
+  'shingles-vaccine-visit-prep': 'everyday-care',
+  'post-flu-cough-recovery-log': 'everyday-care',
+  'new-floaters-flashes-contact-card': 'everyday-care',
+  'dry-eye-exposure-map': 'everyday-care',
+  'sudden-hearing-change-note': 'everyday-care',
+  'bleeding-gums-dental-note': 'everyday-care',
+  'taste-change-context-table': 'everyday-care',
+  'medication-reconciliation-sheet': 'everyday-care',
+  'pain-reliever-use-context-log': 'everyday-care',
+  'supplement-before-adding-card': 'menopause',
+  'hair-loss-photo-rule': 'everyday-care',
+  'slow-wound-healing-card': 'everyday-care',
+  'swallowing-difficulty-visit-note': 'everyday-care',
+  'changed-constipation-calendar': 'everyday-care',
+  'nighttime-heartburn-review': 'everyday-care',
+  'new-wheezing-observation-sheet': 'everyday-care',
+  'rhinitis-exposure-sleep-log': 'sleep-mood',
+  'new-headache-pattern-card': 'everyday-care',
+  'recurrent-numbness-body-diagram': 'everyday-care',
+  'dizziness-context-safety-table': 'everyday-care',
+  'covid-vaccine-appointment-note': 'everyday-care',
+  'travel-diarrhea-prep-checklist': 'everyday-care',
+  'caregiving-own-medication-two-column': 'everyday-care',
+  'hand-tremor-context-card': 'everyday-care',
+  'smell-change-home-safety-plan': 'everyday-care',
+  'fatigue-pacing-week-map': 'sleep-mood',
+  'vaginal-discharge-triage-note': 'menopause',
+  'blood-in-urine-contact-card': 'everyday-care',
+  'blood-pressure-medicine-dizziness-table': 'everyday-care',
+  'caregiving-appointment-questionnaire': 'everyday-care',
+};
+
 const topicNames = new Map(topics.map((topic) => [topic.slug, topic.name]));
 
 const catalogLongformSlugs = new Set([
@@ -80,12 +113,16 @@ const catalogLongformSlugs = new Set([
   'breast-screening-notice-personal-context',
   'cervical-screening-follow-up-result-questions',
   ...Object.keys(batch30TopicSlugs),
+  ...Object.keys(batch60TopicSlugs),
 ]);
 
 const batchLongformArticles: Article[] = getLongformArticles()
   .filter((article) => catalogLongformSlugs.has(article.slug))
   .map((article) => {
-    const topicSlug = longformTopicSlugs[article.cluster] ?? batch30TopicSlugs[article.slug] ?? 'everyday-care';
+    const topicSlug = longformTopicSlugs[article.cluster]
+      ?? batch30TopicSlugs[article.slug]
+      ?? batch60TopicSlugs[article.slug]
+      ?? 'everyday-care';
     const topic = topicNames.get(topicSlug);
     if (!topic) throw new Error(`Unknown topic for long-form cluster: ${article.cluster}`);
     return {

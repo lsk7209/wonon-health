@@ -3,7 +3,54 @@
 ## Classification
 
 - Size: large
-- Domain Profile: adsense-audit + YMYL health editorial
+- Domain Profile: seo-content-batch + YMYL health editorial
+
+## Active Increment: Additional Thirty Articles
+
+### Phase A — Inventory and contract map
+
+- Objective: Lock 30 non-overlapping reader problems against all 59 existing articles.
+- Tasks: Export current titles/slugs/contracts; research topic gaps; create full Phase B+ rows; run deterministic and independent audits.
+- Expected Files: `output/wonon/batch-60/manifest.json`, contract map, validator, audit notes.
+- Completion Criteria: 30 accepted rows, no placeholder/template/semantic-overlap blockers.
+- Test Point: UTF-8, exact row counts, duplicate signatures, human critic review.
+- Rollback/Recovery: Repair or replace contracts; no prose starts while blocked.
+
+### Phase B — Five-article dry run
+
+- Objective: Prove research, writing, structure variation, and QA quality before scaling.
+- Tasks: Select five articles across at least three clusters; create draft/research/QA; independently audit and repair.
+- Expected Files: Five packet triplets and dry-run report.
+- Completion Criteria: Five rows at 99/done, all hard gates pass, no template signals.
+- Test Point: Length, source traceability, URLs, internal links, prose overlap.
+- Rollback/Recovery: Repair the contract/process before article six.
+
+### Phase C — Remaining twenty-five articles
+
+- Objective: Complete five independently checked waves.
+- Tasks: Research, draft, QA, repair, and checkpoint audit every five rows.
+- Expected Files: 30 total packet triplets plus corpus audit.
+- Completion Criteria: 30/30 at 99/done; failed/review_needed 0.
+- Test Point: Window-five audits and final full-corpus audit.
+- Rollback/Recovery: Pause any wave after repeated failure; repair cause before continuing.
+
+### Phase D — Integration and scheduling
+
+- Objective: Add all approved articles to every discovery surface and append 30 exact five-hour slots.
+- Tasks: Integrate catalog; update schedule/code/docs/tests; verify direct-route privacy.
+- Expected Files: content loader/catalog/schedule/tests/docs changes.
+- Completion Criteria: 89 unique catalog items; existing behavior preserved; exact schedule equivalence.
+- Test Point: Tests, typecheck, build, static/runtime route audit.
+- Rollback/Recovery: Revert integration commit or promote previous Vercel deployment.
+
+### Phase E — Independent verification and release
+
+- Objective: Prove corpus quality and live scheduling behavior.
+- Tasks: Code/content review, preview, production deployment, current/future smoke, durable handoff.
+- Expected Files: final audit, review, evidence, handoff.
+- Completion Criteria: All acceptance rows pass or an external-time verification is explicitly pending.
+- Test Point: Live HTTP, listing, sitemap, JSON-LD, schedule boundary.
+- Rollback/Recovery: Vercel deployment promotion plus normal Git revert.
 
 ## Phase 1 — Discovery and launch contract
 

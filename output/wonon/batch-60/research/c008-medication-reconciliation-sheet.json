@@ -1,0 +1,54 @@
+{
+  "article_id": "c008",
+  "slug": "medication-reconciliation-sheet",
+  "title": "약 봉투가 늘어났을 때: 처방약·일반약·건강기능식품을 한 장에 모으는 목록",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-medication-safety",
+  "ymyl_review": "pass-no-medication-change-or-interaction-decision",
+  "volatile": true,
+  "research_runs": [
+    {"query": "FDA create and keep medication list prescription OTC vitamins supplements fields", "date": "2026-08-11", "purpose": "한 장 목록에 포함할 복용품 범위와 기본 항목 확인"},
+    {"query": "FDA my medicine record start stop change medicine dietary supplement", "date": "2026-08-11", "purpose": "변경 이력 칸과 방문 때 공유하는 목적 확인"},
+    {"query": "NIA taking medicines safely age pharmacist multiple pharmacies medication list", "date": "2026-08-11", "purpose": "여러 약국을 이용할 때 목록을 보여 줄 이유와 약사 질문 경계 확인"},
+    {"query": "MedlinePlus taking multiple medicines safely list OTC vitamins supplements pharmacist", "date": "2026-08-11", "purpose": "처방약·일반약·보충제를 함께 적고 대조하는 환자용 원칙 확인"},
+    {"query": "FDA older adults medicines record all prescriptions OTC supplements pharmacist", "date": "2026-08-11", "purpose": "목록을 기억 시험이 아닌 상담 도구로 쓰는 근거 확인"}
+  ],
+  "search_intent_insight": "검색 결과에는 약 정리 앱이나 보관함 추천이 많지만, 여러 진료과·약국에서 받은 복용품의 출처와 변경 시점을 대조하는 한 장의 상담용 목록은 상대적으로 드물다.",
+  "competitor_gap": "일반적인 약 복용표는 시간표를 먼저 제시한다. 이 글은 새 보충제를 선택하거나 알약을 분류하는 글과 달리, 같은 이름의 제품을 합치지 않고 처방처·구입 경로·최근 변경을 남겨 다음 방문의 대조 질문을 만드는 데 집중한다.",
+  "article_research_question": "여러 진료과와 약국을 오가며 약 봉투가 늘었을 때, 복용 중인 처방약·일반약·건강기능식품을 어떤 칸으로 분리하면 의료진과 약사가 현재 목록을 대조하기 쉬운가?",
+  "reader_outcome": "독자는 효능·상호작용을 스스로 판정하지 않고, 제품명·성분·목적·시간·출처·변경 이력을 한 장에 모아 다음 방문에서 확인할 질문을 만든다.",
+  "original_contribution": {"type": "source-separated-medication-reconciliation-sheet", "description": "약의 효능 목록이 아니라 ‘어디서 받았는가-무엇이라고 적혀 있는가-언제 바뀌었는가-누구에게 확인할 것인가’ 순으로 대조하는 한 장", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "S1은 목록에 처방약·일반약·비타민·보충제를 빠뜨리지 않는 범위와 이름·강도·목적·사용 정보를 위한 근거다. S2는 새로 시작·변경·중단된 사실을 날짜로 남기는 칸의 근거이며, 그 사실로 복용 결정을 내리지는 않는다. S3·S4는 여러 약국·제공자를 오갈 때 목록을 공유하고 질문할 이유에만 사용한다. S5는 정확한 약명이 기억나지 않을 때 라벨을 확인해 의료진·약사에게 묻는 경계에만 쓴다.",
+  "sources": [
+    {"id": "S1", "title": "Create and Keep a Medication List for Your Health", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/consumers/consumer-updates/create-and-keep-medication-list-your-health", "source_date": "2025-02-06", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "처방약·일반약·비타민·보충제를 포함하고 이름·강도·목적·사용 정보를 기록하는 목록 항목"},
+    {"id": "S2", "title": "My Medicine Record", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/media/73856/download", "source_date": "2011-05", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "처방약·일반약·건강기능식품을 모두 기록하고 시작·변경 사실을 갱신하는 대조표 형식"},
+    {"id": "S3", "title": "Taking Medicines Safely as You Age", "organization": "National Institute on Aging", "url": "https://www.nia.nih.gov/health/medicines-and-medication-management/taking-medicines-safely-you-age", "source_date": "2022-09-22", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "목록에 이름·양·시간을 적고 여러 약국을 이용하면 각 약사에게 목록을 보여 주는 이유"},
+    {"id": "S4", "title": "Taking multiple medicines safely", "organization": "MedlinePlus Medical Encyclopedia", "url": "https://medlineplus.gov/ency/patientinstructions/000883.htm", "source_date": "2024-07-23", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "처방약·일반약·비타민·보충제·허브를 함께 적고 제공자와 약사에게 검토를 요청하는 경계"},
+    {"id": "S5", "title": "As You Age: You and Your Medicines", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/you-age-you-and-your-medicines", "source_date": "2026-04-09", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "처방·일반약·보충제 목록과 약사의 질문 창구, 라벨의 이름·지시 확인"}
+  ],
+  "data_points": [
+    {"claim": "FDA는 약물 목록에 처방약, 일반의약품, 비타민, 보충제를 포함하고 각 항목의 이름·강도·사용 목적·사용 방법을 적을 수 있다고 안내한다.", "source_id": "S1", "claim_type": "record-fields", "source_date": "2025-02-06", "supports_section": "한 장을 만들기 전, 봉투와 통을 같은 자리에 모읍니다"},
+    {"claim": "FDA의 My Medicine Record는 처방약뿐 아니라 가끔 쓰는 일반약과 건강기능식품도 적고, 새로 시작하거나 변경된 경우 기록을 갱신하도록 제시한다.", "source_id": "S2", "claim_type": "reconciliation-context", "source_date": "2011-05", "supports_section": "처방처와 구입 경로를 분리하면 같은 이름을 덜 섞습니다"},
+    {"claim": "NIA는 목록에 약 또는 보충제의 이름·복용량·시간을 적고, 한 약국만 이용하기 어렵다면 각 약사에게 목록을 보여 주라고 안내한다.", "source_id": "S3", "claim_type": "pharmacy-communication", "source_date": "2022-09-22", "supports_section": "변경은 지우지 말고 날짜와 이유의 빈칸으로 남깁니다"},
+    {"claim": "MedlinePlus는 처방약·일반약·비타민·보충제·허브를 포함한 목록을 보관하고, 진료 때 제공자와 약사에게 그 목록을 검토하도록 안내한다.", "source_id": "S4", "claim_type": "safety-communication", "source_date": "2024-07-23", "supports_section": "약사와 의료진에게는 ‘판단’ 대신 세 가지를 확인합니다"},
+    {"claim": "FDA는 처방약·일반약·보충제를 모두 목록에 넣고, 약 이름이나 라벨이 불분명한 경우 약사에게 질문할 수 있다고 설명한다.", "source_id": "S5", "claim_type": "label-confirmation", "source_date": "2026-04-09", "supports_section": "한 장을 들고 가도 결론을 적지 않는 이유"}
+  ],
+  "article_specific_details": [
+    {"claim": "‘혈압약’처럼 목적만 쓰지 않고, 약 봉투에 적힌 이름·강도·처방기관·마지막으로 바뀐 날짜를 같은 줄에 둔다. 이는 FDA가 목록에 이름·강도·목적·사용 정보를 포함하도록 한 항목을 여러 진료과 대조용으로 바꾼 것이다.", "source_id": "S1"},
+    {"claim": "일반 진통제나 감기약처럼 필요할 때만 쓰는 제품은 ‘없음’으로 묶지 않고, 제품명·유효성분·마지막 사용 시각·어느 약국이나 매장에서 샀는지를 별도 줄에 남긴다. FDA의 기록지는 가끔 쓰는 일반약과 보충제도 포함하도록 한다.", "source_id": "S2"},
+    {"claim": "약국이 둘 이상이면 ‘주로 쓰는 약국’과 ‘이번에 가져갈 목록을 보여 줄 약국’을 구분해 적는다. NIA는 한 약국만 이용할 수 없을 때 각 약사에게 목록을 공유하라고 안내한다.", "source_id": "S3"}
+  ],
+  "visual_elements": ["reconciliation-grid", "change-timeline", "consultation-question-card"],
+  "semantic_colors": ["blue-observation", "amber-confirmation"],
+  "structure_type": "모으기→출처 구분→변경 표시→확인 질문",
+  "h2_mapping": [
+    {"heading": "한 장을 만들기 전, 봉투와 통을 같은 자리에 모읍니다", "role": "대조 대상 회수", "evidence": ["S1"]},
+    {"heading": "처방처와 구입 경로를 분리하면 같은 이름을 덜 섞습니다", "role": "출처별 분류", "evidence": ["S2", "S5"]},
+    {"heading": "변경은 지우지 말고 날짜와 이유의 빈칸으로 남깁니다", "role": "시간축 보존", "evidence": ["S2", "S3"]},
+    {"heading": "약사와 의료진에게는 ‘판단’ 대신 세 가지를 확인합니다", "role": "상담 질문", "evidence": ["S3", "S4"]},
+    {"heading": "한 장을 들고 가도 결론을 적지 않는 이유", "role": "YMYL 경계", "evidence": ["S4", "S5"]}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

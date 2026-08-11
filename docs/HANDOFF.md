@@ -1,5 +1,18 @@
 # Current Handoff
 
+- Timestamp: 2026-08-11 (batch-60 pre-deploy checkpoint)
+- User goal: Add another thirty non-duplicative, research-backed Korean middle-aged women's health articles, independently score each at 99, integrate them, and schedule them every five hours after the current final reservation.
+- Exact current state: Batch-60 c001-c030 are all done at 99 with final corpus audit PASS. All thirty are integrated into an 89-article catalog and appended after the existing schedule at exact five-hour intervals from 2026-08-19 23:00 KST through 2026-08-26 00:00 KST. Local release validation passes; preview deployment is next.
+- Completed work: Durable goal and contracts; thirty research-backed drafts/research/QA packets; five independent checkpoints; corpus-wide provenance, traceability, citation, route, UTF-8, YMYL and originality repair; unified catalog integration; schedule code/docs/tests.
+- Changed files/live systems: Local batch-60 artifacts, catalog loader, publication schedule, tests, and handoff/harness files. No batch-60 Git push or Vercel production deployment yet; DNS, AdSense, and indexing remain untouched.
+- Fresh validation: Contract validator PASS; manifest 30/30 done at 99; final corpus audit PASS with max normalized seven-token Jaccard 0.013021; catalog 89 unique; schedule 69 slots plus baseline 20; first/final new slots 2026-08-19 23:00 / 2026-08-26 00:00 KST; npm test 3/3, TypeScript, production build, and diff check pass.
+- Side effects/rollback: Local reversible files only; remove the batch-60 artifacts or revert the eventual scoped commit if abandoned.
+- Blocker/risk: Local background-process policy prevented a direct HTTP smoke, so preview HTTP verification remains required before production promotion.
+- Deliberately not run/sent: No batch-60 Git push, production deployment, DNS change, AdSense action, indexing submission, or medical-expert signature yet.
+- Single next step: Create a local commit, deploy a Vercel preview, verify future 404/noindex and discovery surfaces, then push/deploy production if clean.
+
+## Previous completed batch-30 handoff
+
 - Timestamp: 2026-08-11 20:01 KST
 - User goal: Keep the initial twenty articles public, create thirty additional 99-point research-backed Korean health articles, and release all later content automatically at five-hour intervals.
 - Exact current state: Goal is complete. All thirty batch-30 articles are independently verified at 99/done, integrated into a unified 59-article catalog, committed, pushed, and deployed to Vercel production. The request-time schedule contains baseline twenty, the existing nine slots, and thirty additional five-hour slots from 2026-08-13 17:00 KST through 2026-08-19 18:00 KST.

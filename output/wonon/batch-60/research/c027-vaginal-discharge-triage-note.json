@@ -1,0 +1,70 @@
+{
+  "article_id": "c027",
+  "slug": "vaginal-discharge-triage-note",
+  "researched_at": "2026-08-11T20:58:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {"query": "site:acog.org womens health vaginal discharge vaginitis FAQ", "date": "2026-08-11", "purpose": "정상 범위와 평소와 다른 색·냄새·양·질감의 공식 설명 확인"},
+    {"query": "site:cdc.gov vaginal discharge symptoms STI women", "date": "2026-08-11", "purpose": "증상만으로 질염 원인을 정확히 진단할 수 없고 병력·진찰·검사가 필요하다는 경계 확인"},
+    {"query": "site:medlineplus.gov vaginal discharge patient instructions", "date": "2026-08-11", "purpose": "환자용 분비물·가려움·배뇨 불편 관찰 항목 교차 확인"},
+    {"query": "site:nhs.uk vaginal discharge when to seek medical advice", "date": "2026-08-11", "purpose": "색·냄새·질감 변화, 출혈·배뇨통·골반통의 상담 경계 확인"}
+  ],
+  "article_research_question": "질 분비물이 달라진 독자가 감염 이름이나 약을 스스로 정하지 않고, 예약 통화와 진료 접수에서 색·냄새·양·질감 및 동반 증상을 어떻게 정확히 전달할 수 있는가?",
+  "reader_outcome": "시작 시점, 평소와 다른 분비물의 모습, 가려움·통증·배뇨·성관계 영향, 출혈·발열·골반통을 서로 다른 줄로 적어 접수 문장과 연락 우선순위를 정한다.",
+  "search_intent_insight": "독자는 분비물 사진이나 색으로 병명을 맞히는 답보다, 민감한 증상을 전화·진료에서 빠뜨리지 않고 설명할 말과 미루지 말아야 할 변화를 찾는다.",
+  "competitor_gap": "일반 검색 결과는 색·질감별 원인을 나열하거나 제품 선택으로 바로 넘어가기 쉽다. 이 글은 색을 진단표로 쓰지 않고, 평소와의 차이·시간·동반 신호를 접수 메모로 바꾸며 같은 분비물 변화라도 먼저 알려야 할 신호를 분리한다.",
+  "information_gain": "예약 통화에서 읽을 수 있는 ‘한 줄 요약 + 네 개의 확인 줄’과, 분비물 자체·통증·출혈/전신 신호를 섞지 않는 삼단 접수 순서를 제공한다.",
+  "unique_angle": "질 분비물의 색·냄새·양·질감, 가려움·배뇨·성관계 영향, 출혈·발열·골반통을 원인 추정 없이 예약 접수 문장으로 변환하는 분류 메모.",
+  "source_interpretation": "ACOG의 ‘평소와 다른 색·냄새·양·질감’ 기준은 정상/비정상을 판정하는 표가 아니라 첫 줄 묘사 항목으로 사용한다. CDC의 병력만으로는 정확한 진단이 어렵다는 자료는 자가진단·자가투약을 멈추는 경계로 쓴다. NHS와 MedlinePlus의 통증·출혈·배뇨 변화는 특정 감염을 추정하는 근거가 아니라, 접수에서 별도로 말해야 할 동반 사실과 신속한 평가 경계로 번역한다.",
+  "angle_supporting_detail": {"claim": "질 분비물의 색, 냄새, 양, 질감이 평소와 달라진 것은 진료에서 설명할 수 있는 관찰 사실이며, 그 변화만으로 원인을 단정하지 않는다.", "source_id": "S1"},
+  "original_contribution": {"type": "reception-note-triage", "description": "원인 추정 칸을 없애고 ‘분비물 묘사-동반 증상-안전 신호-예약 첫 문장’으로 읽는 순서의 접수 메모", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "article_specific_details": [
+    {"claim": "분비물 변화만으로 질염의 원인을 정확히 진단하기 어렵기 때문에, 성생활·월경·질 세정·이미 사용한 경구·질내 제품 같은 맥락과 진찰·검사가 필요할 수 있다.", "source_id": "S3"},
+    {"claim": "색·냄새·질감 변화에 더해 생리 사이 또는 성관계 후 출혈, 배뇨통, 골반통은 접수에서 별도 줄로 알려야 할 동반 신호다.", "source_id": "S4"},
+    {"claim": "평소와 다른 분비물의 양·색·냄새·질감과 가려움·자극·배뇨 시 불편은 한 덩어리로 요약하지 않고 각각 기록할 수 있다.", "source_id": "S5"}
+  ],
+  "structure": {"structure_type": "상황별분기형", "why": "독자의 과제는 원인을 맞히는 일이 아니라 예약 접수에서 분비물 변화와 동반 신호를 안전하게 나눠 전달하는 일이다.", "intro_style": "예약 전 메모를 못 정한 장면", "section_sequence": ["direct-answer", "change-description", "symptom-separation", "urgent-boundaries", "reception-note", "visit-prep", "one-action-close"]},
+  "visual_elements": ["접수-메모-표", "삼단-분류-표", "긴급-경계-상자", "예약-첫문장-카드"],
+  "semantic_colors": ["blue-record", "amber-warning"],
+  "sources": [
+    {"id": "S1", "organization": "ACOG", "title": "Vulvovaginal Health", "url": "https://www.acog.org/womens-health/faqs/vulvovaginal-health", "published_or_updated": "2026-01 (copyright page; crawl indicates 2026-01)", "date": "2026-01", "source_date": "2026-01", "accessed": "2026-08-11", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "정상 분비물의 일반 범위와 평소와 다른 색·냄새·양·질감의 관찰 기준"},
+    {"id": "S2", "organization": "ACOG", "title": "Think You Have a Vaginal Infection? Here's What You Need to Know.", "url": "https://www.acog.org/womens-health/experts-and-stories/the-latest/think-you-have-a-vaginal-infection-heres-what-you-need-to-know", "published_or_updated": "2025-12", "date": "2025-12", "source_date": "2025-12", "accessed": "2026-08-11", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "비정상 분비물에서 의료진이 외관·냄새·가려움·지속 기간을 묻고 골반 진찰 및 분비물 검체 검사를 할 수 있다는 환자용 설명"},
+    {"id": "S3", "organization": "CDC", "title": "Diseases Characterized by Vulvovaginal Itching, Burning, Irritation, Odor or Discharge", "url": "https://www.cdc.gov/std/treatment-guidelines/vaginal-discharge.htm", "published_or_updated": "2021-07-22", "date": "2021-07-22", "source_date": "2021-07-22", "accessed": "2026-08-11", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "old", "used_for": "병력만으로 정확한 질염 진단이 어렵고 진찰·검사가 필요할 수 있다는 자가진단 경계"},
+    {"id": "S4", "organization": "NHS", "title": "Vaginal discharge", "url": "https://www.nhs.uk/symptoms/vaginal-discharge/", "published_or_updated": "2024-02-15", "date": "2024-02-15", "source_date": "2024-02-15", "accessed": "2026-08-11", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "색·냄새·질감 변화와 가려움·통증·생리 사이/성관계 후 출혈·배뇨통·골반통 상담 경계"},
+    {"id": "S5", "organization": "MedlinePlus / U.S. National Library of Medicine", "title": "Vaginal itching and discharge - adult and adolescent", "url": "https://medlineplus.gov/ency/article/003158.htm", "published_or_updated": "2025-08-18", "date": "2025-08-18", "source_date": "2025-08-18", "accessed": "2026-08-11", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "분비물 변화와 가려움·자극·배뇨 시 불편을 분리해 묘사하는 환자용 보조 정보"}
+  ],
+  "h2_mapping": [
+    {"heading":"색을 맞히려 하지 말고 평소와의 차이를 적습니다","role":"정상 범위를 진단하지 않고 평소와 다른 색·냄새·양·질감을 첫 줄에 기록하는 기준","evidence":["S1","S5"]},
+    {"heading":"원인을 추정하는 칸은 비워 둡니다","role":"병력과 외관만으로 원인을 확정하지 않고 진찰·검사를 상담에 남기는 경계","evidence":["S2","S3"]},
+    {"heading":"가려움·배뇨·성관계 영향은 두 번째 줄에 놓습니다","role":"가려움·자극·배뇨 및 성관계 관련 불편을 분비물 묘사와 분리하는 기록","evidence":["S2","S4","S5"]},
+    {"heading":"통증·출혈·전신 신호는 분비물 칸과 분리합니다","role":"골반통·배뇨통·출혈·발열 등 상담 또는 긴급 평가 경계가 될 수 있는 동반 신호","evidence":["S4"]},
+    {"heading":"한 장 접수 메모는 네 줄이면 됩니다","role":"변화·동반 불편·별도 안전 신호·최근 사용 정보를 접수에 전달하는 요약 형식","evidence":["S1","S2","S4","S5"]},
+    {"heading":"진료 전에는 ‘해 본 것’도 적습니다","role":"이미 사용한 제품·약·질내 처치와 시점을 사실로 공유하고 임의 처치를 권하지 않는 경계","evidence":["S2","S3"]},
+    {"heading":"오늘은 색 검색 대신 첫 줄을 씁니다","role":"원인·치료를 자가결정하지 않고 변화와 안전 신호를 의료진에게 전달하는 마무리","evidence":["S1","S3","S4"]}
+  ],
+  "data_points": [
+    {"claim": "정상 분비물은 대체로 맑거나 흰색이며 뚜렷한 냄새가 없을 수 있고, 평소와 다른 색·냄새·양·질감 변화는 진료에서 설명할 관찰 항목이다.", "source_id": "S1", "claim_type": "medical", "source_date": "2026-01", "supports_section": "색을 맞히려 하지 말고 평소와의 차이를 적습니다"},
+    {"claim": "비정상 분비물을 평가할 때 의료진은 외관·냄새·가려움·지속 기간을 묻고, 골반 진찰 및 분비물 검체 검사를 할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-12", "supports_section": "원인을 추정하는 칸은 비워 둡니다"},
+    {"claim": "질 분비물·가려움·화끈거림·냄새만으로 질염 원인을 정확히 진단하기 어렵고, 병력·진찰·검사가 필요할 수 있다.", "source_id": "S3", "claim_type": "medical", "source_date": "2021-07-22", "supports_section": "원인을 추정하는 칸은 비워 둡니다"},
+    {"claim": "분비물의 색·냄새·질감 변화, 평소보다 많은 양, 가려움·통증, 생리 사이 또는 성관계 후 출혈, 배뇨통, 골반통은 상담에서 알릴 변화로 제시된다.", "source_id": "S4", "claim_type": "safety", "source_date": "2024-02-15", "supports_section": "통증·출혈·전신 신호는 분비물 칸과 분리합니다"},
+    {"claim": "분비물의 양·색·냄새·질감 변화와 가려움·자극·배뇨 시 불편은 각각 따로 관찰할 수 있는 사실이다.", "source_id": "S5", "claim_type": "medical", "source_date": "2025-08-18", "supports_section": "한 장 접수 메모는 네 줄이면 됩니다"}
+  ],
+  "reader_visible_citation_plan": [
+    {"source_id": "S1", "draft_section": "색을 맞히려 하지 말고 평소와의 차이를 적습니다", "citation_text": "ACOG의 외음부·질 건강 안내"},
+    {"source_id": "S3", "draft_section": "원인을 추정하는 칸은 비워 둡니다", "citation_text": "CDC STI 치료지침"},
+    {"source_id": "S4", "draft_section": "통증·출혈·전신 신호는 분비물 칸과 분리합니다", "citation_text": "NHS의 질 분비물 안내"},
+    {"source_id": "S5", "draft_section": "한 장 접수 메모는 네 줄이면 됩니다", "citation_text": "MedlinePlus의 환자용 정보"},
+    {"source_id": "S2", "draft_section": "진료 전에는 ‘해 본 것’도 적습니다", "citation_text": "ACOG의 질염 안내"}
+  ],
+  "material_detail_usage": [
+    {"detail_source_id": "S3", "detail_claim": "병력만으로 정확한 원인 진단이 어려워 진찰·검사가 필요할 수 있다.", "draft_section": "원인을 추정하는 칸은 비워 둡니다", "draft_sentence": "CDC는 병력만으로 질염의 원인을 정확히 진단하기 어렵고, 적절한 병력 확인·진찰·검사가 필요할 수 있다고 설명합니다."},
+    {"detail_source_id": "S4", "detail_claim": "분비물 변화와 생리 사이 또는 성관계 후 출혈, 배뇨통, 골반통을 별도 변화로 알린다.", "draft_section": "통증·출혈·전신 신호는 분비물 칸과 분리합니다", "draft_sentence": "색이나 냄새의 변화와 별개로 생리 사이·성관계 후 출혈, 소변 볼 때 통증, 골반 통증은 예약 통화에서 따로 말해야 할 항목입니다."}
+  ],
+  "ymyl_boundaries": ["감염명, 성매개감염 여부, GSM 또는 다른 원인을 진단하지 않는다.", "세정제·항생제·질정·처방약·검사·치료를 선택하거나 권하지 않는다.", "심한 골반 또는 아랫배 통증, 고열, 심한 출혈, 실신감·심한 어지러움, 임신 가능성이 있는 통증·출혈은 기록 완성보다 지역의 긴급 의료 도움을 우선한다."],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "CDC 지침은 2021년 자료이나 현재 공식 페이지로 접근 가능하며, 2024 NHS·2025 ACOG·MedlinePlus·2026 ACOG 자료와 교차해 진단 경계와 환자용 관찰 항목에 한정해 사용했다."
+}

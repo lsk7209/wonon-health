@@ -1,0 +1,49 @@
+{
+  "article_id":"c023",
+  "researched_at":"2026-08-11",
+  "article_research_question":"부모의 약을 챙기는 사람이 자기 복용을 놓치거나 봉투가 섞일 때, 두 사람의 약을 어떤 정보로 분리해 약사·의료진에게 안전하게 질문할 수 있는가?",
+  "reader_outcome":"돌봄 대상과 본인의 약을 서로 다른 두 칸에 이름·복용 시각·보관 장소·처방처로 기록하고, 누락·혼동·부작용 의심은 임의 보정 대신 약사나 의료진에게 확인할 질문으로 바꾼다.",
+  "original_contribution":{"type":"role-separation worksheet","description":"개인 복용품 전수 목록이 아니라, 돌봄 역할에서 두 사람의 봉투와 시간표가 섞이는 장면을 분리하는 두 칸표와 질문 순서를 제공한다.","source_ids":["S1","S2","S3","S4","S5"]},
+  "search_intent_insight":"독자는 약의 효능이나 복용법을 정하고 싶은 것이 아니라, 돌봄 중 누구의 약인지 헷갈리고 자기 복용을 놓친 상황을 안전하게 설명할 방법을 찾는다.",
+  "competitor_gap":"일반 약물 목록 양식은 한 사람의 모든 품목을 모으는 데 집중한다. 이 글은 두 사람의 약을 같은 표에서 섞지 않고, 소유자·시간·보관 장소·처방처를 서로 다른 열로 읽게 하며 본인 약의 누락을 별도 사건으로 남긴다.",
+  "angle_supporting_detail":{"claim":"FDA는 돌보는 사람마다 별도의 약 목록을 유지하고, 약은 원래 대상자가 복용하도록 확인하라고 안내한다.","source_id":"S1"},
+  "research_runs":[
+    {"query":"site:fda.gov caregiver medicines keep list each person medication intended person","date":"2026-08-11","purpose":"돌봄 대상별 약 목록과 대상자 확인 원칙 확인"},
+    {"query":"site:fda.gov medication list each family member name strength when how","date":"2026-08-11","purpose":"두 칸표에 넣을 약 이름·강도·시간 필드 교차 확인"},
+    {"query":"site:nia.nih.gov taking medicines safely older adults list name amount time don't share","date":"2026-08-11","purpose":"고령 돌봄 맥락에서 목록·복용 변경 금지·약 공유 금지 확인"},
+    {"query":"site:nhs.uk medicines tips carers confidentiality pharmacist medication review","date":"2026-08-11","purpose":"돌봄 참여 범위와 약사 상담·검토의 경계 확인"},
+    {"query":"site:medlineplus.gov medicine safety right medicine label pharmacist list","date":"2026-08-11","purpose":"라벨 확인과 약사 상담으로 연결할 환자용 안전 원칙 확인"}
+  ],
+  "sources":[
+    {"id":"S1","title":"Caring for Others: Tips for Medicines and Devices","url":"https://www.fda.gov/media/116205/download?attachment=","publisher":"U.S. Food and Drug Administration","source_role":"official","source_type":"official PDF","is_official":true,"date":"2018","source_date":"2018","accessed":"2026-08-11","freshness":"dated-specific","used_for":"돌봄에서 약 목록을 만들고 문제를 의료진에게 알리는 안전한 질문의 출발점"},
+    {"id":"S2","title":"Medicine safety - Filling your prescription","url":"https://medlineplus.gov/ency/patientinstructions/000766.htm","publisher":"MedlinePlus","source_role":"official","source_type":"official","is_official":true,"date":"2024-04-18","source_date":"2024-04-18","accessed":"2026-08-11","freshness":"reviewed-specific","used_for":"라벨의 이름·용량·복용 횟수 확인과 낯선 점을 약국 또는 의료진에 문의하는 필드"},
+    {"id":"S3","title":"Taking Medicines Safely as You Age","url":"https://www.nia.nih.gov/health/medicines-and-medication-management/taking-medicines-safely-you-age","publisher":"National Institute on Aging","source_role":"official","source_type":"official","is_official":true,"date":"2024-01","source_date":"2024-01","accessed":"2026-08-11","freshness":"dated-specific","used_for":"NIA 2024년 1월 상태보고서에 기록된 갱신 자료로서, 처방약·일반약·비타민·보충제를 포함한 개인 목록과 타인 약 복용·공유 금지의 경계"},
+    {"id":"S4","title":"Medicines: tips for carers","url":"https://www.nhs.uk/social-care-and-support/practical-tips-if-you-care-for-someone/medicines-tips-for-carers/","publisher":"NHS","source_role":"official","source_type":"official","is_official":true,"date":"2024-04-25","source_date":"2024-04-25","accessed":"2026-08-11","freshness":"reviewed-specific","used_for":"돌봄 대상의 정보공개 범위, 복잡한 복용에서 약사·의료전문가와 상담할 수 있는 경계"},
+    {"id":"S5","title":"Medicine safety - Filling your prescription","url":"https://medlineplus.gov/ency/patientinstructions/000766.htm","publisher":"MedlinePlus","source_role":"official","source_type":"official","is_official":true,"date":"2024-04-18 review","source_date":"2024-04-18","accessed":"2026-08-11","freshness":"reviewed-current","used_for":"라벨의 이름·용량·횟수 확인, 다른 사람의 약을 복용하지 않는 원칙, 약사 문의 연결"}
+  ],
+  "h2_mapping":[
+    {"heading":"두 칸표의 첫 규칙: 한 장에 있어도 한 목록이 아닙니다","role":"돌봄 대상과 본인의 약 목록을 대상자별로 분리하는 안전 원칙","evidence":["S1","S3"]},
+    {"heading":"내 약을 놓친 일은 ‘부모 약의 문제’와 분리해 기록합니다","role":"본인 복용 누락과 돌봄 대상의 복용 문제를 별도 사건으로 남기는 경계","evidence":["S3","S5"]},
+    {"heading":"보관 장소는 ‘잘 정리된 집’이 아니라 혼동 장면을 찾는 단서입니다","role":"라벨·이름·용량·복용 횟수와 보관 맥락을 확인하는 기록 필드","evidence":["S2","S5"]},
+    {"heading":"약사에게 묻는 순서는 ‘누가, 무엇을, 언제, 지금 무엇이 불확실한가’입니다","role":"복잡한 복용 정보와 정보공개 범위를 약사·의료전문가에게 확인하는 질문 경계","evidence":["S1","S2","S4"]},
+    {"heading":"오늘의 마무리: 두 사람의 시간을 맞추지 말고, 두 사람의 사실을 나눕니다","role":"두 사람의 기록을 섞지 않고 복용 조정·중단 판단을 전문가에게 남기는 요약","evidence":["S1","S3","S5"]},
+    {"heading":"두 칸표를 갱신하는 날을 따로 정하면 기억에 덜 기대게 됩니다","role":"목록을 최신 상태로 유지해 상담 때 사실을 전달하는 운영 원칙","evidence":["S1","S3","S4"]}
+  ],
+  "data_points":[
+    {"claim":"FDA의 돌봄용 안내문은 약 목록을 유지하고 건강 변화·문제를 의료진에게 알리도록 안내한다.","source_id":"S1","claim_type":"medication-safety-guidance","source_date":"2018","supports_section":"두 칸표의 첫 규칙: 한 장에 있어도 한 목록이 아닙니다"},
+    {"claim":"처방 라벨에서 이름·약 이름·용량·복용 횟수를 확인하고 낯선 점은 약국 또는 의료진에 문의하도록 MedlinePlus가 안내한다.","source_id":"S2","claim_type":"medication-list-guidance","source_date":"2024-04-18","supports_section":"보관 장소는 ‘잘 정리된 집’이 아니라 혼동 장면을 찾는 단서입니다"},
+    {"claim":"처방약 외 일반약·비타민·보충제도 목록에 포함하고, 처방약을 타인과 공유하거나 타인 약을 복용하지 않도록 NIA가 안내한다.","source_id":"S3","claim_type":"medication-safety-guidance","source_date":"2024-01","supports_section":"내 약을 놓친 일은 ‘부모 약의 문제’와 분리해 기록합니다"},
+    {"claim":"돌봄 대상은 돌봄 제공자에게 어느 정도의 건강·약 정보를 공유할지 결정할 권리가 있고, 복잡한 복용은 약사 또는 의료전문가와 상담할 수 있다.","source_id":"S4","claim_type":"caregiving-guidance","source_date":"2024-04-25","supports_section":"약사에게 묻는 순서는 ‘누가, 무엇을, 언제, 지금 무엇이 불확실한가’입니다"},
+    {"claim":"약을 받을 때 라벨의 이름·약 이름·용량·횟수를 확인하고, 낯선 점은 약국 또는 의료진에 문의하도록 MedlinePlus가 안내한다.","source_id":"S5","claim_type":"medication-safety-guidance","source_date":"2024-04-18","supports_section":"보관 장소는 ‘잘 정리된 집’이 아니라 혼동 장면을 찾는 단서입니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"한 장의 표를 쓰더라도 돌봄 대상과 나의 칸을 좌우로 나누고, 이름·시간·보관 장소·처방처는 각각의 칸에서만 읽는다.","source_id":"S1"},
+    {"claim":"내 약을 놓친 사실은 돌봄 대상의 약 시간표를 수정하는 근거가 아니라, '내 약 누락'이라는 별도 사건과 약사에게 물을 질문으로 기록한다.","source_id":"S3"},
+    {"claim":"돌봄 대상의 약 정보를 어디까지 적고 공유할지는 대상자의 의사와 동의를 존중하는 범위에서 정한다.","source_id":"S4"}
+  ],
+  "source_interpretation":"S1·S2는 두 사람 각각의 목록 필드와 대상자 확인에, S3·S5는 타인 약 복용·임의 변경 금지와 라벨 확인에, S4는 돌봄 역할과 비밀보장·약사 상담 경계에만 사용했다. 이 글은 복용을 대신 조제하거나 누락분을 보정하거나 중단·용량 변경을 지시하지 않는다.",
+  "structure_type":"돌봄 역할 경계→두 칸표 작성→혼동 사건 분리→약사 질문 순서",
+  "visual_elements":["두 칸 비교표","혼동 사건 카드","질문 순서 체크리스트"],
+  "semantic_colors":["청록: 돌봄 대상 칸","보라: 내 복용품 칸","적갈색: 임의 보정 금지"],
+  "ymyl_category":"health","ymyl_review":"pass","ymyl_review_note":"공식 기관 5개를 사용하고 복용·용량·조제·상호작용을 결정하지 않았다.","volatile":true,"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[]
+}

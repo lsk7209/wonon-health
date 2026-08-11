@@ -1,0 +1,54 @@
+{
+  "article_id": "c009",
+  "slug": "pain-reliever-use-context-log",
+  "title": "진통제를 자주 찾게 될 때: 통증 장면과 복용 간격을 분리해 묻는 기록",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-medication-safety",
+  "ymyl_review": "pass-no-dose-switch-stop-or-combination-direction",
+  "volatile": true,
+  "research_runs": [
+    {"query": "FDA OTC Drug Facts label active ingredient warnings directions pain relievers", "date": "2026-08-11", "purpose": "제품명과 유효성분을 분리해 기록할 근거 확인"},
+    {"query": "FDA pain relievers fever reducers same active ingredient cough cold product", "date": "2026-08-11", "purpose": "통증약과 감기약의 성분 중복을 개인 처방 없이 확인할 기록 항목 검증"},
+    {"query": "FDA acetaminophen prescription OTC active ingredient label questions pharmacist", "date": "2026-08-11", "purpose": "제품 포장과 처방 라벨을 함께 가져갈 이유 확인"},
+    {"query": "NHS ibuprofen adults black tarry stools vomiting blood urgent medical help", "date": "2026-08-11", "purpose": "위장 출혈 관련 안전 신호의 연락 경계 확인"},
+    {"query": "MedlinePlus medication errors list medicines amount when take supplements pharmacist", "date": "2026-08-11", "purpose": "상담 시 제품·시간·다른 복용품을 전달할 원칙 확인"}
+  ],
+  "search_intent_insight": "반복 진통제 검색은 특정 제품 비교나 복용량 답변으로 빠르게 흐른다. 이 글은 그 선택을 대신하지 않고, 통증 자체의 변화와 제품·시간·동반 신호를 분리해 상담에서 보여 줄 정보를 만든다.",
+  "competitor_gap": "통증 기록 앱은 통증 점수만, 약물 정보는 라벨 해석만 다루는 경우가 많다. 이 글은 진통제를 자주 찾는 장면에서 통증의 기능 영향과 포장에 적힌 유효성분, 마지막 사용 시각, 감기약 같은 다른 제품, 출혈·호흡 변화 같은 안전 신호를 한 줄에 섞지 않는 기록 도구를 제시한다.",
+  "article_research_question": "두통이나 관절통 때문에 일반 진통제를 반복해서 찾게 될 때, 용량·교체·중단을 지시하지 않고도 어떤 통증 장면·제품 라벨·시간 순서·동반 신호를 기록하면 약사나 의료진과 안전하게 대화할 수 있는가?",
+  "reader_outcome": "독자는 통증 원인을 단정하지 않고, 제품 포장과 시간축을 함께 보여 주며 안전 신호가 있으면 기록을 미루지 않고 지역 의료체계에 연락할 수 있는 상담 메모를 만든다.",
+  "original_contribution": {"type": "pain-context-and-package-log", "description": "통증 점수표 대신 ‘통증 장면-기능 영향-제품명·유효성분-마지막 사용 시각-다른 복용품-경고 신호’를 서로 다른 칸에 두는 기록", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "S1은 OTC Drug Facts에서 제품명과 유효성분·경고를 분리해 읽는 이유에만 쓴다. S2·S3는 통증약이 다른 제품과 같은 성분을 가질 수 있으므로 포장과 라벨을 함께 보자는 근거이며, 특정 조합이나 양을 제시하지 않는다. S4는 검은 변·토혈 같은 심각한 신호를 기록표가 아닌 연락 경계로만 사용한다. S5는 다른 복용품과 시간 정보를 약사·의료진에게 가져갈 상담 원칙에만 사용한다.",
+  "sources": [
+    {"id": "S1", "title": "The Over-the-Counter Drug Facts Label", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-drug-facts-label", "source_date": "2025-01-30", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "OTC 라벨에서 유효성분·용도·경고·사용 지시가 정해진 순서로 제시되는 점과 라벨 확인 항목"},
+    {"id": "S2", "title": "Safe Use of Over-the-Counter Pain Relievers and Fever Reducers", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/safe-use-over-counter-pain-relievers-and-fever-reducers", "source_date": "2026-06-10", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "일반 진통제·해열제의 유효성분과 라벨을 확인하는 안전 맥락"},
+    {"id": "S3", "title": "Don't Overuse Acetaminophen", "organization": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/consumers/consumer-updates/dont-overuse-acetaminophen", "source_date": "2025-12-16", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "처방·일반 제품과 감기약 등에 같은 성분이 들어갈 수 있어 포장의 유효성분을 확인하는 이유"},
+    {"id": "S4", "title": "Ibuprofen for adults", "organization": "NHS", "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/", "source_date": "2025-09-10", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "복통·숨참·창백함·토혈·검고 끈적한 변처럼 평가를 미루지 않을 안전 신호"},
+    {"id": "S5", "title": "Medication Errors", "organization": "MedlinePlus", "url": "https://medlineplus.gov/medicationerrors.html", "source_date": "2023-03-01", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "약 이름·사용량·시간과 일반약·비타민·보충제 목록을 진료 때 가져가 질문하는 원칙"}
+  ],
+  "data_points": [
+    {"claim": "FDA는 OTC Drug Facts 라벨에 유효성분, 용도, 경고, 사용 지시 등이 일정한 순서로 제시된다고 설명한다.", "source_id": "S1", "claim_type": "label-literacy", "source_date": "2025-01-30", "supports_section": "제품명 옆에 유효성분을 따로 베껴 둡니다"},
+    {"claim": "FDA는 일반 진통제·해열제의 안전한 사용에서 제품 라벨과 유효성분 정보를 확인하도록 안내한다.", "source_id": "S2", "claim_type": "medication-safety-context", "source_date": "2026-06-10", "supports_section": "통증 장면과 제품 포장을 한 줄에 섞지 않습니다"},
+    {"claim": "FDA는 아세트아미노펜이 처방약과 일반약, 감기·기침 제품을 포함한 많은 제품에 들어갈 수 있으므로 Drug Facts의 유효성분을 확인하라고 설명한다.", "source_id": "S3", "claim_type": "duplicate-ingredient-context", "source_date": "2025-12-16", "supports_section": "다른 복용품은 ‘같은 날 쓴 제품’으로 별도 칸에 둡니다"},
+    {"claim": "NHS는 이부프로펜의 심각한 부작용으로 복통, 숨참, 창백한 피부, 토혈, 검고 끈적한 변 같은 변화를 제시한다.", "source_id": "S4", "claim_type": "urgent-safety-boundary", "source_date": "2025-09-10", "supports_section": "검은 변·토혈·숨참은 기록표보다 연락이 먼저입니다"},
+    {"claim": "MedlinePlus는 약의 이름·사용량·시간과 일반약·비타민·보충제 목록을 적어 모든 진료 방문에 가져가고, 모르는 점은 의료진 또는 약사에게 질문하라고 안내한다.", "source_id": "S5", "claim_type": "consultation-preparation", "source_date": "2023-03-01", "supports_section": "상담 첫 문장은 통증 점수보다 시간 순서에서 시작합니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "‘진통제’라는 한 단어 대신, 포장에 적힌 제품명과 Drug Facts의 유효성분을 서로 다른 칸에 베낀다. FDA는 OTC 라벨에서 유효성분과 경고를 정해진 항목으로 제시한다고 설명한다.", "source_id": "S1"},
+    {"claim": "통증약을 쓴 날에는 감기약·수면 보조 제품·처방약처럼 같은 날 함께 사용한 제품도 별도 줄에 적고, ‘통증약과 같은 성분인지’는 빈칸으로 남겨 약사에게 확인한다. FDA는 같은 성분이 처방·일반 제품과 감기·기침 제품에 들어갈 수 있다고 설명한다.", "source_id": "S3"},
+    {"claim": "복통, 숨참, 창백함, 토혈, 검고 끈적한 변처럼 심각한 변화가 있으면 표를 채우지 말고 지역 응급·의료 체계에 연락한다. NHS는 이부프로펜 관련 심각한 부작용의 예로 이 변화를 제시한다.", "source_id": "S4"}
+  ],
+  "visual_elements": ["two-track-timeline", "package-transcription-card", "urgent-signal-callout"],
+  "semantic_colors": ["blue-observation", "red-urgent"],
+  "structure_type": "통증 사실→포장 전사→시간축→안전 신호→상담 문장",
+  "h2_mapping": [
+    {"heading": "통증 장면과 제품 포장을 한 줄에 섞지 않습니다", "role": "통증 사실 분리", "evidence": ["S2"]},
+    {"heading": "제품명 옆에 유효성분을 따로 베껴 둡니다", "role": "라벨 전사", "evidence": ["S1"]},
+    {"heading": "다른 복용품은 ‘같은 날 쓴 제품’으로 별도 칸에 둡니다", "role": "중복 확인 준비", "evidence": ["S3", "S5"]},
+    {"heading": "검은 변·토혈·숨참은 기록표보다 연락이 먼저입니다", "role": "즉시 평가 경계", "evidence": ["S4"]},
+    {"heading": "상담 첫 문장은 통증 점수보다 시간 순서에서 시작합니다", "role": "상담 인계", "evidence": ["S5"]}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

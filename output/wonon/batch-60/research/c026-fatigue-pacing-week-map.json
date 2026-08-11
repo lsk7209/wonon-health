@@ -1,0 +1,67 @@
+{
+  "article_id": "c026",
+  "slug": "fatigue-pacing-week-map",
+  "researched_at": "2026-08-11T21:20:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "research_runs": [
+    {"query":"site:nhs.uk tiredness fatigue daily life when to see GP","date":"2026-08-11","purpose":"지속 피로와 일상 기능 저하의 상담 경계 확인"},
+    {"query":"site:medlineplus.gov fatigue diary daily activities sleep provider","date":"2026-08-11","purpose":"피로 일지와 의료진이 묻는 생활 정보 확인"},
+    {"query":"site:nia.nih.gov fatigue older adults daily activities","date":"2026-08-11","purpose":"중장년의 피로에서 기능 변화 관찰의 공식 자료 확인"},
+    {"query":"site:nhlbi.nih.gov sleep apnea symptoms daytime tiredness women","date":"2026-08-11","purpose":"수면 관련 동반 신호를 원인 추정 없이 기록하는 경계 확인"}
+  ],
+  "article_research_question": "피로 때문에 약속·돌봄·운동을 줄인 사람이 원인을 자가진단하지 않고, 한 주 동안의 활동과 회복 시간을 어떤 사실로 나누어 의료진에게 전달할 수 있는가?",
+  "reader_outcome": "활동 종류, 시작 전 상태, 중간 중단, 회복까지 걸린 시간, 수면, 새 동반 증상을 날짜별로 분리한 한 장의 주간 지도를 만든다.",
+  "search_intent_insight": "독자는 피로를 이겨 내는 방법보다 약속을 취소한 사실이 진료에서 의미 있는 정보인지, 무엇을 언제 기록해야 하는지 찾는다.",
+  "competitor_gap": "일반 결과는 원인 목록이나 생활 조언에 치우친다. 이 글은 원인을 맞히지 않고 기능 축소와 회복 지연을 분리해 읽는 상담용 기록 도구를 제공한다.",
+  "information_gain": "피로 점수 대신 ‘하려던 일-실제로 한 일-중단 지점-평소로 돌아온 시각’을 같은 날에 놓고, 수면과 새 경고 신호를 별도 줄에 두는 주간 지도.",
+  "unique_angle": "활동량을 늘리는 계획이 아니라, 약속·돌봄·이동·운동이 어떻게 줄었는지와 회복 시간을 사실로 보여 주는 주간 지도.",
+  "source_interpretation": "NHS의 지속 피로·일상 영향 상담 기준은 연락 시점을 정하는 데만 사용한다. MedlinePlus의 피로 일지는 활동·수면 패턴을 관찰하는 칸으로 번역한다. NHLBI의 수면무호흡 연관 신호는 원인 판정이 아니라 잠자는 동안의 관찰을 별도 줄로 분리하는 근거다. NIA 자료는 중장년의 기능 변화를 말할 언어로만 쓴다.",
+  "original_contribution": {"type":"weekly-function-map","description":"점수 경쟁이나 운동 처방 없이 활동 전·중·후와 회복 시각을 연결하는 7일 기능 지도와 예약 첫 문장","source_ids":["S1","S2","S3","S4","S5"]},
+  "article_specific_details": [
+    {"claim":"MedlinePlus는 피로가 평소 일상 활동을 방해할 수 있으며 피로 일지가 하루 중 피로와 에너지가 달라지는 패턴을 찾는 데 도움이 될 수 있다고 설명한다.","source_id":"S2"},
+    {"claim":"NHS는 이유를 알 수 없는 피로가 몇 주 지속되거나 일상에 영향을 주면 진료 상담을 권하며, 체중 변화·기분 변화·수면 중 헐떡임이나 코골이 같은 동반 변화를 함께 제시한다.","source_id":"S1"},
+    {"claim":"NHLBI는 수면무호흡에서 큰 코골이, 숨이 멎거나 헐떡이는 모습, 낮 시간 졸림 같은 단서가 있을 수 있다고 안내한다.","source_id":"S4"}
+  ],
+  "structure":{"structure_type":"주간-기능-지도형","why":"독자의 결정은 피로의 원인을 추정하는 일이 아니라, 활동 제한과 회복 시간을 날짜·장면별로 보여 주며 연락 시점을 놓치지 않는 일이다.","section_sequence":["첫-구분","활동-분류","중단-기록","회복-시각","수면-별도줄","안전-연락","상담-카드"]},
+  "visual_elements":["7일-기능-지도","활동-회복-표","안전-신호-상자","예약-첫문장-카드"],
+  "semantic_colors":["blue-record","amber-warning"],
+  "sources":[
+    {"id":"S1","organization":"NHS","title":"Tiredness and fatigue","url":"https://www.nhs.uk/symptoms/tiredness-and-fatigue/","published_or_updated":"2023-06-02","source_date":"2023-06-02","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"지속·설명되지 않는 피로와 일상 영향, 동반 변화의 상담 경계"},
+    {"id":"S2","organization":"MedlinePlus / U.S. National Library of Medicine","title":"Fatigue","url":"https://medlineplus.gov/fatigue.html","published_or_updated":"2024-08-08","source_date":"2024-08-08","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"피로가 일상 활동에 미치는 영향과 피로 일지의 패턴 관찰 가치"},
+    {"id":"S3","organization":"National Institute on Aging","title":"Fatigue in Older Adults","url":"https://www.nia.nih.gov/health/fatigue","published_or_updated":"2024-05-16","source_date":"2024-05-16","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"중장년의 피로를 기능 변화와 상담 대상으로 다루는 공공 보건 맥락"},
+    {"id":"S4","organization":"National Heart, Lung, and Blood Institute","title":"Sleep Apnea - Symptoms","url":"https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms","published_or_updated":"2022-03-24","source_date":"2022-03-24","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"수면 중 헐떡임·코골이와 낮 시간 피로를 별도 관찰 사실로 적는 근거"},
+    {"id":"S5","organization":"NHS","title":"Sleep apnoea","url":"https://www.nhs.uk/conditions/sleep-apnoea/","published_or_updated":"2023-03-03","source_date":"2023-03-03","accessed":"2026-08-11","accessed_date":"2026-08-11","source_type":"official","source_role":"official","is_official":true,"used_for":"수면 중 소리·호흡 변화가 함께 있을 때 상담에서 알릴 환자용 경계"}
+  ],
+  "data_points":[
+    {"claim":"설명되지 않는 피로가 몇 주 지속되거나 일상생활에 영향을 주면 의료진과 상의할 필요가 있다.","source_id":"S1","claim_type":"safety","source_date":"2023-06-02","supports_section":"피로 점수보다 기능의 축소를 먼저 봅니다"},
+    {"claim":"피로는 평소 일상 활동을 방해할 수 있고, 피로 일지는 하루 중 피로와 에너지의 패턴을 찾는 데 도움이 될 수 있다.","source_id":"S2","claim_type":"medical","source_date":"2024-08-08","supports_section":"활동은 종류별로, 중단은 장면별로 적습니다"},
+    {"claim":"중장년의 피로는 기능 변화와 다른 건강 문제의 맥락을 함께 의료진에게 알릴 수 있는 증상이다.","source_id":"S3","claim_type":"medical","source_date":"2026-08-11","supports_section":"회복 시간은 ‘누워 있던 시간’과 구분합니다"},
+    {"claim":"수면무호흡에서는 큰 코골이, 숨이 멎거나 헐떡이는 모습, 낮 시간 졸림이 나타날 수 있다.","source_id":"S4","claim_type":"safety","source_date":"2022-03-24","supports_section":"수면은 조언이 아니라 별도 관찰 줄입니다"},
+    {"claim":"이유를 알 수 없는 피로에 체중 변화·기분 변화·수면 중 헐떡임 등이 함께 있으면 진료에서 함께 알릴 수 있다.","source_id":"S1","claim_type":"safety","source_date":"2023-06-02","supports_section":"기록을 완성하지 말고 먼저 연락할 신호"}
+  ],
+  "reader_visible_citation_plan":[
+    {"source_id":"S1","draft_section":"피로 점수보다 기능의 축소를 먼저 봅니다","citation_text":"NHS의 피로 안내"},
+    {"source_id":"S2","draft_section":"활동은 종류별로, 중단은 장면별로 적습니다","citation_text":"MedlinePlus의 피로 정보"},
+    {"source_id":"S3","draft_section":"회복 시간은 ‘누워 있던 시간’과 구분합니다","citation_text":"NIA의 고령자 피로 정보"},
+    {"source_id":"S4","draft_section":"수면은 조언이 아니라 별도 관찰 줄입니다","citation_text":"NHLBI의 수면무호흡 증상 안내"},
+    {"source_id":"S5","draft_section":"기록을 완성하지 말고 먼저 연락할 신호","citation_text":"NHS의 수면무호흡 안내"}
+  ],
+  "material_detail_usage":[
+    {"detail_source_id":"S2","detail_claim":"피로 일지는 하루 중 피로와 에너지 패턴을 찾는 데 도움이 될 수 있다.","draft_section":"활동은 종류별로, 중단은 장면별로 적습니다","draft_sentence":"MedlinePlus는 피로 일지가 하루 중 피로와 에너지가 달라지는 패턴을 찾는 데 도움이 될 수 있다고 설명합니다."},
+    {"detail_source_id":"S1","detail_claim":"몇 주 지속되거나 일상에 영향을 주는 설명되지 않는 피로는 진료 상담 대상이다.","draft_section":"기록을 완성하지 말고 먼저 연락할 신호","draft_sentence":"NHS는 이유를 알 수 없는 피로가 몇 주 이어지거나 일상생활에 영향을 주면 진료 상담을 권합니다."}
+  ],
+  "ymyl_boundaries":["피로의 원인·질환·갱년기 여부를 진단하지 않는다.","운동량, 보충제, 약물, 검사 또는 치료를 선택·권하지 않는다.","흉통, 호흡곤란, 실신·의식 변화, 갑작스러운 신경학적 변화, 매우 심한 새 증상은 기록보다 지역 응급의료 도움을 우선한다."],
+  "h2_mapping":[
+    {"heading":"피로 점수보다 기능의 축소를 먼저 봅니다","role":"기능 변화 확인","evidence":["S1"]},
+    {"heading":"활동은 종류별로, 중단은 장면별로 적습니다","role":"활동 기록","evidence":["S2"]},
+    {"heading":"회복 시간은 ‘누워 있던 시간’과 구분합니다","role":"회복 맥락","evidence":["S3","S2"]},
+    {"heading":"수면은 조언이 아니라 별도 관찰 줄입니다","role":"수면 동반 신호","evidence":["S4","S5"]},
+    {"heading":"기록을 완성하지 말고 먼저 연락할 신호","role":"상담·안전 경계","evidence":["S1","S5"]},
+    {"heading":"예약 통화에 읽을 주간 지도는 다섯 줄이면 됩니다","role":"상담 전달","evidence":["S1","S2","S3"]},
+    {"heading":"오늘은 ‘참은 정도’ 대신 한 장면을 적습니다","role":"마무리와 비진단 경계","evidence":["S1","S2"]}
+  ],
+  "fact_traceability_pass":true,
+  "unresolved_claims":[],
+  "source_conflicts":[]
+}

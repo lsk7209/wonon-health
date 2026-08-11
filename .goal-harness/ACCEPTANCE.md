@@ -2,13 +2,13 @@
 
 | Criterion | Status | Evidence |
 |---|---|---|
-| User can open a polished responsive Korean homepage | pass-preview | Browser visual/DOM smoke on `wonon-health.vercel.app` |
-| User can reach at least 6 sourced health guides and trust pages | pass-preview | 6 article routes plus About, Editorial, Privacy, Terms, Contact return 200 |
-| Medical content shows limitations, urgent signals, sources, and review status honestly | pass | Explicit `의료전문가 검토 전`, source boxes, disclaimer |
-| `npm run build` completes successfully | pass | 23 static pages, TypeScript passed |
-| Robots, sitemap, canonical, metadata, JSON-LD, GA4 and ads.txt are configured | pass-code | Per-route canonical repair verified; custom host pending DNS |
-| GitHub source and Vercel production deployment exist | pass | `lsk7209/wonon-health`; deployment `dpl_9fwY6Gk4kQgkxfYJdjg5WutPy2UC` |
-| `wonon.ehon365.kr` resolves to the Vercel deployment | fail-blocked | NXDOMAIN; authoritative DNS access unavailable |
-| Public custom-domain routes respond successfully | fail-blocked | DNS not configured |
-| Existing `ehon365.kr` DNS records are preserved | pass | No DNS mutation performed; exact new record plan prohibits apex/www changes |
-| Durable handoff contains current state, validation, side effects and rollback | pass | `docs/HANDOFF.md` |
+| Exactly 30 new contracts are distinct from the current 59 and each other | pending | Contract validator and independent audit |
+| Five-article dry run spans multiple clusters and passes at 99 | pending | Draft/research/QA packets and checkpoint audit |
+| All 30 drafts have 3,500+ visible Korean characters and credible sources | pending | Corpus validator |
+| All 30 QA records are 99/done with every hard gate passing | pending | Manifest/QA audit |
+| No material title, H2 sequence, intro, CTA, or seven-token prose duplication | pending | Full-corpus originality report |
+| Unified catalog contains 89 unique articles without breaking existing routes | pending | Typecheck/build/static route audit |
+| New 30 slots begin after 2026-08-19 18:00 KST at exact five-hour gaps | pending | Schedule equivalence and frozen-time tests |
+| Future routes remain undiscoverable until their release time | pending | Runtime HTTP/listing/sitemap tests |
+| Production deployment is Ready and stable alias behavior is verified | pending | Vercel and live HTTP evidence |
+| Handoff and rollback evidence are current | pending | docs/HANDOFF.md and EVIDENCE.md |

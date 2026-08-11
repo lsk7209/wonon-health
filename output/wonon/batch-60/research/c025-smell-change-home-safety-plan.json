@@ -1,0 +1,44 @@
+{
+  "article_id":"c025","slug":"smell-change-home-safety-plan","title":"냄새를 잘 못 맡는 느낌: 감기 이후 변화와 가스·연기 안전을 나누는 계획","accessed":"2026-08-11","ymyl_category":"health-sensory-symptoms","ymyl_review":"pass-no-diagnosis-no-supplement-or-smell-training-recommendation","volatile":true,
+  "research_runs":[
+    {"query":"site:nidcd.nih.gov smell disorders causes safety smoke gas food","date":"2026-08-11","purpose":"후각 변화의 관찰 범위와 가정 안전 위험 확인"},
+    {"query":"site:nhs.uk lost changed sense smell when to see GP infection blocked nose","date":"2026-08-11","purpose":"감기·코막힘·시작 시점과 상담 경계 확인"},
+    {"query":"site:cdc.gov food safety smell appearance date labels leftovers","date":"2026-08-11","purpose":"냄새만으로 식품 안전을 판단하지 않는 소비자 안전 원칙 확인"},
+    {"query":"site:usfa.fema.gov smoke alarms test home fire safety","date":"2026-08-11","purpose":"연기 경보기의 정기 점검과 대체 감지 수단 확인"},
+    {"query":"site:cpsc.gov gas leak smell carbon monoxide alarm safety","date":"2026-08-11","purpose":"가스 냄새 또는 일산화탄소 위험에서 후각에 의존하지 않는 긴급 안전 경계 확인"}
+  ],
+  "search_intent_insight":"독자는 냄새 변화의 원인을 확정하기보다, 감기·코막힘·맛 변화의 사실과 가스·연기·식품 안전을 어떻게 분리해 점검할지 찾는다.",
+  "competitor_gap":"후각 훈련이나 원인별 처치 대신 냄새 변화 기록, 가정 감지 장치, 식품 날짜·보관 확인, 상담 문장을 한 계획에 구분한다.",
+  "article_research_question":"냄새 변화 뒤 어떤 감각 기록과 가정·식품 안전 정보를 먼저 분리하면 원인을 단정하지 않고 안전하게 상담할 수 있는가?",
+  "reader_outcome":"시작 시점과 동반 변화, 감지 장치, 식품 날짜·보관 정보, 상담 질문을 다른 칸에 적은 안전 계획을 만든다.",
+  "original_contribution":{"type":"smell-change-home-safety-plan","description":"후각 변화의 원인 추측을 멈추고 감각 기록·연기/가스 감지·식품 날짜 확인·상담 정보를 분리하는 가정 안전 계획","source_ids":["S1","S2","S3","S4","S5"]},
+  "sources":[
+    {"id":"S1","title":"Smell Disorders","organization":"National Institute on Deafness and Other Communication Disorders","url":"https://www.nidcd.nih.gov/health/smell-disorders","source_date":"2024-10-29","accessed_date":"2026-08-11","source_role":"official","used_for":"후각 변화의 일반적 맥락과 후각 저하가 연기·가스·상한 음식 인지에 영향을 줄 수 있는 안전 정보"},
+    {"id":"S2","title":"Lost or changed sense of smell","organization":"NHS","url":"https://www.nhs.uk/conditions/lost-or-changed-sense-smell/","source_date":"2024-08-29","accessed_date":"2026-08-11","source_role":"official","used_for":"감염·코막힘 등과 함께 시작한 변화, 지속되거나 생활에 영향을 줄 때 상담하는 경계"},
+    {"id":"S3","title":"Food Safety","organization":"Centers for Disease Control and Prevention","url":"https://www.cdc.gov/food-safety/about/index.html","source_date":"2025-01-17","accessed_date":"2026-08-11","source_role":"official","used_for":"음식의 날짜·보관·조리 정보로 식품 안전을 확인하며 냄새만으로 판단하지 않는 원칙"},
+    {"id":"S4","title":"Smoke Alarms","organization":"U.S. Fire Administration","url":"https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/","source_date":"2025-03-26","accessed_date":"2026-08-11","source_role":"official","used_for":"가정의 연기 경보기 설치·시험·유지와 청각·시각 경보 등 감지 장치의 역할"},
+    {"id":"S5","title":"Carbon Monoxide Questions and Answers","organization":"U.S. Consumer Product Safety Commission","url":"https://www.cpsc.gov/s3fs-public/pdfs/blk_media_499.pdf","source_date":"2024-12","accessed_date":"2026-08-11","source_role":"official PDF","used_for":"일산화탄소는 냄새가 없고 감지기가 중요하며 의심되는 상황에서 즉시 신선한 공기와 긴급 도움을 우선하는 경계"}
+  ],
+  "data_points":[
+    {"claim":"후각 변화는 감기·코 문제 등 여러 맥락과 함께 나타날 수 있으며, 시작 시점과 동반 변화를 기록해 상담에 전달할 수 있다.","source_id":"S2","claim_type":"symptom-language","source_date":"2024-08-29","supports_section":"감기·코막힘·맛 변화는 원인이 아니라 시간 순서로 적습니다"},
+    {"claim":"후각 저하는 연기, 가스, 상한 음식의 인지에 영향을 줄 수 있어 후각만으로 가정 안전을 판단하지 않는다.","source_id":"S1","claim_type":"home-safety","source_date":"2024-10-29","supports_section":"집 안전은 코의 자신감이 아니라 감지 장치로 확인합니다"},
+    {"claim":"식품 안전은 냄새 하나보다 날짜, 보관 상태, 조리와 남은 음식의 시간 정보를 함께 확인하는 문제다.","source_id":"S3","claim_type":"food-safety","source_date":"2025-01-17","supports_section":"음식은 ‘냄새가 괜찮다’ 대신 날짜와 보관을 확인합니다"},
+    {"claim":"연기 경보기는 가정 화재 안전의 핵심 장치이며 정기 시험과 유지 상태를 확인할 수 있다.","source_id":"S4","claim_type":"home-safety","source_date":"2025-03-26","supports_section":"연기 경보기는 후각의 대체물이 아니라 별도의 안전망입니다"},
+    {"claim":"일산화탄소는 냄새가 없으며 의심되는 상황에서는 원인을 확인하려 머무르지 말고 즉시 안전한 공기와 지역 긴급 도움을 우선한다.","source_id":"S5","claim_type":"urgent-safety-boundary","source_date":"2024-12","supports_section":"가스·연기·일산화탄소가 의심되면 계획을 멈춥니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"감기 시작일, 코막힘이 있었던 날, 커피·국물·비누 냄새가 달랐던 장면, 맛의 변화는 각각 시간 순서로 적는다.","source_id":"S2"},
+    {"claim":"연기 경보기와 일산화탄소 감지기의 위치·작동 확인일은 후각 기록과 다른 안전 칸에 둔다.","source_id":"S4"},
+    {"claim":"남은 음식은 냄새 평가가 아니라 조리·냉장 시작 시각과 날짜 표기를 확인하는 칸에 둔다.","source_id":"S3"}
+  ],
+  "source_interpretation":"S1은 후각 변화와 가정 위험의 맥락에만, S2는 시간 순서와 상담 경계에만, S3은 식품 날짜·보관 확인에만, S4는 연기 경보기 상태에만, S5는 일산화탄소와 긴급 이동 경계에만 사용했다. 이 글은 감염 진단, 보충제·후각 훈련·치료를 권하지 않는다.",
+  "visual_elements":["감각 변화 시간선","가정 감지 장치 점검 카드","식품 날짜·보관 카드","긴급 이동 상자"],"semantic_colors":["청록: 관찰","황토색: 가정 점검","적갈색: 즉시 이동·연락"],"structure_type":"감각 변화→가정 안전→식품 안전→긴급 경계→상담 정보",
+  "h2_mapping":[
+    {"heading":"감기·코막힘·맛 변화는 원인이 아니라 시간 순서로 적습니다","role":"감각 변화 기록","evidence":["S2","S1"]},
+    {"heading":"집 안전은 코의 자신감이 아니라 감지 장치로 확인합니다","role":"가정 안전","evidence":["S1","S4"]},
+    {"heading":"연기 경보기는 후각의 대체물이 아니라 별도의 안전망입니다","role":"연기 감지","evidence":["S4"]},
+    {"heading":"음식은 ‘냄새가 괜찮다’ 대신 날짜와 보관을 확인합니다","role":"식품 안전","evidence":["S3"]},
+    {"heading":"가스·연기·일산화탄소가 의심되면 계획을 멈춥니다","role":"긴급 경계","evidence":["S5","S1"]},
+    {"heading":"상담에서 읽을 다섯 줄","role":"상담 준비","evidence":["S1","S2","S3"]}
+  ],"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[]
+}

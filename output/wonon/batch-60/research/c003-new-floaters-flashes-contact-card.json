@@ -1,0 +1,49 @@
+{
+  "article_id": "c003",
+  "slug": "new-floaters-flashes-contact-card",
+  "title": "눈앞 번쩍임이나 새 비문증이 생겼을 때: 기다리지 말고 전달할 변화 카드",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-eye-emergency",
+  "ymyl_review": "pass-urgent-escalation-without-diagnosis-or-treatment-advice",
+  "research_runs": [
+    {"query": "National Eye Institute floaters sudden new floaters flashes curtain emergency", "date": "2026-08-11", "purpose": "새 비문증·번쩍임·커튼형 가림에서 기록보다 연락이 앞서는 공식 경계 확인"},
+    {"query": "NHS detached retina sudden floaters flashes dark curtain blurred vision urgent", "date": "2026-08-11", "purpose": "환자용 긴급 연락 신호를 두 번째 공적 자료로 교차 확인"},
+    {"query": "American Academy Ophthalmology floaters flashes shadow peripheral vision patient handout", "date": "2026-08-11", "purpose": "접수에서 쓸 시야 그림자·커튼 언어 확인"},
+    {"query": "MedlinePlus retinal detachment floaters flashes curtain medical emergency", "date": "2026-08-11", "purpose": "시야 가림의 위치·모양을 전달하는 안전한 표현 확인"},
+    {"query": "MedlinePlus eye emergencies eye injury pain vision loss urgent care", "date": "2026-08-11", "purpose": "외상·통증·시력 저하를 별도 연락 카드 칸으로 둘 근거 확인"}
+  ],
+  "article_research_question": "새 비문증과 번쩍임에서 원인을 추측하지 않고 지체를 줄이려면, 어떤 변화는 즉시 연락으로 넘기고 어떤 사실을 시간·쪽·가림·외상·통증 카드에 담아야 하는가?",
+  "reader_outcome": "접수 때 읽을 수 있는 시작 시각·한쪽/양쪽·가림의 모양·외상·동반 증상 다섯 칸 연락 카드를 만들고, 경고 신호에는 기록보다 먼저 도움을 요청한다.",
+  "competitor_gap": "많은 설명이 비문증의 정의나 가능한 원인에 머물며, 갑자기 생긴 변화에서 진단명을 말하지 않고도 접수자가 바로 쓸 시간·쪽·시야 범위 문장과 기록 중단 기준을 함께 주지 않는다.",
+  "information_gain": "새 비문증·번쩍임을 일반적인 눈 피로 기록과 분리하고, 커튼·그림자·갑작스러운 흐림은 즉시 연락 신호로, 시작 시각·한쪽/양쪽·외상·일상 제한은 접수용 카드로 나눈다.",
+  "unique_angle": "시작 시각, 한쪽·양쪽, 시야 가림, 외상, 동반 통증을 담은 연락 카드",
+  "original_contribution": {"type": "urgent-contact-card", "description": "증상 원인이나 치료를 고르지 않고 긴급 연락 신호와 접수 시 읽을 다섯 칸을 분리한 변화 카드", "source_ids": ["S1", "S2", "S3", "S4", "S5", "S6"]},
+  "source_interpretation": "NEI·NHS·MedlinePlus의 새 비문증·번쩍임·커튼형 시야 가림은 기록을 중단하고 연락할 경계에만 사용했다. AAO의 환자용 표현은 접수 카드의 시야 묘사에, 눈 응급 자료는 외상·통증·시력 저하를 별도로 전달해야 하는 근거에만 썼다. 어느 출처도 이 독자의 원인 진단이나 안약·수술 선택으로 확장하지 않았다.",
+  "angle_supporting_detail": {"claim": "갑자기 많은 새 비문증과 번쩍임, 시야의 커튼·그림자는 원인을 온라인에서 고르는 것이 아니라 즉시 안과 또는 응급 평가를 요청해야 할 수 있는 신호다.", "source_id": "S1"},
+  "sources": [
+    {"id": "S1", "title": "Floaters", "organization": "National Eye Institute", "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/floaters", "source_date": "2024-12-04", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "recent", "used_for": "갑자기 늘어난 새 비문증·번쩍임·커튼 또는 그림자 형태의 시야 변화에서 즉시 안과 또는 응급 도움을 받아야 할 수 있는 신호"},
+    {"id": "S2", "title": "Detached retina (retinal detachment)", "organization": "National Health Service", "url": "https://www.nhs.uk/conditions/detached-retina-retinal-detachment/", "source_date": "2026-08-11", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "새 비문증·번쩍임·어두운 커튼·갑작스러운 흐림이 있을 때 긴급 도움을 받는 환자용 경계"},
+    {"id": "S3", "title": "Floaters and Flashes", "organization": "American Academy of Ophthalmology", "url": "https://store.aao.org/media/resources/PEHANDOUTS/Floaters_Flashes_2020_FINAL.pdf", "source_date": "2020-09-01", "accessed_date": "2026-08-11", "source_role": "expert_reference", "source_type": "expert", "freshness": "old", "used_for": "많은 새 비문증·번쩍임·주변 시야 그림자·회색 커튼을 접수에서 구체적으로 전달할 언어"},
+    {"id": "S4", "title": "Retinal Detachment", "organization": "MedlinePlus / National Library of Medicine", "url": "https://medlineplus.gov/retinaldetachment.html", "source_date": "2025-12-01", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "비문증 증가·번쩍임·시야 커튼을 의학적 응급상황의 연락 신호로 확인하고 가림의 모양을 전달 카드에 담는 근거"},
+    {"id": "S5", "title": "Eye emergencies", "organization": "MedlinePlus Medical Encyclopedia", "url": "https://medlineplus.gov/ency/article/000054.htm", "source_date": "2025-05-06", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "외상 뒤 변화, 통증·충혈·시력 저하를 별도로 알려야 할 안전 경계"},
+    {"id": "S6", "title": "Eye floaters", "organization": "MedlinePlus Medical Encyclopedia", "url": "https://medlineplus.gov/ency/article/002085.htm", "source_date": "2025-10-20", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "기존 비문증과 갑자기 증가한 비문증·주변 번쩍임을 동일시하지 않고 새 변화를 안과에 알릴 근거"}
+  ],
+  "data_points": [
+    {"claim": "갑자기 많이 생긴 새 비문증이 번쩍임과 함께 나타나거나 시야에 어두운 그림자·커튼 또는 흐린 부분이 생기면 즉시 안과 또는 응급실 도움을 받아야 할 수 있다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2024-12-04", "supports_section": "먼저 연락할 신호와 카드에 적을 신호를 나눕니다"},
+    {"claim": "NHS는 갑자기 나타나거나 증가한 비문증, 번쩍임, 어두운 커튼·그림자, 갑작스러운 흐림에서 긴급 도움을 받을 것을 안내한다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2026-08-11", "supports_section": "먼저 연락할 신호와 카드에 적을 신호를 나눕니다"},
+    {"claim": "AAO는 많은 새 비문증, 많은 번쩍임, 주변 시야 그림자, 시야 일부를 덮는 회색 커튼을 즉시 안과의사에게 알릴 변화로 든다.", "source_id": "S3", "claim_type": "procedure", "source_date": "2020-09-01", "supports_section": "한눈인지 양눈인지은 판단이 아니라 전달 정보입니다"},
+    {"claim": "MedlinePlus는 비문증 증가·번쩍임·시야의 커튼 같은 증상을 망막박리의 긴급 평가 신호로 설명한다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2025-12-01", "supports_section": "시야 가림은 “잘 안 보인다”보다 모양과 위치를 적습니다"},
+    {"claim": "MedlinePlus는 눈 또는 얼굴 외상, 통증, 부분 또는 전체 시력 소실을 신속한 의료 도움이 필요할 수 있는 눈 응급상황의 증상으로 설명한다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2025-05-06", "supports_section": "외상·통증·충혈은 비문증의 설명이 아니라 별도 연락 정보입니다"},
+    {"claim": "눈 또는 얼굴 외상, 통증, 부분 또는 전체 시력 소실은 신속한 의료 도움을 필요로 할 수 있는 눈 응급상황의 증상이다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2025-05-06", "supports_section": "접수에서 읽을 연락 문장을 미리 만들어 둡니다"},
+    {"claim": "기존 비문증이 흔할 수 있어도, 갑자기 증가한 비문증 또는 주변 시야 번쩍임은 안과 또는 응급실에 가야 할 수 있는 변화다.", "source_id": "S6", "claim_type": "procedure", "source_date": "2025-10-20", "supports_section": "한눈인지 양눈인지은 판단이 아니라 전달 정보입니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "새 비문증·번쩍임과 함께 시야 커튼·그림자 또는 갑작스러운 흐림이 있으면, 연락 카드의 빈칸을 채우기보다 즉시 도움을 요청한다.", "source_id": "S1", "used_in_section": "먼저 연락할 신호와 카드에 적을 신호를 나눕니다"},
+    {"claim": "연락 카드에는 한쪽/양쪽의 확정 진단이 아니라 처음 느낀 쪽, 시작 시각, 기존과 비교해 늘어난 변화라는 관찰 사실을 적는다.", "source_id": "S3", "used_in_section": "한눈인지 양눈인지은 판단이 아니라 전달 정보입니다"},
+    {"claim": "시야 가림은 커튼·그림자·흐림의 모양과 중심/주변 위치로, 외상은 증상 전후 사건으로 적어 진료자가 급한 변화를 파악하게 한다.", "source_id": "S4", "used_in_section": "시야 가림은 잘 안 보인다보다 모양과 위치를 적습니다"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "일부 공적 페이지의 웹 표기 갱신일은 명시되지 않아 접근일을 함께 기록했다. 오래된 AAO 환자 자료는 긴급성 판단의 유일한 근거가 아니라, 최신 NEI·NHS·MedlinePlus의 경고 신호를 접수 언어로 보강하는 데만 사용했다."
+}

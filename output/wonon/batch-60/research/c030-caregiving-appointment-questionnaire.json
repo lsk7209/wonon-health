@@ -1,0 +1,66 @@
+{
+  "article_id": "c030",
+  "slug": "caregiving-appointment-questionnaire",
+  "researched_at": "2026-08-11T22:10:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "research_runs": [
+    {"query": "site:nia.nih.gov taking someone doctor appointment let older adult answer caregiver", "date": "2026-08-11", "purpose": "동행 진료에서 당사자가 먼저 답하고 보호자는 보조하는 원칙 확인"},
+    {"query": "site:medlineplus.gov caregiving taking loved one doctor changes appetite sleep energy medicines", "date": "2026-08-11", "purpose": "동행 전 최근 변화와 복용품을 함께 준비하는 환자용 항목 확인"},
+    {"query": "site:nia.nih.gov older patients functional status recent changes activities daily living", "date": "2026-08-11", "purpose": "일상 기능의 최근 변화를 질문으로 전달하는 범위 확인"},
+    {"query": "site:fda.gov create keep medication list health doctor pharmacist supplements", "date": "2026-08-11", "purpose": "약·일반의약품·보충제 목록의 구체 항목 확인"}
+  ],
+  "article_research_question": "부모 진료에 동행하는 가족이 당사자의 발화권과 사생활을 지키면서, 최근 변화·복용품·일상 기능을 어떤 질문지로 보조 정보로 전달할 수 있는가?",
+  "reader_outcome": "당사자가 먼저 말할 항목, 보호자가 관찰한 날짜 있는 변화, 복용품 목록, 평소와 달라진 일상 기능, 진료에서 물을 질문을 서로 다른 줄에 적는다.",
+  "search_intent_insight": "독자는 보호자가 모든 답을 대신하는 방법이 아니라, 진료실에서 부모의 말을 놓치지 않으면서 필요한 변화도 전달하는 역할을 알고 싶어 한다.",
+  "competitor_gap": "동행 체크리스트는 서류와 약 목록에 머무르기 쉽다. 이 글은 누가 말한 정보인지와 사실·추측을 분리해 당사자 중심의 진료 대화를 돕는다.",
+  "information_gain": "‘보호자 메모’ 한 장을 당사자 말, 보호자 관찰, 복용품, 일상 기능, 질문 순서로 쪼개고 각 줄에 날짜·장면·확실하지 않음을 남기는 동행 질문지.",
+  "unique_angle": "보호자의 관찰을 진단 의견으로 바꾸지 않고, 당사자의 첫 답변 뒤에 덧붙일 보조 정보로 배치한다.",
+  "source_interpretation": "NIA의 동행 진료 안내는 당사자가 먼저 답하고 보호자는 포함시키는 대화 원칙으로, MedlinePlus는 최근 증상과 식욕·체중·수면·에너지·복용품을 준비하는 항목으로, NIA의 기능 상태 자료는 평소와 달라진 일상 기능을 관찰 사실로 묻는 범위로, FDA는 복용품 목록의 구성으로 사용한다. 보호자의 관찰을 진단·치료·법적 권한 판단으로 확장하지 않는다.",
+  "original_contribution": {"type": "patient-voice-appointment-questionnaire", "description": "당사자 발화, 보호자 관찰, 복용품, 기능 변화, 질문을 분리해 읽는 동행 질문지", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "article_specific_details": [
+    {"claim": "NIA는 진료 중 의료진이 질문하면 요청받지 않은 한 고령자가 먼저 답하게 하고, 대화에서 당사자를 항상 포함하라고 안내한다.", "source_id": "S1"},
+    {"claim": "MedlinePlus는 동행 전 새 증상과 식욕·체중·수면·에너지의 변화를 준비하고, 처방약·일반의약품·보충제를 포함한 약 목록을 가져가라고 안내한다.", "source_id": "S2"},
+    {"claim": "NIA는 평소 기능과 최근의 유의한 변화가 적절한 의료를 위해 중요하다고 설명한다.", "source_id": "S3"}
+  ],
+  "structure": {"structure_type": "당사자-보호자-분리-질문지형", "why": "이 독자의 핵심 과제는 보호자가 답을 대신하는 일이 아니라, 당사자의 말과 보조 관찰을 혼동 없이 전달하는 일이다.", "section_sequence": ["역할-합의", "당사자-말", "최근-변화", "복용품", "일상-기능", "질문-순서", "마무리"]},
+  "visual_elements": ["두-목소리-표", "최근-변화-카드", "약-목록-상자", "질문-순서-체크리스트"],
+  "semantic_colors": ["blue-voice", "amber-observation"],
+  "sources": [
+    {"id": "S1", "organization": "National Institute on Aging", "title": "Taking Someone to a Doctor's Appointment: Tips for Caregivers", "url": "https://www.nia.nih.gov/health/medical-care-and-appointments/taking-someone-doctors-appointment-tips-caregivers", "published_or_updated": "2023-10-12", "accessed": "2026-08-11", "source_date": "2023-10-12", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "동행자가 당사자의 답변과 사생활을 존중하고 질문·기록을 보조하는 원칙"},
+    {"id": "S2", "organization": "MedlinePlus / U.S. National Library of Medicine", "title": "Caregiving - taking your loved one to the doctor", "url": "https://medlineplus.gov/ency/patientinstructions/000953.htm", "published_or_updated": "2024-05-01", "accessed": "2026-08-11", "source_date": "2024-05-01", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "동행 전 새 증상·식욕·체중·수면·에너지 변화와 약 목록을 준비하는 항목"},
+    {"id": "S3", "organization": "National Institute on Aging", "title": "Talking With Your Older Patients", "url": "https://www.nia.nih.gov/health/obtaining-older-patients-medical-history", "published_or_updated": "2023-01-19", "accessed": "2026-08-11", "source_date": "2023-01-19", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "평소 일상 기능과 최근 유의한 변화가 진료 대화에서 중요한 관찰이라는 맥락"},
+    {"id": "S4", "organization": "U.S. Food and Drug Administration", "title": "Create and Keep a Medication List for Your Health", "url": "https://www.fda.gov/consumers/consumer-updates/create-and-keep-medication-list-your-health", "published_or_updated": "2024-12-12", "accessed": "2026-08-11", "source_date": "2024-12-12", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "약 이름·강도·복용 목적·방법·시각과 일반의약품·비타민·보충제를 목록에 포함하는 방법"},
+    {"id": "S5", "organization": "National Institute on Aging", "title": "Caregiver Worksheets", "url": "https://www.nia.nih.gov/health/caregiving/caregiver-worksheets", "published_or_updated": "2023-05-01", "accessed": "2026-08-11", "source_date": "2023-05-01", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "복용품 목록을 다른 돌봄 제공자와 의료진에게 공유할 수 있는 기록 도구 맥락"}
+  ],
+  "data_points": [
+    {"claim": "진료 중 의료진이 질문하면 요청받지 않은 한 당사자가 먼저 답하고, 보호자는 당사자를 포함한 대화에 보조로 참여한다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2023-10-12", "supports_section": "첫 줄은 부모님이 직접 말할 내용으로 비워 둡니다"},
+    {"claim": "동행 전에는 새 증상, 식욕·체중·수면·에너지 변화와 처방약·일반의약품·보충제를 포함한 목록을 준비할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2024-05-01", "supports_section": "최근 변화는 ‘평소와 달라진 장면’만 남깁니다"},
+    {"claim": "평소 일상 기능과 최근 유의한 변화는 진료에서 확인할 수 있는 중요한 맥락이다.", "source_id": "S3", "claim_type": "medical", "source_date": "2023-01-19", "supports_section": "일상 기능은 능력 평가가 아니라 평소와의 차이입니다"},
+    {"claim": "약 목록에는 약 이름·강도·목적·복용 방법과 처방약 외 일반의약품·비타민·보충제를 포함할 수 있다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2024-12-12", "supports_section": "복용품은 기억나는 만큼 원문으로 적습니다"},
+    {"claim": "돌봄용 약 목록은 다른 돌봄 제공자와 의료진에게 공유할 수 있는 기록 도구가 될 수 있다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2023-05-01", "supports_section": "진료실에서 읽을 질문은 세 개만 남깁니다"}
+  ],
+  "h2_mapping": [
+    {"h2": "첫 줄은 부모님이 직접 말할 내용으로 비워 둡니다", "role": "당사자 발화권", "evidence_source_ids": ["S1"], "evidence": "당사자가 먼저 답하고 보호자는 보조하며 사생활을 존중하는 원칙"},
+    {"h2": "최근 변화는 ‘평소와 달라진 장면’만 남깁니다", "role": "관찰 사실", "evidence_source_ids": ["S2"], "evidence": "새 증상과 식욕·체중·수면·에너지 변화를 동행 전에 준비하는 항목"},
+    {"h2": "복용품은 기억나는 만큼 원문으로 적습니다", "role": "복용품 전수 기록", "evidence_source_ids": ["S4"], "evidence": "약 이름·강도·목적·방법과 일반의약품·비타민·보충제를 목록에 포함하는 방법"},
+    {"h2": "일상 기능은 능력 평가가 아니라 평소와의 차이입니다", "role": "기능 변화 관찰", "evidence_source_ids": ["S3"], "evidence": "평소 기능과 최근 유의한 변화가 진료 대화의 중요한 맥락이라는 설명"},
+    {"h2": "진료실에서 읽을 질문은 세 개만 남깁니다", "role": "공유 가능한 질문지", "evidence_source_ids": ["S5"], "evidence": "약 목록을 다른 돌봄 제공자와 의료진에게 공유하는 기록 도구"},
+    {"h2": "오늘은 대신 답하기보다 두 목소리를 나눕니다", "role": "행동 마무리", "evidence_source_ids": ["S1", "S2"], "evidence": "당사자 중심 동행과 최근 변화·복용품 준비 원칙"}
+  ],
+  "reader_visible_citation_plan": [
+    {"source_id": "S1", "draft_section": "첫 줄은 부모님이 직접 말할 내용으로 비워 둡니다", "citation_text": "미국 국립노화연구소의 동행 진료 안내"},
+    {"source_id": "S2", "draft_section": "최근 변화는 ‘평소와 달라진 장면’만 남깁니다", "citation_text": "MedlinePlus의 동행 진료 안내"},
+    {"source_id": "S4", "draft_section": "복용품은 기억나는 만큼 원문으로 적습니다", "citation_text": "FDA의 약 목록 안내"},
+    {"source_id": "S3", "draft_section": "일상 기능은 능력 평가가 아니라 평소와의 차이입니다", "citation_text": "미국 국립노화연구소의 고령자 진료 대화 자료"},
+    {"source_id": "S5", "draft_section": "진료실에서 읽을 질문은 세 개만 남깁니다", "citation_text": "미국 국립노화연구소의 돌봄 기록지"}
+  ],
+  "material_detail_usage": [
+    {"detail_source_id": "S1", "detail_claim": "당사자가 먼저 답하고 보호자는 요청받은 경우 보조한다.", "draft_section": "첫 줄은 부모님이 직접 말할 내용으로 비워 둡니다", "draft_sentence": "미국 국립노화연구소는 의료진의 질문에 요청받지 않은 한 고령자가 먼저 답하게 하고, 보호자는 그 대화에 당사자를 포함하라고 안내합니다."},
+    {"detail_source_id": "S2", "detail_claim": "새 증상과 식욕·체중·수면·에너지 변화, 복용품 목록을 준비한다.", "draft_section": "최근 변화는 ‘평소와 달라진 장면’만 남깁니다", "draft_sentence": "MedlinePlus는 새 증상과 식욕·체중·수면·에너지 변화를 준비할 항목으로 안내하므로, ‘기운이 없다’ 대신 달라진 장면과 날짜를 적습니다."}
+  ],
+  "ymyl_boundaries": ["보호자가 진단·치료·검사·법적 의사결정을 대신하도록 안내하지 않는다.", "관찰 사실을 인지저하나 특정 질환의 증거로 단정하지 않는다.", "의식 변화, 새로 생긴 한쪽 마비·말하기 어려움, 심한 호흡 곤란·흉통, 쓰러짐 또는 급격한 악화가 있으면 질문지 완성보다 지역 응급의료 도움을 우선한다."],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

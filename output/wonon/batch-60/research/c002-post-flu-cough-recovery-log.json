@@ -1,0 +1,47 @@
+{
+  "article_id": "c002",
+  "slug": "post-flu-cough-recovery-log",
+  "title": "독감 뒤 기침이 남았을 때: 회복 경과와 다시 연락할 신호를 가르는 일지",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-respiratory",
+  "ymyl_review": "pass-no-diagnosis-treatment-or-test-direction",
+  "research_runs": [
+    {"query": "CDC respiratory illness adult emergency warning signs cough returns worsens", "date": "2026-08-11", "purpose": "호흡기 감염 뒤 기록보다 우선할 성인 경고 신호 확인"},
+    {"query": "CDC influenza clinical signs cough may persist more than two weeks", "date": "2026-08-11", "purpose": "독감 뒤 기침을 날짜별 경과로 적어야 하는 일반적 근거 확인"},
+    {"query": "CDC flu what to do if you get sick symptoms getting better fever 24 hours", "date": "2026-08-11", "purpose": "회복 방향을 판단하는 관찰 언어의 범위 확인"},
+    {"query": "American Lung Association flu cough weeks to months when to see doctor phlegm", "date": "2026-08-11", "purpose": "남은 기침과 가래·호흡 변화의 상담 맥락 확인"}
+  ],
+  "article_research_question": "독감 또는 감기 뒤 기침이 남았을 때, 원인이나 약을 추측하지 않고 어떤 날짜별 변화와 동반 신호를 기록하면 재상담에 도움이 되는가?",
+  "reader_outcome": "발병일을 기준으로 열·기침·숨참·가래·일상 제한을 같은 줄에 적고, 좋아졌다가 다시 나빠진 변화와 즉시 연락할 신호를 분리한다.",
+  "original_contribution": {"type": "recovery-timeline-log", "description": "기침 횟수의 단일 숫자가 아니라 시작점·방향·동반 신호·기능 영향을 같은 날짜 열에 놓는 회복 경과 일지", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "CDC의 독감 일반 경과는 ‘며칠째인지’와 ‘전보다 어떤지’를 같은 줄에 적는 근거로만 사용한다. CDC의 성인 경고 신호와 미국폐협회의 가래·호흡 정보는 원인을 가르는 도구가 아니라 기록을 멈추고 즉시 의료 체계에 연락할 상황을 구분하는 데만 쓴다. 어떤 출처도 항생제, 기침약, 검사 또는 개인별 치료 선택으로 확장하지 않는다.",
+  "sources": [
+    {"id": "S1", "title": "About Respiratory Illnesses", "organization": "CDC", "url": "https://www.cdc.gov/respiratory-viruses/about/index.html", "source_date": "2025-08-18", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "호흡기 증상과 성인 응급 경고 신호, 호전 뒤 재악화의 기록 경계"},
+    {"id": "S2", "title": "Clinical Signs and Symptoms of Influenza", "organization": "CDC", "url": "https://www.cdc.gov/flu/hcp/clinical-signs/index.html", "source_date": "2026-02-04", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "대부분의 단순 독감 증상 경과와 기침·권태감이 더 오래 남을 수 있는 맥락"},
+    {"id": "S3", "title": "Flu: What To Do If You Get Sick", "organization": "CDC", "url": "https://www.cdc.gov/flu/takingcare/index.html", "source_date": "2024-08-30", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "전반적 호전과 해열제 없이 24시간 무열이라는 회복 관찰 언어"},
+    {"id": "S4", "title": "Do I Have the Flu? Symptoms, Causes & Who’s at Risk", "organization": "American Lung Association", "url": "https://www.lung.org/lung-health-diseases/lung-disease-lookup/influenza/symptoms-causes-and-risk", "source_date": "2026-06-04", "accessed_date": "2026-08-11", "source_role": "expert_reference", "used_for": "독감 뒤 기침이 수주에서 수개월 남을 수 있다는 설명과 호흡·가래 변화의 상담 맥락"},
+    {"id": "S5", "title": "Diagnosis for Flu", "organization": "CDC", "url": "https://www.cdc.gov/flu/testing/index.html", "source_date": "2026-03-10", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "기침·발열 등 증상만으로 독감을 확정할 수 없다는 자가진단 경계"}
+  ],
+  "data_points": [
+    {"claim": "단순 독감 증상은 대다수에서 3~7일에 호전하지만 기침과 권태감은 2주를 넘겨 남을 수 있어, 날짜와 변화 방향을 함께 적는 편이 낫다.", "source_id": "S2", "supports_section": "첫 줄은 ‘오늘 상태’가 아니라 발병 시작점입니다"},
+    {"claim": "성인 호흡기 감염의 즉시 평가 경고 신호에는 호흡 곤란, 지속되는 흉부·복부 통증 또는 압박감, 혼돈, 소변이 나오지 않음, 심한 쇠약, 호전된 발열 또는 기침의 재발·악화가 포함될 수 있다.", "source_id": "S1", "supports_section": "기록을 멈추고 바로 연락할 신호를 먼저 표시합니다"},
+    {"claim": "정상 활동 재개를 생각할 때 CDC는 전반적 증상 호전과 해열제 없이 24시간 이상 무열을 함께 제시한다.", "source_id": "S3", "supports_section": "회복은 숫자가 아니라 방향으로 표시합니다"},
+    {"claim": "독감 뒤 기침은 수주에서 수개월 남을 수 있으며, 호흡 곤란·지속되는 흉통·누렇거나 초록색 또는 피 섞인 가래는 의료진 상담의 맥락이 된다.", "source_id": "S4", "supports_section": "가래·숨참·일상 제한은 기침과 다른 칸에 둡니다"},
+    {"claim": "독감과 비슷한 호흡기 증상은 다른 원인에서도 생길 수 있으므로 증상만으로 독감 여부를 확정할 수 없다.", "source_id": "S5", "supports_section": "첫 줄은 ‘오늘 상태’가 아니라 발병 시작점입니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "‘좋아졌다가 다시 나빠짐’은 기침 횟수가 아니라 전날보다 열·기침·숨참 중 무엇이 다시 변했는지를 날짜 줄에 표시하는 신호로 쓴다.", "source_id": "S1"},
+    {"claim": "기침이 남더라도 ‘발병 후 며칠째’와 ‘기침·권태감이 2주를 넘기는지’를 한 칸에 두어 단일 횟수보다 경과 방향을 전달한다.", "source_id": "S2"},
+    {"claim": "가래는 색을 질병명으로 번역하지 않고, 평소와 달라진 색·피 섞임·호흡 불편의 동반 여부만 상담용 사실로 적는다.", "source_id": "S4"}
+  ],
+  "h2_mapping": [
+    {"heading": "첫 줄은 ‘오늘 상태’가 아니라 발병 시작점입니다", "role": "발병 시점과 초기 경과 기록", "evidence": ["S2", "S5"]},
+    {"heading": "회복은 숫자가 아니라 방향으로 표시합니다", "role": "회복 경과 관찰", "evidence": ["S3"]},
+    {"heading": "가래·숨참·일상 제한은 기침과 다른 칸에 둡니다", "role": "동반 증상과 기능 영향 분리", "evidence": ["S4"]},
+    {"heading": "기록을 멈추고 바로 연락할 신호를 먼저 표시합니다", "role": "안전 경계", "evidence": ["S1"]},
+    {"heading": "예약 때 읽어 줄 수 있는 다섯 줄 일지", "role": "상담용 요약", "evidence": ["S1", "S2", "S3", "S4", "S5"]}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

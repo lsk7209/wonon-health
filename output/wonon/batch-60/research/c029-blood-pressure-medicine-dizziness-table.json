@@ -1,0 +1,67 @@
+{
+  "article_id": "c029",
+  "slug": "blood-pressure-medicine-dizziness-table",
+  "researched_at": "2026-08-11T22:10:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "research_runs": [
+    {"query": "site:heart.org managing high blood pressure medications do not stop dizziness", "date": "2026-08-11", "purpose": "처방 혈압약을 임의로 줄이거나 중단하지 않는 안전 경계 확인"},
+    {"query": "site:fda.gov you and your medicines side effects medication list older adults", "date": "2026-08-11", "purpose": "부작용·복용품 목록을 의료진에게 전달하는 환자용 원칙 확인"},
+    {"query": "site:nhs.uk dizziness fainting numbness weakness emergency symptoms", "date": "2026-08-11", "purpose": "어지럼에서 기록보다 빠른 평가가 필요한 동반 신호 확인"},
+    {"query": "site:heart.org home blood pressure monitoring record readings symptoms", "date": "2026-08-11", "purpose": "혈압 수치만으로 결론내리지 않고 상담 자료로 쓰는 맥락 확인"}
+  ],
+  "article_research_question": "혈압약을 복용한 뒤 어지러운 사람이 약을 건너뛰거나 용량을 바꾸지 않고, 측정 조건·복용 시각·증상 장면·동반 신호를 어떻게 분리해 의료진에게 전달할 수 있는가?",
+  "reader_outcome": "혈압 숫자와 원인 추측을 한 줄에 섞지 않고, 앉아서 잰 조건·복용 시각·일어날 때의 장면·다른 복용품·연락 우선 신호를 나눈 상담표를 만든다.",
+  "search_intent_insight": "독자는 어지럼이 약 때문인지 온라인에서 판정받기보다, 다음 복용을 스스로 바꾸기 전에 무엇을 기록하고 어느 변화에서 먼저 도움을 구할지 알고 싶어 한다.",
+  "competitor_gap": "약 종류와 부작용 목록은 많지만, 혈압 수치와 자세 변화와 복용 시각을 같은 원인으로 단정하지 않고 분리해 읽는 상담표는 드물다.",
+  "information_gain": "‘혈압이 낮아서’라는 결론 칸을 없애고 측정 전 상태·자세·복용 시각·증상 장면·실신·흉통·신경 변화·다른 약과 보충제를 각각 한 줄로 읽는 표.",
+  "unique_angle": "가정혈압 측정법이 아니라 혈압약 복용 뒤 어지럼의 시간 관계를 의료진에게 넘기기 위한 분리 기록이다.",
+  "source_interpretation": "AHA는 처방약의 임의 중단·감량을 피하는 경계로, FDA는 부작용과 처방·일반의약품·보충제 목록을 전달하는 방식으로, NHS는 실신·시야·말하기·팔다리 변화가 겹칠 때의 안전 경계로 사용한다. 수치나 증상 어느 하나도 개인의 약 조절 근거로 바꾸지 않는다.",
+  "original_contribution": {"type": "time-relationship-consultation-table", "description": "혈압 수치와 약 이름을 늘어놓는 대신 측정 조건, 복용 시각, 자세 전환, 증상 장면, 동반 신호를 분리한 상담표", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "article_specific_details": [
+    {"claim": "AHA는 처방된 혈압약을 의료전문가와 상의하지 않고 중단하거나 용량·횟수를 바꾸지 말라고 안내한다.", "source_id": "S1"},
+    {"claim": "FDA는 부작용을 기록하고 처방약뿐 아니라 일반의약품·비타민·보충제를 모두 의료진에게 알리라고 안내한다.", "source_id": "S2"},
+    {"claim": "NHS는 어지럼에 실신·쓰러짐, 말하기·청력 변화, 복시·시야 변화, 얼굴·팔·다리의 저림 또는 약화가 동반되면 더 빠른 평가가 필요할 수 있다고 안내한다.", "source_id": "S3"}
+  ],
+  "structure": {"structure_type": "시간관계-상담표형", "why": "독자의 과제는 약의 원인을 맞히는 일이 아니라, 약을 바꾸기 전 복용과 어지럼의 관계 및 안전 신호를 정확히 전달하는 일이다.", "section_sequence": ["결론-경계", "측정-조건", "복용-시각", "증상-장면", "안전-신호", "상담-표", "마무리"]},
+  "visual_elements": ["분리-기록-표", "안전-신호-상자", "통화-문장", "질문-체크리스트"],
+  "semantic_colors": ["amber-record", "red-safety"],
+  "sources": [
+    {"id": "S1", "organization": "American Heart Association", "title": "Managing High Blood Pressure Medications", "url": "https://www.heart.org/en/health-topics/high-blood-pressure/changes-you-can-make-to-manage-high-blood-pressure/managing-high-blood-pressure-medications", "published_or_updated": "2025-08-14", "accessed": "2026-08-11", "source_date": "2025-08-14", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "처방 혈압약을 의료전문가와 상의 없이 중단·감량하지 않는 경계"},
+    {"id": "S2", "organization": "U.S. Food and Drug Administration", "title": "As You Age: You and Your Medicines", "url": "https://www.fda.gov/drugs/information-consumers-and-patients-drugs/you-age-you-and-your-medicines", "published_or_updated": "2026-04-01", "accessed": "2026-08-11", "source_date": "2026-04-01", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "부작용 기록과 처방약·일반의약품·비타민·보충제 목록을 전달하는 환자용 원칙"},
+    {"id": "S3", "organization": "NHS", "title": "Dizziness", "url": "https://www.nhs.uk/symptoms/dizziness/", "published_or_updated": "2023-04-21", "accessed": "2026-08-11", "source_date": "2023-04-21", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "어지럼에 실신·시야·말하기·팔다리 변화가 겹칠 때의 안전 신호"},
+    {"id": "S4", "organization": "American Heart Association", "title": "Types of Blood Pressure Medications", "url": "https://www.heart.org/en/health-topics/high-blood-pressure/changes-you-can-make-to-manage-high-blood-pressure/types-of-blood-pressure-medications", "published_or_updated": "2025-08-14", "accessed": "2026-08-11", "source_date": "2025-08-14", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "혈압약의 종류가 다양하며 어지럼·실신은 의료진과 상의할 맥락이라는 보조 설명"},
+    {"id": "S5", "organization": "National Institute on Aging", "title": "Taking Medicines Safely as You Age", "url": "https://www.nia.nih.gov/health/medicines-and-medication-management/taking-medicines-safely-you-age", "published_or_updated": "2022-12-01", "accessed": "2026-08-11", "source_date": "2022-12-01", "accessed_date": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "used_for": "복용 약·일반의약품·보충제와 복용 시각을 한 목록에 적는 기록 원칙"}
+  ],
+  "data_points": [
+    {"claim": "처방된 혈압약은 의료전문가와 상의하지 않고 중단하거나 용량·횟수를 바꾸지 않는다.", "source_id": "S1", "claim_type": "safety", "source_date": "2025-08-14", "supports_section": "혈압약 뒤 어지럼은 약을 바꾸기 전에 먼저 분리해 적습니다"},
+    {"claim": "부작용을 기록하고 처방약·일반의약품·비타민·보충제를 모두 의료진에게 알린다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2026-04-01", "supports_section": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다"},
+    {"claim": "어지럼에 실신·쓰러짐, 말하기·청력 변화, 복시·시야 변화, 얼굴·팔·다리 저림 또는 약화가 있으면 더 빠른 평가가 필요할 수 있다.", "source_id": "S3", "claim_type": "safety", "source_date": "2023-04-21", "supports_section": "실신·흉통·신경 변화는 표보다 먼저 알립니다"},
+    {"claim": "혈압약에는 여러 계열이 있으며, 약의 종류만으로 개인의 어지럼 원인을 정하지 않는다.", "source_id": "S4", "claim_type": "medical", "source_date": "2025-08-14", "supports_section": "증상이 나타난 장면을 숫자와 따로 남깁니다"},
+    {"claim": "복용 약 목록에는 처방약 외에 일반의약품과 비타민·보충제, 복용량과 시각도 포함할 수 있다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2022-12-01", "supports_section": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다"}
+  ],
+  "h2_mapping": [
+    {"h2": "혈압약 뒤 어지럼은 약을 바꾸기 전에 먼저 분리해 적습니다", "role": "안전 경계", "evidence_source_ids": ["S1"], "evidence": "처방약의 임의 중단·감량·횟수 변경 금지"},
+    {"h2": "측정값은 측정 조건과 한 묶음으로 남깁니다", "role": "측정 맥락", "evidence_source_ids": ["S4"], "evidence": "혈압약 종류와 증상만으로 개인 원인을 확정하지 않는 맥락"},
+    {"h2": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다", "role": "복용품 전수 기록", "evidence_source_ids": ["S2", "S5"], "evidence": "처방약·일반의약품·비타민·보충제와 복용 시각을 함께 알리는 원칙"},
+    {"h2": "증상이 나타난 장면을 숫자와 따로 남깁니다", "role": "증상 관찰", "evidence_source_ids": ["S4"], "evidence": "약 종류 또는 숫자 하나로 원인을 단정하지 않는 경계"},
+    {"h2": "실신·흉통·신경 변화는 표보다 먼저 알립니다", "role": "긴급 신호", "evidence_source_ids": ["S3"], "evidence": "실신·시야·말하기·팔다리 변화 동반 시 더 빠른 평가가 필요할 수 있음"},
+    {"h2": "상담표에는 원인 대신 다음 질문을 남깁니다", "role": "상담 도구", "evidence_source_ids": ["S2", "S5"], "evidence": "복용품 목록과 부작용 기록을 의료진에게 전달하는 원칙"},
+    {"h2": "오늘은 약 조절이 아니라 사실을 한 줄씩 나눕니다", "role": "행동 마무리", "evidence_source_ids": ["S1", "S3"], "evidence": "임의 변경 금지와 긴급 신호 우선 원칙"}
+  ],
+  "reader_visible_citation_plan": [
+    {"source_id": "S1", "draft_section": "혈압약 뒤 어지럼은 약을 바꾸기 전에 먼저 분리해 적습니다", "citation_text": "미국심장협회의 혈압약 안내"},
+    {"source_id": "S2", "draft_section": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다", "citation_text": "FDA의 고령자 약물 안내"},
+    {"source_id": "S3", "draft_section": "실신·흉통·신경 변화는 표보다 먼저 알립니다", "citation_text": "NHS의 어지럼 안내"},
+    {"source_id": "S4", "draft_section": "증상이 나타난 장면을 숫자와 따로 남깁니다", "citation_text": "미국심장협회의 혈압약 종류 안내"},
+    {"source_id": "S5", "draft_section": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다", "citation_text": "미국 국립노화연구소의 약물 안전 안내"}
+  ],
+  "material_detail_usage": [
+    {"detail_source_id": "S1", "detail_claim": "혈압약을 임의로 중단·감량하거나 횟수를 바꾸지 않는다.", "draft_section": "혈압약 뒤 어지럼은 약을 바꾸기 전에 먼저 분리해 적습니다", "draft_sentence": "미국심장협회는 처방 혈압약을 의료전문가와 상의하지 않고 줄이거나 끊지 말라고 안내하므로, 이 표에는 ‘오늘 건너뛸까’라는 결론 대신 사실을 적습니다."},
+    {"detail_source_id": "S2", "detail_claim": "처방약, 일반의약품, 비타민, 보충제와 부작용을 함께 알린다.", "draft_section": "복용 시각과 다른 복용품은 한 칸에 묶지 않습니다", "draft_sentence": "FDA는 처방약만이 아니라 일반의약품·비타민·보충제도 모두 알리라고 안내하므로, 감기약이나 건강기능식품을 빠뜨리지 않고 별도 줄에 적습니다."}
+  ],
+  "ymyl_boundaries": ["어지럼의 원인이나 혈압 수치를 개인별로 해석·진단하지 않는다.", "약 중단·용량·복용 시각 변경 또는 자가 처치를 제시하지 않는다.", "실신·흉통·호흡 곤란·말하기 또는 시야 변화·한쪽 팔다리 저림이나 약화·급격한 악화가 있으면 기록보다 지역 응급의료 도움을 우선한다."],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

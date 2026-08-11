@@ -1,0 +1,16 @@
+{
+  "article_id": "c006",
+  "status": "done",
+  "score": 99,
+  "reviewed_at": "2026-08-11T21:45:00+09:00",
+  "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14},
+  "single_deduction": "ai_citation_readiness",
+  "deduction_reason": "One point withheld because a bleeding-symptom decision aid must preserve its no-diagnosis and medication-change boundaries when excerpted.",
+  "hard_gate_results": {"utf8": true, "body_length": true, "internal_links_exactly_3_valid": true, "research_runs_and_sources": true, "source_dates_roles_used_for": true, "data_point_h2_mappings_exact": true, "article_specific_details_materially_used": true, "visible_sources": true, "ymyl": true, "originality": true, "heading_quality": true},
+  "evidence": {"visible_hangul": 5428, "research_runs": 4, "sources": 5, "official_or_primary_sources": 4, "data_points_exact_h2": 5, "internal_links": ["health-checkup-questions", "national-screening-checklist-2026", "menopause-when-to-see-a-doctor"], "material_details_checked": ["날짜·양치/치실·식사 장면·구강 위치·동반 변화를 1주 표로 분리", "처방약·일반약·건강기능식품의 이름·시간·처방처·최근 변경을 알림용으로 분리", "통증성 부종·치아 흔들림과 코피·멍·검은 변·혈뇨·토혈을 서로 다른 연락 경계로 분리"], "source_dates_roles_used_for": "All five sources have source_date, accessed_date, source_role, and non-empty used_for; four are official/primary and one is an expert reference.", "shingle_comparison": "Normalized 7-token Jaccard, body/source-list/frontmatter stripped; 0 shared candidate shingles (0.00000) against all 50 prior MDX drafts in batch-20 and batch-30; 0 shared (0.00000) against the five Wave-1 dry-run drafts."},
+  "compared_rows": {"existing_59_basis": "50 prior MDX drafts plus the nine pre-existing editorial catalog records", "dryrun_5": ["c002", "c004", "c019", "c023", "c027"]},
+  "similarity_signals": {"title_pattern": "distinct", "contract": "distinct", "section_role_sequence": "distinct", "seven_token_overlap": "none"},
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "recommendation": "PASS: 99/done approved with the single stated deduction."
+}

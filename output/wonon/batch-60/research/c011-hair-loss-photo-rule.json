@@ -1,0 +1,44 @@
+{
+  "article_id":"c011","slug":"hair-loss-photo-rule","title":"탈모가 늘었다고 느낄 때: 빠진 양보다 시작점과 두피 변화를 적는 사진 규칙","accessed":"2026-08-11","ymyl_category":"health-hair-scalp","ymyl_review":"pass-no-diagnosis-no-product-or-treatment-claim","volatile":true,
+  "research_runs":[
+    {"query":"American Academy Dermatology hair loss signs symptoms widening part sudden patch scalp itch pain","date":"2026-08-11","purpose":"관찰할 시작 양상과 두피 감각 확인"},
+    {"query":"NHS hair loss when see GP sudden patchy hair loss","date":"2026-08-11","purpose":"기록보다 상담을 앞세울 경계 확인"},
+    {"query":"MedlinePlus hair loss pain itching scalp red scaly when contact provider","date":"2026-08-11","purpose":"두피 변화와 연락 기준의 환자용 표현 확인"},
+    {"query":"AAD hair loss photograph same lighting parting dermatologist visit history","date":"2026-08-11","purpose":"사진을 진단 도구가 아닌 변화 전달 도구로 제한"}
+  ],
+  "search_intent_insight":"탈모 검색은 샴푸·영양제·유형 진단으로 빨리 흐른다. 이 글의 독자는 제품을 바꾸기 전, 빠진 양의 추정에서 벗어나 사진 조건과 두피 변화를 상담 가능한 사실로 옮길 필요가 있다.",
+  "competitor_gap":"머리카락 개수나 제품 비교는 많지만, 가르마 사진의 조명·각도·위치와 두피 감각·최근 변화를 서로 다른 줄에 남기는 기록 규칙은 드물다.",
+  "article_research_question":"모발 변화에서 어떤 시작점·두피 감각·동일 사진 조건·최근 변화를 기록하면 원인을 추측하거나 제품을 고르지 않고 상담에 도움이 되는가?",
+  "reader_outcome":"같은 위치와 조건으로 찍은 사진, 관찰 일지, 진료 때 읽을 문장을 만든다.",
+  "original_contribution":{"type":"hair-photo-rule","description":"모발 수를 세거나 유형을 고르는 방법이 아니라, 가르마·정수리 사진 조건과 두피 감각·생활 변화를 분리해 상담용 변화 기록으로 만드는 규칙","source_ids":["S1","S2","S3","S4","S5"]},
+  "source_interpretation":"S1과 S2는 모발 변화가 보이는 양상과 상담 경계를 확인하는 데만 쓰고, S3은 통증·가려움·붉음·비늘 같은 두피 관찰을 한 줄로 남기는 근거로 쓴다. S4와 S5는 사진이나 관찰이 진단을 대신하지 않는다는 경계를 강화한다. 어떤 출처도 탈모 유형, 샴푸, 영양제, 치료를 추천하는 근거로 쓰지 않는다.",
+  "sources":[
+    {"id":"S1","title":"Hair loss: Signs and symptoms","organization":"American Academy of Dermatology","url":"https://www.aad.org/public/diseases/hair-loss/insider/begin","source_date":"2024-04-30","accessed_date":"2026-08-11","source_role":"expert_reference","used_for":"가르마가 넓어짐·포니테일 볼륨 감소·갑작스러운 반점 등 모발 변화 양상을 관찰 언어로 구분"},
+    {"id":"S2","title":"Hair loss","organization":"NHS","url":"https://www.nhs.uk/symptoms/hair-loss/","source_date":"2025-08-21","accessed_date":"2026-08-11","source_role":"official","used_for":"갑작스럽거나 걱정되는 모발 변화에서 상담을 고려해야 한다는 일반 경계"},
+    {"id":"S3","title":"Hair loss: MedlinePlus Medical Encyclopedia","organization":"U.S. National Library of Medicine","url":"https://medlineplus.gov/ency/article/003246.htm","source_date":"2024-11-21","accessed_date":"2026-08-11","source_role":"official","used_for":"통증·가려움·붉음·비늘·감염 부위 등 두피 변화와 의료진에게 전달할 병력 정보"},
+    {"id":"S4","title":"Hair Loss Resource Center","organization":"American Academy of Dermatology","url":"https://www.aad.org/public/diseases/hair-loss","source_date":"2025-09-18","accessed_date":"2026-08-11","source_role":"expert_reference","used_for":"탈모는 하나의 원인으로 단정할 수 없으며 피부과 평가가 필요한 경우가 있다는 일반 맥락"},
+    {"id":"S5","title":"Hair problems | Hair loss","organization":"MedlinePlus","url":"https://medlineplus.gov/hairproblems.html","source_date":"2025-06-25","accessed_date":"2026-08-11","source_role":"official","used_for":"환자용 모발·두피 정보의 범위와 제품 추천 대신 의료 상담 준비에 한정하는 경계"}
+  ],
+  "data_points":[
+    {"claim":"여성은 가르마가 넓어지거나 포니테일의 풍성함이 줄어드는 변화로 모발 감소를 처음 알아차릴 수 있다.","source_id":"S1","claim_type":"observation-context","source_date":"2024-04-30","supports_section":"빠진 개수 대신 처음 알아챈 장면을 적는다"},
+    {"claim":"모발 변화는 서서히 나타날 수도, 갑자기 나타날 수도 있어 시간과 형태를 구분해 설명하는 것이 유용하다.","source_id":"S1","claim_type":"timeline-context","source_date":"2024-04-30","supports_section":"시작점은 '언제부터'보다 '어느 날 무엇을 보고'에 가깝다"},
+    {"claim":"빠르게 진행되거나 걱정되는 모발 변화는 의료 상담의 대상이 될 수 있다.","source_id":"S2","claim_type":"safety-boundary","source_date":"2025-08-21","supports_section":"사진을 모으느라 상담을 늦추지 않는 경계"},
+    {"claim":"통증·가려움과 함께 나타나는 모발 변화, 붉거나 비늘 같은 두피 변화는 의료진에게 알려야 할 정보다.","source_id":"S3","claim_type":"consultation-preparation","source_date":"2024-11-21","supports_section":"두피 변화는 보이는 것과 느껴지는 것을 따로 쓴다"},
+    {"claim":"모발 문제는 여러 상태와 관련될 수 있으므로 사진만으로 원인이나 치료를 결정할 수 없다.","source_id":"S4","claim_type":"uncertainty-boundary","source_date":"2025-09-18","supports_section":"사진은 비교 자료이지 판정표가 아니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"'배수구에 많았다' 대신 처음 본 날짜, 빗질·샴푸·옷 갈아입기 같은 장면, 가르마가 평소와 달라 보인 위치를 한 줄에 남긴다.","source_id":"S1"},
+    {"claim":"사진은 같은 장소·같은 시간대·같은 조명·같은 가르마·같은 거리 조건을 적고, 서로 다른 조건의 사진끼리는 양을 판정하지 않는다.","source_id":"S4"},
+    {"claim":"통증·가려움·화끈거림은 강도 점수 대신 시작 시각, 계속된 시간, 수면·빗질·외출에 미친 영향을 따로 적는다.","source_id":"S3"}
+  ],
+  "visual_elements":["photo-condition-card","two-column-observation-log","safety-callout"],"semantic_colors":["blue-observation","amber-warning"],"structure_type":"시작점→두피 증상→같은 사진 조건→상담 자료",
+  "h2_mapping":[
+    {"heading":"빠진 개수 대신 처음 알아챈 장면을 적는다","role":"관찰 전환","evidence":["S1"]},
+    {"heading":"시작점은 '언제부터'보다 '어느 날 무엇을 보고'에 가깝다","role":"시간축","evidence":["S1","S2"]},
+    {"heading":"두피 변화는 보이는 것과 느껴지는 것을 따로 쓴다","role":"증상 분리","evidence":["S3"]},
+    {"heading":"사진은 비교 자료이지 판정표가 아니다","role":"사진 규칙","evidence":["S4","S5"]},
+    {"heading":"사진을 모으느라 상담을 늦추지 않는 경계","role":"안전 경계","evidence":["S2","S3"]},
+    {"heading":"상담 자리에서 읽을 한 문장","role":"상담 준비","evidence":["S3","S5"]}
+  ],
+  "fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[]
+}

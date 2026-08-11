@@ -1,0 +1,59 @@
+{
+  "article_id": "c006",
+  "slug": "bleeding-gums-dental-note",
+  "title": "잇몸에서 피가 날 때: 칫솔질 장면과 복용 약을 함께 보는 치과 메모",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-oral-medication-safety",
+  "ymyl_review": "pass-no-cause-diagnosis-or-medication-change-direction",
+  "volatile": false,
+  "research_runs": [
+    {"query": "NIDCR gum disease bleeding gums symptoms dental medical history", "date": "2026-08-11", "purpose": "출혈 위치·반복·병력 메모와 치과 평가의 연결 근거 확인"},
+    {"query": "NHS gum disease bleeding gums urgent dentist loose teeth swollen gums", "date": "2026-08-11", "purpose": "반복 잇몸 출혈의 치과 상담 및 긴급 경계 확인"},
+    {"query": "CDC periodontal disease bleeding gums signs medication oral side effects", "date": "2026-08-11", "purpose": "출혈 외 동반 변화와 약물 관련 맥락을 원인 단정 없이 확인"},
+    {"query": "ADA dental procedure anticoagulant antiplatelet do not alter medication consultation", "date": "2026-08-11", "purpose": "치과 상담 전 약 임의중단을 피하고 처방 의료진과 상의할 안전 경계 확인"}
+  ],
+  "article_research_question": "양치 때 잇몸 출혈이 있을 때 어떤 위치·장면·반복·복용 이력·전신 출혈 신호를 나눠 적으면 원인을 단정하거나 약을 임의로 바꾸지 않고 치과 상담에 쓸 수 있는가?",
+  "reader_outcome": "한 번의 출혈을 결론으로 바꾸지 않고 1주 동안 출혈 위치·장면·반복·동반 변화·복용품·멍과 코피 등의 전신 신호를 분리한 치과 메모를 만든다.",
+  "search_intent_insight": "검색자는 치약이나 양치법의 즉답보다, 출혈이 반복될 때 치과 예약에서 무엇을 말하고 복용 중인 약을 어떻게 다뤄야 하는지 알고 싶어 한다.",
+  "competitor_gap": "일반 잇몸 출혈 글은 닦는 방법과 원인 목록에 치우치기 쉽고, 실제 치과 접수에 필요한 위치·반복·복용 이력과 전신 출혈 신호를 한 문서에서 분리해 주지 않는 경우가 많다.",
+  "information_gain": "양치법 처방이 아니라 ‘구강 위치→반복성→복용 이력→전신 신호→예약 질문’의 1주 메모로, 치과와 처방 의료진이 함께 확인할 사실을 만든다.",
+  "unique_angle": "잇몸 출혈을 치약 선택으로 좁히지 않고, 출혈 장면과 약 임의변경 금지를 결합한 치과 상담 메모.",
+  "original_contribution": {"type": "one-week-dental-note", "description": "출혈 위치·장면·반복성과 복용품·전신 출혈 신호를 서로 다른 칸에 둬 치과 접수에서 읽을 수 있게 하는 1주 관찰표", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "NIDCR과 CDC 자료는 잇몸 출혈·붓기·통증·씹기 불편을 진단명이 아닌 관찰 칸으로 고르는 데만 사용한다. NHS 잇몸 질환 자료는 치과 상담과 긴급 치과 경계를 정하는 데만 쓴다. NHS 항응고제와 ADA 자료는 출혈의 약물 원인을 결론 내리지 않고, 치과 처치 전 복용품을 알리고 모든 약 조정은 처방 의료진과 상의해야 한다는 안전 경계로만 사용한다.",
+  "angle_supporting_detail": {"claim": "NIDCR는 치과 진료에서 잇몸 검사와 병력 조사를 하며, 병력에 포함되는 건강 상태와 위험 요인이 치주 건강에 관련될 수 있다고 설명한다.", "source_id": "S1"},
+  "sources": [
+    {"id": "S1", "title": "Periodontal (Gum) Disease", "organization": "National Institute of Dental and Craniofacial Research", "url": "https://www.nidcr.nih.gov/health-info/gum-disease", "source_date": "2024-11", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "잇몸 출혈·붓기·통증·씹기 불편 및 치과 진료의 잇몸·병력 확인 항목"},
+    {"id": "S2", "title": "Gum disease", "organization": "NHS", "url": "https://www.nhs.uk/conditions/gum-disease/", "source_date": "2026-04-20", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "양치·치실·식사 때의 출혈과 매우 아픈 붓기·치아 흔들림·입안 병변의 치과 연락 경계"},
+    {"id": "S3", "title": "About Periodontal (Gum) Disease", "organization": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/oral-health/about/gum-periodontal-disease.html", "source_date": "2024-05-15", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "붉음·붓기·출혈·치아 민감·씹기 불편·맞물림 변화 등 관찰할 동반 변화"},
+    {"id": "S4", "title": "Anticoagulant medicines", "organization": "NHS", "url": "https://www.nhs.uk/medicines/anticoagulants/", "source_date": "2024-09-09", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "항응고제 복용 사실을 의료진에게 알리고, 다른 약을 더하거나 변경하기 전 상담해야 하는 경계"},
+    {"id": "S5", "title": "Oral Anticoagulant and Antiplatelet Medications and Dental Procedures", "organization": "American Dental Association", "url": "https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures", "source_date": "2022-06-01", "accessed_date": "2026-08-11", "source_role": "expert_reference", "used_for": "치과 처치 전 약 조정은 처방 의료진과의 상담·조언 아래 결정해야 한다는 안전 경계"}
+  ],
+  "data_points": [
+    {"claim": "NIDCR는 잇몸이 붉고 붓거나 아프고 피가 날 수 있으며, 치과 진료에서 잇몸 검사와 병력 조사를 시행한다고 설명한다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2024-11", "supports_section": "첫 칸은 ‘얼마나 피가 났나’보다 ‘어디에서 언제’를 적는 칸입니다"},
+    {"claim": "NHS는 양치·치실·딱딱한 음식 섭취 때의 잇몸 출혈을 제시하고, 매우 아프고 부은 잇몸, 치아 흔들림·빠짐, 입안 궤양·붉은 반점·덩이가 있으면 긴급 치과 진료를 구하라고 안내한다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2026-04-20", "supports_section": "멍·코피·검은 변 같은 전신 출혈 신호는 별도 줄에 둡니다"},
+    {"claim": "CDC는 붉고 붓거나 압통·출혈이 있는 잇몸, 치아 민감·흔들림, 씹기 통증, 맞물림 변화를 치주 건강과 관련해 확인할 수 있는 변화로 제시한다.", "source_id": "S3", "claim_type": "named_entity", "source_date": "2024-05-15", "supports_section": "반복성은 ‘며칠째’와 ‘같은 자리인지’를 나누면 선명해집니다"},
+    {"claim": "NHS는 항응고제를 복용할 때 수술·검사 전 의료진에게 알리고, 다른 처방약·일반약을 더 복용하기 전 담당 의료진 또는 약사와 상의하라고 안내한다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2024-09-09", "supports_section": "복용 약 칸은 약을 바꾸는 칸이 아니라 ‘알리는’ 칸입니다"},
+    {"claim": "ADA는 치과 처치 전 항응고제·항혈소판제 조정이 필요하다고 판단되는 경우 처방 의료진과 상의하고 그 조언 아래 결정해야 한다고 안내한다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2022-06-01", "supports_section": "복용 약 칸은 약을 바꾸는 칸이 아니라 ‘알리는’ 칸입니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "출혈을 ‘많음/적음’으로 재단하지 않고 날짜·양치 또는 치실·식사 장면·대략적 구강 위치·함께 있던 변화로 나누어 1주 표에 남긴다.", "source_id": "S2"},
+    {"claim": "처방약·일반약·건강기능식품의 이름·복용 시간·처방처·최근 변경을 따로 적고, 모르는 이름은 약 봉투나 사진으로 보완해 치과와 처방 의료진에게 알린다.", "source_id": "S4"},
+    {"claim": "매우 아픈 붓기·치아 흔들림·입안 병변은 치과 긴급 경계에, 오래 지속되는 코피·새 큰 멍·검은 변·혈뇨·피를 토함은 별도 의료 도움 경계에 두어 출혈 신호를 섞지 않는다.", "source_id": "S2"}
+  ],
+  "structure_type": "전화상담준비형",
+  "structure_reason": "구강 위치→반복성→복용 이력→전신 신호→예약 질문 순서가 원인 단정 없이 치과 접수와 처방 의료진에 전달할 사실을 만드는 독자 과업에 맞는다.",
+  "visual_elements": ["one-week-observation-table", "medication-record-table", "urgent-boundary-table"],
+  "semantic_colors": ["record-blue", "warning-red"],
+  "h2_mapping": [
+    {"heading": "첫 칸은 ‘얼마나 피가 났나’보다 ‘어디에서 언제’를 적는 칸입니다", "role": "출혈 위치와 발생 장면 기록", "evidence": ["S1", "S2", "S3"]},
+    {"heading": "반복성은 ‘며칠째’와 ‘같은 자리인지’를 나누면 선명해집니다", "role": "반복성과 동반 변화 관찰", "evidence": ["S1", "S3"]},
+    {"heading": "복용 약 칸은 약을 바꾸는 칸이 아니라 ‘알리는’ 칸입니다", "role": "복용 이력 공유와 임의 변경 방지", "evidence": ["S4", "S5"]},
+    {"heading": "멍·코피·검은 변 같은 전신 출혈 신호는 별도 줄에 둡니다", "role": "전신 출혈 및 긴급 치과 안전 경계", "evidence": ["S2", "S4"]},
+    {"heading": "1주 메모는 ‘변화가 없던 날’도 남겨야 상담이 흔들리지 않습니다", "role": "경과 기록의 균형", "evidence": ["S1", "S3"]},
+    {"heading": "예약 전에는 약 봉투와 메모를 한 묶음으로 준비합니다", "role": "예약 및 복용 이력 준비", "evidence": ["S1", "S4", "S5"]},
+    {"heading": "치과에 보여 줄 마지막 한 장을 만듭니다", "role": "상담용 요약", "evidence": ["S1", "S2", "S3", "S4", "S5"]}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

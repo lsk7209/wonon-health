@@ -1,0 +1,225 @@
+{
+  "article_id": "c014",
+  "slug": "changed-constipation-calendar",
+  "researched_at": "2026-08-11",
+  "ymyl_category": "health-constipation-safety",
+  "ymyl_review": "pass-no-laxative-diet-testing-or-cancer-risk-direction",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "research_runs": [
+    {
+      "query": "NHS constipation sudden change bowel habit blood weight loss abdominal pain reviewed",
+      "date": "2026-08-11",
+      "purpose": "새 변화와 경고 신호의 환자용 상담 경계 확인"
+    },
+    {
+      "query": "MedlinePlus constipation bowel habits change provider updated 2025",
+      "date": "2026-08-11",
+      "purpose": "매일 배변 여부보다 평소와 달라진 습관을 기록하는 근거 확인"
+    },
+    {
+      "query": "NIDDK constipation symptoms causes medication supplements routine travel abdominal pain blood stool",
+      "date": "2026-08-11",
+      "purpose": "시작일·일상 변화·복용품을 사실로 기록하는 맥락 확인"
+    },
+    {
+      "query": "NIDDK constipation diagnosis bleeding vomiting fever unable pass gas weight loss",
+      "date": "2026-08-11",
+      "purpose": "달력보다 연락을 우선할 안전 신호 확인"
+    },
+    {
+      "query": "NIDDK constipation treatment prescribed medicine do not change on own",
+      "date": "2026-08-11",
+      "purpose": "약물 자가중단과 자가 처방을 피하는 안전 경계 확인"
+    }
+  ],
+  "article_research_question": "평소와 달라진 변비를 원인이나 치료로 단정하지 않고, 어떤 날짜·동반 신호·생활 배경을 달력에 담아 상담과 즉시 연락을 구분할 수 있는가?",
+  "reader_outcome": "평소 패턴과 새 변화의 시작일을 구분하고, 복통·출혈·체중 변화·수분·활동·복용품을 같은 달력의 별도 칸에 남긴다.",
+  "original_contribution": {
+    "type": "changed-constipation-calendar",
+    "description": "횟수 표가 아니라 평소 기준선·새 변화 시작일·경고 신호·복용품 배경을 색이 다른 칸에 두는 상담용 달력",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "search_intent_insight": "독자는 식이요법 목록보다 평소 변비와 새로 달라진 배변을 구분하고, 어느 신호에서 기록을 멈추고 연락해야 하는지 원한다.",
+  "competitor_gap": "일반적 생활관리 조언을 반복하지 않고, 새 변화의 시간과 동반 신호를 같은 화면에서 읽게 해 진료 대화를 준비한다.",
+  "source_interpretation": "S1은 평소 대비 변화와 NHS 상담 경계에, S2는 매일 배변해야 한다는 오해를 바로잡는 기준에, S3은 생활·복용품 변화의 기록 맥락에, S4는 바로 진료가 필요한 신호에, S5는 약물·식이·검사를 스스로 결정하지 않는 경계에만 사용했다.",
+  "article_specific_details": [
+    {
+      "claim": "평소와 다른 배변은 횟수만이 아니라 단단함·힘주기·통증·덜 비운 느낌을 함께 비교하는 첫 줄로 남긴다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "새 약·보충제, 여행, 먹는 양과 종류 변화는 원인이 확정된 답이 아니라 시작일 전후의 사실 칸에 둔다.",
+      "source_id": "S3"
+    },
+    {
+      "claim": "변에 피·지속 복통·가스가 전혀 안 나옴·구토·발열·의도치 않은 체중 감소는 횟수 표와 다른 색의 연락 신호로 둔다.",
+      "source_id": "S4"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "변비는 배변 횟수 감소뿐 아니라 단단하거나 덩어리진 변, 힘주기·통증, 덜 비운 느낌으로 나타날 수 있다.",
+      "source_id": "S1",
+      "claim_type": "official-patient-guidance",
+      "source_date": "2023-10-26",
+      "supports_section": "달력의 첫 줄에는 ‘평소 패턴’을 먼저 씁니다"
+    },
+    {
+      "claim": "매일 배변하는지가 핵심은 아니지만 배변 습관이 달라졌다면 의료진과 확인해야 한다.",
+      "source_id": "S2",
+      "claim_type": "official-patient-guidance",
+      "source_date": "2025-07-21",
+      "supports_section": "상담에서는 원인 추측 대신 달력의 순서대로 질문합니다"
+    },
+    {
+      "claim": "생활·일상 변화, 여행, 복용 약 변경, 먹는 양과 종류 변화는 배변 변화와 함께 나타날 수 있어 사실로 기록할 가치가 있다.",
+      "source_id": "S3",
+      "claim_type": "official-context",
+      "source_date": "2018-05",
+      "supports_section": "새 변화는 시작일과 장면을 함께 표시합니다"
+    },
+    {
+      "claim": "변비와 함께 직장 출혈·혈변·지속 복통·가스가 안 나옴·구토·발열·의도치 않은 체중 감소가 있으면 바로 진료가 필요하다.",
+      "source_id": "S4",
+      "claim_type": "official-safety-guidance",
+      "source_date": "2018-05",
+      "supports_section": "복통·출혈·체중 변화는 횟수와 다른 색으로 남깁니다"
+    },
+    {
+      "claim": "변비의 치료는 원인과 상태에 따라 달라질 수 있으므로 이 글에서는 완하제·식이·검사 선택을 개인에게 지시하지 않는다.",
+      "source_id": "S5",
+      "claim_type": "official-treatment-boundary",
+      "source_date": "2018-05",
+      "supports_section": "수분·활동·복용품은 ‘처방’이 아니라 같은 날의 배경으로 적습니다"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "NHS",
+      "title": "Constipation",
+      "url": "https://www.nhs.uk/conditions/constipation/",
+      "source_role": "official",
+      "publication_or_review_date": "2023-10-26",
+      "accessed_date": "2026-08-11",
+      "used_for": "평소 대비 배변 변화·혈변·체중 감소·갑작스러운 습관 변화·복통 상담 경계",
+      "source_date": "2023-10-26"
+    },
+    {
+      "id": "S2",
+      "organization": "MedlinePlus / U.S. National Library of Medicine",
+      "title": "Constipation",
+      "url": "https://medlineplus.gov/constipation.html",
+      "source_role": "official",
+      "publication_or_review_date": "2025-07-21",
+      "accessed_date": "2026-08-11",
+      "used_for": "매일 배변하지 않아도 될 수 있으나 습관 변화는 확인해야 한다는 환자용 언어",
+      "source_date": "2025-07-21"
+    },
+    {
+      "id": "S3",
+      "organization": "NIDDK",
+      "title": "Symptoms & Causes of Constipation",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes",
+      "source_role": "official",
+      "publication_or_review_date": "2018-05",
+      "accessed_date": "2026-08-11",
+      "used_for": "여행·일상·식사·복용품 변화를 원인 단정 없이 시간순 사실로 기록하는 맥락",
+      "source_date": "2018-05"
+    },
+    {
+      "id": "S4",
+      "organization": "NIDDK",
+      "title": "Diagnosis of Constipation",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/diagnosis",
+      "source_role": "official",
+      "publication_or_review_date": "2018-05",
+      "accessed_date": "2026-08-11",
+      "used_for": "출혈·지속 복통·가스 불통·구토·발열·체중 감소의 즉시 진료 경계",
+      "source_date": "2018-05"
+    },
+    {
+      "id": "S5",
+      "organization": "NIDDK",
+      "title": "Treatment for Constipation",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/treatment",
+      "source_role": "official",
+      "publication_or_review_date": "2018-05",
+      "accessed_date": "2026-08-11",
+      "used_for": "완하제·식이·검사 선택을 이 글이 개인 처방으로 바꾸지 않는 치료 경계",
+      "source_date": "2018-05"
+    }
+  ],
+  "h2_mapping": [
+    {
+      "heading": "달력의 첫 줄에는 ‘평소 패턴’을 먼저 씁니다",
+      "role": "횟수·단단함·힘주기·덜 비운 느낌을 평소 기준선으로 적는다",
+      "evidence": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "heading": "새 변화는 시작일과 장면을 함께 표시합니다",
+      "role": "여행·일상·식사·복용품의 변화는 원인으로 단정하지 않고 시간순 사실로 적는다",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "heading": "복통·출혈·체중 변화는 횟수와 다른 색으로 남깁니다",
+      "role": "출혈·지속 복통·가스 불통·구토·발열·체중 감소를 기록보다 연락이 우선인 신호로 분리한다",
+      "evidence": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "heading": "수분·활동·복용품은 ‘처방’이 아니라 같은 날의 배경으로 적습니다",
+      "role": "수분·활동·식사·약물 및 보충제 변화를 개인 처방 없이 배경 사실로 남긴다",
+      "evidence": [
+        "S1",
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "heading": "달력은 생활관리 숙제장이 아니라 변화의 순서를 보존합니다",
+      "role": "기록 공백과 증상 변화의 순서를 보존해 원인 추측과 자기 채점을 피한다",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "heading": "상담에서는 원인 추측 대신 달력의 순서대로 질문합니다",
+      "role": "평소 패턴·새 변화·동반 신호·복용품을 진료 대화의 질문으로 읽어 준다",
+      "evidence": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    }
+  ],
+  "structure_type": "baseline-change-warning-calendar",
+  "visual_elements": [
+    "평소 대비 표",
+    "날짜 달력",
+    "경고 신호 상자"
+  ],
+  "ymyl_boundaries": [
+    "질환명을 자가진단하지 않는다.",
+    "완하제·식이·검사·암 위험을 개인에게 판단하지 않는다.",
+    "새롭거나 심한 경고 신호는 기록보다 지역 의료·응급 체계 연락을 우선한다."
+  ],
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

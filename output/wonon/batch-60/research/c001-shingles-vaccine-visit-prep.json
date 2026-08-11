@@ -1,0 +1,49 @@
+{
+  "article_id": "c001",
+  "slug": "shingles-vaccine-visit-prep",
+  "title": "대상포진 예방접종을 고민할 때: 과거 병력과 일정 제약을 묻는 준비표",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-immunization",
+  "ymyl_review": "pass-no-personal-eligibility-dosing-or-treatment-advice",
+  "research_runs": [
+    {"query": "CDC Shingles Vaccination prior shingles current shingles pregnancy moderate severe illness", "date": "2026-08-11", "purpose": "과거 대상포진과 현재 질환 상태를 상담 준비 항목으로만 쓰기 위한 공식 확인"},
+    {"query": "CDC Clinical Considerations Shingrix immunocompromised timing therapy", "date": "2026-08-11", "purpose": "면역 관련 치료와 접종 일정을 자가판단하지 않고 전달할 필요 확인"},
+    {"query": "DailyMed SHINGRIX prescribing information contraindications severe allergic reaction 2025", "date": "2026-08-11", "purpose": "알레르기 반응의 사실·경과를 기록할 근거 확인"},
+    {"query": "CDC shingles vaccine safety common side effects 2 to 3 days daily activities", "date": "2026-08-11", "purpose": "여행·돌봄·시술 일정을 상담에 제시할 이유 확인"},
+    {"query": "Korea KDCA vaccination helper immunization record official service", "date": "2026-08-11", "purpose": "한국 독자가 공식 기록·기관 정보를 확인할 경로 점검"}
+  ],
+  "article_research_question": "대상포진 예방접종을 앞두고 과거 대상포진, 치료·복용 이력, 알레르기, 가까운 일정을 어떻게 분리해 예약기관에 전달하면 개인별 접종 결정을 대신하지 않고 상담을 시작할 수 있는가?",
+  "reader_outcome": "예약 전에 읽을 수 있는 과거력·치료·알레르기·일정 네 칸의 상담 준비표와 한 문장 질문을 만든다.",
+  "competitor_gap": "일반적인 대상·횟수 설명이나 비용 정보는 많지만, 과거 대상포진과 면역 관련 치료·알레르기·생활 일정을 서로 섞지 않고 접종기관에 전달하는 한국어 상담 카드가 부족하다.",
+  "information_gain": "권장 여부를 추측하지 않는 네 칸 준비표와, 과거력의 날짜·약 목록·심한 반응의 장면·피하기 어려운 일정이라는 서로 다른 사실을 한 문장 상담 질문으로 묶는다.",
+  "unique_angle": "과거 대상포진 여부, 복용·치료 이력, 알레르기, 예정된 여행·시술을 나눠 적는 접종 상담 준비표",
+  "original_contribution": {"type": "visit-preparation-grid", "description": "질병명이나 접종 결론 대신 과거력·치료·알레르기·일정의 사실을 분리하고, 예약기관에 읽을 문장으로 바꾸는 준비표", "source_ids": ["S1", "S2", "S3", "S4", "S5", "S6"]},
+  "source_interpretation": "CDC의 대상·현재 질환 안내는 과거 병력 칸에, 의료진용 면역저하 고려사항은 치료·복용 목록 칸에, 허가사항은 심한 알레르기 반응을 묻는 칸에, 안전성 안내는 여행·돌봄 일정 칸에만 사용했다. 이 출처들을 개인별 접종 권장, 간격, 비용 또는 약 조정의 답으로 확장하지 않았다.",
+  "angle_supporting_detail": {"claim": "과거 대상포진 경험 자체가 상담을 끝내는 정보가 아니라, 현재 급성 에피소드 여부와 함께 접종기관에 전달할 과거력이라는 점", "source_id": "S1"},
+  "sources": [
+    {"id": "S1", "title": "Shingles Vaccination", "organization": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/shingles/vaccines/index.html", "source_date": "2025-08-19", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "과거 대상포진 이력, 현재 대상포진·임신·중등도 이상 질환 상태를 상담에 알릴 필요와 자가판단 경계"},
+    {"id": "S2", "title": "Clinical Considerations for Shingrix Use in Immunocompromised Adults", "organization": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html", "source_date": "2024-10-22", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "recent", "used_for": "질환 또는 치료와 관련한 면역 상태·일정을 자가판정하지 않고 치료명·시점을 준비하도록 하는 근거"},
+    {"id": "S3", "title": "SHINGRIX Prescribing Information", "organization": "U.S. National Library of Medicine DailyMed / FDA label", "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?name=SHINGRIX&setid=0280849d-5c78-4a9d-8941-4eab429f6bd8", "source_date": "2025-07-01", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "primary", "freshness": "current", "used_for": "백신 성분 또는 이전 투여 뒤 중증 알레르기 반응을 상담에서 빠뜨리지 않을 근거"},
+    {"id": "S4", "title": "Shingles (Herpes Zoster) Vaccine Safety", "organization": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/vaccine-safety/vaccines/shingles-herpes.html", "source_date": "2024-12-20", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "recent", "used_for": "주사 부위 반응·피로 등 일상 활동에 영향을 줄 수 있는 반응을 여행·돌봄 일정과 함께 상담할 근거"},
+    {"id": "S5", "title": "예방접종도우미", "organization": "질병관리청", "url": "https://nip.kdca.go.kr/", "source_date": "2026-08-11", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "한국 독자가 예방접종 기록과 기관 정보를 확인할 공식 서비스 경로"},
+    {"id": "S6", "title": "VAERS Frequently Asked Questions", "organization": "Vaccine Adverse Event Reporting System", "url": "https://vaers.hhs.gov/faq.html", "source_date": "2026-08-11", "accessed_date": "2026-08-11", "source_role": "official", "source_type": "official", "freshness": "current", "used_for": "이상반응 보고는 인과관계 판정 도구가 아니라는 안전한 해석 경계"}
+  ],
+  "data_points": [
+    {"claim": "과거 대상포진을 앓은 사람도 접종 상담의 대상이 될 수 있으나, 현재 대상포진이 진행 중이면 접종하지 않도록 안내된다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2025-08-19", "supports_section": "과거 대상포진은 기억의 빈칸까지 채우지 말고 사건으로 적습니다"},
+    {"claim": "질환 또는 치료로 면역저하·면역억제가 있는 성인은 치료의 맥락과 함께 대상포진 백신 일정이 고려될 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2024-10-22", "supports_section": "복용약과 면역 관련 치료는 “왜 먹는지”를 추정하지 않고 목록으로 분리합니다"},
+    {"claim": "SHINGRIX 허가사항은 백신 성분 또는 이전 투여 뒤의 중증 알레르기 반응을 금기로 제시한다.", "source_id": "S3", "claim_type": "policy", "source_date": "2025-07-01", "supports_section": "복용약과 면역 관련 치료는 “왜 먹는지”를 추정하지 않고 목록으로 분리합니다"},
+    {"claim": "CDC는 주사 부위 통증·발적·부기, 근육통, 피로 등 반응이 보통 2~3일 지속하며 일상 활동에 영향을 줄 수 있다고 설명한다.", "source_id": "S4", "claim_type": "number", "source_date": "2024-12-20", "supports_section": "여행·시술·돌봄 일정은 날짜와 물리적 제약을 따로 적습니다"},
+    {"claim": "CDC는 심한 알레르기 반응에서 호흡 곤란, 얼굴·목 부종 등을 응급 도움을 받아야 할 신호로 안내하며, 일반적인 접종 뒤 반응과 같은 방식으로 자가판정하지 않도록 한다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2024-12-20", "supports_section": "접종 뒤 불편감과 즉시 도움을 받을 반응은 같은 칸에 넣지 않습니다"},
+    {"claim": "질병관리청 예방접종도우미는 예방접종 관련 공식 기록·기관 정보를 확인할 수 있는 서비스다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2026-08-11", "supports_section": "예약기관에는 결론 대신 확인 문장을 읽습니다"},
+    {"claim": "VAERS는 백신 뒤 이상반응 보고를 수집하지만, 보고 한 건만으로 백신이 원인인지 결정할 수 없다고 설명한다.", "source_id": "S6", "claim_type": "policy", "source_date": "2026-08-11", "supports_section": "예약기관에는 결론 대신 확인 문장을 읽습니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "과거 대상포진은 정확한 진단명을 기억하지 못해도 대략의 연·월, 부위, 진료 여부, 현재 새 발진 여부를 사건으로 적어 상담에 전달한다.", "source_id": "S1", "used_in_section": "과거 대상포진은 기억의 빈칸까지 채우지 말고 사건으로 적습니다"},
+    {"claim": "면역 관련 치료는 약의 효능을 추측하지 않고 제품명·시작 또는 중단 시점·처방기관·다음 예약일로 분리해 적는다.", "source_id": "S2", "used_in_section": "복용약과 면역 관련 치료는 왜 먹는지를 추정하지 않고 목록으로 분리합니다"},
+    {"claim": "여행·돌봄·시술 일정은 날짜와 피하기 어려운 역할을 적고, 2~3일 이어질 수 있는 일상 제약 가능성을 상담 질문으로 바꾼다.", "source_id": "S4", "used_in_section": "여행·시술·돌봄 일정은 날짜와 물리적 제약을 따로 적습니다"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "미국 공식 자료의 대상·허가사항을 한국 개인의 권장·비용·접종 간격으로 전환하지 않았으며, 국내 이용자는 질병관리청 기록 경로와 실제 접종기관 상담으로 확인하도록 한정했다."
+}

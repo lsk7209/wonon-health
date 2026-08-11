@@ -1,0 +1,14 @@
+{
+  "article_id": "c010",
+  "status": "done",
+  "score": 99,
+  "reviewed_at": "2026-08-11T22:10:00+09:00",
+  "category_scores": {"content_quality": 30, "seo": 25, "eeat": 15, "technical_elements": 15, "ai_citation_readiness": 14},
+  "single_deduction": "ai_citation_readiness",
+  "deduction_reason": "One point withheld because supplement-safety excerpts must preserve the no-recommendation/no-efficacy/no-interaction-conclusion boundary.",
+  "hard_gate_results": {"utf8": true, "body_length": true, "internal_links_exactly_3_valid": true, "research_runs_and_sources": true, "source_dates_roles_used_for": true, "data_point_h2_mappings_exact": true, "article_specific_details_materially_used": true, "visible_sources": true, "ymyl": true, "originality": true, "heading_quality": true},
+  "evidence": {"visible_hangul": 3643, "substantive_h2": 6, "internal_links": ["menopause-medication-supplement-one-page", "health-checkup-questions", "menopause-when-to-see-a-doctor"], "research_runs": 4, "sources": 5, "data_points_exact_h2": 5, "material_details_checked": ["verbatim label marketing claim separated from ingredients", "serving size and current products in distinct fields", "procedure date and provider retained as a question rather than a stop-start instruction"], "shingle_comparison": "Fresh normalized 7-token comparison: best overlap c023-caregiving-own-medication-two-column.mdx, 12 shared / 3015 union, Jaccard 0.00398; below 0.18."},
+  "compared_rows": {"prior_59_basis": "50 prior MDX drafts plus nine existing editorial catalog records", "approved_batch60": ["c001", "c002", "c003", "c004", "c005", "c006", "c007", "c019", "c023", "c027"]},
+  "remaining_risks": [],
+  "recommendation": "PASS: 99/done approved with the single stated deduction."
+}
