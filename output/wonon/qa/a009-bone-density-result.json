@@ -1,0 +1,12 @@
+{
+  "article_id": "a009",
+  "status": "done",
+  "score": 94,
+  "category_scores": { "content_quality": 29, "seo": 23, "eeat": 15, "technical_elements": 13, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "source_interpretation": "pass", "ymyl": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "structure_variation": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass" },
+  "measurements": { "reader_visible_korean_characters": 3949, "h2_count": 8, "internal_link_count": 3, "official_source_count": 6 },
+  "compared_rows": ["a007", "a008", "bone-health-small-steps", "health-checkup-questions"],
+  "similarity_signals": { "title_pattern": "distinct", "intro_frame": "distinct result-report scene", "section_role_sequence": "distinct document analysis", "cta_type": "document and history bundle" },
+  "repair_attempted": true,
+  "remaining_risks": ["one NIH source has no visible publication date but has current access date", "medical-expert review not completed", "not yet integrated into production content schema"]
+}

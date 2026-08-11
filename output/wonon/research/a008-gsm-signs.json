@@ -1,0 +1,53 @@
+{
+  "article_id": "a008",
+  "title": "질 건조와 빈뇨가 함께 왔을 때: 증상 위치로 정리하는 폐경 후 진료 메모",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    { "query": "site:menopause.org genitourinary syndrome menopause symptoms moisturizer lubricant", "date": "2026-08-11", "purpose": "GSM 범위와 비호르몬 관리 공식 확인" },
+    { "query": "site:acog.org urogenital symptoms estrogen dependent breast cancer consensus", "date": "2026-08-11", "purpose": "암 병력 및 방향화효소억제제 공동결정 경계 확인" },
+    { "query": "site:nhs.uk vaginal dryness postmenopausal bleeding discharge", "date": "2026-08-11", "purpose": "생활관리와 진료 신호 확인" },
+    { "query": "site:cancer.gov bladder cancer symptoms blood in urine", "date": "2026-08-11", "purpose": "혈뇨를 질출혈·GSM과 분리하는 경계 확인" }
+  ],
+  "article_research_question": "폐경 뒤 질·외음부·배뇨 증상을 겪는 독자가 GSM 가능성을 이해하면서도 출혈·감염·혈뇨 등 다른 원인을 놓치지 않고 생활관리와 진료를 어떻게 구분할 수 있는가?",
+  "reader_outcome": "증상 위치와 양상을 기록하고 윤활제·보습제의 목적을 구분하며, 바로 평가할 신호와 치료 상담 질문을 준비한다.",
+  "competitor_gap": "질 건조 검색 결과는 제품 추천이나 성교통에만 집중하기 쉬워 외음부 따가움·배뇨 증상까지 GSM 범위로 연결하면서도 감염·질출혈·혈뇨를 분리하는 한국어 의사결정 도구가 부족하다.",
+  "information_gain": "증상을 질·외음부·배뇨 세 위치로 나눈 기록표와 윤활제/보습제 목적 비교, 암 병력별 상담 경계를 한 글에 통합한다.",
+  "unique_angle": "제품 추천이 아니라 증상 위치와 경고 신호로 생활관리와 진료를 나누는 GSM 판단 지도",
+  "source_interpretation": "TMS의 GSM 통합 개념, NHS의 진료 신호, NCI의 혈뇨 경계, ACOG의 암 병력 공동결정을 독자가 오늘 쓸 수 있는 위치별 기록표로 번역한다.",
+  "original_contribution": { "type": "three-zone symptom map", "description": "질·외음부·배뇨 증상을 나누고 각 위치별 다음 질문을 연결하는 표", "source_ids": ["S1", "S3", "S4", "S5"] },
+  "angle_supporting_detail": { "claim": "GSM은 질 건조만이 아니라 외음부 자극과 빈뇨·절박뇨·배뇨통 등 비뇨 증상을 포함할 수 있다.", "source_id": "S1" },
+  "article_specific_details": [
+    { "claim": "윤활제는 성활동 때 마찰 감소, 질 보습제는 정기적인 수분 유지라는 서로 다른 목적을 가진다.", "source_id": "S2" },
+    { "claim": "방향화효소억제제를 복용 중인 유방암 병력자는 저용량 질 에스트로겐을 환자·산부인과·종양의의 공동결정으로 논의한다.", "source_id": "S3" }
+  ],
+  "structure": { "structure_type": "상황별분기형", "why": "같은 불편이라도 위치와 동반 신호에 따라 생활관리와 진료 행동이 달라진다.", "intro_style": "약국 제품 선택 직전 장면", "section_sequence": ["direct answer", "three-zone map", "red-flag split", "product-purpose comparison", "seven-day record", "cancer-history branch", "consultation questions", "one-action close"] },
+  "visual_elements": ["summary box", "scenario branch table", "comparison table", "caution box"],
+  "semantic_colors": ["#2563EB", "#B45309"],
+  "sources": [
+    { "id": "S1", "title": "Symptoms: Genitourinary Syndrome of Menopause", "url": "https://menopause.org/patient-education/menopause-topics/symptoms", "publisher": "The Menopause Society", "date": "2026-01-01", "accessed": "2026-08-11", "source_type": "expert", "source_role": "expert_reference", "is_official": true, "freshness": "current", "used_for": "GSM 정의, 질·외음부·비뇨 증상 범위와 경과" },
+    { "id": "S2", "title": "Genitourinary Syndrome of Menopause MenoNote", "url": "https://menopause.org/wp-content/uploads/for-women/MenoNote-GSM.pdf", "publisher": "The Menopause Society", "date": "2025-05-01", "accessed": "2026-08-11", "source_type": "expert", "source_role": "expert_reference", "is_official": true, "freshness": "recent", "used_for": "윤활제·보습제 목적, 치료 선택지와 암 병력 경계" },
+    { "id": "S3", "title": "Treatment of Urogenital Symptoms in Individuals With a History of Estrogen-dependent Breast Cancer", "url": "https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer", "publisher": "ACOG", "date": "2021-12-01", "accessed": "2026-08-11", "source_type": "primary", "source_role": "official", "is_official": true, "freshness": "old", "used_for": "비호르몬 우선 및 방향화효소억제제 복용 시 공동결정" },
+    { "id": "S4", "title": "Vaginal dryness", "url": "https://www.nhs.uk/symptoms/vaginal-dryness/", "publisher": "NHS", "date": "2025-01-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "생활관리, 비정상 분비물과 출혈 진료 신호" },
+    { "id": "S5", "title": "Symptoms of menopause and perimenopause", "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/", "publisher": "NHS", "date": "2026-05-19", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "배뇨 증상과 폐경 후 출혈 경계" },
+    { "id": "S6", "title": "Bladder Cancer Symptoms", "url": "https://www.cancer.gov/types/bladder/symptoms", "publisher": "National Cancer Institute", "date": "2023-02-16", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "old", "used_for": "혈뇨는 요로 원인 평가가 필요한 별도 신호라는 경계" }
+  ],
+  "data_points": [
+    { "claim": "GSM은 질·외음부·요도·방광의 건조, 자극, 통증, 배뇨 증상을 포함할 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2026-01-01", "supports_section": "질 건조만이 아니라 세 위치를 함께 봐야 합니다" },
+    { "claim": "GSM은 열감과 달리 치료 없이 시간이 지나며 악화될 수 있다.", "source_id": "S1", "claim_type": "medical", "source_date": "2026-01-01", "supports_section": "질 건조만이 아니라 세 위치를 함께 봐야 합니다" },
+    { "claim": "윤활제는 성활동 시 마찰 감소, 보습제는 정기적인 수분 유지에 사용한다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-05-01", "supports_section": "윤활제와 질 보습제는 쓰는 순간이 다릅니다" },
+    { "claim": "폐경 후 질출혈은 한 번의 소량 출혈이나 분홍·갈색 분비물도 확인이 필요하다.", "source_id": "S5", "claim_type": "safety", "source_date": "2026-05-19", "supports_section": "갱년기로 넘기지 말고 먼저 진료할 신호" },
+    { "claim": "비정상 분비물이나 수 주 지속·일상 영향 증상은 진료 상담 대상이다.", "source_id": "S4", "claim_type": "safety", "source_date": "2025-01-01", "supports_section": "갱년기로 넘기지 말고 먼저 진료할 신호" },
+    { "claim": "혈뇨는 간헐적일 수 있고 요로감염·결석 등 여러 원인이 있어 의료 평가가 필요하다.", "source_id": "S6", "claim_type": "safety", "source_date": "2023-02-16", "supports_section": "소변의 피와 질출혈을 같은 것으로 적지 마세요" },
+    { "claim": "에스트로겐 의존성 유방암 병력에서는 비호르몬 접근을 우선한다.", "source_id": "S3", "claim_type": "medical", "source_date": "2021-12-01", "supports_section": "유방암·자궁암 병력이 있다면 치료 질문이 달라집니다" },
+    { "claim": "방향화효소억제제 복용자는 저용량 질 에스트로겐을 환자·산부인과·종양의가 공동결정한다.", "source_id": "S3", "claim_type": "procedure", "source_date": "2021-12-01", "supports_section": "유방암·자궁암 병력이 있다면 치료 질문이 달라집니다" }
+    ,{ "claim": "질용이 아닌 일반 크림이나 로션을 질 안에 사용하면 자극이나 감염을 일으킬 수 있다.", "source_id": "S4", "claim_type": "safety", "source_date": "2025-01-01", "supports_section": "윤활제와 질 보습제는 쓰는 순간이 다릅니다" }
+    ,{ "claim": "유방암 또는 자궁암 병력이 있는 사람의 저용량 질 호르몬 치료는 주치의·종양의와 공동 의사결정으로 논의할 수 있다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-05-01", "supports_section": "유방암·자궁암 병력이 있다면 치료 질문이 달라집니다" }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "ACOG 2021과 NCI 2023은 오래된 자료지만 현행 공식 페이지이며, TMS 2025/2026 및 NHS 2026 자료로 현재성을 교차 확인했다."
+}

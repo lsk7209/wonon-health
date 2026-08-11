@@ -1,0 +1,12 @@
+{
+  "article_id": "a008",
+  "status": "done",
+  "score": 93,
+  "category_scores": { "content_quality": 28, "seo": 22, "eeat": 15, "technical_elements": 14, "ai_citation_readiness": 14 },
+  "hard_gate_results": { "persona_consistency": "pass", "fact_traceability": "pass", "research_gate": "pass", "source_interpretation": "pass", "ymyl": "pass", "content_uniqueness": "pass", "article_contract_uniqueness": "pass", "title_template_uniqueness": "pass", "visual_elements": "pass", "heading_quality": "pass", "body_length": "pass" },
+  "measurements": { "reader_visible_korean_characters": 3515, "h2_count": 8, "internal_link_count": 3, "official_source_count": 6 },
+  "compared_rows": ["a007", "menopause-when-to-see-a-doctor", "hot-flash-daily-record"],
+  "similarity_signals": { "title_pattern": "distinct", "intro_frame": "distinct product-selection scene", "section_role_sequence": "distinct three-zone map", "cta_type": "four-cell symptom map" },
+  "repair_attempted": true,
+  "remaining_risks": ["medical-expert review not completed", "not yet integrated into production content schema"]
+}

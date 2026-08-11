@@ -69,3 +69,16 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - Final editorial QA: PASS, 94/100, zero hard-gate failures; research/QA/manifest JSON parse successfully.
 - Local `npm run build`: PASS, 24 static pages. `npx tsc --noEmit`: PASS.
 - Draft publication, medical-expert sign-off, AdSense operations, and DNS changes were deliberately not performed.
+
+### 2026-08-11 12:05 KST - Three-article content subgoal complete
+
+| Article | Visible Korean characters | Sources / runs | Internal links | QA |
+|---|---:|---:|---:|---:|
+| a007 women-specific sleep-apnea signals | 3,609 | 6 / 3 | 3 | PASS 94 |
+| a008 GSM three-zone symptom map | 3,515 | 6 / 4 | 3 | PASS 93 |
+| a009 DXA result-report reading | 3,949 | 6 / 4 | 3 | PASS 94 |
+
+- Independent batch critic: PASS for title, intro, H2/structure, CTA variation, existing-content non-overlap, people-first value, and YMYL boundaries.
+- All research, QA, and manifest JSON files parse successfully.
+- `npm run build`: PASS with 24 static pages. `npx tsc --noEmit`: PASS. `git diff --check`: PASS.
+- Drafts were not integrated or published; DNS and AdSense account operations were not touched.

@@ -1,0 +1,57 @@
+{
+  "article_id": "a009",
+  "title": "골밀도 검사 결과표, T점수만 보지 말아야 하는 이유",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    { "query": "site:niams.nih.gov bone mineral density tests what numbers mean T score", "date": "2026-08-11", "purpose": "T점수 정의와 해석 범위 확인" },
+    { "query": "site:iscd.org official adult positions follow-up BMD testing interval", "date": "2026-08-11", "purpose": "재검 목적과 개별화 원칙 확인" },
+    { "query": "site:nhs.uk DEXA scan spinal abnormalities result accuracy", "date": "2026-08-11", "purpose": "척추 결과 해석의 예외 확인" },
+    { "query": "site:uspstf.org osteoporosis screening postmenopausal women 2025", "date": "2026-08-11", "purpose": "일반 선별과 개별 평가 대상 경계 확인" }
+  ],
+  "article_research_question": "폐경 후 여성이 DXA 결과표를 받았을 때 T점수 하나가 아니라 어떤 부위·병력·변화 정보를 함께 봐야 다음 상담 질문을 정할 수 있는가?",
+  "reader_outcome": "결과표 전체와 골절·키 변화·복용 약·가족력 메모를 준비하고 개인화된 재검 목적을 질문한다.",
+  "competitor_gap": "검색 결과는 T점수 구간 정의에 집중하기 쉬워 측정 부위별 차이, 척추 결과 왜곡 가능성, 과거 골절과 약물, 재검 목적을 한 장의 결과표 읽기 순서로 연결하는 안내가 부족하다.",
+  "information_gain": "T점수 해석표 대신 결과표의 측정부위-병력-변화-다음 질문을 연결하는 4단계 읽기 카드 제공",
+  "unique_angle": "숫자 판정이 아니라 결과표 전체를 진료 질문으로 번역하는 폐경 후 DXA 독해법",
+  "source_interpretation": "NIAMS의 T점수 정의, NHS의 측정 예외, ISCD의 재검 목적, USPSTF의 선별 적용 경계를 결합해 자가치료 없는 결과표 독해 순서로 번역한다.",
+  "original_contribution": { "type": "report-reading sequence", "description": "측정부위, 과거 골절, 약물·질환, 재검 목적을 순서대로 읽는 4단계 카드", "source_ids": ["S1", "S2", "S3", "S4"] },
+  "angle_supporting_detail": { "claim": "DXA 결과 해석은 BMD뿐 아니라 나이와 다른 골절 위험 요인을 함께 고려한다.", "source_id": "S1" },
+  "article_specific_details": [
+    { "claim": "척추 퇴행성 변화나 기존 척추골절은 척추 DXA 결과 해석을 어렵게 할 수 있다.", "source_id": "S3" },
+    { "claim": "추적 DXA 간격은 고정 주기가 아니라 결과가 진료계획에 영향을 줄 목적과 개인 임상요인에 따라 정한다.", "source_id": "S4" }
+  ],
+  "structure": { "structure_type": "서류분석형", "why": "독자가 실제 DXA 결과표의 필드와 빠진 맥락을 읽어야 한다.", "intro_style": "결과표 숫자에 표시하는 장면", "section_sequence": ["direct answer", "document anatomy", "site comparison", "distortion exceptions", "risk context", "follow-up purpose", "consultation questions", "document checklist close"] },
+  "visual_elements": ["summary box", "document anatomy table", "caution box", "checklist box"],
+  "semantic_colors": ["#2563EB", "#B45309"],
+  "sources": [
+    { "id": "S1", "title": "Bone Mineral Density Tests: What the Numbers Mean", "url": "https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean", "publisher": "NIAMS, NIH", "date": "2025-02-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "DXA 측정부위, T점수 역할과 한계" },
+    { "id": "S2", "title": "Osteoporosis: Diagnosis, Treatment, and Steps to Take", "url": "https://www.niams.nih.gov/health-topics/osteoporosis/basics/diagnosis-treatment-and-steps-to-take", "publisher": "NIAMS, NIH", "date": "undated", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "undated", "used_for": "키 감소·등 통증·골절·약물·가족력 맥락" },
+    { "id": "S3", "title": "Bone density scan (DEXA scan) - When it is used", "url": "https://www.nhs.uk/tests-and-treatments/dexa-scan/why-its-done/", "publisher": "NHS", "date": "2022-10-05", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "old", "used_for": "척추 결과 왜곡 가능성과 DXA의 원인 구분 한계" },
+    { "id": "S4", "title": "Official Adult Positions 2023", "url": "https://iscd.org/official-positions-2023/", "publisher": "International Society for Clinical Densitometry", "date": "2023-08-24", "accessed": "2026-08-11", "source_type": "primary", "source_role": "expert_reference", "is_official": true, "freshness": "recent", "used_for": "추적 DXA 목적과 개별화 간격" },
+    { "id": "S5", "title": "Evaluation of Bone Health and Bone Density Testing", "url": "https://www.bonehealthandosteoporosis.org/patients/diagnosis-information/bone-density-examtesting/", "publisher": "Bone Health and Osteoporosis Foundation", "date": "2022-03-08", "accessed": "2026-08-11", "source_type": "expert", "source_role": "expert_reference", "is_official": true, "freshness": "old", "used_for": "50세 이후 골절 병력과 척추 영상 질문" },
+    { "id": "S6", "title": "Osteoporosis to Prevent Fractures: Screening", "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/clinical-summary/osteoporosis-screening", "publisher": "USPSTF", "date": "2025-01-14", "accessed": "2026-08-11", "source_type": "primary", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "일반 선별과 개별 평가 대상 경계" }
+  ],
+  "data_points": [
+    { "claim": "중심 DXA는 보통 고관절과 척추 특정 부위의 골밀도를 측정한다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2025-02-01", "supports_section": "골밀도 결과표는 측정부위부터 읽습니다" },
+    { "claim": "폐경 후 여성의 T점수는 젊은 건강 성인 평균과 비교한 차이를 나타낸다.", "source_id": "S1", "claim_type": "definition", "source_date": "2025-02-01", "supports_section": "T점수는 중요한 출발점이지만 전체 결론은 아닙니다" },
+    { "claim": "결과 해석은 골밀도 외에 나이와 다른 골절 위험 요인을 함께 고려한다.", "source_id": "S1", "claim_type": "medical", "source_date": "2025-02-01", "supports_section": "T점수 옆에 골절·키 변화·복용 약을 놓으세요" },
+    { "claim": "척추 퇴행성 변화·척추 이상·기존 골절은 척추 결과 해석에 영향을 줄 수 있다.", "source_id": "S3", "claim_type": "medical", "source_date": "2022-10-05", "supports_section": "척추 수치가 예상과 다를 때 검사 품질과 예외를 묻습니다" },
+    { "claim": "DXA는 골밀도가 낮은 원인을 단독으로 구분하지 않는다.", "source_id": "S3", "claim_type": "limitation", "source_date": "2022-10-05", "supports_section": "T점수는 중요한 출발점이지만 전체 결론은 아닙니다" },
+    { "claim": "키 감소·심한 등 통증·굽은 자세는 척추골절 맥락에서 확인할 신호다.", "source_id": "S2", "claim_type": "medical", "source_date": null, "supports_section": "T점수 옆에 골절·키 변화·복용 약을 놓으세요" },
+    { "claim": "장기 글루코코르티코이드와 일부 암 치료 등 약물은 골절 위험 맥락을 바꿀 수 있다.", "source_id": "S2", "claim_type": "medical", "source_date": null, "supports_section": "T점수 옆에 골절·키 변화·복용 약을 놓으세요" },
+    { "claim": "추적 DXA는 결과가 진료계획에 영향을 줄 명확한 목적이 있을 때 시행하고 간격은 개인화한다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2023-08-24", "supports_section": "재검 시점은 고정 숫자보다 목적을 먼저 묻습니다" },
+    { "claim": "새 골절이나 새 위험요인은 추적 검사 시점을 다시 검토할 이유가 된다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2023-08-24", "supports_section": "재검 시점은 고정 숫자보다 목적을 먼저 묻습니다" },
+    { "claim": "일반 선별 권고는 이미 취약골절이나 이차성 원인, 골소실 관련 장기 약물이 있는 사람에게 그대로 적용되지 않는다.", "source_id": "S6", "claim_type": "policy", "source_date": "2025-01-14", "supports_section": "일반 검진 결과와 개인 위험평가는 같은 질문이 아닙니다" }
+    ,{ "claim": "T점수와 DXA는 골절 위험 평가와 치료 반응 모니터링에 사용될 수 있다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2025-02-01", "supports_section": "T점수는 중요한 출발점이지만 전체 결론은 아닙니다" }
+    ,{ "claim": "예상 밖의 추적 DXA 변화는 검사 품질을 확인한 뒤 재평가한다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2023-08-24", "supports_section": "척추 수치가 예상과 다를 때 검사 품질과 예외를 묻습니다" }
+    ,{ "claim": "부모의 골다공증이나 고관절 골절 가족력은 골절 위험 맥락에 포함된다.", "source_id": "S2", "claim_type": "medical", "source_date": "undated", "supports_section": "T점수 옆에 골절·키 변화·복용 약을 놓으세요" }
+    ,{ "claim": "글루코코르티코이드, 방향화효소억제제, 수술 폐경 등 빠른 골밀도 변화 관련 상황에서는 더 짧은 추적 간격을 고려할 수 있다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2023-08-24", "supports_section": "재검 시점은 고정 숫자보다 목적을 먼저 묻습니다" }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "NHS 2022와 BHOF 2022는 오래된 현행 자료이므로 NIAMS 2025, USPSTF 2025, ISCD 2023으로 핵심 결론을 교차 확인했다."
+}
