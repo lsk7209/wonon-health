@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://wonon.ehon365.kr'),
   title: { default: '원온 | 중년 여성의 건강 가이드', template: '%s | 원온' },
   description: '45세 이후 여성을 위한 갱년기·생활 건강 근거 기반 안내서. 불안을 덜고, 나에게 맞는 다음 행동을 찾도록 돕습니다.',
-  alternates: { canonical: '/' },
   openGraph: { type: 'website', locale: 'ko_KR', siteName: '원온', title: '원온 | 중년 여성의 건강 가이드', description: '45세 이후 여성을 위한 차분하고 근거 기반의 건강 안내서.' },
   robots: { index: true, follow: true },
 };

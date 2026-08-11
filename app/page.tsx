@@ -1,9 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { ArticleCard } from '../components/article-card';
 import { Disclaimer } from '../components/disclaimer';
 import { SiteFooter } from '../components/site-footer';
 import { SiteHeader } from '../components/site-header';
 import { articles, topics } from '../content/editorial';
+
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
   const featured = articles.slice(0, 3);
