@@ -2,14 +2,14 @@
 
 - Timestamp: 2026-08-12 00:42 KST
 - User goal: Activate automatic GSC sitemap submission until the canonical sitemap reports success, and enforce a minimum 95-point quality gate across all current content.
-- Exact current state: The site is Next.js 16 App Router on Vercel. Search Console API submission for `https://wonon.ehon365.kr/sitemap.xml` succeeded on the exact URL-prefix property with `siteOwner`; final API reread is non-pending with zero errors/warnings and a completed download. All 89 release-covered articles now have exactly one QA packet, status done, score at least 95, exact category sums, and strict-boolean passing hard gates.
+- Exact current state: The site is Next.js 16 App Router on Vercel. Search Console API submission for `https://wonon.ehon365.kr/sitemap.xml` succeeded on the exact URL-prefix property with `siteOwner`; final API reread is non-pending with zero errors/warnings and a completed download. All 89 release-covered articles now have exactly one QA packet, status done, score at least 95, exact category sums, and strict-boolean passing hard gates. Git commit `831d27e` is pushed and Vercel production deployment `dpl_CDxFVeCmzYFT9vQWS7A474CAdNNL` is READY/aliased.
 - Completed work: Live robots/sitemap validation; credential-safe GSC property lookup and submission; six legacy QA schema normalizations; six baseline QA packets at a defensible 95; contextual related-reading links for baseline guides; one invalid internal article link repaired; independent full-corpus re-audit.
 - Changed files/live systems: GSC sitemap entry was submitted; QA/evidence artifacts, baseline related links, article renderer, search visibility configuration, harness, and this handoff changed. Credentials, DNS, GA4, AdSense, publication schedule, and article medical claims were not changed.
-- Fresh validation: GSC `isPending=false`, errors=0, warnings=0, lastDownloaded present; public sitemap HTTP 200/application XML/34 canonical URLs; 89/89 QA coverage; 249 internal MDX article links with zero absent targets; npm test 3/3, TypeScript, Next.js production build, and diff check pass.
+- Fresh validation: GSC `isPending=false`, errors=0, warnings=0, lastDownloaded present; after deployment the dynamic public sitemap is HTTP 200/application XML with 35 canonical URLs; 89/89 QA coverage; 249 internal MDX article links with zero absent targets; npm test 3/3, TypeScript, local/Vercel production builds, diff check, and live related-reading smoke pass.
 - Side effects/rollback: If the GSC feed were wrong, delete only `https://wonon.ehon365.kr/sitemap.xml` from the exact property. Code rollback is a normal revert of this increment; no DNS rollback is needed.
 - Blocker/risk: `indexed=0` is the immediate Search Console sitemap content count and is not an indexing guarantee; Google indexing occurs asynchronously. No task blocker remains.
 - Deliberately not run/sent: No credential edits, DNS changes, URL Inspection indexing requests, GA4/AdSense changes, medical-expert signature, email, or broadcast.
-- Single next step: commit/push/deploy the narrow code and evidence changes, then verify the live related-reading links and unchanged sitemap.
+- Single next step: none; Google indexing counts will update asynchronously after the successful sitemap download.
 
 ## Previous completed batch-60 handoff
 
