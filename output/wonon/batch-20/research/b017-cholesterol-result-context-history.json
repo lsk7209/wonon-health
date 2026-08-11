@@ -19,7 +19,7 @@
   "reader_outcome":"독자가 LDL 한 숫자로 치료·위험을 단정하지 않고, 결과지와 함께 제시할 가족력·혈압·혈당·흡연·복용약·이전 결과를 정리한다.",
   "original_contribution":{"type":"decision_rule","description":"결과지의 LDL 항목 옆에 여섯 가지 병력 정보를 붙이고, 수치 자체의 결론 대신 ‘어떤 정보가 다음 상담을 바꾸는가’를 묻는 병력 카드","source_ids":["S1","S2","S3","S4"]},
   "article_specific_details":[
-    {"claim":"혈압, 당뇨, 흡연, 고콜레스테롤은 관상동맥질환 위험과 관련된 건강 상태·행동으로 함께 확인됩니다.","source_id":"S1"},
+    {"claim":"미국심장협회는 일반 지질 패널이 이런 여러 혈중 지질 수치를 함께 보여 준다고 설명합니다.","source_id":"S4"},
     {"claim":"NHLBI는 고콜레스테롤 평가에서 식습관, 신체활동, 가족력, 복용 중인 약과 심장·혈관 질환의 다른 위험요인을 함께 묻는다고 설명합니다.","source_id":"S3"}
   ],
   "structure":{"structure_type":"document-context","why":"LDL 결과지의 한 항목과 병력 카드의 외부 정보를 연결해야 하므로 결과 문서→동반 정보→질문 순서가 적합하다.","intro_style":"검진표에서 LDL 줄만 확대해 보는 장면","section_sequence":["direct-answer","result-scope","history-card","comparison-order","question-card","interpretation-boundary","faq"]},

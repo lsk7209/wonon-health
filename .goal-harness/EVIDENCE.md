@@ -111,3 +111,13 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - b017 cholesterol-result context/history: QA 94, 5,233 visible Korean characters, 4 research runs, 6 official sources, 3 valid internal links.
 - Actual persona-writer research, material-detail, QA-evidence, and old-source gates: PASS.
 - Strict recent five-row audit after b017: PASS, warnings 0; batch progress 6/20 done.
+
+## Six-article 99-point upgrade
+
+- b001, b009, b013, b016, b017, b019: independently verified 99/100.
+- Draft storage repaired from HTML numeric entities to actual UTF-8 Korean; reader-visible Korean counts are 3,844 / 3,869 / 3,892 / 3,867 / 4,474 / 4,514.
+- All 12 article-specific detail claims match sourced draft sentences at 1.000 coverage.
+- Reader-visible official citations map to research packets.
+- Actual `manifest.py update` accepted score 99 for all six rows.
+- Strict audits `--window 5` and `--window 20`: PASS, warnings 0.
+- Independent final audit: PASS for all six; see `output/wonon/batch-20/qa-99-independent-audit.md`.

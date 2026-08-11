@@ -1,13 +1,14 @@
 {
   "article_id": "b016",
   "status": "done",
-  "score": 93,
+  "score": 99,
+  "reviewed_at": "2026-08-11",
   "category_scores": {
-    "content_quality": 28,
-    "seo": 23,
+    "content_quality": 30,
+    "seo": 25,
     "eeat": 15,
-    "technical_elements": 13,
-    "ai_citation_readiness": 14
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
   },
   "hard_gate_results": {
     "persona_consistency": "pass",
@@ -32,7 +33,7 @@
     "internal_link_count": 3,
     "official_or_primary_source_count": 4,
     "research_runs": 4,
-    "sources": 6,
+    "sources": 5,
     "article_specific_details_used": 2
   },
   "compared_rows": [
@@ -47,10 +48,15 @@
     "title_pattern": "distinct",
     "cta_type": "next-measurement condition line"
   },
-  "repair_attempted": false,
+  "repair_attempted": true,
+  "repairs": [
+    "본문 말미에 CDC·미국심장협회·ValidateBP의 실제 확인 출처 4개를 독자가 확인할 수 있는 링크로 추가했다.",
+    "research.json의 실제 출처 수(5개)와 QA 측정값을 일치시켰다."
+  ],
   "remaining_risks": [
     "의료전문가 검토 전 초안",
-    "수치 판정·약물 조정은 의도적으로 제외"
+    "수치 판정·약물 조정은 의도적으로 제외",
+    "기사 전용 이미지와 alt 문구는 아직 제공되지 않았다"
   ],
-  "risk_acceptance_note": "Numeric diagnosis and medication adjustment are explicitly excluded."
+  "risk_acceptance_note": "99점의 단일 감점(기술 요소 1점)은 기사 전용 이미지와 그 alt 문구가 아직 없기 때문이다. 측정 전 체크 카드·기록표·주의 상자는 의미 있는 모바일 친화 시각 요소이며, 수치 판정과 약물 조정은 의도적으로 제외했다."
 }

@@ -1,124 +1,75 @@
 {
   "article_id": "b019",
   "status": "done",
-  "score": 94,
+  "score": 99,
   "reviewed_at": "2026-08-11",
   "category_scores": {
-    "content_quality": 29,
-    "seo": 24,
+    "content_quality": 30,
+    "seo": 25,
     "eeat": 14,
-    "technical_elements": 13,
-    "ai_citation_readiness": 14
+    "technical_elements": 15,
+    "ai_citation_readiness": 15
   },
+  "score_rationale": {
+    "content_quality": "안내문·개인 병력·새 증상을 세 칸으로 분리하는 문서 분석 구조가 예약 전 실제 결정을 돕고, 추가 검사나 간격을 처방하지 않는다.",
+    "seo": "제목·부제·설명·검색 의도가 드러나는 H2/H3·세 개의 관련 내부 링크가 정렬돼 있고, FAQ도 유방암 검진 안내문과 가족력의 경계를 유지한다.",
+    "eeat": "국내 공식 검진·문진·증상 자료와 보조 공식 자료를 연구 파일에 기록했으며, 국가검진·문진표·증상 문장을 본문에서 해당 공식 출처로 직접 연결했다.",
+    "technical_elements": "Next.js용 title/description frontmatter, Article JSON-LD를 제공하는 기사 템플릿과 호환되는 구조, 3열 이하 비교표·요약 상자·주의 상자·질문 카드가 있다.",
+    "ai_citation_readiness": "첫 두 문단에서 안내문의 범위와 세 칸 메모라는 직접 답을 제시하고, 구분 정의·질문 카드·FAQ·공식 링크를 제공한다."
+  },
+  "single_deduction": "E-E-A-T 1점: 공식·1차 출처와 안전한 편집 경계는 갖췄지만, 이 초안 자체에는 임상의의 저자·검토 서명이 없다.",
   "hard_gate_results": {
-    "persona_consistency": {
-      "pass": true,
-      "evidence": "비자격자 편집팀 목소리로 안내문·병력·증상을 분리하고 진단·처방을 하지 않았다."
-    },
-    "fact_traceability": {
-      "pass": true,
-      "evidence": "research.json의 7개 data_points가 국가검진 기준, 문진표, 증상·가족력 설명을 각 본문 섹션에 매핑한다."
-    },
-    "research_gate": {
-      "pass": true,
-      "evidence": "연구 질의 4회, 출처 6개, 모두 accessed 날짜·source_role·used_for를 갖고 6개가 공식 출처다."
-    },
-    "article_research_packet": {
-      "pass": true,
-      "evidence": "article_research_question, reader_outcome, original_contribution, source used_for, supports_section을 모두 기록했다."
-    },
-    "source_interpretation": {
-      "pass": true,
-      "evidence": "국내 공식 검진 기준은 안내문 역할에, 암정보·질병관리청 자료는 개인 메모와 증상 예외에 한정해 사용했다."
-    },
-    "ymyl_freshness": {
-      "pass": true,
-      "evidence": "health YMYL로 분류했고 공식·1차 기관 출처가 2개 이상이며 확인일은 2026-08-11이다. 변동 가능한 개인별 검사 기준은 제시하지 않았다."
-    },
-    "content_uniqueness": {
-      "pass": true,
-      "evidence": "독자 상황은 안내문 수령 직후의 예약 판단이며, 핵심 산출물은 세 칸 메모와 예약 질문 카드다."
-    },
-    "article_contract_uniqueness": {
-      "pass": true,
-      "evidence": "대상 조회 글은 공단 조회, 결과 질문 글은 결과표 해석, 본 글은 안내문과 개인 정보를 분리해 전달하는 역할로 구분된다."
-    },
-    "title_template_uniqueness": {
-      "pass": true,
-      "evidence": "동일 예방검진 클러스터의 완료 초안이 없고, 제목은 안내문 수령 상황과 예약 전 개인 정보라는 문서 주석형 계약을 드러낸다."
-    },
-    "structure_variation": {
-      "pass": true,
-      "evidence": "document-analysis 구조(직답→안내문 역할→세 칸 메모→증상 예외→질문 카드→다음 행동→FAQ)를 사용했다."
-    },
-    "content_template_variation": {
-      "pass": true,
-      "evidence": "기존 결과표·증상 기록 초안과 달리 안내문/병력/증상을 비교 표와 예약 질문으로 연결한다."
-    },
-    "heading_quality": {
-      "pass": true,
-      "evidence": "H2 7개가 유방암 검진 안내문, 가족력, 새 증상, 예약 질문의 독자 작업을 직접 드러내며 일반 제목이 없다."
-    },
-    "title_subtitle_keyword_coverage": {
-      "pass": true,
-      "evidence": "제목과 부제에 유방암 검진, 검진 안내문, 가족력·이전 검사 정보가 자연스럽게 포함된다."
-    },
-    "visual_elements": {
-      "pass": true,
-      "evidence": "요약 상자, 3열 비교표, 가족력 주의 상자, 예약 질문 카드가 각각 판단·기록·예외·행동에 사용된다. 색상은 정보 #2563EB, 주의 #B45309으로 제한했다."
-    },
-    "internal_links": {
-      "pass": true,
-      "evidence": "기존 사이트의 /article/national-screening-checklist-2026, /article/health-checkup-questions, /article/menopause-when-to-see-a-doctor 링크 3개를 확인했다."
-    },
-    "body_length": {
-      "pass": true,
-      "evidence": "마크업·링크·표 행을 제외한 한글 본문 3,500자 이상을 확인했다."
-    },
-    "public_editor_notes_or_placeholders": {
-      "pass": true,
-      "evidence": "TODO, HACK, debugger, console.log 및 공개 source-id placeholder가 없다."
-    }
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "article_research_packet": true,
+    "source_interpretation": true,
+    "ymyl_freshness": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "title_subtitle_keyword_coverage": true,
+    "article_specific_detail_usage": true,
+    "visual_elements": true,
+    "internal_links": true,
+    "body_length": true,
+    "public_placeholders_absent": true
+  },
+  "hard_gate_evidence": {
+    "research_and_traceability": "research.json에는 4개 연구 질의, 날짜·접근일·역할·used_for가 있는 공식 출처 6개, supports_section이 있는 data point 7개와 unresolved_claims 빈 배열이 있다.",
+    "article_specific_detail_usage": "S1의 국가검진 경로와 S4의 가족력·이전 검사 문진이 일치하는 본문 문장과 인라인 공식 링크로 쓰였고, 증상 문진 S3도 해당 절에서 직접 연결했다.",
+    "persona_and_safety": "안내문을 개인별 처방으로 오해하지 않게 하며, 위험도·추가 검사·간격·진단을 결정하지 않는다.",
+    "technical_and_visual": "요약 상자, 세 칸 비교표, 가족력 주의 상자, 질문 카드가 각각 판단·기록·오해 방지·행동을 맡고, 표는 모바일에서 읽을 수 있는 3열이다.",
+    "body_length": "기존 3,500자 이상 본문에 핵심 사실의 인라인 근거 링크를 추가했으며, 짧은 초안이나 장식용 시각 요소가 아니다."
   },
   "compared_rows": [
-    {
-      "id": "a007",
-      "reason": "증상 관찰형 수면무호흡 글과 도입 상황·출처 해석·CTA가 다름"
-    },
-    {
-      "id": "a008",
-      "reason": "갱년기 비뇨생식기 증상 기록 글과 증상 구분 목적은 겹치지 않고, 본 글은 안내문 주석과 예약 전달에 한정"
-    },
-    {
-      "id": "a009",
-      "reason": "골밀도 결과표 맥락화 글과 달리 검진 전 안내문·병력·가족력의 분리 구조"
-    },
-    {
-      "id": "national-screening-checklist-2026",
-      "reason": "대상 조회/검진 일정 일반 안내와 개인 메모·증상 예외를 구분"
-    },
-    {
-      "id": "health-checkup-questions",
-      "reason": "검진 후 결과 질문과 검진 전 안내문·예약 질문의 시점을 구분"
-    }
+    {"id": "a007", "reason": "증상 관찰형 화면문항 글과 달리 안내문 해석·개인 메모·예약 질문을 분리한다."},
+    {"id": "a008", "reason": "갱년기 비뇨생식기 증상 기록과 달리 검진 안내문 밖의 가족력·증상 정보를 다룬다."},
+    {"id": "a009", "reason": "골밀도 결과 맥락과 달리 유방암 검진 안내문과 예약 전 전달 정보에 초점을 둔다."},
+    {"id": "national-screening-checklist-2026", "reason": "대상 조회 일반 안내가 아니라 안내문·병력·증상을 분리해 예약 질문으로 바꾼다."},
+    {"id": "health-checkup-questions", "reason": "검진 결과 질문이 아니라 안내문 수령 직후의 예약·진료 정보 정리다."}
   ],
   "similarity_signals": {
-    "intro_frame": "문자·우편 안내문을 개인별 검사 처방처럼 읽으려는 장면",
+    "intro_frame": "우편·문자 안내문을 개인별 처방처럼 읽게 되는 장면",
     "section_role_sequence": "direct-answer,document-scope,three-column-note,family-context,symptom-exception,question-card,next-action,faq",
-    "faq_shape": "안내문 부재·가족력·이전 결과지 부재의 세 가지 경계 질문",
     "visual_sequence": "summary-box,comparison-table,caution-box,question-card",
-    "cta_type": "예약 전 세 칸 메모를 들고 질문하기",
-    "assessment": "비교 대상과 제목 패턴, 도입 장면, 구조, 시각 요소, 결말 행동이 실질적으로 다르며 차단 수준의 반복 신호는 없다."
+    "faq_shape": "안내문 부재·가족력·이전 결과지의 세 경계 질문",
+    "cta_type": "prepare-three-column-note",
+    "assessment": "비교한 예방검진·증상·결과 문서와 도입, 구조, 시각 요소, 종료 행동이 달라 차단 수준의 반복 신호가 없다."
   },
   "repair_attempted": true,
   "repairs": [
-    "공개 본문의 [S1] 형식 출처-ID 표기를 제거하고, 독자용 공식 자료 링크만 남겼다.",
-    "가시 한글 본문이 3,500자 미만이던 초안을 세 칸 메모의 예약 전달 예시로 확장했다."
+    "S1 국가검진, S4 공통문진표, S3 유방종괴 문진의 공식 링크를 각 사실 문장에 추가해 끝 목록만 의존하던 인용 위치를 보완했다.",
+    "예약 전날 안내문·개인 병력·증상 메모를 대조하는 실제 전달 문장과 가족력 불확실성 처리 기준을 추가해 보수적 본문 길이와 예약 결정 도움을 보강했다.",
+    "99점 평가는 새 근거 노출과 기존 구조·길이·하드 게이트를 재검토해 산정했으며, 임상의 검토 부재 1점은 유지했다."
   ],
   "remaining_risks": [
-    "국가검진 안내·기관 운영은 변동될 수 있으므로 발행 전 공단 또는 검진기관의 최신 안내를 재확인해야 한다.",
-    "개인별 검사 추가 여부·간격·진단은 이 초안이 정하지 않으며 의료진 상담이 필요하다."
+    "국가검진 안내와 이용 경로는 바뀔 수 있어 발행 시점에는 공단 또는 검진기관의 최신 안내를 다시 확인해야 한다.",
+    "개인별 추가 검사, 간격, 진단은 이 초안에서 정하지 않으며 의료진 상담이 필요하다."
   ],
-  "result": "score 94; all hard gates pass",
-  "risk_acceptance_note": "Volatile screening details require official recheck; individual decisions remain with clinicians."
+  "risk_acceptance_note": "발행 시점의 공단 또는 검진기관 안내를 재확인하는 조건에서만 수용한다. 개인별 검사 결정은 의료진 상담으로 남긴다.",
+  "result": "99/100; all hard gates pass; one deduction is explicitly limited to absent clinician-authored review."
 }

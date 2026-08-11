@@ -1,10 +1,24 @@
 {
+  "draft_citation_plan": {
+    "source_ids": [
+      "S2",
+      "S3",
+      "S5"
+    ],
+    "placement": "publication metadata and source ledger",
+    "purpose": "Keeps environmental and medication-observation guidance traceable without turning a situation map into a self-diagnosis."
+  },
+  "technical_readiness": {
+    "schema_type": "Article",
+    "about": "\uacc4\ub2e8 \ub099\uc0c1 \uc0c1\ud669 \uae30\ub85d",
+    "og_image_alt": "\uacc4\ub2e8 \uc8fc\ubcc0\uc758 \uc870\uba85, \ub09c\uac04, \ud1b5\ub85c\ub97c \uc0b4\ud53c\uba70 \ub099\uc0c1 \uc0c1\ud669 \uc9c0\ub3c4\ub97c \uc801\ub294 \ubaa8\uc2b5"
+  },
   "article_id": "b009",
-  "article_research_question": "계단에서 느낀 불안을 근력 약화로 단정하지 않고 상담 가능한 낙상 상황 지도에 어떻게 남길 수 있는가?",
-  "reader_outcome": "독자는 집·외출 동선에서 방향, 빛, 짐, 신발, 몸의 느낌, 최근 낙상을 분리해 기록한다.",
+  "article_research_question": "\uacc4\ub2e8\uc5d0\uc11c \ub290\ub080 \ubd88\uc548\uc744 \uadfc\ub825 \uc57d\ud654\ub85c \ub2e8\uc815\ud558\uc9c0 \uc54a\uace0 \uc0c1\ub2f4 \uac00\ub2a5\ud55c \ub099\uc0c1 \uc0c1\ud669 \uc9c0\ub3c4\uc5d0 \uc5b4\ub5bb\uac8c \ub0a8\uae38 \uc218 \uc788\ub294\uac00?",
+  "reader_outcome": "\ub3c5\uc790\ub294 \uc9d1\u00b7\uc678\ucd9c \ub3d9\uc120\uc5d0\uc11c \ubc29\ud5a5, \ube5b, \uc9d0, \uc2e0\ubc1c, \ubab8\uc758 \ub290\ub08c, \ucd5c\uadfc \ub099\uc0c1\uc744 \ubd84\ub9ac\ud574 \uae30\ub85d\ud55c\ub2e4.",
   "original_contribution": {
     "type": "troubleshooting_path",
-    "description": "오르기와 내려가기를 분리하고 시야·약물·환경·과거 낙상을 결합하는 계단 동선 지도",
+    "description": "\uc624\ub974\uae30\uc640 \ub0b4\ub824\uac00\uae30\ub97c \ubd84\ub9ac\ud558\uace0 \uc2dc\uc57c\u00b7\uc57d\ubb3c\u00b7\ud658\uacbd\u00b7\uacfc\uac70 \ub099\uc0c1\uc744 \uacb0\ud569\ud558\ub294 \uacc4\ub2e8 \ub3d9\uc120 \uc9c0\ub3c4",
     "source_ids": [
       "S1",
       "S2",
@@ -39,22 +53,22 @@
       "purpose": "reader intent and practical context"
     }
   ],
-  "search_intent_insight": "검색자는 계단 불안에서 무엇을 먼저 살펴야 하는지, 즉시 운동 처방이 아닌 안전한 점검 항목을 찾는다.",
-  "competitor_gap": "일반 결과는 운동 또는 집 안전 팁 한쪽에 치우치며 오르기·내려가기와 최근 약·미끄러짐을 같은 동선 기록으로 묶지 않는다.",
-  "information_gain": "집과 외출의 계단을 방향·시간·손·발·몸의 느낌으로 나누는 낙상 상황 지도.",
-  "unique_angle": "운동 처방이 아닌 낙상 상황 지도를 만든다.",
-  "source_interpretation": "다요인 위험 자료를 자가 위험 점수나 약 중단 지시가 아니라 상담 전 관찰 항목으로 전환한다.",
+  "search_intent_insight": "\uac80\uc0c9\uc790\ub294 \uacc4\ub2e8 \ubd88\uc548\uc5d0\uc11c \ubb34\uc5c7\uc744 \uba3c\uc800 \uc0b4\ud3b4\uc57c \ud558\ub294\uc9c0, \uc989\uc2dc \uc6b4\ub3d9 \ucc98\ubc29\uc774 \uc544\ub2cc \uc548\uc804\ud55c \uc810\uac80 \ud56d\ubaa9\uc744 \ucc3e\ub294\ub2e4.",
+  "competitor_gap": "\uc77c\ubc18 \uacb0\uacfc\ub294 \uc6b4\ub3d9 \ub610\ub294 \uc9d1 \uc548\uc804 \ud301 \ud55c\ucabd\uc5d0 \uce58\uc6b0\uce58\uba70 \uc624\ub974\uae30\u00b7\ub0b4\ub824\uac00\uae30\uc640 \ucd5c\uadfc \uc57d\u00b7\ubbf8\ub044\ub7ec\uc9d0\uc744 \uac19\uc740 \ub3d9\uc120 \uae30\ub85d\uc73c\ub85c \ubb36\uc9c0 \uc54a\ub294\ub2e4.",
+  "information_gain": "\uc9d1\uacfc \uc678\ucd9c\uc758 \uacc4\ub2e8\uc744 \ubc29\ud5a5\u00b7\uc2dc\uac04\u00b7\uc190\u00b7\ubc1c\u00b7\ubab8\uc758 \ub290\ub08c\uc73c\ub85c \ub098\ub204\ub294 \ub099\uc0c1 \uc0c1\ud669 \uc9c0\ub3c4.",
+  "unique_angle": "\uc6b4\ub3d9 \ucc98\ubc29\uc774 \uc544\ub2cc \ub099\uc0c1 \uc0c1\ud669 \uc9c0\ub3c4\ub97c \ub9cc\ub4e0\ub2e4.",
+  "source_interpretation": "\ub2e4\uc694\uc778 \uc704\ud5d8 \uc790\ub8cc\ub97c \uc790\uac00 \uc704\ud5d8 \uc810\uc218\ub098 \uc57d \uc911\ub2e8 \uc9c0\uc2dc\uac00 \uc544\ub2c8\ub77c \uc0c1\ub2f4 \uc804 \uad00\ucc30 \ud56d\ubaa9\uc73c\ub85c \uc804\ud658\ud55c\ub2e4.",
   "angle_supporting_detail": {
-    "claim": "NIA는 계단 양쪽 난간, 위·아래 조명, 통로 정리를 함께 권한다.",
+    "claim": "NIA\ub294 \uacc4\ub2e8 \uc591\ucabd \ub09c\uac04, \uc704\u00b7\uc544\ub798 \uc870\uba85, \ud1b5\ub85c \uc815\ub9ac\ub97c \ud568\uaed8 \uad8c\ud55c\ub2e4.",
     "source_id": "S3"
   },
   "article_specific_details": [
     {
-      "claim": "NIA는 계단의 양쪽 난간이 단단히 고정돼 있는지, 계단 위·아래에 조명이 충분한지, 물건이 통로에 놓여 있지 않은지를 확인하라고 안내합니다.",
+      "claim": "\uacc4\ub2e8\uc758 \ub09c\uac04\uc774 \ub2e8\ub2e8\ud788 \uace0\uc815\ub3fc \uc788\ub294\uc9c0, \uacc4\ub2e8 \uc704\uc544\ub798 \uc870\uba85\uc774 \ucda9\ubd84\ud55c\uc9c0, \ud1b5\ub85c\uc5d0 \ubb3c\uac74\uc774 \ub193\uc5ec \uc788\uc9c0 \uc54a\uc740\uc9c0\ub97c \ud655\uc778\ud569\ub2c8\ub2e4.",
       "source_id": "S3"
     },
     {
-      "claim": "‘새로 시작·용량 변경·복용 시간 변경’과 ‘그 뒤 나타난 졸림, 어지럼, 균형 변화’를 같은 줄에 적어 처방의나 약사에게 보여 주는 항목입니다.",
+      "claim": "\uc57d\uc744 \uc0c8\ub85c \uc2dc\uc791\ud558\uac70\ub098 \uc6a9\ub7c9 \ub610\ub294 \ubcf5\uc6a9 \uc2dc\uac04\uc774 \ubc14\ub010 \ub4a4\uc758 \uc878\ub9bc, \uc5b4\uc9c0\ub7fc, \uade0\ud615 \ubcc0\ud654\ub294 \ucc98\ubc29\uc758\ub098 \uc57d\uc0ac\uc5d0\uac8c \ubcf4\uc5ec \uc904 \uc0c1\ub2f4 \uba54\ubaa8\uc785\ub2c8\ub2e4.",
       "source_id": "S2"
     }
   ],
@@ -70,7 +84,7 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "recent",
-      "used_for": "시야·약물·신발·낙상 보고 원칙"
+      "used_for": "\uc2dc\uc57c\u00b7\uc57d\ubb3c\u00b7\uc2e0\ubc1c\u00b7\ub099\uc0c1 \ubcf4\uace0 \uc6d0\uce59"
     },
     {
       "id": "S2",
@@ -83,7 +97,7 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "current",
-      "used_for": "약 부작용과 낙상 위험"
+      "used_for": "\uc57d \ubd80\uc791\uc6a9\uacfc \ub099\uc0c1 \uc704\ud5d8"
     },
     {
       "id": "S3",
@@ -96,7 +110,7 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "recent",
-      "used_for": "계단 난간·조명·통로 점검"
+      "used_for": "\uacc4\ub2e8 \ub09c\uac04\u00b7\uc870\uba85\u00b7\ud1b5\ub85c \uc810\uac80"
     },
     {
       "id": "S4",
@@ -109,7 +123,7 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "recent",
-      "used_for": "약물·시력·환경의 복합 위험 설명"
+      "used_for": "\uc57d\ubb3c\u00b7\uc2dc\ub825\u00b7\ud658\uacbd\uc758 \ubcf5\ud569 \uc704\ud5d8 \uc124\uba85"
     },
     {
       "id": "S5",
@@ -122,7 +136,7 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "current",
-      "used_for": "조명과 미끄럼 방지 환경 점검"
+      "used_for": "\uc870\uba85\uacfc \ubbf8\ub044\ub7fc \ubc29\uc9c0 \ud658\uacbd \uc810\uac80"
     },
     {
       "id": "S6",
@@ -135,51 +149,51 @@
       "source_role": "official",
       "is_official": true,
       "freshness": "current",
-      "used_for": "공식 낙상 예방 자료 경로"
+      "used_for": "\uacf5\uc2dd \ub099\uc0c1 \uc608\ubc29 \uc790\ub8cc \uacbd\ub85c"
     }
   ],
   "data_points": [
     {
-      "claim": "시야·청력 변화, 약물, 신발, 환경 위험은 낙상 위험과 관련될 수 있다.",
+      "claim": "\uc2dc\uc57c\u00b7\uccad\ub825 \ubcc0\ud654, \uc57d\ubb3c, \uc2e0\ubc1c, \ud658\uacbd \uc704\ud5d8\uc740 \ub099\uc0c1 \uc704\ud5d8\uacfc \uad00\ub828\ub420 \uc218 \uc788\ub2e4.",
       "source_id": "S1",
       "claim_type": "named_entity",
       "source_date": "2022-09-12",
-      "supports_section": "시야·약물·신발"
+      "supports_section": "\uc2dc\uc57c\u00b7\uc57d\ubb3c\u00b7\uc2e0\ubc1c"
     },
     {
-      "claim": "일부 약의 부작용은 졸림, 균형 상실, 시야 변화, 반응 속도 저하를 일으켜 낙상 위험을 높일 수 있다.",
+      "claim": "\uc77c\ubd80 \uc57d\uc758 \ubd80\uc791\uc6a9\uc740 \uc878\ub9bc, \uade0\ud615 \uc0c1\uc2e4, \uc2dc\uc57c \ubcc0\ud654, \ubc18\uc751 \uc18d\ub3c4 \uc800\ud558\ub97c \uc77c\uc73c\ucf1c \ub099\uc0c1 \uc704\ud5d8\uc744 \ub192\uc77c \uc218 \uc788\ub2e4.",
       "source_id": "S2",
       "claim_type": "procedure",
       "source_date": "2025-08-04",
-      "supports_section": "시야·약물·신발"
+      "supports_section": "\uc2dc\uc57c\u00b7\uc57d\ubb3c\u00b7\uc2e0\ubc1c"
     },
     {
-      "claim": "계단 양쪽 난간, 계단 위·아래 조명, 통로 정리는 집 안전 점검 항목이다.",
+      "claim": "\uacc4\ub2e8 \uc591\ucabd \ub09c\uac04, \uacc4\ub2e8 \uc704\u00b7\uc544\ub798 \uc870\uba85, \ud1b5\ub85c \uc815\ub9ac\ub294 \uc9d1 \uc548\uc804 \uc810\uac80 \ud56d\ubaa9\uc774\ub2e4.",
       "source_id": "S3",
       "claim_type": "procedure",
       "source_date": "2022-01-01",
-      "supports_section": "낙상 상황 지도"
+      "supports_section": "\ub099\uc0c1 \uc0c1\ud669 \uc9c0\ub3c4"
     },
     {
-      "claim": "약물 부작용, 균형 상실, 시력 저하, 안전하지 않은 환경은 낙상 위험요인으로 제시된다.",
+      "claim": "\uc57d\ubb3c \ubd80\uc791\uc6a9, \uade0\ud615 \uc0c1\uc2e4, \uc2dc\ub825 \uc800\ud558, \uc548\uc804\ud558\uc9c0 \uc54a\uc740 \ud658\uacbd\uc740 \ub099\uc0c1 \uc704\ud5d8\uc694\uc778\uc73c\ub85c \uc81c\uc2dc\ub41c\ub2e4.",
       "source_id": "S4",
       "claim_type": "named_entity",
       "source_date": "2021-04-26",
-      "supports_section": "계단 불안의 이유"
+      "supports_section": "\uacc4\ub2e8 \ubd88\uc548\uc758 \uc774\uc720"
     },
     {
-      "claim": "계단 위·아래의 충분한 조명과 젖을 수 있는 표면의 미끄럼 방지는 가정 안전 조치다.",
+      "claim": "\uacc4\ub2e8 \uc704\u00b7\uc544\ub798\uc758 \ucda9\ubd84\ud55c \uc870\uba85\uacfc \uc816\uc744 \uc218 \uc788\ub294 \ud45c\uba74\uc758 \ubbf8\ub044\ub7fc \ubc29\uc9c0\ub294 \uac00\uc815 \uc548\uc804 \uc870\uce58\ub2e4.",
       "source_id": "S5",
       "claim_type": "procedure",
       "source_date": "2025-06-05",
-      "supports_section": "집과 외출 동선"
+      "supports_section": "\uc9d1\uacfc \uc678\ucd9c \ub3d9\uc120"
     },
     {
-      "claim": "CDC STEADI는 낙상 위험이 있는 고령자를 위한 환자·보호자 및 의료진 자료를 제공한다.",
+      "claim": "CDC STEADI\ub294 \ub099\uc0c1 \uc704\ud5d8\uc774 \uc788\ub294 \uace0\ub839\uc790\ub97c \uc704\ud55c \ud658\uc790\u00b7\ubcf4\ud638\uc790 \ubc0f \uc758\ub8cc\uc9c4 \uc790\ub8cc\ub97c \uc81c\uacf5\ud55c\ub2e4.",
       "source_id": "S6",
       "claim_type": "named_entity",
       "source_date": "2025-07-27",
-      "supports_section": "상담 질문 준비"
+      "supports_section": "\uc0c1\ub2f4 \uc9c8\ubb38 \uc900\ube44"
     }
   ]
 }

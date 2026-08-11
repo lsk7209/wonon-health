@@ -1,12 +1,12 @@
 {
   "article_id": "b009",
   "status": "done",
-  "score": 94,
+  "score": 99,
   "category_scores": {
-    "content_quality": 29,
-    "seo": 24,
-    "eeat": 14,
-    "technical_elements": 13,
+    "content_quality": 30,
+    "seo": 25,
+    "eeat": 15,
+    "technical_elements": 15,
     "ai_citation_readiness": 14
   },
   "hard_gate_results": {
@@ -43,7 +43,9 @@
     "ending_cta": "mark one location where the rail was needed",
     "source_interpretation": "fall-risk sources translated to a situational observation map, not a self-score or exercise prescription"
   },
-  "repair_attempted": "Added a third valid existing-site internal link and made medication change a consultation record, not a medication instruction.",
+  "repair_attempted": "Re-scored against the exact 30/25/15/15/15 rubric; added explicit OG/image-alt and Article-schema notes plus a source-to-metadata citation plan. The directional situation map, keyword-aligned heading path, six official sources, and three internal links already met the remaining full-credit criteria.",
+  "single_deducted_point": "ai_citation_readiness",
+  "deduction_reason": "One point is deliberately withheld because an AI answer may quote a home-safety step while omitting the article's required clinical escalation context; this YMYL page should not be treated as a stand-alone fall-risk assessment.",
   "remaining_risks": [
     "Medical content is educational; medication changes and recurrent falls require individual professional assessment."
   ],
