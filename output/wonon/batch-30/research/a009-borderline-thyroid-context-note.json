@@ -1,0 +1,22 @@
+{
+  "article_id":"a009","slug":"borderline-thyroid-context-note","researched_at":"2026-08-11T19:45:00+09:00",
+  "research_runs":["NIDDK 갑상선 기능저하증의 검사·증상 평가 맥락 확인","American Thyroid Association 갑상선 기능검사 항목 확인","FDA 비오틴과 검사실 검사 간섭 안전 정보 확인"],
+  "article_research_question":"경계 갑상선 검사 결과와 피로를 섣불리 연결하지 않고 검사 날짜와 복용품 변경을 어떻게 분리해 재평가에 전달하는가?",
+  "reader_outcome":"검사 항목, 증상 시작일, 처방약·건강기능식품·비오틴의 시작·중단일을 별도 열에 적어 해석 질문을 준비한다.",
+  "original_contribution":{"type":"date-and-supplement separation note","description":"검사 날짜 열과 복용품 열을 나란히 놓는 재평가 메모","supporting_source_ids":["s1","s2","s3"]},
+  "source_interpretation_note":"갑상선 질환의 진단, 목표 수치, 약물이나 보조제 중단 지시는 제공하지 않고 검사 전 알릴 정보와 상담 질문만 다룬다.",
+  "sources":[
+    {"id":"s1","organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism","published_or_reviewed":"2024-11","accessed":"2026-08-11","source_role":"official","used_for":"증상만으로 상태를 확정하지 않고 검사와 의료진 평가를 함께 보는 원칙"},
+    {"id":"s2","organization":"American Thyroid Association","url":"https://www.thyroid.org/thyroid-function-tests/","published_or_reviewed":"2024-10","accessed":"2026-08-11","source_role":"primary","used_for":"TSH·T4 등 검사 항목을 분리해 적는 맥락"},
+    {"id":"s3","organization":"FDA","url":"https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference","published_or_reviewed":"2019-11-05","accessed":"2026-08-11","source_role":"official","used_for":"비오틴이 일부 검사 결과에 간섭할 수 있어 복용 사실을 알리는 안전 정보"},
+    {"id":"s4","organization":"MedlinePlus","url":"https://medlineplus.gov/lab-tests/thyroid-tests/","published_or_reviewed":"2024-07-30","accessed":"2026-08-11","source_role":"official","used_for":"검사 항목과 해석의 일반 배경"},
+    {"id":"s5","organization":"Mayo Clinic","url":"https://www.mayoclinic.org/diseases-conditions/hypothyroidism/symptoms-causes/syc-20350284","published_or_reviewed":"2024-10","accessed":"2026-08-11","source_role":"expert_reference","used_for":"피로·체중 변화 등 증상을 단일 원인으로 단정하지 않는 보조 맥락"}
+  ],
+  "data_points":[
+    {"claim":"갑상선 기능저하증의 증상은 다른 문제와 겹칠 수 있어 의료진은 증상과 혈액검사를 함께 평가한다.","source_id":"s1","supports_section":"검사표와 몸 느낌을 즉시 연결하지 않기"},
+    {"claim":"비오틴은 일부 검사실 검사 결과에 간섭할 수 있어 복용 사실을 의료진과 검사실에 알릴 필요가 있다.","source_id":"s3","supports_section":"복용품 열: 처방약·보조제·변경 시점"}
+  ],
+  "article_specific_details":[
+    {"claim":"검사 날짜·항목·증상 시작일과 처방약·보조제의 시작·중단일을 별도 열에 적는다.","source_id":"s2"},
+    {"claim":"제품 이름을 모르면 사진이나 라벨의 성분·복용 시각을 기록해 검사 전 알린다.","source_id":"s3"}],"fact_traceability_pass":true
+}

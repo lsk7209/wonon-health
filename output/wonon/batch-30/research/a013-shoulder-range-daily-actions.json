@@ -1,0 +1,88 @@
+{
+  "article_id": "a013",
+  "slug": "shoulder-range-daily-actions",
+  "researched_at": "2026-08-11T18:30:00+09:00",
+  "research_runs": [
+    "NIAMS 어깨 과사용과 반복 동작 확인",
+    "NHS 어깨 통증의 진료 신호 확인",
+    "AAOS 강직과 일상 기능 제한 설명 확인"
+  ],
+  "article_research_question": "통증 점수 대신 세 일상 동작의 가능한 범위와 보상 움직임을 어떻게 기록해 진료 대화에 쓸 수 있는가?",
+  "reader_outcome": "진단명을 추정하지 않고 어깨가 막히는 장면을 한 장의 범위 카드로 설명한다.",
+  "original_contribution": {
+    "type": "function-demo card",
+    "description": "머리 감기, 등 뒤 닿기, 선반 꺼내기를 같은 기준으로 관찰하는 범위 카드",
+    "supporting_source_ids": ["s1", "s2", "s3"]
+  },
+  "source_interpretation_note": "질환명을 단정하는 자료가 아니라 반복 동작, 움직임 제한, 빠른 평가 신호를 구분하는 데만 사용한다.",
+  "sources": [
+    {
+      "id": "s1",
+      "organization": "NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/sports-injuries",
+      "published_or_reviewed": "2024-09",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "반복 머리 위 동작과 어깨 연부조직 부담의 맥락"
+    },
+    {
+      "id": "s2",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/conditions/shoulder-pain/",
+      "published_or_reviewed": "2023-05-22",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "갑작스러운 통증, 팔을 못 움직임, 모양 변화 등 빠른 평가 신호"
+    },
+    {
+      "id": "s3",
+      "organization": "AAOS",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
+      "published_or_reviewed": "2024-07",
+      "accessed": "2026-08-11",
+      "source_role": "expert_reference",
+      "used_for": "통증과 뻣뻣함, 일상 기능 제한의 구분"
+    },
+    {
+      "id": "s4",
+      "organization": "MedlinePlus",
+      "url": "https://medlineplus.gov/shoulderinjuries.html",
+      "published_or_reviewed": "2024-06",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "어깨 손상 일반 정보의 안전한 배경 확인"
+    },
+    {
+      "id": "s5",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/conditions/frozen-shoulder/",
+      "published_or_reviewed": "2023-05-22",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "통증과 뻣뻣함이 일상 동작을 제한할 수 있다는 보조 확인"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "반복적인 머리 위 팔 사용은 어깨 힘줄과 주변 조직에 부담을 줄 수 있다.",
+      "source_id": "s1",
+      "supports_section": "머리 감기: 위로 가는 범위를 한 문장으로 적기"
+    },
+    {
+      "claim": "갑작스러운 심한 통증, 팔을 움직일 수 없음, 변형이나 심한 부종은 빠른 평가가 필요한 신호다.",
+      "source_id": "s2",
+      "supports_section": "기록보다 먼저 도움을 받아야 할 신호"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "머리 감기, 등 뒤 닿기, 선반 꺼내기를 같은 기준으로 적는다.",
+      "source_id": "s1"
+    },
+    {
+      "claim": "팔이 올라가는 각도 대신 목 기울임과 몸통 회전 같은 보상 움직임을 함께 적는다.",
+      "source_id": "s3"
+    }
+  ],
+  "fact_traceability_pass": true
+}

@@ -1,0 +1,210 @@
+{
+  "article_id": "a023",
+  "slug": "screening-new-bleeding-contact",
+  "researched_at": "2026-08-11T20:35:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "planned_h2": [
+    "새 출혈을 정기검진 예약과 한 묶음으로 보지 않는 이유",
+    "예약기관에 전화하기 전 출혈 연락 메모 다섯 줄",
+    "정기검진 예약과 증상 진료의 목적이 달라질 수 있는 지점",
+    "전화에서 원인을 묻기보다 전달할 사실을 말하는 문장",
+    "검진일을 기다리지 말고 즉시 평가를 우선할 출혈 신호",
+    "연락 뒤에 남겨 둘 예약 안내와 다음 질문",
+    "새 출혈과 검진 예약 연락 메모 FAQ"
+  ],
+  "research_runs": [
+    {
+      "run": 1,
+      "query": "site:acog.org abnormal uterine bleeding what information history medications emergency heavy bleeding",
+      "date": "2026-08-11",
+      "purpose": "출혈 변화에서 의료진에게 알릴 병력·복용약과 즉시 평가 경계 확인"
+    },
+    {
+      "run": 2,
+      "query": "site:nhs.uk vaginal bleeding between periods after sex pelvic pain pregnancy urgent advice",
+      "date": "2026-08-11",
+      "purpose": "새 출혈과 골반 통증·최근 생리 지연의 긴급 연락 경계 확인"
+    },
+    {
+      "run": 3,
+      "query": "site:cancer.gov cervical cancer screening means checking before symptoms false negative symptoms medical care",
+      "date": "2026-08-11",
+      "purpose": "선별검사와 증상 평가의 목적 차이 및 증상이 있을 때 연락을 미루지 않는 근거 확인"
+    },
+    {
+      "run": 4,
+      "query": "site:medlineplus.gov vaginal uterine bleeding record pads tampons symptoms provider",
+      "date": "2026-08-11",
+      "purpose": "출혈 시작·끝·양·동반 증상을 기록하는 구체 항목 확인"
+    },
+    {
+      "run": 5,
+      "query": "site:cdc.gov cervical cancer symptoms unusual vaginal bleeding see doctor right away",
+      "date": "2026-08-11",
+      "purpose": "비정상 질출혈을 원인 추정 없이 진료 연락 신호로 다루는 공공보건 안내 확인"
+    }
+  ],
+  "article_research_question": "정기검진 예약을 앞둔 사람이 새 출혈의 원인을 추측하거나 검사 방식을 고르지 않고도, 어떤 사실을 먼저 기록해 예약기관에 알리고 언제 예약을 기다리지 말아야 하는가?",
+  "reader_outcome": "독자는 예약기관·검진일, 출혈의 시작·양상·동반 통증, 임신 가능성, 복용약, 받은 안내를 한 장에 적고, 정기검진과 증상 진료의 목적을 분리해 연락할 수 있다.",
+  "original_contribution": {
+    "type": "screening-to-symptom-contact-memo",
+    "description": "검진을 취소하거나 원인을 맞히는 글이 아니라, 새 출혈을 발견한 순간의 사실과 예약기관의 안내를 분리해 적는 다섯 줄 연락 메모",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5", "S6"]
+  },
+  "search_intent_insight": "독자는 출혈의 원인 목록보다 이미 잡힌 검진 날짜까지 기다려도 되는지와 전화에서 무엇을 말해야 하는지를 먼저 알고 싶어 한다.",
+  "competitor_gap": "일반 출혈 안내는 원인과 검사 목록에 집중하고, 검진 예약이 있는 독자가 새 증상과 예약을 어떻게 연결해 알릴지에 필요한 연락 메모를 제공하지 않는 경우가 많다.",
+  "information_gain": "출혈을 한 단어로 말하지 않고 시작 시점·양상·동반 통증·임신 가능성·복용약·예약 안내의 여섯 칸으로 분리해, 선별검사 일정과 증상 평가를 혼동하지 않게 한다.",
+  "unique_angle": "예약기관·검진일, 출혈 시작 시점·양상·통증·임신 가능성 여부·복용약, 전화한 시각·받은 안내를 기록하는 예약 연락 메모.",
+  "source_interpretation": "S1과 S6은 출혈의 원인을 판정하지 않고 연락의 필요와 의료진이 확인할 맥락을 정하는 데만 쓴다. S2와 S5는 골반 통증·최근 생리 지연·임신 가능성 같은 즉시 평가 경계를 연결하는 데만 쓴다. S3와 S4는 선별검사가 증상이 없는 사람에게 질병을 찾는 과정이라는 점과 증상 기록 항목을 분리해, 검진 예약을 증상 평가의 대체로 오해하지 않게 한다.",
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "American College of Obstetricians and Gynecologists",
+      "title": "Abnormal Uterine Bleeding",
+      "url": "https://www.acog.org/womens-health/faqs/abnormal-uterine-bleeding",
+      "published_or_updated": "page date not stated",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "개인·가족 병력, 임신력, 복용약, 피임 방법처럼 예약기관에 전달할 배경 정보를 메모하는 근거와 심한 출혈의 응급 경계"
+    },
+    {
+      "id": "S2",
+      "organization": "NHS",
+      "title": "Vaginal bleeding between periods or after sex",
+      "url": "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+      "published_or_updated": "2024-08-13",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "생리 사이 또는 성관계 후 출혈은 확인이 필요하며, 최근 생리 지연·비정상 출혈·골반 통증이 함께 있을 때 신속한 평가가 필요하다는 경계"
+    },
+    {
+      "id": "S3",
+      "organization": "National Cancer Institute",
+      "title": "Cervical Cancer Screening",
+      "url": "https://www.cancer.gov/types/cervical/screening",
+      "published_or_updated": "2025-02-13",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "선별검사는 증상이 생기기 전에 질병을 확인하는 과정이며, 증상이 있을 때 의료기관 연락을 늦추지 않아야 한다는 목적 구분"
+    },
+    {
+      "id": "S4",
+      "organization": "MedlinePlus, U.S. National Library of Medicine",
+      "title": "Vaginal or uterine bleeding",
+      "url": "https://medlineplus.gov/ency/article/007496.htm",
+      "published_or_updated": "2024-10-15",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "출혈 시작·종료, 생리 사이·성관계 후 출혈, 패드·탐폰 사용량, 동반 증상을 기록해 진료에 가져갈 항목"
+    },
+    {
+      "id": "S5",
+      "organization": "Centers for Disease Control and Prevention",
+      "title": "Symptoms of Cervical Cancer",
+      "url": "https://www.cdc.gov/cervical-cancer/symptoms/index.html",
+      "published_or_updated": "2025-02-26",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "평소와 다른 질출혈은 원인 추정 없이 진료 연락이 필요한 신호로 다루는 보수적 경계"
+    },
+    {
+      "id": "S6",
+      "organization": "NHS",
+      "title": "Postmenopausal bleeding",
+      "url": "https://www.nhs.uk/symptoms/post-menopausal-bleeding/",
+      "published_or_updated": "page date not stated",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "used_for": "폐경 후의 소량 점상출혈이나 분홍·갈색 분비물도 확인이 필요하다는 별도 연락 경계"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "자궁경부 선별검사는 증상이 생기기 전에 질병을 확인하는 과정이므로, 새 증상이 생겼다면 이미 잡힌 선별검사만으로 증상 평가가 대체된다고 볼 수 없다.",
+      "source_id": "S3",
+      "claim_type": "procedure",
+      "source_date": "2025-02-13",
+      "supports_section": "새 출혈을 정기검진 예약과 한 묶음으로 보지 않는 이유"
+    },
+    {
+      "claim": "출혈 기록에는 시작·종료 시점, 생리 사이 또는 성관계 후 출혈 여부, 보호용품 사용량, 다른 증상을 포함할 수 있다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "source_date": "2024-10-15",
+      "supports_section": "예약기관에 전화하기 전 출혈 연락 메모 다섯 줄"
+    },
+    {
+      "claim": "비정상 자궁출혈의 평가에서는 병력, 임신력, 복용약, 피임 방법이 확인 대상이 될 수 있다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "page date not stated",
+      "supports_section": "예약기관에 전화하기 전 출혈 연락 메모 다섯 줄"
+    },
+    {
+      "claim": "생리 사이 또는 성관계 후 출혈은 원인이 다양하므로 의료진이 증상과 병력을 묻고 필요에 따라 검사할 수 있다.",
+      "source_id": "S2",
+      "claim_type": "procedure",
+      "source_date": "2024-08-13",
+      "supports_section": "정기검진 예약과 증상 진료의 목적이 달라질 수 있는 지점"
+    },
+    {
+      "claim": "평소와 다른 질출혈은 원인이 암이 아닌 경우도 있으나, 원인을 구별하려면 의사 진료가 필요하다.",
+      "source_id": "S5",
+      "claim_type": "procedure",
+      "source_date": "2025-02-26",
+      "supports_section": "전화에서 원인을 묻기보다 전달할 사실을 말하는 문장"
+    },
+    {
+      "claim": "최근 생리 지연 뒤 비정상 출혈과 복부 또는 골반 통증이 함께 있으면 가능한 한 빨리 평가가 필요하다.",
+      "source_id": "S2",
+      "claim_type": "safety",
+      "source_date": "2024-08-13",
+      "supports_section": "검진일을 기다리지 말고 즉시 평가를 우선할 출혈 신호"
+    },
+    {
+      "claim": "폐경 후 출혈은 한 번이거나 소량의 점상출혈·분홍 또는 갈색 분비물이어도 확인이 필요하다.",
+      "source_id": "S6",
+      "claim_type": "safety",
+      "source_date": "page date not stated",
+      "supports_section": "검진일을 기다리지 말고 즉시 평가를 우선할 출혈 신호"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "연락 메모는 ‘검진 예약일’과 ‘새 출혈 시작 시점’을 한 줄에 쓰지 않고 별도 줄에 두어, 예약 목적과 증상 발생 시간을 섞지 않는다.",
+      "source_id": "S3"
+    },
+    {
+      "claim": "출혈 양은 ‘많다’ 대신 보호용품을 얼마나 자주 갈았는지와 젖은 정도를 기록해, 전화에서 사실로 전달할 수 있게 한다.",
+      "source_id": "S4"
+    },
+    {
+      "claim": "폐경 후에는 소량의 점상출혈이나 분홍·갈색 분비물도 ‘다음 검진 때 말할 일’로 미루지 않고 연락할 사실로 별도 표시한다.",
+      "source_id": "S6"
+    }
+  ],
+  "visual_elements": ["여섯-줄-연락-메모", "검진-증상-분리표", "즉시평가-경고상자"],
+  "semantic_colors": ["blue-record", "amber-warning"],
+  "ymyl_boundaries": [
+    "출혈의 원인, 암 가능성, 임신 상태를 진단하지 않는다.",
+    "검사 종류, 약물 시작·중단, 치료를 선택하거나 권하지 않는다.",
+    "심한 출혈, 어지럼·실신감, 심한 통증, 임신 가능성과 통증이 함께 있는 경우에는 메모 완성보다 즉시 의료 평가를 우선한다."
+  ],
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "fact_traceability_pass": true
+}

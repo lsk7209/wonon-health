@@ -1,0 +1,29 @@
+{
+ "article_id":"a007","slug":"unintended-weight-loss-bundle","topic":"원치 않는 체중 감소의 변화 묶음 기록",
+ "research_runs":[
+  {"run":1,"query":"site:nhs.uk unintentional weight loss when to see GP","executed_on":"2026-08-11","finding":"원치 않는 체중 감소가 계속되면 원인을 스스로 추정하지 말고 상담하도록 NHS가 안내한다."},
+  {"run":2,"query":"Mayo Clinic unexplained weight loss definition doctor appointment","executed_on":"2026-08-11","finding":"의도하지 않은 체중 감소는 평가가 필요한 변화일 수 있으며 개인 상황을 의료진과 논의해야 한다."},
+  {"run":3,"query":"site:cancer.gov appetite loss nutrition symptoms record healthcare team","executed_on":"2026-08-11","finding":"식욕과 섭취 변화, 기능 변화는 의료진에게 전달할 수 있는 영양 관련 정보다."},
+  {"run":4,"query":"site:medlineplus.gov unintentional weight loss symptoms medical attention","executed_on":"2026-08-11","finding":"체중 감소는 다양한 원인과 연관될 수 있어 증상만으로 원인을 결정할 수 없다."}
+ ],
+ "source_interpretation":"이 글은 체중 감소의 원인 질환, 목표 체중, 열량 또는 식사 처방을 제공하지 않는다. 감량 의도와 시간선, 동반 변화를 한 장에 기록해 상담 대화로 넘기는 방법에 한정한다.",
+ "sources":[
+  {"source_id":"S1","title":"Unintentional weight loss","publisher":"NHS","url":"https://www.nhs.uk/conditions/unintentional-weight-loss/","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"},
+  {"source_id":"S2","title":"Unexplained weight loss","publisher":"Mayo Clinic","url":"https://www.mayoclinic.org/symptoms/unexplained-weight-loss/basics/definition/sym-20050700","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"expert_reference"},
+  {"source_id":"S3","title":"Nutrition in Cancer Care (PDQ)","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/treatment/side-effects/appetite-loss/nutrition-pdq","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"},
+  {"source_id":"S4","title":"Weight loss - unintentional","publisher":"MedlinePlus Medical Encyclopedia","url":"https://medlineplus.gov/ency/article/003107.htm","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"},
+  {"source_id":"S5","title":"Loss of appetite","publisher":"MedlinePlus Medical Encyclopedia","url":"https://medlineplus.gov/ency/article/003118.htm","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"}
+ ],
+ "data_points":[
+  {"claim":"원치 않는 체중 감소가 계속되면 의료진과 상담할 필요가 있을 수 있다.","source_id":"S1","supports_section":"빠르게 상담해야 할 변화"},
+  {"claim":"설명되지 않는 체중 감소는 개인 상황을 고려한 평가가 필요한 변화일 수 있다.","source_id":"S2","supports_section":"체중 감소에 ‘의도’ 칸을 먼저 넣는 이유"},
+  {"claim":"식욕과 섭취 변화는 영양 상태를 논의할 때 전달할 정보다.","source_id":"S3","supports_section":"식욕·배변·열·통증을 한 묶음으로 보기"},
+  {"claim":"체중 감소는 여러 원인과 관련될 수 있어 증상만으로 원인을 결정할 수 없다.","source_id":"S4","supports_section":"언제부터 달라졌는지 시간선 그리기"},
+  {"claim":"식욕 감소가 지속되거나 다른 증상과 동반될 때는 상담 정보로 남길 수 있다.","source_id":"S5","supports_section":"진료실에 가져갈 변화 묶음 메모"}
+ ],
+ "article_specific_details":[
+  {"detail":"감량 의도·시작점·옷의 변화·식욕·배변·열·통증·피로·복용약·일상 기능을 한 페이지에서 나란히 적는 변화 묶음 메모","source_id":"S1"},
+  {"detail":"체중계 수치가 없을 때도 허리띠 구멍, 자주 입던 옷의 맞음, 장보기·계단·돌봄 같은 기능 변화를 날짜와 함께 적는 시간선","source_id":"S3"}
+ ],
+ "fact_traceability_pass":true,"unresolved_claims":[],"conflicts":[]
+}

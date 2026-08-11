@@ -1,0 +1,49 @@
+{
+  "article_id": "a024",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {"query": "CDC breast cancer symptoms breast pain lump skin nipple discharge", "date": "2026-08-11", "purpose": "카드에 넣을 새 유방·겨드랑이·피부·유두 변화 항목 확인"},
+    {"query": "NCI breast changes recent normal mammogram follow up symptoms", "date": "2026-08-11", "purpose": "정기 선별검사와 새 증상 평가를 분리하는 근거 확인"},
+    {"query": "NHS breast pain when to seek advice persistent pain red hot swollen breast", "date": "2026-08-11", "purpose": "통증의 맥락과 연락 경계 확인"},
+    {"query": "NHS breast lump armpit nipple discharge skin dimpling appointment", "date": "2026-08-11", "purpose": "진료 전 전달할 관찰 사실과 자가진단 금지 경계 확인"}
+  ],
+  "article_research_question": "검진 예약이 있는 사람이 유방 통증이나 새 변화를 암으로 추정하거나 검사 종류를 고르지 않으면서, 무엇을 어떤 순서로 기록해 예약기관에 전달할 수 있는가?",
+  "reader_outcome": "통증 위치·시작일·주기와의 관계·새 멍울·피부 변화·유두 분비물·팔 아래 변화를 분리한 유방 변화 설명 카드를 만든다.",
+  "search_intent_insight": "독자는 통증의 원인 판정보다 다음 검진만 기다려도 되는지, 전화할 때 무엇을 말해야 하는지 정리하려 한다.",
+  "competitor_gap": "일반 증상 목록은 통증의 원인 설명 또는 검사 권유에서 끝나기 쉽다. 이 글은 정기검진 날짜, 새 증상, 연락 메모를 한 줄에 합치지 않는 카드로 행동 순서를 제시한다.",
+  "information_gain": "통증 강도를 점수화하거나 원인을 추정하는 대신, 위치·시간·동반 변화·일상 영향·연락 질문을 서로 다른 칸에 두어 의료진이 물을 사실을 보존한다.",
+  "unique_angle": "통증 위치·시작·주기와의 관계·새 멍울·피부 변화·유두 분비물·팔 아래 변화 칸으로 구성된 유방 변화 설명 카드.",
+  "original_contribution": {
+    "type": "breast-change-description-card",
+    "description": "정기검진 날짜와 별도로 새 증상의 사실·연락 경로·진료 질문을 나누는 유방 변화 설명 카드",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5", "S6"]
+  },
+  "source_interpretation": "S1·S2·S5는 카드에 넣을 관찰 항목과 새 변화의 상담 필요성을 확인한다. S2는 최근 정상 유방촬영술이 있었더라도 새 변화는 후속 상담이 필요하다는 경계를 뒷받침한다. S3은 통증이 단독으로는 흔히 암 증상이 아니지만 지속·악화 또는 동반 변화는 상담 맥락이 된다는 점만 쓴다. S4와 S6은 멍울·겨드랑이 변화가 있을 때 원인을 자가진단하지 않고 평가를 받는 경계를 보강한다. 어느 출처도 개인의 암 여부, 검사 종류, 예약 시점을 결정하는 근거로 쓰지 않는다.",
+  "sources": [
+    {"id": "S1", "title": "Symptoms of Breast Cancer", "organization": "CDC", "url": "https://www.cdc.gov/breast-cancer/symptoms/index.html", "source_date": "2026-04-15", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "새 멍울·겨드랑이 변화·피부 변화·유두 변화 또는 분비물·크기 또는 모양 변화·통증을 카드의 관찰 항목으로 확인"},
+    {"id": "S2", "title": "Breast Cancer Signs and Symptoms", "organization": "National Cancer Institute", "url": "https://www.cancer.gov/types/breast/symptoms", "source_date": "2025-12-02", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "대부분의 유방 변화는 암이 아니지만 최근 정상 유방촬영술이 있었더라도 새 변화는 의료진과 후속 상담한다는 경계"},
+    {"id": "S3", "title": "Breast pain", "organization": "NHS", "url": "https://www.nhs.uk/symptoms/breast-pain/", "source_date": "2023-05-03", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "review_due", "used_for": "통증의 주기·지속 여부·발열, 붉음, 열감, 부기, 멍울, 분비물, 피부·유두 변화 같은 상담 맥락"},
+    {"id": "S4", "title": "Breast lumps", "organization": "NHS", "url": "https://www.nhs.uk/symptoms/breast-lump/", "source_date": "2023-06-28", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "review_due", "used_for": "유방 또는 겨드랑이 멍울은 원인을 자가진단하지 않고 평가받아야 한다는 경계"},
+    {"id": "S5", "title": "Symptoms of breast cancer in women", "organization": "NHS", "url": "https://www.nhs.uk/conditions/breast-cancer-in-women/symptoms-of-breast-cancer-in-women/", "source_date": "2024-03-04", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "유방·겨드랑이의 멍울 또는 부기, 피부·유두 변화, 통증을 포함해 달라진 사실을 상담에 전달하는 보조 근거"},
+    {"id": "S6", "title": "Benign and Precancerous Breast Lumps and Conditions", "organization": "National Cancer Institute", "url": "https://www.cancer.gov/types/breast/causes-risk-factors/benign-breast-lumps", "source_date": "undated", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "undated", "used_for": "여러 양성 유방 질환도 통증·멍울·분비물 같은 변화를 만들 수 있어 카드가 원인 판정표가 되어서는 안 된다는 경계"}
+  ],
+  "data_points": [
+    {"claim": "새 멍울 또는 겨드랑이 변화, 피부의 자극·함몰·붉음, 유두 변화·비수유성 분비물, 크기·모양 변화, 유방 통증은 의료진에게 알릴 관찰 항목이다.", "source_id": "S1", "claim_type": "symptom", "source_date": "2026-04-15", "supports_section": "멍울·피부·분비물을 다른 칸에 두기"},
+    {"claim": "대부분의 유방 변화는 암이 아니지만, 최근 정상 유방촬영술이 있었더라도 새 멍울이나 다른 변화가 있으면 의료진과 후속 상담하는 것이 중요하다.", "source_id": "S2", "claim_type": "follow_up", "source_date": "2025-12-02", "supports_section": "정기검진과 증상 평가를 나누는 이유"},
+    {"claim": "유방 통증은 월경 주기, 약물, 임신, 갱년기의 호르몬 변화 등 여러 맥락과 연결될 수 있으며, 지속되거나 붉음·열감·부기·멍울·분비물·피부·유두 변화가 있으면 상담 경계가 된다.", "source_id": "S3", "claim_type": "context", "source_date": "2023-05-03", "supports_section": "통증의 위치와 시작을 먼저 적기"},
+    {"claim": "유방 또는 겨드랑이 멍울은 흔히 양성이지만 원인을 자가진단하지 말고 평가받아야 한다.", "source_id": "S4", "claim_type": "safety_boundary", "source_date": "2023-06-28", "supports_section": "예약기관에 연락할 때 말할 핵심"},
+    {"claim": "유방·가슴·겨드랑이의 멍울 또는 부기, 유방·유두의 평소와 다른 변화는 상담할 관찰 사실이며, 증상만으로 암을 확정하지 않는다.", "source_id": "S5", "claim_type": "safety_boundary", "source_date": "2024-03-04", "supports_section": "카드를 진료실에서 펼치는 순서"},
+    {"claim": "양성 유방 질환도 통증·멍울·분비물 등 비슷한 변화를 일으킬 수 있으므로, 기록은 원인을 판정하는 도구가 아니라 변화의 사실을 보존하는 도구다.", "source_id": "S6", "claim_type": "interpretation_boundary", "source_date": "undated", "supports_section": "카드가 하지 않는 일"}
+  ],
+  "article_specific_details": [
+    {"claim": "통증 위치·시작일·주기와의 관계와 새 멍울·피부 변화·유두 분비물·팔 아래 변화를 다른 칸에 둔다.", "source_id": "S1"},
+    {"claim": "검진 예약 날짜와 새 증상 연락 날짜를 따로 적고, 최근 정상 결과가 있어도 새 변화 연락을 미루지 않는 카드 문장을 둔다.", "source_id": "S2"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "NHS의 연락 경로·긴급 분류는 영국 서비스 기준이므로 한국의 번호·예약체계·대기시간으로 옮기지 않았다. 글은 공통된 관찰·상담 경계만 사용한다."
+}

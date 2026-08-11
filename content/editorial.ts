@@ -1,5 +1,6 @@
 export type Topic = { slug: string; name: string; description: string; icon: string };
 import { getLongformArticles } from './longform';
+import { isArticlePublic, selectPublicArticles } from './publication-selector';
 
 export type Article = { slug: string; topic: string; topicSlug: string; title: string; summary: string; publishedAt: string; updatedAt: string; body: string[]; sources: { label: string; href: string }[]; tags?: string[]; longform?: boolean; searchText?: string };
 export type ArticleGuide = { takeaways: string[]; today: string[]; doctorQuestions: string[] };
@@ -22,9 +23,42 @@ const longformTopicSlugs: Record<string, string> = {
   'preventive-screening': 'everyday-care',
 };
 
+const batch30TopicSlugs: Record<string, string> = {
+  'family-blood-pressure-context': 'everyday-care',
+  'urgent-chest-pressure-action': 'everyday-care',
+  'menopause-lipid-trend-table': 'menopause',
+  'stairs-breathlessness-route': 'everyday-care',
+  'one-sided-ankle-swelling-observation': 'everyday-care',
+  'fasting-glucose-sleepiness-log': 'everyday-care',
+  'unintended-weight-loss-bundle': 'everyday-care',
+  'fatty-liver-visit-questions': 'everyday-care',
+  'borderline-thyroid-context-note': 'everyday-care',
+  'evening-eating-pattern-timeline': 'everyday-care',
+  'stair-knee-response-table': 'bone-muscle',
+  'morning-finger-stiffness-context-log': 'bone-muscle',
+  'shoulder-range-daily-actions': 'bone-muscle',
+  'daytime-balance-risk-sketch': 'bone-muscle',
+  'chair-rise-function-card': 'bone-muscle',
+  'workplace-hot-flash-script': 'menopause',
+  'memory-change-timeline': 'menopause',
+  'sexual-pain-visit-note': 'menopause',
+  'mood-function-signal-light': 'sleep-mood',
+  'itch-rash-safety-note': 'everyday-care',
+  'colorectal-family-history-card': 'everyday-care',
+  'positive-stool-test-followup': 'everyday-care',
+  'screening-new-bleeding-contact': 'everyday-care',
+  'breast-pain-change-card': 'everyday-care',
+  'pelvic-pain-symptom-calendar': 'everyday-care',
+  'sleepiness-safety-next-day': 'sleep-mood',
+  'sleep-apnea-solo-observation': 'sleep-mood',
+  'night-waking-transfer-safety': 'sleep-mood',
+  'alcohol-sleep-next-day-review': 'sleep-mood',
+  'palpitations-avoidance-loop': 'sleep-mood',
+};
+
 const topicNames = new Map(topics.map((topic) => [topic.slug, topic.name]));
 
-const batchLongformSlugs = new Set([
+const catalogLongformSlugs = new Set([
   'irregular-period-change-timeline',
   'postmenopausal-bleeding-visit-note',
   'menopause-palpitations-separate-log',
@@ -45,12 +79,13 @@ const batchLongformSlugs = new Set([
   'fasting-glucose-result-context',
   'breast-screening-notice-personal-context',
   'cervical-screening-follow-up-result-questions',
+  ...Object.keys(batch30TopicSlugs),
 ]);
 
 const batchLongformArticles: Article[] = getLongformArticles()
-  .filter((article) => batchLongformSlugs.has(article.slug))
+  .filter((article) => catalogLongformSlugs.has(article.slug))
   .map((article) => {
-    const topicSlug = longformTopicSlugs[article.cluster];
+    const topicSlug = longformTopicSlugs[article.cluster] ?? batch30TopicSlugs[article.slug] ?? 'everyday-care';
     const topic = topicNames.get(topicSlug);
     if (!topic) throw new Error(`Unknown topic for long-form cluster: ${article.cluster}`);
     return {
@@ -84,6 +119,8 @@ export const articles: Article[] = [
 
 export function getArticle(slug: string) { return articles.find((article) => article.slug === slug); }
 export function getTopic(slug: string) { return topics.find((topic) => topic.slug === slug); }
+export function getPublicArticles(now: Date | number = new Date()) { return selectPublicArticles(articles, now); }
+export function isPublicArticle(slug: string, now: Date | number = new Date()) { return isArticlePublic(slug, now); }
 
 export const articleGuides: Record<string, ArticleGuide> = {
   'menopause-when-to-see-a-doctor': {

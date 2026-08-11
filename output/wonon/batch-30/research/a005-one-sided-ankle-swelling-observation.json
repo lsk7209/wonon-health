@@ -1,0 +1,33 @@
+{
+  "article_id": "a005",
+  "slug": "one-sided-ankle-swelling-observation",
+  "topic": "한쪽 발목 부종 관찰과 진료 전 기록",
+  "research_runs": [
+    {"run":1,"query":"site:nhs.uk oedema one leg sudden painful hot red emergency","executed_on":"2026-08-11","finding":"한쪽 다리·발목의 원인 불명 부종, 갑작스럽거나 통증·열감·발적이 있는 부종은 긴급 평가가 필요할 수 있다."},
+    {"run":2,"query":"site:nhlbi.nih.gov venous thromboembolism symptoms swollen tender painful leg shortness breath","executed_on":"2026-08-11","finding":"DVT 증상에는 다리 부종·압통·통증이 포함될 수 있고 폐색전증에는 숨참과 흉통이 나타날 수 있다."},
+    {"run":3,"query":"site:medlineplus.gov foot leg ankle swelling one leg call provider emergency","executed_on":"2026-08-11","finding":"새롭거나 악화되는 한쪽 다리 부종과 호흡곤란 또는 흉통은 자가 관찰만으로 미루지 말아야 한다."},
+    {"run":4,"query":"site:nhs.uk pulmonary embolism symptoms one calf swollen red painful","executed_on":"2026-08-11","finding":"갑작스러운 호흡곤란, 흉통, 객혈, 실신은 즉시 응급 도움을 받는 경계 증상이다."}
+  ],
+  "source_interpretation": "이 글은 한쪽 발목 부종의 원인을 판별하거나 혈전 여부를 계산하지 않는다. 공공 보건기관의 경계 증상을 바탕으로 진료 전 좌우 차이와 시간 흐름을 전달하는 관찰 도구만 제시한다.",
+  "sources": [
+    {"source_id":"S1","title":"Oedema","publisher":"NHS","url":"https://www.nhs.uk/conditions/oedema/","source_date":"2026-02-26","accessed_date":"2026-08-11","source_role":"official"},
+    {"source_id":"S2","title":"Venous Thromboembolism - Symptoms","publisher":"National Heart, Lung, and Blood Institute","url":"https://www.nhlbi.nih.gov/health/venous-thromboembolism/symptoms","source_date":"2022-09-19","accessed_date":"2026-08-11","source_role":"official"},
+    {"source_id":"S3","title":"Foot, leg, and ankle swelling","publisher":"MedlinePlus","url":"https://medlineplus.gov/ency/article/003104.htm","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"},
+    {"source_id":"S4","title":"Pulmonary embolism","publisher":"NHS","url":"https://www.nhs.uk/conditions/pulmonary-embolism/","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"},
+    {"source_id":"S5","title":"Deep vein thrombosis","publisher":"MedlinePlus","url":"https://medlineplus.gov/ency/article/000156.htm","source_date":"not stated on page","accessed_date":"2026-08-11","source_role":"official"}
+  ],
+  "data_points": [
+    {"claim":"새롭거나 악화되는 한쪽 다리 부종은 의료진에게 알릴 필요가 있을 수 있다.","source_id":"S3","supports_section":"양말 자국보다 먼저 볼 좌우 차이"},
+    {"claim":"한쪽 부종이 갑작스럽거나 통증·열감·발적을 동반하면 긴급 평가가 필요할 수 있다.","source_id":"S1","supports_section":"열감·통증·피부색을 따로 표시하기"},
+    {"claim":"다리의 부종·압통·통증은 정맥혈전색전증에서 나타날 수 있는 증상 중 일부다.","source_id":"S2","supports_section":"호흡 증상과 함께 나타날 때의 행동"},
+    {"claim":"갑작스러운 호흡곤란, 흉통, 객혈, 실신은 응급 도움을 받아야 하는 경계 증상이다.","source_id":"S4","supports_section":"호흡 증상과 함께 나타날 때의 행동"},
+    {"claim":"심부정맥혈전증은 보통 한쪽에 나타날 수 있으나 증상만으로 진단할 수 없다.","source_id":"S5","supports_section":"사진을 진료에 쓰되 판단에 쓰지 않는 법"}
+  ],
+  "article_specific_details": [
+    {"detail":"양쪽 발을 같은 바닥에 두고 같은 시각에 발목뼈·양말선·종아리 윤곽을 비교하는 관찰표","source_id":"S3"},
+    {"detail":"사진 파일명에 날짜와 시각을 넣고 숨참·흉통 여부를 사진과 별도 줄에 기록하는 진료 전달 카드","source_id":"S4"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "conflicts": []
+}

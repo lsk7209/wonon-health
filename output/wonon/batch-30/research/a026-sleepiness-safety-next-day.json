@@ -1,0 +1,53 @@
+{
+  "article_id": "a026",
+  "slug": "sleepiness-safety-next-day",
+  "title": "새벽에 깬 밤 다음 날: 졸음이 안전에 미치는 영향을 점검하는 운전·작업 카드",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-safety",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {"query": "site:nhtsa.gov drowsy driving warning signs official", "date": "2026-08-11", "purpose": "졸음운전 위험 신호와 커피만으로 안전을 보장하지 않는 공공안전 경계 확인"},
+    {"query": "site:cdc.gov niosh fatigue work safety attention reaction time official", "date": "2026-08-11", "purpose": "피로가 집중·반응·판단과 작업 안전에 미치는 일반적 영향을 확인"},
+    {"query": "site:nhlbi.nih.gov sleep deprivation daytime performance safety microsleep", "date": "2026-08-11", "purpose": "수면 부족 뒤 낮 기능과 미세수면의 안전 맥락 확인"},
+    {"query": "site:nhs.uk excessive daytime sleepiness when to see GP", "date": "2026-08-11", "purpose": "반복되는 낮 졸림을 진단하지 않고 상담으로 연결하는 경계 확인"}
+  ],
+  "article_research_question": "새벽에 깬 뒤 졸린 사람이 수면 시간을 처방처럼 계산하거나 운전 가능 여부를 자가판정하지 않고, 운전·위험 작업·대체 계획을 어떻게 먼저 정할 수 있는가?",
+  "reader_outcome": "아침의 졸음 신호, 운전·위험 작업, 대체 이동·도움 요청, 반복 시 상담 메모를 네 칸으로 분리한 안전 카드를 만든다.",
+  "search_intent_insight": "독자는 새벽 각성의 원인이나 불면 치료법보다, 다음 날 운전·조리·사다리·기계 작업을 계속해도 되는지와 누구에게 어떻게 알릴지를 정리하려 한다.",
+  "competitor_gap": "일반 수면 글은 수면 위생이나 권장 수면 시간을 설명하고, 졸음운전 글은 운전 장면에만 머물기 쉽다. 이 글은 한 번의 새벽 각성을 진단으로 바꾸지 않으면서 운전과 가정·작업의 위험 장면을 같은 아침 카드에서 분리한다.",
+  "information_gain": "커피·낮잠·수면 시간으로 개인의 운전 가능 여부를 계산하지 않고, 실제 졸음 신호와 그날 해야 할 운전·고위험 작업·대체 계획을 한 장의 순서로 바꾼다.",
+  "unique_angle": "새벽 각성 뒤 낮 졸림을 수면 기록과 분리해, 운전 예정·조리·사다리·기계 작업·대체 이동·알림 문장을 결정하는 다음 날 안전 카드.",
+  "original_contribution": {
+    "type": "next-day-safety-card",
+    "description": "수면제 선택이나 불면 치료가 아닌, 아침의 졸음 신호와 당일 운전·위험 작업·대체 계획을 분리해 적는 다음 날 안전 카드",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  "source_interpretation": "S1의 졸음운전 안내는 개인이 몇 시간 뒤 운전해도 되는지를 계산하는 데 쓰지 않고, 졸음 신호가 있으면 운전 계획을 바꿀 수 있다는 안전 경계로만 사용한다. S2·S3은 피로가 집중·반응·판단에 미치는 일반적 영향을 조리·사다리·기계처럼 실수 비용이 큰 작업을 분리하는 근거로 사용한다. S4는 낮 졸림과 미세수면의 기능 위험을 설명하되 개인의 사고 위험을 예측하지 않는다. S5는 반복되는 졸림을 특정 수면장애로 진단하지 않고, 상담에 가져갈 수면·기능 기록의 경계로만 사용한다.",
+  "angle_supporting_detail": {"claim": "커피나 에너지음료만으로는 졸음운전 위험을 충분히 막지 못할 수 있고, 심하게 수면이 부족하면 짧은 미세수면이 생길 수 있다는 NHTSA의 경계는 ‘커피를 마셨으니 운전 가능’이라는 결론을 카드에서 제외하게 한다.", "source_id": "S1"},
+  "sources": [
+    {"id": "S1", "title": "Drowsy Driving", "organization": "National Highway Traffic Safety Administration", "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving", "source_date": "not stated on page", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "졸음운전의 위험 신호, 충분한 수면 외에 커피·에너지음료만으로는 안전을 보장하지 않는다는 경계"},
+    {"id": "S2", "title": "Fatigue and Work", "organization": "CDC / NIOSH", "url": "https://www.cdc.gov/niosh/fatigue/about/index.html", "source_date": "2026-03-03", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "피로가 반응 시간·집중·단기 기억·판단에 영향을 주고 작업 안전에 영향을 줄 수 있다는 일반적 맥락"},
+    {"id": "S3", "title": "Driver Fatigue on the Job", "organization": "CDC / NIOSH", "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html", "source_date": "2024-04-03", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "수면의 질 저하·긴 근무·스트레스 등 여러 원인이 운전 안전에 영향을 줄 수 있다는 경계"},
+    {"id": "S4", "title": "Sleep Deprivation and Deficiency - How Sleep Affects Your Health", "organization": "National Heart, Lung, and Blood Institute", "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects", "source_date": "2022-06-15", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "reviewed", "used_for": "수면 부족이 낮의 집중·반응·실수와 미세수면에 영향을 줄 수 있다는 안전 설명"},
+    {"id": "S5", "title": "Excessive daytime sleepiness (hypersomnia)", "organization": "NHS", "url": "https://www.nhs.uk/conditions/excessive-daytime-sleepiness-hypersomnia/", "source_date": "not stated on page", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "낮에 자주 잠들거나 졸림이 생활에 영향을 줄 때 원인 평가를 위해 상담할 수 있다는 경계"}
+  ],
+  "data_points": [
+    {"claim": "차선 이탈·럼블 스트립 접촉처럼 운전 중 졸음 신호가 나타나면 운전을 계속할 근거로 해석하지 않으며, 커피나 에너지음료만으로는 충분하지 않을 수 있다.", "source_id": "S1", "claim_type": "safety_guidance", "source_date": "not stated on page", "supports_section": "운전 전에는 졸음운전 위험 신호와 대체 이동을 먼저 정하기"},
+    {"claim": "피로는 반응 시간을 늦추고 집중·단기 기억·판단을 제한할 수 있어, 높은 주의가 필요한 작업의 안전 맥락이 된다.", "source_id": "S2", "claim_type": "safety_context", "source_date": "2026-03-03", "supports_section": "조리·사다리·기계 작업은 집중과 반응이 흐린 날에 분리하기"},
+    {"claim": "수면의 질 저하, 긴 근무, 스트레스, 수면장애 등 여러 요인이 운전 안전에 영향을 줄 수 있으므로 새벽 각성 하나로 원인을 단정하지 않는다.", "source_id": "S3", "claim_type": "context", "source_date": "2024-04-03", "supports_section": "새벽에 깬 뒤 아침, 졸음 신호를 ‘잠 시간’과 분리해 적기"},
+    {"claim": "수면 부족은 낮의 집중·반응·실수에 영향을 줄 수 있고, 본인이 알아차리지 못하는 짧은 미세수면이 생길 수 있다.", "source_id": "S4", "claim_type": "health_safety", "source_date": "2022-06-15", "supports_section": "운전·작업 카드에 넣을 대체 계획과 알림 문장"},
+    {"claim": "낮에 자주 잠들거나 졸림이 생활에 영향을 주면 원인을 확인하기 위해 의료진과 상담할 수 있으며, 수면 일지가 도움이 될 수 있다.", "source_id": "S5", "claim_type": "consultation_boundary", "source_date": "not stated on page", "supports_section": "낮 졸림이 반복되면 수면·기능 사실을 상담에 가져가기"}
+  ],
+  "article_specific_details": [
+    {"claim": "커피나 에너지음료만으로는 졸음운전 위험을 충분히 막지 못할 수 있으므로, ‘커피를 마셨다’는 사실을 운전 가능 판정 칸이 아니라 대체 이동을 다시 확인할 신호로 둔다.", "source_id": "S1"},
+    {"claim": "피로가 집중·반응·단기 기억·판단을 제한할 수 있다는 점을 이용해, 조리의 불 조절·사다리 오르기·회전 기계 사용을 하나의 ‘고위험 작업’ 칸으로 분리한다.", "source_id": "S2"},
+    {"claim": "낮에 자주 잠들거나 생활이 흔들리는 졸림은 상담에서 수면 시각과 실제 기능 영향을 함께 말할 수 있다는 경계로 사용한다.", "source_id": "S5"}
+  ],
+  "visual_elements": ["four-column-safety-card", "decision-table", "communication-script"],
+  "semantic_colors": ["amber-warning", "blue-action"],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "NHTSA·CDC·NHS 자료는 미국·영국의 공공안전 및 상담 안내다. 한국의 도로교통법, 직장 안전 규정, 의료기관 연락체계 또는 개인의 운전 가능 시간을 대신하지 않도록 일반 안전 경계와 상담 준비에만 사용했다."
+}

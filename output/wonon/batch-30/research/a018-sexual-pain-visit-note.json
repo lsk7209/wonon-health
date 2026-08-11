@@ -1,0 +1,126 @@
+{
+  "article_id": "a018",
+  "slug": "sexual-pain-visit-note",
+  "researched_at": "2026-08-11T19:05:00+09:00",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "planned_h2": [
+    "말하기 전 적어 두면 쉬운 사실",
+    "삽입 전·중·후를 나누는 이유",
+    "통증 위치와 느낌을 선택하는 법",
+    "출혈·분비물·배뇨 증상을 따로 표시하기",
+    "진료실에서 쓸 첫 문장"
+  ],
+  "research_runs": [
+    {"query": "ACOG When Sex Is Painful location timing symptoms clinical history", "date": "2026-08-11", "purpose": "공식 환자 정보에서 통증 위치·시점과 진료 문진 맥락 확인"},
+    {"query": "NHS pain during sex bleeding urination when to seek GP advice", "date": "2026-08-11", "purpose": "출혈·배뇨 통증을 원인 단정 없이 상담에서 알릴 경계 확인"},
+    {"query": "Menopause Society genitourinary syndrome menopause painful sex patient education", "date": "2026-08-11", "purpose": "폐경 전후 비뇨생식기 불편의 일반 맥락과 진단 경계 확인"},
+    {"query": "MedlinePlus painful intercourse vaginal discharge official patient information", "date": "2026-08-11", "purpose": "분비물 변화·자극·배뇨 증상을 메모의 별도 칸으로 둘 근거 교차 확인"}
+  ],
+  "article_research_question": "성관계 중 통증을 원인 추정 없이 위치·시점·출혈·배뇨 증상으로 어떻게 존중하는 언어로 정리하는가?",
+  "reader_outcome": "삽입 전·중·후와 통증 위치·느낌·출혈·분비물·배뇨 통증·중단 여부를 별도 칸에 기록해 진료 첫 문장을 준비한다.",
+  "original_contribution": {
+    "type": "sexual-pain-visit-note",
+    "description": "위치·시점·동반 신호를 선택식으로 분리하여 원인 추측 없이 읽을 수 있는 진료 메모",
+    "source_ids": ["S1", "S2", "S3", "S4"]
+  },
+  "search_intent_insight": "통증의 병명이나 제품을 찾기보다, 민감한 증상을 진료에서 빠뜨리지 않고 말할 수 있는 기록 문장을 원하는 탐색 의도다.",
+  "competitor_gap": "일반 결과는 원인·치료를 넓게 열거하는 경우가 많다. 이 글은 삽입 시점, 위치, 동반 신호, 중단 여부를 서로 섞지 않는 한 장짜리 메모와 첫 문장을 제공한다.",
+  "information_gain": "통증 강도 점수나 원인 추정보다 ‘언제·어디가·무엇과 함께’를 세 칸으로 나누어, 한 번의 경험도 상담 가능한 사실로 바꾸는 방문 메모를 제공한다.",
+  "unique_angle": "삽입 전·중·후, 통증 위치·느낌, 출혈·분비물·배뇨 통증 여부, 시작 시점, 중단 여부를 선택식으로 적는 통증 위치 진료 메모.",
+  "source_interpretation": "ACOG의 위치·증상·진료 이력 설명을 원인 목록으로 재현하지 않고 메모 항목으로 바꾼다. NHS와 MedlinePlus의 출혈·배뇨·분비물 정보는 감염·자궁내막증을 판정하는 데 쓰지 않고, 동반 사실을 별도 줄로 알릴 경계에만 쓴다. The Menopause Society 자료는 GSM 진단이 아니라 기존 폐경 전후 비뇨생식기 글과 이 메모의 범위를 분리하는 맥락이다.",
+  "angle_supporting_detail": {
+    "claim": "통증은 외음부·질 입구 주변·질 안쪽·골반 또는 방광 주변처럼 느껴지는 위치가 다를 수 있어, 위치를 한 단어로 뭉개지 않고 기록할 필요가 있다.",
+    "source_id": "S1"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "ACOG",
+      "title": "When Sex Is Painful",
+      "url": "https://www.acog.org/womens-health/faqs/when-sex-is-painful",
+      "published_or_updated": "2024-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "통증 위치, 증상·병력, 의료진 상담의 일반 맥락"
+    },
+    {
+      "id": "S2",
+      "organization": "NHS",
+      "title": "Period pain",
+      "url": "https://www.nhs.uk/symptoms/period-pain/",
+      "published_or_updated": "2026-03-18",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "성관계·배뇨 통증 및 생리 사이 출혈을 상담에서 알릴 일반 경계"
+    },
+    {
+      "id": "S3",
+      "organization": "The Menopause Society",
+      "title": "Genitourinary Syndrome of Menopause",
+      "url": "https://menopause.org/patient-education/menopause-topics/genitourinary-syndrome-of-menopause",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "undated",
+      "used_for": "폐경 전후 비뇨생식기 불편과 성관계 불편의 일반 맥락"
+    },
+    {
+      "id": "S4",
+      "organization": "MedlinePlus",
+      "title": "Vaginal itching and discharge - adult and adolescent",
+      "url": "https://medlineplus.gov/ency/article/003158.htm",
+      "published_or_updated": "2025-08-18",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "분비물의 양·색·냄새·질감 변화, 자극 및 배뇨 증상을 별도 사실로 기록하는 보조 맥락"
+    },
+    {
+      "id": "S5",
+      "organization": "MedlinePlus",
+      "title": "Causes of painful intercourse",
+      "url": "https://medlineplus.gov/ency/imagepages/17114.htm",
+      "published_or_updated": "2025-07-03",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "성관계 중·후 통증을 한 가지 원인으로 단정하지 않는 보조 맥락"
+    }
+  ],
+  "data_points": [
+    {"claim": "통증은 외음부, 질 입구 주변, 질 안쪽, 골반 또는 방광 주변처럼 느껴지는 위치가 다를 수 있다.", "source_id": "S1", "claim_type": "named_entity", "source_date": "2024-01", "supports_section": "통증 위치와 느낌을 선택하는 법"},
+    {"claim": "통증의 위치와 시점, 증상과 병력은 원인을 확인하는 진료 평가에서 중요한 정보가 될 수 있다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2024-01", "supports_section": "삽입 전·중·후를 나누는 이유"},
+    {"claim": "성관계 중 통증이나 배뇨 통증, 생리 사이 출혈은 상담에서 알릴 증상으로 제시된다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2026-03-18", "supports_section": "출혈·분비물·배뇨 증상을 따로 표시하기"},
+    {"claim": "분비물의 양·색·냄새·질감 변화와 가려움·자극·배뇨 시 화끈거림은 서로 다른 관찰 사실이다.", "source_id": "S4", "claim_type": "named_entity", "source_date": "2025-08-18", "supports_section": "출혈·분비물·배뇨 증상을 따로 표시하기"},
+    {"claim": "폐경 전후의 비뇨생식기 불편은 성관계 불편과 함께 나타날 수 있으나, 이 메모만으로 GSM을 진단할 수는 없다.", "source_id": "S3", "claim_type": "policy", "source_date": "undated", "supports_section": "말하기 전 적어 두면 쉬운 사실"},
+    {"claim": "성관계 중 또는 후의 통증은 한 가지 원인으로 단정할 수 없으므로 기록은 진단명이 아니라 경험의 사실을 남기는 데 쓴다.", "source_id": "S5", "claim_type": "policy", "source_date": "2025-07-03", "supports_section": "진료실에서 쓸 첫 문장"}
+  ],
+  "article_specific_details": [
+    {"claim": "삽입 전·중·후, 위치·느낌, 출혈·분비물·배뇨 증상, 시작 시점·중단 여부를 서로 다른 칸에 적는다.", "source_id": "S1"},
+    {"claim": "진료실 첫 문장은 원인 추측 없이 ‘언제·어디가·무엇과 함께’를 말하고, 출혈·분비물·배뇨 변화는 별도 줄로 붙인다.", "source_id": "S2"}
+  ],
+  "visual_elements": ["선택식-진료-메모", "안전-경계-상자", "진료-첫문장-카드"],
+  "semantic_colors": ["amber-warning", "blue-record"],
+  "ymyl_boundaries": [
+    "감염, 자궁내막증, GSM 또는 다른 원인을 진단하지 않는다.",
+    "윤활제·호르몬 제품·약물·검사·치료를 선택하거나 권하지 않는다.",
+    "심한 통증, 많은 출혈, 실신감, 발열 등 안전 우려가 있으면 메모 작성보다 지역의 긴급 의료 도움을 우선하도록 안내한다."
+  ],
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "fact_traceability_pass": true
+}

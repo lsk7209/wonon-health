@@ -19,7 +19,15 @@ export type LongformArticle = {
 const draftsDirectories = [
   join(process.cwd(), 'output', 'wonon', 'drafts'),
   join(process.cwd(), 'output', 'wonon', 'batch-20', 'drafts'),
+  join(process.cwd(), 'output', 'wonon', 'batch-30', 'drafts'),
 ];
+
+const batchDraftDefaults = {
+  author: '원온 편집팀',
+  date: '2026-08-11',
+  cluster: 'everyday-care',
+  target: 'nextjs',
+} as const;
 
 function readScalar(value: string): string | boolean {
   const trimmed = value.trim().replace(/^['"]|['"]$/g, '');
@@ -60,16 +68,22 @@ function parseDraft(directory: string, fileName: string): LongformArticle {
     return value;
   };
 
+  const optional = (key: keyof LongformArticle, fallback: string) => {
+    const value = fields[key];
+    return typeof value === 'string' && value ? value : fallback;
+  };
+
   const description = required('description');
   const subtitle = typeof fields.subtitle === 'string' && fields.subtitle
     ? fields.subtitle
     : description;
+  const slugFromFileName = fileName.replace(/^[a-z]\d+-/, '').replace(/\.mdx$/, '');
 
   return {
-    title: required('title'), subtitle, slug: required('slug'),
-    description, author: required('author'), date: required('date'),
-    tags: Array.isArray(fields.tags) ? fields.tags : [], cluster: required('cluster'),
-    isPillar: fields.isPillar === true, target: required('target'), draft: fields.draft === true,
+    title: required('title'), subtitle, slug: optional('slug', slugFromFileName),
+    description, author: optional('author', batchDraftDefaults.author), date: optional('date', batchDraftDefaults.date),
+    tags: Array.isArray(fields.tags) ? fields.tags : [], cluster: optional('cluster', batchDraftDefaults.cluster),
+    isPillar: fields.isPillar === true, target: optional('target', batchDraftDefaults.target), draft: fields.draft === true,
     body: match[2].trim(),
   };
 }

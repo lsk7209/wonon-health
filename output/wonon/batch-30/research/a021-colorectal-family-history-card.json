@@ -1,0 +1,86 @@
+{
+  "article_id": "a021",
+  "accessed": "2026-08-11",
+  "research_runs": [
+    "CDC colorectal family history risk factors",
+    "NCI colorectal screening family history",
+    "American Cancer Society family cancer history"
+  ],
+  "article_research_question": "검진 안내를 받은 사람이 가족력 사실을 추정하지 않고 어떻게 모아 상담에 전달하는가?",
+  "reader_outcome": "관계·암 종류·진단 나이·확인 출처·모르는 칸이 분리된 가족력 카드를 만든다.",
+  "original_contribution": {
+    "type": "family-history-card",
+    "description": "검진 시기를 계산하지 않는 사실 확인 카드",
+    "source_ids": ["S1", "S2"]
+  },
+  "source_interpretation": "가족력은 위험 맥락이지만 카드 자체가 검진 시기나 유전검사의 답은 아니라는 경계를 유지한다.",
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "CDC",
+      "url": "https://www.cdc.gov/colorectal-cancer/risk-factors/index.html",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "대장암 또는 용종의 개인·가족력이 위험 맥락이라는 공식 설명"
+    },
+    {
+      "id": "S2",
+      "organization": "NCI",
+      "url": "https://www.cancer.gov/types/colorectal/patient/colorectal-prevention-pdq",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "가족력과 개인 병력이 위험 맥락에 포함된다는 환자용 설명"
+    },
+    {
+      "id": "S3",
+      "organization": "CDC",
+      "url": "https://www.cdc.gov/family-health-history/family-health-history-and-you/family-health-history-and-adults.html",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "가까운 가족의 대장암과 이른 진단은 의료진과 상담할 가족력 정보라는 안내"
+    },
+    {
+      "id": "S4",
+      "organization": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/risk-prevention/genetics/family-cancer-syndromes.html",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "expert_reference",
+      "used_for": "가족 암력의 관계와 진단 나이를 정확히 확인하는 보조 맥락"
+    },
+    {
+      "id": "S5",
+      "organization": "NCI",
+      "url": "https://www.cancer.gov/types/colorectal/hp/colorectal-genetics-pdq",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "primary_data",
+      "used_for": "가족 내 암의 수와 진단 연령이 의료진 평가에서 맥락이 될 수 있다는 근거"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "대장암 또는 용종의 가족력은 위험 맥락이다.",
+      "source_id": "S1",
+      "supports_section": "검진 안내문과 가족력 카드를 분리하기"
+    },
+    {
+      "claim": "가까운 가족의 대장암, 여러 가까운 가족, 이른 진단은 의료진과 상의할 정보다.",
+      "source_id": "S3",
+      "supports_section": "암 종류와 진단 나이를 확인하기"
+    },
+    {
+      "claim": "가족력만으로 개인 검진 시기를 계산하지 않는다.",
+      "source_id": "S2",
+      "supports_section": "카드로 의료진에게 물을 질문"
+    }
+  ],
+  "article_specific_details": [
+    {"claim": "관계·암 종류·진단 나이·확인 출처·모르는 칸을 분리한다.", "source_id": "S3"},
+    {"claim": "용종 여부는 암과 별도 사실로 적는다.", "source_id": "S1"}
+  ],
+  "fact_traceability_pass": true
+}

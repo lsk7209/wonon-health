@@ -1,0 +1,123 @@
+{
+  "article_id": "a017",
+  "slug": "memory-change-timeline",
+  "researched_at": "2026-08-11T20:10:00+09:00",
+  "research_runs": [
+    {"query": "National Institute on Aging understanding memory loss normal aging when to talk doctor", "date": "2026-08-11"},
+    {"query": "NHS sudden confusion delirium immediate medical help", "date": "2026-08-11"},
+    {"query": "Alzheimer's Association 10 warning signs daily function finances medication", "date": "2026-08-11"},
+    {"query": "National Institute on Aging memory problems forgetfulness aging daily tasks", "date": "2026-08-11"},
+    {"query": "MedlinePlus memory loss sudden or gradual time pattern office visit", "date": "2026-08-11"}
+  ],
+  "planned_h2": [
+    "기억 걱정을 시간표로 바꾸는 이유",
+    "첫 주에 사건과 맥락을 함께 적기",
+    "둘째 주에 반복과 변화를 비교하기",
+    "돈·약·약속 같은 기능 영향 표시하기",
+    "갑작스러운 혼란은 기다리지 않는 경계"
+  ],
+  "reader_artifact": "첫 주와 둘째 주에 발생 장면, 수면·스트레스, 일상 기능 영향, 타인이 알아챈 변화, 갑작스러운 시작 여부를 적는 2주 인지 변화 타임라인.",
+  "article_research_question": "약속·물건 위치를 잊는 일이 늘었다고 느끼는 독자가 기억력 점수와 자가진단 대신 변화의 시간·맥락·일상 기능을 어떻게 분리해 상담하는가?",
+  "reader_outcome": "첫 주와 둘째 주의 사건, 수면·스트레스, 기능 영향, 타인 관찰, 갑작스러운 시작 여부를 분리한 2주 인지 변화 타임라인을 만든다.",
+  "original_contribution": {
+    "type": "two-week-cognitive-change-timeline",
+    "description": "기억력 점수 대신 발생 시각과 생활 기능의 변화를 나란히 보여 주는 2주 시간표",
+    "source_ids": ["S1", "S2", "S3"]
+  },
+  "source_interpretation": "기억 실수와 일상 기능의 관계는 상담용 관찰 항목으로만 사용하며, 치매·섬망·인지장애를 자가 진단하지 않는다. 갑작스러운 혼란은 2주 기록을 채울 대상이 아니라 빠른 평가를 우선할 안전 경계로 둔다.",
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "National Institute on Aging",
+      "url": "https://www.nia.nih.gov/health/memory-loss-and-forgetfulness",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "기억 변화에서 시간 경과와 일상 영향, 의료진 상담의 일반적 맥락"
+    },
+    {
+      "id": "S2",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/symptoms/confusion/",
+      "published_or_updated": "2024-05-28",
+      "accessed": "2026-08-11",
+      "source_role": "official_health_service",
+      "used_for": "갑작스러운 혼란과 주의력 변화에서 기다리지 않고 평가를 받아야 하는 일반 안전 경계"
+    },
+    {
+      "id": "S3",
+      "organization": "Alzheimer's Association",
+      "url": "https://www.alz.org/alzheimers-dementia/10_signs",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "nonprofit_patient_education",
+      "used_for": "금전·약·약속 등 일상 기능에 영향을 주는 구체적 장면을 따로 관찰하는 참고"
+    },
+    {
+      "id": "S4",
+      "organization": "National Institute on Aging",
+      "url": "https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/do-memory-problems-always-mean-alzheimers-disease",
+      "published_or_updated": "2023-11-22",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "used_for": "반복 질문, 익숙한 장소에서 길을 잃음, 시간·사람·장소 혼란 등 상담에서 구체화할 변화와 단순 건망증을 혼동하지 않는 경계"
+    },
+    {
+      "id": "S5",
+      "organization": "MedlinePlus Medical Encyclopedia",
+      "url": "https://medlineplus.gov/ency/article/003257.htm",
+      "published_or_updated": "2025-11-17",
+      "accessed": "2026-08-11",
+      "source_role": "official_nih",
+      "used_for": "변화가 갑자기인지 서서히인지, 계속되는지 오가는지를 시간표에 기록해 의료진 상담의 출발점으로 삼는 맥락"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "기억 실수는 한 번의 정답으로 판정하지 않고, 시작 시점·반복·생활 영향의 맥락을 의료진에게 전달할 수 있다.",
+      "source_id": "S1",
+      "supports_section": "기억 걱정을 시간표로 바꾸는 이유"
+    },
+    {
+      "claim": "첫 주에는 사건이 있었던 시간과 그날의 수면·스트레스 같은 맥락을 같은 줄에 적되 원인으로 단정하지 않는다.",
+      "source_id": "S1",
+      "supports_section": "첫 주에 사건과 맥락을 함께 적기"
+    },
+    {
+      "claim": "둘째 주에는 횟수 경쟁보다 같은 장면이 반복되는지, 생활 영향이 새로 생기는지 비교한다.",
+      "source_id": "S1",
+      "supports_section": "둘째 주에 반복과 변화를 비교하기"
+    },
+    {
+      "claim": "돈 관리, 약 복용, 약속과 길 찾기 같은 일상 기능의 변화는 기억 점수와 별도 칸에 기록할 수 있다.",
+      "source_id": "S3",
+      "supports_section": "돈·약·약속 같은 기능 영향 표시하기"
+    },
+    {
+      "claim": "갑작스러운 혼란이나 주의력 변화는 시간표를 완성하려고 기다리지 않고 빠른 평가를 우선해야 하는 일반 안전 신호다.",
+      "source_id": "S2",
+      "supports_section": "갑작스러운 혼란은 기다리지 않는 경계"
+    },
+    {
+      "claim": "익숙한 장소에서 길을 잃음, 반복 질문, 시간·사람·장소의 혼란처럼 구체적 장면은 점수 대신 상담에서 설명할 관찰 항목이 될 수 있다.",
+      "source_id": "S4",
+      "supports_section": "둘째 주에 반복과 변화를 비교하기"
+    },
+    {
+      "claim": "기억 변화가 갑자기인지 서서히인지, 얼마나 지속되는지 또는 오가는지를 적는 일은 의료진이 병력과 증상을 확인할 때 도움이 되는 시간 정보다.",
+      "source_id": "S5",
+      "supports_section": "첫 주에 사건과 맥락을 함께 적기"
+    }
+  ],
+  "article_specific_details": [
+    {"claim": "첫 주와 둘째 주를 나누고, 사건·맥락·기능·타인 관찰·갑작스러운 시작 여부 다섯 칸을 같은 순서로 적는다.", "source_id": "S1"},
+    {"claim": "금전·약·약속의 변화는 실수의 원인을 추정하지 않고 실제로 있었던 장면과 필요한 도움만 적는다.", "source_id": "S3"}
+    ,{"claim": "반복되는 장면은 횟수 경쟁이 아니라 첫 주와 둘째 주에 같은 생활 장면이 다시 있었는지로 비교한다.", "source_id": "S4"}
+  ],
+  "ymyl_boundaries": [
+    "치매, 섬망, 인지장애, 우울증을 진단하거나 선별하지 않는다.",
+    "인지 훈련, 검사, 약물, 보충제 또는 치료를 권하지 않는다.",
+    "갑작스러운 혼란·주의력 변화는 기록보다 빠른 의료 평가를 우선한다."
+  ],
+  "fact_traceability_pass": true
+}

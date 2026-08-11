@@ -1,0 +1,127 @@
+{
+  "article_id": "a019",
+  "slug": "mood-function-signal-light",
+  "researched_at": "2026-08-11T20:10:00+09:00",
+  "ymyl_category": "health_and_suicide_safety",
+  "ymyl_review": "pass_with_crisis_boundary",
+  "research_runs": [
+    {
+      "query": "NIMH depression daily functioning usual activities symptoms official",
+      "date": "2026-08-11",
+      "purpose": "기분 자체를 진단하지 않고, 수면·식사·관계·책임 변화가 일상 기능에 미치는 영향을 기록하는 근거를 확인"
+    },
+    {
+      "query": "NIMH mental health do I need help symptoms less than two weeks official",
+      "date": "2026-08-11",
+      "purpose": "기간만으로 자가 진단하지 않으면서 증상과 기능 악화 시 도움을 구하는 일반 경계를 확인"
+    },
+    {
+      "query": "NIA depression older adults sleep appetite responsibilities social isolation official",
+      "date": "2026-08-11",
+      "purpose": "중년 이후에도 슬픔 외에 흥미 저하, 역할 수행, 수면·식사 변화가 관찰될 수 있다는 공식 환자 정보 확인"
+    },
+    {
+      "query": "Korea Ministry of Health suicide prevention hotline 109 official 2024",
+      "date": "2026-08-11",
+      "purpose": "한국 독자를 위한 위기 연결 번호와 즉시 안전 확보 원칙을 현행 공식 안내로 확인"
+    }
+  ],
+  "article_research_question": "기분 저하를 갱년기 탓으로 단정하지 않으면서, 독자가 일상 기능과 안전 생각의 변화를 신호등으로 정리해 적절한 도움 요청으로 연결하려면 무엇을 기록해야 하는가?",
+  "reader_outcome": "독자는 기분 점수나 병명 추측 대신 수면·식사·일·관계·돌봄·안전 생각을 녹색·노란색·빨간색으로 표시하고, 상담에서 말할 세 문장을 준비한다.",
+  "reader_artifact": "수면·식사·출근·돌봄·사람 만나기·안전 생각의 변화에 따라 녹색·노란색·빨간색으로 표시하는 일상 기능 신호등.",
+  "original_contribution": {
+    "type": "mood-function-signal-light",
+    "description": "우울증 선별표나 수면-기분 기간 로그 대신, 일상에서 줄어든 행동과 안전 생각을 신호등 칸에 분리해 적는 상담 준비 도구",
+    "distinction": "우울증 진단, 갱년기 원인 판정, 약물·상담 방식의 선택을 제공하지 않는다."
+  },
+  "planned_h2": [
+    "기분을 고치려 하기 전 기능을 보는 이유",
+    "녹색: 일상은 유지되지만 변화가 있는 때",
+    "노란색: 일·관계·돌봄이 줄어드는 때",
+    "빨간색: 자신을 해칠 생각 또는 안전이 흔들리는 때",
+    "도움을 요청할 때 말할 세 문장"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "National Institute of Mental Health",
+      "url": "https://www.nimh.nih.gov/health/publications/depression",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official_primary_government",
+      "used_for": "흥미·수면·식사·집중·책임 수행 변화와 일상 기능 저하를 함께 기록하는 근거"
+    },
+    {
+      "id": "S2",
+      "organization": "National Institute of Mental Health",
+      "url": "https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official_primary_government",
+      "used_for": "증상 기간과 자기돌봄 가능 여부를 진단이 아닌 도움 요청의 맥락으로 설명"
+    },
+    {
+      "id": "S3",
+      "organization": "National Institute of Mental Health",
+      "url": "https://www.nimh.nih.gov/health/publications/5-action-steps-to-help-someone-having-thoughts-of-suicide",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official_primary_government",
+      "used_for": "자해·자살 생각이 있을 때 혼자 남지 않고 즉시 도움을 연결하는 안전 원칙"
+    },
+    {
+      "id": "S4",
+      "organization": "National Institute on Aging",
+      "url": "https://www.nia.nih.gov/health/mental-and-emotional-health/depression-and-older-adults",
+      "published_or_updated": "2025-02-20",
+      "accessed": "2026-08-11",
+      "source_role": "official_primary_government",
+      "used_for": "흥미 저하, 수면·식사 변화, 일·가족 책임의 변화와 사회적 연결을 함께 살피는 근거"
+    },
+    {
+      "id": "S5",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/mental-health/conditions/depression-in-adults/diagnosis/",
+      "published_or_updated": "2023-07-05",
+      "accessed": "2026-08-11",
+      "source_role": "official_health_service",
+      "used_for": "진료에서 기분, 일상 영향, 병력과 신체 상태를 함께 묻는다는 설명의 근거"
+    },
+    {
+      "id": "S6",
+      "organization": "The Menopause Society",
+      "url": "https://menopause.org/patient-education/menopause-topics/symptoms",
+      "published_or_updated": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "specialty_society_patient_education",
+      "used_for": "갱년기 전후 기분·수면 변화는 있을 수 있으나 개인차가 크다는 배경과 인과 단정의 경계"
+    },
+    {
+      "id": "S7",
+      "organization": "대한민국 보건복지부",
+      "url": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1479607&mid=a10503010300&nPage=115&tag=",
+      "published_or_updated": "2024-01-02",
+      "accessed": "2026-08-11",
+      "source_role": "official_primary_government",
+      "used_for": "대한민국 자살예방 상담전화 109와 긴급 출동·지역 지원 연계의 공식 안내"
+    }
+  ],
+  "fact_traceability": [
+    {"supports_section": "기분을 고치려 하기 전 기능을 보는 이유", "source_ids": ["S1", "S5", "S6"], "claim_boundary": "갱년기와 우울의 원인을 판정하지 않는다."},
+    {"supports_section": "녹색: 일상은 유지되지만 변화가 있는 때", "source_ids": ["S2", "S4"], "claim_boundary": "녹색은 안전 판정이나 질병 부재를 뜻하지 않는다."},
+    {"supports_section": "노란색: 일·관계·돌봄이 줄어드는 때", "source_ids": ["S1", "S4", "S5"], "claim_boundary": "노란색은 진단 기준이 아니라 상담을 미루지 않기 위한 기록 경계다."},
+    {"supports_section": "빨간색: 자신을 해칠 생각 또는 안전이 흔들리는 때", "source_ids": ["S3", "S7"], "claim_boundary": "위기전화와 긴급 지원은 의료·응급 대응을 대체하지 않는다."},
+    {"supports_section": "도움을 요청할 때 말할 세 문장", "source_ids": ["S1", "S5", "S6"], "claim_boundary": "세 문장은 상담 준비용이며 진단이나 치료 결정을 대신하지 않는다."}
+  ],
+  "article_specific_details": [
+    "신호등의 단위는 기분 점수나 날짜가 아니라 ‘미뤄진 일 하나’, ‘줄어든 연락 하나’, ‘혼자 있기 어려운 순간 하나’처럼 실제 기능 장면이다.",
+    "빨간색 칸은 생각의 빈도나 이유를 분석하는 칸이 아니라, 지금 혼자인지·위험한 물건이나 장소에서 떨어질 수 있는지·누구에게 바로 연락할지를 적는 안전 행동 칸이다.",
+    "도움 요청 문장은 ‘언제부터’, ‘무엇이 줄었는지’, ‘안전 생각이 있는지’를 한 문장씩 말하도록 구성한다."
+  ],
+  "ymyl_boundaries": [
+    "이 글은 우울증·자살 위험을 자가 진단하거나 갱년기를 원인으로 판정하지 않는다.",
+    "자해 또는 자살 생각, 즉각적인 안전 우려가 있으면 기록을 완성하지 말고 109, 119, 112 또는 가까운 응급실·신뢰할 사람에게 즉시 도움을 요청하도록 안내한다.",
+    "약물, 호르몬 치료, 심리치료의 선택·변경·중단을 권하지 않는다."
+  ],
+  "fact_traceability_pass": true
+}

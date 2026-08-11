@@ -1,0 +1,186 @@
+{
+  "batch": "a001-a010",
+  "purpose": "Phase-B article contracts for independent research and drafting; these are not clinical guidance or publication-ready prose.",
+  "contracts": [
+    {
+      "id": "a001",
+      "slug": "family-blood-pressure-context",
+      "title": "가정혈압이 높게 나온 첫 주: 가족력과 측정 조건을 한 장에 정리하는 법",
+      "reader_situation": "집에서 잰 혈압이 며칠 높아져 가족력까지 떠올랐지만, 진료 전에 무엇을 적어야 할지 모르는 독자.",
+      "reader_artifact": "아침·저녁 측정값, 팔 위치·휴식 여부, 카페인·통증·복용약, 직계 가족의 진단 시기를 칸으로 나눈 7일 혈압 맥락 카드.",
+      "information_architecture": "측정 전 조건 점검 → 7일 기록표 작성 → 가족력 사실 구분 → 빠른 평가 신호 → 진료실 질문",
+      "intro_frame": "숫자 하나가 놀라게 했더라도 첫 주에는 결론보다 맥락이 필요합니다. 이 글은 측정 조건과 가족력을 섞지 않고 적어 진료 대화를 준비하는 방법을 다룹니다.",
+      "section_sequence": ["측정값을 보기 전 확인할 조건", "7일 카드에 남길 네 가지 사실", "가족력은 누구의 언제 진단까지 적을까", "기록을 기다리지 말아야 하는 증상", "진료실에서 카드 꺼내는 순서"],
+      "faq_plan": ["혈압계 수치가 들쑥날쑥하면 카드에는 무엇을 남기나요?", "가족의 고혈압 이야기는 얼마나 자세히 써야 하나요?", "높은 수치가 반복되면 기록만 하고 기다려도 되나요?"],
+      "cta": "오늘 한 번의 수치를 해석하려 하지 말고, 다음 측정부터 조건 한 줄과 함께 7일 카드에 적어 보세요.",
+      "non_overlap": "기존 혈압·운동·심장 글과 달리 이 글의 결과물은 ‘측정 조건과 가족력’이 붙은 7일 카드다. 고혈압 진단, 약 시작·변경, 개인 목표 수치는 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"American Heart Association","url":"https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home","claim_to_verify":"가정혈압 측정 전 휴식, 자세, 반복 측정 등 기록할 측정 조건","applicability":"성인 가정혈압 측정의 일반 원칙으로만 사용하며 개인 진단으로 확대하지 않는다.","planned_section":"측정값을 보기 전 확인할 조건"},
+        {"organization":"CDC","url":"https://www.cdc.gov/high-blood-pressure/about/index.html","claim_to_verify":"고혈압 위험 요인으로서 가족력과 의료진 상담의 맥락","applicability":"가족력은 위험 맥락을 정리하는 용도이며 개인 위험도를 산정하지 않는다.","planned_section":"가족력은 누구의 언제 진단까지 적을까"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/high-blood-pressure","claim_to_verify":"혈압 관련 증상과 의료 평가가 필요한 일반적 경계","applicability":"응급 판단을 대신하지 않고 즉시 도움을 받아야 할 상황을 안내하는 데만 쓴다.","planned_section":"기록을 기다리지 말아야 하는 증상"}
+      ]
+    },
+    {
+      "id": "a002",
+      "slug": "urgent-chest-pressure-action",
+      "title": "가슴 압박감과 식은땀이 함께 올 때: 망설이지 않기 위한 즉시 행동 카드",
+      "reader_situation": "가슴이 조이거나 눌리는 느낌과 식은땀이 함께 왔고, 혼자 판단하다 시간을 보내지 않으려는 독자.",
+      "reader_artifact": "증상 시작 시각, 동반 증상, 현재 혼자인지, 도움 요청 번호와 가족 연락처를 한 장에 둔 냉장고용 즉시 행동 카드.",
+      "information_architecture": "조합 인지 → 지금 할 행동 → 전화로 말할 핵심 정보 → 혼자 있을 때 안전 확보 → 사건 뒤 기록의 한계",
+      "intro_frame": "가슴 압박감과 식은땀은 ‘좀 더 지켜볼지’ 계산하기보다 즉시 도움을 요청할 준비가 우선인 조합일 수 있습니다. 이 글은 진단명이 아니라 망설임을 줄이는 행동 카드에 집중합니다.",
+      "section_sequence": ["카드를 꺼내야 하는 증상 조합", "혼자 있어도 먼저 할 세 가지", "119 또는 주변 사람에게 말할 문장", "운전·샤워·계단을 피해야 하는 이유", "상황이 지나간 뒤에도 남길 사실"],
+      "faq_plan": ["통증이 약해져도 도움을 요청해야 하나요?", "가족에게 어떤 정보부터 말하면 좋을까요?", "불안이나 소화 문제인지 스스로 구분할 수 있나요?"],
+      "cta": "휴대전화와 냉장고에 행동 카드를 두고, 해당 조합이 생기면 기록보다 도움 요청을 먼저 하세요.",
+      "non_overlap": "a030의 불안-회피 기록, b003의 두근거림 맥락과 달리 이 글은 현재 진행 중인 가슴 압박감+식은땀의 즉시 도움 요청만 다룬다. 공황장애·심장질환 감별은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"CDC","url":"https://www.cdc.gov/heart-disease/signs-symptoms/index.html","claim_to_verify":"심장마비에서 여성에게도 나타날 수 있는 흉부 불편감과 식은땀 등의 경고 증상","applicability":"증상 조합의 응급성을 알리는 일반 정보이며 개인별 원인을 판정하지 않는다.","planned_section":"카드를 꺼내야 하는 증상 조합"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/heart-attack/symptoms","claim_to_verify":"심장마비 의심 증상에서 응급 도움을 받도록 권하는 공식 행동 지침","applicability":"지역 응급번호와 의료 체계의 차이를 고려해 한국 독자에게는 119 안내로 번역한다.","planned_section":"혼자 있어도 먼저 할 세 가지"},
+        {"organization":"American Heart Association","url":"https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack","claim_to_verify":"여성의 심장마비 경고 징후와 지체 없이 응급 도움을 받을 필요","applicability":"전화 전 전달할 증상 정보를 정리하는 데만 사용한다.","planned_section":"119 또는 주변 사람에게 말할 문장"}
+      ]
+    },
+    {
+      "id": "a003",
+      "slug": "menopause-lipid-trend-table",
+      "title": "폐경 후 콜레스테롤 결과표: 수치 하나 대신 변화의 방향을 읽는 표",
+      "reader_situation": "폐경 전후 검사에서 LDL 등 지질 수치가 달라져 식단이나 약을 서둘러 바꾸기 전에 결과의 흐름을 보고 싶은 독자.",
+      "reader_artifact": "검사 날짜별 지질 항목, 폐경 전후 변화, 혈압·흡연·당뇨 가족력, 검사 당시 생활 변화를 나란히 놓는 추세 비교표.",
+      "information_architecture": "검사표 해석의 전제 → 과거 결과 나란히 놓기 → 위험 맥락 열 채우기 → 의료진에게 물을 질문 → 숫자가 말하지 않는 것",
+      "intro_frame": "폐경 뒤의 한 번의 콜레스테롤 결과는 걱정을 부르지만, 방향을 보려면 이전 표와 함께 읽어야 합니다. 이 글은 목표 수치 처방이 아니라 진료 전 비교표를 만드는 안내서입니다.",
+      "section_sequence": ["한 장 결과표가 충분하지 않은 이유", "이전 검사와 같은 항목끼리 맞추기", "폐경 시점과 생활 변화를 옆 칸에 쓰기", "위험 요인을 묻는 질문 세 개", "약과 식단 결정을 미루는 이유"],
+      "faq_plan": ["예전 검사표가 없으면 무엇부터 준비하나요?", "폐경이 지질 수치 변화와 어떤 관련이 있나요?", "LDL이 높으면 이 글만 보고 식단이나 약을 바꿔도 되나요?"],
+      "cta": "다음 진료 전, 최근 결과와 찾을 수 있는 과거 결과를 같은 표에 옮겨 변화의 방향부터 표시하세요.",
+      "non_overlap": "b017의 LDL 외 병력 목록과 달리 폐경 전후 ‘시간 추세’가 핵심이다. 스타틴 선택, 목표 LDL, 개인 식단은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"The Menopause Society","url":"https://menopause.org/patient-education/menopause-topics/heart-health","claim_to_verify":"폐경 전후 심혈관 위험과 지질 변화에 대한 환자용 설명","applicability":"폐경과 심혈관 건강의 일반적 연관을 설명하며 개인 위험도 계산에 사용하지 않는다.","planned_section":"폐경 시점과 생활 변화를 옆 칸에 쓰기"},
+        {"organization":"CDC","url":"https://www.cdc.gov/cholesterol/about/index.html","claim_to_verify":"콜레스테롤 검사의 기본 항목과 심혈관 위험 맥락","applicability":"결과표의 항목을 독자가 구분하도록 돕는 용도다.","planned_section":"이전 검사와 같은 항목끼리 맞추기"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/blood-cholesterol","claim_to_verify":"혈중 콜레스테롤과 심혈관 건강의 관계 및 의료진 상담의 역할","applicability":"치료 선택을 지시하지 않고 질문을 설계하는 근거로만 쓴다.","planned_section":"위험 요인을 묻는 질문 세 개"}
+      ]
+    },
+    {
+      "id": "a004",
+      "slug": "stairs-breathlessness-route",
+      "title": "계단에서만 숨이 찰 때: 운동량이 아니라 증상 경로를 기록하는 지도",
+      "reader_situation": "평지에서는 괜찮지만 특정 층수나 계단 구간에서 숨이 차고, 운동 부족으로 넘겨도 될지 고민하는 독자.",
+      "reader_artifact": "출발 층·속도·난간 사용·숨참 시작 지점·회복 시간·흉부 불편감 여부를 경로처럼 표시하는 계단 증상 지도.",
+      "information_architecture": "장면 재현 → 강도와 경로 분리 → 회복 시간 측정 → 즉시 평가 신호 → 진료 전달 메모",
+      "intro_frame": "‘계단에서 숨이 찼다’는 말만으로는 변화의 크기를 전달하기 어렵습니다. 이 글은 운동 처방 대신 어느 구간에서, 얼마나 오래, 무엇과 함께 나타났는지 그리는 지도를 제안합니다.",
+      "section_sequence": ["증상이 생긴 계단 장면 다시 떠올리기", "숨참이 시작된 구간을 지도에 표시하기", "멈춘 뒤 회복 시간을 재는 법", "가슴 통증·실신감이 더해질 때", "진료실에서 지도를 설명하는 문장"],
+      "faq_plan": ["매번 같은 계단에서만 숨이 차면 기록이 필요한가요?", "회복 시간은 어떻게 재야 하나요?", "운동을 시작해서 해결해도 되나요?"],
+      "cta": "다음 계단 이동에서 층수보다 숨참 시작 지점과 회복 시간을 한 번만 표시해 보세요.",
+      "non_overlap": "가슴 압박감 응급 카드(a002)와 달리 활동 중 증상 경로와 회복 시간을 다룬다. 심장·호흡기 질환 추정이나 운동 처방은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"MedlinePlus (NIH/NLM)","url":"https://medlineplus.gov/ency/article/003075.htm","claim_to_verify":"계단처럼 가벼운 활동에서도 나타나는 호흡곤란, 흉부 불편감·실신감 등에서 의료 평가가 필요한 일반적 경계","applicability":"원인 질환을 단정하지 않고 활동 장면·회복과 함께 의료 평가가 필요한 신호를 구분하는 데만 사용한다.","planned_section":"가슴 통증·실신감이 더해질 때"},
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/shortness-of-breath/","claim_to_verify":"호흡곤란에서 진료·응급 평가가 필요한 일반적 기준","applicability":"국가별 의료 접근 차이를 고려해 증상 인지 원칙만 사용한다.","planned_section":"증상이 생긴 계단 장면 다시 떠올리기"},
+        {"organization":"American Lung Association","url":"https://www.lung.org/lung-health-diseases/lung-disease-lookup/shortness-of-breath","claim_to_verify":"호흡곤란을 활동 장면과 동반 증상으로 설명하는 환자용 관찰 관점","applicability":"진료 전달용 기록의 항목을 설계하는 데만 사용한다.","planned_section":"진료실에서 지도를 설명하는 문장"}
+      ]
+    },
+    {
+      "id": "a005",
+      "slug": "one-sided-ankle-swelling-observation",
+      "title": "한쪽 발목이 붓는 날: 좌우 차이와 시작 시점을 적는 관찰표",
+      "reader_situation": "신발이 한쪽만 답답할 정도로 발목이나 종아리가 부었고, 오래 서서 그런 것인지 평가가 필요한지 판단하고 싶은 독자.",
+      "reader_artifact": "좌우 발목·종아리 모양, 붓기 시작 시각, 통증·열감·피부색, 호흡 증상을 같은 행에 적는 좌우 비교 관찰표.",
+      "information_architecture": "양쪽 비교 → 시간 흐름 → 촉감·색 변화 → 즉시 평가 기준 → 사진과 메모의 안전한 사용",
+      "intro_frame": "붓기는 양쪽이 같은지, 언제 시작됐는지에 따라 전달해야 할 정보가 달라집니다. 이 글은 집에서 원인을 추정하는 대신 좌우 차이와 위험 신호를 놓치지 않는 관찰표를 만듭니다.",
+      "section_sequence": ["양말 자국보다 먼저 볼 좌우 차이", "시작 시각과 하루 중 변화를 적기", "열감·통증·피부색을 따로 표시하기", "호흡 증상과 함께 나타날 때의 행동", "사진을 진료에 쓰되 판단에 쓰지 않는 법"],
+      "faq_plan": ["양쪽 발목이 모두 부으면 이 표가 필요 없나요?", "발목 사진만 찍어도 상담에 도움이 되나요?", "마사지나 압박 양말을 먼저 써도 되나요?"],
+      "cta": "오늘은 좌우 발목을 같은 시간에 보고, 시작 시각과 동반 증상만 표에 남긴 뒤 위험 신호가 있으면 바로 도움을 받으세요.",
+      "non_overlap": "다리 운동·낙상 글과 달리 한쪽 부종의 좌우 비교와 급성 경고 신호가 중심이다. 혈전 여부, 이뇨제·압박요법 선택은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/oedema/","claim_to_verify":"부종에서 한쪽 또는 갑작스러운 변화와 평가 필요 신호","applicability":"자가 진단 없이 의료 평가가 필요한 패턴을 설명하는 데만 사용한다.","planned_section":"시작 시각과 하루 중 변화를 적기"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/venous-thromboembolism","claim_to_verify":"심부정맥혈전증·폐색전증에서 다리 증상 및 호흡 증상의 경고 조합","applicability":"혈전 여부를 판정하지 않고 즉시 평가가 필요한 조합을 알리는 데만 쓴다.","planned_section":"호흡 증상과 함께 나타날 때의 행동"},
+        {"organization":"Mayo Clinic","url":"https://www.mayoclinic.org/diseases-conditions/edema/symptoms-causes/syc-20366493","claim_to_verify":"부종의 관찰 가능한 증상과 진료 전 기록 요소","applicability":"독자 관찰표의 항목을 정하는 보조 자료로 사용한다.","planned_section":"사진을 진료에 쓰되 판단에 쓰지 않는 법"}
+      ]
+    },
+    {
+      "id": "a006",
+      "slug": "fasting-glucose-sleepiness-log",
+      "title": "공복혈당 경계와 식후 졸림: 3일 생활 맥락 기록지",
+      "reader_situation": "검진에서 공복혈당 경계라는 말을 들었고, 식사 뒤 심한 졸림까지 있어 재검 전 생활 맥락을 정리하고 싶은 독자.",
+      "reader_artifact": "식사 시각·구성, 졸림 시작·지속 시간, 전날 수면, 카페인·음주, 활동량을 하루 한 줄로 적는 3일 생활 맥락 기록지.",
+      "information_architecture": "검사 수치와 증상 분리 → 3일 관찰 시작 → 식사 뒤 졸림 묘사 → 수면·음주 교란 요인 → 재검 질문 묶기",
+      "intro_frame": "공복혈당 경계와 식후 졸림이 함께 있어도 한 가지 원인으로 묶을 수는 없습니다. 이 글은 혈당을 자주 재라는 처방이 아니라 재검 때 설명할 3일의 생활 맥락을 만드는 방법입니다.",
+      "section_sequence": ["검사 결과와 오후 졸림을 한 줄에 결론내리지 않기", "첫날: 식사 시각과 졸림의 시작", "둘째 날: 전날 잠과 카페인까지 함께 적기", "셋째 날: 반복되는 장면 찾기", "재검에서 물을 질문 묶기"],
+      "faq_plan": ["식후 졸림 시간은 몇 분 단위로 적어야 하나요?", "공복혈당 경계면 집에서 혈당을 재야 하나요?", "식단을 크게 바꾸기 전에 무엇을 의료진에게 물어야 하나요?"],
+      "cta": "다음 3일 동안 식사 양을 평가하지 말고 시각·졸림·전날 잠만 같은 방식으로 적어 재검 질문을 만드세요.",
+      "non_overlap": "b018의 공복혈당 단독 결과와 달리 이 글은 식후 졸림의 3일 생활 맥락을 다룬다. 당뇨 확진과 자가혈당 측정 처방은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"CDC","url":"https://www.cdc.gov/diabetes/about/about-prediabetes.html","claim_to_verify":"당뇨 전단계의 의미와 검사 기반 확인의 원칙","applicability":"공복혈당 경계의 일반적 맥락만 설명하고 개인 진단은 하지 않는다.","planned_section":"검사 결과와 오후 졸림을 한 줄에 결론내리지 않기"},
+        {"organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance","claim_to_verify":"당뇨 전단계·인슐린 저항성과 재검·상담의 역할","applicability":"검사 결과를 의료진과 논의할 필요를 설명하는 데만 쓴다.","planned_section":"재검에서 물을 질문 묶기"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/sleep-deprivation","claim_to_verify":"수면 부족이 낮 기능과 졸림에 미칠 수 있는 영향","applicability":"졸림의 원인을 단정하지 않고 기록할 교란 요인을 정하는 데 사용한다.","planned_section":"둘째 날: 전날 잠과 카페인까지 함께 적기"}
+      ]
+    },
+    {
+      "id": "a007",
+      "slug": "unintended-weight-loss-bundle",
+      "title": "원치 않는 체중 감소가 있을 때: ‘갱년기 탓’ 전에 확인할 변화 묶음",
+      "reader_situation": "체중을 줄이려 하지 않았는데 옷이 헐거워지고, 갱년기나 스트레스로 넘겨도 되는지 망설이는 독자.",
+      "reader_artifact": "체중 변화 시작점, 감량 의도, 식욕·배변·발열·통증·피로, 복용약 변화, 일상 기능을 묶어 보는 변화 묶음 메모.",
+      "information_architecture": "의도 확인 → 시간선 만들기 → 동반 변화 묶기 → 빠른 상담 신호 → 진료에서 빠뜨리지 않을 정보",
+      "intro_frame": "원하지 않은 체중 감소는 체중계 숫자만의 문제가 아닐 수 있습니다. 이 글은 ‘갱년기 탓’이라고 결론내리기 전에 어떤 변화를 함께 적어 상담으로 연결할지 정리합니다.",
+      "section_sequence": ["체중 감소에 ‘의도’ 칸을 먼저 넣는 이유", "언제부터 달라졌는지 시간선 그리기", "식욕·배변·열·통증을 한 묶음으로 보기", "빠르게 상담해야 할 변화", "진료실에 가져갈 변화 묶음 메모"],
+      "faq_plan": ["체중계가 없어도 변화를 기록할 수 있나요?", "갱년기 증상과 체중 감소를 어떻게 구분하나요?", "목표 체중을 정해 식사를 늘리면 해결되나요?"],
+      "cta": "오늘은 몸무게를 평가하지 말고, 감소가 원했던 일인지와 함께 달라진 기능·식욕·배변을 한 장에 적으세요.",
+      "non_overlap": "체중 관리·저녁 폭식 글과 달리 ‘원치 않은 감소’에 동반된 변화 묶음이 주제다. 원인 질환과 목표 체중은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/unintentional-weight-loss/","claim_to_verify":"의도하지 않은 체중 감소에서 의료 상담이 필요한 일반적 상황","applicability":"특정 질환을 추정하지 않고 상담 시점을 안내하는 데만 사용한다.","planned_section":"빠르게 상담해야 할 변화"},
+        {"organization":"Mayo Clinic","url":"https://www.mayoclinic.org/symptoms/unexplained-weight-loss/basics/definition/sym-20050700","claim_to_verify":"설명되지 않는 체중 감소의 정의와 진료 필요성","applicability":"독자가 ‘원치 않은 변화’를 설명하는 언어를 만드는 보조 자료로 쓴다.","planned_section":"체중 감소에 ‘의도’ 칸을 먼저 넣는 이유"},
+        {"organization":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/treatment/side-effects/appetite-loss/nutrition-pdq","claim_to_verify":"식욕 변화와 영양 상태를 진료에서 전달할 때의 관찰 관점","applicability":"암을 암시하거나 진단하지 않고 식욕·기능 기록 항목을 정하는 데만 사용한다.","planned_section":"식욕·배변·열·통증을 한 묶음으로 보기"}
+      ]
+    },
+    {
+      "id": "a008",
+      "slug": "fatty-liver-visit-questions",
+      "title": "지방간 소견을 들은 뒤: 술 한 가지만 묻지 않는 진료 질문 순서",
+      "reader_situation": "건강검진에서 지방간 소견을 들었고 음주량만 답하다 끝나지 않도록 다음 진료에서 무엇을 우선 질문할지 준비하려는 독자.",
+      "reader_artifact": "검사 날짜·간 수치 변화·음주 패턴·체중·혈당·지질·복용약을 질문 순서에 맞춰 적는 진료 질문 우선순위 카드.",
+      "information_architecture": "소견의 범위 → 질문 순서 설계 → 대사 맥락 수집 → 검사 추세 확인 → 진료실 대화 마무리",
+      "intro_frame": "지방간 소견 뒤에 ‘술을 얼마나 마시나요’만 묻고 끝내면 다음 대화가 좁아질 수 있습니다. 이 글은 음주를 포함하되 검사 추세와 대사 맥락을 함께 꺼내는 질문 카드에 집중합니다.",
+      "section_sequence": ["검진 문구를 진단명으로 읽지 않기", "첫 질문: 검사와 추적 계획", "둘째 질문: 혈당·지질·체중의 맥락", "셋째 질문: 음주와 복용품을 말하는 법", "질문 카드로 진료를 마무리하는 법"],
+      "faq_plan": ["지방간 소견만 있으면 추가 검사가 필요한가요?", "음주하지 않아도 질문 카드가 필요한가요?", "보조제와 건강식품도 적어야 하나요?"],
+      "cta": "검진 결과지를 꺼내고, 술·체중·혈당·복용품을 한 칸씩만 채운 질문 카드를 다음 진료에 가져가세요.",
+      "non_overlap": "식단·음주 행동 변화 글과 달리 이 글은 지방간 소견 뒤 ‘진료 질문의 순서’가 산출물이다. 간 섬유화 단계와 개인별 음주 허용량은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash","claim_to_verify":"비알코올성 지방간 질환의 대사 위험 요인과 의료 평가의 일반적 맥락","applicability":"지방간 소견을 단정적 진단으로 바꾸지 않고 질문 항목을 정하는 데 사용한다.","planned_section":"둘째 질문: 혈당·지질·체중의 맥락"},
+        {"organization":"American Liver Foundation","url":"https://liverfoundation.org/liver-diseases/fatty-liver-disease/","claim_to_verify":"지방간 질환에서 음주 외 대사 요인을 함께 고려하는 환자용 설명","applicability":"개인별 간 질환 단계나 음주 허용량을 제시하지 않는다.","planned_section":"셋째 질문: 음주와 복용품을 말하는 법"},
+        {"organization":"Mayo Clinic","url":"https://www.mayoclinic.org/diseases-conditions/nonalcoholic-fatty-liver-disease/symptoms-causes/syc-20354567","claim_to_verify":"지방간 질환의 검사·진료 평가에 대한 개요","applicability":"검진 문구의 한계와 추적 질문을 설명하는 보조 자료로 쓴다.","planned_section":"첫 질문: 검사와 추적 계획"}
+      ]
+    },
+    {
+      "id": "a009",
+      "slug": "borderline-thyroid-context-note",
+      "title": "경계 갑상선 수치와 피로: 검사 날짜·복용 보조제를 분리하는 메모",
+      "reader_situation": "갑상선 검사 수치가 경계라는 말을 들었고 피로·두근거림·체중 변화가 있어 복용 중인 보조제까지 어떻게 설명할지 고민하는 독자.",
+      "reader_artifact": "검사 날짜·수치 항목·증상 시작일·처방약·건강기능식품·비오틴 등 보조제를 서로 다른 열에 적는 검사 날짜-복용품 분리 메모.",
+      "information_architecture": "수치와 증상 분리 → 날짜 열 만들기 → 복용품 열 만들기 → 재검 전 확인 → 해석을 의료진에게 넘기기",
+      "intro_frame": "피로가 있다고 경계 갑상선 수치가 곧 원인이라는 뜻은 아닙니다. 이 글은 검사표와 복용품을 한 문장에 섞지 않고, 재평가 때 필요한 날짜 정보를 분리하는 메모를 만듭니다.",
+      "section_sequence": ["검사표와 몸 느낌을 즉시 연결하지 않기", "날짜 열: 검사와 증상의 순서", "복용품 열: 처방약·보조제·변경 시점", "재검 전에 확인할 세 가지", "결과 해석을 맡길 질문"],
+      "faq_plan": ["비오틴 같은 보조제도 꼭 적어야 하나요?", "피로가 심하면 수치를 기다리지 말고 상담해야 하나요?", "이전 검사 결과가 없으면 무엇을 준비하나요?"],
+      "cta": "다음 검사 전, 복용품 이름보다 시작·중단 날짜를 먼저 메모의 별도 열에 옮기세요.",
+      "non_overlap": "일반 피로·폐경 글과 달리 이 글은 검사 날짜와 복용 보조제를 분리하는 기록법에 한정된다. 갑상선 질환 확진과 호르몬 조절은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism","claim_to_verify":"갑상선 기능저하증 검사와 증상의 일반적 관계, 의료진 평가의 필요성","applicability":"개별 수치를 진단하지 않고 검사·증상 메모의 목적을 설명하는 데 사용한다.","planned_section":"검사표와 몸 느낌을 즉시 연결하지 않기"},
+        {"organization":"American Thyroid Association","url":"https://www.thyroid.org/thyroid-function-tests/","claim_to_verify":"갑상선 기능검사 항목과 해석의 의료적 맥락","applicability":"검사표 항목을 구분하는 정보로만 사용하며 목표 수치를 제시하지 않는다.","planned_section":"결과 해석을 맡길 질문"},
+        {"organization":"FDA","url":"https://www.fda.gov/medical-devices/in-vitro-diagnostics/biotin-interference-troponin-lab-tests-assays-subject-biotin-interference","claim_to_verify":"비오틴이 일부 검사실 검사 결과에 간섭할 수 있어 복용 사실을 검사 전 의료진·검사실에 알릴 필요가 있다는 FDA 안전 정보","applicability":"복용품을 기록하고 검사 전 의료진에게 알릴 필요를 설명하며, 임의 중단·갑상선 검사 결과 해석 지시를 하지 않는다.","planned_section":"복용품 열: 처방약·보조제·변경 시점"}
+      ]
+    },
+    {
+      "id": "a010",
+      "slug": "evening-eating-pattern-timeline",
+      "title": "저녁 폭식을 후회할 때: 의지 평가 대신 하루의 공백을 돌아보는 타임라인",
+      "reader_situation": "저녁에 많이 먹은 뒤 자신을 탓하지만, 낮 식사 공백·수면·스트레스가 어떻게 이어졌는지 차분히 보고 싶은 독자.",
+      "reader_artifact": "기상부터 취침까지 식사 간격, 배고픔 강도, 업무·돌봄 스트레스, 수면 시간, 저녁 섭취 뒤 느낌을 시간축에 올리는 하루 공백 타임라인.",
+      "information_architecture": "후회 언어 멈추기 → 하루 시간축 복원 → 공백과 감정의 접점 찾기 → 작은 환경 조정 → 도움 신호 구분",
+      "intro_frame": "저녁 폭식을 의지 문제로 판정하면 다음 날의 패턴을 보기 어려워집니다. 이 글은 체중 감량 식단을 제시하지 않고, 하루의 공백과 스트레스를 시간축에 올려 다음 행동을 고르는 방법을 다룹니다.",
+      "section_sequence": ["후회 문장을 관찰 문장으로 바꾸기", "기상부터 저녁까지 빈칸 찾기", "배고픔과 스트레스가 만난 시점 표시하기", "다음 날에 시험할 작은 환경 조정", "통제가 어렵거나 고통이 클 때 도움 신호"],
+      "faq_plan": ["하루 한 번만 기록해도 패턴이 보이나요?", "저녁에 먹은 양을 칼로리로 계산해야 하나요?", "폭식이 반복되면 혼자 식단부터 더 조여야 하나요?"],
+      "cta": "오늘 밤에는 섭취량 점수 대신 마지막 식사와 첫 강한 허기가 온 시각을 타임라인에 표시해 보세요.",
+      "non_overlap": "a007의 원치 않는 체중 감소, 일반 다이어트 글과 달리 이 글은 저녁 섭취 전 하루 공백의 시간축이 핵심이다. 섭식장애 진단과 체중감량 식단은 답하지 않는다.",
+      "evidence_targets": [
+        {"organization":"NIMH","url":"https://www.nimh.nih.gov/health/topics/eating-disorders","claim_to_verify":"섭식장애의 경고 신호와 전문적 도움의 필요성","applicability":"독자의 반복적 고통·통제 어려움에서 도움 신호를 안내하며 진단하지 않는다.","planned_section":"통제가 어렵거나 고통이 클 때 도움 신호"},
+        {"organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/just-enough-food-portions","claim_to_verify":"규칙적 식사와 식사 계획을 다루는 환자용 건강정보의 범위","applicability":"개인별 칼로리·감량 식단을 처방하지 않고 시간 기록의 맥락만 확인한다.","planned_section":"기상부터 저녁까지 빈칸 찾기"},
+        {"organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/sleep-deprivation","claim_to_verify":"수면 부족과 식욕·낮 기능에 관한 일반 건강 영향","applicability":"수면을 단일 원인으로 단정하지 않고 타임라인의 기록 항목으로 사용한다.","planned_section":"배고픔과 스트레스가 만난 시점 표시하기"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "article_id": "a022",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {
+      "query": "국가암검진 대장암 분변잠혈검사 잠혈반응 있음 대장내시경",
+      "date": "2026-08-11",
+      "purpose": "국내 국가암검진의 후속 검사 경로 확인"
+    },
+    {
+      "query": "CDC colorectal cancer screening positive stool test colonoscopy follow-up",
+      "date": "2026-08-11",
+      "purpose": "선별검사 양성 뒤 후속 대장내시경의 역할 확인"
+    },
+    {
+      "query": "NCI stool test positive colonoscopy screening fact sheet",
+      "date": "2026-08-11",
+      "purpose": "대변 기반 검사와 직접 관찰 검사의 구분 확인"
+    },
+    {
+      "query": "NHS bowel cancer screening further tests needed result appointment colonoscopy",
+      "date": "2026-08-11",
+      "purpose": "결과 안내와 예약·증상 분리라는 독자 행동 경로 점검"
+    }
+  ],
+  "article_research_question": "대변검사 양성 문자를 받은 사람이 결과를 암 확진으로 단정하지 않으면서, 어떤 정보로 다음 예약과 새 증상 연락을 분리해 놓치지 않을 수 있는가?",
+  "reader_outcome": "결과 문자 날짜·검사 이름·안내문 링크·예약 기관·예약일·새 증상·질문을 한 장의 결과-예약 체크리스트에 적는다.",
+  "search_intent_insight": "독자는 양성의 의학적 의미를 단정해 주는 글보다, 문자 수신 직후 예약과 연락 정보를 어떻게 정리할지 찾는다.",
+  "competitor_gap": "일반 결과 설명은 양성이 확진이 아니라는 문장에서 끝나기 쉽다. 이 글은 문자 원문, 예약 상태, 새 증상, 진료 질문을 서로 다른 칸에 두어 실제 후속 연결을 돕는다.",
+  "information_gain": "검사 종류나 암 가능성을 추정하는 대신 ‘문자-예약-증상’ 세 갈래를 섞지 않는 한 장의 기록 도구를 제시한다.",
+  "unique_angle": "결과 문자 날짜·검사 이름·안내문 링크·예약 기관·예약일·새 증상·질문을 연결한 결과-예약 체크리스트.",
+  "angle_supporting_detail": {
+    "claim": "국내 국가암검진에서는 분변잠혈검사에 잠혈반응이 있으면 추가검사로 대장내시경을 실시한다고 안내한다.",
+    "source_id": "S1"
+  },
+  "original_contribution": {
+    "type": "result-to-appointment-checklist",
+    "description": "양성 문자의 해석, 후속 예약, 새 증상 연락을 한 칸에 합치지 않는 결과-예약 체크리스트",
+    "source_ids": ["S1", "S2", "S3", "S4"]
+  },
+  "source_interpretation": "S1은 국내 검진의 ‘잠혈반응 있음→추가 대장내시경’ 경로를 확인하는 데만 쓴다. S2와 S3은 대변 기반 선별검사 양성이 후속 대장내시경으로 완성된다는 원칙을 뒷받침하되, 개인 결과나 암 가능성을 예측하지 않는다. S4는 추가 검사가 필요하다는 결과가 나온 뒤 예약 상담이 이어지는 행정 흐름을 보여 주되, 영국 프로그램의 숫자·전화번호·대상 기준은 한국 독자에게 적용하지 않는다. S5와 S6은 선별검사가 증상이 없는 사람을 위한 과정이며 증상은 별도 진료 경로라는 경계를 확인하는 데 쓴다.",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "검진주기 및 검진방법",
+      "organization": "국가암정보센터 국가암관리교육",
+      "url": "https://edu.cancer.go.kr/lay1/S1T553C555/contents.do",
+      "source_date": "2024-02-07",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "국가암검진 대장암 기본검사와 잠혈반응 후 추가 대장내시경 안내"
+    },
+    {
+      "id": "S2",
+      "title": "Screening for Colorectal Cancer",
+      "organization": "CDC",
+      "url": "https://www.cdc.gov/colorectal-cancer/screening/index.html",
+      "source_date": "2026-06-17",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "대변검사 양성·이상 결과가 선별 과정을 완료하려면 대장내시경이 필요하다는 설명"
+    },
+    {
+      "id": "S3",
+      "title": "Screening Tests to Detect Colorectal Cancer and Polyps",
+      "organization": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/colorectal/screening-fact-sheet",
+      "source_date": "2024-10-29",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "대변검사는 눈에 보이지 않는 혈액을 확인하며 양성 소견 뒤 대장내시경이 권고된다는 환자용 설명"
+    },
+    {
+      "id": "S4",
+      "title": "Your guide to NHS bowel cancer screening",
+      "organization": "NHS England",
+      "url": "https://www.england.nhs.uk/long-read/your-guide-to-nhs-bowel-cancer-screening/",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "undated",
+      "used_for": "추가 검사가 필요하다는 결과 뒤 상담 예약과 대장내시경 설명이 이어지는 흐름의 보조 맥락"
+    },
+    {
+      "id": "S5",
+      "title": "Recommendation: Colorectal Cancer: Screening",
+      "organization": "U.S. Preventive Services Task Force",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening",
+      "source_date": "2021-05-18",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "old",
+      "used_for": "선별검사가 무증상 평균위험 성인을 대상으로 한 예방 서비스라는 경계 확인"
+    },
+    {
+      "id": "S6",
+      "title": "Tests and next steps for bowel cancer",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/conditions/bowel-cancer/tests-and-next-steps/",
+      "source_date": "undated",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "undated",
+      "used_for": "증상이 있는 사람은 선별검사와 다른 진료 평가 경로가 필요하다는 보조 설명"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "국가암검진 대장암 기본검사는 분변잠혈검사이며, 잠혈반응이 있으면 추가검사로 대장내시경을 실시한다고 안내한다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2024-02-07",
+      "supports_section": "대변검사 양성은 확진이 아니라 후속 확인의 출발점"
+    },
+    {
+      "claim": "CDC는 대변검사를 포함한 일부 선별검사에서 양성 또는 이상 결과가 나오면 선별 과정을 완료하기 위해 대장내시경이 필요하다고 설명한다.",
+      "source_id": "S2",
+      "claim_type": "procedure",
+      "source_date": "2026-06-17",
+      "supports_section": "대변검사 양성은 확진이 아니라 후속 확인의 출발점"
+    },
+    {
+      "claim": "NCI는 대변검사가 눈에 보이지 않는 혈액을 확인하며, 양성 소견이 있는 사람에게 대장내시경을 권한다고 설명한다.",
+      "source_id": "S3",
+      "claim_type": "procedure",
+      "source_date": "2024-10-29",
+      "supports_section": "결과-예약 체크리스트를 한 장으로 만들기"
+    },
+    {
+      "claim": "NHS England는 추가 검사가 필요하다는 결과가 나오면 대장내시경을 논의할 예약을 제안한다고 안내한다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "source_date": "undated",
+      "supports_section": "예약이 실제로 연결됐는지 확인하는 순서"
+    },
+    {
+      "claim": "USPSTF 권고는 대장암 선별검사를 무증상 평균위험 성인을 위한 예방 권고로 다룬다.",
+      "source_id": "S5",
+      "claim_type": "policy",
+      "source_date": "2021-05-18",
+      "supports_section": "새 증상은 검진 예약과 별도로 알리기"
+    },
+    {
+      "claim": "NHS는 대장암이 의심되는 증상이 있으면 전문 평가를 위한 검사가 이어질 수 있다고 설명한다.",
+      "source_id": "S6",
+      "claim_type": "procedure",
+      "source_date": "undated",
+      "supports_section": "새 증상은 검진 예약과 별도로 알리기"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "결과 문자 원문에서 날짜·검사 이름·안내문 링크를 보존하고, 예약 기관·예약일·새 증상·질문은 별도 칸에 적는다.",
+      "source_id": "S4"
+    },
+    {
+      "claim": "국내 분변잠혈검사 ‘잠혈반응 있음’ 뒤의 추가 대장내시경이라는 경로를 개인 암 진단이 아니라 예약 확인 항목으로 바꿔 기록한다.",
+      "source_id": "S1"
+    }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "국가·기관별 대상 연령, 연락 방식, 예약 절차는 다를 수 있어 기사에서 영국 프로그램의 수치나 연락처를 한국 독자에게 적용하지 않았다."
+}

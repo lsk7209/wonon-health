@@ -4,18 +4,16 @@ import { Disclaimer } from '../../../components/disclaimer';
 import { LongformArticle } from '../../../components/longform-article';
 import { SiteFooter } from '../../../components/site-footer';
 import { SiteHeader } from '../../../components/site-header';
-import { articleGuides, articles, getArticle } from '../../../content/editorial';
+import { articleGuides, getArticle, isPublicArticle } from '../../../content/editorial';
 import { getLongformArticle } from '../../../content/longform';
 
 type Props = { params: Promise<{ slug: string }> };
+export const dynamic = 'force-dynamic';
 
-export function generateStaticParams() {
-  return articles.map(({ slug }) => ({ slug }));
-}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticle((await params).slug);
-  if (!article) return {};
+  if (!article || !isPublicArticle(article.slug)) return { robots: { index: false, follow: false } };
   return {
     title: article.title,
     description: article.summary,
@@ -32,13 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArticlePage({ params }: Props) {
   const article = getArticle((await params).slug);
-  if (!article) notFound();
+  if (!article || !isPublicArticle(article.slug)) notFound();
 
   const guide = articleGuides[article.slug];
   const longform = article.longform ? getLongformArticle(article.slug) : undefined;
   if (article.longform && !longform) throw new Error(`Missing long-form draft for ${article.slug}`);
   const longformCitations = longform
-    ? [...new Set([...longform.body.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map((match) => match[1]))]
+    ? [...new Set([...longform.body.matchAll(/https?:\/\/[^\s)\]}>,]+/g)].map((match) => match[0]))]
     : [];
 
   const jsonLd = {

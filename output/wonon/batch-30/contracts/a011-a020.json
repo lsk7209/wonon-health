@@ -1,0 +1,166 @@
+{
+  "batch": "a011-a020",
+  "purpose": "Hand-authored Phase-B contracts only. Evidence URLs are specific official-document targets and must be freshly verified during research.",
+  "contracts": [
+    {
+      "id":"a011","slug":"stair-knee-response-table","title":"계단에서 무릎이 아플 때: 오르기와 내려가기 반응을 나누는 표",
+      "reader_situation":"계단을 오르거나 내려갈 때 무릎 반응이 다르지만 통증 점수만으로 설명해 온 독자.",
+      "reader_artifact":"오르기·내려가기별 통증 위치, 붓기, 휘청임, 다음 날 영향, 난간 사용을 마주 보게 둔 계단 반응표.",
+      "information_architecture":"동작 비교 → 오르기 관찰 → 내려가기 관찰 → 중단·평가 신호 → 상담용 한 문단",
+      "intro_frame":"무릎이 아프다는 말보다 ‘오를 때와 내려갈 때 무엇이 달랐는지’가 진료에 더 쓸모 있을 수 있습니다. 이 글은 치료법 대신 계단 반응을 나눠 적는 표를 만듭니다.",
+      "section_sequence":["통증 점수만으로 놓치는 계단 장면","오를 때 남길 네 칸","내려갈 때 별도로 볼 세 칸","붓기·잠김·휘청임이 더해질 때","표를 읽어 주는 상담 문장"],
+      "faq_plan":["오르기와 내려가기 모두 아프면 표를 어떻게 쓰나요?","운동 뒤 통증도 따로 표시해야 하나요?","무릎 보호대나 진통제를 먼저 정해도 되나요?"],
+      "cta":"다음 계단 이동 한 번에서 오르기와 내려가기를 따로 체크해, 같은 표의 빈칸을 채워 보세요.",
+      "non_overlap":"허리 통증·낙상 글과 달리 계단의 두 방향 반응 비교가 유일한 산출물이다. 관절염 진단, 운동·진통제 처방은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIAMS","url":"https://www.niams.nih.gov/health-topics/osteoarthritis","exact_verification_question":"무릎에서 통증·뻣뻣함·버클링과 계단 오르기 같은 기능 변화는 환자용 정보에서 어떤 관찰 항목으로 설명되는가?","applicability":"골관절염을 진단하지 않고 계단 반응표의 통증·불안정·기능 항목을 정하는 데만 사용한다.","planned_section":"오를 때 남길 네 칸"},
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/knee-pain/","exact_verification_question":"무릎 통증과 함께 나타날 때 신속한 진료 또는 응급 평가가 필요한 증상은 무엇인가?","applicability":"중단·평가 신호를 구분하는 일반 안내로만 사용한다.","planned_section":"붓기·잠김·휘청임이 더해질 때"},
+        {"organization":"Mayo Clinic","url":"https://www.mayoclinic.org/symptoms/knee-pain/basics/when-to-see-doctor/sym-20050688","exact_verification_question":"무릎 통증에서 진료 시점을 결정할 때 확인할 기능 저하와 급성 변화는 무엇인가?","applicability":"개별 치료 선택 없이 상담 필요성의 경계를 설명한다.","planned_section":"표를 읽어 주는 상담 문장"}
+      ]
+    },
+    {
+      "id":"a012","slug":"morning-finger-stiffness-context-log","title":"손가락이 아픈 아침: 붓기 지속 시간과 반복 작업을 분류하는 기록",
+      "reader_situation":"아침에 손가락이 뻣뻣하거나 붓는데 집안일·키보드 작업과의 관계를 말하기 어려운 독자.",
+      "reader_artifact":"손가락 위치, 아침 뻣뻣함 지속 시간, 좌우, 반복 작업, 물건 쥐기 어려움, 열감을 분리한 증상 분류 기록.",
+      "information_architecture":"손가락 지도 → 아침 시간축 → 좌우 대조 → 반복 작업 연결 → 진료 질문 조립",
+      "intro_frame":"손가락 통증을 ‘손을 많이 써서’라고만 적으면 변화가 흐려집니다. 이 글은 아침의 지속 시간과 반복 작업을 나누어 상담 메모로 바꾸는 방법을 다룹니다.",
+      "section_sequence":["어느 손가락인지 먼저 표시하기","아침 뻣뻣함의 끝 시각 적기","왼쪽과 오른쪽을 같은 기준으로 보기","반복 작업 뒤 달라지는지 확인하기","물건을 놓치는 변화까지 질문에 넣기"],
+      "faq_plan":["손가락이 여러 개 아프면 한 장에 적어도 되나요?","아침 뻣뻣함은 어느 정도까지 재야 하나요?","보호대 종류를 기록으로 결정할 수 있나요?"],
+      "cta":"내일 아침에는 아픈 손가락과 편해진 시각만 먼저 적어, 작업과의 관계는 나중에 덧붙이세요.",
+      "non_overlap":"무릎·어깨 글과 달리 손가락의 아침 지속 시간과 반복 손 사용이 중심이다. 류머티즘 질환 진단과 보호대 선택은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIAMS","url":"https://www.niams.nih.gov/health-topics/rheumatoid-arthritis","exact_verification_question":"손·손가락 관절에서 통증, 부기, 아침 뻣뻣함을 의료진에게 전달할 때 유용한 관찰 항목은 무엇인가?","applicability":"류머티즘 관절염을 암시하거나 진단하지 않고 기록 항목만 확인한다.","planned_section":"아침 뻣뻣함의 끝 시각 적기"},
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/joint-pain/","exact_verification_question":"관절 통증에서 신속한 진료를 고려해야 할 붓기·열감·기능 저하 신호는 무엇인가?","applicability":"응급 여부를 단정하지 않는 일반적 안전 경계로 사용한다.","planned_section":"물건을 놓치는 변화까지 질문에 넣기"},
+        {"organization":"MedlinePlus","url":"https://medlineplus.gov/handinjuriesanddisorders.html","exact_verification_question":"손 기능 변화와 손 통증을 설명할 때 일상 동작을 어떻게 관찰할 수 있는가?","applicability":"작업 연관성을 기록하는 환자용 언어의 보조 자료로만 쓴다.","planned_section":"반복 작업 뒤 달라지는지 확인하기"}
+      ]
+    },
+    {
+      "id":"a013","slug":"shoulder-range-daily-actions","title":"어깨가 굳는 느낌: 세 가지 일상 동작으로 제한 범위를 설명하는 법",
+      "reader_situation":"어깨가 불편하지만 통증 숫자 대신 실제로 어려워진 동작을 진료에서 말하고 싶은 독자.",
+      "reader_artifact":"머리 감기, 뒤주머니·등 뒤 닿기, 선반 물건 꺼내기에서 가능한 범위와 보상 동작을 적는 일상 동작 범위 카드.",
+      "information_architecture":"불편 장면 선택 → 세 동작 시연 → 변화 추적 → 빠른 평가 신호 → 진료 설명문",
+      "intro_frame":"‘어깨가 굳었다’는 말은 사람마다 다른 장면을 뜻합니다. 이 글은 통증 등급을 고르는 대신 세 가지 일상 동작으로 제한 범위를 설명하게 돕습니다.",
+      "section_sequence":["통증보다 먼저 고를 일상 장면","머리 위 동작의 실제 범위","등 뒤 동작에서 보상하는 방식","선반 동작과 갑작스러운 약화","카드를 진료실 문장으로 바꾸기"],
+      "faq_plan":["세 동작 모두 못 하면 어떻게 기록하나요?","한쪽만 아픈 경우 반대쪽도 적나요?","스트레칭을 시작해도 되는지 카드가 답해 주나요?"],
+      "cta":"오늘 한 동작만 골라 가능한 범위와 대신 쓰는 움직임을 카드에 한 줄로 남기세요.",
+      "non_overlap":"a011·a012와 달리 어깨의 세 일상 동작 범위가 핵심이다. 오십견 진단과 주사·수술 선택은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIAMS","url":"https://www.niams.nih.gov/health-topics/sports-injuries","exact_verification_question":"반복적인 머리 위 팔 사용과 어깨 통증·움직임 제한을 환자용 정보에서 어떤 활동 장면과 함께 설명하는가?","applicability":"어깨 질환명을 확정하지 않고 일상 동작 범위 카드의 관찰 항목에만 사용한다.","planned_section":"통증보다 먼저 고를 일상 장면"},
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/shoulder-pain/","exact_verification_question":"어깨 통증에서 급성 외상, 심한 통증 또는 움직임 상실처럼 진료가 필요한 신호는 무엇인가?","applicability":"개인 진단 없이 평가 필요성을 구분하는 데 사용한다.","planned_section":"선반 동작과 갑작스러운 약화"},
+        {"organization":"AAOS","url":"https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/","exact_verification_question":"어깨 강직을 설명할 때 능동·수동 움직임 제한에 관한 환자용 설명을 어떤 한계 안에서 인용할 수 있는가?","applicability":"오십견 진단을 내리지 않고 용어 오해를 줄이는 보조 정보로 사용한다.","planned_section":"카드를 진료실 문장으로 바꾸기"}
+      ]
+    },
+    {
+      "id":"a014","slug":"daytime-balance-risk-sketch","title":"집 안에서 휘청한 뒤: 시간대별 위험 장면을 찾는 낙상 스케치",
+      "reader_situation":"낮 시간 집 안에서 휘청했지만 실제로 넘어지지는 않아 원인과 환경을 구분해 보고 싶은 독자.",
+      "reader_artifact":"아침·오후·저녁의 방별 동선, 조명, 바닥 상태, 신발, 손에 든 물건, 휘청한 방향을 그린 시간대별 집안 위험 스케치.",
+      "information_architecture":"휘청 장면 복기 → 시간대 레이어 → 환경 레이어 → 신경학적 경고 분리 → 스케치 활용",
+      "intro_frame":"낙상은 실제로 넘어졌을 때만 기록할 일이 아닙니다. 이 글은 야간 화장실 동선이나 근력 훈련이 아니라, 낮의 집 안에서 휘청한 장면을 시간대와 환경으로 그리는 스케치입니다.",
+      "section_sequence":["휘청한 순간을 방과 방향으로 다시 그리기","아침·오후·저녁에 다른 위험 표시하기","조명·바닥·신발·손짐을 분리하기","말 어눌함·한쪽 약화가 함께 올 때","가족이나 진료실에 스케치를 보여 주는 법"],
+      "faq_plan":["넘어지지 않았어도 스케치를 해야 하나요?","어지럼과 휘청임을 어떻게 다르게 적나요?","보행보조기를 이 글만 보고 골라도 되나요?"],
+      "cta":"오늘 이동한 집 안 동선 하나에 휘청한 방향과 그때의 조명만 표시해 보세요.",
+      "non_overlap":"b009의 계단 근력·낙상 장면, b014의 야간뇨 동선과 달리 이 글은 ‘낮 시간 집 안 균형’의 환경 스케치만 다룬다. 보행보조기 처방은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"CDC","url":"https://www.cdc.gov/older-adult-falls/about/index.html","exact_verification_question":"낙상 위험에서 집 안 환경과 일상 장면을 검토하는 일반적 방법은 무엇인가?","applicability":"중년 독자에게도 환경 관찰 원칙만 적용하며 개인 낙상 위험도를 계산하지 않는다.","planned_section":"조명·바닥·신발·손짐을 분리하기"},
+        {"organization":"NINDS","url":"https://www.ninds.nih.gov/health-information/disorders/stroke","exact_verification_question":"갑작스러운 균형 문제와 함께 나타나는 뇌졸중 경고 신호는 무엇인가?","applicability":"응급 판단을 대신하지 않고 즉시 도움을 받아야 할 신호를 분리하는 데 사용한다.","planned_section":"말 어눌함·한쪽 약화가 함께 올 때"},
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/falls/","exact_verification_question":"넘어짐 또는 균형 문제 뒤 의료진에게 전달할 상황·환경 정보는 무엇인가?","applicability":"낙상 원인 진단 없이 스케치의 기록 요소를 정한다.","planned_section":"가족이나 진료실에 스케치를 보여 주는 법"}
+      ]
+    },
+    {
+      "id":"a015","slug":"chair-rise-function-card","title":"의자에서 일어날 때 버거울 때: 체중보다 먼저 보는 생활 기능 카드",
+      "reader_situation":"낮은 의자에서 일어나거나 장을 들고 걷는 일이 이전보다 버겁지만 체중 문제로만 여기고 있는 독자.",
+      "reader_artifact":"의자 일어서기, 화장실 이동, 장바구니 들기, 계단 첫 칸, 최근 급격한 변화의 다섯 칸을 가진 생활 기능 카드.",
+      "information_architecture":"기능 기준선 → 다섯 생활 동작 → 이전과의 차이 → 급격한 변화 → 상담용 카드",
+      "intro_frame":"‘살이 쪄서 그런가’라는 설명은 기능 변화의 시점을 가릴 수 있습니다. 이 글은 근육량을 판정하지 않고, 의자에서 일어나는 것처럼 익숙한 동작의 변화를 카드로 옮깁니다.",
+      "section_sequence":["체중보다 생활 기능을 먼저 묻는 이유","의자에서 일어나는 동작 한 칸","집 안 이동과 물건 들기의 다른 칸","며칠 사이 급격히 달라졌는지 보기","카드를 들고 상담할 때의 질문"],
+      "faq_plan":["무릎 통증 때문에 어려운 경우도 이 카드에 적나요?","반복 횟수를 재야 하나요?","단백질이나 운동 계획을 바로 시작해도 되나요?"],
+      "cta":"오늘은 횟수 대신 ‘예전과 비교해 필요한 도움’만 다섯 생활 동작 옆에 적으세요.",
+      "non_overlap":"무릎 통증(a011)과 달리 통증 부위가 아닌 전반적 생활 기능 변화가 주제다. 근감소증 진단과 단백질·운동 처방은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIA","url":"https://www.nia.nih.gov/health/exercise-and-physical-activity/real-life-benefits-exercise-and-physical-activity","exact_verification_question":"일상 기능과 독립적 활동을 관찰하는 것이 건강 상담에서 어떤 의미를 갖는가?","applicability":"운동 처방으로 전환하지 않고 기능 카드의 목적을 설명한다.","planned_section":"체중보다 생활 기능을 먼저 묻는 이유"},
+        {"organization":"MedlinePlus (NIH/NLM)","url":"https://medlineplus.gov/ency/article/003174.htm","exact_verification_question":"새로 생긴 약화에서 시작 시점·지속 시간·전신 또는 국소 여부를 의료진이 어떻게 확인하며, 급성 신경학적 증상은 왜 별도 평가가 필요한가?","applicability":"근감소증이나 특정 신경·근육 질환을 추정하지 않고, 생활 기능 카드에서 ‘최근 급격한 변화’를 의료진에게 알릴 경계로만 사용한다.","planned_section":"며칠 사이 급격히 달라졌는지 보기"},
+        {"organization":"CDC","url":"https://www.cdc.gov/physical-activity-basics/benefits/index.html","exact_verification_question":"일상 기능과 신체 활동의 일반적 관계를 과장 없이 어떻게 설명할 수 있는가?","applicability":"개인의 운동량이나 치료 계획을 지시하지 않는다.","planned_section":"집 안 이동과 물건 들기의 다른 칸"}
+      ]
+    },
+    {
+      "id":"a016","slug":"workplace-hot-flash-script","title":"회의 중 열감이 올 때: 업무 환경을 바꾸기 위한 짧은 요청 문장",
+      "reader_situation":"회의 중 열감·땀이 올라와 업무에 지장이 있지만 병력 공개 없이 환경 조정을 요청하고 싶은 독자.",
+      "reader_artifact":"자리·환기·물·짧은 휴식·온라인 접속 같은 환경 항목과, 상사·동료·회의 진행자에게 쓰는 세 가지 짧은 요청 문장.",
+      "information_architecture":"업무 장면 선택 → 필요한 환경 번역 → 상대별 짧은 문장 → 사전 공유 범위 → 의료 상담 경계",
+      "intro_frame":"회의 중 열감은 참거나 상세한 건강 정보를 공개해야만 해결되는 문제가 아닙니다. 이 글은 증상 치료 기록과 달리, 업무 환경을 바꿔 달라고 말하는 짧고 선택 가능한 문장을 준비합니다.",
+      "section_sequence":["열감이 업무를 방해한 정확한 장면","환경 요구를 한 단어로 바꾸기","상사에게 말하는 한 문장","동료·진행자에게 말하는 더 짧은 문장","업무 요청과 진료 상담을 분리하는 기준"],
+      "faq_plan":["갱년기라는 말을 하지 않고도 요청할 수 있나요?","회의 중간에 나가야 할 때 어떤 문장이 자연스러운가요?","회사 제도를 이 글로 해석해도 되나요?"],
+      "cta":"다음 회의 전에 가장 필요한 환경 한 가지와 그에 맞는 짧은 요청 문장 하나만 휴대전화에 저장하세요.",
+      "non_overlap":"b003의 두근거림 기록, 기존 열감 일지와 달리 증상 패턴이 아니라 직장 환경 요청 문장이 산출물이다. 호르몬 치료 선택과 사업장 제도 해석은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIA","url":"https://www.nia.nih.gov/health/menopause/menopause-symptoms-and-relief","exact_verification_question":"갱년기 열감·발한이 일상과 업무 기능에 미칠 수 있는 일반적 영향은 무엇인가?","applicability":"치료를 권하지 않고 환경 조정 요청의 배경을 설명하는 데만 사용한다.","planned_section":"열감이 업무를 방해한 정확한 장면"},
+        {"organization":"ACOG","url":"https://www.acog.org/womens-health/faqs/the-menopause-years","exact_verification_question":"갱년기 증상의 다양성과 의료진 상담이 필요한 경우를 어떻게 환자용 정보로 설명하는가?","applicability":"개인 치료 선택을 대신하지 않고 상담 경계를 설정한다.","planned_section":"업무 요청과 진료 상담을 분리하는 기준"},
+        {"organization":"EEOC","url":"https://www.eeoc.gov/laws/guidance/enforcement-guidance-reasonable-accommodation-and-undue-hardship-under-ada","exact_verification_question":"건강 관련 업무 조정 요청에서 개인 정보를 최소화하고 필요를 구체화하는 일반적 의사소통 원칙은 무엇인가?","applicability":"한국 사업장 제도·법률 해석으로 사용하지 않고 요청 문장 설계의 참고로만 쓴다.","planned_section":"상사에게 말하는 한 문장"}
+      ]
+    },
+    {
+      "id":"a017","slug":"memory-change-timeline","title":"건망증이 늘었다고 느낄 때: 기억 자체보다 시간 흐름을 적는 2주표",
+      "reader_situation":"약속·물건 위치를 잊는 일이 늘었다고 느끼지만 단순 건망증인지 변화를 상담해야 할지 시간 흐름으로 정리하고 싶은 독자.",
+      "reader_artifact":"첫 주와 둘째 주에 발생 장면, 수면·스트레스, 일상 기능 영향, 타인이 알아챈 변화, 갑작스러운 시작 여부를 적는 2주 인지 변화 타임라인.",
+      "information_architecture":"걱정의 범위 → 첫 주 관찰 → 둘째 주 비교 → 기능 영향 표시 → 즉시·상담 신호",
+      "intro_frame":"기억 실수 하나는 누구에게나 있을 수 있지만, 언제 시작했고 생활에 무엇이 달라졌는지는 따로 살펴볼 수 있습니다. 이 글은 자가 선별검사가 아니라 2주간의 시간 흐름을 적는 표입니다.",
+      "section_sequence":["기억 걱정을 시간표로 바꾸는 이유","첫 주에 사건과 맥락을 함께 적기","둘째 주에 반복과 변화를 비교하기","돈·약·약속 같은 기능 영향 표시하기","갑작스러운 혼란은 기다리지 않는 경계"],
+      "faq_plan":["기억력 테스트를 함께 해도 되나요?","가족이 알아챈 변화는 어떻게 적나요?","갑자기 혼란스러워진 경우에도 2주를 채워야 하나요?"],
+      "cta":"오늘부터 기억 실수의 정답을 찾지 말고, 발생 시각과 그날 달라진 기능만 첫 주 표에 남기세요.",
+      "non_overlap":"수면·기분 글과 달리 기억력 자체의 점수가 아니라 2주 시간축과 일상 기능 영향이 중심이다. 치매 선별과 인지훈련은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIA","url":"https://www.nia.nih.gov/health/memory-forgetfulness-and-aging/understanding-memory-loss","exact_verification_question":"정상적인 건망증과 의료 상담이 필요한 기억 변화의 일반적 차이는 무엇인가?","applicability":"치매를 판정하지 않고 상담용 시간표의 경계를 설명한다.","planned_section":"기억 걱정을 시간표로 바꾸는 이유"},
+        {"organization":"NINDS","url":"https://www.ninds.nih.gov/health-information/disorders/delirium","exact_verification_question":"갑작스러운 혼란이나 주의력 변화에서 빠른 평가가 필요한 이유는 무엇인가?","applicability":"응급 질환을 진단하지 않고 기다리지 않을 신호를 안내한다.","planned_section":"갑작스러운 혼란은 기다리지 않는 경계"},
+        {"organization":"Alzheimer's Association","url":"https://www.alz.org/alzheimers-dementia/10_signs","exact_verification_question":"기억 변화가 일상 기능에 영향을 주는지 관찰할 때 어떤 구체적 장면을 확인할 수 있는가?","applicability":"자가 진단 목록이 아니라 기능 영향 기록 항목의 참고로만 사용한다.","planned_section":"돈·약·약속 같은 기능 영향 표시하기"}
+      ]
+    },
+    {
+      "id":"a018","slug":"sexual-pain-visit-note","title":"성관계 중 통증이 있을 때: 위치·시점·출혈을 나눠 적는 진료 메모",
+      "reader_situation":"성관계 중 통증이 있었지만 말하기 어렵고, 요실금이나 질 건조 일반 정보와 다른 구체적 증상을 존중하는 언어로 정리하고 싶은 독자.",
+      "reader_artifact":"삽입 전·중·후, 통증 위치·느낌, 출혈·분비물·배뇨 통증 여부, 시작 시점, 중단 여부를 선택식으로 적는 통증 위치 진료 메모.",
+      "information_architecture":"말하기 어려운 장면 → 위치·시점 분리 → 동반 신호 확인 → 진료 언어 연습 → 제품·진단의 경계",
+      "intro_frame":"성관계 중 통증은 참고 넘기거나 한 단어로 말할 일이 아닙니다. 이 글은 요실금 메모나 제품 추천과 분리해, 위치·시점·출혈을 존중하는 언어로 정리하게 돕습니다.",
+      "section_sequence":["말하기 전 적어 두면 쉬운 사실","삽입 전·중·후를 나누는 이유","통증 위치와 느낌을 선택하는 법","출혈·분비물·배뇨 증상을 따로 표시하기","진료실에서 쓸 첫 문장"],
+      "faq_plan":["통증 위치를 정확히 모르면 어떻게 적나요?","출혈이 있으면 다음 예약까지 기다려도 되나요?","윤활제나 호르몬 제품을 이 글로 고를 수 있나요?"],
+      "cta":"다음 진료 전, 통증의 원인을 추측하지 말고 ‘언제·어디가·무엇과 함께’만 메모의 세 칸에 적으세요.",
+      "non_overlap":"b013의 요실금·배뇨 증상 및 기존 GSM 개요와 달리 이 글은 성관계 중 통증의 위치·시점·출혈 메모만 다룬다. 감염 진단과 윤활제·호르몬 제품 선택은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"ACOG","url":"https://www.acog.org/womens-health/faqs/when-sex-is-painful","exact_verification_question":"성관계 중 통증을 의료진에게 설명할 때 위치, 시점, 동반 증상을 어떻게 정리할 수 있는가?","applicability":"성교통의 원인을 진단하지 않고 진료 메모 항목만 확인한다.","planned_section":"통증 위치와 느낌을 선택하는 법"},
+        {"organization":"NHS","url":"https://www.nhs.uk/symptoms/period-pain/","exact_verification_question":"골반 통증과 함께 성관계·배뇨·배변 시 통증이 나타날 때 신속한 의료 상담을 고려해야 하는 일반적 경계는 무엇인가?","applicability":"성교통·감염·자궁내막증 등 개별 질환을 판정하지 않고, 통증 위치 진료 메모에서 동반 증상을 분리해 알릴 필요만 설명한다.","planned_section":"출혈·분비물·배뇨 증상을 따로 표시하기"},
+        {"organization":"The Menopause Society","url":"https://menopause.org/patient-education/menopause-topics/genitourinary-syndrome-of-menopause","exact_verification_question":"폐경 전후 비뇨생식기 증상과 성관계 불편을 환자용 정보에서 어떤 범위로 설명하는가?","applicability":"GSM을 진단하지 않고 기존 GSM 개요와의 연결 맥락만 확인한다.","planned_section":"말하기 전 적어 두면 쉬운 사실"}
+      ]
+    },
+    {
+      "id":"a019","slug":"mood-function-signal-light","title":"기분 저하가 이어질 때: ‘갱년기 기분’과 일상 기능을 함께 보는 신호등",
+      "reader_situation":"기분이 가라앉고 의욕이 줄어 이를 갱년기 탓으로만 넘길지, 일상 기능 변화를 함께 보고 도움을 요청할지 고민하는 독자.",
+      "reader_artifact":"수면·식사·출근·돌봄·사람 만나기·안전 생각의 변화에 따라 녹색·노란색·빨간색으로 표시하는 일상 기능 신호등.",
+      "information_architecture":"기분 명명 → 녹색 기능 변화 → 노란 지속·축소 → 빨간 안전 신호 → 도움 요청 경로",
+      "intro_frame":"‘갱년기라 예민한가 보다’라는 말은 괴로움의 크기와 안전 신호를 가릴 수 있습니다. 이 글은 우울증을 자가 진단하지 않고, 기분보다 일상 기능과 자해 생각을 먼저 분류하는 신호등입니다.",
+      "section_sequence":["기분을 고치려 하기 전 기능을 보는 이유","녹색: 일상은 유지되지만 변화가 있는 때","노란색: 일·관계·돌봄이 줄어드는 때","빨간색: 자신을 해칠 생각 또는 안전이 흔들리는 때","도움을 요청할 때 말할 세 문장"],
+      "faq_plan":["얼마나 오래 지속돼야 노란색인가요?","갱년기 증상과 우울감을 스스로 구분할 수 있나요?","자해 생각이 잠깐 스쳐도 바로 도움을 받아야 하나요?"],
+      "cta":"오늘은 기분 점수 대신 미뤄진 일 하나와 연결이 끊긴 사람 한 명을 신호등에 표시하고, 빨간 신호면 즉시 도움을 요청하세요.",
+      "non_overlap":"수면-기분 이중 로그와 달리 이 글의 산출물은 기간이 아니라 일상 기능과 안전 생각을 분류하는 신호등이다. 우울증 진단과 약물·상담 방식 선택은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NIMH","url":"https://www.nimh.nih.gov/health/topics/depression","exact_verification_question":"우울 증상에서 일상 기능 저하와 전문적 도움의 필요성을 어떻게 설명하는가?","applicability":"우울증을 진단하지 않고 기능 변화 기록의 중요성을 설명한다.","planned_section":"노란색: 일·관계·돌봄이 줄어드는 때"},
+        {"organization":"NIMH","url":"https://www.nimh.nih.gov/health/publications/5-action-steps-to-help-someone-having-thoughts-of-suicide","exact_verification_question":"자해 또는 자살 생각이 있을 때 즉시 안전을 확보하고 도움을 연결하는 공식 행동 원칙은 무엇인가?","applicability":"위기 지원을 대신하지 않으며 한국 독자에게는 109·119 등 현지 긴급 지원을 확인해 안내한다.","planned_section":"빨간색: 자신을 해칠 생각 또는 안전이 흔들리는 때"},
+        {"organization":"NIA","url":"https://www.nia.nih.gov/health/mental-and-emotional-health/depression-and-older-adults","exact_verification_question":"중년 이후 기분 변화에서 신체·수면 변화와 기능 영향을 함께 의료진에게 알릴 필요는 어떻게 설명되는가?","applicability":"갱년기와 우울의 인과를 단정하지 않는 보조 근거로 사용한다.","planned_section":"도움을 요청할 때 말할 세 문장"}
+      ]
+    },
+    {
+      "id":"a020","slug":"itch-rash-safety-note","title":"피부가 가려울 때: 보습 전에 확인할 발진 사진·전신 신호 메모",
+      "reader_situation":"가려움이 생겨 보습제를 바르려 하지만 발진 모양·새 노출·호흡 변화 같은 안전 신호를 먼저 확인하고 싶은 독자.",
+      "reader_artifact":"발진의 시작 시각·부위·모양, 새 약·식품·화장품·세제 노출, 입술·혀 붓기·호흡 변화·발열을 칸으로 나눈 가려움 안전 메모.",
+      "information_architecture":"가려움 장면 → 사진 기준 → 노출 되짚기 → 전신 신호 → 즉시 도움과 사진 활용",
+      "intro_frame":"가려움은 흔하지만 모든 가려움을 같은 보습 단계로 시작할 수는 없습니다. 이 글은 피부 질환을 맞히는 대신 사진·노출·전신 신호를 분리한 안전 메모를 만듭니다.",
+      "section_sequence":["가려움이 시작된 장면을 적기","사진에는 무엇을 남기고 무엇을 빼나","새 약·식품·세제 노출을 되짚기","호흡·얼굴 부종·발열이 더해질 때","사진과 메모를 들고 도움받는 순서"],
+      "faq_plan":["사진이 없으면 가려움 메모가 쓸모 있나요?","새 화장품을 중단할지 이 글이 정해 주나요?","입술이 붓거나 숨이 차면 피부과 예약을 기다려도 되나요?"],
+      "cta":"오늘은 가려운 부위만 적지 말고, 시작 전 24시간의 새 노출 한 가지와 전신 신호 유무를 함께 체크하세요.",
+      "non_overlap":"일반 보습·피부 관리 글과 달리 발진 사진, 노출, 호흡·전신 신호의 안전 분류가 핵심이다. 피부질환 진단과 외용제 추천은 답하지 않는다.",
+      "evidence_targets":[
+        {"organization":"NHS","url":"https://www.nhs.uk/conditions/hives/","exact_verification_question":"두드러기·가려움에서 호흡 곤란이나 얼굴·입술 부종처럼 즉시 도움을 받아야 하는 신호는 무엇인가?","applicability":"알레르기 원인을 진단하지 않고 응급 신호를 구분하는 데만 사용한다.","planned_section":"호흡·얼굴 부종·발열이 더해질 때"},
+        {"organization":"AAD","url":"https://www.aad.org/public/diseases/a-z/contact-dermatitis-causes","exact_verification_question":"접촉피부염의 가능성을 고려할 때 새 제품·물질 노출을 어떻게 환자 언어로 되짚을 수 있는가?","applicability":"접촉피부염으로 단정하지 않고 노출 메모의 항목을 정한다.","planned_section":"새 약·식품·세제 노출을 되짚기"},
+        {"organization":"MedlinePlus","url":"https://medlineplus.gov/rashes.html","exact_verification_question":"발진을 설명할 때 부위, 모양, 동반 증상을 어떻게 기록해 의료진에게 전달할 수 있는가?","applicability":"사진을 진단 도구로 쓰지 않고 상담용 관찰 기록으로 한정한다.","planned_section":"사진에는 무엇을 남기고 무엇을 빼나"}
+      ]
+    }
+  ]
+}

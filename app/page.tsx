@@ -5,12 +5,14 @@ import { Disclaimer } from '../components/disclaimer';
 import { SiteFooter } from '../components/site-footer';
 import { SiteHeader } from '../components/site-header';
 import { SymptomGuide } from '../components/symptom-guide';
-import { articles, topics } from '../content/editorial';
+import { getPublicArticles, topics } from '../content/editorial';
+
+export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
-  const featured = [...articles]
+  const featured = getPublicArticles()
     .sort((left, right) => right.publishedAt.localeCompare(left.publishedAt))
     .slice(0, 3);
   const jsonLd = {

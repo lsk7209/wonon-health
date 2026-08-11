@@ -1,0 +1,26 @@
+{
+  "article_id": "a006",
+  "slug": "fasting-glucose-sleepiness-log",
+  "researched_at": "2026-08-11T19:25:00+09:00",
+  "research_runs": ["CDC 검사 기반 당뇨 전단계 일반 맥락 확인", "NIDDK 재검과 의료진 상담의 역할 확인", "NHLBI 수면 부족과 낮 기능의 일반 맥락 확인"],
+  "article_research_question": "공복혈당 경계라는 검사 결과와 식후 졸림을 한 원인으로 묶지 않고, 재검 전 3일의 생활 맥락으로 어떻게 정리하는가?",
+  "reader_outcome": "수치를 새로 재거나 식단을 처방하지 않고, 식사·졸림·수면·카페인·활동을 같은 형식으로 적어 상담 질문을 만든다.",
+  "original_contribution": {"type":"three-day context log","description":"식사 시각·졸림 시작·전날 잠·카페인·활동을 하루 한 줄로 비교하는 3일 기록지","supporting_source_ids":["s1","s2","s3"]},
+  "source_interpretation_note":"공복혈당과 졸림의 원인은 이 기록으로 판정할 수 없으므로, 자료는 검사 결과의 상담 맥락과 기록 항목을 정하는 데만 사용한다.",
+  "sources": [
+    {"id":"s1","organization":"CDC","url":"https://www.cdc.gov/diabetes/about/about-prediabetes.html","published_or_reviewed":"2024-05-15","accessed":"2026-08-11","source_role":"official","used_for":"당뇨 전단계는 검사 결과와 의료진 상담으로 확인하는 일반 원칙"},
+    {"id":"s2","organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance","published_or_reviewed":"2024-02","accessed":"2026-08-11","source_role":"official","used_for":"혈당 관련 결과를 개인 병력과 함께 논의하는 상담 맥락"},
+    {"id":"s3","organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/sleep-deprivation","published_or_reviewed":"2024-03","accessed":"2026-08-11","source_role":"official","used_for":"수면 부족이 낮 기능과 졸림에 영향을 줄 수 있는 일반 맥락"},
+    {"id":"s4","organization":"MedlinePlus","url":"https://medlineplus.gov/lab-tests/blood-glucose-test/","published_or_reviewed":"2024-05-07","accessed":"2026-08-11","source_role":"official","used_for":"혈당 검사의 해석은 의료진과 논의해야 한다는 보조 확인"},
+    {"id":"s5","organization":"Mayo Clinic","url":"https://www.mayoclinic.org/symptoms/fatigue/basics/definition/sym-20050894","published_or_reviewed":"2024-10","accessed":"2026-08-11","source_role":"expert_reference","used_for":"졸림·피로를 단일 원인으로 추정하지 않는 보조 맥락"}
+  ],
+  "data_points": [
+    {"claim":"당뇨 전단계 여부는 혈액검사로 확인하며, 검사 결과는 의료진과 상의할 필요가 있다.","source_id":"s1","supports_section":"검사 결과와 오후 졸림을 한 줄에 결론내리지 않기"},
+    {"claim":"수면 부족은 낮 시간의 기능과 졸림에 영향을 줄 수 있어 전날 잠을 함께 기록할 맥락이 된다.","source_id":"s3","supports_section":"둘째 날: 전날 잠과 카페인까지 함께 적기"}
+  ],
+  "article_specific_details": [
+    {"claim":"식사 시각·구성, 졸림 시작·지속, 전날 수면, 카페인·음주, 활동을 하루 한 줄로 남긴다.","source_id":"s3"},
+    {"claim":"첫째 날은 식사와 졸림, 둘째 날은 수면·카페인, 셋째 날은 반복 장면을 분리해 기록한다.","source_id":"s2"}
+  ],
+  "fact_traceability_pass": true
+}

@@ -1,0 +1,39 @@
+{
+  "article_id": "a029",
+  "slug": "alcohol-sleep-next-day-review",
+  "title": "잠을 위해 마신 술이 걱정될 때: 양보다 다음 날 기능을 함께 보는 회고표",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-alcohol-use",
+  "ymyl_review": "pass-with-safety-boundary",
+  "research_runs": [
+    {"query": "site:niaaa.nih.gov alcohol sleep hangover next day function", "date": "2026-08-11", "purpose": "음주 뒤 수면 분절·이른 각성·다음 날 기능의 공식 맥락 확인"},
+    {"query": "site:cdc.gov alcohol impaired driving next day safety official", "date": "2026-08-11", "purpose": "음주 영향과 운전·중요 과제 안전 경계 확인"},
+    {"query": "site:nhs.uk alcohol use disorder withdrawal sleep medical help", "date": "2026-08-11", "purpose": "급격한 중단을 권하지 않고 금단 가능성에서 의료 도움을 받는 경계 확인"}
+  ],
+  "article_research_question": "잠을 위해 마신 술 뒤 독자가 음주량 판단 대신 밤의 각성과 다음 날 기능을 어떻게 회고할 수 있는가?",
+  "reader_outcome": "마신 이유·시각·각성·다음 날 기능을 한 줄에 두고, 원인 판정 대신 상담용 사실을 만든다.",
+  "original_contribution": {"type": "retrospective-review-table", "description": "음주량 기준이나 금주 처방 없이 이유-밤-다음 날 기능-안전 조치를 연결해 상담 질문으로 바꾸는 회고표", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "NIAAA의 수면 분절·다음 날 과제 영향은 회고표의 사실 칸을 설계하는 근거로만 사용한다. CDC의 음주운전 정보는 법적 수치나 개인 운전 가능 시간으로 환산하지 않고, 안전 계획을 별도 칸으로 두는 근거다. NHS의 금단 안내는 의존 진단이나 급격한 중단 지시가 아니라 의료 도움 경계로만 쓴다.",
+  "sources": [
+    {"id": "S1", "organization": "NIAAA", "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/hangovers", "source_date": "not stated on page", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "음주 뒤 수면 분절·이른 각성·피로와 주의력·판단·협응 저하의 일반적 맥락"},
+    {"id": "S2", "organization": "CDC", "url": "https://www.cdc.gov/alcohol/about-alcohol-use/index.html", "source_date": "not stated on page", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "음주가 안전과 일상 기능에 영향을 줄 수 있는 일반적 맥락"},
+    {"id": "S3", "organization": "NIAAA", "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/treatment-alcohol-problems-finding-and-getting-help", "source_date": "not stated on page", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "반복된 걱정과 기능 문제에서 도움을 찾는 일반 경로"},
+    {"id": "S4", "organization": "CDC", "url": "https://www.cdc.gov/impaired-driving/facts/index.html", "source_date": "2026-01-28", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "운전 손상이 운전자 외 사람에게도 위해를 줄 수 있다는 안전 경계"},
+    {"id": "S5", "organization": "NHS", "url": "https://www.nhs.uk/conditions/alcohol-use-disorder/", "source_date": "not stated on page", "accessed_date": "2026-08-11", "source_role": "official", "used_for": "금단 증상 가능성이 있을 때 갑작스러운 중단 대신 의료 도움을 구하는 경계"}
+  ],
+  "data_points": [
+    {"claim": "음주 뒤에는 잠들기 빨라 보여도 수면이 분절되고 더 일찍 깰 수 있으며 피로와 생산성 저하가 이어질 수 있다.", "source_id": "S1", "supports_section": "회고표를 읽는 세 단계: 원인표가 아니라 다음 대화의 순서"},
+    {"claim": "다음 날 운전·일·돌봄 영향은 안전과 기능의 맥락에서 기록한다.", "source_id": "S2", "supports_section": "다음 날 운전·일·돌봄 변화를 보기"},
+    {"claim": "반복된 걱정이나 기능 문제는 도움을 요청할 때 말할 사실이 된다.", "source_id": "S3", "supports_section": "도움을 요청할 때 말할 사실"},
+    {"claim": "음주로 인한 운전 손상은 운전자뿐 아니라 동승자와 보행자에게도 위험을 만들 수 있다.", "source_id": "S4", "supports_section": "잠을 위한 선택과 운전·돌봄 계획은 같은 줄에 두지 않습니다"},
+    {"claim": "의존이 있는 사람이 갑자기 음주를 중단하면 금단 증상이 위험할 수 있으므로 의료 도움을 받아야 한다.", "source_id": "S5", "supports_section": "회고표를 멈추고 바로 도움을 구할 때"}
+  ],
+  "article_specific_details": [
+    {"claim": "음주 뒤 잠은 빨리 들 수 있으나 수면이 분절되고 더 일찍 깰 수 있다는 점을 회고표의 밤의 변화 칸에 사용한다.", "source_id": "S1"},
+    {"claim": "숙취 상태에서는 주의력·의사결정·근육 협응이 저하될 수 있어 운전·기계 작업·돌봄을 다음 날 기능과 분리해 기록한다.", "source_id": "S1"},
+    {"claim": "피곤하거나 판단이 흐리다고 느끼면 운전하지 않고 대체 이동을 준비한다는 안전 조치를 별도 줄에 둔다.", "source_id": "S4"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

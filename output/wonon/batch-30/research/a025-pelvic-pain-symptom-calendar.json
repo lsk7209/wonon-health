@@ -1,0 +1,43 @@
+{
+  "article_id": "a025",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {"query": "NHS pelvic pain bowel bladder bleeding when urgent", "date": "2026-08-11", "purpose": "배변·배뇨·출혈을 달력의 별도 관찰 층으로 둘 근거와 안전 경계 확인"},
+    {"query": "ACOG chronic pelvic pain pain journal time menstrual cycle urination bowel movement", "date": "2026-08-11", "purpose": "통증 일지에 시간대·월경·배뇨·배변·활동·강도·지속을 남기는 항목 확인"},
+    {"query": "Mayo Clinic pelvic pain when to see doctor sudden severe worsening daily life", "date": "2026-08-11", "purpose": "반복 기록과 새롭거나 악화되는 통증의 의료 평가 경계를 분리"},
+    {"query": "MedlinePlus pelvic pain urinary tract lower intestine multiple causes", "date": "2026-08-11", "purpose": "골반 통증을 단일 장기 원인으로 추정하지 않는 해석 경계 확인"}
+  ],
+  "article_research_question": "반복되는 골반 통증을 경험하는 사람이 원인·검사·진통제를 스스로 고르지 않으면서, 배변·배뇨·출혈·일상 제한의 시간 관계를 어떻게 한 장의 달력으로 진료에 전달할 수 있는가?",
+  "reader_outcome": "독자는 날짜별 통증 위치·강도·시간대 위에 배변·배뇨, 출혈·발열·메스꺼움, 활동 제한을 겹쳐 적고, 반복 양상과 갑작스러운 변화를 섞지 않은 골반 증상 달력을 만든다.",
+  "search_intent_insight": "독자는 병명을 나열한 설명보다, 월경·화장실·출혈과 통증이 얽힌 날을 진료실에서 빠뜨리지 않고 말할 기록 형식을 찾는다.",
+  "competitor_gap": "일반 골반 통증 글은 원인 목록이나 진료 권고로 끝나기 쉽다. 이 글은 한 날짜의 시간대별 통증과 배변·배뇨·출혈·활동 제한을 같은 칸에 겹쳐, 패턴과 갑작스러운 변화를 분리하는 달력으로 바꾼다.",
+  "information_gain": "통증 점수 하나나 월경 기록 하나가 아닌, 같은 날짜에 네 층을 올리는 ‘골반 증상 달력’과 의료진에게 펼치는 읽는 순서를 제공한다.",
+  "unique_angle": "날짜별 통증 위치·강도·시간대, 배변·배뇨 변화, 출혈·발열·메스꺼움, 활동 제한을 같은 칸에 적는 골반 증상 달력.",
+  "original_contribution": {"type": "four-layer-pelvic-symptom-calendar", "description": "통증·화장실 변화·동반 신호·기능 영향을 같은 날짜에 겹치되, 원인 추정과 응급 판단을 비워 두는 4층 증상 달력", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "S1은 통증 일지에 시간대·월경·배변·배뇨·활동·지속·강도·완화/악화 요인을 남길 근거로만 사용한다. S2와 S4는 골반 통증이 생식기관 하나로 환원되지 않고 방광·장·근골격 등 여러 계통과 관련될 수 있다는 해석 경계로 쓴다. S3는 새롭거나 생활을 방해하거나 악화되는 통증의 상담 경계를, S5는 출혈·배뇨·배변·발열·구토·실신 같은 변화가 겹칠 때 기록을 기다리지 않는 안전 경계를 보강한다. 어느 자료도 독자의 원인, 검사, 약, 진료 시점을 결정하는 데 사용하지 않는다.",
+  "sources": [
+    {"id": "S1", "title": "Chronic Pelvic Pain", "organization": "American College of Obstetricians and Gynecologists", "url": "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain", "source_date": "undated", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "통증 일지에 시간대, 월경 주기, 식사·배뇨·배변·활동·수면 전후, 양상·지속·강도·위치·완화/악화 요인과 복용한 약·보조제를 남기는 항목 확인"},
+    {"id": "S2", "title": "Pelvic pain", "organization": "NHS", "url": "https://www.nhs.uk/symptoms/pelvic-pain/", "source_date": "2025-11-24", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "current", "used_for": "골반 통증이 배변·방광을 포함한 골반 기관의 문제와 관련될 수 있고, 자세한 정보 공유가 중요하다는 점 및 출혈·배뇨·배변·발열·구토 안전 경계 확인"},
+    {"id": "S3", "title": "Pelvic pain: When to see a doctor", "organization": "Mayo Clinic", "url": "https://www.mayoclinic.org/symptoms/pelvic-pain/basics/when-to-see-doctor/sym-20050898", "source_date": "2026-05-14", "accessed": "2026-08-11", "source_role": "expert_reference", "is_official": false, "freshness": "current", "used_for": "갑작스럽고 심한 골반 통증은 즉시 의료 평가가 필요할 수 있고, 새롭거나 일상을 방해하거나 악화되는 통증은 상담한다는 경계"},
+    {"id": "S4", "title": "Pelvic Pain", "organization": "MedlinePlus / U.S. National Library of Medicine", "url": "https://medlineplus.gov/pelvicpain.html", "source_date": "2024-08-09", "accessed": "2026-08-11", "source_role": "official", "is_official": true, "freshness": "review_due", "used_for": "골반 통증이 생식기관뿐 아니라 요로·하부 장·직장·근육·뼈와 관련될 수 있고 복수 원인이 함께 있을 수 있다는 비단일원인 경계"},
+    {"id": "S5", "title": "Pelvic pain in adult females: Symptom Checker", "organization": "Mayo Clinic", "url": "https://www.mayoclinic.org/symptom-checker/pelvic-pain-in-adult-females-adult/related-factors/itt-20009075", "source_date": "undated", "accessed": "2026-08-11", "source_role": "expert_reference", "is_official": false, "freshness": "current", "used_for": "갑작스럽고 날카로운 골반 통증에 과다 질 출혈·발열·메스꺼움 또는 구토·실신감이 동반되면 응급 평가를 고려하는 안전 경계"}
+  ],
+  "data_points": [
+    {"claim": "통증 일지는 시간대, 월경 주기, 식사·배뇨·배변·활동·수면 전후, 통증의 양상·지속·강도·위치·완화/악화 요인, 시도한 약이나 보조제를 기록할 수 있다.", "source_id": "S1", "claim_type": "recording_fields", "source_date": "undated", "supports_section": "통증을 날짜와 시간대에 올리기"},
+    {"claim": "골반 통증은 배변이나 방광을 포함한 골반 부위 기관과 관련될 수 있어, 진단을 위해 가능한 한 많은 증상 정보를 공유하는 것이 중요하다.", "source_id": "S2", "claim_type": "context", "source_date": "2025-11-24", "supports_section": "배변·배뇨 칸을 통증 옆에 두기"},
+    {"claim": "골반 통증은 생식기관뿐 아니라 요로·하부 장·직장·근육·뼈의 문제와 관련될 수 있으며, 여성에게 복수 원인이 동시에 있을 수 있다.", "source_id": "S4", "claim_type": "interpretation_boundary", "source_date": "2024-08-09", "supports_section": "출혈·발열·메스꺼움은 별도 줄에 표시하기"},
+    {"claim": "갑작스럽고 심한 통증은 응급 상황일 수 있으며, 새롭거나 일상을 방해하거나 시간이 지나며 악화되는 골반 통증은 의료진에게 확인한다.", "source_id": "S3", "claim_type": "safety_boundary", "source_date": "2026-05-14", "supports_section": "반복 무늬와 갑작스러운 변화를 섞지 않기"},
+    {"claim": "갑작스럽고 날카로운 골반 통증에 과다 질 출혈·발열·메스꺼움 또는 구토·실신감이 함께 있으면 응급 평가가 필요할 수 있다.", "source_id": "S5", "claim_type": "urgent_boundary", "source_date": "undated", "supports_section": "달력으로 진료 대화를 시작하는 순서"}
+  ],
+  "article_specific_details": [
+    {"claim": "한 날짜를 통증·배변/배뇨·출혈/동반 신호·활동 제한의 네 층으로 나눠 적고, 통증이 화장실 전·중·후 또는 월경 전후 어느 때와 겹쳤는지 표시한다.", "source_id": "S1"},
+    {"claim": "반복해 온 무늬와 ‘처음 발생·갑작스러운 악화·실신감·심한 출혈·발열/구토 동반’ 같은 변화는 같은 칸에 합산하지 않고 별도 안전 줄로 올린다.", "source_id": "S3"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "NHS와 Mayo Clinic의 연락·응급 서비스 체계는 한국에 그대로 적용하지 않았다. 이 글은 국가별 번호나 대기시간 대신, 갑작스러운 심한 통증 또는 중대한 동반 변화가 있으면 지역 응급의료 체계에 도움을 요청한다는 공통 경계만 사용한다."
+}

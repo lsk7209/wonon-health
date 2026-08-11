@@ -1,0 +1,34 @@
+{
+  "article_id": "a004",
+  "slug": "stairs-breathlessness-route",
+  "researched_at": "2026-08-11T19:05:00+09:00",
+  "research_runs": [
+    "MedlinePlus 호흡곤란의 활동 장면과 진료 신호 확인",
+    "NHS 숨참의 즉시·긴급·일반 진료 경계 확인",
+    "American Lung Association 활동 유발 요인과 진료 전달 항목 확인"
+  ],
+  "article_research_question": "계단에서 숨이 찬 장면을 원인 추정 없이 경로, 회복, 동반 증상으로 어떻게 기록해 진료 대화에 쓸 수 있는가?",
+  "reader_outcome": "층수 경쟁이나 운동 처방 없이 계단 증상 경로 지도를 만들어 의료진에게 전달한다.",
+  "original_contribution": {
+    "type": "route-map function demo",
+    "description": "출발점·숨참 시작점·정지 지점·회복 지점을 한 줄 경로로 표시하는 계단 증상 지도",
+    "supporting_source_ids": ["s1", "s2", "s3"]
+  },
+  "source_interpretation_note": "호흡곤란의 원인은 다양하므로 자료는 진단이나 운동 지시가 아니라 기록 항목과 신속한 평가 신호를 구분하는 데만 쓴다.",
+  "sources": [
+    {"id":"s1","organization":"MedlinePlus (NIH/NLM)","url":"https://medlineplus.gov/ency/article/003075.htm","published_or_reviewed":"2025-04-01","accessed":"2026-08-11","source_role":"official","used_for":"가벼운 활동·휴식 중 숨참, 흉부 불편감과 같은 평가 신호"},
+    {"id":"s2","organization":"NHS","url":"https://www.nhs.uk/symptoms/shortness-of-breath/","published_or_reviewed":"2024-01-30","accessed":"2026-08-11","source_role":"official","used_for":"심한 호흡 곤란, 흉부 압박감, 창백·청색, 혼란의 즉시 평가 경계"},
+    {"id":"s3","organization":"American Lung Association","url":"https://www.lung.org/lung-health-diseases/warning-signs-of-lung-disease/shortness-of-breath","published_or_reviewed":"2026-06-04","accessed":"2026-08-11","source_role":"expert_reference","used_for":"계단 같은 활동 유발 상황과 흉통·어지러움·기침·쌕쌕거림을 함께 설명하는 관찰 항목"},
+    {"id":"s4","organization":"NHLBI","url":"https://www.nhlbi.nih.gov/health/heart-failure/symptoms","published_or_reviewed":"2024-05","accessed":"2026-08-11","source_role":"official","used_for":"숨참을 단일 원인으로 단정하지 않는 보조 맥락"},
+    {"id":"s5","organization":"Mayo Clinic","url":"https://www.mayoclinic.org/symptoms/shortness-of-breath/basics/definition/sym-20050890","published_or_reviewed":"2024-10","accessed":"2026-08-11","source_role":"expert_reference","used_for":"새롭거나 악화되는 숨참의 상담 필요성 보조 확인"}
+  ],
+  "data_points": [
+    {"claim":"호흡 곤란은 계단 오르기처럼 가벼운 활동에서 느껴질 수도 있고, 그 느낌은 개인이 느끼는 주관적 증상이다.","source_id":"s1","supports_section":"증상이 생긴 계단 장면 다시 떠올리기"},
+    {"claim":"심한 호흡 곤란, 흉부가 조이거나 무거운 느낌, 팔·등·목·턱으로 퍼지는 통증, 갑작스러운 혼란은 즉시 평가가 필요한 신호다.","source_id":"s2","supports_section":"가슴 통증·실신감이 더해질 때"}
+  ],
+  "article_specific_details": [
+    {"claim":"출발 층·숨참 시작 계단·난간 사용·정지 위치·회복 지점을 순서대로 표시한다.","source_id":"s3"},
+    {"claim":"층수만이 아니라 속도, 짐, 대화 가능 여부, 흉부 불편감·어지러움·기침·쌕쌕거림 여부를 분리해 적는다.","source_id":"s3"}
+  ],
+  "fact_traceability_pass": true
+}

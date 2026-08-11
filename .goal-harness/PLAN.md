@@ -40,3 +40,39 @@
 - Completion Criteria: Acceptance table is complete and state is DONE or accurately blocked.
 - Test Point: Public homepage, robots, sitemap, content and policy URLs return expected results.
 - Rollback/Recovery: Vercel rollback/deployment promotion and DNS record removal instructions recorded.
+
+## Phase 5 — Thirty-article contract map and dry run
+
+- Objective: Lock thirty non-overlapping reader problems before writing prose.
+- Tasks: Compare all published and prior batch titles; create thirty complete contracts; run strict planning audit; independently challenge the map; complete and verify a five-article dry run.
+- Expected Files: `output/wonon/batch-30/manifest.json`, title-contract map, planning audit, five draft/research/QA packets.
+- Completion Criteria: Exactly thirty accepted rows, strict audit warnings zero, dry-run five independently pass at 99.
+- Test Point: Manifest planning audit plus contract and prose similarity checks.
+- Rollback/Recovery: Repair or replace weak contracts; do not scale drafting while a gate fails.
+
+## Phase 6 — Remaining twenty-five articles
+
+- Objective: Produce the remaining articles in independently audited five-article checkpoints.
+- Tasks: Research, draft, QA, repair, and promote only passing rows.
+- Expected Files: Thirty total draft/research/QA packets and final corpus report.
+- Completion Criteria: 30 done at 99, zero failed/review rows, full anti-template and source audit passes.
+- Test Point: Rolling window-5 and window-20 strict audits, full UTF-8/link/source/overlap check.
+- Rollback/Recovery: Stop the affected wave, repair the repeated failure, and re-audit before continuing.
+
+## Phase 7 — Five-hour automatic release integration
+
+- Objective: Make release timing automatic and consistent across every public discovery surface.
+- Tasks: Record KST `publishedAt` values; gate direct routes, listings, search, topics, sitemap, and structured data; add deterministic time-boundary tests.
+- Expected Files: content schedule, scheduling utilities/tests, route/catalog changes.
+- Completion Criteria: Existing public baseline remains available; each future article is hidden before and visible after its timestamp without a manual redeploy.
+- Test Point: Frozen-time tests, typecheck, build, generated/runtime route checks.
+- Rollback/Recovery: Revert to the previous production deployment and retain the schedule artifact for repair.
+
+## Phase 8 — Deploy and live verification
+
+- Objective: Publish the verified scheduler and scheduled content safely.
+- Tasks: Commit/push, Vercel production deploy, live current/future boundary checks, update handoff/evidence.
+- Expected Files: deployment evidence and current handoff.
+- Completion Criteria: READY deployment; live public/future behavior matches schedule; DNS unchanged.
+- Test Point: HTTP status, article counts, sitemap/search/topic visibility, JSON-LD.
+- Rollback/Recovery: Promote the prior Vercel deployment; no DNS rollback is needed.

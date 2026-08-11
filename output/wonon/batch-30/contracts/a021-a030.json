@@ -1,0 +1,466 @@
+{
+  "batch": "a021-a030",
+  "purpose": "Hand-authored Phase-B contracts. Specific official-document URLs are preliminary evidence targets and require fresh research verification before drafting.",
+  "contracts": [
+    {
+      "id": "a021",
+      "slug": "colorectal-family-history-card",
+      "title": "대장암 검진 안내를 받았을 때: 가족력을 ‘누가·몇 살·무슨 암’으로 적는 법",
+      "reader_situation": "대장암 검진 안내를 받았지만 가족의 암 이야기를 막연하게만 알고 있어 상담 전 사실을 정리하려는 독자.",
+      "reader_artifact": "부모·형제자매·자녀의 관계, 암 종류, 진단 나이, 확인 출처, 모르는 칸을 분리한 가족력 확인 카드.",
+      "information_architecture": "안내문 목적 → 관계 지도 → 진단 정보 → 모르는 정보 처리 → 상담 질문",
+      "intro_frame": "가족력이 있다고 들었다는 말만으로 검진 시기를 정할 수는 없습니다. 이 글은 검색으로 추정하지 않고, 누가 몇 살에 어떤 암을 진단받았는지 사실을 모으는 카드에 집중합니다.",
+      "section_sequence": [
+        "검진 안내문과 가족력 카드를 분리하기",
+        "가족 관계를 가까운 순서로 적기",
+        "암 종류와 진단 나이를 확인하기",
+        "모르는 사실을 빈칸으로 남기는 법",
+        "카드로 의료진에게 물을 질문"
+      ],
+      "faq_plan": [
+        "가족에게 정확한 암 종류를 묻기 어려우면 어떻게 하나요?",
+        "친척의 용종 정보도 적어야 하나요?",
+        "이 카드로 내 검진 시작 나이를 정할 수 있나요?"
+      ],
+      "cta": "가족에게 전화하기 전, 카드의 ‘관계·암 종류·진단 나이’ 세 칸만 먼저 준비하세요.",
+      "non_overlap": "a022의 양성 결과 예약 연결과 달리 검진 전 가족력 사실 확인이 산출물이다. 개인 검진 시작 나이와 유전자 검사는 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/colorectal-cancer/risk-factors/index.html",
+          "exact_verification_question": "대장암 위험 맥락에서 가족력은 어떤 정보를 의료진에게 알릴 필요가 있는가?",
+          "applicability": "개인 위험도나 검진 일정 계산에는 사용하지 않는다.",
+          "planned_section": "암 종류와 진단 나이를 확인하기"
+        },
+        {
+          "organization": "NCI",
+          "url": "https://www.cancer.gov/types/colorectal/patient/colorectal-screening-pdq",
+          "exact_verification_question": "대장암 검진 상담에서 가족력과 개인 위험을 의료진이 함께 고려한다는 점을 어떻게 설명할 수 있는가?",
+          "applicability": "검진 방법·시기를 독자에게 처방하지 않는다.",
+          "planned_section": "카드로 의료진에게 물을 질문"
+        },
+        {
+          "organization": "American Cancer Society",
+          "url": "https://www.cancer.org/cancer/risk-prevention/genetics/family-cancer-syndromes.html",
+          "exact_verification_question": "가족 암력 기록에 관계와 진단 나이를 포함하는 환자용 이유는 무엇인가?",
+          "applicability": "유전성 암 증후군을 판단하지 않는 사실 수집의 근거로만 사용한다.",
+          "planned_section": "가족 관계를 가까운 순서로 적기"
+        }
+      ]
+    },
+    {
+      "id": "a022",
+      "slug": "positive-stool-test-followup",
+      "title": "대변검사 양성 뒤: 결과 문자와 다음 예약을 연결하는 체크리스트",
+      "reader_situation": "대변검사 양성 문자를 받아 암 확진으로 오해하지 않으면서 후속 예약을 놓치지 않으려는 독자.",
+      "reader_artifact": "결과 문자 날짜·검사 이름·안내문 링크·예약 기관·예약일·새 증상·질문을 연결한 결과-예약 체크리스트.",
+      "information_architecture": "문자 보존 → 결과 의미의 한계 → 예약 확인 → 증상 분리 → 질문 목록",
+      "intro_frame": "양성 문자는 결론이 아니라 후속 확인이 필요하다는 신호입니다. 이 글은 검사 결과를 해석하지 않고, 문자와 다음 예약 사이에 빠진 행동이 없는지 확인하는 목록을 만듭니다.",
+      "section_sequence": [
+        "문자에서 보존할 정보",
+        "양성이 확진이 아닌 이유",
+        "예약이 잡혔는지 확인하는 순서",
+        "새 증상은 예약과 별도로 알리기",
+        "진료 전 질문 세 개"
+      ],
+      "faq_plan": [
+        "문자를 지워도 결과를 확인할 수 있나요?",
+        "양성이면 반드시 암인가요?",
+        "예약일 전 증상이 생기면 기다려도 되나요?"
+      ],
+      "cta": "결과 문자를 캡처하고, 오늘 안에 예약 기관·날짜·새 증상 칸만 체크리스트에 채우세요.",
+      "non_overlap": "a021의 가족력 카드와 달리 이미 받은 양성 결과 뒤 예약 연결이 핵심이다. 암 여부와 대장내시경 결과 예측은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/colorectal-cancer/screening/index.html",
+          "exact_verification_question": "대장암 선별검사 결과 뒤 후속 검사가 필요한 일반적 이유는 무엇인가?",
+          "applicability": "개별 결과를 해석하지 않고 후속 확인의 필요만 설명한다.",
+          "planned_section": "양성이 확진이 아닌 이유"
+        },
+        {
+          "organization": "NCI",
+          "url": "https://www.cancer.gov/types/colorectal/screening-fact-sheet",
+          "exact_verification_question": "대변 기반 선별검사와 양성 결과의 후속 평가를 환자용 정보에서 어떻게 설명하는가?",
+          "applicability": "대장내시경 결과나 암 가능성을 예측하지 않는다.",
+          "planned_section": "예약이 잡혔는지 확인하는 순서"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/conditions/bowel-cancer-screening/",
+          "exact_verification_question": "선별검사 안내문과 후속 연락 정보를 보관할 때 확인할 행정 정보는 무엇인가?",
+          "applicability": "국가별 프로그램 차이는 인정하고 체크리스트 구조에만 사용한다.",
+          "planned_section": "문자에서 보존할 정보"
+        }
+      ]
+    },
+    {
+      "id": "a023",
+      "slug": "screening-new-bleeding-contact",
+      "title": "검진일 전에 새 출혈이 생겼다면: ‘정기검진’과 ‘증상 진료’를 구분하는 연락 메모",
+      "reader_situation": "검진 예약을 기다리는 동안 새 출혈이 생겨, 예약을 그대로 가야 할지 기관에 먼저 알려야 할지 고민하는 독자.",
+      "reader_artifact": "예약 기관·검진일, 출혈 시작 시점·양상·통증·임신 가능성 여부·복용약, 전화한 시각·받은 안내를 기록하는 예약 연락 메모.",
+      "information_architecture": "새 증상 확인 → 예약기관 연락 → 전달 사실 → 검진과 증상 진료 목적 분리 → 즉시 평가 신호",
+      "intro_frame": "정기검진 예약이 있어도 새 출혈은 별도의 증상 평가가 필요할 수 있습니다. 이 글은 출혈 원인을 추측하지 않고, 예약기관에 무엇을 어떻게 먼저 알릴지 정리합니다.",
+      "section_sequence": [
+        "새 출혈을 검진 예약과 한 묶음으로 보지 않기",
+        "전화 전에 메모할 다섯 사실",
+        "예약기관에 목적을 분명히 말하는 문장",
+        "검진일과 증상 진료가 달라질 수 있는 이유",
+        "기다리지 말아야 할 출혈·통증 신호"
+      ],
+      "faq_plan": [
+        "검진 당일에 말하면 안 되나요?",
+        "출혈량을 정확히 재야 하나요?",
+        "폐경 후 출혈은 이 연락 메모만으로 충분한가요?"
+      ],
+      "cta": "예약기관에 연락하기 전, 시작 시각·양상·통증·복용약·예약일 다섯 줄을 메모하세요.",
+      "non_overlap": "b002의 폐경 후 출혈 증상 메모와 달리 ‘검진 전 예약기관 연락 절차’만 다룬다. 출혈 원인과 암 가능성은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "ACOG",
+          "url": "https://www.acog.org/womens-health/faqs/perimenopausal-bleeding-and-bleeding-after-menopause",
+          "exact_verification_question": "폐경 전후 또는 폐경 후 출혈에서 의료 평가가 필요한 일반적 원칙은 무엇인가?",
+          "applicability": "원인 질환을 판정하지 않고 새 증상 연락의 필요를 설명한다.",
+          "planned_section": "기다리지 말아야 할 출혈·통증 신호"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+          "exact_verification_question": "비정상 질출혈을 의료진에게 알릴 때 시작 시점·양상·동반 통증을 어떻게 설명할 수 있는가?",
+          "applicability": "증상 기록 항목만 확인하며 검진 결과를 예측하지 않는다.",
+          "planned_section": "전화 전에 메모할 다섯 사실"
+        },
+        {
+          "organization": "NCI",
+          "url": "https://www.cancer.gov/types/cervical/pap-hpv-testing-fact-sheet",
+          "exact_verification_question": "선별검사와 증상이 있을 때의 임상 평가가 목적상 다를 수 있음을 어떻게 설명하는가?",
+          "applicability": "특정 검진 방식의 적응증을 결정하지 않는다.",
+          "planned_section": "검진일과 증상 진료가 달라질 수 있는 이유"
+        }
+      ]
+    },
+    {
+      "id": "a024",
+      "slug": "breast-pain-change-card",
+      "title": "유방 통증이 있을 때: 검진 날짜와 별개로 바뀐 증상을 설명하는 카드",
+      "reader_situation": "검진 예약이 잡혀 있지만 새 유방 통증·멍울·피부 변화가 생겨 증상을 분명히 전달하고 싶은 독자.",
+      "reader_artifact": "통증 위치·시작·주기와의 관계·새 멍울·피부 변화·유두 분비물·팔 아래 변화 칸으로 구성된 유방 변화 설명 카드.",
+      "information_architecture": "통증 맥락 → 변화 카드 → 검진과 증상 분리 → 연락 시점 → 진료 메모",
+      "intro_frame": "검진 예약은 새로운 증상이 생겼을 때 연락을 미뤄도 된다는 뜻이 아닙니다. 이 글은 유방암을 추정하지 않고, 바뀐 증상을 검진 날짜와 분리해 설명하는 카드입니다.",
+      "section_sequence": [
+        "통증의 위치와 시작을 먼저 적기",
+        "멍울·피부·분비물을 다른 칸에 두기",
+        "정기검진과 증상 평가를 나누는 이유",
+        "예약기관에 연락할 때 말할 핵심",
+        "카드를 진료실에서 펼치는 순서"
+      ],
+      "faq_plan": [
+        "통증만 있으면 연락하지 않아도 되나요?",
+        "검진 예약이 가까우면 새 증상을 기다려도 되나요?",
+        "이 카드로 영상검사 종류를 고를 수 있나요?"
+      ],
+      "cta": "오늘은 통증의 원인을 찾지 말고, 위치·시작일·새 변화 유무만 카드에 표시해 연락할 준비를 하세요.",
+      "non_overlap": "b019의 검진 예약 정보와 달리 새 유방 변화의 증상 설명이 핵심이다. 유방암 진단과 영상검사 선택은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/breast-cancer/symptoms/index.html",
+          "exact_verification_question": "유방 변화에서 통증 외에 의료진에게 알려야 할 멍울·피부·분비물 변화는 무엇인가?",
+          "applicability": "암을 진단하지 않고 카드의 관찰 항목만 정한다.",
+          "planned_section": "멍울·피부·분비물을 다른 칸에 두기"
+        },
+        {
+          "organization": "NCI",
+          "url": "https://www.cancer.gov/types/breast/breast-changes",
+          "exact_verification_question": "새 유방 변화가 있을 때 선별검사와 별도로 의료진에게 알릴 필요를 어떻게 설명하는가?",
+          "applicability": "개별 영상검사 선택을 안내하지 않는다.",
+          "planned_section": "정기검진과 증상 평가를 나누는 이유"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/conditions/breast-pain/",
+          "exact_verification_question": "유방 통증에서 진료 상담이 필요한 변화와 기록할 맥락은 무엇인가?",
+          "applicability": "통증 원인을 판정하지 않는다.",
+          "planned_section": "통증의 위치와 시작을 먼저 적기"
+        }
+      ]
+    },
+    {
+      "id": "a025",
+      "slug": "pelvic-pain-symptom-calendar",
+      "title": "반복되는 골반 통증: 배변·배뇨·출혈을 함께 적는 증상 달력",
+      "reader_situation": "골반 통증이 반복되는데 생리·배변·배뇨·출혈과의 관계를 진료에서 빠뜨리지 않고 말하고 싶은 독자.",
+      "reader_artifact": "날짜별 통증 위치·강도·시간대, 배변·배뇨 변화, 출혈·발열·메스꺼움, 활동 제한을 같은 칸에 적는 골반 증상 달력.",
+      "information_architecture": "달력 시작 → 배변·배뇨 레이어 → 출혈·발열 레이어 → 반복 패턴 → 상담 준비",
+      "intro_frame": "골반 통증은 한 번의 숫자로 설명하기 어렵고, 배변·배뇨·출혈과의 동반 양상이 단서가 될 수 있습니다. 이 글은 원인을 고르지 않고 증상 달력을 만드는 방법을 다룹니다.",
+      "section_sequence": [
+        "통증을 날짜와 시간대에 올리기",
+        "배변·배뇨 칸을 따로 두기",
+        "출혈·발열·구토를 함께 표시하기",
+        "반복되는 장면과 갑작스러운 변화 구분하기",
+        "달력으로 진료 질문 만들기"
+      ],
+      "faq_plan": [
+        "생리 중 통증도 같은 달력에 적나요?",
+        "배변과 배뇨는 얼마나 자세히 적어야 하나요?",
+        "진통제를 바꾸기 전에 달력만 쓰면 되나요?"
+      ],
+      "cta": "다음 통증 한 번부터 시각·배변·배뇨·출혈 네 칸만 같은 날짜에 표시하세요.",
+      "non_overlap": "b002 출혈 메모 및 비뇨 증상 글과 달리 ‘반복 골반 통증’의 날짜별 동반 양상이 핵심이다. 통증 원인과 진통제·검사 선택은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/conditions/pelvic-pain/",
+          "exact_verification_question": "골반 통증에서 배변·배뇨·출혈 등 동반 증상과 진료 필요 신호는 무엇인가?",
+          "applicability": "원인을 진단하지 않고 달력의 관찰 항목을 정한다.",
+          "planned_section": "배변·배뇨 칸을 따로 두기"
+        },
+        {
+          "organization": "ACOG",
+          "url": "https://www.acog.org/womens-health/faqs/chronic-pelvic-pain",
+          "exact_verification_question": "반복 골반 통증을 상담할 때 증상 경과와 일상 기능 영향을 어떻게 기록할 수 있는가?",
+          "applicability": "만성 골반 통증을 진단하지 않고 진료 준비에만 사용한다.",
+          "planned_section": "달력으로 진료 질문 만들기"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/symptoms/pelvic-pain/basics/when-to-see-doctor/sym-20050645",
+          "exact_verification_question": "골반 통증에서 즉시 또는 신속한 의료 평가를 고려할 급성 변화는 무엇인가?",
+          "applicability": "응급 판단을 대신하지 않는 안전 경계로 사용한다.",
+          "planned_section": "반복되는 장면과 갑작스러운 변화 구분하기"
+        }
+      ]
+    },
+    {
+      "id": "a026",
+      "slug": "sleepiness-safety-next-day",
+      "title": "새벽에 깬 밤 다음 날: 졸음이 안전에 미치는 영향을 점검하는 운전·작업 카드",
+      "reader_situation": "새벽에 깬 뒤 다음 날 졸려 운전·조리·기계 작업이 걱정되지만, 수면 기록과는 별개로 안전 행동을 정하고 싶은 독자.",
+      "reader_artifact": "운전 예정, 위험 작업, 졸음 신호, 대체 이동·휴식 가능 여부, 동료·가족에게 알릴 문장을 둔 다음 날 졸음 안전 카드.",
+      "information_architecture": "밤 이후 상태 → 운전 위험 → 작업 위험 → 대체 계획 → 상담 신호",
+      "intro_frame": "새벽 각성 뒤에는 잠을 다시 자는 방법보다, 다음 날 졸음이 안전을 흔들 수 있는 장면을 먼저 살피는 날도 있습니다. 이 글은 수면 일지가 아니라 운전·작업 결정을 위한 카드입니다.",
+      "section_sequence": [
+        "아침에 확인할 졸음 신호",
+        "운전 전에 묻는 세 가지",
+        "조리·사다리·기계 작업을 미루는 기준",
+        "대체 이동과 동료 알림 문장",
+        "졸음이 반복될 때 상담으로 가져갈 사실"
+      ],
+      "faq_plan": [
+        "커피를 마시면 운전해도 되나요?",
+        "집안일도 위험 작업에 넣어야 하나요?",
+        "새벽 각성 치료법은 이 카드에서 다루나요?"
+      ],
+      "cta": "내일 아침에는 수면 시간 계산보다 운전·위험 작업·대체 계획 세 칸을 먼저 체크하세요.",
+      "non_overlap": "b005의 각성 후 재입면 기록과 달리 이 글은 다음 날 졸음의 운전·작업 안전만 다룬다. 불면 치료와 수면제 선택은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NHTSA",
+          "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+          "exact_verification_question": "졸음운전의 위험 신호와 운전을 피하거나 대안을 찾을 때의 공공안전 원칙은 무엇인가?",
+          "applicability": "개인의 운전 가능 여부를 보증하지 않고 안전 카드의 경계를 정한다.",
+          "planned_section": "운전 전에 묻는 세 가지"
+        },
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/niosh/work-related-stress/about/sleep-and-work.html",
+          "exact_verification_question": "수면 부족과 작업 수행·안전의 관계를 어떤 일반적 수준에서 설명할 수 있는가?",
+          "applicability": "직업별 안전 규정을 해석하지 않고 위험 작업 인식에만 사용한다.",
+          "planned_section": "조리·사다리·기계 작업을 미루는 기준"
+        },
+        {
+          "organization": "NHLBI",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+          "exact_verification_question": "지속되는 낮 졸림을 의료진과 논의할 때 기록할 수면·기능 영향은 무엇인가?",
+          "applicability": "수면장애를 진단하지 않고 상담용 사실을 정리한다.",
+          "planned_section": "졸음이 반복될 때 상담으로 가져갈 사실"
+        }
+      ]
+    },
+    {
+      "id": "a027",
+      "slug": "sleep-apnea-solo-observation",
+      "title": "코골이를 모를 때: 동침자 없이도 모을 수 있는 낮 증상 관찰 목록",
+      "reader_situation": "혼자 자서 코골이·무호흡을 확인해 줄 사람이 없지만 낮 졸림과 아침 증상을 상담에 쓸 수 있게 모으고 싶은 독자.",
+      "reader_artifact": "아침 두통·입마름·상쾌하지 않음, 낮 졸림 장면, 밤에 깬 흔적, 수면 시간, 동침자 정보 없음 칸을 가진 혼자 하는 수면 호흡 관찰 목록.",
+      "information_architecture": "혼자 자는 한계 → 낮 증상 수집 → 밤 흔적 수집 → 상담 자료 정리 → 검사 경계",
+      "intro_frame": "동침자가 없다고 수면 관련 상담을 준비할 수 없는 것은 아닙니다. 이 글은 여성 수면무호흡의 일반 설명을 반복하지 않고, 혼자 사는 사람이 모을 수 있는 낮 증상과 밤의 흔적을 목록으로 만듭니다.",
+      "section_sequence": [
+        "동침자 관찰이 없다는 사실도 정보로 적기",
+        "낮에 졸린 구체 장면 모으기",
+        "아침과 밤에 남은 흔적 적기",
+        "목록을 수면 상담 질문으로 바꾸기",
+        "검사와 치료를 스스로 결정하지 않는 이유"
+      ],
+      "faq_plan": [
+        "코골이를 몰라도 수면 상담을 받을 수 있나요?",
+        "스마트워치 기록을 이 목록에 넣어도 되나요?",
+        "CPAP이 필요한지 목록으로 알 수 있나요?"
+      ],
+      "cta": "이번 주에는 ‘졸렸던 장면’ 하나와 ‘아침 흔적’ 하나만 같은 목록에 적으세요.",
+      "non_overlap": "기존 women-sleep-apnea-menopause-signs가 여성 수면무호흡의 개요라면, 이 글은 동침자 없는 독자의 관찰 자료 수집만 다룬다. 수면무호흡 진단과 CPAP 치료는 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NHLBI",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/women",
+          "exact_verification_question": "여성에서 수면무호흡이 피로·불면·아침 증상처럼 나타날 수 있다는 환자용 설명은 무엇인가?",
+          "applicability": "수면무호흡을 진단하지 않고 목록의 낮 증상 항목을 정한다.",
+          "planned_section": "낮에 졸린 구체 장면 모으기"
+        },
+        {
+          "organization": "NHLBI",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/diagnosis",
+          "exact_verification_question": "수면무호흡 평가에서 수면력과 증상 기록이 어떤 역할을 하는가?",
+          "applicability": "검사 필요 여부를 독자가 결정하지 않는다는 경계를 설명한다.",
+          "planned_section": "목록을 수면 상담 질문으로 바꾸기"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/conditions/sleep-apnoea/",
+          "exact_verification_question": "수면무호흡 의심 증상에서 의료 상담을 고려할 낮·밤의 징후는 무엇인가?",
+          "applicability": "코골이 유무만으로 진단하지 않는 안전한 관찰 범위에 사용한다.",
+          "planned_section": "아침과 밤에 남은 흔적 적기"
+        }
+      ]
+    },
+    {
+      "id": "a028",
+      "slug": "night-waking-transfer-safety",
+      "title": "밤에 화장실을 갈 때 넘어질 뻔했다면: 야간뇨 원인 대신 ‘일어나는 순간’ 안전 점검",
+      "reader_situation": "밤에 일어나 침대에서 일어서는 첫 순간에 어지럽거나 넘어질 뻔했지만, 야간뇨 원인과 분리해 즉시 안전을 점검하려는 독자.",
+      "reader_artifact": "침대 옆 조명·휴대전화·안경·신발 위치, 누운 뒤 일어나기 전 숨 고르기, 앉은 뒤 어지럼, 도움 요청을 체크하는 침대 옆 기립 안전 점검표.",
+      "information_architecture": "이동 전 전환 → 침대 옆 준비 → 앉은 뒤 확인 → 도움 요청 → 원인 논의 경계",
+      "intro_frame": "밤길 전체를 바꾸기 전에, 넘어질 뻔한 순간이 침대에서 몸을 일으킬 때였는지 살필 필요가 있습니다. 이 글은 야간뇨 일지나 낙상 재활이 아니라 ‘침대-기립’ 전환의 안전 점검표입니다.",
+      "section_sequence": [
+        "누운 자세에서 일어나는 전환을 분리하기",
+        "손 닿는 곳에 둘 준비물",
+        "앉은 뒤 어지럼·시야 변화를 확인하기",
+        "혼자 움직이지 말아야 할 순간",
+        "야간뇨와 다른 원인 논의를 진료에 넘기기"
+      ],
+      "faq_plan": [
+        "밤에 일어난 뒤 얼마나 앉아 있어야 하나요?",
+        "침대 옆 손잡이를 이 글만 보고 설치해도 되나요?",
+        "야간뇨 양과 음료는 이 점검표에 적지 않나요?"
+      ],
+      "cta": "오늘 밤에는 침대 옆에 필요한 물건 위치와, 앉은 뒤 확인할 신호 한 가지를 먼저 점검하세요.",
+      "non_overlap": "b014의 야간뇨 양·음료 일지와 b009의 계단 낙상 장면과 달리 침대에서 일어나는 ‘첫 순간’만 다룬다. 야간뇨 원인과 낙상 재활은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NIA",
+          "url": "https://www.nia.nih.gov/health/preventing-falls-at-home-and-outdoors",
+          "exact_verification_question": "낙상 예방에서 침실 주변 환경과 천천히 자세를 바꾸는 일반적 안전 원칙은 무엇인가?",
+          "applicability": "개인 재활 계획이나 보조기 처방으로 확대하지 않는다.",
+          "planned_section": "손 닿는 곳에 둘 준비물"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/conditions/low-blood-pressure-hypotension/",
+          "exact_verification_question": "자세 변화 뒤 어지럼이 있을 때 신속한 의료 상담이 필요한 경우는 무엇인가?",
+          "applicability": "기립성 저혈압을 진단하지 않고 어지럼 확인의 안전 경계로 사용한다.",
+          "planned_section": "앉은 뒤 어지럼·시야 변화를 확인하기"
+        },
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/older-adult-falls/about/index.html",
+          "exact_verification_question": "넘어질 뻔한 사건 뒤 환경과 상황을 기록하는 것이 낙상 예방 대화에 어떤 도움을 주는가?",
+          "applicability": "낙상 위험도 평가를 대신하지 않고 점검표의 목적을 설명한다.",
+          "planned_section": "누운 자세에서 일어나는 전환을 분리하기"
+        }
+      ]
+    },
+    {
+      "id": "a029",
+      "slug": "alcohol-sleep-next-day-review",
+      "title": "잠을 위해 마신 술이 걱정될 때: 양보다 다음 날 기능을 함께 보는 회고표",
+      "reader_situation": "잠들기 위해 술을 마신 뒤 밤에 깨거나 다음 날 기능이 달라져, 양만 줄일지보다 패턴을 상담용으로 돌아보고 싶은 독자.",
+      "reader_artifact": "마신 이유·시각·대략의 양, 잠든 뒤 각성, 아침 상태, 운전·일·돌봄 영향, 다음 날 선택을 연결한 음주-수면-기능 회고표.",
+      "information_architecture": "마신 이유 → 밤의 변화 → 다음 날 기능 → 반복 패턴 → 상담 경계",
+      "intro_frame": "잠을 위해 마신 술을 양만으로 평가하면, 밤과 다음 날에 생긴 변화를 놓칠 수 있습니다. 이 글은 금주 계획을 처방하지 않고 음주·각성·기능을 같은 줄에 놓는 회고표입니다.",
+      "section_sequence": [
+        "그날 술을 마신 이유부터 적기",
+        "시각과 밤의 각성을 연결하기",
+        "다음 날 운전·일·돌봄 변화를 보기",
+        "반복되는 선택과 불편을 돌아보기",
+        "도움을 요청할 때 말할 사실"
+      ],
+      "faq_plan": [
+        "한 잔만 마셔도 기록해야 하나요?",
+        "술이 잠들게 해주면 계속 마셔도 되나요?",
+        "금주 치료가 필요한지 회고표가 알려주나요?"
+      ],
+      "cta": "다음 음주 뒤에는 양을 평가하기 전에 마신 시각·밤의 각성·다음 날 기능 세 칸을 같은 줄에 적으세요.",
+      "non_overlap": "수면 위생·불면 기록과 달리 이 글은 음주 후 ‘다음 날 기능’ 회고가 핵심이다. 음주장애 진단과 금주 치료 계획은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NIAAA",
+          "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/hangovers",
+          "exact_verification_question": "음주 뒤 잠은 더 빨리 들 수 있어도 수면이 분절되고 이른 각성·피로·생산성 저하로 이어질 수 있다는 근거는 무엇인가?",
+          "applicability": "개인별 음주 허용량이나 치료 계획을 제시하지 않고, 회고표에 밤의 각성과 다음 날 기능을 함께 적는 이유만 설명한다.",
+          "planned_section": "시각과 밤의 각성을 연결하기"
+        },
+        {
+          "organization": "CDC",
+          "url": "https://www.cdc.gov/alcohol/about-alcohol-use/index.html",
+          "exact_verification_question": "음주가 일상 기능과 안전에 미치는 일반적 위험을 어떤 범위에서 설명할 수 있는가?",
+          "applicability": "음주장애를 진단하지 않고 기능 기록의 맥락으로만 쓴다.",
+          "planned_section": "다음 날 운전·일·돌봄 변화를 보기"
+        },
+        {
+          "organization": "NIAAA",
+          "url": "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/treatment-alcohol-problems-finding-and-getting-help",
+          "exact_verification_question": "음주로 인한 걱정이나 기능 문제가 반복될 때 도움을 찾는 일반적 경로는 무엇인가?",
+          "applicability": "치료 방식을 선택하지 않고 상담 경계만 안내한다.",
+          "planned_section": "도움을 요청할 때 말할 사실"
+        }
+      ]
+    },
+    {
+      "id": "a030",
+      "slug": "palpitations-avoidance-loop",
+      "title": "두근거림 뒤 외출을 피하게 될 때: 응급 신호가 없을 때의 불안-회피 고리 기록",
+      "reader_situation": "응급 평가가 필요한 신호는 없었지만 두근거림 경험 뒤 외출·운동·대중교통을 피하게 되어 일상이 좁아진 독자.",
+      "reader_artifact": "두근거림 장면, 떠오른 걱정, 피한 행동, 즉시 편해진 점, 나중의 생활 손실, 상담에 물을 말을 화살표로 잇는 불안-회피 고리 기록.",
+      "information_architecture": "사건 이후 → 회피 장면 → 단기 안도와 장기 기능 → 상담 언어 → 응급 신호 재분리",
+      "intro_frame": "두근거림 뒤 외출을 피하게 되면 몸의 신호보다 ‘피하게 된 생활’이 더 커질 수 있습니다. 이 글은 가슴 압박감 응급 카드와 분리해, 이미 응급 신호가 없다고 평가된 뒤의 불안-회피 고리를 기록합니다.",
+      "section_sequence": [
+        "두근거림 뒤 무엇이 달라졌는지 적기",
+        "피한 장소·행동을 구체화하기",
+        "피하자마자 편해진 점과 잃은 기능 함께 보기",
+        "상담에서 말할 고리의 한 문장",
+        "흉통·호흡곤란·실신감은 다시 분리하기"
+      ],
+      "faq_plan": [
+        "두근거림이 한 번뿐이어도 회피 기록이 필요한가요?",
+        "응급 신호가 없었다는 것은 누가 판단해야 하나요?",
+        "외출을 억지로 늘리는 계획을 이 글에서 정하나요?"
+      ],
+      "cta": "오늘은 피한 행동 하나와 그로 인해 미뤄진 일 하나를 화살표로 잇고, 응급 신호가 새로 생기면 즉시 도움을 받으세요.",
+      "non_overlap": "b003의 두근거림 증상 분리 기록과 a002의 가슴 압박감 응급 행동 카드와 달리, 이 글은 응급 신호가 없는 뒤 넓어진 불안-회피와 생활 기능만 다룬다. 심장질환 감별과 노출 치료 계획은 답하지 않는다.",
+      "evidence_targets": [
+        {
+          "organization": "NIMH",
+          "url": "https://www.nimh.nih.gov/health/publications/panic-disorder-when-fear-overwhelms",
+          "exact_verification_question": "공황·불안에서 회피 행동과 일상 기능 축소를 환자용 정보로 어떻게 설명하는가?",
+          "applicability": "공황장애를 진단하지 않고 상담용 회피 기록의 개념에만 사용한다.",
+          "planned_section": "피하자마자 편해진 점과 잃은 기능 함께 보기"
+        },
+        {
+          "organization": "NHS",
+          "url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/",
+          "exact_verification_question": "반복되는 공황·불안에서 회피가 커질 수 있으며, 증상·빈도·지속 기간을 의료진과 논의하는 환자용 경로는 무엇인가?",
+          "applicability": "정신건강 진단이나 치료 방식을 선택하지 않고, 상담에서 회피·기능 영향을 말하는 경계로만 사용한다.",
+          "planned_section": "상담에서 말할 고리의 한 문장"
+        },
+        {
+          "organization": "NHLBI",
+          "url": "https://www.nhlbi.nih.gov/health/heart-attack/symptoms",
+          "exact_verification_question": "흉부 불편감·호흡 곤란·실신감 등 즉시 평가를 고려할 심장 관련 경고 신호는 무엇인가?",
+          "applicability": "심장질환을 감별하지 않고 회피 기록과 응급 신호를 분리하는 데만 사용한다.",
+          "planned_section": "흉통·호흡곤란·실신감은 다시 분리하기"
+        }
+      ]
+    }
+  ]
+}

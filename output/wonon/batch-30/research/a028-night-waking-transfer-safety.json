@@ -1,0 +1,185 @@
+{
+  "article_id": "a028",
+  "slug": "night-waking-transfer-safety",
+  "title": "밤에 화장실을 갈 때 넘어질 뻔했다면: 야간뇨 원인 대신 ‘일어나는 순간’ 안전 점검",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health-safety",
+  "ymyl_review": "pass-with-safety-boundary",
+  "volatile": false,
+  "research_runs": [
+    {
+      "query": "site:nia.nih.gov preventing falls at home bedroom night light phone bedside",
+      "date": "2026-08-11",
+      "purpose": "침실에서 밤에 일어날 때 조명·손전등·전화 위치라는 구체적 환경 준비를 공식 자료로 확인"
+    },
+    {
+      "query": "site:nhs.uk low blood pressure dizziness standing up get up slowly",
+      "date": "2026-08-11",
+      "purpose": "누운 자세에서 앉고 서는 전환 뒤 어지럼·시야 흐림의 상담 경계와 천천히 움직이는 일반 안전 원칙 확인"
+    },
+    {
+      "query": "site:cdc.gov older adult falls home lighting medications dizziness vision",
+      "date": "2026-08-11",
+      "purpose": "조명·안경·약물 부작용 확인을 낙상 위험의 단일 원인 진단이 아닌 환경·상담 항목으로 제한하는 근거 확인"
+    },
+    {
+      "query": "site:nia.nih.gov falls fractures stand up slowly blood pressure lying sitting",
+      "date": "2026-08-11",
+      "purpose": "너무 빨리 일어날 때의 흔들림과, 넘어진 뒤 도움 요청을 우선하는 안전 경계 확인"
+    }
+  ],
+  "article_research_question": "밤에 화장실에 가려고 침대에서 일어날 때 어지럽거나 넘어질 뻔한 사람이 야간뇨의 원인이나 개인 낙상 위험도를 스스로 판정하지 않고, 침대 옆 준비물·자세 전환·도움 요청을 어떻게 한 장의 점검표로 정리할 수 있는가?",
+  "reader_outcome": "조명·휴대전화·안경·신발의 위치, 누운 뒤 앉기 전 확인, 앉은 뒤 어지럼·시야 변화, 도움 요청 여부를 순서대로 적는 침대 옆 기립 안전 점검표를 만든다.",
+  "search_intent_insight": "독자는 야간뇨의 원인 설명이나 방 전체의 낙상 예방보다, 잠에서 깬 뒤 침대에서 발을 디디는 짧은 순간에 무엇을 먼저 해야 하는지와 혼자 계속 움직이면 안 될 때를 찾는다.",
+  "competitor_gap": "일반 야간뇨 글은 음료·배뇨량·원인에 치우치고, 낙상 예방 글은 집 전체의 미끄럼·운동을 넓게 다루기 쉽다. 이 글은 침대에서 일어나 앉고 서기 전의 전환만 분리해, 이동 전에 확인할 물건과 증상, 도움 요청 문장을 한 표에 둔다.",
+  "information_gain": "조명이나 천천히 일어나기라는 조언을 나열하지 않고, ‘침대 옆 준비→앉은 뒤 확인→걷기 전 결정’의 순서로 바꾸어 야간뇨 원인 기록과 섞이지 않는 단일 장면 점검표를 제공한다.",
+  "unique_angle": "침대 옆 조명·휴대전화·안경·신발 위치, 누운 뒤 일어나기 전 숨 고르기, 앉은 뒤 어지럼, 도움 요청을 체크하는 침대 옆 기립 안전 점검표.",
+  "original_contribution": {
+    "type": "bedside-transfer-safety-checklist",
+    "description": "야간뇨의 양·음료·원인이나 낙상 재활 계획을 다루지 않고, 침대에서 일어나기 직전과 앉은 뒤에만 쓸 수 있는 침대 옆 기립 안전 점검표",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5", "S6"]
+  },
+  "source_interpretation": "S1은 침대 가까운 조명·손전등·전화라는 준비물의 근거로만 쓴다. S2와 S5는 기립성 저혈압을 자가진단하거나 수치로 판정하는 데 쓰지 않고, 자세 변화 뒤 어지럼·시야 흐림·실신이 반복될 때의 안전 경계와 상담 준비로만 쓴다. S3과 S4는 집 전체의 낙상 위험도나 보조기 처방을 정하지 않고, 조명·안경·약물 부작용을 의료진 또는 약사와 확인할 수 있는 항목으로 제한한다.",
+  "angle_supporting_detail": {
+    "claim": "NIA는 침실에서 밤 조명과 침대 가까운 손전등, 충전된 전화기를 두도록 안내한다. 이 세 항목을 ‘방 전체 정리’가 아니라 침대에서 일어나기 전에 손 닿는 곳을 확인하는 첫 칸으로 바꾼다.",
+    "source_id": "S1"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Preventing Falls at Home: Room by Room",
+      "organization": "National Institute on Aging, NIH",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/preventing-falls-home-room-room?c=Homepage&pid=Web&shortlink=dc203038&source_caller=ui",
+      "source_date": "2022-12-21",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "reviewed",
+      "used_for": "침실의 밤 조명·침대 가까운 손전등·충전된 전화기, 욕실의 야간 조명이라는 구체적인 점검표 항목"
+    },
+    {
+      "id": "S2",
+      "title": "Low blood pressure (hypotension)",
+      "organization": "NHS",
+      "url": "https://www.nhs.uk/conditions/low-blood-pressure-hypotension/",
+      "source_date": "2023-07-11",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "reviewed",
+      "used_for": "자세 변화 뒤 어지럼·메스꺼움·시야 흐림·실신 같은 증상, 누운 자세에서 앉고 서는 동작을 천천히 하라는 일반 안내와 반복 시 상담 경계"
+    },
+    {
+      "id": "S3",
+      "title": "Preventing Falls and Hip Fractures",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/falls/prevention/index.html",
+      "source_date": "2026-01-27",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "밝은 조명, 걸려 넘어질 물건 제거, 어지럽거나 졸리게 하는 약을 의료진 또는 약사와 검토할 수 있다는 일반 낙상 예방 맥락"
+    },
+    {
+      "id": "S4",
+      "title": "About Vision Impairment and Falls Among Older Adults",
+      "organization": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/vision-health/prevention/older-adult-falls.html",
+      "source_date": "2024-05-15",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "안경을 포함한 시야 준비, 쉽게 닿는 스위치 또는 움직임 감지 조명, 어지럼·졸림을 일으킬 수 있는 약 검토의 맥락"
+    },
+    {
+      "id": "S5",
+      "title": "Falls and Fractures in Older Adults: Causes and Prevention",
+      "organization": "National Institute on Aging, NIH",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention",
+      "source_date": "2022-12-21",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "reviewed",
+      "used_for": "빨리 일어날 때 혈압이 떨어져 흔들릴 수 있다는 일반 설명, 넘어진 뒤 다쳤거나 혼자 일어날 수 없을 때 도움을 구하는 안전 경계"
+    },
+    {
+      "id": "S6",
+      "title": "Brain Basics: Preventing Stroke",
+      "organization": "National Institute of Neurological Disorders and Stroke, NIH",
+      "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-preventing-stroke",
+      "source_date": "not stated on page",
+      "accessed": "2026-08-11",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "갑작스러운 한쪽 약화·말하기 어려움·시야 변화·균형 상실은 즉시 평가가 필요한 신호라는 응급 경계"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "침실에서는 밤 조명과 침대 가까운 손전등·충전된 전화기를 두고, 욕실에는 밤에 켜 둘 조명 또는 자동 야간등을 고려할 수 있다.",
+      "source_id": "S1",
+      "claim_type": "home-safety-guidance",
+      "source_date": "2022-12-21",
+      "supports_section": "침대 옆 기립 안전 점검표: 조명·전화·안경·신발을 손 닿는 곳에"
+    },
+    {
+      "claim": "자세를 바꿀 때 어지럼·메스꺼움·시야 흐림·약함·실신이 나타날 수 있으며, 누운 자세에서 앉고 서는 동작을 천천히 하도록 안내한다.",
+      "source_id": "S2",
+      "claim_type": "symptom-and-safety-guidance",
+      "source_date": "2023-07-11",
+      "supports_section": "앉은 뒤 어지럼·시야 흐림은 걸음보다 먼저 확인하기"
+    },
+    {
+      "claim": "밝은 조명과 걸려 넘어질 물건 제거는 낙상 예방의 일반적 환경 조치이며, 어지럽거나 졸리게 하는 약은 의료진 또는 약사와 검토할 수 있다.",
+      "source_id": "S3",
+      "claim_type": "prevention-context",
+      "source_date": "2026-01-27",
+      "supports_section": "침대 옆 기립 안전 점검표: 조명·전화·안경·신발을 손 닿는 곳에"
+    },
+    {
+      "claim": "쉽게 닿는 스위치 또는 움직임 감지 조명과 최신 안경 처방 확인은 시야와 낙상 위험의 관계를 살필 때 참고할 수 있다.",
+      "source_id": "S4",
+      "claim_type": "vision-safety-context",
+      "source_date": "2024-05-15",
+      "supports_section": "침대 옆 기립 안전 점검표: 조명·전화·안경·신발을 손 닿는 곳에"
+    },
+    {
+      "claim": "너무 빨리 일어나면 혈압이 떨어져 흔들릴 수 있고, 넘어진 뒤 다쳤거나 혼자 일어날 수 없으면 도움을 요청해야 한다.",
+      "source_id": "S5",
+      "claim_type": "safety-boundary",
+      "source_date": "2022-12-21",
+      "supports_section": "혼자 걷지 말고 도움을 요청할 신호를 정하기"
+    },
+    {
+      "claim": "갑작스러운 한쪽 얼굴·팔·다리의 약화 또는 저림, 말하기·이해하기 어려움, 시야 변화, 균형 상실은 즉시 평가가 필요한 신호다.",
+      "source_id": "S6",
+      "claim_type": "emergency-boundary",
+      "source_date": "not stated on page",
+      "supports_section": "혼자 걷지 말고 도움을 요청할 신호를 정하기"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "밤 조명·손전등·충전된 전화기는 모두 침대 가까이에 둔다는 NIA의 침실 항목을, 기립 전에 확인하는 ‘손 닿는 세 칸’으로 사용한다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "자세 변화 뒤 생기는 어지럼·시야 흐림을 걸음의 문제가 아니라 ‘앉은 상태에서 먼저 확인할 신호’로 분리하고, 반복되면 상담 사실로 남긴다.",
+      "source_id": "S2"
+    },
+    {
+      "claim": "새 안경을 찾으러 어두운 방을 다시 가는 행동을 줄이도록, 안경 위치를 조명·전화와 같은 침대 옆 준비 항목에 넣는다.",
+      "source_id": "S4"
+    }
+  ],
+  "visual_elements": ["bedside-four-column-checklist", "pause-or-call-decision-card", "one-sentence-help-script"],
+  "semantic_colors": ["amber-warning", "blue-action"],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "NIA·CDC·NHS 자료는 일반적인 낙상 예방 및 상담 안내다. 이 원고는 야간뇨 원인, 기립성 저혈압, 약물 변경, 보조기 설치, 개인 낙상 위험도 또는 응급 여부를 진단·처방하지 않는다. 한국의 응급 연락체계와 의료기관 절차는 별도로 확인해야 한다."
+}
