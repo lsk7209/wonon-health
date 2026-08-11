@@ -1,0 +1,185 @@
+{
+  "article_id": "b009",
+  "article_research_question": "계단에서 느낀 불안을 근력 약화로 단정하지 않고 상담 가능한 낙상 상황 지도에 어떻게 남길 수 있는가?",
+  "reader_outcome": "독자는 집·외출 동선에서 방향, 빛, 짐, 신발, 몸의 느낌, 최근 낙상을 분리해 기록한다.",
+  "original_contribution": {
+    "type": "troubleshooting_path",
+    "description": "오르기와 내려가기를 분리하고 시야·약물·환경·과거 낙상을 결합하는 계단 동선 지도",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "research_runs": [
+    {
+      "query": "CDC STEADI falls medication vision stairs",
+      "date": "2026-08-11",
+      "purpose": "official multifactorial fall-risk verification"
+    },
+    {
+      "query": "NIA preventing falls at home stairs lighting handrails",
+      "date": "2026-08-11",
+      "purpose": "official home-stair safety verification"
+    },
+    {
+      "query": "WHO falls risk factors medication vision environment",
+      "date": "2026-08-11",
+      "purpose": "primary public-health risk context"
+    },
+    {
+      "query": "NIA falls fractures older adults medications footwear vision",
+      "date": "2026-08-11",
+      "purpose": "reader intent and practical context"
+    }
+  ],
+  "search_intent_insight": "검색자는 계단 불안에서 무엇을 먼저 살펴야 하는지, 즉시 운동 처방이 아닌 안전한 점검 항목을 찾는다.",
+  "competitor_gap": "일반 결과는 운동 또는 집 안전 팁 한쪽에 치우치며 오르기·내려가기와 최근 약·미끄러짐을 같은 동선 기록으로 묶지 않는다.",
+  "information_gain": "집과 외출의 계단을 방향·시간·손·발·몸의 느낌으로 나누는 낙상 상황 지도.",
+  "unique_angle": "운동 처방이 아닌 낙상 상황 지도를 만든다.",
+  "source_interpretation": "다요인 위험 자료를 자가 위험 점수나 약 중단 지시가 아니라 상담 전 관찰 항목으로 전환한다.",
+  "angle_supporting_detail": {
+    "claim": "NIA는 계단 양쪽 난간, 위·아래 조명, 통로 정리를 함께 권한다.",
+    "source_id": "S3"
+  },
+  "article_specific_details": [
+    {
+      "claim": "NIA는 계단의 양쪽 난간이 단단히 고정돼 있는지, 계단 위·아래에 조명이 충분한지, 물건이 통로에 놓여 있지 않은지를 확인하라고 안내합니다.",
+      "source_id": "S3"
+    },
+    {
+      "claim": "‘새로 시작·용량 변경·복용 시간 변경’과 ‘그 뒤 나타난 졸림, 어지럼, 균형 변화’를 같은 줄에 적어 처방의나 약사에게 보여 주는 항목입니다.",
+      "source_id": "S2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Falls and Fractures in Older Adults: Causes and Prevention",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention",
+      "publisher": "National Institute on Aging",
+      "date": "2022-09-12",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "시야·약물·신발·낙상 보고 원칙"
+    },
+    {
+      "id": "S2",
+      "title": "Pharmacy Care (STEADI-Rx)",
+      "url": "https://www.cdc.gov/steadi/hcp/clinical-resources/pharmacy-care.html",
+      "publisher": "CDC",
+      "date": "2025-08-04",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "약 부작용과 낙상 위험"
+    },
+    {
+      "id": "S3",
+      "title": "Preventing Falls at Home: Room by Room",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/preventing-falls-home-room-room",
+      "publisher": "National Institute on Aging",
+      "date": "2022-01-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "계단 난간·조명·통로 점검"
+    },
+    {
+      "id": "S4",
+      "title": "Falls",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "publisher": "WHO",
+      "date": "2021-04-26",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "약물·시력·환경의 복합 위험 설명"
+    },
+    {
+      "id": "S5",
+      "title": "Home Safety Tips for Older Adults",
+      "url": "https://www.nia.nih.gov/health/aging-place/home-safety-tips-older-adults",
+      "publisher": "National Institute on Aging",
+      "date": "2025-06-05",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "조명과 미끄럼 방지 환경 점검"
+    },
+    {
+      "id": "S6",
+      "title": "STEADI - Older Adult Fall Prevention",
+      "url": "https://www.cdc.gov/steadi/",
+      "publisher": "CDC",
+      "date": "2025-07-27",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "공식 낙상 예방 자료 경로"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "시야·청력 변화, 약물, 신발, 환경 위험은 낙상 위험과 관련될 수 있다.",
+      "source_id": "S1",
+      "claim_type": "named_entity",
+      "source_date": "2022-09-12",
+      "supports_section": "시야·약물·신발"
+    },
+    {
+      "claim": "일부 약의 부작용은 졸림, 균형 상실, 시야 변화, 반응 속도 저하를 일으켜 낙상 위험을 높일 수 있다.",
+      "source_id": "S2",
+      "claim_type": "procedure",
+      "source_date": "2025-08-04",
+      "supports_section": "시야·약물·신발"
+    },
+    {
+      "claim": "계단 양쪽 난간, 계단 위·아래 조명, 통로 정리는 집 안전 점검 항목이다.",
+      "source_id": "S3",
+      "claim_type": "procedure",
+      "source_date": "2022-01-01",
+      "supports_section": "낙상 상황 지도"
+    },
+    {
+      "claim": "약물 부작용, 균형 상실, 시력 저하, 안전하지 않은 환경은 낙상 위험요인으로 제시된다.",
+      "source_id": "S4",
+      "claim_type": "named_entity",
+      "source_date": "2021-04-26",
+      "supports_section": "계단 불안의 이유"
+    },
+    {
+      "claim": "계단 위·아래의 충분한 조명과 젖을 수 있는 표면의 미끄럼 방지는 가정 안전 조치다.",
+      "source_id": "S5",
+      "claim_type": "procedure",
+      "source_date": "2025-06-05",
+      "supports_section": "집과 외출 동선"
+    },
+    {
+      "claim": "CDC STEADI는 낙상 위험이 있는 고령자를 위한 환자·보호자 및 의료진 자료를 제공한다.",
+      "source_id": "S6",
+      "claim_type": "named_entity",
+      "source_date": "2025-07-27",
+      "supports_section": "상담 질문 준비"
+    }
+  ]
+}

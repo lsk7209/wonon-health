@@ -1,0 +1,51 @@
+{
+  "article_id": "b019",
+  "title": "유방암 검진 안내문을 받았을 때 예약 전 확인할 개인 정보",
+  "accessed": "2026-08-11",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {"query": "site:nhis.or.kr 유방암 검진 40세 이상 2년", "date": "2026-08-11", "purpose": "국내 국가검진 대상과 안내문 맥락 확인"},
+    {"query": "site:health.kdca.go.kr 유방암 검진 유방촬영 이상 소견", "date": "2026-08-11", "purpose": "공식 검진과 후속 확인의 구분 검증"},
+    {"query": "site:cancer.go.kr 유방암 가족력 증상", "date": "2026-08-11", "purpose": "국가암정보센터의 위험요인과 증상 확인"},
+    {"query": "breast cancer screening invitation family history symptoms official guideline", "date": "2026-08-11", "purpose": "가족력 기록 항목과 증상 발생 시 검진과 별도 평가 원칙 확인"}
+  ],
+  "search_intent_insight": "안내문을 받은 독자는 검진 대상 여부를 다시 찾는 것보다, 안내문만으로 예약·진료 필요도를 정해도 되는지와 무엇을 함께 알려야 하는지를 묻는다.",
+  "competitor_gap": "대상 연령·주기만 복제하는 결과가 많다. 이 글은 안내문 문구, 개인 병력, 가족력, 새 증상을 서로 다른 정보로 분리해 예약 전 질문 카드로 바꾼다.",
+  "information_gain": "안내문에 적힌 날짜를 확인하는 일과 개인별 진료 판단에 필요한 병력·증상 정보를 분리하는 ‘세 칸 메모’와 예약 질문 예시를 제공한다.",
+  "unique_angle": "일반 검진 안내와 개인 병력·증상 평가를 분리해 읽는다",
+  "source_interpretation": "국내 공식 검진 기준은 안내문의 역할을 확인하는 데, 국가암정보와 질병관리청 자료는 증상·가족력 메모 항목을 고르는 데 사용한다. 따라서 검진 주기나 개인 위험도를 이 글에서 산정하지 않는다.",
+  "angle_supporting_detail": {"claim": "질병관리청은 40세 이상 여성에게 2년마다 유방촬영 검사를 시행한다고 안내하지만, 이상 소견이 있으면 추가 촬영·초음파 또는 경과 관찰이 이어질 수 있다고 설명한다.", "source_id": "S1"},
+  "article_research_question": "국가 유방암 검진 안내문을 받은 사람이 안내문 내용과 별도로 어떤 개인 정보를 정리해 예약·진료 질문으로 가져가야 하는가?",
+  "reader_outcome": "독자가 안내문을 개인별 위험도 판정으로 오해하지 않고, 예약 전에 가족력·이전 검사·새 증상을 구분해 전달할 수 있다.",
+  "original_contribution": {"type": "decision_rule", "description": "안내문·병력·증상을 세 칸으로 분리하고, 각각을 예약 단계와 진료 단계에서 어떻게 쓰는지 연결하는 질문 카드", "source_ids": ["S1", "S2", "S3", "S4"]},
+  "article_specific_details": [
+    {"claim": "질병관리청 국가건강정보포털은 국내 유방암 국가검진을 만 40세 이상 여성의 2년마다 유방촬영 검사로 안내합니다.", "source_id": "S1"},
+    {"claim": "국립암센터의 국가 검진 공통문진표도 본인뿐 아니라 부모, 형제자매, 자녀의 암 병력과 이전 검사 경험을 묻습니다.", "source_id": "S4"}
+  ],
+  "structure": {"structure_type": "document-analysis", "why": "안내문 문구를 개인별 의학적 판단과 구분해야 하므로 문서의 역할을 해석한 뒤 개인 메모와 질문으로 이어지는 구조가 적합하다.", "intro_style": "우편·문자 안내문을 읽고 예약 여부를 혼자 결정하려는 장면", "section_sequence": ["직답", "안내문 역할", "세 칸 메모", "증상 예외", "예약 질문", "공식 확인", "FAQ"]},
+  "visual_elements": ["summary-box", "three-column comparison table", "caution box", "question card"],
+  "semantic_colors": {"info": "#2563EB", "caution": "#B45309"},
+  "sources": [
+    {"id": "S1", "title": "건강검진(암 검진)", "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5296", "publisher": "질병관리청 국가건강정보포털", "date": "2020-08-11", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "국가 유방암 검진 대상·주기와 이상 소견 후 추가 확인 가능성"},
+    {"id": "S2", "title": "유방암", "url": "https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4757", "publisher": "국가암정보센터", "date": "2019-08-11", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "가족력 등 위험요인과 멍울이 모두 유방암을 뜻하지 않는다는 신중한 설명"},
+    {"id": "S3", "title": "유방종괴", "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5686", "publisher": "질병관리청 국가건강정보포털", "date": "2021-08-11", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "새 멍울·유두 변화 등은 안내문과 별개로 문진과 평가가 필요하다는 예외 설명"},
+    {"id": "S4", "title": "국가 검진 공통문진표", "url": "https://ncc.re.kr/downloadByFileUrl.ncc?path=files%2F2023%EB%85%84_%EA%B3%B5%EB%8B%A8%EA%B2%80%EC%A7%84_%EC%A0%84%EC%B2%B4_%EB%AC%B8%EC%A7%84%ED%91%9C.pdf", "publisher": "국립암센터", "date": "2023-01-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "used_for": "가족력과 이전 검사 정보를 미리 정리할 실무 근거"},
+    {"id": "S5", "title": "Familial breast cancer: recommendations", "url": "https://www.nice.org.uk/guidance/CG164/chapter/recommendations", "publisher": "NICE", "date": "2023-11-14", "accessed": "2026-08-11", "source_type": "official", "source_role": "expert_reference", "is_official": true, "freshness": "recent", "used_for": "가족력은 1·2촌 관계와 진단 연령 등 구체적 맥락이 중요하다는 보조 근거"},
+    {"id": "S6", "title": "Screening for Breast Cancer", "url": "https://www.cancer.gov/types/breast/screening", "publisher": "National Cancer Institute", "date": "2025-12-01", "accessed": "2026-08-11", "source_type": "official", "source_role": "expert_reference", "is_official": true, "freshness": "current", "used_for": "정상 검진 결과가 새 증상 평가를 대체하지 않는다는 보조 설명"}
+  ],
+  "data_points": [
+    {"claim": "국내 유방암 국가검진은 만 40세 이상 여성에게 2년마다 유방촬영 검사를 시행한다.", "source_id": "S1", "claim_type": "policy", "source_date": "2020-08-11", "supports_section": "유방암 검진 안내문은 무엇을 알려 주는가"},
+    {"claim": "검진에서 이상 소견이 발견되면 추가 촬영·초음파 또는 변화 관찰을 위한 재검이 이어질 수 있다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2020-08-11", "supports_section": "안내문과 결과·진료 지시를 같은 말로 읽지 않기"},
+    {"claim": "유방암 위험요인에는 가족력, 비만, 음주, 방사선 노출 및 호르몬 관련 요인이 포함된다.", "source_id": "S2", "claim_type": "named_entity", "source_date": "2019-08-11", "supports_section": "가족력 칸에는 무엇을 적을까"},
+    {"claim": "유방 종괴 평가에서는 언제부터인지, 변화 여부, 유두 변화·분비물, 가족력 등을 문진한다.", "source_id": "S3", "claim_type": "procedure", "source_date": "2021-08-11", "supports_section": "새 증상이 있으면 안내문과 분리해 말하기"},
+    {"claim": "국가 검진 공통문진표는 본인·부모·형제자매·자녀의 암 병력과 이전 검사 경험을 묻는다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2023-01-01", "supports_section": "예약 전 세 칸 메모"},
+    {"claim": "가족력 상담에서는 1촌뿐 아니라 2촌 관계와 진단 연령·암 종류를 가능한 정확히 확인하는 것이 권고된다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2023-11-14", "supports_section": "가족력 칸에는 무엇을 적을까"},
+    {"claim": "최근 정상 검진 결과가 있더라도 새 증상이 있으면 의료진과 확인하는 것이 필요할 수 있다.", "source_id": "S6", "claim_type": "procedure", "source_date": "2025-12-01", "supports_section": "새 증상이 있으면 안내문과 분리해 말하기"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "국가검진 기준은 국내 공식 자료만 사용했다. 해외 자료는 가족력 기록과 증상 평가의 일반 원칙을 보조하는 데만 사용했으며 국내 개인별 검사 기준으로 전용하지 않았다."
+}

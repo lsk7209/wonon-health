@@ -1,0 +1,56 @@
+{
+  "article_id": "b013",
+  "status": "done",
+  "score": 92,
+  "category_scores": {
+    "content_quality": 28,
+    "seo": 22,
+    "eeat": 15,
+    "technical_elements": 13,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": "pass",
+    "fact_traceability": "pass",
+    "research_gate": "pass",
+    "research_packet": "pass",
+    "source_interpretation": "pass",
+    "ymyl": "pass",
+    "content_uniqueness": "pass",
+    "article_contract_uniqueness": "pass",
+    "title_template_uniqueness": "pass",
+    "structure_variation": "pass",
+    "visual_elements": "pass",
+    "heading_quality": "pass",
+    "internal_links": "pass",
+    "body_length": "pass",
+    "content_template_variation": "pass"
+  },
+  "measurements": {
+    "reader_visible_korean_characters": 3853,
+    "h2_count": 6,
+    "internal_link_count": 3,
+    "official_or_primary_source_count": 6,
+    "research_runs": 4,
+    "sources": 6,
+    "article_specific_details_used": 2
+  },
+  "compared_rows": [
+    "b014",
+    "b015",
+    "gsm-dryness-urinary-signs",
+    "health-checkup-questions"
+  ],
+  "similarity_signals": {
+    "intro_frame": "웃음 중 속옷이 젖을까 신경 쓰이는 장면",
+    "section_role_sequence": "direct-answer > scenario-branches > diary > safety-signals > appointment > FAQ",
+    "title_pattern": "distinct",
+    "cta_type": "one-week situation-only check"
+  },
+  "repair_attempted": false,
+  "remaining_risks": [
+    "의료전문가 검토 전 초안",
+    "유형 진단·운동 처방·제품 추천은 의도적으로 제외"
+  ],
+  "risk_acceptance_note": "Educational pre-expert-review draft; diagnosis and prescribing are excluded."
+}

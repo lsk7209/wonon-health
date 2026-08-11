@@ -1,0 +1,68 @@
+{
+  "article_id": "b009",
+  "status": "done",
+  "score": 94,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical_elements": 13,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b008",
+    "b010",
+    "a009-bone-density-result",
+    "a007-women-sleep-apnea",
+    "a008-gsm-signs"
+  ],
+  "similarity_signals": {
+    "intro_frame": "hand seeks stair rail while descending; distinct from test-result and symptom scenes",
+    "section_role_sequence": "direction split > situation map > exposure branches > fall-event log > one-place action > FAQ",
+    "faq_shape": "uninjured near-fall and home-only concern",
+    "ending_cta": "mark one location where the rail was needed",
+    "source_interpretation": "fall-risk sources translated to a situational observation map, not a self-score or exercise prescription"
+  },
+  "repair_attempted": "Added a third valid existing-site internal link and made medication change a consultation record, not a medication instruction.",
+  "remaining_risks": [
+    "Medical content is educational; medication changes and recurrent falls require individual professional assessment."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 6,
+    "official_or_primary_sources": 6,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "structure_type": "environmental-map",
+    "visual_elements": [
+      "situation table",
+      "map example box",
+      "caution box"
+    ],
+    "semantic_colors": [
+      "#2563EB",
+      "#B45309"
+    ]
+  },
+  "risk_acceptance_note": "Medication changes and recurrent falls remain within clinician assessment."
+}

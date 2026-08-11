@@ -1,0 +1,178 @@
+{
+  "article_id": "b013",
+  "status": "done",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "NIDDK urinary incontinence women symptoms stress urgency diary",
+      "date": "2026-08-11",
+      "purpose": "official symptom and diary context"
+    },
+    {
+      "query": "NHS urinary incontinence symptoms pelvic floor when to see GP",
+      "date": "2026-08-11",
+      "purpose": "official care-seeking boundary"
+    },
+    {
+      "query": "NICE urinary incontinence women bladder diary assessment guideline",
+      "date": "2026-08-11",
+      "purpose": "primary guideline verification"
+    },
+    {
+      "query": "웃을 때 소변 샐 때 기록 방법 검색 결과",
+      "date": "2026-08-11",
+      "purpose": "search-intent and competitor-gap review"
+    }
+  ],
+  "article_research_question": "웃거나 뛰는 때의 소변 누출을 독자가 질환명으로 자가 판정하지 않고, 어떤 상황 정보로 진료 상담을 준비할 수 있는가?",
+  "reader_outcome": "한 주 동안 누출 직전 상황, 절박감, 양, 빈도, 통증·혈뇨·발열 같은 동반 신호를 분리해 적는다.",
+  "original_contribution": {
+    "type": "decision_rule",
+    "description": "요실금 유형 테스트 대신 활동 누출과 급한 요의 전후를 구분하는 1주 기록 카드와 안전 신호를 제공한다.",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "competitor_gap": "검색 결과는 요실금 유형을 단정하거나 운동·제품을 곧바로 권하기 쉽다. 이 글은 누출의 원인을 정하지 않고 발생 장면과 동반 신호를 상담 언어로 바꾼다.",
+  "information_gain": "웃음·기침·계단·급한 요의라는 직전 장면을 ‘유형명’이 아닌 사실로 나누는 누출 상황 분류표다.",
+  "unique_angle": "누출을 질환 유형으로 자가 분류하지 않고 상황 언어로 정리한다.",
+  "source_interpretation": "공식 증상 구분과 배뇨일지 권고를 자가 진단표로 쓰지 않고, 진료에서 빠뜨리지 않을 질문과 안전 신호를 남기는 기록 항목으로 사용한다.",
+  "angle_supporting_detail": {
+    "claim": "NIDDK는 웃음·기침·운동 때의 누출과 갑작스러운 강한 요의 뒤 누출을 서로 다른 증상 양상으로 설명한다.",
+    "source_id": "S1"
+  },
+  "article_specific_details": [
+    {
+      "claim": "의료진은 증상, 마신 음료, 배뇨 습관을 적은 방광일지를 평가에 활용할 수 있다.",
+      "source_id": "S2"
+    },
+    {
+      "claim": "소변에 피가 보임, 발열이나 오한, 옆구리·등 통증, 구토, 새롭고 심한 배뇨통이 함께 있으면 누출의 종류를 추측하지 말고 의료진에게 알리세요.",
+      "source_id": "S4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Symptoms & Causes of Bladder Control Problems (Urinary Incontinence)",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/symptoms-causes",
+      "publisher": "NIDDK",
+      "date": "2024-01-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "활동·절박감과 관련한 누출 양상 구분"
+    },
+    {
+      "id": "S2",
+      "title": "Diagnosis of Bladder Control Problems (Urinary Incontinence)",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/diagnosis",
+      "publisher": "NIDDK",
+      "date": "2024-01-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "증상·음료·배뇨일지의 상담용 기록 맥락"
+    },
+    {
+      "id": "S3",
+      "title": "Urinary incontinence in women: management",
+      "url": "https://www.nice.org.uk/guidance/ng123",
+      "publisher": "NICE",
+      "date": "2025-06-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "평가에서 배뇨일지를 사용하는 임상 지침 맥락"
+    },
+    {
+      "id": "S4",
+      "title": "Symptoms & Causes of Bladder Infection in Adults",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults/symptoms-causes",
+      "publisher": "NIDDK",
+      "date": "2024-04-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "배뇨통·혈뇨·발열·옆구리 통증의 안전 경계"
+    },
+    {
+      "id": "S5",
+      "title": "Urinary tract infections (UTIs)",
+      "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+      "publisher": "NHS",
+      "date": "2025-01-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "반복되는 배뇨 불편과 소변 검사 상담의 맥락"
+    },
+    {
+      "id": "S6",
+      "title": "Urinary tract infection (recurrent): antimicrobial prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng112/chapter/recommendations",
+      "publisher": "NICE",
+      "date": "2024-01-01",
+      "accessed": "2026-08-11",
+      "source_type": "official",
+      "source_role": "context_only",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "반복 증상에서 자가 추정 대신 평가가 필요하다는 맥락"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "기침·웃음·운동 같은 활동 중 누출과 갑자기 강한 요의 뒤 누출은 다른 증상 양상으로 기록할 수 있다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2024-01-01",
+      "supports_section": "누출 순간을 유형명 대신 장면으로 적기"
+    },
+    {
+      "claim": "의료진은 증상, 음료 섭취, 배뇨 습관을 기록한 방광일지를 평가에 활용할 수 있다.",
+      "source_id": "S2",
+      "claim_type": "procedure",
+      "source_date": "2024-01-01",
+      "supports_section": "1주 기록 카드에 넣을 항목"
+    },
+    {
+      "claim": "여성 요실금 평가·관리 지침은 배뇨일지를 평가 도구로 포함한다.",
+      "source_id": "S3",
+      "claim_type": "procedure",
+      "source_date": "2025-06-01",
+      "supports_section": "기록이 진단명이 아닌 상담 재료인 이유"
+    },
+    {
+      "claim": "배뇨통·혈뇨, 발열·오한, 등·옆구리 통증과 같은 동반 신호는 감염 가능성 평가가 필요한 신호다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "source_date": "2024-04-01",
+      "supports_section": "누출 기록보다 먼저 알려야 할 동반 신호"
+    },
+    {
+      "claim": "반복되는 배뇨 불편은 요로감염 등 다른 원인과 구분을 위해 평가가 필요할 수 있다.",
+      "source_id": "S5",
+      "claim_type": "procedure",
+      "source_date": "2025-01-01",
+      "supports_section": "반복될 때 기록을 상담으로 연결하기"
+    }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

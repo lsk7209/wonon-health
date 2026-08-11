@@ -1,0 +1,68 @@
+{
+  "article_id": "b001",
+  "status": "done",
+  "score": 94,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 14,
+    "technical_elements": 13,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "persona_consistency": true,
+    "fact_traceability": true,
+    "research_gate": true,
+    "research_packet": true,
+    "source_interpretation": true,
+    "ymyl_two_official_or_primary_sources": true,
+    "content_uniqueness": true,
+    "article_contract_uniqueness": true,
+    "title_template_uniqueness": true,
+    "title_subtitle_keyword_coverage": true,
+    "structure_variation": true,
+    "content_template_variation": true,
+    "heading_quality": true,
+    "visual_elements": true,
+    "internal_links_3_to_5": true,
+    "no_public_editor_notes": true,
+    "qa_evidence_complete": true,
+    "body_length": true
+  },
+  "compared_rows": [
+    "b002",
+    "b003",
+    "a007-women-sleep-apnea",
+    "a008-gsm-signs",
+    "a009-bone-density-result"
+  ],
+  "similarity_signals": {
+    "intro_frame": "calendar-date-only scene; distinct from symptom and results drafts",
+    "section_role_sequence": "direct answer > time axis > record fields > exception signals > consultation memo > FAQ",
+    "faq_shape": "two record-specific questions",
+    "ending_cta": "add one changed line before the next visit",
+    "source_interpretation": "official bleeding guidance translated to record priority, not diagnosis"
+  },
+  "repair_attempted": "Added a third valid menopause-cluster internal link and separated the symptom timeline from bleeding observations.",
+  "remaining_risks": [
+    "Medical content is educational; it does not diagnose causes or select treatment."
+  ],
+  "validation": {
+    "research_runs": 4,
+    "sources": 6,
+    "official_or_primary_sources": 5,
+    "article_specific_details_used": 2,
+    "internal_links": 3,
+    "structure_type": "timeline explainer",
+    "visual_elements": [
+      "summary box",
+      "record table",
+      "caution box"
+    ],
+    "semantic_colors": [
+      "#2563EB",
+      "#B45309"
+    ]
+  },
+  "risk_acceptance_note": "Educational non-diagnostic content; individual assessment remains with clinicians."
+}

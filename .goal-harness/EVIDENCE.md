@@ -97,3 +97,11 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - `https://wonon-health.vercel.app` smoke: all three new article URLs return HTTP 200 and contain long-form markup, tables, and JSON-LD.
 - `/articles` and `/sitemap.xml`: HTTP 200 and contain all three slugs.
 - Independent review repair: corrected `원온` brand labels; each long-form JSON-LD now contains six citations; search payload contains long-form discovery terms including `수면검사` and `유방암`.
+
+## Twenty-article dry-run checkpoint
+
+- Full 20-row contract map strict audit: PASS, warnings 0.
+- First five completed: b001 94, b009 94, b013 92, b016 93, b019 94.
+- Each has 4 research runs, 5-6 sources, at least two official/primary sources, mapped data points, two materially used article-specific details, 3 valid internal links, and 3,500+ visible Korean characters.
+- `manifest.py audit --window 5 --strict --fail-on-warning`: PASS, warnings 0; five distinct structure, visual, heading, CTA, and section-role patterns.
+- Independent verifier: PASS; maximum pairwise 7-Hangul shingle Jaccard 0.0103; no exact H2 reuse; JSON parsing and route inventory clean.
