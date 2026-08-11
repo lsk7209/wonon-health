@@ -7,7 +7,7 @@ import type { Article, Topic } from '../content/editorial';
 export function HealthSearch({ articles, topics }: { articles: Article[]; topics: Topic[] }) {
   const [query, setQuery] = useState('');
   const normalized = query.trim().toLocaleLowerCase('ko-KR');
-  const results = useMemo(() => normalized ? articles.filter((article) => [article.title, article.summary, article.topic, ...article.body].join(' ').toLocaleLowerCase('ko-KR').includes(normalized)) : articles, [articles, normalized]);
+  const results = useMemo(() => normalized ? articles.filter((article) => [article.title, article.summary, article.topic, article.searchText, ...article.body].filter(Boolean).join(' ').toLocaleLowerCase('ko-KR').includes(normalized)) : articles, [articles, normalized]);
   const suggestions = ['열감', '잠', '뼈', '검진', '기분'];
 
   return <div className="search-tool">

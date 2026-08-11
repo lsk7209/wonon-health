@@ -10,7 +10,9 @@ import { articles, topics } from '../content/editorial';
 export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
-  const featured = articles.slice(0, 3);
+  const featured = [...articles]
+    .sort((left, right) => right.publishedAt.localeCompare(left.publishedAt))
+    .slice(0, 3);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',

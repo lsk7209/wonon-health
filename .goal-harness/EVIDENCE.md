@@ -82,3 +82,18 @@ DNS verification is intentionally excluded from this increment at the user's dir
 - All research, QA, and manifest JSON files parse successfully.
 - `npm run build`: PASS with 24 static pages. `npx tsc --noEmit`: PASS. `git diff --check`: PASS.
 - Drafts were not integrated or published; DNS and AdSense account operations were not touched.
+# 2026-08-11 Long-form integration checkpoint
+
+- `npm run build`: PASS, 27 static pages including nine article routes.
+- `npx tsc --noEmit`: PASS.
+- `git diff --check`: PASS (line-ending notices only).
+- Generated HTML checks: all three new routes contain `.longform-content`, a semantic `<table>`, and `application/ld+json`.
+- Vercel deployment intentionally deferred until the current content checkpoint is integrated and reviewed.
+
+## Production preview deployment
+
+- Risk notice: user explicitly requested generated articles be reflected on the site; scope was limited to the existing Vercel project. Rollback is the prior READY deployment `dpl_3gZ71FDrxZ7cYkutYnmmFD6iBzyV`. DNS records were not changed.
+- Vercel deployment `dpl_7ZT5yEMXnFg6dEWSRiuQpUtwe2XG`: READY, remote build generated 27 pages.
+- `https://wonon-health.vercel.app` smoke: all three new article URLs return HTTP 200 and contain long-form markup, tables, and JSON-LD.
+- `/articles` and `/sitemap.xml`: HTTP 200 and contain all three slugs.
+- Independent review repair: corrected `원온` brand labels; each long-form JSON-LD now contains six citations; search payload contains long-form discovery terms including `수면검사` and `유방암`.
