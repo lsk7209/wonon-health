@@ -1,12 +1,12 @@
 # Current Handoff
 
-- Timestamp: 2026-08-11 09:26 KST
+- Timestamp: 2026-08-11 09:36 KST
 - User goal: Build and launch `wonon.ehon365.kr` as a Korean middle-aged women's health site using goal harness and routed multi-agent execution.
-- Exact current state: Next.js MVP implemented with 6 sourced articles and trust pages. GitHub and Vercel deployment are live at `https://wonon-health.vercel.app`; Vercel custom-domain mapping exists, but authoritative DNS is still NXDOMAIN.
-- Completed work: Goal/harness, infrastructure discovery, official-source research, UX specification, site implementation, GA4/AdSense baseline, stack/deploy planning.
-- Changed files/systems: GitHub repository `lsk7209/wonon-health`; Vercel project `limsubs-projects/wonon-health`; custom-domain mapping added. No authoritative DNS record changed.
-- Fresh validation: `npm run build` passed on Next.js 16.3.0 and generated 22 static pages; `project-stack-audit.py` passed with zero warnings/errors; SSH profile `kang4` connected to ChemiCloud server 1.
-- Side effects/rollback: `npm install`, local Git init, generated docs/files. No external rollback currently needed.
-- Blockers/risks: The server-1 `nexttech` cPanel account does not control the `ehon365.kr` DNS zone. Browser access to `hosting.co.kr` timed out. DNS may require another account/control surface after Vercel provides the exact record.
-- Deliberately not run/sent: No AdSense application, GSC/Naver submission, email, affiliate links, bulk publishing, or DNS mutation.
-- Single next step: In the authoritative `hosting.co.kr` DNS console, add only `A wonon 76.76.21.21` (TTL 300 or provider default), then rerun DNS and HTTPS verification.
+- Exact current state: Source is pushed and Vercel preview is live/verified. Vercel custom-domain mapping exists, but `wonon.ehon365.kr` is NXDOMAIN because the authoritative hosting.co.kr DNS record is not yet present.
+- Completed work: Goal harness; explore/research/designer/executor/verifier/critic lanes; responsive Next.js site; 6 source-backed articles; explicit pre-medical-review status; About/Editorial/Privacy/Terms/Contact; GA4 and AdSense baseline; robots/sitemap/canonical/JSON-LD; canonical repair; source-link repair; GitHub and Vercel deployment.
+- Changed files/live systems: GitHub `https://github.com/lsk7209/wonon-health`; Vercel project `limsubs-projects/wonon-health`; production deployment `dpl_9fwY6Gk4kQgkxfYJdjg5WutPy2UC`; Vercel domain mapping for `wonon.ehon365.kr`. Authoritative DNS was not changed.
+- Fresh validation: Local and Vercel builds pass with 23 static pages; preview homepage/articles/trust/robots/sitemap/ads.txt return 200; browser visual/DOM smoke passed; all 12 current article source URLs return 200; per-route canonical paths verified; custom DNS lookup fails NXDOMAIN.
+- Side effects/rollback: GitHub repo and Vercel project/domain mapping created. Rollback is to remove the Vercel domain mapping/project or revert Git commits. No parent-domain record requires rollback.
+- Blocker/risk: `ssh kang4` reaches server 1, but its `nexttech` cPanel account reports it does not control `ehon365.kr`. The authoritative provider is `hosting.co.kr`, whose dashboard timed out from the connected browser. Required record is exactly `A wonon 76.76.21.21`; do not touch apex, www, or nameservers.
+- Deliberately not run/sent: No AdSense application/review, GSC/Naver/IndexNow submission, affiliate link, medical expert sign-off, bulk publishing, email, or DNS mutation.
+- Single next step: Access the authoritative hosting.co.kr DNS console, add only `A wonon 76.76.21.21` (TTL 300 or provider default), then run Vercel domain inspect plus HTTPS/robots/sitemap/ads.txt checks on the custom domain.

@@ -10,12 +10,2197 @@
     "posts",
     "public"
   ],
-  "broken_internal_links": 0,
+  "broken_internal_links": 231,
   "placeholder_links": 0,
   "mixed_domain_links": 0,
-  "scanned_files": 0,
-  "links": [],
-  "findings": [],
-  "last_scanned_at": "",
-  "last_updated": "2026-08-11T00:17:35.608500+00:00"
+  "scanned_files": 16,
+  "links": [
+    {
+      "file": "app/about/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/about"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/disclaimer"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/article/${article.slug}`"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "https://schema.org"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "https://wonon.ehon365.kr/article/${article.slug}`"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "https://wonon.ehon365.kr"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/strong"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/time"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/time"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/a"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/li"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/ul"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/aside"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/article"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/article-card"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/articles"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/contact"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "https://github.com/lsk7209/wonon-health/issues"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/a"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/editorial-policy"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/globals.css"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "https://wonon.ehon365.kr"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3050601904412736"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/script"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-3NJ07LPVXD"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/script"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/head"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/body"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/html"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/article-card"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/disclaimer"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "https://schema.org"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "https://wonon.ehon365.kr"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topic/menopause"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/about"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/aside"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topics"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topic/${topic.slug}`}"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h3"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/article/menopause-when-to-see-a-doctor"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/small"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/articles"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/privacy"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "https://github.com/lsk7209/wonon-health/issues"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/a"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/robots.ts",
+      "url": "https://wonon.ehon365.kr/sitemap.xml"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "https://wonon.ehon365.kr"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/about"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/articles"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/topics"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/editorial-policy"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/privacy"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/terms"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/contact"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/topic/${slug}`"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/article/${slug}`"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/terms"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/div"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/article-card"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/disclaimer"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/topic/${slug}`"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/components/site-footer"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/components/site-header"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/content/editorial"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/topics"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/h1"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/header"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/topic/${topic.slug}`}"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/h2"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/Link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/section"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/main"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhs.uk/conditions/menopause/"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://menopause.org/patient-education/menonotes"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhs.uk/conditions/menopause/symptoms/"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhs.uk/conditions/menopause/treatment/"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhs.uk/conditions/menopause/symptoms/"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.acog.org/womens-health/faqs/osteoporosis"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.who.int/health-topics/health-promotion"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://health.kdca.go.kr/"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6671"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.kdca.go.kr/kdca/3360/subview.do"
+    },
+    {
+      "file": "content/editorial.ts",
+      "url": "https://www.nhis.or.kr/"
+    }
+  ],
+  "findings": [
+    {
+      "file": "app/about/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/about",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/about/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/disclaimer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/article/${article.slug}`",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/strong",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/time",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/time",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/a",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/li",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/ul",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/aside",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/article",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/article/[slug]/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/article-card",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/articles",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/articles/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/contact",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/a",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/contact/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/editorial-policy",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/editorial-policy/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/globals.css",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/script",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/script",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/head",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/body",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/layout.tsx",
+      "url": "/html",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/not-found.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/article-card",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/disclaimer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topic/menopause",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/about",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/aside",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topics",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/topic/${topic.slug}`}",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h3",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/article/menopause-when-to-see-a-doctor",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/small",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/articles",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/privacy",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/a",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/privacy/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/about",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/articles",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/topics",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/editorial-policy",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/privacy",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/terms",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/contact",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/topic/${slug}`",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/sitemap.ts",
+      "url": "/article/${slug}`",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/terms",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/div",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/terms/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/article-card",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/disclaimer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/topic/${slug}`",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topic/[slug]/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/components/site-footer",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/components/site-header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/content/editorial",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/topics",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/h1",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/header",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/topic/${topic.slug}`}",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/h2",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/p",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/span",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/Link",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/section",
+      "issue": "broken_internal_link"
+    },
+    {
+      "file": "app/topics/page.tsx",
+      "url": "/main",
+      "issue": "broken_internal_link"
+    }
+  ],
+  "last_scanned_at": "2026-08-11T00:37:52.986744+00:00",
+  "last_updated": "2026-08-11T00:37:52.986744+00:00"
 }

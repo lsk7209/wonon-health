@@ -1,9 +1,22 @@
 {
   "version": 1,
-  "status": "not_started",
-  "scan": {},
-  "findings": [],
-  "finding_count": 0,
-  "last_scanned_at": "",
-  "last_updated": "2026-08-11T00:17:35.607423+00:00"
+  "status": "needs_review",
+  "scan": {
+    "scanned_files": 16,
+    "auto_ads_files": [
+      "app/layout.tsx"
+    ],
+    "manual_ad_files": [],
+    "placeholder_files": [],
+    "thin_files": [],
+    "ads_txt_ok": true,
+    "median_words": 0
+  },
+  "findings": [
+    {
+      "issue": "policy_pages_not_ready"
+    }
+  ],
+  "finding_count": 1,
+  "last_scanned_at": "2026-08-11T00:38:01.270429+00:00"
 }

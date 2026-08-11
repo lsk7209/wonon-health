@@ -5,12 +5,12 @@
     "stack_config_file": "docs/project-stack-audit.json",
     "root_path": "D:\\web\\wononehon365kr",
     "docs_path": "docs",
-    "status": "planned",
-    "completion_state": "local_only_complete"
+    "status": "deployed_preview",
+    "completion_state": "blocked_credentials"
   },
   "orchestration": {
     "mode": "leader_only",
-    "active_phase": "brief",
+    "active_phase": "dns_connection",
     "integration_owner": "leader",
     "phase_gates": [
       {
@@ -80,15 +80,15 @@
   },
   "repository": {
     "git_status": "unknown",
-    "remote_url": "",
-    "latest_commit": "",
-    "push_status": "not_started"
+    "remote_url": "https://github.com/lsk7209/wonon-health",
+    "latest_commit": "17903fc",
+    "push_status": "verified"
   },
   "deployment": {
     "provider": "vercel",
-    "project_name": "",
-    "production_url": "",
-    "status": "not_started",
+    "project_name": "wonon-health",
+    "production_url": "https://wonon-health.vercel.app",
+    "status": "deployed_verified_preview",
     "plan_file": "docs/deployment-plan.json",
     "framework_preset": "nextjs",
     "root_directory": ".",
@@ -149,15 +149,16 @@
     "policy_missing_required": 0,
     "policy_placeholder_files": 0,
     "adsense_readiness": {
-      "status": "not_started",
+      "status": "needs_review",
       "original_content_evidence": [],
-      "navigation_crawl_check": "not_started",
-      "policy_pages_verified": "not_started",
-      "placeholder_scan": "not_started",
+      "navigation_crawl_check": "pass",
+      "policy_pages_verified": "fail",
+      "placeholder_scan": "pass",
       "ad_code_placement_status": "configured",
       "affiliate_value_add_status": "not_started",
       "human_review_status": "not_started",
-      "approval_status": "not_verified"
+      "approval_status": "not_verified",
+      "audit_file": "docs/adsense-readiness-audit.json"
     }
   },
   "public_data": {
@@ -191,11 +192,11 @@
     "crawler_files": "not_started",
     "sitemap_exclusions": "not_started",
     "placeholder_scan": "not_started",
-    "broken_links": "not_started",
-    "canonical_domain_consistency": "not_started",
+    "broken_links": "fail",
+    "canonical_domain_consistency": "pass",
     "source_license_attribution": "not_started",
-    "content_dedupe": "not_started",
-    "sample_article_review": "not_started",
+    "content_dedupe": "pass",
+    "sample_article_review": "pass",
     "content_files": "not_started",
     "site_baseline": "created",
     "site_baseline_files": 4,
@@ -229,9 +230,9 @@
     "crawlable_url_audit": "not_started",
     "crawlable_url_audit_file": "docs/crawlable-url-audit.json",
     "crawlable_url_findings": 0,
-    "adsense_readiness_audit": "not_started",
+    "adsense_readiness_audit": "fail",
     "adsense_readiness_audit_file": "docs/adsense-readiness-audit.json",
-    "adsense_readiness_findings": 0,
+    "adsense_readiness_findings": 1,
     "structured_data": "not_started",
     "structured_data_file": "docs/structured-data.json",
     "structured_data_scripts": 0,
@@ -261,8 +262,16 @@
     "one_click_launch_steps": 0,
     "one_click_launch_failed_steps": 0,
     "status": "not_started",
-    "adsense_auto_ads_errors": []
+    "adsense_auto_ads_errors": [],
+    "content_quality_config_file": "docs/content-quality-audit.json",
+    "content_quality_findings": 0,
+    "content_body_quality": "pass",
+    "content_body_quality_findings": 0,
+    "link_audit_config_file": "docs/link-audit.json",
+    "broken_internal_links": 231,
+    "placeholder_links": 0,
+    "mixed_domain_links": 0
   },
   "gated_actions": [],
-  "last_updated": "2026-08-11T00:25:16.340821+00:00"
+  "last_updated": "2026-08-11T00:38:01.270959+00:00"
 }

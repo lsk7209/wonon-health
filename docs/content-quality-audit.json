@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "status": "planned",
+  "status": "configured",
   "schedule_file": "docs/content-schedule.json",
   "duplicate_titles": 0,
   "duplicate_slugs": 0,
@@ -21,6 +21,11 @@
   "scheduled_without_publish_at": 0,
   "items_reviewed": 0,
   "findings": [],
-  "last_scanned_at": "",
-  "last_updated": "2026-08-11T00:17:35.610100+00:00"
+  "last_scanned_at": "2026-08-11T00:37:52.833096+00:00",
+  "last_updated": "2026-08-11T00:37:52.833845+00:00",
+  "body_files_reviewed": 0,
+  "body_median_visible_words": 0,
+  "body_duplicate_h2_sequences": 0,
+  "body_findings": [],
+  "body_finding_count": 0
 }

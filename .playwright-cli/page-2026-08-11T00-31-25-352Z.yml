@@ -1,0 +1,134 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "본문으로 건너뛰기" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - link "원온" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation "주요 메뉴" [ref=e6]:
+        - link "건강 주제" [ref=e7] [cursor=pointer]:
+          - /url: /topics
+        - link "건강 노트" [ref=e8] [cursor=pointer]:
+          - /url: /articles
+        - link "원온 소개" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "문의하기" [ref=e10] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: WONON HEALTH NOTE
+        - heading "변화를 겁내지 않고, 내 몸의 편이 되는 시간" [level=1] [ref=e16]: 변화를 겁내지 않고,내 몸의 편이 되는 시간
+        - paragraph [ref=e17]: 원온은 45세 이후 여성이 갱년기와 생활 건강 정보를 차분히 이해하고, 나에게 맞는 다음 행동을 고를 수 있도록 돕는 근거 기반 건강 안내서입니다.
+        - generic [ref=e18]:
+          - link "갱년기부터 읽기" [ref=e19] [cursor=pointer]:
+            - /url: /topic/menopause
+          - link "원온의 기준 알아보기" [ref=e20] [cursor=pointer]:
+            - /url: /about
+            - text: 원온의 기준 알아보기 →
+      - complementary "원온이 약속하는 정보 기준" [ref=e21]:
+        - text: "01"
+        - heading "증상 하나를 사람 전체로 봅니다." [level=2] [ref=e22]: 증상 하나를사람 전체로 봅니다.
+        - paragraph [ref=e23]: 몸의 변화, 마음의 부담, 일상의 리듬을 함께 살핍니다. 진단을 대신하지 않고, 진료실에서 더 좋은 질문을 할 수 있게 돕습니다.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: START HERE
+          - heading "지금의 나에게 가까운 주제" [level=2] [ref=e28]
+        - link "모든 주제 보기" [ref=e29] [cursor=pointer]:
+          - /url: /topics
+          - text: 모든 주제 보기 →
+      - generic [ref=e30]:
+        - link "01 갱년기 이해하기 몸의 변화와 치료 선택지를 차분히 살펴봅니다." [ref=e31] [cursor=pointer]:
+          - /url: /topic/menopause
+          - generic [ref=e32]: "01"
+          - generic [ref=e33]: ◐
+          - heading "갱년기 이해하기" [level=3] [ref=e34]
+          - paragraph [ref=e35]: 몸의 변화와 치료 선택지를 차분히 살펴봅니다.
+          - generic [ref=e36]: ↗
+        - link "02 잠과 마음 수면, 기분, 스트레스의 연결을 이해합니다." [ref=e37] [cursor=pointer]:
+          - /url: /topic/sleep-mood
+          - generic [ref=e38]: "02"
+          - generic [ref=e39]: ☾
+          - heading "잠과 마음" [level=3] [ref=e40]
+          - paragraph [ref=e41]: 수면, 기분, 스트레스의 연결을 이해합니다.
+          - generic [ref=e42]: ↗
+        - link "03 뼈와 근육 오래 움직이기 위한 생활 습관을 찾습니다." [ref=e43] [cursor=pointer]:
+          - /url: /topic/bone-muscle
+          - generic [ref=e44]: "03"
+          - generic [ref=e45]: ⌁
+          - heading "뼈와 근육" [level=3] [ref=e46]
+          - paragraph [ref=e47]: 오래 움직이기 위한 생활 습관을 찾습니다.
+          - generic [ref=e48]: ↗
+        - link "04 일상 건강 검진과 식사, 활동을 생활에 맞게 정리합니다." [ref=e49] [cursor=pointer]:
+          - /url: /topic/everyday-care
+          - generic [ref=e50]: "04"
+          - generic [ref=e51]: ✳
+          - heading "일상 건강" [level=3] [ref=e52]
+          - paragraph [ref=e53]: 검진과 식사, 활동을 생활에 맞게 정리합니다.
+          - generic [ref=e54]: ↗
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: A GENTLE CHECK-IN
+        - heading "‘참아야 하나?’ 싶은 날이라면" [level=2] [ref=e59]: ‘참아야 하나?’싶은 날이라면
+        - paragraph [ref=e60]: 갱년기 증상은 모두에게 같은 모습으로 오지 않습니다. 일상에 영향을 주는 변화가 있다면, 기록을 시작하고 의료진과 상의해 보세요.
+        - link "진료 상담이 필요한 신호 보기" [ref=e61] [cursor=pointer]:
+          - /url: /article/menopause-when-to-see-a-doctor
+      - generic [ref=e62]:
+        - generic [ref=e63]: “
+        - paragraph [ref=e64]: 건강 정보의 목적은 불안을 키우는 것이 아니라, 나에게 필요한 도움을 더 빨리 찾게 하는 데 있습니다.
+        - text: 원온 편집 원칙
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - paragraph [ref=e67]: RECENT NOTES
+        - heading "천천히 읽어도 괜찮은 건강 노트" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - link "갱년기 이해하기 갱년기 증상, 언제 진료 상담을 시작하면 좋을까요? 참는 것이 답인지 헷갈릴 때 살펴볼 신호와 진료 준비 방법입니다. 2026.08.11" [ref=e70] [cursor=pointer]:
+          - /url: /article/menopause-when-to-see-a-doctor
+          - generic [ref=e71]: 갱년기 이해하기
+          - heading "갱년기 증상, 언제 진료 상담을 시작하면 좋을까요?" [level=3] [ref=e72]
+          - paragraph [ref=e73]: 참는 것이 답인지 헷갈릴 때 살펴볼 신호와 진료 준비 방법입니다.
+          - time [ref=e74]: 2026.08.11
+        - link "갱년기 이해하기 열감과 땀, 내 패턴을 알아차리는 7일 기록 증상을 없애기 전, 먼저 내 생활과의 관계를 알아보는 방법입니다. 2026.08.08" [ref=e75] [cursor=pointer]:
+          - /url: /article/hot-flash-daily-record
+          - generic [ref=e76]: 갱년기 이해하기
+          - heading "열감과 땀, 내 패턴을 알아차리는 7일 기록" [level=3] [ref=e77]
+          - paragraph [ref=e78]: 증상을 없애기 전, 먼저 내 생활과의 관계를 알아보는 방법입니다.
+          - time [ref=e79]: 2026.08.08
+        - link "잠과 마음 자꾸 깨는 밤, 수면의 질부터 살펴보세요 갱년기 전후 잠이 달라졌을 때 확인할 생활 신호를 정리합니다. 2026.08.05" [ref=e80] [cursor=pointer]:
+          - /url: /article/sleep-after-45
+          - generic [ref=e81]: 잠과 마음
+          - heading "자꾸 깨는 밤, 수면의 질부터 살펴보세요" [level=3] [ref=e82]
+          - paragraph [ref=e83]: 갱년기 전후 잠이 달라졌을 때 확인할 생활 신호를 정리합니다.
+          - time [ref=e84]: 2026.08.05
+      - link "건강 노트 전체 보기" [ref=e86] [cursor=pointer]:
+        - /url: /articles
+    - complementary "의료 정보 안내" [ref=e88]:
+      - strong [ref=e89]: 의료 정보 안내
+      - paragraph [ref=e90]: 원온의 콘텐츠는 일반적인 건강 정보이며 개인별 진단·치료를 대신하지 않습니다. 증상이 지속되거나 걱정된다면 의사·약사 등 자격 있는 의료 전문가와 상담하세요. 응급 증상이 의심되면 지체하지 말고 응급 의료기관에 연락하세요.
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - link "원온" [ref=e94] [cursor=pointer]:
+          - /url: /
+        - paragraph [ref=e95]: 나를 이해하는 건강의 시작. 원온은 중년 여성의 건강 정보를 근거와 맥락을 담아 전합니다.
+      - generic [ref=e96]:
+        - paragraph [ref=e97]: EXPLORE
+        - navigation "탐색 메뉴" [ref=e98]:
+          - link "건강 주제" [ref=e99] [cursor=pointer]:
+            - /url: /topics
+          - link "건강 노트" [ref=e100] [cursor=pointer]:
+            - /url: /articles
+          - link "원온 소개" [ref=e101] [cursor=pointer]:
+            - /url: /about
+      - generic [ref=e102]:
+        - paragraph [ref=e103]: POLICY
+        - navigation "정책 메뉴" [ref=e104]:
+          - link "편집 원칙" [ref=e105] [cursor=pointer]:
+            - /url: /editorial-policy
+          - link "개인정보 처리방침" [ref=e106] [cursor=pointer]:
+            - /url: /privacy
+          - link "문의하기" [ref=e107] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e108]: © 2026 원온. 본 사이트의 정보는 의료 조언을 대체하지 않습니다.
+  - alert [ref=e109]
