@@ -1,15 +1,15 @@
 # Current Handoff
 
-- Timestamp: 2026-08-11 (batch-60 pre-deploy checkpoint)
+- Timestamp: 2026-08-11 (batch-60 completed)
 - User goal: Add another thirty non-duplicative, research-backed Korean middle-aged women's health articles, independently score each at 99, integrate them, and schedule them every five hours after the current final reservation.
-- Exact current state: Batch-60 c001-c030 are all done at 99 with final corpus audit PASS. All thirty are integrated into an 89-article catalog and appended after the existing schedule at exact five-hour intervals from 2026-08-19 23:00 KST through 2026-08-26 00:00 KST. Local release validation passes; preview deployment is next.
+- Exact current state: Batch-60 c001-c030 are all done at 99 with final corpus audit PASS, integrated into an 89-article catalog, committed, pushed, and deployed to Vercel production. The thirty new request-time slots run every five hours from 2026-08-19 23:00 KST through 2026-08-26 00:00 KST.
 - Completed work: Durable goal and contracts; thirty research-backed drafts/research/QA packets; five independent checkpoints; corpus-wide provenance, traceability, citation, route, UTF-8, YMYL and originality repair; unified catalog integration; schedule code/docs/tests.
-- Changed files/live systems: Local batch-60 artifacts, catalog loader, publication schedule, tests, and handoff/harness files. No batch-60 Git push or Vercel production deployment yet; DNS, AdSense, and indexing remain untouched.
-- Fresh validation: Contract validator PASS; manifest 30/30 done at 99; final corpus audit PASS with max normalized seven-token Jaccard 0.013021; catalog 89 unique; schedule 69 slots plus baseline 20; first/final new slots 2026-08-19 23:00 / 2026-08-26 00:00 KST; npm test 3/3, TypeScript, production build, and diff check pass.
-- Side effects/rollback: Local reversible files only; remove the batch-60 artifacts or revert the eventual scoped commit if abandoned.
-- Blocker/risk: Local background-process policy prevented a direct HTTP smoke, so preview HTTP verification remains required before production promotion.
-- Deliberately not run/sent: No batch-60 Git push, production deployment, DNS change, AdSense action, indexing submission, or medical-expert signature yet.
-- Single next step: Create a local commit, deploy a Vercel preview, verify future 404/noindex and discovery surfaces, then push/deploy production if clean.
+- Changed files/live systems: Git commit `5b87c06` pushed to `origin/main`; Vercel production deployment `dpl_9bMEurt2BMpbA95Y7KT98ohTpQ4c` is READY. Catalog, longform loader, publication schedule/tests/docs, and batch-60 artifacts changed. DNS records, AdSense console, and indexing services were not mutated.
+- Fresh validation: Contract validator PASS; manifest 30/30 done at 99; final corpus audit PASS with max normalized seven-token Jaccard 0.013021; catalog 89 unique; schedule 69 slots plus baseline 20; npm test 3/3, TypeScript, local and Vercel builds, and diff check pass. Live stable domain returns 200; a stable article is 200 with JSON-LD; future c001 is 404 with noindex/nofollow and absent from articles/sitemap; AdSense and GA4 IDs are present.
+- Side effects/rollback: GitHub main and Vercel production were updated. Roll back by reverting commit `5b87c06` and promoting the prior Vercel deployment. No DNS rollback is required.
+- Blocker/risk: No blocker. Authoritative custom-domain DNS remains deliberately outside this goal; the stable Vercel domain is the verified live surface.
+- Deliberately not run/sent: No DNS change, AdSense console action, indexing submission, medical-expert signature, email, or external broadcast.
+- Single next step: none; allow the request-time schedule to continue automatically through the final slot at 2026-08-26 00:00 KST.
 
 ## Previous completed batch-30 handoff
 

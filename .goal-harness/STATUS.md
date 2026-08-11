@@ -1,8 +1,8 @@
-Current State: IMPLEMENTING
-Current Phase: Preview deployment and live release verification
-Completed: Batch-60 30/30 articles independently done at 99; final 89-article corpus audit PASS; all 30 integrated; schedule extended by 30 exact five-hour slots; local tests, typecheck, build, and diff check PASS
-In Progress: Creating a recoverable Git checkpoint and Vercel preview for live HTTP verification
-Remaining: Preview HTTP boundary/discoverability audit; production push/deploy; production live verification; final handoff
+Current State: COMPLETE
+Current Phase: Production verified
+Completed: Batch-60 30/30 articles independently done at 99; final 89-article corpus audit PASS; all 30 integrated and scheduled at exact five-hour intervals; GitHub push and Vercel production deployment complete; live privacy/discovery/analytics checks PASS
+In Progress: none
+Remaining: none for the requested goal
 Blocked: none
-Last Verification: contract validator PASS; manifest 30 done/99; final corpus audit PASS; catalog 89 unique; schedule 69 slots plus baseline 20; npm test 3/3, tsc, npm build, git diff check PASS
-Next Action: Commit locally, deploy preview, verify future route privacy and schedule surfaces, then promote to production
+Last Verification: production https://wonon-health.vercel.app returns 200; future c001 route 404 with noindex/nofollow and absent from articles/sitemap; stable article 200 with Article JSON-LD; AdSense and GA4 IDs present; Vercel deployment dpl_9bMEurt2BMpbA95Y7KT98ohTpQ4c READY
+Next Action: none; allow request-time schedule to publish automatically through 2026-08-26 00:00 KST

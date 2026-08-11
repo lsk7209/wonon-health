@@ -3,7 +3,16 @@
 Audited: 2026-08-11 KST  
 Scope: local batch-60 integration and request-time publication schedule only. No deployment, push, or production mutation was performed.
 
-## Verdict
+## Final verdict: PASS
+
+The earlier local runtime limitation was closed through a protected Vercel preview and a fresh production smoke.
+
+- Preview and production keep `shingles-vaccine-visit-prep` private before its slot: HTTP 404 with `noindex, nofollow`, absent from `/articles` and `/sitemap.xml`.
+- Production `https://wonon-health.vercel.app` returns 200 for home, articles, sitemap, and a current public article; the public article includes Article JSON-LD.
+- AdSense `ca-pub-3050601904412736` and GA4 `G-3NJ07LPVXD` remain present.
+- Git commit `5b87c06` is pushed to `origin/main`; production deployment `dpl_9bMEurt2BMpbA95Y7KT98ohTpQ4c` is READY.
+
+## Prior local-only verdict
 
 **INCOMPLETE — runtime smoke evidence unavailable.** All static, schedule, test, type, and production-build checks below pass. The local HTTP runtime check could not be started because the environment rejected the background-process command; consequently, the future-route 404/noindex and live discoverability assertions have source-level and build evidence, but not fresh HTTP-response evidence.
 
