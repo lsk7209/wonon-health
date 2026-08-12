@@ -1,5 +1,14 @@
 # Current Handoff
 
+- Timestamp: 2026-08-12 11:58 KST (batch-110 live release complete)
+- User goal: Create fifty research-backed Korean health articles, schedule them every five hours, and maintain technical SEO plus green GSC sitemap automation.
+- Exact current state: Complete. Commit `4abb56a` is deployed to `https://wonon.ehon365.kr` through Vercel deployment `dpl_7xzWx6o54APo7m2K2TAGaANaLtSU`. The 50 new articles are in the 139-article catalog and scheduled locally and in production from 2026-08-26 05:00 KST to 2026-09-05 10:00 KST at five-hour intervals.
+- Completed work: Frozen corpus audit PASS for all 50 (prose, H2/data mapping, contextual citations, 262 ISO official/primary sources, UTF-8, valid routes, 248 unique live sources). Final QA refresh scores are 96-98. Catalog, schedule, selector tests, technical metadata/canonical/CTA work, and GSC sitemap automation are live.
+- Fresh validation: `npm test` 7/7, `npx tsc --noEmit`, production build, contract validator, QA revalidation, and diff check passed. Live robots/sitemap/RSS are HTTP 200; sitemap parsed with 37 canonical URLs and 24 public articles; RSS parsed with 24 items. A public article returns 200 with canonical and JSON-LD. The first batch-110 article is correctly 404/noindex and absent from listing/sitemap before its release. GitHub Actions `31558435555` ran for exact SHA `4abb56a` and logged `GSC sitemap verified: downloaded with zero errors and warnings`.
+- Side effects/rollback: Git commit `4abb56a` is pushed and deployed. Roll back with a normal Git revert and Vercel deployment promotion. No credentials, DNS, GA4, or AdSense state changed.
+- Deliberately not run/sent: No URL Inspection indexing requests, DNS, AdSense, GA4, or medical-expert-signoff mutation.
+- Single next step: None. The request-time schedule publishes each item automatically at its assigned five-hour boundary.
+
 - Timestamp: 2026-08-12 11:54 KST (batch-110 corpus approved; integration and schedule verified locally)
 - User goal: Add fifty high-quality, research-backed Korean health articles, release them every five hours, and keep technical SEO and GSC sitemap automation working.
 - Exact current state: Batch-110 has passed a frozen independent corpus audit and a fresh QA-packet revalidation. The 50 articles are integrated into the local 139-article catalog and appended locally to the five-hour schedule. No commit, push, deployment, or new GSC workflow run has occurred for this increment yet.
