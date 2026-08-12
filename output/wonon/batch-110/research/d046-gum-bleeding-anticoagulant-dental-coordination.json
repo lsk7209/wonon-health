@@ -1,0 +1,43 @@
+{
+  "id":"d046","slug":"gum-bleeding-anticoagulant-dental-coordination","researched_at":"2026-08-12","accessed":"2026-08-12",
+  "research_runs":[
+    {"query":"ADA oral anticoagulant antiplatelet dental procedures official","date":"2026-08-12","purpose":"치과 시술 전 항응고제 조율 원칙 확인"},
+    {"query":"ADA osteoporosis medications MRONJ dental care official","date":"2026-08-12","purpose":"골다공증약과 치과 계획 전달 범위 확인"},
+    {"query":"NIDCR gum disease bleeding gums official","date":"2026-08-12","purpose":"잇몸 출혈의 상담·구강관리 맥락 확인"},
+    {"query":"NHS gum disease bleeding gums when dental appointment","date":"2026-08-12","purpose":"지속 출혈의 치과 상담 경로 확인"}
+  ],
+  "article_research_question":"잇몸 출혈과 예정 치과 시술이 있을 때 항응고제·골다공증약의 이름, 마지막 복용, 처방의와 치과 정보를 어떻게 하나의 조율표에 담는가?",
+  "reader_outcome":"약을 임의로 빼지 않고 시술명·예약일·약명·마지막 복용·출혈 경과를 적어 치과와 처방의에게 같은 질문을 전달한다.",
+  "original_contribution":{"type":"two-clinician-coordination-sheet","description":"출혈 기록을 일반 치아 관리표와 분리하고, 치과 시술의 정확한 이름과 약 처방 정보를 양쪽 의료진이 같은 순서로 확인하게 하는 조율표","source_ids":["D46-S1","D46-S2","D46-S3"]},
+  "source_interpretation":"ADA의 두 자료는 약을 멈추라는 지시가 아니라 치과 처치와 처방 목적을 함께 조율해야 하는 경계로, NIDCR·NHS는 출혈과 잇몸 상태를 치과에 전달할 맥락으로 사용한다.",
+  "ymyl_category":"dental medication coordination","ymyl_boundaries":["잇몸 출혈의 원인이나 치과 시술 필요성을 진단하지 않는다.","항응고제·항혈소판제·골다공증약의 중단, 변경, 휴약 기간을 지시하지 않는다.","멎지 않는 출혈, 어지럼 또는 심한 전신 증상은 기록보다 긴급 평가가 우선이다."],"fact_traceability_pass":true,
+  "sources":[
+    {"id":"D46-S1","title":"Oral Anticoagulant and Antiplatelet Medications and Dental Procedures","url":"https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures","publisher":"American Dental Association","source_role":"official","source_date":"2025-01-01","accessed_date":"2026-08-12","get_status":200,"used_for":"항응고·항혈소판제 복용 사실을 치과와 처방의가 함께 고려해야 하는 원칙"},
+    {"id":"D46-S2","title":"Osteoporosis Medications and Medication-Related Osteonecrosis of the Jaw","url":"https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications","publisher":"American Dental Association","source_role":"official","source_date":"2025-01-01","accessed_date":"2026-08-12","get_status":200,"used_for":"골다공증약의 목적·투여 이력·치과 처치 계획을 정확히 전달할 필요"},
+    {"id":"D46-S3","title":"Gum Disease","url":"https://www.nidcr.nih.gov/health-info/gum-disease","publisher":"National Institute of Dental and Craniofacial Research","source_role":"official","source_date":"2025-01-01","accessed_date":"2026-08-12","get_status":200,"used_for":"출혈을 포함한 잇몸 상태를 치과에 상담할 맥락"},
+    {"id":"D46-S4","title":"Gum Disease","url":"https://www.nhs.uk/conditions/gum-disease/","publisher":"NHS","source_role":"official","source_date":"2025-01-01","accessed_date":"2026-08-12","get_status":200,"used_for":"지속되는 잇몸 출혈과 치과 상담 경로"},
+    {"id":"D46-S5","title":"Osteonecrosis of the Jaw","url":"https://www.nidcr.nih.gov/health-info/osteonecrosis-jaw","publisher":"National Institute of Dental and Craniofacial Research","source_role":"official","source_date":"2025-01-01","accessed_date":"2026-08-12","get_status":200,"used_for":"약 이력과 구강 증상·치과 계획을 한쪽에만 남기지 않는 안전 맥락"}
+  ],
+  "data_points":[
+    {"claim":"잇몸 출혈은 횟수·양·양치 또는 치실과의 관계·통증을 적어 치과에 전달할 수 있다.","source_id":"D46-S3","supports_section":"출혈은 양치 장면과 분리해 기록합니다"},
+    {"claim":"항응고제·항혈소판제 복용자는 치과 시술 전 약과 시술 정보를 의료진이 함께 평가해야 하며, 독자가 임의로 중단 결정을 내리지 않는다.","source_id":"D46-S1","supports_section":"약 목록은 제품명과 마지막 복용 시각까지 원문대로 적습니다"},
+    {"claim":"골다공증약 관련 구강 위험 논의는 약의 목적, 투여 경로와 이력, 예정 처치라는 맥락 없이는 개인 결정으로 바꿀 수 없다.","source_id":"D46-S2","supports_section":"치과 예약과 처방의를 같은 질문지에 연결합니다"},
+    {"claim":"지속되는 잇몸 출혈은 치과 상담에서 다룰 정보이며, 증상을 가리기 위해 진료를 미루지 않는다.","source_id":"D46-S4","supports_section":"출혈이 계속될 때는 표를 완성하려고 기다리지 않습니다"},
+    {"claim":"구강 증상과 약 이력은 치과 계획을 논의할 때 서로 다른 기관에 같은 내용으로 전달할 필요가 있다.","source_id":"D46-S5","supports_section":"변경하면 안 되는 것은 약과 예약을 혼자 맞바꾸는 일입니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"시술명·예약일·약명·마지막 복용 또는 투여일·처방의 연락처를 같은 표의 서로 다른 칸에 적어 약 이름과 시술명을 섞지 않는다.","source_id":"D46-S1","materially_used_in":"치과 예약과 처방의를 같은 질문지에 연결합니다"},
+    {"claim":"출혈은 양치·치실·저절로 난 경우, 멎는 데 걸린 시간, 통증·붓기와 함께 적되 약을 건너뛴 여부로 해석하지 않는다.","source_id":"D46-S3","materially_used_in":"출혈은 양치 장면과 분리해 기록합니다"}
+  ],
+  "h2_traceability":{
+    "출혈은 양치 장면과 분리해 기록합니다":["D46-S3","D46-S4"],
+    "약 목록은 제품명과 마지막 복용 시각까지 원문대로 적습니다":["D46-S1"],
+    "치과 예약과 처방의를 같은 질문지에 연결합니다":["D46-S1","D46-S2"],
+    "변경하면 안 되는 것은 약과 예약을 혼자 맞바꾸는 일입니다":["D46-S1","D46-S2","D46-S5"],
+    "출혈이 계속될 때는 표를 완성하려고 기다리지 않습니다":["D46-S4"]
+  },
+  "ymyl_review":"이 글은 잇몸 출혈의 원인을 진단하거나, 항응고제·항혈소판제·골다공증약의 중단·변경·휴약 기간을 지시하지 않는다. 멎지 않는 출혈이나 심한 전신 증상은 기록을 완성하는 일보다 즉시 평가가 우선임을 분명히 한다.",
+  "volatile":true,
+  "unresolved_claims":[],
+  "source_conflicts":[]
+}

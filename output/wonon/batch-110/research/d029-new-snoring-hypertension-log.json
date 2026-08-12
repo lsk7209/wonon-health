@@ -1,0 +1,49 @@
+{
+  "article_id": "d029",
+  "title": "코골이가 새로 생기고 혈압도 높을 때: 낮 졸림과 동침자 관찰을 묻는 표",
+  "article_research_question": "새 코골이와 혈압 상승을 함께 경험할 때, 질환명을 추정하지 않고 수면 중 관찰·낮 기능·혈압 측정 맥락을 진료 전에 어떻게 분리해 기록할 수 있는가?",
+  "reader_outcome": "독자는 코골이-혈압 이중 관찰표를 사용해 동침자에게 물을 사실, 운전을 피해야 할 상황, 상담에서 제시할 혈압 기록을 한 장으로 정리한다.",
+  "original_contribution": {
+    "type": "two-column observation tool",
+    "description": "수면 중에는 본인이 알기 어려운 숨멎음·헐떡임 관찰과, 깨어 있을 때만 알 수 있는 낮 졸림·운전 중 졸림·혈압 측정 조건을 같은 칸에 섞지 않는 이중 관찰표를 제시한다.",
+    "supporting_source_ids": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "research_runs": [
+    {"query": "NHLBI sleep apnea symptoms snoring daytime sleepiness", "date": "2026-08-12", "purpose": "공식 증상과 수면검사 상담 근거 확인"},
+    {"query": "MedlinePlus obstructive sleep apnea sleep partner snoring daytime sleepiness hypertension", "date": "2026-08-12", "purpose": "동침자 관찰·낮 기능·혈압 맥락 교차 확인"},
+    {"query": "NHLBI sleep apnea diagnosis sleep study medical history", "date": "2026-08-12", "purpose": "진료 준비 기록의 범위 확인"},
+    {"query": "NHTSA drowsy driving sleep apnea official", "date": "2026-08-12", "purpose": "낮 졸림을 운전 안전과 분리해 기록할 필요 확인"}
+  ],
+  "search_intent_insight": "검색자는 코골이의 원인 목록보다 ‘혈압도 높을 때 무엇을 급히 알리고 무엇을 기록할지’를 원한다.",
+  "competitor_gap": "일반 코골이 글은 자세나 제품 팁으로 끝나는 경우가 많아, 동침자가 본 수면 중 변화와 본인이 느낀 낮 기능·혈압 측정 조건을 구분해 진료실에 전달하는 도구가 부족하다.",
+  "information_gain": "수면 중 사실은 동침자 칸, 깨어 있을 때의 졸림과 운전 위험은 본인 칸, 혈압은 수치와 측정 조건 칸으로 나눈다. 이 구분은 수면무호흡을 자가진단하는 도구가 아니라 상담의 출발점을 정리하는 도구다.",
+  "unique_angle": "낮 졸림·동침자 관찰·혈압을 분리하는 코골이-혈압 이중 관찰표",
+  "source_interpretation": "NHLBI와 MedlinePlus의 자료는 코골이만으로 결론을 내리지 않고, 수면 중 목격 사실·낮 기능·진료 평가를 연결하는 근거로 사용한다. 혈압 자료는 수치 하나의 의미를 해석하는 대신 측정 조건을 남겨야 하는 이유로만 사용한다.",
+  "angle_supporting_detail": {"claim": "수면무호흡의 수면 중 호흡 정지·큰 코골이·헐떡임은 다른 사람이 먼저 알아차릴 수 있고, 낮 졸림은 본인이 기록할 수 있는 별도 정보다.", "source_id": "S1"},
+  "article_specific_details": [
+    {"claim": "‘숨이 멎는 듯했다’는 동침자 목격과 ‘오전 회의 중 눈이 감겼다’는 낮 기능 변화를 같은 증상 칸에 합치지 않고 각각 기록한다.", "source_id": "S1"},
+    {"claim": "수면 중 숨멎음·헐떡임을 목격한 사람이 있으면 그 사람이 쓴 짧은 문장과 날짜를 가져가며, 그 자체를 진단명으로 바꾸지 않는다.", "source_id": "S3"},
+    {"claim": "혈압은 수치만 적지 않고 시간·팔·자세·측정 전 활동·증상을 함께 적어 상담 때 반복 측정 맥락을 보여 준다.", "source_id": "S5"}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Sleep Apnea - Symptoms", "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms", "publisher": "National Heart, Lung, and Blood Institute", "date": "2025-01-09", "source_date": "2025-01-09", "accessed": "2026-08-12", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "http_status": 200, "used_for": "코골이·호흡 정지 목격·낮 졸림과 수면검사 상담의 구분"},
+    {"id": "S2", "title": "Sleep Apnea - Diagnosis", "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/diagnosis", "publisher": "National Heart, Lung, and Blood Institute", "date": "2025-01-09", "source_date": "2025-01-09", "accessed": "2026-08-12", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "http_status": 200, "used_for": "의료진이 병력·수면 관련 정보와 검사를 조합해 평가한다는 경계"},
+    {"id": "S3", "title": "Obstructive sleep apnea - adults", "url": "https://medlineplus.gov/ency/article/000811.htm", "publisher": "MedlinePlus Medical Encyclopedia, U.S. National Library of Medicine", "date": "2025-01-10", "source_date": "2025-01-10", "accessed": "2026-08-12", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "http_status": 200, "used_for": "동침자의 코골이·헐떡임 목격, 낮 졸림, 난치성 고혈압의 맥락"},
+    {"id": "S4", "title": "Snoring", "url": "https://medlineplus.gov/snoring.html", "publisher": "MedlinePlus, U.S. National Library of Medicine", "date": "2025-11-30", "source_date": "2025-11-30", "accessed": "2026-08-12", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "http_status": 200, "used_for": "새 코골이와 낮 피로·헐떡임이 함께 있을 때 상담해야 한다는 경계"},
+    {"id": "S5", "title": "High Blood Pressure", "url": "https://www.nhlbi.nih.gov/health/high-blood-pressure", "publisher": "National Heart, Lung, and Blood Institute", "date": "2024-04-25", "source_date": "2024-04-25", "accessed": "2026-08-12", "source_type": "official", "source_role": "official", "is_official": true, "freshness": "recent", "http_status": 200, "used_for": "혈압 수치를 단일 원인으로 해석하지 않고 반복 측정과 의료진 평가 맥락으로 남기는 근거"}
+  ],
+  "data_points": [
+    {"claim": "수면 중 큰 코골이·호흡이 멈췄다가 다시 시작함·헐떡임은 본인이 모르고 동침자가 먼저 목격할 수 있으므로, 시작 시점과 목격 문장을 분리해 적는다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2025-01-09", "supports_section": "새 코골이와 혈압 변화는 첫날의 장면부터 고정합니다"},
+    {"claim": "수면무호흡 평가는 증상과 병력, 필요 시 수면검사를 함께 보므로 코골이 녹음 하나로 진단명을 붙이지 않는다.", "source_id": "S2", "claim_type": "procedure", "source_date": "2025-01-09", "supports_section": "동침자 관찰과 본인 기록을 두 칸으로 나눕니다"},
+    {"claim": "성인 폐쇄성 수면무호흡에서는 낮 졸림이 운전 중 졸림과 연결될 수 있어, 졸린 상태에서는 운전을 계속하지 않는 안전 판단이 우선이다.", "source_id": "S3", "claim_type": "safety", "source_date": "2025-01-10", "supports_section": "낮 졸림은 운전 가능 여부와 함께 적습니다"},
+    {"claim": "심한 코골이와 낮 졸림, 잠에서 헐떡이며 깨는 변화는 의료진에게 알려야 할 정보다.", "source_id": "S4", "claim_type": "procedure", "source_date": "2025-11-30", "supports_section": "혈압 수치에는 측정 조건과 생활 맥락을 붙입니다"},
+    {"claim": "혈압은 수치 하나만으로 개인의 상태를 확정하지 않으며, 반복된 측정과 건강 이력의 맥락에서 평가한다.", "source_id": "S5", "claim_type": "procedure", "source_date": "2024-04-25", "supports_section": "호흡 정지 의심이나 심한 동반 증상은 기록보다 먼저 다룹니다"},
+    {"claim": "수면 중 호흡 문제와 낮 기능 변화가 이어질 때에는 상담에서 수면검사가 필요한지 질문할 수 있다.", "source_id": "S1", "claim_type": "procedure", "source_date": "2025-01-09", "supports_section": "진료실에서는 ‘무엇을 검사해야 하나’보다 기록을 먼저 보여 줍니다"}
+  ]
+}

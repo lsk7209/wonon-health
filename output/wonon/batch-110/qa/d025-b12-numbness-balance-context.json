@@ -1,0 +1,71 @@
+{
+  "id": "d025",
+  "slug": "b12-numbness-balance-context",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "6a3de0c7efdbd49f3c5eac45fd20ef058eba1ba728e6b9f89c07db1dff0344af",
+    "research_sha256": "004c18110d7b8908d849fae4519af8c6e6332f6d005f9d014381f54c795bfc9c",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4645,
+    "visible_korean_body_count": 4645,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/health-checkup-questions",
+      "/article/menopause-when-to-see-a-doctor",
+      "/article/medication-reconciliation-sheet"
+    ],
+    "research_runs": 6,
+    "sources": 6,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 6,
+    "source_get_statuses": {
+      "D25-S1": 200,
+      "D25-S2": 200,
+      "D25-S3": 200,
+      "D25-S4": 200,
+      "D25-S5": 200,
+      "D25-S6": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.001467,
+    "closest_prose_comparator": "a014-daytime-balance-risk-sketch"
+  },
+  "compared_rows": [
+    "all 112 available batch-20, batch-30, batch-60, and batch-110 draft comparators"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

@@ -1,0 +1,201 @@
+{
+  "id": "d004",
+  "article_research_question": "폐경 후 반복되는 배뇨 불편에서 재발 간격, 검사 시점, 질 건조 맥락을 어떻게 분리해 진료에 전달할 수 있는가?",
+  "reader_outcome": "독자는 원인을 단정하지 않은 채 재발 시간선과 질·배뇨 변화, 검사·복용 이력을 한 장의 상담표로 준비한다.",
+  "original_contribution": {
+    "type": "decision_record",
+    "description": "재발 간격·질 건조·검사 맥락을 섞지 않는 다섯 칸 상담표",
+    "supporting_source_ids": [
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ]
+  },
+  "research_runs": [
+    {
+      "query": "NIDDK adult bladder infection symptoms fever flank pain",
+      "date": "2026-08-12",
+      "purpose": "위험 신호와 증상 맥락 확인"
+    },
+    {
+      "query": "ACOG genitourinary syndrome menopause urinary symptoms dryness",
+      "date": "2026-08-12",
+      "purpose": "폐경 후 질·배뇨 변화 분리"
+    },
+    {
+      "query": "AUA recurrent UTI women guideline history urine culture",
+      "date": "2026-08-12",
+      "purpose": "반복 증상과 검사 맥락 확인"
+    },
+    {
+      "query": "NHS UTI urgent symptoms official",
+      "date": "2026-08-12",
+      "purpose": "연락이 필요한 변화 확인"
+    },
+    {
+      "query": "폐경 후 반복 방광염 상담 기록 검색 결과",
+      "date": "2026-08-12",
+      "purpose": "일반 자가관리 설명과 상담표의 정보 공백 확인"
+    }
+  ],
+  "search_intent_insight": "검색자는 재발 원인이나 민간 관리법보다 다음 진료에서 검사와 질 건조를 어떻게 함께 말할지를 필요로 한다.",
+  "competitor_gap": "일반 증상 설명은 많지만 재발 간격·검사 시점·질 건조를 서로 다른 칸에 기록하는 진료용 도구가 부족하다.",
+  "angle_supporting_detail": "질 건조의 시간선과 배뇨 증상의 시간선을 분리하면 한 증상을 다른 증상의 원인으로 단정하지 않고 상담 질문을 만들 수 있다.",
+  "source_interpretation": "E1과 E2는 증상 및 빠른 연락이 필요한 변화를 기록 안전선으로, E3은 질·배뇨 변화를 별도 맥락으로, E4는 병력과 검사 맥락을 한 쌍으로 전달하는 근거로 사용한다.",
+  "article_specific_details": [
+    {
+      "claim": "재발 표에서 ‘완전히 잠잠했던 기간’과 ‘다시 시작된 시점’을 분리한다.",
+      "source_id": "E4"
+    },
+    {
+      "claim": "질 건조·자극감과 배뇨 불편을 한 문장으로 합치지 않고 각 시간선을 적는다.",
+      "source_id": "E3"
+    }
+  ],
+  "ymyl_category": "health-medical",
+  "ymyl_review": "진단·항생제 선택·용량·자가치료를 지시하지 않고 기록과 연락 기준만 다룬다.",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "data_points": [
+    {
+      "claim": "배뇨 증상과 발열·오한·옆구리 통증 등 동반 변화를 의료진에게 알린다.",
+      "source_id": "E1",
+      "claim_type": "official_guidance",
+      "source_date": "2025-10",
+      "supports_section": "발열·옆구리 통증·심한 전신 변화는 기록을 완성하느라 기다리지 않습니다"
+    },
+    {
+      "claim": "요로감염 증상은 개인이 감염 여부를 판정하는 근거가 아니다.",
+      "source_id": "E2",
+      "claim_type": "official_guidance",
+      "source_date": "2025-01",
+      "supports_section": "폐경 후 반복 방광염은 ‘몇 번째’보다 재발 사이의 빈칸부터 적습니다"
+    },
+    {
+      "claim": "폐경과 관련된 비뇨생식기 변화에는 질 건조와 배뇨 증상이 포함될 수 있다.",
+      "source_id": "E3",
+      "claim_type": "official_guidance",
+      "source_date": "2025-01",
+      "supports_section": "질 건조와 배뇨 불편은 같은 칸에 섞지 않고 나란히 둡니다"
+    },
+    {
+      "claim": "반복 증상 평가는 병력과 검사 맥락을 함께 다룬다.",
+      "source_id": "E4",
+      "claim_type": "guideline",
+      "source_date": "2025-01",
+      "supports_section": "검사 결과는 수치보다 ‘언제 어떤 증상에서 했는지’를 붙입니다"
+    },
+    {
+      "claim": "실제 복용약과 일정은 진료 맥락에서 확인한다.",
+      "source_id": "E5",
+      "claim_type": "official_reference",
+      "source_date": "2025-01",
+      "supports_section": "항생제와 다른 복용약은 약 이름·기간·변경 시점만 모읍니다"
+    },
+    {
+      "claim": "요로감염 정보는 개별 의료 평가와 구분한다.",
+      "source_id": "E5",
+      "claim_type": "official_reference",
+      "source_date": "2025-01",
+      "supports_section": "진료실에서는 ‘원인’ 대신 세 가지 확인 질문으로 시작합니다"
+    },
+    {
+      "claim": "불확실한 날짜는 확인 경로와 함께 기록한다.",
+      "source_id": "E4",
+      "claim_type": "guideline",
+      "source_date": "2025-01",
+      "supports_section": "폐경 후 반복 방광염 상담표를 다시 확인하는 두 가지 질문"
+    },
+    {
+      "claim": "증상 에피소드는 시간선과 검사 맥락을 나란히 검토한다.",
+      "source_id": "E4",
+      "claim_type": "guideline",
+      "source_date": "2025-01",
+      "supports_section": "다음 에피소드가 오면 새 줄을 추가하고 과거 기록을 고치지 않습니다"
+    },
+    {
+      "claim": "반복 증상은 에피소드별 병력과 검사 맥락을 함께 평가한다.",
+      "source_id": "E4",
+      "claim_type": "guideline",
+      "source_date": "2025-01",
+      "supports_section": "두 번의 에피소드는 같은 질문으로 비교하고 같은 답으로 묶지 않습니다"
+    },
+    {
+      "claim": "예방 선택은 개인 병력과 평가를 바탕으로 논의한다.",
+      "source_id": "E3",
+      "claim_type": "official_guidance",
+      "source_date": "2025-01",
+      "supports_section": "예방 상담은 행동 목록보다 내게 적용되는 질문을 먼저 정합니다"
+    }
+  ],
+  "sources": [
+    {
+      "id": "E1",
+      "title": "Bladder Infection (Urinary Tract Infection) in Adults",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults",
+      "publisher": "NIDDK",
+      "source_role": "official",
+      "used_for": "증상과 빠른 연락이 필요한 동반 변화",
+    "source_date": "2025-10-01",
+    "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "E2",
+      "title": "Urinary tract infections",
+      "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+      "publisher": "NHS",
+      "source_role": "official",
+      "used_for": "증상 표현과 진료 연결",
+    "source_date": "2025-01-01",
+    "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "E3",
+      "title": "Urinary Tract Infections",
+      "url": "https://womenshealth.gov/a-z-topics/urinary-tract-infections",
+      "publisher": "U.S. Office on Women's Health",
+      "source_role": "official",
+      "used_for": "폐경 후 질·배뇨 변화와 예방 상담의 의료 평가 경계",
+    "source_date": "2025-01-01",
+    "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "E4",
+      "title": "Bladder Infection (Urinary Tract Infection) in Adults",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-infection-uti-in-adults",
+      "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "source_role": "official",
+      "used_for": "반복 증상과 검사 맥락",
+    "source_date": "2025-01-01",
+    "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "E5",
+      "title": "Urinary Tract Infections",
+      "url": "https://medlineplus.gov/urinarytractinfections.html",
+      "publisher": "MedlinePlus",
+      "source_role": "official",
+      "used_for": "건강 정보와 개인 평가의 경계",
+    "source_date": "2025-01-01",
+    "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true
+    }
+  ]
+}

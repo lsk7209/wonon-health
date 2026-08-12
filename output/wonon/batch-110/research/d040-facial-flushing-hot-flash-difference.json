@@ -1,0 +1,185 @@
+{
+  "id": "d040",
+  "slug": "facial-flushing-hot-flash-difference",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "NHS menopause symptoms hot flushes face neck chest",
+      "date": "2026-08-12",
+      "purpose": "갱년기 열성 홍조의 공식 증상 범위 확인"
+    },
+    {
+      "query": "ACOG menopause years hot flashes face upper body",
+      "date": "2026-08-12",
+      "purpose": "얼굴과 상체 열감의 상담용 표현 확인"
+    },
+    {
+      "query": "AAD rosacea triggers alcohol heat skin care products flushing",
+      "date": "2026-08-12",
+      "purpose": "음주·열·제품 노출을 단일 원인으로 단정하지 않는 근거 확인"
+    },
+    {
+      "query": "AAD rosacea skin care sensitive skin stinging burning ingredients",
+      "date": "2026-08-12",
+      "purpose": "피부 자극을 기록할 감각과 제품 맥락 확인"
+    },
+    {
+      "query": "NHS menopause symptoms seek advice impact daily life",
+      "date": "2026-08-12",
+      "purpose": "생활 영향과 상담 경계 확인"
+    }
+  ],
+  "article_research_question": "갱년기 전환기에 얼굴이 붉어질 때, 열감·피부 자극·음주를 한 원인으로 단정하지 않고 어떤 시간·감각·노출 정보를 진료 전에 분리해 기록해야 하는가?",
+  "reader_outcome": "독자는 갱년기 홍조를 자가진단하지 않고, 한 사건의 시간·부위·피부 감각·노출·동반 변화를 분리해 상담에서 설명하며 급한 변화는 기록보다 먼저 평가한다.",
+  "search_intent_insight": "검색 결과는 갱년기 홍조의 일반 설명이나 피부 제품 추천으로 갈리지만, 열감과 피부 자극 및 음주를 인과관계 없이 같은 시간표에서 정리하는 상담 도구가 부족하다.",
+  "competitor_gap": "이 글은 홍조를 멈추는 법이나 특정 피부 질환 판별법 대신, 열감·피부 감각·노출·생활 영향의 네 칸을 분리해 의료진에게 전달하는 기록 규칙을 제시한다.",
+  "unique_angle": "열감·피부 자극·음주를 서로 다른 관찰 칸에 두고, 사진은 색 판정이 아니라 시간표 보조 자료로 한정한다.",
+  "original_contribution": {
+    "type": "decision record",
+    "description": "한 사건을 시간과 부위, 피부 감각, 노출, 동반 변화, 생활 영향으로 나누고 인과 화살표를 그리지 않는 다섯 칸 기록",
+    "source_ids": [
+      "D40-S1",
+      "D40-S3",
+      "D40-S4"
+    ]
+  },
+  "source_interpretation": "NHS와 ACOG의 갱년기 자료는 열감의 범위와 생활 영향의 언어로만 사용한다. AAD의 홍조·피부 자극 자료는 특정 질환 진단이 아니라 사람마다 다른 유발 맥락을 기록할 이유로 해석한다. 모든 출처는 약·제품·음주 변경을 지시하는 근거로 쓰지 않는다.",
+  "sources": [
+    {
+      "id": "D40-S1",
+      "organization": "NHS",
+      "title": "Symptoms of menopause and perimenopause",
+      "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/",
+      "source_role": "official",
+      "source_date": "2026-06-01",
+      "accessed_date": "2026-08-12",
+      "used_for": "얼굴·목·가슴의 갑작스러운 열감, 생리 변화와 피부 변화의 맥락",
+      "official_or_primary": true
+    },
+    {
+      "id": "D40-S2",
+      "organization": "American College of Obstetricians and Gynecologists",
+      "title": "The Menopause Years",
+      "url": "https://www.acog.org/womens-health/faqs/the-menopause-years",
+      "source_role": "official",
+      "source_date": "2024-12-01",
+      "accessed_date": "2026-08-12",
+      "used_for": "얼굴과 상체로 치밀 수 있는 열성 홍조의 공식 설명",
+      "official_or_primary": true
+    },
+    {
+      "id": "D40-S3",
+      "organization": "American Academy of Dermatology",
+      "title": "Triggers could be causing your rosacea flare-ups",
+      "url": "https://www.aad.org/public/diseases/rosacea/triggers/find",
+      "source_role": "official",
+      "source_date": "2025-10-01",
+      "accessed_date": "2026-08-12",
+      "used_for": "열·알코올·제품 등 사람마다 다른 홍조 유발 맥락과 기록 필요성",
+      "official_or_primary": true
+    },
+    {
+      "id": "D40-S4",
+      "organization": "American Academy of Dermatology",
+      "title": "7 rosacea skin care tips dermatologists recommend",
+      "url": "https://www.aad.org/public/diseases/rosacea/triggers/tips",
+      "source_role": "official",
+      "source_date": "2024-04-03",
+      "accessed_date": "2026-08-12",
+      "used_for": "피부의 따가움·화끈거림과 자극 가능 제품을 별도 기록하는 맥락",
+      "official_or_primary": true
+    },
+    {
+      "id": "D40-S5",
+      "organization": "American Academy of Dermatology",
+      "title": "Is rosacea causing your red, irritated face?",
+      "url": "https://www.aad.org/public/diseases/rosacea/what-is/red-face",
+      "source_role": "official",
+      "source_date": "2025-10-01",
+      "accessed_date": "2026-08-12",
+      "used_for": "반복 또는 오래 지속되는 홍조와 피부·눈 불편을 상담에서 설명하는 경계",
+      "official_or_primary": true
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "열성 홍조는 얼굴·목·가슴이 갑자기 뜨겁거나 차갑게 느껴질 수 있어, 얼굴색과 열감의 부위·시간을 분리해 기록할 수 있다.",
+      "source_id": "D40-S1",
+      "claim_type": "official symptom guidance",
+      "source_date": "2026-06-01",
+      "supports_section": "얼굴 홍조 갱년기, 먼저 열이 오른 시간과 지속 시간을 분리해 적기"
+    },
+    {
+      "claim": "갱년기 열성 홍조는 상체와 얼굴로 갑자기 열감이 치밀 수 있어, 개인 경험을 병명으로 확정하지 않고 상담용 관찰 언어로 쓴다.",
+      "source_id": "D40-S2",
+      "claim_type": "official symptom guidance",
+      "source_date": "2024-12-01",
+      "supports_section": "열감·피부 자극·음주를 같은 원인으로 묶지 않는 관찰표"
+    },
+    {
+      "claim": "열, 알코올, 일부 피부·모발 제품은 사람에 따라 홍조를 악화시키는 요인이 될 수 있고 사람마다 다르다.",
+      "source_id": "D40-S3",
+      "claim_type": "official trigger guidance",
+      "source_date": "2025-10-01",
+      "supports_section": "홍조와 함께 남길 피부 감각·눈 증상·월경 변화를 따로 쓰기"
+    },
+    {
+      "claim": "민감하고 쉽게 자극받는 피부에서는 따가움·화끈거림과 제품 노출을 관찰할 수 있으나, 개인별 제품 선택이나 치료는 진료에서 결정한다.",
+      "source_id": "D40-S4",
+      "claim_type": "official skin-care guidance",
+      "source_date": "2024-04-03",
+      "supports_section": "복용약·새 화장품·음주를 날짜 순으로 놓는 방법"
+    },
+    {
+      "claim": "오래 지속되거나 반복되는 홍조와 화끈거림·따가움은 피부 평가에서 설명할 수 있는 변화이며, 특정 질환의 자가진단 근거는 아니다.",
+      "source_id": "D40-S5",
+      "claim_type": "official evaluation guidance",
+      "source_date": "2025-10-01",
+      "supports_section": "상담을 앞당길 변화와 진료실에서 확인할 질문"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "얼굴색과 몸에서 느낀 열을 한 줄에 합치지 않고, 시작 시각·부위·지속한 느낌·그때 하던 일을 분리해 적는다.",
+      "source_id": "D40-S1",
+      "materially_used_in": "얼굴 홍조 갱년기, 먼저 열이 오른 시간과 지속 시간을 분리해 적기"
+    },
+    {
+      "claim": "음주·열·피부 제품이 한 날에 겹쳐도 화살표로 인과관계를 그리지 않고, 종류·시각·피부 감각의 순서만 남긴다.",
+      "source_id": "D40-S3",
+      "materially_used_in": "열감·피부 자극·음주를 같은 원인으로 묶지 않는 관찰표"
+    },
+    {
+      "claim": "사진은 색 판정이 아니라 시간표의 보조 자료이며, 같은 거리와 보정 없는 한 장 아래에 시간과 피부 감각을 붙인다.",
+      "source_id": "D40-S4",
+      "materially_used_in": "복용약·새 화장품·음주를 날짜 순으로 놓는 방법"
+    }
+  ],
+  "h2_traceability": {
+    "얼굴 홍조 갱년기, 먼저 열이 오른 시간과 지속 시간을 분리해 적기": [
+      "D40-S1",
+      "D40-S2"
+    ],
+    "열감·피부 자극·음주를 같은 원인으로 묶지 않는 관찰표": [
+      "D40-S3",
+      "D40-S4"
+    ],
+    "홍조와 함께 남길 피부 감각·눈 증상·월경 변화를 따로 쓰기": [
+      "D40-S1",
+      "D40-S5"
+    ],
+    "복용약·새 화장품·음주를 날짜 순으로 놓는 방법": [
+      "D40-S3",
+      "D40-S4"
+    ],
+    "상담을 앞당길 변화와 진료실에서 확인할 질문": [
+      "D40-S5"
+    ]
+  },
+  "ymyl_category": "health",
+  "ymyl_review": "pass: 갱년기·로사시아·알레르기 등을 진단하지 않고, 약·보충제·음주·피부 제품의 중단이나 변경을 지시하지 않는다. 호흡 곤란·얼굴 부기 등 급한 변화는 기록보다 즉시 평가를 우선하게 한다.",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

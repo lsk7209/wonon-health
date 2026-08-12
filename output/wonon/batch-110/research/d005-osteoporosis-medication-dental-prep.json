@@ -1,0 +1,40 @@
+{
+  "article_id":"d005",
+  "slug":"osteoporosis-medication-dental-prep",
+  "title":"골다공증 약을 시작하기 전: 치과 치료 계획과 복용 이력을 묻는 준비표",
+  "accessed":"2026-08-12",
+  "ymyl_category":"health",
+  "ymyl_review":"약의 시작·중단·휴약·용량 변경과 치과 처치 순서를 지시하지 않고, 진료팀에 전달할 사실과 안전한 연락 경계만 제공한다.",
+  "volatile":true,
+  "research_runs":5,
+  "article_research_question":"골다공증 약 시작 또는 변경 전 치과 일정, 약 이력, 구강 증상을 어떻게 구분해 두 의료진에게 전달할 수 있는가?",
+  "reader_outcome":"독자는 자가 휴약 규칙 대신 치과 처치 계획, 약의 투여 이력, 구강 변화, 담당 진료팀 질문을 나눈 한 장의 준비표를 만든다.",
+  "search_intent_insight":"골다공증 약과 치과 치료의 순서를 스스로 결정하고 싶은 불안을 안전한 진료 준비 질문으로 전환하는 의도다.",
+  "competitor_gap":"일반적인 위험 설명은 많지만 처치명·날짜·약 투여 이력·연락 창구를 분리하는 협진 준비표가 부족하다.",
+  "information_gain":"치과 처치와 약 이력을 한 줄 시간표에 두되, 개인별 휴약이나 처치 순서는 의료진이 결정하도록 경계를 유지한다.",
+  "unique_angle":"치과 일정과 골다공증 약 이력을 협진 질문으로 바꾸는 준비표",
+  "source_interpretation":"NIAMS는 개인 위험 평가의 배경, NIDCR은 구강 증상과 처치 맥락, ADA와 AAOMS는 치료 목적 및 팀 조정의 맥락, DailyMed는 약 이름과 투여 이력 확인의 공식 원문으로 사용한다.",
+  "original_contribution":"치과 예약을 처치 가능성과 날짜로, 약 이력을 투여 방식과 마지막·다음 날짜로, 구강 증상을 관찰 사실로 분리한다.",
+  "sources":[
+    {"id":"E1","title":"Osteoporosis","publisher":"National Institute of Arthritis and Musculoskeletal and Skin Diseases","url":"https://www.niams.nih.gov/health-topics/osteoporosis","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"골다공증 치료와 개인 위험 평가를 의료진이 함께 검토해야 하는 공식 배경"},
+    {"id":"E2","title":"Osteonecrosis of the Jaw","publisher":"National Institute of Dental and Craniofacial Research","url":"https://www.nidcr.nih.gov/health-info/osteonecrosis-jaw","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"구강 증상과 치과 처치 맥락을 진단 없이 기록하는 공식 배경"},
+    {"id":"E3","title":"Osteoporosis Medications and Medication-Related Osteonecrosis of the Jaw","publisher":"American Dental Association","url":"https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"치료 목적과 환자 상황을 함께 고려해 치과 처치를 논의해야 하는 맥락"},
+    {"id":"E4","title":"Alendronate Sodium Tablets: Prescribing Information","publisher":"DailyMed, U.S. National Library of Medicine","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c4358ba7-1bf8-4b0a-9407-5ac279d04555","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"약 이름·투여 방식·마지막 및 다음 날짜를 문서로 확인하는 공식 원문"},
+    {"id":"E5","title":"Medication-Related Osteonecrosis of the Jaws—2024 Update","publisher":"American Association of Oral and Maxillofacial Surgeons","url":"https://aaoms.org/wp-content/uploads/2024/03/mronj_position_paper.pdf","source_date":"2024-03-01","accessed_date":"2026-08-12","source_role":"primary","source_type":"primary","used_for":"개별 평가와 처방·치과 진료팀 조정이 필요한 전문 근거"}
+  ],
+  "data_points":[
+    {"claim":"NIDCR은 턱뼈 관련 문제에서 구강 증상과 치과 처치 맥락을 확인하는 공식 정보를 제공한다.","source_id":"E2","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"먼저 치과 예약을 ‘검진·수복·발치 가능성’으로 나누어 적습니다"},
+    {"claim":"DailyMed는 실제 알렌드로네이트 제품의 처방 정보와 경고를 확인할 수 있는 공식 원문을 제공한다.","source_id":"E4","claim_type":"official-label","source_date":"2026-08-12","supports_section":"약 이름만 아니라 투여 방식과 마지막·다음 날짜를 확인합니다"},
+    {"claim":"ADA는 골다공증 약과 치과 처치를 치료 목적 및 환자 상황과 함께 논의하는 맥락을 제공한다.","source_id":"E3","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"‘골다공증 치료’와 ‘암 관련 고용량 치료’의 목적을 같은 범주로 묶지 않습니다"},
+    {"claim":"AAOMS 2024 위치 논문은 약물 관련 턱뼈 문제에서 개별 평가와 치료팀 조정의 필요성을 다룬다.","source_id":"E5","claim_type":"primary-guidance","source_date":"2024-03-01","supports_section":"입안 증상은 ‘턱이 아프다’보다 관찰 가능한 변화로 적습니다"},
+    {"claim":"NIAMS는 골다공증의 평가와 치료가 개인 위험을 바탕으로 이뤄진다는 공식 배경을 제공한다.","source_id":"E1","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"두 의료진에게는 같은 네 가지 질문을 전달합니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"치과 예약은 검진·수복·발치 가능성으로, 약 이력은 투여 방식·마지막·다음 날짜로 나누어 적는다.","source_id":"E4","used_in_section":"약 이름만 아니라 투여 방식과 마지막·다음 날짜를 확인합니다"},
+    {"claim":"구강 통증·붓기·상처는 관찰 사실로 적고 약이 원인이라는 해석은 의료진이 검토하도록 남긴다.","source_id":"E2","used_in_section":"입안 증상은 ‘턱이 아프다’보다 관찰 가능한 변화로 적습니다"}
+  ],
+  "fact_traceability_pass":true,
+  "unresolved_claims":["개별 휴약, 약물 변경, 치과 처치 순서, 위험도는 이 자료로 판단하지 않는다."],
+  "source_conflicts":[],
+  "conflict_note":"개별 결정은 처방 의료진과 치과 의료진이 병력과 처치 계획을 함께 검토해야 한다."
+}

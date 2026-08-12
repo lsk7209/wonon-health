@@ -1,0 +1,52 @@
+{
+  "article_id": "d007",
+  "slug": "wrist-fragility-fracture-evaluation",
+  "title": "손목 골절 뒤 골다공증 평가를 들었을 때: 넘어짐과 검사 질문을 묶는 메모",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health-bone-fracture",
+  "ymyl_review": "pass-no-diagnosis-medication-selection-or-treatment-direction",
+  "research_runs": [
+    {"query": "MedlinePlus osteoporosis fractures diagnosis bone density official", "date": "2026-08-12", "purpose": "골다공증과 골절의 관계를 개인 진단이 아닌 평가 대화의 배경으로 확인"},
+    {"query": "NIAMS bone mineral density tests numbers mean official", "date": "2026-08-12", "purpose": "검사 결과의 숫자를 단독 결론으로 읽지 않고 질문으로 바꾸는 근거 확인"},
+    {"query": "NIAMS osteoporosis risk factors fracture official", "date": "2026-08-12", "purpose": "골절력·가족력·복용 이력을 함께 전달할 필요 확인"},
+    {"query": "AAOS distal radius fractures broken wrist fall official", "date": "2026-08-12", "purpose": "손목 골절 당시의 넘어짐 장면과 치료 경과를 사건으로 기록할 근거 확인"},
+    {"query": "ACOG osteoporosis FAQ fracture screening women official", "date": "2026-08-12", "purpose": "중년 여성의 골 건강 상담에서 위험요인을 자가판정하지 않는 경계 확인"}
+  ],
+  "article_research_question": "낮은 에너지의 넘어짐 뒤 손목 골절을 겪고 골다공증 평가 이야기를 들었을 때, 병명·약·검사 결론을 스스로 정하지 않으면서 어떤 사건 정보와 질문을 진료에 가져가야 하는가?",
+  "reader_outcome": "넘어짐 장면, 과거 골절, 검사·치료 기록, 생활상 위험, 예약 때 읽을 질문을 섞지 않은 다섯 칸 메모를 완성한다.",
+  "competitor_gap": "손목 골절의 응급 처치나 골다공증 일반 설명은 많지만, 이미 치료를 받은 뒤 평가 이야기를 들은 사람이 넘어짐의 강도·과거 골절·검사 질문을 한 장의 상담 메모로 정리하는 한국어 안내는 드물다.",
+  "information_gain": "손목 골절을 골다공증의 증거라고 단정하지 않고, '어떻게 넘어졌는가'와 '무엇을 평가에서 물을 것인가'를 분리한 낙상-골절-검사 질문 메모를 제시한다.",
+  "unique_angle": "넘어짐의 힘과 환경, 과거 골절, 골밀도·영상·혈액검사 관련 질문을 같은 시간축에 올리는 평가 메모",
+  "original_contribution": {"type": "fracture-evaluation-memo", "description": "손목 골절 뒤의 평가 상담을 위해 사건·골절력·검사 기록·생활상 넘어짐 위험·질문을 분리한 다섯 칸 메모", "source_ids": ["S1", "S2", "S3", "S4", "S5"]},
+  "source_interpretation": "MedlinePlus와 NIAMS의 골다공증 자료는 손목 골절을 병명으로 해석하지 않고 평가에 필요한 과거력의 범위를 정하는 데만 사용했다. NIAMS의 골밀도 검사 안내는 숫자 해석표가 아니라 결과지·검사명·질문을 보존할 이유로 사용했다. AAOS의 손목 골절 안내는 넘어짐 장면과 치료 경과를 기록할 근거로, ACOG 자료는 여성의 위험 요인을 자가판정하지 말고 상담에서 확인할 항목으로 제한했다.",
+  "sources": [
+    {"id": "S1", "title": "Osteoporosis", "organization": "MedlinePlus", "url": "https://medlineplus.gov/osteoporosis.html", "source_date": "2026-08-12", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "used_for": "골다공증 관련 골절·검사·위험요인을 개인 진단이 아닌 평가 대화의 배경으로 한정"},
+    {"id": "S2", "title": "Bone Mineral Density Tests: What the Numbers Mean", "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases", "url": "https://www.niams.nih.gov/health-topics/bone-mineral-density-tests-what-numbers-mean", "source_date": "2026-08-12", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "used_for": "골밀도 결과의 숫자·검사명·검사 시점과 의료진 질문을 기록할 근거"},
+    {"id": "S3", "title": "Osteoporosis", "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases", "url": "https://www.niams.nih.gov/health-topics/osteoporosis", "source_date": "2026-08-12", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "used_for": "과거 골절·가족력·복용 이력 등 평가 맥락을 빠뜨리지 않을 근거"},
+    {"id": "S4", "title": "Distal Radius Fractures (Broken Wrist)", "organization": "American Academy of Orthopaedic Surgeons", "url": "https://www.orthoinfo.org/diseases--conditions/distal-radius-fractures-broken-wrist/", "source_date": "2026-08-12", "accessed_date": "2026-08-12", "source_role": "primary", "source_type": "primary", "used_for": "손목 골절 당시의 넘어짐 장면·손상 경과·치료 기록을 사건 단위로 정리할 근거"},
+    {"id": "S5", "title": "Osteoporosis", "organization": "American College of Obstetricians and Gynecologists", "url": "https://www.acog.org/womens-health/faqs/osteoporosis", "source_date": "2026-08-12", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "used_for": "여성의 골 건강 위험 요인을 자가 선별이나 치료 지시로 바꾸지 않고 상담 질문으로 제한"}
+  ],
+  "data_points": [
+    {"claim": "골다공증은 뼈가 약해져 골절 위험이 커지는 상태이며, 골절과 위험요인·검사 정보는 의료진의 평가에서 함께 고려된다.", "source_id": "S1", "claim_type": "clinical-context", "supports_section": "손목 골절을 들은 날의 장면부터 메모에 고정합니다"},
+    {"claim": "골밀도 검사는 골 건강 평가의 한 부분이며, 결과 수치만으로 개인의 치료 결론을 정하기보다 검사명·날짜·이전 결과와 질문을 보존할 필요가 있다.", "source_id": "S2", "claim_type": "procedure", "supports_section": "검사 결과는 숫자만 베끼지 말고 질문 옆에 둡니다"},
+    {"claim": "골다공증 평가는 과거 골절, 가족력, 복용약과 다른 건강 상태 같은 맥락을 함께 확인할 수 있다.", "source_id": "S3", "claim_type": "clinical-context", "supports_section": "과거 골절과 복용 이력은 서로 다른 줄에 둡니다"},
+    {"claim": "손목의 원위 요골 골절은 넘어질 때 손을 짚는 상황과 관련될 수 있으므로, 어느 방향으로 어떻게 넘어졌는지와 치료 경과는 상담에 전달할 사실이 된다.", "source_id": "S4", "claim_type": "clinical-context", "supports_section": "넘어짐은 한 단어가 아니라 장면으로 적습니다"},
+    {"claim": "여성의 골 건강 위험 요인은 나이·폐경·가족력·생활과 건강 상태 등 여러 맥락을 포함할 수 있어, 한 가지 항목만으로 개인 위험이나 약 필요성을 결론 내릴 수 없다.", "source_id": "S5", "claim_type": "safety-boundary", "supports_section": "예약 때는 결론 대신 평가 질문을 읽습니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "넘어짐은 '넘어졌다'가 아니라 바닥·계단·미끄러짐, 손을 짚은 방향, 어지럼·시야 변화 같은 바로 전 상황을 분리해 적는다.", "source_id": "S4", "used_in_section": "넘어짐은 한 단어가 아니라 장면으로 적습니다"},
+    {"claim": "골밀도 결과지는 T점수 같은 숫자만 옮기지 않고 검사일·검사 부위·이전 결과 유무·결과를 들은 사람과 함께 보관해 다음 질문에 쓴다.", "source_id": "S2", "used_in_section": "검사 결과는 숫자만 베끼지 말고 질문 옆에 둡니다"},
+    {"claim": "과거 골절은 손목·척추·고관절처럼 부위, 연도, 당시 넘어짐의 정도를 따로 적어 현재 손목 골절과 섞지 않는다.", "source_id": "S1", "used_in_section": "과거 골절과 복용 이력은 서로 다른 줄에 둡니다"}
+  ],
+  "h2_mapping": [
+    {"heading": "손목 골절을 들은 날의 장면부터 메모에 고정합니다", "role": "평가의 범위와 자가진단 경계", "evidence": ["S1"]},
+    {"heading": "넘어짐은 한 단어가 아니라 장면으로 적습니다", "role": "낙상 사건의 사실화", "evidence": ["S4"]},
+    {"heading": "과거 골절과 복용 이력은 서로 다른 줄에 둡니다", "role": "위험 맥락 분리", "evidence": ["S3", "S5"]},
+    {"heading": "검사 결과는 숫자만 베끼지 말고 질문 옆에 둡니다", "role": "검사 결과의 상담 전환", "evidence": ["S2"]},
+    {"heading": "예약 때는 결론 대신 평가 질문을 읽습니다", "role": "상담용 메모 완성", "evidence": ["S1", "S2", "S3", "S4", "S5"]}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "공식·전문기관 자료를 한국 개인의 진단, 골다공증 약 선택, 검사 간격 또는 운동 처방으로 확장하지 않았다. 새 골절 통증, 변형, 감각·혈류 변화 등 급한 증상은 이 기록을 작성하느라 지연하지 않고 치료 기관 또는 지역 응급의료체계에 연락하도록 한정했다."
+}

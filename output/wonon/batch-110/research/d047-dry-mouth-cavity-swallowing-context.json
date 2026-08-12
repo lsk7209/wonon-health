@@ -1,0 +1,24 @@
+{
+  "id":"d047","slug":"dry-mouth-cavity-swallowing-context","researched_at":"2026-08-12","accessed":"2026-08-12","research_runs":5,
+  "article_research_question":"입마름이 충치, 씹기와 삼킴의 불편으로 이어질 때 진단을 단정하지 않고 상담에 필요한 맥락을 어떻게 기록하는가?",
+  "reader_outcome":"건조 시간, 구강·치아 변화, 식사·삼킴 변화, 약·건강 변화로 나눈 메모를 만들어 치과 또는 진료 상담에 사용한다.",
+  "original_contribution":{"type":"four-axis-context-sheet","description":"원인을 추정하는 대신 네 축을 분리해 적는 상담용 기록","source_ids":["D47-S1","D47-S2","D47-S3","D47-S4","D47-S5"]},
+  "source_interpretation":"NIDCR의 침 역할과 충치 자료는 치과 확인이 필요한 변화를 설명하고, MedlinePlus와 NHS는 약 목록과 지속 증상을 상담으로 연결하며, NIDCR 구강암 자료는 건조감에 묶지 말아야 할 별도 변화의 안전 경계를 제공한다.",
+  "ymyl_category":"oral health / swallowing safety","fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],
+  "sources":[
+    {"id":"D47-S1","organization":"National Institute of Dental and Craniofacial Research","title":"Dry Mouth","url":"https://www.nidcr.nih.gov/health-info/dry-mouth","source_role":"official","source_date":"2024-10-01","accessed_date":"2026-08-12","used_for":"침의 기능, 지속적 입마름, 말하기·씹기·삼킴의 불편"},
+    {"id":"D47-S2","organization":"National Institute of Dental and Craniofacial Research","title":"Tooth Decay","url":"https://www.nidcr.nih.gov/health-info/tooth-decay","source_role":"official","source_date":"2025-09-01","accessed_date":"2026-08-12","used_for":"충치의 치과 확인과 통증·감염 변화"},
+    {"id":"D47-S3","organization":"U.S. National Library of Medicine","title":"Dry Mouth","url":"https://medlineplus.gov/drymouth.html","source_role":"official","source_date":"2025-06-15","accessed_date":"2026-08-12","used_for":"약 목록과 건강 이력 확인"},
+    {"id":"D47-S4","organization":"NHS","title":"Dry mouth","url":"https://www.nhs.uk/symptoms/dry-mouth/","source_role":"official","source_date":"2024-11-14","accessed_date":"2026-08-12","used_for":"지속 증상의 치과·의료 상담 경로"},
+    {"id":"D47-S5","organization":"National Institute of Dental and Craniofacial Research","title":"Oral Cancer","url":"https://www.nidcr.nih.gov/health-info/oral-cancer","source_role":"official","source_date":"2024-10-01","accessed_date":"2026-08-12","used_for":"지속 궤양·출혈·덩이의 별도 평가 경계"}
+  ],
+  "data_points":[
+    {"claim":"침은 음식물을 적시고 분해를 돕고 치아를 보호한다.","source_id":"D47-S1","supports_section":"입마름을 물 부족으로만 보지 않는 이유"},
+    {"claim":"지속되는 입마름이 생활을 방해하면 치과의사 또는 의사와 상의한다.","source_id":"D47-S4","supports_section":"밤과 낮의 건조를 따로 적어 생활 영향을 찾는 법"},
+    {"claim":"여러 약과 건강 상태가 구강건조와 관련될 수 있어 약 목록을 진료자와 검토한다.","source_id":"D47-S3","supports_section":"약 이름을 원인 추정이 아닌 확인 질문으로 바꾸기"},
+    {"claim":"충치는 초기에는 증상이 없을 수 있고 진행하면 통증과 감염으로 이어질 수 있다.","source_id":"D47-S2","supports_section":"치아 변화는 건조감과 별도의 치과 칸에 기록하기"},
+    {"claim":"지속 궤양, 출혈, 덩이 또는 설명되지 않는 체중 변화는 건조감으로만 해석하지 않는다.","source_id":"D47-S5","supports_section":"삼킴과 체중 변화가 있으면 기록을 멈추고 평가를 서두를 신호"}
+  ],
+  "article_specific_details":[{"claim":"건조 시간·구강 변화·식사와 삼킴·약과 건강 변화를 분리한다.","source_id":"D47-S1"},{"claim":"치아 민감함은 건조 정도의 척도가 아니라 치과에서 확인할 독립 항목이다.","source_id":"D47-S2"}],
+  "h2_traceability":{"입마름을 물 부족으로만 보지 않는 이유":["D47-S1"],"밤과 낮의 건조를 따로 적어 생활 영향을 찾는 법":["D47-S1","D47-S4"],"약 이름을 원인 추정이 아닌 확인 질문으로 바꾸기":["D47-S1","D47-S3"],"치아 변화는 건조감과 별도의 치과 칸에 기록하기":["D47-S2"],"삼킴과 체중 변화가 있으면 기록을 멈추고 평가를 서두를 신호":["D47-S2","D47-S5"]}
+}

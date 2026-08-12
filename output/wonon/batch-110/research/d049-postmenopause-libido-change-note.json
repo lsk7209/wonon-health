@@ -1,0 +1,209 @@
+{
+  "id": "d049",
+  "slug": "postmenopause-libido-change-note",
+  "researched_at": "2026-08-12",
+  "accessed": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "Office on Women's Health menopause symptoms relief vaginal dryness painful sex official",
+      "date": "2026-08-12",
+      "purpose": "폐경 뒤 건조·통증과 상담 필요성의 공식 범위 확인"
+    },
+    {
+      "query": "ACOG when sex is painful causes menopause vaginal dryness health professional",
+      "date": "2026-08-12",
+      "purpose": "통증 위치·빈도와 진료에서 확인하는 맥락 구분"
+    },
+    {
+      "query": "ACOG sexual health medications desire arousal menopause questions",
+      "date": "2026-08-12",
+      "purpose": "복용 변화와 성적 반응을 자가 진단 없이 기록하는 기준 확인"
+    },
+    {
+      "query": "NHS menopause symptoms vaginal dryness painful sex urinary symptoms official",
+      "date": "2026-08-12",
+      "purpose": "폐경 관련 질 건조·자극·통증 및 비뇨 증상 맥락 확인"
+    },
+    {
+      "query": "Office on Women's Health menopause sexuality libido relationship health conditions official",
+      "date": "2026-08-12",
+      "purpose": "성욕 변화에 약물·피로·관계 환경을 함께 적을 근거 확인"
+    }
+  ],
+  "article_research_question": "폐경 뒤 성욕이 달라졌다고 느끼는 사람이 하나의 원인으로 단정하지 않고, 통증·건조·관계 맥락·시간축·복용 변화를 어떻게 나누어 진료 상담에 전달할 수 있는가?",
+  "reader_outcome": "독자는 성욕의 변화, 신체 불편, 관계·생활 조건, 약·건강 변화, 즉시 알려야 할 신호를 다섯 칸으로 적어 다음 상담에서 원인 추정 대신 확인 질문을 할 수 있다.",
+  "search_intent_insight": "독자는 폐경 성욕 변화의 단일 해법보다, 불편을 부끄러움 없이 설명하고 무엇을 먼저 진료진에게 말할지 찾는다.",
+  "competitor_gap": "일반적인 호르몬 설명이나 친밀감 조언 대신, 성욕·통증·건조·관계 맥락을 같은 기록에서 섞지 않는 다섯 칸 상담 메모를 제공한다.",
+  "unique_angle": "성욕의 양을 점수로 매기지 않고 ‘원함·시도함·불편함·피함’이 언제 겹쳤는지와 약물·생활 변화를 따로 적는 5칸 상담 메모.",
+  "original_contribution": {
+    "type": "five-column-sexual-health-consultation-note",
+    "description": "성욕 변화에 대한 자기평가를 통증·건조·관계 조건·복용 및 건강 변화·안전 신호의 다섯 칸으로 풀어, 진료실에서 원인 단정 없이 사용할 수 있는 상담 메모.",
+    "source_ids": [
+      "D49-S1",
+      "D49-S2",
+      "D49-S3",
+      "D49-S4",
+      "D49-S5"
+    ]
+  },
+  "source_interpretation": "HHS 여성건강국의 폐경 증상 자료는 건조와 성교통을 ‘성욕 저하’와 동일시하지 않을 근거로, ACOG의 통증 자료는 통증 위치·빈도와 진료 평가 맥락을 기록할 근거로 쓴다. ACOG의 성 건강 자료는 일부 약물과 건강 상태가 성적 반응에 관련될 수 있으므로 임의 중단 없이 시간축을 적을 근거로, NHS는 폐경 관련 질·비뇨 증상을 별도 칸에 두는 근거로, HHS 여성건강국의 폐경과 성생활 자료는 관계·피로·상대와의 조건을 진단명이 아닌 생활 맥락으로 남길 근거로 해석한다.",
+  "ymyl_category": "menopause / sexual health",
+  "ymyl_review": "폐경 뒤 성욕 변화의 원인이나 질환을 진단하지 않으며, 호르몬·처방약·보충제의 시작·중단·용량을 지시하지 않는다. 빈번하거나 심한 성교통, 새 출혈·비정상 분비물·심한 골반 통증 등은 기록을 완성하기보다 의료진 연락을 우선하는 신호로 분리한다.",
+  "ymyl_boundaries": [
+    "성욕 변화만으로 폐경, 우울, 관계 문제, 감염 또는 특정 질환을 진단하지 않는다.",
+    "호르몬 치료, 질 치료제, 처방약, 보충제의 시작·중단·용량 변경을 권하지 않는다.",
+    "빈번하거나 심한 통증, 새 출혈·비정상 분비물, 심한 골반 통증 또는 갑작스러운 건강 변화는 상담 기록보다 의료진 연락을 우선한다.",
+    "관계·동의·안전 문제는 개인의 선택과 안전을 존중하며, 상대에게 맞추기 위한 행동 지침으로 다루지 않는다."
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "sources": [
+    {
+      "id": "D49-S1",
+      "organization": "HHS Office on Women's Health",
+      "title": "Menopause symptoms and relief",
+      "url": "https://www.womenshealth.gov/menopause/menopause-symptoms-and-relief",
+      "source_role": "official",
+      "source_date": "2025-05-30",
+      "accessed": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "get_status": 200,
+      "last_modified": "2025-05-30",
+      "used_for": "폐경 전환기에 질 건조와 성교통이 나타날 수 있으며 상담에서 불편을 분리해 말할 필요"
+    },
+    {
+      "id": "D49-S2",
+      "organization": "American College of Obstetricians and Gynecologists",
+      "title": "When Sex Is Painful",
+      "url": "https://www.acog.org/womens-health/faqs/when-sex-is-painful",
+      "source_role": "official",
+      "source_date": "2026-05-01",
+      "accessed": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "get_status": 200,
+      "last_reviewed": "2026-05-01",
+      "used_for": "통증의 위치·빈도, 신체·정서·관계 맥락과 진료 평가의 중요성"
+    },
+    {
+      "id": "D49-S3",
+      "organization": "American College of Obstetricians and Gynecologists",
+      "title": "Your Sexual Health",
+      "url": "https://www.acog.org/womens-health/faqs/your-sexual-health",
+      "source_role": "official",
+      "source_date": "2026-04-01",
+      "accessed": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "get_status": 200,
+      "last_reviewed": "2026-04-01",
+      "used_for": "성 건강 상담에서 증상 시작 시점·시도한 방법·복용약 및 건강 상태를 함께 확인하는 맥락"
+    },
+    {
+      "id": "D49-S4",
+      "organization": "NHS",
+      "title": "Symptoms of menopause and perimenopause",
+      "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/symptoms/",
+      "source_role": "official",
+      "source_date": "2026-05-27",
+      "accessed": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "get_status": 200,
+      "last_modified": "2026-05-27",
+      "used_for": "폐경·폐경이행기에 질 건조·화끈거림·자극·가려움·성교통과 비뇨 증상이 동반될 수 있는 맥락"
+    },
+    {
+      "id": "D49-S5",
+      "organization": "HHS Office on Women's Health",
+      "title": "Menopause and sexuality",
+      "url": "https://www.womenshealth.gov/menopause/menopause-and-sexuality",
+      "source_role": "official",
+      "source_date": "2025-03-12",
+      "accessed": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "get_status": 200,
+      "last_modified": "2025-03-12",
+      "used_for": "친밀감은 욕구뿐 아니라 피로·정서·관계와 일부 약물의 부작용 맥락을 함께 살펴야 한다는 배경"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "폐경 전환기에는 질 건조가 생겨 성관계가 불편하거나 아플 수 있으며, 이를 성욕 변화 그 자체와 같은 말로 묶지 않고 따로 기록할 수 있다.",
+      "source_id": "D49-S1",
+      "claim_type": "official menopause symptom guidance",
+      "source_date": "2025-05-30",
+      "supports_section": "성욕의 변화와 성관계의 불편을 한 문장에 묶지 않는다"
+    },
+    {
+      "claim": "성관계 통증은 질 입구·질 안·골반 등 느끼는 위치와 빈도, 성적 반응·신체 상태·관계 맥락에 따라 달리 평가될 수 있어 정확한 위치와 상황을 상담 전에 적을 수 있다.",
+      "source_id": "D49-S2",
+      "claim_type": "official painful-sex evaluation guidance",
+      "source_date": "2026-05-01",
+      "supports_section": "통증·건조는 위치와 장면을 먼저 적는다"
+    },
+    {
+      "claim": "성 건강 상담에서는 증상 시작 시점, 시도한 방법, 복용 중인 약과 건강 상태를 함께 물을 수 있으므로 약의 시작·중단·변경 시점은 추측 없이 기록할 수 있다.",
+      "source_id": "D49-S3",
+      "claim_type": "official sexual-health consultation guidance",
+      "source_date": "2026-04-01",
+      "supports_section": "약·건강 변화는 원인 대신 시간축으로 남긴다"
+    },
+    {
+      "claim": "폐경·폐경이행기에는 질 건조·화끈거림·자극·가려움이 나타나 성관계가 아플 수 있고, 비뇨 증상이 함께 생길 수 있어 각각을 별도 칸에 적을 수 있다.",
+      "source_id": "D49-S4",
+      "claim_type": "official menopause symptom guidance",
+      "source_date": "2026-05-27",
+      "supports_section": "배뇨 변화와 질 불편은 덧붙이지 말고 별도 줄에 쓴다"
+    },
+    {
+      "claim": "폐경 전후에는 질 건조·통증, 수면을 방해하는 증상, 정서 변화, 만성 건강 문제 같은 조건이 성생활의 관심과 편안함에 함께 영향을 줄 수 있으므로 하나의 원인으로 단정하지 않고 생활 맥락을 함께 적을 수 있다.",
+      "source_id": "D49-S5",
+      "claim_type": "official menopause and sexuality guidance",
+      "source_date": "2025-03-12",
+      "supports_section": "관계 맥락은 상대 평가가 아니라 내 조건으로 쓴다"
+    },
+    {
+      "claim": "빈번하거나 심한 성교통은 산부인과 의사 또는 의료 전문가에게 알리고, 진료에서는 병력·증상·검사 결과가 원인 확인에 함께 쓰일 수 있다.",
+      "source_id": "D49-S2",
+      "claim_type": "official care-seeking guidance",
+      "source_date": "2026-05-01",
+      "supports_section": "상담을 미루지 않을 신호와 한 장 메모의 사용법"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "‘원함·시도함·불편함·피함’이 같은 날 어떤 순서로 일어났는지를 한 줄로 적어 성욕 변화와 통증·건조를 섞지 않는 5칸 메모를 만든다.",
+      "source_id": "D49-S1",
+      "materially_used_in": "성욕의 변화와 성관계의 불편을 한 문장에 묶지 않는다; 통증·건조는 위치와 장면을 먼저 적는다"
+    },
+    {
+      "claim": "약 이름을 원인으로 표시하지 않고, 새로 시작·중단·용량 변경된 날짜와 성욕·건조·통증이 달라진 날짜를 나란히 적어 처방자에게 확인한다.",
+      "source_id": "D49-S3",
+      "materially_used_in": "약·건강 변화는 원인 대신 시간축으로 남긴다"
+    },
+    {
+      "claim": "배뇨 빈도·따가움·반복되는 요로감염처럼 보이는 변화는 ‘질 건조’ 칸에 합치지 않고, 새 증상인지와 시작 시점을 별도 줄로 쓴다.",
+      "source_id": "D49-S4",
+      "materially_used_in": "배뇨 변화와 질 불편은 덧붙이지 말고 별도 줄에 쓴다"
+    }
+  ],
+  "h2_traceability": {
+    "성욕의 변화와 성관계의 불편을 한 문장에 묶지 않는다": [
+      "D49-S1"
+    ],
+    "통증·건조는 위치와 장면을 먼저 적는다": [
+      "D49-S2"
+    ],
+    "관계 맥락은 상대 평가가 아니라 내 조건으로 쓴다": [
+      "D49-S5"
+    ],
+    "약·건강 변화는 원인 대신 시간축으로 남긴다": [
+      "D49-S3"
+    ],
+    "배뇨 변화와 질 불편은 덧붙이지 말고 별도 줄에 쓴다": [
+      "D49-S4"
+    ],
+    "상담을 미루지 않을 신호와 한 장 메모의 사용법": [
+      "D49-S2"
+    ]
+  }
+}

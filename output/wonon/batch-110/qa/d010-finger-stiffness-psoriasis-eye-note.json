@@ -1,0 +1,76 @@
+{
+  "id": "d010",
+  "slug": "finger-stiffness-psoriasis-eye-note",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 96,
+  "category_scores": {
+    "content_quality": 28,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "3e4d68fc0feb6bf8c291230ba885c55197fc36d47cdfdf73f3454e994a1a7a18",
+    "research_sha256": "3ce89040f7d273de500068f8e9a3133de018e023435cb1d85dc116aa0b0cb0c7",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4403,
+    "visible_korean_body_count": 4403,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/morning-finger-stiffness-context-log",
+      "/article/medication-reconciliation-sheet",
+      "/article/health-checkup-questions"
+    ],
+    "research_runs": 6,
+    "sources": 6,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 6,
+    "source_get_statuses": {
+      "S1": 200,
+      "S2": 200,
+      "S3": 200,
+      "S4": 200,
+      "S5": 200,
+      "S6": 200
+    },
+    "article_specific_details": 2,
+    "max_prose_7_token_jaccard": 0.0028726460261729973
+  },
+  "compared_rows": [
+    "89-article corpus",
+    "d007",
+    "d009",
+    "d011",
+    "d012"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": [
+    "Added complete research schema, third registered internal link, all-H2 data-point mappings, and exact material-detail alignment."
+  ]
+}

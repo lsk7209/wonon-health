@@ -1,0 +1,39 @@
+{
+  "id":"d037","slug":"prolonged-fatigue-after-respiratory-infection","researched_at":"2026-08-12","accessed":"2026-08-12",
+  "research_runs":[
+    {"query":"WHO post COVID-19 condition fact sheet daily activities 2025","date":"2026-08-12","purpose":"지속·새 증상과 일상 기능 영향의 공식 맥락 확인"},
+    {"query":"WHO Viet Nam post COVID-19 condition fatigue breathlessness sleep 2025","date":"2026-08-12","purpose":"피로·숨참·수면 변화와 생활 기능 기록의 맥락 확인"},
+    {"query":"PubMed 38915292 fatigue breathlessness daily activities COVID 2024","date":"2026-08-12","purpose":"활동 제한을 시간 경과와 함께 관찰한 연구 확인"},
+    {"query":"WHO Europe post COVID-19 condition fact sheet daily functioning 2022","date":"2026-08-12","purpose":"감염 후 증상과 기능 영향의 공공보건 맥락 교차 확인"},
+    {"query":"PubMed 38353947 post-COVID cognitive symptoms daily functioning 2024","date":"2026-08-12","purpose":"인지 변화와 일상 기능을 함께 기록할 배경 확인"}
+  ],
+  "article_research_question":"호흡기 감염 뒤 피로가 오래갈 때 활동·휴식·새 증상을 어떻게 분리해 기록하고 언제 재평가 질문으로 옮길 수 있는가?",
+  "reader_outcome":"독자는 원인을 단정하지 않고 활동, 그날과 다음 날 변화, 휴식 뒤 기능, 새 증상을 한 줄씩 적어 상담에 전달한다.",
+  "search_intent_insight":"독자는 운동 처방보다 회복 경과와 안전한 상담 준비 방법을 찾는다.",
+  "competitor_gap":"일반 설명 대신 활동·회복·새 증상을 같은 기록에서 분리하는 7일 회복선을 제공한다.",
+  "unique_angle":"활동 뒤 변화와 휴식 뒤 기능을 같은 시간선에 놓는 7일 상담용 기록.",
+  "original_contribution":{"type":"seven-day-recovery-line","description":"하루 한 활동, 직후와 다음 날 변화, 휴식 뒤 기능, 새 증상을 분리해 상담용 사실로 만든다.","source_ids":["D37-S1","D37-S2","D37-S3","D37-S4","D37-S5"]},
+  "source_interpretation":"WHO 자료는 감염 후 증상과 일상 기능 영향의 공식 맥락으로, 두 PubMed 연구는 기능·인지 변화의 관찰 연구로만 사용한다. 어느 자료도 진단, 운동량 처방, 약물 변경을 지시하지 않는다.",
+  "ymyl_category":"infection recovery / respiratory safety","ymyl_review":"진단·처방을 하지 않으며 새 흉통, 심한 호흡곤란, 실신, 청색증, 혼돈은 기록보다 즉시 평가가 우선임을 분리한다.","ymyl_boundaries":["피로만으로 특정 질환을 진단하지 않는다.","약물·보충제·운동량 변경을 지시하지 않는다.","급한 호흡·흉통·실신·청색증·혼돈은 기록보다 즉시 평가를 우선한다."],"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],
+  "sources":[
+    {"id":"D37-S1","organization":"World Health Organization","title":"Post COVID-19 condition (Long COVID)","url":"https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)","source_date":"2025-10-24","accessed":"2026-08-12","source_role":"official","get_status":200,"used_for":"감염 뒤 증상과 일상 기능 영향의 공식 맥락"},
+    {"id":"D37-S2","organization":"World Health Organization Viet Nam","title":"Post COVID-19 condition (long COVID)","url":"https://www.who.int/vietnam/news/fact-sheets/detail/post-covid-19-condition-%28long-covid%29","source_date":"2025-02-26","accessed":"2026-08-12","source_role":"official","get_status":200,"used_for":"피로·숨참·수면 변화와 일상 활동의 맥락"},
+    {"id":"D37-S3","organization":"Journal of Rehabilitation Medicine","title":"Exploring the impact of cognitive dysfunction, fatigue, and shortness of breath on activities of daily life after COVID-19 infection, until 1-year follow-up","url":"https://pubmed.ncbi.nlm.nih.gov/38915292/","source_date":"2024-06-25","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"피로·숨참·인지 변화와 활동 제한의 장기 관찰"},
+    {"id":"D37-S4","organization":"WHO Regional Office for Europe","title":"Post COVID-19 condition (Long COVID)","url":"https://www.who.int/europe/news-room/fact-sheets/item/post-covid-19-condition","source_date":"2022-12-07","accessed":"2026-08-12","source_role":"official","get_status":200,"used_for":"증상과 일상 기능 영향의 공공보건 맥락"},
+    {"id":"D37-S5","organization":"JAMA Network Open","title":"Cognitive Symptoms of Post-COVID-19 Condition and Daily Functioning","url":"https://pubmed.ncbi.nlm.nih.gov/38353947/","source_date":"2024-02-05","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"인지 증상과 일상 기능의 관계 관찰"}
+  ],
+  "data_points":[
+    {"claim":"감염 뒤 지속·새 증상은 일상 기능에 영향을 줄 수 있다.","source_id":"D37-S1","claim_type":"official health guidance","source_date":"2025-10-24","supports_section":"감염이 끝난 날짜와 일상이 멈춘 날짜를 따로 적는다"},
+    {"claim":"피로·인지 변화·숨참과 활동 제한은 시간 경과와 함께 관찰할 수 있다.","source_id":"D37-S3","claim_type":"primary research","source_date":"2024-06-25","supports_section":"활동 뒤 변화는 그날 밤과 다음 날을 함께 본다"},
+    {"claim":"피로와 숨참 등은 일상 기능에 영향을 줄 수 있는 감염 후 증상 맥락이다.","source_id":"D37-S4","claim_type":"official health guidance","source_date":"2022-12-07","supports_section":"휴식은 시간만 아니라 회복의 결과로 표시한다"},
+    {"claim":"감염 후 증상과 일상 기능 영향은 호흡·흉통·어지럼의 원인을 기록만으로 확정하지 않는 경계와 양립한다.","source_id":"D37-S1","claim_type":"official health guidance","source_date":"2025-10-24","supports_section":"호흡·흉통·어지럼은 피로 칸에서 분리해 표시한다"},
+    {"claim":"인지 증상과 일상 기능의 관계는 별도로 관찰할 수 있다.","source_id":"D37-S5","claim_type":"primary research","source_date":"2024-02-05","supports_section":"재평가를 앞당길 때는 ‘얼마나 힘든가’보다 변화의 방향을 말한다"},
+    {"claim":"감염 후 상태의 피로·숨참·수면 변화는 한 활동과 그 뒤의 기능 변화를 짧게 기록해 상담할 맥락이 된다.","source_id":"D37-S2","claim_type":"official health guidance","source_date":"2025-02-26","supports_section":"오늘은 한 활동과 그 뒤의 다음 날만 적는다"}
+  ],
+  "article_specific_details":[
+    {"claim":"하루 한 활동의 직후·그날 밤·다음 날 변화를 분리해 적는다.","source_id":"D37-S3","materially_used_in":"활동 뒤 변화는 그날 밤과 다음 날을 함께 본다"},
+    {"claim":"휴식 시간 대신 휴식 뒤 가능한 활동을 함께 남긴다.","source_id":"D37-S4","materially_used_in":"휴식은 시간만 아니라 회복의 결과로 표시한다"},
+    {"claim":"새 변화는 활동·집중·수면 같은 생활 장면과 함께 적는다.","source_id":"D37-S5","materially_used_in":"재평가를 앞당길 때는 ‘얼마나 힘든가’보다 변화의 방향을 말한다"}
+  ],
+  "h2_traceability":{"감염이 끝난 날짜와 일상이 멈춘 날짜를 따로 적는다":["D37-S1","D37-S2"],"활동 뒤 변화는 그날 밤과 다음 날을 함께 본다":["D37-S3"],"휴식은 시간만 아니라 회복의 결과로 표시한다":["D37-S4"],"호흡·흉통·어지럼은 피로 칸에서 분리해 표시한다":["D37-S1"],"재평가를 앞당길 때는 ‘얼마나 힘든가’보다 변화의 방향을 말한다":["D37-S5"],"오늘은 한 활동과 그 뒤의 다음 날만 적는다":["D37-S2","D37-S3"]}
+}

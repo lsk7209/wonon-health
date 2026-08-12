@@ -1,0 +1,69 @@
+{
+  "id": "d022",
+  "slug": "sweating-tremor-hypoglycemia-like-log",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "a9ea9d3c7f3e1d524e89683fe4dcb85a2233fb129a968488c9e7e6ce983e5393",
+    "research_sha256": "4dbba0ca3a7818d5ba2f0163e3abd74a816426660c147eb03500a38fcbe140cd",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 5445,
+    "visible_korean_body_count": 5445,
+    "h2_count_before_reader_references": 8,
+    "h2_count": 8,
+    "data_points": 8,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/fasting-glucose-sleepiness-log",
+      "/article/dizziness-context-safety-table",
+      "/article/new-headache-pattern-card"
+    ],
+    "research_runs": 4,
+    "sources": 4,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 4,
+    "source_get_statuses": {
+      "S1": 200,
+      "S2": 200,
+      "S3": 200,
+      "S4": 200
+    },
+    "article_specific_details": 2,
+    "max_prose_7_token_jaccard": 0.003502,
+    "closest_prose_comparator": "d021-hba1c-prediabetes-context"
+  },
+  "compared_rows": [
+    "all 108 available draft documents excluding self"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

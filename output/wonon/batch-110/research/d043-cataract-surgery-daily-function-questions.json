@@ -1,0 +1,189 @@
+{
+  "id": "d043",
+  "slug": "cataract-surgery-daily-function-questions",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "NEI cataracts surgery daily activities official",
+      "date": "2026-08-12",
+      "purpose": "백내장과 일상 기능·수술 논의 맥락 확인"
+    },
+    {
+      "query": "MedlinePlus cataract glare driving daily activities official",
+      "date": "2026-08-12",
+      "purpose": "생활 기능 질문 항목 확인"
+    },
+    {
+      "query": "NEI cataract surgery artificial lens daily activities official",
+      "date": "2026-08-12",
+      "purpose": "수술 권유와 활동 제한의 상담 맥락 확인"
+    },
+    {
+      "query": "NEI cataracts symptoms glare colors driving",
+      "date": "2026-08-12",
+      "purpose": "빛 번짐·색 변화·야간 운전 묘사 확인"
+    },
+    {
+      "query": "NEI glaucoma acute eye pain red eye vision changes official",
+      "date": "2026-08-12",
+      "purpose": "증상과 자가 결정의 경계 확인"
+    }
+  ],
+  "article_research_question": "백내장 수술 권유를 받은 사람이 시력표 숫자만으로 서두르거나 미루지 않고, 운전·계단·빛 번짐·독서에서 실제로 제한되는 일을 어떻게 수술 상담 질문으로 바꿀 수 있는가?",
+  "reader_outcome": "생활 기능의 변화를 작업·환경·안전 영향으로 기록하고, 수술 시기와 렌즈·회복에 대해 자신의 상황에 맞춰 물을 질문을 준비한다.",
+  "search_intent_insight": "독자는 백내장 정의보다 ‘아직 참을 만한데 수술을 결정해야 하나’라는 선택 순간에서, 시력표 밖의 생활 기준과 질문 목록을 원한다.",
+  "competitor_gap": "검색 결과는 수술 절차나 회복 기간을 일반적으로 설명한다. 이 글은 야간 운전, 계단 경계, 눈부심, 독서 조명이라는 작업 장면을 수술 결정의 절대 기준이 아닌 상담 재료로 변환한다.",
+  "unique_angle": "시력표·작업 장면·조명 조건·안전 영향의 4열 일상기능 질문지",
+  "original_contribution": {
+    "type": "function-questionnaire",
+    "description": "일상 작업별로 실패 장면, 환경, 도움 필요 여부, 상담 질문을 잇는 4열 질문지",
+    "source_ids": [
+      "D43-S1",
+      "D43-S2",
+      "D43-S4"
+    ]
+  },
+  "source_interpretation": "NEI와 MedlinePlus는 백내장 증상과 수술이 논의되는 일반 맥락에, NHS는 일상생활에 영향을 줄 때 치료를 논의하는 환자 안내 맥락에 사용한다. 수술 여부·시기·렌즈 종류의 정답을 만들지 않고, 기능 변화가 무엇인지 의료진에게 전달할 질문으로 바꾼다.",
+  "sources": [
+    {
+      "id": "D43-S1",
+      "organization": "National Eye Institute",
+      "title": "Cataracts",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "source_role": "official",
+      "source_date": "2025-11-26",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "백내장 증상과 수술이 시력 향상에 사용될 수 있는 맥락"
+    },
+    {
+      "id": "D43-S2",
+      "organization": "National Library of Medicine MedlinePlus",
+      "title": "Cataract",
+      "url": "https://medlineplus.gov/cataract.html",
+      "source_role": "official",
+      "source_date": "2025-11-25",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "흐림·눈부심·야간 시력 등 생활 장면의 증상 묘사"
+    },
+    {
+      "id": "D43-S3",
+      "organization": "National Eye Institute",
+      "title": "Cataract Surgery",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery",
+      "source_role": "official",
+      "source_date": "2024-12-05",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "수술과 인공수정체 상담의 일반 맥락"
+    },
+    {
+      "id": "D43-S4",
+      "organization": "National Health Service",
+      "title": "Cataracts in adults",
+      "url": "https://www.nhs.uk/conditions/cataracts/",
+      "source_role": "official",
+      "source_date": "2025-03-12",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "일상생활에 영향이 있을 때 치료를 논의하는 환자 경로"
+    },
+    {
+      "id": "D43-S5",
+      "organization": "National Eye Institute",
+      "title": "Glaucoma",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "source_role": "official",
+      "source_date": "2025-10-30",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "급격한 통증·충혈·시야 변화에서 백내장으로 단정하지 않는 안전 경계"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "백내장은 흐린 시야, 색이 바래 보임, 빛 주변의 후광·눈부심, 야간 시력 저하를 만들 수 있다.",
+      "source_id": "D43-S1",
+      "supports_section": "시력표 한 줄보다 ‘어느 장면이 막히는지’를 적는다"
+    },
+    {
+      "claim": "백내장 수술은 혼탁해진 수정체를 인공수정체로 바꾸는 수술이며, 개인에게 맞는 선택은 안과 상담이 필요하다.",
+      "source_id": "D43-S3",
+      "supports_section": "운전·계단·조명은 각각 따로 적는다"
+    },
+    {
+      "claim": "백내장 치료는 시력이 일상생활에 영향을 줄 때 논의될 수 있다.",
+      "source_id": "D43-S4",
+      "supports_section": "일상기능 질문지는 수술 시기를 스스로 정하는 표가 아니다"
+    },
+    {
+      "claim": "눈부심과 야간 운전의 어려움은 백내장과 함께 이야기될 수 있는 증상이다.",
+      "source_id": "D43-S2",
+      "supports_section": "수술 권유는 ‘예·아니오’가 아니라 질문의 시작이다"
+    },
+    {
+      "claim": "나이가 들며 생기는 시력 변화에는 백내장 외 다른 눈 질환도 있어 검사가 필요하다.",
+      "source_id": "D43-S5",
+      "supports_section": "양쪽 눈과 회복 환경을 함께 물어본다"
+    },
+    {
+      "claim": "갑작스럽거나 심한 시야 변화와 통증·충혈은 백내장으로 단정하지 않고 신속한 안과 평가가 필요한 별도 신호로 다룬다.",
+      "source_id": "D43-S5",
+      "claim_type": "clinical-context",
+      "source_date": "2025-10-30",
+      "supports_section": "새롭고 급격한 변화는 백내장 탓으로 미루지 않는다"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "‘밤에 운전이 어렵다’ 대신 맞은편 전조등, 비 오는 날, 표지판 거리, 동승자 도움 여부를 나눠 한 번의 장면으로 적는다.",
+      "source_id": "D43-S2",
+      "materially_used_in": "운전·계단·조명은 각각 따로 적는다"
+    },
+    {
+      "claim": "계단에서는 발을 헛디딘 사실보다 낮/실내/어두운 복도, 난간 사용, 경계가 흐려진 방향을 기록해 안전 영향을 전달한다.",
+      "source_id": "D43-S1",
+      "materially_used_in": "시력표 한 줄보다 ‘어느 장면이 막히는지’를 적는다"
+    },
+    {
+      "claim": "수술 상담에서는 생활 목표, 양쪽 눈의 차이, 운전 필요, 렌즈·회복·도움 필요 여부를 질문으로 준비하되 수술 시기 결정은 안과 평가에 맡긴다.",
+      "source_id": "D43-S3",
+      "materially_used_in": "수술 권유는 ‘예·아니오’가 아니라 질문의 시작이다"
+    }
+  ],
+  "h2_traceability": {
+    "시력표 한 줄보다 ‘어느 장면이 막히는지’를 적는다": [
+      "D43-S1",
+      "D43-S2"
+    ],
+    "운전·계단·조명은 각각 따로 적는다": [
+      "D43-S1",
+      "D43-S2"
+    ],
+    "일상기능 질문지는 수술 시기를 스스로 정하는 표가 아니다": [
+      "D43-S4"
+    ],
+    "수술 권유는 ‘예·아니오’가 아니라 질문의 시작이다": [
+      "D43-S3"
+    ],
+    "양쪽 눈과 회복 환경을 함께 물어본다": [
+      "D43-S1",
+      "D43-S3"
+    ],
+    "새롭고 급격한 변화는 백내장 탓으로 미루지 않는다": [
+      "D43-S5"
+    ]
+  },
+  "ymyl_category": "eye surgery decision support",
+  "ymyl_review": "수술 권유의 해석과 질문 준비만 다루며 수술 적응증·시기·렌즈 선택·운전 허용을 결정하지 않는다.",
+  "ymyl_boundaries": [
+    "백내장 진단이나 수술 필요성을 판정하지 않는다.",
+    "수술 방식·렌즈·회복 일정의 선택을 지시하지 않는다.",
+    "급격한 시야 변화, 통증, 심한 충혈은 백내장으로 단정하지 않고 즉시 평가를 우선한다."
+  ],
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

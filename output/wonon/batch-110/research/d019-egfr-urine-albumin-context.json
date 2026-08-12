@@ -1,0 +1,137 @@
+{
+  "article_id": "d019",
+  "slug": "egfr-urine-albumin-context",
+  "title": "eGFR과 소변 알부민 결과를 함께 정리하는 진료 준비 카드",
+  "researched_at": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "article_research_question": "eGFR 또는 소변 알부민 결과를 받은 사람이 수치만으로 결론을 내리지 않고, 비교에 필요한 결과지·검사 조건·증상을 어떻게 진료에 가져갈 수 있는가?",
+  "reader_outcome": "독자는 eGFR, UACR, 이전 결과, 혈압·복용약·최근 몸 상태를 분리해 기록하고 다음 진료에서 확인할 질문을 준비한다.",
+  "unique_angle": "수치 해석표 대신 두 검사와 검사 당시 조건을 한 장의 진료 준비 카드에 나누어 적는 방법",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Chronic Kidney Disease Tests & Diagnosis",
+      "publisher": "NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis",
+      "source_date": "2024-10-01",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "used_for": "혈액검사와 소변검사가 신장 상태 확인에 함께 쓰인다는 맥락"
+    },
+    {
+      "id": "S2",
+      "title": "Estimated Glomerular Filtration Rate (eGFR)",
+      "publisher": "National Kidney Foundation",
+      "url": "https://www.kidney.org/kidney-topics/estimated-glomerular-filtration-rate-egfr",
+      "source_date": "2025-01-15",
+      "accessed_date": "2026-08-12",
+      "source_role": "primary",
+      "used_for": "eGFR가 혈액 크레아티닌 등을 바탕으로 산출되는 추정치라는 설명"
+    },
+    {
+      "id": "S3",
+      "title": "Albuminuria - Proteinuria",
+      "publisher": "National Kidney Foundation",
+      "url": "https://www.kidney.org/kidney-topics/albuminuria-proteinuria",
+      "source_date": "2025-03-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "primary",
+      "used_for": "소변 알부민 결과와 반복 확인의 맥락"
+    },
+    {
+      "id": "S4",
+      "title": "Microalbumin Creatinine Ratio",
+      "publisher": "MedlinePlus",
+      "url": "https://medlineplus.gov/lab-tests/microalbumin-creatinine-ratio/",
+      "source_date": "2024-03-27",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "used_for": "소변 알부민-크레아티닌 비율 검사와 결과지 확인 항목"
+    },
+    {
+      "id": "S5",
+      "title": "Kidney Diseases",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneydiseases.html",
+      "source_date": "2025-01-01",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "used_for": "고혈압과 당뇨를 신장 건강 상담에서 함께 확인할 수 있는 공적 맥락",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    },
+    {
+      "id": "S6",
+      "title": "Chronic kidney disease",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/conditions/kidney-disease/",
+      "source_date": "2024-12-20",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "used_for": "악화되는 증상은 결과 해석을 기다리지 말고 진료 연결이 우선이라는 안전 문구"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "eGFR는 혈액검사 정보를 이용해 산출하는 추정치이므로 결과지의 날짜와 이전 결과를 함께 보아야 한다.",
+      "source_id": "S2",
+      "claim_type": "context",
+      "supports_section": "eGFR와 UACR은 같은 숫자가 아니라 다른 질문에 답합니다",
+      "source_date": "2025-01-15"
+    },
+    {
+      "claim": "신장 상태 평가는 혈액검사와 소변검사를 함께 사용할 수 있다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "supports_section": "한 번의 결과와 이어지는 추세를 분리해 적습니다",
+      "source_date": "2024-10-01"
+    },
+    {
+      "claim": "소변 알부민 관련 결과는 반복 확인과 개인 상황을 고려해 해석한다.",
+      "source_id": "S3",
+      "claim_type": "context",
+      "supports_section": "검사 당시 조건은 원인 추정이 아니라 진료 정보입니다",
+      "source_date": "2025-03-12"
+    },
+    {
+      "claim": "알부민-크레아티닌 비율 검사 결과지에는 검사명·단위·채취 관련 정보를 확인할 근거가 있다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "supports_section": "혈압·당뇨·복용약은 별도 줄에 남깁니다",
+      "source_date": "2024-03-27"
+    },
+    {
+      "claim": "고혈압과 당뇨는 신장 건강 논의에서 함께 확인할 개인 병력이다.",
+      "source_id": "S5",
+      "claim_type": "context",
+      "supports_section": "진료실에서 카드로 바꿀 질문을 세 가지로 좁힙니다",
+      "source_date": "2025-01-01"
+    },
+    {
+      "claim": "부종, 숨참, 소변 변화처럼 새롭거나 악화되는 증상은 결과지 정리를 끝내기보다 의료진에게 현재 상태를 알리는 일이 우선이다.",
+      "source_id": "S6",
+      "claim_type": "safety",
+      "supports_section": "카드를 멈추고 먼저 연락할 변화도 따로 표시합니다",
+      "source_date": "2024-12-20"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "왼쪽에는 eGFR, 오른쪽에는 소변 알부민 또는 UACR, 아래에는 검사 조건과 복용약을 적는 카드 구조를 제안한다.",
+      "source_id": "S1",
+      "used_in_section": "진료실에서 카드로 바꿀 질문을 세 가지로 좁힙니다"
+    },
+    {
+      "claim": "결과지 사진이나 검사기관명을 가져와 단위와 검사명을 그대로 확인하도록 안내한다.",
+      "source_id": "S4",
+      "used_in_section": "한 번의 결과와 이어지는 추세를 분리해 적습니다"
+    }
+  ],
+  "source_conflicts": [],
+  "unresolved_claims": [],
+  "fact_traceability_pass": true,
+  "source_interpretation": " 모든 교체 출처는 이 환경에서 브라우저형 리디렉션 GET으로 200을 재확인했으며, 개인 진단·자가치료·복용 변경 지시가 아닌 상담 준비와 안전 경계에만 사용한다."
+}

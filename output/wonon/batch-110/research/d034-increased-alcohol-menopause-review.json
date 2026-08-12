@@ -1,0 +1,18 @@
+{
+  "article_id":"d034","slug":"increased-alcohol-menopause-review","ymyl_category":"health","ymyl_review":"pass",
+  "sources":[
+    {"id":"S1","url":"https://womenshealth.gov/menopause/menopause-basics","source_date":"2025-01-15","source_role":"official","used_for":"폐경 기본 정보와 열감·수면 변화의 공적 맥락"},
+    {"id":"S2","url":"https://pubmed.ncbi.nlm.nih.gov/38205895/","source_date":"2024-01-10","source_role":"primary","used_for":"폐경기와 알코올 관련 연구 맥락"},
+    {"id":"S3","url":"https://www.acog.org/womens-health/faqs/the-menopause-years","source_date":"2025-02-28","source_role":"primary","used_for":"폐경기 증상과 의료 상담의 맥락"},
+    {"id":"S4","url":"https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/women-and-alcohol","source_date":"2025-02-20","source_role":"official","used_for":"여성과 음주 관련 공적 건강 정보"},
+    {"id":"S5","url":"https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-medication-interactions-potentially-dangerous-mixes","source_date":"2025-05-14","source_role":"official","used_for":"알코올과 약물 병용의 안전 맥락"},
+    {"id":"S6","url":"https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/hangovers?uid=144dc97ac33es16","source_date":"2024-12-03","source_role":"official","used_for":"음주 다음 날 기능 변화를 기록하는 맥락"}
+  ],
+  "data_points":[
+    {"claim":"음주 양과 이유는 판단 없이 사실로 기록한다.","source_id":"S4","source_date":"2025-02-20","supports_section":"음주 이유와 표준잔 기록은 판단보다 사실을 먼저 남긴다"},
+    {"claim":"열감과 수면 변화는 시점과 함께 의료진에게 논의할 수 있다.","source_id":"S1","source_date":"2025-01-15","supports_section":"열감·수면·각성의 순서는 같은 밤에도 따로 적는다"},
+    {"claim":"다음 날 기능 변화는 개인 원인으로 단정하지 않고 관찰한다.","source_id":"S6","source_date":"2024-12-03","supports_section":"다음 날 기분·기능 영향은 점수 대신 멈춘 장면으로 쓴다"},
+    {"claim":"알코올과 일부 약물의 병용은 위험할 수 있어 상담에서 확인한다.","source_id":"S5","source_date":"2025-05-14","supports_section":"수면제·진통제 병용 점검은 이름과 시각을 분리해 묻는다"},
+    {"claim":"위기나 안전 우려는 기록보다 즉시 도움 연결이 우선이다.","source_id":"S3","source_date":"2025-02-28","supports_section":"금단 의심·자해 위험·지원 연결은 회고표 밖에 둔다"}
+  ]
+}

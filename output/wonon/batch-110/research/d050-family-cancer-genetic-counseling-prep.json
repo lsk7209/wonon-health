@@ -1,0 +1,43 @@
+{
+  "id": "d050",
+  "slug": "family-cancer-genetic-counseling-prep",
+  "researched_at": "2026-08-12",
+  "accessed": "2026-08-12",
+  "article_research_question": "가족의 암 이야기를 개인 위험 계산이나 검사 주문으로 바꾸지 않고 유전상담 준비용 가족력 카드로 어떻게 정리하는가?",
+  "reader_outcome": "친족 관계, 암 종류, 진단 나이·시기, 확인 출처와 질문을 분리해 적는다.",
+  "original_contribution": {
+    "type": "four-column-family-history-card",
+    "description": "추정과 확인된 사실을 구분하는 네 칸 가족력 카드",
+    "source_ids": ["D50-S1", "D50-S2", "D50-S3", "D50-S4", "D50-S5"]
+  },
+  "source_interpretation": "NCI는 유전성 암과 종양 검사·유전 검사의 구분에, USPSTF는 가족력에서 확인할 항목에, ACOG는 난소암 가족력의 상담 맥락에, NHGRI는 상담의 범위와 의사결정 지원에 사용한다.",
+  "ymyl_category": "health genetics cancer",
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "sources": [
+    {"id":"D50-S1","organization":"National Cancer Institute","title":"The Genetics of Cancer","url":"https://www.cancer.gov/about-cancer/causes-prevention/genetics","source_role":"official","source_date":"2026-08-12","accessed_date":"2026-08-12","used_for":"가족력과 유전성 암의 경계"},
+    {"id":"D50-S2","organization":"National Cancer Institute","title":"Genetic Testing Fact Sheet","url":"https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet","source_role":"official","source_date":"2026-08-12","accessed_date":"2026-08-12","used_for":"유전 검사와 종양 검사의 구분"},
+    {"id":"D50-S3","organization":"U.S. Preventive Services Task Force","title":"BRCA-Related Cancer","url":"https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing","source_role":"official","source_date":"2019-08-20","accessed_date":"2026-08-12","used_for":"가까운 혈연과 암 종류·진단 나이 기록"},
+    {"id":"D50-S4","organization":"National Human Genome Research Institute","title":"Genetic Counseling","url":"https://www.genome.gov/genetics-glossary/Genetic-Counseling","source_role":"official","source_date":"2026-07-28","accessed_date":"2026-08-12","used_for":"상담의 정보 제공·의사결정 지원 범위"},
+    {"id":"D50-S5","organization":"American College of Obstetricians and Gynecologists","title":"Ovarian Cancer","url":"https://www.acog.org/womens-health/faqs/ovarian-cancer","source_role":"official","source_date":"2026-08-12","accessed_date":"2026-08-12","used_for":"난소암 가족력의 상담 맥락"}
+  ],
+  "data_points": [
+    {"claim":"암 가족력이 있다고 모두 유전성 암 증후군을 뜻하는 것은 아니다.","source_id":"D50-S1","supports_section":"가족력은 위험 판정표가 아니라 확인할 사실의 목록"},
+    {"claim":"유전 검사와 종양 검사는 목적과 해석이 같지 않다.","source_id":"D50-S2","supports_section":"암 종류와 진단 나이를 추정 없이 적기"},
+    {"claim":"가족력 평가는 가까운 혈연, 암 종류, 진단 나이와 여러 친족의 병력을 살핀다.","source_id":"D50-S3","supports_section":"유전상담에서 쓰기 좋은 네 칸 가족력 카드"},
+    {"claim":"난소암을 포함한 가족력은 개인 위험을 스스로 정하는 근거가 아니라 진료에서 가족의 암 종류와 관계를 함께 확인할 상담 맥락이다.","source_id":"D50-S5","supports_section":"일반 검진 안내와 개인 위험 판단을 분리하기"},
+    {"claim":"유전상담은 유전적 상태와 관련된 정보와 의사결정 지원을 제공하는 과정이다.","source_id":"D50-S4","supports_section":"불안을 낮추는 다음 단계는 검사 주문이 아니라 상담 질문"}
+  ],
+  "article_specific_details": [
+    {"claim":"친족 관계·암 종류·진단 나이·확인 출처를 따로 적는다.","source_id":"D50-S3"},
+    {"claim":"누구의 어떤 검사가 무엇을 뜻하는지 확인 전에는 결과를 같은 의미로 합치지 않는다.","source_id":"D50-S2"}
+  ],
+  "h2_traceability": {
+    "가족력은 위험 판정표가 아니라 확인할 사실의 목록": ["D50-S1", "D50-S4"],
+    "암 종류와 진단 나이를 추정 없이 적기": ["D50-S2", "D50-S3"],
+    "유전상담에서 쓰기 좋은 네 칸 가족력 카드": ["D50-S3", "D50-S4"],
+    "일반 검진 안내와 개인 위험 판단을 분리하기": ["D50-S1", "D50-S2"],
+    "불안을 낮추는 다음 단계는 검사 주문이 아니라 상담 질문": ["D50-S4"]
+  }
+}

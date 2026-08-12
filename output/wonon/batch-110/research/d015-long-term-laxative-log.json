@@ -1,0 +1,43 @@
+{
+  "article_id":"d015","slug":"long-term-laxative-log","title":"변비약을 오래 쓰고 있을 때: 제품·횟수·새 증상을 적는 복용 로그","accessed":"2026-08-12","ymyl_category":"health-digestive-medication","ymyl_review":"pass-no-diagnosis-dose-change-or-treatment-direction",
+  "research_runs":[
+    {"query":"NIDDK constipation symptoms causes official","date":"2026-08-12","purpose":"변비의 기간·동반 변화를 사실 기록으로 분리할 근거 확인"},
+    {"query":"MedlinePlus bisacodyl medication information official","date":"2026-08-12","purpose":"제품명과 실제 사용 기록을 상담에 가져갈 맥락 확인"},
+    {"query":"NHS constipation when seek medical advice","date":"2026-08-12","purpose":"기록을 미루지 않는 연락 경계 확인"},
+    {"query":"NIDDK constipation definition facts official","date":"2026-08-12","purpose":"배변 양상이 단일 횟수로 환원되지 않음을 확인"}
+  ],
+  "article_research_question":"변비약을 오래 사용하며 패턴이 달라졌을 때 약을 스스로 바꾸지 않고 제품·실제 복용 간격·새 증상·배경을 어떻게 분리해 상담에 가져갈 수 있는가?",
+  "reader_outcome":"시작 시점, 제품 사진, 실제 사용 간격, 배변·동반 변화, 다른 약·검사·생활 맥락을 담은 다섯 칸 로그를 완성한다.",
+  "competitor_gap":"일반적인 변비 자가관리 글은 많지만 장기 복용 중인 사람이 제품과 실제 사용 간격, 새 증상 및 시간 경과를 진료용으로 분리하는 안내는 부족하다.",
+  "information_gain":"약의 적정성이나 원인을 판단하지 않고, 상담에서 검토 가능한 ‘제품-간격-변화-배경’ 로그를 제시한다.",
+  "unique_angle":"제품명과 실제 복용 간격을 분리하고 새 증상을 날짜에 연결하는 복용 로그",
+  "original_contribution":{"type":"medication-timeline-log","description":"변비약 장기 복용의 제품·실제 사용 간격·새 증상·배경을 다섯 칸으로 나누는 상담 기록","source_ids":["S1","S2","S3","S4","S5"]},
+  "source_interpretation":"NIDDK 자료는 증상의 기간과 동반 변화를 기록할 이유로만 사용했다. MedlinePlus 약물 정보는 제품과 우려를 의료진·약사에게 전달할 맥락으로 한정했다. NHS 자료는 개인에게 긴급도를 판정하지 않고 걱정되는 변화의 연락 경계로 사용했다.",
+  "sources":[
+    {"id":"S1","title":"Constipation","organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/constipation","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"변비 증상과 기간을 상담용 사실로 기록하는 배경"},
+    {"id":"S2","title":"Symptoms & Causes of Constipation","organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"배변 변화와 동반 변화를 같은 날짜에 분리해 적는 근거"},
+    {"id":"S3","title":"Bisacodyl","organization":"MedlinePlus","url":"https://medlineplus.gov/druginfo/meds/a601027.html","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"제품명·제형·우려를 의료진 또는 약사와 확인할 맥락"},
+    {"id":"S4","title":"Constipation","organization":"NHS","url":"https://www.nhs.uk/conditions/constipation/","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"걱정되는 동반 변화가 있을 때 기록보다 연락을 우선할 안전 경계"},
+    {"id":"S5","title":"Definition & Facts for Constipation","organization":"NIDDK","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/definition-facts","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"배변 문제를 한 가지 횟수로 단정하지 않는 설명"}
+  ],
+  "data_points":[
+    {"claim":"변비는 배변 횟수 하나가 아니라 기간과 여러 배변 양상·동반 증상을 함께 말할 수 있으므로 시작 시점과 최근 변화 시점을 나눠 기록한다.","source_id":"S1","claim_type":"clinical-context","supports_section":"처음 복용한 날과 최근 변화가 시작된 날을 따로 적습니다"},
+    {"claim":"제품명·제형과 실제 사용 간격은 별도 사실이며, 약물 관련 우려는 의료진 또는 약사에게 전달할 정보가 된다.","source_id":"S3","claim_type":"medication-context","supports_section":"제품 이름과 실제 복용 간격은 같은 칸에 쓰지 않습니다"},
+    {"claim":"배변 양상과 복통·구토·출혈 의심 변화·식욕 또는 체중 변화는 날짜와 함께 분리해 전달할 동반 변화다.","source_id":"S2","claim_type":"clinical-context","supports_section":"배변 변화와 함께 나타난 신호는 날짜 옆에 남깁니다"},
+      {"claim":"변비의 정의와 경험은 단일 횟수만으로 충분히 설명되지 않아 실제 변화의 맥락을 남길 필요가 있다.","source_id":"S5","claim_type":"clinical-context","supports_section":"다른 약·검사·생활 변화는 원인 대신 배경으로 적습니다"},
+      {"claim":"상담에서는 완하제를 임의로 바꾸기보다 시작일·실제 복용 간격·배변 변화·동반 신호의 시간 순서를 먼저 전달한다.","source_id":"S1","claim_type":"consultation-context","supports_section":"상담에서는 바꾸고 싶은 약보다 기록의 순서를 먼저 보여 줍니다"}
+  ],
+  "article_specific_details":[
+    {"claim":"시작 시점과 최근 변화가 시작된 시점을 두 줄로 나누고, 날짜가 불확실하면 계절·검진·새 약 시작 같은 시간 단서를 기록한다.","source_id":"S1","used_in_section":"처음 복용한 날과 최근 변화가 시작된 날을 따로 적습니다"},
+    {"claim":"제품 사진 또는 제품명·제형과 실제 사용한 요일·시간·횟수를 서로 다른 칸에 적어 설명서의 지시와 실제 행동을 혼동하지 않는다.","source_id":"S3","used_in_section":"제품 이름과 실제 복용 간격은 같은 칸에 쓰지 않습니다"},
+    {"claim":"배변 변화와 새 복통·구토·출혈 의심 변화 등은 원인으로 단정하지 않고 같은 날짜의 별도 칸에 남긴다.","source_id":"S2","used_in_section":"배변 변화와 함께 나타난 신호는 날짜 옆에 남깁니다"}
+  ],
+  "h2_mapping":[
+    {"heading":"처음 복용한 날과 최근 변화가 시작된 날을 따로 적습니다","role":"시간축 고정","evidence":["S1"]},
+    {"heading":"제품 이름과 실제 복용 간격은 같은 칸에 쓰지 않습니다","role":"제품과 행동 분리","evidence":["S3"]},
+    {"heading":"배변 변화와 함께 나타난 신호는 날짜 옆에 남깁니다","role":"동반 변화와 안전 경계","evidence":["S2","S4"]},
+    {"heading":"다른 약·검사·생활 변화는 원인 대신 배경으로 적습니다","role":"상담 맥락 보존","evidence":["S5"]},
+    {"heading":"상담에서는 바꾸고 싶은 약보다 기록의 순서를 먼저 보여 줍니다","role":"안전한 상담 질문","evidence":["S1","S2","S3","S4","S5"]}
+  ],
+  "fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],"conflict_note":"출처를 개인의 변비 원인 판정, 변비약의 중단·시작·용량 조절 또는 치료 지시로 확장하지 않았다. 심하거나 새로 악화된 변화는 기록보다 현재 의료 안내와 연락 경로를 우선하도록 제한했다."
+}

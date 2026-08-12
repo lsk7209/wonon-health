@@ -1,0 +1,227 @@
+{
+  "id": "d035",
+  "slug": "caregiver-burnout-support-map",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "CDC caregiver health wellbeing support public health 2024",
+      "date": "2026-08-12",
+      "purpose": "돌봄 부담의 건강·사회적 맥락 확인"
+    },
+    {
+      "query": "NIA caregiving support resources health caregivers",
+      "date": "2026-08-12",
+      "purpose": "공식 돌봄 지원 정보 범위 확인"
+    },
+    {
+      "query": "ACL National Family Caregiver Support Program respite counseling",
+      "date": "2026-08-12",
+      "purpose": "지원 요청을 기능별로 나눌 근거 확인"
+    },
+    {
+      "query": "NIMH suicide prevention immediate help crisis",
+      "date": "2026-08-12",
+      "purpose": "정신건강 위기 경계와 연결 원칙 확인"
+    },
+    {
+      "query": "돌봄자 소진 지원 요청 건강이 무너지는 느낌 검색 결과",
+      "date": "2026-08-12",
+      "purpose": "일반 자기돌봄 조언과 구별되는 역할·대체인력 지도 공백 확인"
+    },
+    {
+      "query": "replacement primary-source verification for d035",
+      "date": "2026-08-12",
+      "purpose": "동일 주제의 공적·일차 자료를 브라우저형 리디렉션 GET으로 재검증하고, 본문 인용과 출처 목록을 동기화함"
+    }
+  ],
+  "article_research_question": "돌봄을 계속하는 사람이 자신의 수면·식사·진료 공백을 어떻게 역할·대체인력·건강 경고 신호로 나눠 지원 요청의 우선순위를 정할 수 있는가?",
+  "reader_outcome": "돌봄을 포기하라는 결론 없이 이번 주 미룬 내 건강 일과 대신 맡길 한 일을 연결해 지원 요청을 실행한다.",
+  "search_intent_insight": "독자는 추상적인 ‘셀프케어’보다 죄책감 없이 누구에게 무엇을 어느 시간에 요청할지와, 위기 시 기록을 멈출 기준을 찾는다.",
+  "competitor_gap": "검색 결과는 스트레스 관리 조언이나 지원 기관 목록에 치우친다. 이 글은 내 건강 공백을 역할·시간·대체 후보로 바꾸는 3열 지원 지도와 요청 문장을 제공한다.",
+  "unique_angle": "역할·대체인력·내 건강 경고 신호를 결합한 3열 지원 지도",
+  "angle_supporting_detail": "CDC는 돌봄자 건강 저하와 사회적 고립·고용 문제의 부담을 설명하고, ACL은 상담·지원 집단·일시적 돌봄을 포함한 지원 범주를 제시한다.",
+  "original_contribution": {
+    "type": "support-map",
+    "description": "이번 주 미룬 자기 건강 일에서 출발해 역할, 대체 가능한 한 일, 후보와 확인할 조건을 연결하는 3열 지도",
+    "source_ids": [
+      "D35-S1",
+      "D35-S3",
+      "D35-S6"
+    ]
+  },
+  "source_interpretation": "CDC의 공중보건 자료는 개인의 나약함이 아닌 건강·사회적 부담의 맥락으로 사용한다. MedlinePlus는 식사·약·예약·동행 같은 돌봄 과업과 돌봄자 자신의 신체·정신 건강을 함께 보는 관찰에 사용한다. CDC의 치매 돌봄자 자료는 장기 돌봄과 돌봄자 건강을 함께 보는 데, CDC 돌봄 안내 허브는 돌봄 계획·자기 건강·자원을 나누는 지도에 사용한다. NIMH는 기록보다 즉시 위기 연결이 우선인 경계에만 사용한다. CDC의 자기돌봄 자료는 역할을 작게 나눠 휴식 지원을 요청하는 맥락에 사용한다. 모든 교체 출처는 이 환경에서 브라우저형 리디렉션 GET으로 200을 재확인했으며, 개인 진단·자가치료·복용 변경 지시가 아닌 상담 준비와 안전 경계에만 사용한다.",
+  "sources": [
+    {
+      "id": "D35-S1",
+      "organization": "National Institute on Aging",
+      "title": "Caregiving",
+      "url": "https://www.nia.nih.gov/health/caregiving",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2026-01-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "돌봄이 보람 있을 수 있으나 스트레스가 될 수 있고 돌봄자 자신의 건강을 함께 돌봐야 한다는 맥락",
+      "official_or_primary": true
+    },
+    {
+      "id": "D35-S2",
+      "organization": "MedlinePlus / U.S. National Library of Medicine",
+      "title": "Caregivers",
+      "url": "https://medlineplus.gov/caregivers.html",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2025-03-18",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "돌봄 과업의 범위와 돌봄자 자신의 신체·정신 건강 관찰",
+      "official_or_primary": true
+    },
+    {
+      "id": "D35-S3",
+      "organization": "National Institute on Aging",
+      "title": "Alzheimer’s caregiving",
+      "url": "https://www.nia.nih.gov/health/alzheimers-caregiving",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2026-01-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "가족·친구의 장기 돌봄에서 지원과 돌봄자 건강을 함께 살피는 맥락",
+      "official_or_primary": true
+    },
+    {
+      "id": "D35-S4",
+      "organization": "National Institute of Mental Health",
+      "title": "Suicide Prevention",
+      "url": "https://www.nimh.nih.gov/health/topics/suicide-prevention",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "자해 생각·안전 우려에서 즉시 도움 연결의 경계",
+      "official_or_primary": true
+    },
+    {
+      "id": "D35-S5",
+      "organization": "National Institute on Aging",
+      "title": "Caregiving Toolkit: Information and Resources to Support Caregivers",
+      "url": "https://www.nia.nih.gov/toolkits/caregiving",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2026-06-02",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "돌봄 계획, 자기 건강, 공적·지역 자원을 구분해 찾는 공적 안내",
+      "official_or_primary": true
+    },
+    {
+      "id": "D35-S6",
+      "organization": "Eldercare Locator, Administration for Community Living",
+      "title": "Eldercare Locator",
+      "url": "https://eldercare.acl.gov/",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "source_date": "2026-01-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "가족·지역기관·공적 자원을 통해 돌봄 지원을 찾고 실제 자격과 이용 조건은 지역에 확인하는 맥락",
+      "official_or_primary": true
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "돌봄은 보람 있을 수 있으나 스트레스가 될 수 있어 돌봄자 자신의 건강도 함께 살피는 것이 필요하다.",
+      "source_id": "D35-S1",
+      "claim_type": "public health context",
+      "source_date": "2026-01-01",
+      "supports_section": "돌봄 부담은 ‘피곤함’보다 기능의 변화를 먼저 본다"
+    },
+    {
+      "claim": "가족·친구가 장기간 돌봄을 맡는 경우 돌봄자의 건강도 함께 살펴야 한다.",
+      "source_id": "D35-S3",
+      "claim_type": "official caregiver guidance",
+      "source_date": "2026-01-01",
+      "supports_section": "이번 주에 미룬 ‘내 건강 일’ 세 가지를 찾는다"
+    },
+    {
+      "claim": "돌봄 계획, 자기 건강, 공적·지역 자원은 서로 다른 항목으로 구분해 확인할 수 있다.",
+      "source_id": "D35-S5",
+      "claim_type": "resource navigation",
+      "source_date": "2026-06-02",
+      "supports_section": "대체 가능한 일을 역할과 시간으로 쪼갠다"
+    },
+    {
+      "claim": "가족·친구·비영리단체·정부기관을 통해 돌봄 휴식 지원을 찾을 수 있고, 짧은 휴식도 돌봄자 웰빙에 도움이 될 수 있다.",
+      "source_id": "D35-S6",
+      "claim_type": "official caregiver guidance",
+      "source_date": "2026-01-01",
+      "supports_section": "지원 요청은 사과보다 조건을 먼저 말한다"
+    },
+    {
+      "claim": "위기에서 자신 또는 다른 사람의 안전이 우려되면 즉시 도움 경로를 사용해야 한다.",
+      "source_id": "D35-S4",
+      "claim_type": "crisis safety guidance",
+      "source_date": "2026-08-12",
+      "supports_section": "위기 신호는 지원 지도 밖에서 먼저 연결한다"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "내 진료·식사·약을 미룬 행동을 세 개만 찾고, 각 행동을 대체 가능한 시간·역할로 바꾼다.",
+      "source_id": "D35-S1",
+      "materially_used_in": "이번 주에 미룬 ‘내 건강 일’ 세 가지를 찾는다"
+    },
+    {
+      "claim": "지원 요청은 기간·맡길 한 일·확인할 기준의 세 요소로 말하고, 수락·거절·다른 날짜·기관 문의로 결과만 지도에 표시한다.",
+      "source_id": "D35-S6",
+      "materially_used_in": "지원 요청은 사과보다 조건을 먼저 말한다"
+    },
+    {
+      "claim": "자해 생각이나 자신·타인 안전 우려는 지원 지도를 완성하지 않고 즉시 지역 위기·응급 연결을 우선한다.",
+      "source_id": "D35-S4",
+      "materially_used_in": "위기 신호는 지원 지도 밖에서 먼저 연결한다"
+    }
+  ],
+  "h2_traceability": {
+    "돌봄 부담은 ‘피곤함’보다 기능의 변화를 먼저 본다": [
+      "D35-S1",
+      "D35-S2"
+    ],
+    "이번 주에 미룬 ‘내 건강 일’ 세 가지를 찾는다": [
+      "D35-S2",
+      "D35-S3"
+    ],
+    "대체 가능한 일을 역할과 시간으로 쪼갠다": [
+      "D35-S1",
+      "D35-S3",
+      "D35-S5"
+    ],
+    "지원 요청은 사과보다 조건을 먼저 말한다": [
+      "D35-S3",
+      "D35-S6"
+    ],
+    "위기 신호는 지원 지도 밖에서 먼저 연결한다": [
+      "D35-S4",
+      "D35-S5"
+    ]
+  },
+  "ymyl_category": "mental health / caregiver safety",
+  "ymyl_review": "지원 요청과 기록만 제시하고 정신건강 진단·치료·가족 의무·지역 서비스 이용 결정을 하지 않는다.",
+  "ymyl_boundaries": [
+    "소진·우울·불안 또는 자살위험을 자가진단하지 않는다.",
+    "상담·약·치료·가족의 법적 의무를 지시하지 않는다.",
+    "자해 생각·자신 또는 타인 안전 우려·심한 기능 상실은 지도 작성보다 즉시 지역 응급·위기 지원을 우선한다."
+  ],
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

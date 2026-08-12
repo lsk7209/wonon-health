@@ -1,0 +1,71 @@
+{
+  "id": "d043",
+  "slug": "cataract-surgery-daily-function-questions",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "9b1a858a9af8990d3db98c139a02cf0fde0740a0f46cbb7441882474ce0856b4",
+    "research_sha256": "6261f23ef695d388c6cf2631e720f10953cbb6cdcf4275aae0127d61bf84348c",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4451,
+    "visible_korean_body_count": 4451,
+    "h2_count_before_reader_references": 6,
+    "h2_count": 6,
+    "data_points": 6,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/health-checkup-questions",
+      "/article/national-screening-checklist-2026",
+      "/article/bone-density-result-next-questions"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D43-S1": 200,
+      "D43-S2": 200,
+      "D43-S3": 200,
+      "D43-S4": 200,
+      "D43-S5": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.000935454,
+    "closest_prose_comparator": "d042-blurred-vision-diabetes-hypertension.mdx"
+  },
+  "compared_rows": [
+    "83 prior-corpus MDX documents",
+    "44 other available batch-110 drafts"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

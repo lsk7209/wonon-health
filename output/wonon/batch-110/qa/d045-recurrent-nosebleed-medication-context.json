@@ -1,0 +1,66 @@
+{
+  "id": "d045",
+  "slug": "recurrent-nosebleed-medication-context",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "e98ede0b6babd863e00ad51f5cccdb5de5de856c2a5cd2172d1bd9aa45098a85",
+    "research_sha256": "d6c73349db6ffc14a846e2268579d1479d77599edf1d92d37a554e185748eb58",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4441,
+    "visible_korean_body_count": 4441,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/rhinitis-exposure-sleep-log",
+      "/article/blood-pressure-medicine-dizziness-table",
+      "/article/health-checkup-questions"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D45-S1": 200,
+      "D45-S2": 200,
+      "D45-S3": 200,
+      "D45-S4": 200,
+      "D45-S5": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.001276732,
+    "closest_prose_comparator": "d046-gum-bleeding-anticoagulant-dental-coordination.mdx"
+  },
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

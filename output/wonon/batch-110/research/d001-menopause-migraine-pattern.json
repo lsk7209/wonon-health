@@ -1,0 +1,41 @@
+{
+  "article_id": "d001",
+  "slug": "menopause-migraine-pattern",
+  "title": "갱년기 편두통 패턴이 달라질 때: 두통일과 생리·열감 변화를 나누는 기록",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "진단, 약 선택, 용량 조절, 치료 변경을 제시하지 않고 증상 기록과 안전한 진료 연락 경계만 다룬다.",
+  "volatile": true,
+  "research_runs": 5,
+  "article_research_question": "갱년기 이행기에 달라진 두통을 자가진단 없이 월경·열감·수면·복용 맥락으로 어떻게 기록해 상담에서 전달할 수 있는가?",
+  "reader_outcome": "독자는 두통이 있었던 날과 없었던 날을 비교하고, 새롭거나 우려되는 변화가 있으면 기록보다 의료진 연락을 우선하는 한 장의 메모를 만든다.",
+  "search_intent_insight": "일반적인 편두통 설명 대신 갱년기 전환기의 시간 변화와 상담 준비를 묻는 의도다.",
+  "competitor_gap": "증상 목록은 많지만 월경·열감·수면·두통을 같은 시간축에서 사실과 해석으로 나누는 상담 도구가 부족하다.",
+  "information_gain": "두통일과 무두통일을 함께 남기고 동반 변화를 분리하여 단일 원인 추정을 피하는 기록 순서를 제공한다.",
+  "unique_angle": "월경·열감·두통 변화를 시간축과 안전 경계로 분리하는 진료 준비 기록",
+  "source_interpretation": "WHO는 갱년기 전환의 동반 변화 맥락, PubMed 연구들은 시간축 관찰의 배경, MedlinePlus와 NHS는 우려되는 두통 변화에서 진료 연락을 우선하는 안전 경계로 사용한다.",
+  "angle_supporting_detail": "기록은 치료 결정표가 아니라 의료진이 다시 확인할 사실의 순서를 정하는 도구다.",
+  "original_contribution": "두통 날짜뿐 아니라 두통이 없었던 날의 열감과 수면도 기록하여 섣부른 인과 추정을 줄인다.",
+  "sources": [
+    {"id":"S1","title":"Menopause","publisher":"World Health Organization","url":"https://www.who.int/news-room/fact-sheets/detail/menopause","source_date":"2024-10-16","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"갱년기 전환에서 월경 변화와 열감·수면 문제가 함께 나타날 수 있는 공식 맥락"},
+    {"id":"S2","title":"Migraine","publisher":"MedlinePlus, U.S. National Library of Medicine","url":"https://medlineplus.gov/migraine.html","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"새롭거나 우려되는 두통 변화에서 기록보다 의료진 상담을 우선하는 안전 경계"},
+    {"id":"S3","title":"Migraine in menopausal women: a systematic review","publisher":"Maturitas / PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/26316824/","source_date":"2015-08-20","accessed_date":"2026-08-12","source_role":"primary","source_type":"primary","used_for":"폐경 이행기와 편두통 양상 변화의 연구 배경"},
+    {"id":"S4","title":"Sex hormones in women with and without migraine: Evidence of migraine-specific hormone profiles","publisher":"Neurology / PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/27251885/","source_date":"2016-07-05","accessed_date":"2026-08-12","source_role":"primary","source_type":"primary","used_for":"두통 날짜와 주기 변화를 같은 시간축에 놓아 관찰하는 연구 맥락"},
+    {"id":"S5","title":"Migraine","publisher":"NHS","url":"https://www.nhs.uk/conditions/migraine/","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"개인별 증상 차이와 의료진 상담이 필요한 두통 변화의 안전한 맥락"}
+  ],
+  "data_points": [
+    {"claim":"2016년 연구는 편두통이 있는 여성과 없는 여성의 호르몬 프로필을 비교한 연구 맥락을 제공한다.","source_id":"S4","claim_type":"research-context","source_date":"2016-07-05","supports_section":"갱년기 편두통 패턴이 시작된 장면과 날짜"},
+    {"claim":"2015년 문헌고찰은 폐경 이행기에 편두통 양상이 달라질 수 있는 연구 결과를 정리한다.","source_id":"S3","claim_type":"research-context","source_date":"2015-08-20","supports_section":"월경·열감·두통 변화를 구분하는 관찰 기준"},
+    {"claim":"WHO는 갱년기 전환에서 월경 양상 변화와 열감·야간 발한·수면 문제가 함께 나타날 수 있다고 설명한다.","source_id":"S1","claim_type":"official-guidance","source_date":"2024-10-16","supports_section":"갱년기 편두통 패턴과 함께 확인할 동반 변화"},
+    {"claim":"NHS는 편두통의 증상과 치료가 개인마다 다를 수 있어 의료진과 상의하도록 안내한다.","source_id":"S5","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"갱년기 편두통 패턴 기록에 남길 복용·검사·생활 맥락"},
+    {"claim":"MedlinePlus는 두통 증상과 의료 상담이 필요한 상황에 관한 정보를 제공한다.","source_id":"S2","claim_type":"safety-guidance","source_date":"2026-08-12","supports_section":"갱년기 편두통 패턴 상담에서 바로 전달할 질문"}
+  ],
+  "article_specific_details": [
+    {"claim":"두통이 있었던 날과 없었던 날에 월경·열감·수면 변화를 같은 시간축으로 따로 적어 단일 원인 추정을 피한다.","source_id":"S1","used_in_section":"갱년기 편두통 패턴과 함께 확인할 동반 변화"},
+    {"claim":"새롭거나 이전과 확연히 다른 두통에 우려되는 신경학적 변화가 있으면 기록을 완성하지 말고 현재 상태와 시작 시각을 먼저 의료진에게 알린다.","source_id":"S2","used_in_section":"갱년기 편두통 패턴 상담에서 바로 전달할 질문"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": ["개별 두통의 원인, 진단, 치료 선택, 약물 변경은 이 자료로 판단하지 않는다."],
+  "source_conflicts": [],
+  "conflict_note": "개별 적용은 개인 병력과 현재 증상을 포함한 의료진 평가가 필요하다."
+}

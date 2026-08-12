@@ -1,0 +1,60 @@
+{
+  "id": "d025",
+  "slug": "b12-numbness-balance-context",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {"query": "MedlinePlus Vitamin B12 numbness loss of balance review date", "date": "2026-08-12", "purpose": "저림·균형 변화의 B12 증상 맥락과 검토일 확인"},
+    {"query": "MedlinePlus Vitamin B12 deficiency anemia absorption causes review date", "date": "2026-08-12", "purpose": "섭취와 흡수 맥락을 분리할 근거 확인"},
+    {"query": "MedlinePlus peripheral neuropathy causes review date", "date": "2026-08-12", "purpose": "저림의 단일 원인 단정을 피할 근거 확인"},
+    {"query": "NHS vitamin B12 folate deficiency anaemia symptoms proton pump inhibitors review date", "date": "2026-08-12", "purpose": "기능 변화와 복용 질문의 맥락 확인"},
+    {"query": "MedlinePlus stroke sudden one-sided weakness speech vision symptoms updated", "date": "2026-08-12", "purpose": "기록보다 긴급 평가가 앞서는 신호 확인"}
+  ],
+  "article_research_question": "B12와 저림·균형 변화 이야기를 들었을 때 위치·보행·식사·복용을 어떻게 상담용 메모로 나눌 수 있는가?",
+  "reader_outcome": "갑작스러운 신경학적 변화를 놓치지 않으면서, 복용과 생활 맥락을 정확히 전달할 한 장의 메모를 만든다.",
+  "original_contribution": {
+    "type": "body-map context note",
+    "description": "저림 위치, 보행 변화, 식사·소화, 복용, 긴급 신호를 서로 다른 칸으로 분리하는 상담 메모",
+    "source_ids": ["D25-S1", "D25-S2", "D25-S3", "D25-S4", "D25-S5", "D25-S6"]
+  },
+  "source_interpretation": "각 출처는 가능한 증상·상담 맥락 또는 긴급 신호의 경계에만 사용하며, B12 부족이나 신경 질환의 자가진단·약 변경 근거로 사용하지 않는다.",
+  "sources": [
+    {"id": "D25-S1", "organization": "MedlinePlus Medical Encyclopedia (NLM)", "title": "Vitamin B12", "url": "https://medlineplus.gov/ency/article/002403.htm", "source_role": "official", "source_date": "2025-01-21", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "B12 부족에서 저림·무감각·균형 상실이 가능한 증상 맥락임을 확인", "official_or_primary": true},
+    {"id": "D25-S2", "organization": "MedlinePlus Medical Encyclopedia (NLM)", "title": "Vitamin B12 deficiency anemia", "url": "https://medlineplus.gov/ency/article/000574.htm", "source_role": "official", "source_date": "2026-01-29", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "B12 부족에서 섭취와 흡수 맥락을 함께 확인할 근거", "official_or_primary": true},
+    {"id": "D25-S3", "organization": "MedlinePlus Medical Encyclopedia (NLM)", "title": "Peripheral neuropathy", "url": "https://medlineplus.gov/ency/article/000593.htm", "source_role": "official", "source_date": "2024-06-13", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "저림을 단일 원인으로 단정하지 않는 경계", "official_or_primary": true},
+    {"id": "D25-S4", "organization": "NHS", "title": "Vitamin B12 or folate deficiency anaemia", "url": "https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/", "source_role": "official", "source_date": "2023-02-20", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "저림·균형·근력 변화와 일부 약물의 흡수 영향 맥락", "official_or_primary": true},
+    {"id": "D25-S5", "organization": "MedlinePlus Medical Encyclopedia (NLM)", "title": "Stroke", "url": "https://medlineplus.gov/ency/article/000726.htm", "source_role": "official", "source_date": "2025-04-16", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "갑작스러운 편측 약화·언어·시야 변화의 긴급 신호", "official_or_primary": true},
+    {"id": "D25-S6", "organization": "MedlinePlus (NLM)", "title": "Stroke", "url": "https://medlineplus.gov/stroke.html", "source_role": "official", "source_date": "2025-07-28", "accessed_date": "2026-08-12", "http_status": 200, "redirect_followed": true, "used_for": "뇌졸중이 즉시 치료가 필요한 응급 상황이라는 안전 경계", "official_or_primary": true}
+  ],
+  "data_points": [
+    {"claim": "B12 부족은 저림·무감각·균형 상실을 포함할 수 있지만 증상만으로 원인을 확정하지 않는다.", "source_id": "D25-S1", "supports_section": "저림 위치를 몸 그림에 표시"},
+    {"claim": "저림과 보행·균형 변화는 의료진에게 전달할 실제 기능 변화로 기록할 수 있다.", "source_id": "D25-S4", "supports_section": "균형·보행 기능 변화 기록"},
+    {"claim": "B12 부족의 맥락에서는 식사 섭취뿐 아니라 흡수와 관련된 사실도 상담에서 확인할 수 있다.", "source_id": "D25-S2", "supports_section": "채식·위장수술·소화 문제 확인"},
+    {"claim": "일부 약물은 비타민 흡수에 영향을 줄 수 있으므로 복용약의 이름과 시점을 의료진과 검토한다.", "source_id": "D25-S4", "supports_section": "메트포르민·산억제제 등 복용 질문"},
+    {"claim": "갑작스러운 편측 약화, 언어·시야 변화 등은 기록보다 긴급 평가가 우선이다.", "source_id": "D25-S5", "supports_section": "갑작스런 편측 약화 등 응급 신호 구분"}
+  ],
+  "article_specific_details": [
+    {"claim": "저림은 좌우·손발·손가락·발가락·시작 시점을 몸 그림에 분리해 표시한다.", "source_id": "D25-S3", "materially_used_in": "저림 위치를 몸 그림에 표시"},
+    {"claim": "보행 변화는 거리나 속도 대신 계단·방향 전환·벽 짚기처럼 실제 기능으로 적는다.", "source_id": "D25-S4", "materially_used_in": "균형·보행 기능 변화 기록"},
+    {"claim": "식사 제한과 저림의 시작은 한 문장으로 인과를 적지 않고 각각의 시점으로 나눈다.", "source_id": "D25-S2", "materially_used_in": "채식·위장수술·소화 문제 확인"}
+  ],
+  "h2_traceability": {
+    "저림 위치를 몸 그림에 표시": ["D25-S1", "D25-S3"],
+    "균형·보행 기능 변화 기록": ["D25-S4"],
+    "채식·위장수술·소화 문제 확인": ["D25-S2"],
+    "메트포르민·산억제제 등 복용 질문": ["D25-S4"],
+    "갑작스런 편측 약화 등 응급 신호 구분": ["D25-S5", "D25-S6"]
+  },
+  "ymyl_category": "health / neurologic symptoms",
+  "ymyl_boundaries": [
+    "B12 부족, 말초신경 질환, 뇌졸중을 자가진단하지 않는다.",
+    "약·보충제를 시작·중단하거나 용량을 조절하라고 지시하지 않는다.",
+    "갑작스러운 편측 약화, 말·시야·얼굴 변화 등은 기록보다 긴급 평가가 우선이다."
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "replaced_blocked_sources": [
+    {"blocked_url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/", "observed_http_status": 403, "replacement_source_ids": ["D25-S1", "D25-S2"]},
+    {"blocked_url": "https://www.nice.org.uk/guidance/ng239", "observed_http_status": 403, "replacement_source_ids": ["D25-S4"]}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "article_id": "d002",
+  "slug": "hrt-personal-risk-questions",
+  "title": "호르몬치료 시작 전: 개인 병력과 가족력을 묻는 위험 질문지",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "호르몬치료의 적합 여부, 처방, 시작·중단, 용량 조절을 지시하지 않고 상담 전에 사실을 구분하는 질문지만 제공한다.",
+  "volatile": true,
+  "research_runs": 5,
+  "article_research_question": "호르몬치료 상담 전에 개인 병력·가족력·복용품·현재 증상을 어떻게 구분해 의료진에게 전달할 수 있는가?",
+  "reader_outcome": "독자는 자가판정표 대신 확인한 사실, 문서로 확인할 정보, 의료진에게 물을 질문을 나눈 한 장의 상담 메모를 만든다.",
+  "search_intent_insight": "호르몬치료의 위험을 스스로 판정하려는 불안보다 개인 상황을 안전하게 전달할 질문의 순서가 필요한 의도다.",
+  "competitor_gap": "치료의 장단점 설명은 많지만 개인 병력·가족력·복용품을 서로 섞지 않는 상담 준비 도구가 부족하다.",
+  "information_gain": "자궁 수술 이력, 가족력, 복용품, 현재 증상을 독립된 줄에 두어 확인 순서를 만들고 치료 결론을 미룬다.",
+  "unique_angle": "개인 병력·가족력·복용품을 자가 위험판정이 아닌 진료 질문으로 바꾸는 기록",
+  "source_interpretation": "여성건강국과 NICHD는 개인 건강 상태와 위험을 상담에서 검토하는 공식 맥락, NCI는 자궁 유무를 개인 병력에 분리할 이유, MedlinePlus와 NHS는 의료진 상담의 안전 경계로 사용한다.",
+  "angle_supporting_detail": "확실하지 않은 병력은 추정하지 않고 결과지·수술기록·가족 확인이 필요한 항목으로 남긴다.",
+  "original_contribution": "개인 병력, 가족력, 복용품, 현재 증상을 서로 다른 칸으로 나누어 상담의 질문 순서를 만든다.",
+  "sources": [
+    {"id":"S1","title":"Other Menopause FAQs","publisher":"Eunice Kennedy Shriver National Institute of Child Health and Human Development","url":"https://www.nichd.nih.gov/health/topics/menopause/more_information/other-faqs","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"개인 건강 상태와 심혈관 위험을 호르몬치료 상담에서 검토해야 하는 공식 맥락"},
+    {"id":"S2","title":"Menopausal Hormone Therapy and Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/mht-fact-sheet","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"자궁 유무와 전신 호르몬치료 논의가 연결되는 이유"},
+    {"id":"S3","title":"Hormone Therapy for Menopause","publisher":"MedlinePlus, U.S. National Library of Medicine","url":"https://medlineplus.gov/hormonetherapyformenopause.html","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"호르몬치료의 기본 정보와 의료진 상담이 필요한 안전 경계"},
+    {"id":"S4","title":"Hormone replacement therapy (HRT)","publisher":"NHS","url":"https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/","source_date":"2026-08-12","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"치료 형태와 개인별 이점·위험을 의료진과 상의해야 하는 맥락"},
+    {"id":"S5","title":"Menopause treatment","publisher":"Office on Women's Health, U.S. Department of Health and Human Services","url":"https://womenshealth.gov/menopause/menopause-treatment","source_date":"2025-03-11","accessed_date":"2026-08-12","source_role":"official","source_type":"official","used_for":"개인 병력·가족력·위험 요인을 호르몬치료 상담 질문으로 전환하는 공식 근거"}
+  ],
+  "data_points": [
+    {"claim":"NCI는 자궁 유무가 전신 호르몬치료 논의와 연결될 수 있음을 설명한다.","source_id":"S2","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"호르몬치료 전 위험 질문이 시작된 장면과 날짜"},
+    {"claim":"NICHD는 호르몬치료를 개인 건강 상태와 심혈관 위험을 고려해 논의해야 한다는 맥락을 제공한다.","source_id":"S1","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"개인 병력·가족력·복용품을 구분하는 관찰 기준"},
+    {"claim":"MedlinePlus는 폐경 호르몬치료의 기본 정보와 의료진 상담의 필요성을 안내한다.","source_id":"S3","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"호르몬치료 전 위험 질문과 함께 확인할 동반 변화"},
+    {"claim":"NHS는 호르몬대체요법의 이점과 위험을 개인 상황에 맞게 의료진과 상의하도록 안내한다.","source_id":"S4","claim_type":"official-guidance","source_date":"2026-08-12","supports_section":"호르몬치료 전 위험 질문 기록에 남길 복용·검사·생활 맥락"},
+    {"claim":"여성건강국은 개인 건강 상태와 병력을 고려해 호르몬치료의 이점과 위험을 의료진과 논의하도록 안내한다.","source_id":"S5","claim_type":"official-guidance","source_date":"2025-03-11","supports_section":"호르몬치료 전 위험 질문 상담에서 바로 전달할 질문"}
+  ],
+  "article_specific_details": [
+    {"claim":"자궁절제 수술 여부와 시기는 가족력과 섞지 않고 별도 개인 병력 칸에 적어 상담 첫 질문으로 가져간다.","source_id":"S2","used_in_section":"호르몬치료 전 위험 질문이 시작된 장면과 날짜"},
+    {"claim":"개인 병력·가족력·복용품은 적합성을 판정하는 체크표가 아니라 의료진이 추가로 확인할 사실과 질문을 분리하는 칸으로 사용한다.","source_id":"S5","used_in_section":"개인 병력·가족력·복용품을 구분하는 관찰 기준"},
+    {"claim":"새롭거나 심한 증상이 현재 진행 중이면 질문지를 완성하는 것보다 현재 상태와 시작 시각을 의료진에게 알리는 일을 우선한다.","source_id":"S3","used_in_section":"호르몬치료 전 위험 질문 상담에서 바로 전달할 질문"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": ["개별 치료 적합성, 처방, 약물 변경, 검사의 필요성은 이 자료로 판단하지 않는다."],
+  "source_conflicts": [],
+  "conflict_note": "개별 위험과 치료 선택은 개인 병력·현재 증상·검사 결과를 포함한 의료진 평가가 필요하다."
+}

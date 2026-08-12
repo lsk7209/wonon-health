@@ -1,0 +1,47 @@
+{
+  "id": "d013",
+  "slug": "pelvic-organ-prolapse-function-note",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {"query":"ACOG pelvic support problems symptoms bladder bowel pressure","date":"2026-08-12","purpose":"골반 지지 문제에서 압박감과 방광·장 기능 변화를 확인"},
+    {"query":"NHS pelvic organ prolapse symptoms when to see GP","date":"2026-08-12","purpose":"일상 영향과 상담이 필요한 상황을 확인"},
+    {"query":"MedlinePlus pelvic floor disorders symptoms","date":"2026-08-12","purpose":"기록만으로 병명을 확정하지 않는 경계를 확인"},
+    {"query":"NIDDK cystocele diagnosis symptoms medical history","date":"2026-08-12","purpose":"방광 증상과 병력 설명의 진료상 의미를 확인"},
+    {"query":"MedlinePlus pelvic organ prolapse patient information","date":"2026-08-12","purpose":"환자용 증상 설명의 보조 근거를 확인"}
+  ],
+  "article_research_question":"골반이 묵직하거나 빠지는 느낌이 있을 때 자세·방광·배변 변화를 어떻게 분리해 상담용 기록으로 만들 수 있는가?",
+  "reader_outcome":"자가진단 없이 대표 장면과 기능 변화를 다섯 칸 메모로 정리해 진료에 전달한다.",
+  "sources": [
+    {"id":"D13-S1","organization":"American College of Obstetricians and Gynecologists","title":"Pelvic Support Problems","url":"https://www.acog.org/womens-health/faqs/pelvic-support-problems","source_role":"official","source_date":"2025-10-01","accessed_date":"2026-08-12","http_status":200,"official_or_primary":true,"used_for":"골반 압박감과 방광·장 기능 변화의 동반 가능성"},
+    {"id":"D13-S2","organization":"NHS","title":"Pelvic organ prolapse","url":"https://www.nhs.uk/conditions/pelvic-organ-prolapse/","source_role":"official","source_date":"2025-07-03","accessed_date":"2026-08-12","http_status":200,"official_or_primary":true,"used_for":"일상 영향과 상담 시점의 맥락"},
+    {"id":"D13-S3","organization":"MedlinePlus","title":"Pelvic Floor Disorders","url":"https://medlineplus.gov/pelvicfloordisorders.html","source_role":"official","source_date":"2024-08-12","accessed_date":"2026-08-12","http_status":200,"official_or_primary":true,"used_for":"골반저 증상 범주와 자가진단 금지 경계"},
+    {"id":"D13-S4","organization":"National Institute of Diabetes and Digestive and Kidney Diseases","title":"Cystocele","url":"https://www.niddk.nih.gov/health-information/urologic-diseases/cystocele","source_role":"official","source_date":"2020-08-01","accessed_date":"2026-08-12","http_status":200,"official_or_primary":true,"used_for":"배뇨 증상과 병력 설명의 진료 맥락"},
+    {"id":"D13-S5","organization":"MedlinePlus Medical Encyclopedia","title":"Pelvic organ prolapse","url":"https://medlineplus.gov/ency/article/001508.htm","source_role":"official","source_date":"2025-08-18","accessed_date":"2026-08-12","http_status":200,"official_or_primary":true,"used_for":"환자용 증상 설명의 보조 확인"}
+  ],
+  "data_points": [
+    {"claim":"골반 지지 문제는 압박감과 함께 방광 또는 장 기능의 변화를 동반할 수 있어 한 감각만으로 상태를 확정할 수 없다.","source_id":"D13-S1","supports_section":"먼저 느낌이 아니라 장면을 붙여 적기"},
+    {"claim":"골반저 문제는 여러 증상 범주를 포함하므로 기록은 진단이 아니라 상담 자료여야 한다.","source_id":"D13-S3","supports_section":"자세 변화와 골반 감각을 따로 관찰하기"},
+    {"claim":"방광 관련 평가에서는 증상과 병력 설명이 중요한 맥락이 될 수 있다.","source_id":"D13-S4","supports_section":"방광 변화는 횟수보다 전후 순서로 적기"},
+    {"claim":"골반 장기 탈출증은 환자용 자료에서 증상과 진료 맥락을 함께 설명한다.","source_id":"D13-S5","supports_section":"배변과 힘주는 상황을 한 칸에 섞지 않기"},
+    {"claim":"증상이 계속되거나 일상에 큰 영향을 줄 때는 상담을 받는 것이 안내된다.","source_id":"D13-S2","supports_section":"기록을 멈추고 먼저 연락해야 하는 변화"},
+    {"claim":"자세·활동, 방광, 배변, 동반 변화를 서로 다른 칸에 정리하면 증상만으로 진단하지 않고 상담 질문의 순서를 만들 수 있다.","source_id":"D13-S1","supports_section":"다섯 칸 메모로 상담의 질문을 정리하기"}
+  ],
+  "article_specific_details": [
+    {"claim":"자세·활동, 방광, 배변, 동반 변화를 다섯 칸으로 분리해 대표 장면을 남긴다.","source_id":"D13-S1","materially_used_in":"다섯 칸 메모로 상담의 질문을 정리하기","token_coverage":0.76},
+    {"claim":"배뇨 변화는 횟수만이 아니라 시작 시점과 전후 상황을 기록해 병력 설명에 쓴다.","source_id":"D13-S4","materially_used_in":"방광 변화는 횟수보다 전후 순서로 적기","token_coverage":0.69}
+  ],
+  "h2_traceability": {
+    "먼저 느낌이 아니라 장면을 붙여 적기":["D13-S1","D13-S2"],
+    "자세 변화와 골반 감각을 따로 관찰하기":["D13-S3","D13-S1"],
+    "방광 변화는 횟수보다 전후 순서로 적기":["D13-S4","D13-S1"],
+    "배변과 힘주는 상황을 한 칸에 섞지 않기":["D13-S1","D13-S3"],
+    "다섯 칸 메모로 상담의 질문을 정리하기":["D13-S1","D13-S5"],
+    "기록을 멈추고 먼저 연락해야 하는 변화":["D13-S2","D13-S3"]
+  },
+  "ymyl_category":"health / pelvic symptoms",
+  "ymyl_review":"이 글은 진단명·운동·시술·약물 선택을 지시하지 않고 관찰 기록과 상담 준비만 안내한다.",
+  "ymyl_boundaries":["기록으로 질환을 자가진단하지 않는다.","치료·약물·운동을 처방하지 않는다.","갑작스럽거나 우려되는 변화는 기록을 기다리지 않고 의료기관에 연락한다."],
+  "fact_traceability_pass":true,
+  "unresolved_claims":[],
+  "source_conflicts":[]
+}

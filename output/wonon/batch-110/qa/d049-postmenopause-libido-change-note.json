@@ -1,0 +1,66 @@
+{
+  "id": "d049",
+  "slug": "postmenopause-libido-change-note",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "81e97c1f0d524cf1e9b416f3d2d0e2875a79dc1ef8653647d0b2eeccd0e10041",
+    "research_sha256": "9cbccc3118ff8e0267c8613d247e841c85a79fa8a34f5f4a4327d37387a4244c",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4446,
+    "visible_korean_body_count": 4446,
+    "h2_count_before_reader_references": 6,
+    "h2_count": 6,
+    "data_points": 6,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/medication-reconciliation-sheet",
+      "/article/health-checkup-questions",
+      "/article/menopause-when-to-see-a-doctor"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D49-S1": 200,
+      "D49-S2": 200,
+      "D49-S3": 200,
+      "D49-S4": 200,
+      "D49-S5": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.000667557,
+    "closest_prose_comparator": "a018-sexual-pain-visit-note.mdx"
+  },
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

@@ -1,5 +1,20 @@
 # ACCEPTANCE
 
+## Active Acceptance — Batch-110
+
+| Criterion | Status | Evidence |
+|---|---|---|
+| Exactly 50 contracts are distinct from all 89 current articles and each other | pending | contract validator and independent critic |
+| Five-article multi-cluster dry run passes at >=95 before scaling | pending | dry-run packets and independent audit |
+| All 50 drafts have >=3,500 visible Korean characters and 5–8 credible sources | pending | corpus validator |
+| All 50 QA packets are done at >=95 with every hard gate strict true | pending | manifest/QA audit |
+| No material title, intent, H2, intro, CTA, or prose-template duplication | pending | full-corpus originality report |
+| Unified catalog contains exactly 139 unique articles | pending | compiled catalog audit |
+| Fifty new slots begin 2026-08-26 05:00 KST at exact five-hour gaps | pending | schedule equivalence/frozen-time tests |
+| Future routes remain private and absent from articles/search/topics/sitemap/RSS | pending | runtime boundary smoke |
+| Production deployment and GSC sitemap continuity are verified | pending | Vercel/live/API evidence |
+| Handoff and rollback evidence are current | pending | docs/HANDOFF.md and EVIDENCE.md |
+
 ## Active Acceptance — 2026-08-12
 
 | Criterion | Status | Evidence |

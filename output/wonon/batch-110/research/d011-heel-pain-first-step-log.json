@@ -1,0 +1,241 @@
+{
+  "article_id": "d011",
+  "slug": "heel-pain-first-step-log",
+  "title": "발뒤꿈치가 아침 첫걸음에 아플 때: 첫 통증과 하루 반응을 나누는 표",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health / musculoskeletal and diabetic-foot safety",
+  "ymyl_review": "records symptom timing and safety signals; does not diagnose, prescribe footwear, medication, exercise, or treatment",
+  "article_research_question": "아침 발뒤꿈치 통증에서 첫걸음, 걷기·서기·휴식 뒤 반응, 신발 접촉 조건, 피부·감각 안전 신호를 어떻게 분리해 진료에 전달할 수 있는가?",
+  "reader_outcome": "첫 세 걸음과 하루 반응을 구별하고, 신발 조건과 피부·감각 변화를 별도 칸에 적은 발뒤꿈치 통증 상담 기록을 만든다.",
+  "original_contribution": {
+    "type": "day-curve heel-pain log",
+    "description": "아침 첫 세 걸음, 활동 중, 휴식 뒤 재시작, 신발 접촉, 피부·감각 안전 신호를 하나의 일지에서 분리하는 기록",
+    "source_ids": [
+      "D11-S1",
+      "D11-S2",
+      "D11-S3",
+      "D11-S5"
+    ]
+  },
+  "source_interpretation": "AAOS 자료는 첫걸음과 휴식 뒤 통증의 시간 패턴을 기록하는 배경 근거로만 사용한다. NHS 자료는 지속·악화 시 상담 맥락을, NIDDK는 당뇨가 있는 사람의 발 피부·상처·감각 안전 경계를 제공한다. MedlinePlus와 발·발목외과학회 자료는 병명 단정 없이 공공·전문기관 정보를 교차 확인한다.",
+  "research_runs": [
+    {
+      "query": "AAOS plantar fasciitis first steps after rest",
+      "purpose": "첫걸음 패턴의 전문기관 근거"
+    },
+    {
+      "query": "NHS heel pain when to seek medical advice",
+      "purpose": "지속·악화 통증 상담 맥락"
+    },
+    {
+      "query": "NIDDK diabetes foot problems prevent skin sensation wounds",
+      "purpose": "당뇨 발 피부·감각 안전 경계"
+    },
+    {
+      "query": "AAOS heel pain causes official",
+      "purpose": "단일 원인 단정 회피의 교차 근거"
+    },
+    {
+      "query": "MedlinePlus plantar fasciitis patient instructions",
+      "purpose": "공공 보건 교차 확인"
+    }
+  ],
+  "sources": [
+    {
+      "id": "D11-S1",
+      "publisher": "American Academy of Orthopaedic Surgeons",
+      "title": "Plantar Fasciitis and Bone Spurs",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/plantar-fasciitis-and-bone-spurs/",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "휴식 뒤 첫걸음 통증 양상",
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D11-S2",
+      "publisher": "NHS",
+      "title": "Heel pain",
+      "url": "https://www.nhs.uk/conditions/heel-pain/",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "지속·악화 통증 상담 맥락",
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D11-S3",
+      "publisher": "NIDDK",
+      "title": "Preventing Diabetes Problems: Foot Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/foot-problems",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "피부·상처·감각 변화의 안전 경계",
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D11-S4",
+      "publisher": "American Academy of Orthopaedic Surgeons",
+      "title": "Heel Pain",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/heel-pain/",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "발뒤꿈치 통증의 단일 원인 단정 회피",
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D11-S5",
+      "publisher": "MedlinePlus",
+      "title": "Plantar fasciitis",
+      "url": "https://medlineplus.gov/ency/article/007021.htm",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "통증 기록과 피부·감각 기록의 분리",
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D11-S6",
+      "publisher": "American College of Foot and Ankle Surgeons",
+      "title": "Plantar Fasciitis",
+      "url": "https://www.foothealthfacts.org/conditions/plantar-fasciitis",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "http_status": 200,
+      "used_for": "발뒤꿈치 통증 환자 정보의 교차 확인",
+      "source_type": "official",
+      "is_official": true
+    }
+  ],
+  "h2_traceability": {
+    "아침 첫 세 걸음은 통증 점수보다 장면으로 남기기": [
+      "D11-S1",
+      "D11-S2"
+    ],
+    "하루 통증 곡선은 걷기 전·걷는 중·쉬고 난 뒤로 나누기": [
+      "D11-S1",
+      "D11-S4"
+    ],
+    "신발 칸에는 브랜드가 아니라 접촉 조건을 적기": [
+      "D11-S2",
+      "D11-S3"
+    ],
+    "통증 메모와 안전 신호 메모를 같은 줄에 섞지 않기": [
+      "D11-S3",
+      "D11-S5"
+    ],
+    "상담에서 읽을 수 있는 하루 반응 요약으로 끝내기": [
+      "D11-S1",
+      "D11-S2",
+      "D11-S6"
+    ]
+  },
+  "h2_mapping": [
+    {
+      "heading": "아침 첫 세 걸음은 통증 점수보다 장면으로 남기기",
+      "evidence": [
+        "D11-S1",
+        "D11-S2"
+      ]
+    },
+    {
+      "heading": "하루 통증 곡선은 걷기 전·걷는 중·쉬고 난 뒤로 나누기",
+      "evidence": [
+        "D11-S1",
+        "D11-S4"
+      ]
+    },
+    {
+      "heading": "신발 칸에는 브랜드가 아니라 접촉 조건을 적기",
+      "evidence": [
+        "D11-S2",
+        "D11-S3"
+      ]
+    },
+    {
+      "heading": "통증 메모와 안전 신호 메모를 같은 줄에 섞지 않기",
+      "evidence": [
+        "D11-S3",
+        "D11-S5"
+      ]
+    },
+    {
+      "heading": "상담에서 읽을 수 있는 하루 반응 요약으로 끝내기",
+      "evidence": [
+        "D11-S1",
+        "D11-S2",
+        "D11-S6"
+      ]
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "발뒤꿈치 통증은 아침 또는 휴식 뒤 첫걸음에서 두드러질 수 있으므로 첫걸음과 하루 전체 반응을 분리해 기록한다.",
+      "source_id": "D11-S1",
+      "claim_type": "clinical context",
+      "supports_section": "아침 첫 세 걸음은 통증 점수보다 장면으로 남기기"
+    },
+    {
+      "claim": "지속하거나 악화하는 발뒤꿈치 통증은 보건의료진 상담 맥락에서 확인해야 한다.",
+      "source_id": "D11-S2",
+      "claim_type": "safety boundary",
+      "supports_section": "상담에서 읽을 수 있는 하루 반응 요약으로 끝내기"
+    },
+    {
+      "claim": "당뇨가 있는 사람은 발의 피부·상처·감각 변화를 정기적으로 확인하고 변화가 있으면 의료진과 상의한다.",
+      "source_id": "D11-S3",
+      "claim_type": "safety boundary",
+      "supports_section": "통증 메모와 안전 신호 메모를 같은 줄에 섞지 않기"
+    },
+    {
+      "claim": "발뒤꿈치 통증은 휴식 뒤 첫걸음뿐 아니라 걷는 중과 활동 뒤의 변화를 시간 순서로 구분해 전달할 수 있다.",
+      "source_id": "D11-S5",
+      "claim_type": "clinical context",
+      "supports_section": "하루 통증 곡선은 걷기 전·걷는 중·쉬고 난 뒤로 나누기"
+    },
+    {
+      "claim": "신발 이름보다 맨발·실내화·운동화처럼 발뒤꿈치가 닿는 조건과 그때의 반응을 기록하면 상담에 필요한 상황 정보를 남길 수 있다.",
+      "source_id": "D11-S6",
+      "claim_type": "consultation context",
+      "supports_section": "신발 칸에는 브랜드가 아니라 접촉 조건을 적기"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "첫 세 걸음, 걷는 중, 오래 선 뒤, 휴식 뒤 재시작을 별도 장면으로 기록한다.",
+      "source_id": "D11-S1",
+      "used_in_section": "하루 통증 곡선은 걷기 전·걷는 중·쉬고 난 뒤로 나누기"
+    },
+    {
+      "claim": "신발 브랜드가 아니라 맨발·실내화·운동화 같은 접촉 조건과 사용 시간을 적는다.",
+      "source_id": "D11-S2",
+      "used_in_section": "신발 칸에는 브랜드가 아니라 접촉 조건을 적기"
+    },
+    {
+      "claim": "상처·붉음·열감·저림·무감각은 통증 칸과 분리해 발견 시각과 위치를 적는다.",
+      "source_id": "D11-S3",
+      "used_in_section": "통증 메모와 안전 신호 메모를 같은 줄에 섞지 않기"
+    }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "internal_links": [
+    "/article/stair-knee-response-table",
+    "/article/medication-reconciliation-sheet",
+    "/article/health-checkup-questions"
+  ],
+  "source_url_get200_verified_at": "2026-08-12"
+}

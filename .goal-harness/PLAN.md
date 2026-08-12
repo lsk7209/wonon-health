@@ -1,5 +1,47 @@
 # PLAN
 
+## Active Increment — Batch-110 Fifty Articles
+
+### Phase A — Full-corpus inventory and 50 contracts
+- Objective: lock 50 separate reader problems before prose.
+- Tasks: export 89 existing titles/slugs/intents; research content gaps; create 50 Phase-B+ contracts; run deterministic and adversarial audits.
+- Expected files: `output/wonon/batch-110/manifest.json`, contract blocks/map, validators, audit summary.
+- Completion criteria: exactly 50 accepted rows, zero placeholders, title/intent/contract/template collisions zero.
+- Test point: UTF-8, exact counts, historical and within-batch semantic comparisons, official evidence targets.
+- Rollback: repair/replace contracts; prose remains blocked while any planning gate fails.
+
+### Phase B — Five-article dry run
+- Objective: prove the new contract/research/writing system before scaling.
+- Tasks: select five articles across at least four clusters; research, draft, QA, independent repair.
+- Expected files: five complete draft/research/QA triplets and dry-run audit.
+- Completion criteria: five `done`, each >=95, hard gates true, no template or YMYL blockers.
+- Test point: length, citations, source traceability, internal links, article-specific details, seven-token similarity.
+- Rollback: fix contract/process and repeat dry run before article six.
+
+### Phase C — Remaining forty-five articles
+- Objective: complete nine five-article waves with writer/reviewer separation.
+- Tasks: research/draft five, independently audit, repair, promote, repeat.
+- Expected files: 50 total triplets plus checkpoint audits.
+- Completion criteria: manifest 50/50 done, minimum 95, failed/review_needed 0.
+- Test point: each wave and final corpus audit across titles, H2, prose, claims, URLs, links, UTF-8.
+- Rollback: pause the next wave whenever a current checkpoint fails.
+
+### Phase D — Integration and scheduling
+- Objective: add only approved rows to all site surfaces and append 50 exact KST slots.
+- Tasks: extend longform loader/topic map/catalog, publication schedule/docs/tests, and sitemap/RSS discovery.
+- Expected files: content integration, schedule and tests, docs.
+- Completion criteria: 139 unique catalog articles; 119 scheduled plus baseline 20; first/last/exact gaps correct.
+- Test point: selector tests, TypeScript, build, route/citation/sitemap/RSS audits.
+- Rollback: revert integration/schedule commit; content packets remain unpublished.
+
+### Phase E — Independent release verification
+- Objective: prove production privacy, publication behavior, SEO feeds, and rollback.
+- Tasks: final code/content review, production deploy, live current/future smoke, GSC sitemap reread, handoff.
+- Expected files: final audit, evidence, handoff.
+- Completion criteria: all acceptance rows pass at validation level 5.
+- Test point: live HTTP/listing/sitemap/RSS/JSON-LD/noindex and GSC API status.
+- Rollback: promote previous Vercel deployment and revert release commit.
+
 ## Active Increment — GSC API And Quality Revalidation
 
 ### Phase 1 — Safe discovery

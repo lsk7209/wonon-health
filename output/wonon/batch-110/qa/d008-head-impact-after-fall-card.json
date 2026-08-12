@@ -1,0 +1,73 @@
+{
+  "id": "d008",
+  "slug": "head-impact-after-fall-card",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 98,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "6f4f0868b85d45084f25a31b399b57e84dc0d4047cb7044a6c7ce2a44c35232c",
+    "research_sha256": "818c382a150dd7d5ff2245015821341218324838d4369d3e0883fb64e77c74c7",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 5728,
+    "visible_korean_body_count": 5728,
+    "h2_count_before_reader_references": 6,
+    "h2_count": 6,
+    "data_points": 6,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/new-headache-pattern-card",
+      "/article/medication-reconciliation-sheet",
+      "/article/health-checkup-questions"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D8-S1": 200,
+      "D8-S2": 200,
+      "D8-S3": 200,
+      "D8-S4": 200,
+      "D8-S5": 200
+    },
+    "article_specific_details": 4,
+    "max_prose_7_token_jaccard": 0
+  },
+  "compared_rows": [
+    "89 released corpus articles",
+    "d003",
+    "d021",
+    "d035",
+    "d050"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

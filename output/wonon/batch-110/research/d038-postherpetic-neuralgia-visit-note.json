@@ -1,0 +1,39 @@
+{
+  "id":"d038","slug":"postherpetic-neuralgia-visit-note","researched_at":"2026-08-12","accessed":"2026-08-12",
+  "research_runs":[
+    {"query":"WHO shingles postherpetic neuralgia fact sheet 2025","date":"2026-08-12","purpose":"발진 뒤 지속 통증과 합병증의 공식 맥락 확인"},
+    {"query":"PubMed 38454843 herpes zoster ophthalmicus hospital study 2024","date":"2026-08-12","purpose":"눈 주변 대상포진의 임상 관찰 맥락 확인"},
+    {"query":"PubMed 39391663 zoster pain allodynia randomized clinical trial 2024","date":"2026-08-12","purpose":"통증과 접촉 민감도의 별도 측정 맥락 확인"},
+    {"query":"PubMed 36952627 herpes zoster ophthalmicus initial management primary research 2024","date":"2026-08-12","purpose":"현재 복약 이력 확인의 진료 맥락 교차 확인"},
+    {"query":"PubMed 38909743 herpes zoster ophthalmicus recurrence outcomes 2024","date":"2026-08-12","purpose":"눈 주변 침범과 장기 결과의 관찰 맥락 확인"}
+  ],
+  "article_research_question":"대상포진 발진 뒤 남은 통증을 발진 자리·자극·수면·복약 이력으로 어떻게 나누어 진료 질문으로 바꿀 수 있는가?",
+  "reader_outcome":"독자는 발진과 통증의 날짜, 자극과 느낌, 기능 변화, 현재 복용 약을 4칸 메모로 정리한다.",
+  "search_intent_insight":"독자는 자가 진단이나 약 추천보다 통증과 피부·기능 변화를 상담에서 설명할 방법을 찾는다.",
+  "competitor_gap":"일반 대상포진 정보 대신 발진과 통증의 시간차 및 옷 닿는 자극·수면 영향을 분리하는 기록을 제공한다.",
+  "unique_angle":"발진 시간선, 통증 언어, 기능 변화, 복약 이력을 분리한 4칸 상담 메모.",
+  "original_contribution":{"type":"four-cell-postherpetic-pain-note","description":"발진과 통증의 시간차, 자극과 느낌, 수면·식사·움직임, 이미 복용한 약을 분리해 진료 질문으로 만든다.","source_ids":["D38-S1","D38-S2","D38-S3","D38-S4","D38-S5"]},
+  "source_interpretation":"WHO 자료는 대상포진과 지속 통증의 공식 맥락으로, PubMed 자료는 1차 임상 연구로만 사용한다. 어느 자료도 약 선택, 증량·중단, 자가 진단을 지시하지 않는다.",
+  "ymyl_category":"pain / medication safety / eye safety","ymyl_review":"통증으로 병명을 확정하거나 약을 변경하지 않으며 눈·얼굴 침범, 눈 통증·시력 변화, 급격한 악화는 기록보다 즉시 평가가 우선임을 분리한다.","ymyl_boundaries":["통증만으로 대상포진 후 신경통을 진단하지 않는다.","진통제·수면제·처방약의 증량·중단·병용을 지시하지 않는다.","눈 주변 발진, 눈 통증·시력 변화, 급격한 악화는 기록보다 즉시 평가를 우선한다."],"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],
+  "sources":[
+    {"id":"D38-S1","organization":"World Health Organization","title":"Shingles (herpes zoster)","url":"https://www.who.int/news-room/fact-sheets/detail/shingles-%28herpes-zoster%29","source_date":"2025-03-24","accessed":"2026-08-12","source_role":"official","get_status":200,"used_for":"발진 뒤 지속 통증과 합병증의 공식 맥락"},
+    {"id":"D38-S2","organization":"Indian Journal of Ophthalmology","title":"Clinical and demographic profile of herpes zoster ophthalmicus: A hospital-based study of 1752 Indian patients","url":"https://pubmed.ncbi.nlm.nih.gov/38454843/","source_date":"2024-03-08","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"눈 주변 대상포진의 임상 관찰 맥락"},
+    {"id":"D38-S3","organization":"Journal of Anaesthesiology Clinical Pharmacology","title":"A randomized clinical trial comparing the efficacy of ultrasound-guided erector spinae block and paravertebral block in preventing postherpetic neuralgia in patients with zoster-associated pain","url":"https://pubmed.ncbi.nlm.nih.gov/39391663/","source_date":"2024-07-15","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"통증과 접촉 민감도의 별도 측정 맥락"},
+    {"id":"D38-S4","organization":"Cornea","title":"Practice Patterns in the Initial Management of Herpes Zoster Ophthalmicus in the United States","url":"https://pubmed.ncbi.nlm.nih.gov/36952627/","source_date":"2024-01-01","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"약 선택이 아니라 현재 복약 이력을 확인할 안전 경계"},
+    {"id":"D38-S5","organization":"American Journal of Ophthalmology","title":"Herpes Zoster Ophthalmicus Recurrence: Risk Factors and Long-Term Clinical Outcomes","url":"https://pubmed.ncbi.nlm.nih.gov/38909743/","source_date":"2024-06-22","accessed":"2026-08-12","source_role":"primary","get_status":200,"used_for":"눈 주변 침범과 장기 결과의 관찰 맥락"}
+  ],
+  "data_points":[
+    {"claim":"대상포진 뒤 신경통은 발진이 가라앉은 뒤에도 지속될 수 있는 합병증 맥락이다.","source_id":"D38-S1","claim_type":"official health guidance","source_date":"2025-03-24","supports_section":"발진이 가라앉은 날과 통증이 남은 날은 다른 줄에 쓴다"},
+    {"claim":"대상포진 관련 통증과 접촉 민감도는 별도로 측정·기록할 수 있다.","source_id":"D38-S3","claim_type":"primary research","source_date":"2024-07-15","supports_section":"통증의 숫자보다 ‘어떤 자극이 어떤 느낌을 만드는지’를 고른다"},
+    {"claim":"대상포진의 통증은 수면·식사·움직임 같은 생활 장면과 함께 기록해 상담 맥락을 보완할 수 있다.","source_id":"D38-S1","claim_type":"official health guidance","source_date":"2025-03-24","supports_section":"수면·식사·움직임에서 막힌 장면을 기능 칸에 남긴다"},
+    {"claim":"안과 대상포진의 초기 진료 양상은 현재 복약 이력을 진료에서 확인할 맥락이 된다.","source_id":"D38-S4","claim_type":"primary research","source_date":"2024-01-01","supports_section":"약물 안전 질문은 ‘무엇을 더 먹을까’가 아니라 ‘무엇을 이미 먹었나’에서 시작한다"},
+    {"claim":"안과 대상포진의 재발과 장기 결과는 눈·얼굴 침범을 통증 기록보다 먼저 알릴 안전 맥락이 된다.","source_id":"D38-S5","claim_type":"primary research","source_date":"2024-06-22","supports_section":"눈·얼굴 침범과 급격한 변화는 통증 상담보다 먼저 평가한다"},
+    {"claim":"대상포진 뒤 지속 통증은 가장 심한 시간과 막힌 활동을 함께 적어 상담에 전달할 맥락이 된다.","source_id":"D38-S1","claim_type":"official health guidance","source_date":"2025-03-24","supports_section":"마지막 줄에는 가장 심한 시간과 막힌 활동 하나를 적는다"}
+  ],
+  "article_specific_details":[
+    {"claim":"발진이 처음 보인 날·가라앉은 날과 통증이 남은 날을 분리해 적는다.","source_id":"D38-S1","materially_used_in":"발진이 가라앉은 날과 통증이 남은 날은 다른 줄에 쓴다"},
+    {"claim":"옷 닿음, 샤워 물줄기, 수면 깨움처럼 자극과 느낌을 같이 적는다.","source_id":"D38-S2","materially_used_in":"통증의 숫자보다 ‘어떤 자극이 어떤 느낌을 만드는지’를 고른다"},
+    {"claim":"현재 복용한 약의 이름·용량·시각을 약을 더 고르는 질문보다 먼저 정리한다.","source_id":"D38-S4","materially_used_in":"약물 안전 질문은 ‘무엇을 더 먹을까’가 아니라 ‘무엇을 이미 먹었나’에서 시작한다"}
+  ],
+  "h2_traceability":{"발진이 가라앉은 날과 통증이 남은 날은 다른 줄에 쓴다":["D38-S1","D38-S2"],"통증의 숫자보다 ‘어떤 자극이 어떤 느낌을 만드는지’를 고른다":["D38-S3"],"수면·식사·움직임에서 막힌 장면을 기능 칸에 남긴다":["D38-S1"],"약물 안전 질문은 ‘무엇을 더 먹을까’가 아니라 ‘무엇을 이미 먹었나’에서 시작한다":["D38-S4"],"눈·얼굴 침범과 급격한 변화는 통증 상담보다 먼저 평가한다":["D38-S5"],"마지막 줄에는 가장 심한 시간과 막힌 활동 하나를 적는다":["D38-S2","D38-S4"]}
+}

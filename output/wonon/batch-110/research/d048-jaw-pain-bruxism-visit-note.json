@@ -1,0 +1,24 @@
+{
+  "id":"d048","slug":"jaw-pain-bruxism-visit-note","researched_at":"2026-08-12","accessed":"2026-08-12","research_runs":5,
+  "article_research_question":"턱 통증과 이갈이 의심을 하나의 질환으로 단정하지 않고 치과 상담용 기록으로 어떻게 바꾸는가?",
+  "reader_outcome":"통증, 입 벌어짐·잠김, 소리, 두통·귀 주변 통증, 수면·스트레스 맥락을 분리해 적는다.",
+  "original_contribution":{"type":"five-cell-jaw-function-diary","description":"소리와 통증·기능 제한을 구별하는 다섯 칸 기록","source_ids":["D48-S1","D48-S2","D48-S3","D48-S4","D48-S5"]},
+  "source_interpretation":"NIDCR TMD 자료는 소리와 통증·기능을 분리하는 경계와 보존적 접근의 이유에, NHS와 MedlinePlus는 상담 맥락에, NIDCR 이갈이 자료는 낮·밤 기록과 치아·턱 증상을 구분하는 데 사용한다.",
+  "ymyl_category":"orofacial pain / dental device safety","fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[],
+  "sources":[
+    {"id":"D48-S1","organization":"National Institute of Dental and Craniofacial Research","title":"TMD","url":"https://www.nidcr.nih.gov/health-info/tmd","source_role":"official","source_date":"2026-08-01","accessed_date":"2026-08-12","used_for":"통증·기능 제한·소리의 구분"},
+    {"id":"D48-S2","organization":"National Institute of Dental and Craniofacial Research","title":"Less Is Often Best In Treating TMD","url":"https://www.nidcr.nih.gov/health-info/publications/less-often-best-treating-tmd","source_role":"official","source_date":"2025-09-01","accessed_date":"2026-08-12","used_for":"되돌리기 어려운 교합 변화 전 질문"},
+    {"id":"D48-S3","organization":"NHS","title":"Temporomandibular disorder (TMD)","url":"https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/","source_role":"official","source_date":"2025-01-24","accessed_date":"2026-08-12","used_for":"상담 및 신속 평가 경로"},
+    {"id":"D48-S4","organization":"U.S. National Library of Medicine","title":"Temporomandibular Disorders","url":"https://medlineplus.gov/temporomandibulardisorders.html","source_role":"official","source_date":"2024-05-07","accessed_date":"2026-08-12","used_for":"원인 단정 금지와 여러 요인 맥락"},
+    {"id":"D48-S5","organization":"National Institute of Dental and Craniofacial Research","title":"Bruxism","url":"https://www.nidcr.nih.gov/health-info/bruxism","source_role":"official","source_date":"2025-03-01","accessed_date":"2026-08-12","used_for":"깨어 있을 때와 수면 중 이갈이·악물기, 턱 통증과 치아 변화"}
+  ],
+  "data_points":[
+    {"claim":"통증 없는 턱 소리만으로 치료가 필요한 것은 아니다.","source_id":"D48-S1","supports_section":"소리만으로 턱관절 문제를 결론 내리지 않는 이유"},
+    {"claim":"턱과 얼굴의 통증, 뻣뻣함, 움직임 제한은 상담에서 다룰 수 있는 변화다.","source_id":"D48-S3","supports_section":"턱 통증과 입 벌어짐을 다섯 칸 메모로 나누기"},
+    {"claim":"턱관절 관련 증상에는 여러 요인이 관여할 수 있어 수면과 스트레스를 단일 원인으로 단정하지 않는다.","source_id":"D48-S4","supports_section":"수면과 스트레스를 원인 단정이 아닌 맥락으로 적는 법"},
+    {"claim":"많은 TMD 증상은 시간이 지나며 좋아질 수 있고 되돌리기 어려운 치료 전 근거와 위험을 묻는다.","source_id":"D48-S2","supports_section":"보호장치보다 먼저 물을 질문으로 적기"},
+    {"claim":"부상, 부기·발열, 입을 열거나 닫기 어려운 변화는 신속한 평가 경계다.","source_id":"D48-S3","supports_section":"부상과 부기·발열은 소리보다 먼저 평가할 신호"}
+  ],
+  "article_specific_details":[{"claim":"소리만 있는 경우와 통증·기능 제한이 동반된 경우를 분리한다.","source_id":"D48-S1"},{"claim":"장치 구매 전에 목적, 중단 기준, 되돌릴 수 없는 교합 변화 여부를 묻는다.","source_id":"D48-S2"},{"claim":"깨어 있을 때와 수면 중 이갈이·악물기 기록을 분리한다.","source_id":"D48-S5"}],
+  "h2_traceability":{"소리만으로 턱관절 문제를 결론 내리지 않는 이유":["D48-S1"],"턱 통증과 입 벌어짐을 다섯 칸 메모로 나누기":["D48-S1","D48-S3"],"수면과 스트레스를 원인 단정이 아닌 맥락으로 적는 법":["D48-S4","D48-S5"],"보호장치보다 먼저 물을 질문으로 적기":["D48-S1","D48-S2"],"부상과 부기·발열은 소리보다 먼저 평가할 신호":["D48-S3"]}
+}

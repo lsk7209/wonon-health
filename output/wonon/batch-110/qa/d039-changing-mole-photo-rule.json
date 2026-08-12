@@ -1,0 +1,72 @@
+{
+  "id": "d039",
+  "slug": "changing-mole-photo-rule",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "baaf90d2c80c756341c72af3d360641dc35ce288d56cc84f0e48f769b2e1707f",
+    "research_sha256": "aed6b1ade313d4879352995525f8f4278876791bcd9c3512bd08d0b62b9742fc",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4613,
+    "visible_korean_body_count": 4613,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/itch-rash-safety-note",
+      "/article/health-checkup-questions",
+      "/article/menopause-when-to-see-a-doctor"
+    ],
+    "research_runs": 6,
+    "sources": 6,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 6,
+    "source_get_statuses": {
+      "D39-S1": 200,
+      "D39-S2": 200,
+      "D39-S3": 200,
+      "D39-S4": 200,
+      "D39-S5": 200,
+      "D39-S6": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.000680504,
+    "closest_prose_comparator": "c011-hair-loss-photo-rule"
+  },
+  "compared_rows": [
+    "84 prior-corpus drafts",
+    "38 other available batch-110 drafts"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

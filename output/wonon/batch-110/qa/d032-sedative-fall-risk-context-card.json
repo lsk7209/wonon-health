@@ -1,0 +1,71 @@
+{
+  "id": "d032",
+  "slug": "sedative-fall-risk-context-card",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "f530b953f2bf3646e78c4e6fa36a8a0d9fcf4fb347030212f456a3a1ad52196f",
+    "research_sha256": "a8f785a93c13fcc25f30520638046603f0ad1d64b18301870571a797101120f0",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4439,
+    "visible_korean_body_count": 4439,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/medication-reconciliation-sheet",
+      "/article/night-waking-transfer-safety",
+      "/article/stairs-fall-risk-situation-map"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "S1": 200,
+      "S2": 200,
+      "S3": 200,
+      "S4": 200,
+      "S5": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.000727273,
+    "closest_prose_comparator": "b009-stairs-fall-risk-situation-map"
+  },
+  "compared_rows": [
+    "83 prior-corpus drafts",
+    "34 other available batch-110 drafts"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

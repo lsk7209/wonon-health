@@ -1,0 +1,203 @@
+{
+  "id": "d017",
+  "slug": "postmeal-upper-abdominal-pain-note",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "NIDDK gallstones symptoms right upper abdomen pain after meals",
+      "date": "2026-08-12",
+      "purpose": "식후 오른쪽 윗배 통증을 한 가지 질환으로 단정하지 않고, 공식 자료가 설명하는 증상 맥락을 확인"
+    },
+    {
+      "query": "NIDDK gallstones diagnosis medical history physical exam tests",
+      "date": "2026-08-12",
+      "purpose": "진료 준비 기록에서 증상 시간표와 복용·과거력 정보를 분리할 근거 확인"
+    },
+    {
+      "query": "NHS gallstones urgent symptoms fever jaundice abdominal pain",
+      "date": "2026-08-12",
+      "purpose": "기록 작성보다 의료진 연락을 우선할 수 있는 동반 변화를 확인"
+    },
+    {
+      "query": "MedlinePlus gallstones symptoms fever jaundice nausea vomiting",
+      "date": "2026-08-12",
+      "purpose": "상담에서 빠뜨리지 않을 동반 변화와 일반 소비자용 안전 경계 확인"
+    },
+    {
+      "query": "ACG gallstones in women patient information",
+      "date": "2026-08-12",
+      "purpose": "중년 여성 독자의 상담 준비에서 확인할 여성 관련 맥락과 진단 비대체 원칙 확인"
+    },
+    {
+      "query": "replacement primary-source verification for d017",
+      "date": "2026-08-12",
+      "purpose": "동일 주제의 공적·일차 자료를 브라우저형 리디렉션 GET으로 재검증하고, 본문 인용과 출처 목록을 동기화함"
+    }
+  ],
+  "article_research_question": "식후 오른쪽 윗배 통증이 있을 때, 원인을 추측하지 않으면서도 식사·통증 경로·열과 복용·검사 맥락을 어떤 순서로 기록해 상담에 전달할 수 있는가?",
+  "reader_outcome": "독자는 통증을 설명하기 어려웠던 장면을 식사 시점, 위치·경로, 동반 변화, 복용·검사 맥락, 상담 질문으로 나누어 한 장의 기록으로 가져간다.",
+  "search_intent_insight": "증상 검색자는 질환명보다 지금 무엇을 적고 언제 연락해야 하는지 알고 싶어 한다. 이 글은 자가 판별표가 아니라 상담용 사실 정리표를 제공한다.",
+  "competitor_gap": "일반적인 담석 설명은 많지만, 식사 뒤 통증의 시간·위치·경로와 열·구토·황달 같은 동반 변화를 한 기록에서 분리하는 도구는 적다.",
+  "unique_angle": "식후 오른쪽 윗배 통증을 식사·통증 경로·열의 세 축과 복용·검사 맥락으로 분해하는 5칸 상담표",
+  "original_contribution": {
+    "type": "five-cell consultation record",
+    "description": "원인 후보를 나열하지 않고, 같은 통증 경험을 ‘식사’, ‘위치와 경로’, ‘동반 변화’, ‘약·검사 맥락’, ‘의료진에게 묻기’로 분리해 전달하도록 돕는 기록 도구",
+    "source_ids": [
+      "D17-S1",
+      "D17-S2",
+      "D17-S3",
+      "D17-S4",
+      "D17-S5"
+    ]
+  },
+  "source_interpretation": "NIDDK의 증상 자료는 식사 뒤 통증의 위치와 시간 경과를 적는 이유로, NIDDK의 진단 자료는 병력·진찰·검사 맥락을 구분하는 이유로 사용한다. NHS와 MedlinePlus는 열, 황달, 구토처럼 기록을 끝내고 의료진에게 알려야 할 변화를 설명하는 안전 경계로 해석한다. ACG 자료는 여성에서의 담석 관련 일반 정보를 원인 확정이 아닌 상담 맥락으로만 사용한다. 모든 교체 출처는 이 환경에서 브라우저형 리디렉션 GET으로 200을 재확인했으며, 개인 진단·자가치료·복용 변경 지시가 아닌 상담 준비와 안전 경계에만 사용한다.",
+  "sources": [
+    {
+      "id": "D17-S1",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Gallstones",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones",
+      "source_role": "official",
+      "source_date": "2017-11-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "오른쪽 윗배 통증, 메스꺼움·구토, 발열·오한, 황달 등 증상 맥락을 자가진단 없이 기록 항목으로 전환",
+      "official_or_primary": true
+    },
+    {
+      "id": "D17-S2",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Diagnosis of Gallstones",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/diagnosis",
+      "source_role": "official",
+      "source_date": "2017-11-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "진료에서 병력·진찰·검사가 함께 쓰일 수 있다는 점과, 복용·검사 이력을 별도 칸에 적는 근거",
+      "official_or_primary": true
+    },
+    {
+      "id": "D17-S3",
+      "organization": "NHS",
+      "title": "Gallstones",
+      "url": "https://www.nhs.uk/conditions/gallstones/",
+      "source_role": "official",
+      "source_date": "2025-08-11",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "심하거나 지속되는 복통, 열·오한, 황달 등의 변화에서 상담표 작성보다 긴급한 의료 조언을 우선하는 경계",
+      "official_or_primary": true
+    },
+    {
+      "id": "D17-S4",
+      "organization": "MedlinePlus, U.S. National Library of Medicine",
+      "title": "Gallstones",
+      "url": "https://medlineplus.gov/gallstones.html",
+      "source_role": "official",
+      "source_date": "2025-09-03",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "통증과 함께 나타날 수 있는 메스꺼움, 구토, 발열, 황달을 관찰 사실로 남기고 원인으로 단정하지 않는 설명",
+      "official_or_primary": true
+    },
+    {
+      "id": "D17-S5",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Definition & Facts for Gallstones",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/definition-facts",
+      "source_role": "official",
+      "source_date": "2017-11-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "담석의 일반적 맥락과 증상만으로 개인의 원인이나 치료를 정하지 않는 경계",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "오른쪽 윗배 통증의 시작 시각과 식사 전후 관계를 따로 적으면 상담자는 ‘무엇을 먹었는지’와 ‘언제 시작됐는지’를 혼동하지 않고 추가 질문을 할 수 있다.",
+      "source_id": "D17-S1",
+      "claim_type": "official symptom context",
+      "source_date": "2017-11-01",
+      "supports_section": "식후 오른쪽 윗배 통증이 시작된 장면과 날짜"
+    },
+    {
+      "claim": "통증의 위치와 어깨·등 쪽으로 번지는 느낌 여부는 질환 확정용 답이 아니라, 통증 경로를 설명하는 관찰 언어로 남길 수 있다.",
+      "source_id": "D17-S1",
+      "claim_type": "official symptom context",
+      "source_date": "2017-11-01",
+      "supports_section": "식사·통증 경로·열을 구분하는 관찰 기준"
+    },
+    {
+      "claim": "열·오한, 황달, 반복되는 구토, 심하거나 지속되는 복통은 기록을 완성할 때까지 기다리지 말고 의료진에게 알려야 할 수 있는 변화다.",
+      "source_id": "D17-S3",
+      "claim_type": "official safety guidance",
+      "source_date": "2025-08-11",
+      "supports_section": "식후 오른쪽 윗배 통증과 함께 확인할 동반 변화"
+    },
+    {
+      "claim": "병력, 신체 진찰, 혈액검사와 영상검사 등이 진료 과정에서 함께 고려될 수 있으므로, 최근 검사와 복용 정보를 통증 서술과 분리해 준비하는 것이 유용하다.",
+      "source_id": "D17-S2",
+      "claim_type": "official diagnostic guidance",
+      "source_date": "2017-11-01",
+      "supports_section": "식후 오른쪽 윗배 통증 기록에 남길 복용·검사·생활 맥락"
+    },
+    {
+      "claim": "메스꺼움·구토·발열·황달은 증상 맥락으로 소개되며, 해당 변화의 유무와 시작 시점을 의료진에게 정확히 전달하는 것이 자가진단보다 안전하다.",
+      "source_id": "D17-S4",
+      "claim_type": "official consumer health guidance",
+      "source_date": "2025-09-03",
+      "supports_section": "식후 오른쪽 윗배 통증 상담에서 바로 전달할 질문"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "‘저녁을 먹고 아팠다’ 대신 식사 시작·종료 시각, 통증이 시작된 시각, 통증이 머문 자리와 번진 방향을 서로 다른 칸에 적으면 같은 사건의 순서를 보존할 수 있다.",
+      "source_id": "D17-S1",
+      "materially_used_in": "식사·통증 경로·열을 구분하는 관찰 기준"
+    },
+    {
+      "claim": "열·오한·황달·반복 구토 또는 심하고 지속되는 통증이 새로 생기면 상담표의 빈칸을 채우는 일보다 현재 증상과 시작 시점을 의료진에게 먼저 전달하는 것이 우선이다.",
+      "source_id": "D17-S3",
+      "materially_used_in": "식후 오른쪽 윗배 통증과 함께 확인할 동반 변화"
+    },
+    {
+      "claim": "통증 설명과 별개로 최근 검사 날짜·결과를 들은 시점·복용 중인 약과 마지막 복용 시각을 기록하면 진료에서 병력과 검사 맥락을 확인할 때 빠뜨릴 정보가 줄어든다.",
+      "source_id": "D17-S2",
+      "materially_used_in": "식후 오른쪽 윗배 통증 기록에 남길 복용·검사·생활 맥락"
+    }
+  ],
+  "h2_traceability": {
+    "식후 오른쪽 윗배 통증이 시작된 장면과 날짜": [
+      "D17-S1"
+    ],
+    "식사·통증 경로·열을 구분하는 관찰 기준": [
+      "D17-S1",
+      "D17-S4"
+    ],
+    "식후 오른쪽 윗배 통증과 함께 확인할 동반 변화": [
+      "D17-S3",
+      "D17-S4"
+    ],
+    "식후 오른쪽 윗배 통증 기록에 남길 복용·검사·생활 맥락": [
+      "D17-S2"
+    ],
+    "식후 오른쪽 윗배 통증 상담에서 바로 전달할 질문": [
+      "D17-S2",
+      "D17-S4",
+      "D17-S5"
+    ]
+  },
+  "ymyl_category": "health / abdominal symptoms",
+  "ymyl_review": "이 글은 증상 관찰과 상담 준비만 다룬다. 담석 또는 다른 질환을 진단하지 않으며, 약 중단·용량 변경·식이 처방·시술 선택을 지시하지 않는다. 심하거나 새롭게 악화한 변화는 기록보다 의료 체계 연락을 우선하도록 명시한다.",
+  "ymyl_boundaries": [
+    "증상만으로 질환명을 확정하지 않는다.",
+    "약·보충제·식이·시술을 시작하거나 중단하도록 지시하지 않는다.",
+    "심한 통증, 열·오한, 황달, 반복 구토 등 우려되는 변화는 기록을 미루고 의료진 또는 지역 응급 의료체계에 연락하도록 안내한다."
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

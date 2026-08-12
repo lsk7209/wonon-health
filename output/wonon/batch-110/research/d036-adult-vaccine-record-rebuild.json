@@ -1,0 +1,216 @@
+{
+  "article_id": "d036",
+  "slug": "adult-vaccine-record-rebuild",
+  "title": "50대 이후 예방접종 기록이 비어 있을 때: 확인 경로부터 정리하는 카드",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health-preventive-care-vaccination",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {
+      "query": "CDC vaccination records find immunization history official",
+      "date": "2026-08-12",
+      "purpose": "기록 부재를 미접종으로 단정하지 않는 확인 경로 조사"
+    },
+    {
+      "query": "CDC adult immunization schedule medical conditions prior vaccination official",
+      "date": "2026-08-12",
+      "purpose": "연령·위험요인·과거 접종력 분리의 공식 근거 확인"
+    },
+    {
+      "query": "CDC recommended vaccines adults provider discuss health conditions official",
+      "date": "2026-08-12",
+      "purpose": "예약 전 질문과 개인별 상담 경계 확인"
+    },
+    {
+      "query": "CDC when not to vaccinate allergies health conditions official",
+      "date": "2026-08-12",
+      "purpose": "알레르기·현재 상태를 자가판정하지 않는 안전 경계 확인"
+    },
+    {
+      "query": "CDC report vaccine safety concern medical provider official",
+      "date": "2026-08-12",
+      "purpose": "접종 증명과 안전 문제를 분리한 기록 보관 경계 확인"
+    },
+    {
+      "query": "replacement primary-source verification for d036",
+      "date": "2026-08-12",
+      "purpose": "동일 주제의 공적·일차 자료를 브라우저형 리디렉션 GET으로 재검증하고, 본문 인용과 출처 목록을 동기화함"
+    }
+  ],
+  "article_research_question": "성인 예방접종 기록이 비어 있거나 서로 다를 때, 기억을 사실처럼 채우지 않고 전자기록·접종기관·증빙을 어떤 순서로 확인해 예약 전 질문을 만들 수 있는가?",
+  "reader_outcome": "가장 최근에 확인 가능한 접종 한 건에서 시작해 백신명·날짜·기관·증빙·확인할 질문 다섯 칸의 빈칸을 표시하고 의료기관 상담을 준비한다.",
+  "search_intent_insight": "독자는 어떤 백신을 바로 다시 맞을지보다 기억·종이·전자기록이 다를 때 어느 경로로 무엇을 확인해야 하는지 찾는다.",
+  "competitor_gap": "백신별 시기 설명은 많지만 여러 성인 접종력을 백신명·날짜·기관·증빙·확인 질문으로 재구성하고 미접종 판정을 피하는 도구는 드물다.",
+  "information_gain": "성인 예방접종 기록 복원 카드는 기록 부재, 찾을 경로, 개인 배경, 예약 질문, 접종 뒤 보관을 한 줄씩 분리한다.",
+  "unique_angle": "단일 백신 예약이 아니라 전자기록·종이·접종기관이 다른 성인 예방접종 기록을 복원하는 다섯 칸 카드",
+  "original_contribution": {
+    "type": "five-field-adult-vaccine-record-card",
+    "description": "백신명·날짜·기관·증빙·확인할 질문을 분리해 기록 부재를 확인 경로로 바꾸는 카드",
+    "source_ids": [
+      "D36-S1",
+      "D36-S2",
+      "D36-S3",
+      "D36-S4",
+      "D36-S5"
+    ]
+  },
+  "source_interpretation": "CDC의 기록·성인 일정·안전 자료를 특정 백신의 종류·횟수·간격을 지시하는 데 쓰지 않고, 기록의 출처·개인 배경·예약 전 질문·접종 뒤 안전 연결을 분리하는 데만 사용했다. 모든 교체 출처는 이 환경에서 브라우저형 리디렉션 GET으로 200을 재확인했으며, 개인 진단·자가치료·복용 변경 지시가 아닌 상담 준비와 안전 경계에만 사용한다.",
+  "sources": [
+    {
+      "id": "D36-S1",
+      "title": "Get Vaccines to Protect Your Health (Adults Age 50 Years or Older)",
+      "publisher": "Office of Disease Prevention and Health Promotion, U.S. Department of Health and Human Services",
+      "url": "https://odphp.health.gov/myhealthfinder/doctor-visits/vaccines-shots/get-vaccines-protect-your-health-adults-age-50-years-or-older",
+      "final_url": "https://odphp.health.gov/myhealthfinder/doctor-visits/vaccines-shots/get-vaccines-protect-your-health-adults-age-50-years-or-older",
+      "source_date": "2026-05-05",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true,
+      "freshness": "current",
+      "http_status": 200,
+      "redirect_followed": true,
+      "used_for": "예방접종 기록을 안전하게 보관하고 의료기관·약국·보건당국을 통해 이전 기록을 확인하는 경로"
+    },
+    {
+      "id": "D36-S2",
+      "title": "Get Vaccines to Protect Your Health (Adults Ages 19 to 49 Years)",
+      "publisher": "Office of Disease Prevention and Health Promotion, U.S. Department of Health and Human Services",
+      "url": "https://odphp.health.gov/myhealthfinder/doctor-visits/vaccines-shots/get-vaccines-protect-your-health-adults-ages-19-49",
+      "final_url": "https://odphp.health.gov/myhealthfinder/doctor-visits/vaccines-shots/get-vaccines-protect-your-health-adults-ages-19-49",
+      "source_date": "2026-05-05",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true,
+      "freshness": "current",
+      "http_status": 200,
+      "redirect_followed": true,
+      "used_for": "성인 예방접종은 나이와 건강 상태, 과거 접종력 등 개인 맥락을 의료진과 함께 확인하는 원칙"
+    },
+    {
+      "id": "D36-S3",
+      "title": "Vaccines",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/vaccines.html",
+      "final_url": "https://medlineplus.gov/vaccines.html",
+      "source_date": "2025-01-01",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true,
+      "freshness": "current",
+      "http_status": 200,
+      "redirect_followed": true,
+      "used_for": "성인 예방접종 일정과 기록 검토를 의료진과 논의하는 공적 건강 정보"
+    },
+    {
+      "id": "D36-S4",
+      "title": "Vaccine Safety",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/vaccinesafety.html",
+      "final_url": "https://medlineplus.gov/vaccinesafety.html",
+      "source_date": "2025-03-03",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true,
+      "freshness": "current",
+      "http_status": 200,
+      "redirect_followed": true,
+      "used_for": "이전 반응, 알레르기, 현재 건강 상태와 복용약을 제공자에게 알려 안전을 함께 검토하는 경계"
+    },
+    {
+      "id": "D36-S5",
+      "title": "Vaccine Adverse Event Reporting System",
+      "publisher": "U.S. Department of Health and Human Services",
+      "url": "https://vaers.hhs.gov/",
+      "final_url": "https://vaers.hhs.gov/",
+      "source_date": "2025-01-01",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true,
+      "freshness": "current",
+      "http_status": 200,
+      "redirect_followed": true,
+      "used_for": "예방접종 후 우려되는 안전 문제는 의료진과 상담하고 보고 체계를 확인하되 원인을 스스로 단정하지 않는 경계"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "예방접종 기록은 의료기관·약국·보건당국·개인 보관 자료에 나뉘어 있을 수 있으므로 한 화면의 부재를 미접종 판정으로 바꾸지 않는다.",
+      "source_id": "D36-S1",
+      "claim_type": "administrative-context",
+      "source_date": "2026-05-05",
+      "supports_section": "기록 부재가 뜻하는 것"
+    },
+    {
+      "claim": "성인 예방접종은 개인의 접종력과 건강상태를 의료진과 검토하는 과정이므로 전자기록과 접종기관의 확인 경로를 따로 기록한다.",
+      "source_id": "D36-S3",
+      "claim_type": "consultation-context",
+      "source_date": "2025-01-01",
+      "supports_section": "찾을 수 있는 기록 경로"
+    },
+    {
+      "claim": "성인 예방접종 일정은 연령뿐 아니라 의학적 상태와 과거 접종력에 따라 달라질 수 있어 개인 배경을 백신 목록과 분리해 상담한다.",
+      "source_id": "D36-S2",
+      "claim_type": "clinical-context",
+      "source_date": "2026-05-05",
+      "supports_section": "연령과 위험요인 분리"
+    },
+    {
+      "claim": "알레르기·현재 건강상태·복용약·이전 반응은 자가판정의 근거가 아니라 예약 전 예방접종 제공자에게 전달해 확인할 정보다.",
+      "source_id": "D36-S4",
+      "claim_type": "safety-boundary",
+      "source_date": "2025-03-03",
+      "supports_section": "예약 전 질문"
+    },
+    {
+      "claim": "접종 증명과 접종 뒤 안전 문제는 다른 자료이며 심각하거나 걱정되는 현재 증상은 기록 완성보다 의료 평가와 적절한 보고 경로를 우선한다.",
+      "source_id": "D36-S5",
+      "claim_type": "safety-boundary",
+      "source_date": "2025-01-01",
+      "supports_section": "접종 뒤 기록 보관"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "카드는 전자기록 확인 날짜, 마지막으로 기억나는 기관, 종이 증빙 사진 위치, 확인되지 않은 날짜, 예약 전 질문을 서로 다른 줄에 둔다.",
+      "source_id": "D36-S1",
+      "used_in_section": "찾을 수 있는 기록 경로"
+    },
+    {
+      "claim": "접종 뒤에는 백신명·날짜·기관·증명 위치와 현재 증상·문의 여부를 섞지 않고 별도의 줄로 적는다.",
+      "source_id": "D36-S5",
+      "used_in_section": "접종 뒤 기록 보관"
+    }
+  ],
+  "h2_traceability": {
+    "기록 부재가 뜻하는 것": [
+      "D36-S1"
+    ],
+    "찾을 수 있는 기록 경로": [
+      "D36-S3"
+    ],
+    "연령과 위험요인 분리": [
+      "D36-S2"
+    ],
+    "예약 전 질문": [
+      "D36-S4"
+    ],
+    "접종 뒤 기록 보관": [
+      "D36-S5"
+    ]
+  },
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "국가별 전자기록 체계와 백신 일정은 다를 수 있어 특정 백신의 종류·횟수·간격·재접종 여부를 제시하지 않고 의료기관의 개인별 확인으로 한정했다."
+}

@@ -1,0 +1,206 @@
+{
+  "article_id": "d032",
+  "slug": "sedative-fall-risk-context-card",
+  "title": "수면제·항불안제 복용 뒤 휘청할 때: 복용 시각과 낙상 장면을 적는 카드",
+  "accessed": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "FDA benzodiazepine boxed warning alcohol opioids abrupt stop 2020",
+      "date": "2026-08-12",
+      "purpose": "복용 변경을 지시하지 않고 병용·중단 경계를 확인"
+    },
+    {
+      "query": "CDC STEADI Rx sleep anxiety medicine drowsiness balance fall risk",
+      "date": "2026-08-12",
+      "purpose": "졸림·균형 변화와 복약 검토의 연결 확인"
+    },
+    {
+      "query": "CDC medication risk fact sheet falls OTC supplements older adults",
+      "date": "2026-08-12",
+      "purpose": "처방약 외 약·보충제를 같은 카드에 적을 이유 확인"
+    },
+    {
+      "query": "National Institute on Aging fall head injury when to seek medical care medicines",
+      "date": "2026-08-12",
+      "purpose": "넘어짐 자체와 머리 부딪힘·의식 변화의 우선순위 확인"
+    },
+    {
+      "query": "replacement primary-source verification for d032",
+      "date": "2026-08-12",
+      "purpose": "동일 주제의 공적·일차 자료를 브라우저형 리디렉션 GET으로 재검증하고, 본문 인용과 출처 목록을 동기화함"
+    }
+  ],
+  "search_intent_insight": "독자는 수면제나 항불안제 복용 뒤 휘청한 장면을 약이 맞지 않는다는 결론으로 바로 바꾸기보다, 상담 전 어떤 사실을 기억해 둘지 찾는다.",
+  "competitor_gap": "약물 부작용과 낙상 예방을 넓게 설명하는 자료는 많지만, 복용 시각·침대에서 일어난 행동·병용 물질·머리 부딪힘·다음 질문을 한 사건 카드에 분리하는 자료는 드물다.",
+  "article_research_question": "수면제·항불안제 복용 뒤 휘청하거나 넘어졌을 때 처방을 임의로 바꾸지 않고, 의료진과 약사가 사건의 시간 순서와 병용 맥락을 확인할 수 있는 카드를 어떻게 만들 수 있는가?",
+  "reader_outcome": "독자는 약 이름·용량·복용 시각, 넘어지기 전후 행동, 처방약·일반의약품·술·보충제, 머리 부딪힘과 의식 변화를 한 장의 카드에 사실대로 적는다.",
+  "original_contribution": {
+    "type": "medication-fall-event-card",
+    "description": "약 목록 전체가 아니라 한 번의 휘청임 또는 낙상 장면을 중심으로 복용 시각과 행동, 병용 물질, 손상 신호, 상담 질문을 시간 순서로 놓는 사건 카드",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S5"
+    ]
+  },
+  "unique_angle": "수면제·항불안제 복용 후의 휘청임을 약 중단 조언이 아닌 복용-낙상 사건의 시간 축으로 정리하는 카드",
+  "source_interpretation": "FDA는 벤조디아제핀 계열에서 알코올·오피오이드 등과의 병용 및 갑작스러운 중단의 위험을 경고한다. CDC와 NIA 자료는 졸림·균형 변화·느린 반응이 낙상 맥락과 연결될 수 있음을 보여 준다. 이 글은 어느 약이 원인인지 판정하지 않고, 약사·처방자에게 보여 줄 사건의 빈칸을 정하는 데만 자료를 사용한다. 모든 교체 출처는 이 환경에서 브라우저형 리디렉션 GET으로 200을 재확인했으며, 개인 진단·자가치료·복용 변경 지시가 아닌 상담 준비와 안전 경계에만 사용한다.",
+  "angle_supporting_detail": {
+    "claim": "CDC는 수면 장애·불안·통증 관련 약의 부작용이 졸림, 균형 상실, 시야 변화, 느린 반응으로 이어져 낙상 위험을 높일 수 있다고 설명한다.",
+    "source_id": "S2"
+  },
+  "ymyl_category": "health-medication-safety",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "ymyl_boundaries": [
+    "이 글은 수면제·항불안제의 중단, 추가 복용, 감량, 교체를 지시하지 않는다.",
+    "누가 어떤 약 때문에 넘어졌는지 판정하지 않는다.",
+    "머리 부딪힘, 의식 변화, 심한 졸림, 호흡 곤란 또는 반복 낙상 우려가 있으면 카드를 완성하려 기다리지 않고 의료 도움을 우선한다."
+  ],
+  "visual_elements": [
+    "medication-fall-event-card",
+    "injury-boundary-callout",
+    "pharmacist-question-strip"
+  ],
+  "semantic_colors": [
+    "navy",
+    "amber"
+  ],
+  "article_specific_details": [
+    {
+      "claim": "FDA는 벤조디아제핀을 알코올·오피오이드 등과 함께 사용할 때 심각한 위해가 커질 수 있으며 갑작스러운 중단 또는 너무 빠른 감량도 위험할 수 있다고 경고한다.",
+      "source_id": "S1"
+    },
+    {
+      "claim": "수면·불안·통증 관련 약의 부작용은 졸림, 균형 상실, 시야 변화, 느린 반응 같은 낙상 관련 변화로 나타날 수 있다.",
+      "source_id": "S2"
+    },
+    {
+      "claim": "처방약뿐 아니라 일반의약품·보충제·한약 또는 허브 제품도 낙상 위험을 높이는 부작용과 관련될 수 있어 카드의 병용 칸에 적을 가치가 있다.",
+      "source_id": "S3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "organization": "MedlinePlus Drug Information, U.S. National Library of Medicine",
+      "title": "Diazepam",
+      "url": "https://medlineplus.gov/druginfo/meds/a682047.html",
+      "source_date": "2025-01-01",
+      "accessed": "2026-08-12",
+      "source_role": "official",
+      "get_status": 200,
+      "used_for": "벤조디아제핀 계열 약의 임의 중단을 피하고 처방자와 안전하게 상의하는 경계",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    },
+    {
+      "id": "S2",
+      "organization": "National Institute on Aging",
+      "title": "Falls and Fractures in Older Adults: Causes and Prevention",
+      "url": "https://www.nia.nih.gov/health/falls-and-falls-prevention/falls-and-fractures-older-adults-causes-and-prevention",
+      "source_date": "2022-09-12",
+      "accessed": "2026-08-12",
+      "source_role": "official",
+      "get_status": 200,
+      "used_for": "일부 약물의 졸림·어지러움·혼란 같은 부작용이 낙상 위험과 관련될 수 있는 맥락",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    },
+    {
+      "id": "S3",
+      "organization": "MedlinePlus, U.S. National Library of Medicine",
+      "title": "Medicines",
+      "url": "https://medlineplus.gov/medicines.html",
+      "source_date": "2025-01-01",
+      "accessed": "2026-08-12",
+      "source_role": "official",
+      "get_status": 200,
+      "used_for": "처방약, 일반의약품, 보충제를 함께 기록해 상담에서 확인할 이유",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    },
+    {
+      "id": "S4",
+      "organization": "National Institute on Aging",
+      "title": "Taking Medicines Safely as You Age",
+      "url": "https://www.nia.nih.gov/health/medicines-and-medication-management/taking-medicines-safely-you-age",
+      "source_date": "2022-09-12",
+      "accessed": "2026-08-12",
+      "source_role": "official",
+      "get_status": 200,
+      "used_for": "약 이름, 복용 시각, 처방약 외 제품을 목록으로 준비하고 의료진·약사와 검토하는 근거",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    },
+    {
+      "id": "S5",
+      "organization": "MedlinePlus, U.S. National Library of Medicine",
+      "title": "Fall Risk Assessment",
+      "url": "https://medlineplus.gov/lab-tests/fall-risk-assessment/",
+      "source_date": "2024-01-01",
+      "accessed": "2026-08-12",
+      "source_role": "official",
+      "get_status": 200,
+      "used_for": "낙상 위험은 약물, 보행, 균형 등 여러 요인을 함께 보며 개인이 자가판정하지 않는 공적 맥락",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "source_type": "official",
+      "is_official": true,
+      "official_or_primary": true
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "벤조디아제핀 계열은 알코올·오피오이드 등과 함께 사용할 때 심각한 위해가 커질 수 있고, 갑작스러운 중단이나 너무 빠른 감량도 위험할 수 있다.",
+      "source_id": "S1",
+      "claim_type": "safety-guidance",
+      "source_date": "2025-01-01",
+      "supports_section": "약 이름·용량·복용 시각은 처방 봉투 그대로 옮기기"
+    },
+    {
+      "claim": "수면 장애·불안·통증 관련 약의 부작용은 졸림, 균형 상실, 시야 변화, 느린 반응을 통해 낙상 위험과 연결될 수 있다.",
+      "source_id": "S2",
+      "claim_type": "clinical-context",
+      "source_date": "2022-09-12",
+      "supports_section": "넘어짐 전후 행동을 장면으로 복기하기"
+    },
+    {
+      "claim": "처방약, 일반의약품, 보충제, 허브 제품도 낙상 또는 충돌 위험을 높이는 부작용과 관련될 수 있다.",
+      "source_id": "S3",
+      "claim_type": "clinical-context",
+      "source_date": "2025-01-01",
+      "supports_section": "알코올·진통제·감기약·보충제를 같은 줄에 적기"
+    },
+    {
+      "claim": "호흡 곤란, 발작, 심한 부작용은 사건 카드보다 즉시 의료 평가를 우선해야 하는 신호다.",
+      "source_id": "S1",
+      "claim_type": "safety-guidance",
+      "source_date": "2025-01-01",
+      "supports_section": "머리 부딪힘·의식 변화는 카드보다 먼저 확인하기"
+    },
+    {
+      "claim": "낙상 위험은 약물, 보행, 균형 등 여러 요인을 함께 보며 개인이 자가판정하지 않는 공적 건강 맥락이다.",
+      "source_id": "S5",
+      "claim_type": "professional-guidance",
+      "source_date": "2024-01-01",
+      "supports_section": "처방 변경 전 연락할 질문과 다음 날의 안전 계획"
+    }
+  ]
+}

@@ -1,5 +1,39 @@
 # GOAL
 
+## Active Goal — Batch-110 Fifty High-Quality Articles
+
+### Final Deliverable
+Create exactly 50 new Korean middle-aged-women health articles under `output/wonon/batch-110`, each independently researched, analyzed, drafted, and QA-scored at 95 or higher, then integrate them into the Next.js catalog and append 50 exact five-hour publication slots after the current final reservation.
+
+### User Value
+Readers receive distinct, source-backed decision tools instead of query-variation pages, while the site gains a durable 139-article catalog with controlled publication cadence.
+
+### Required Features
+- Full deduplication against all 89 current published/scheduled articles and the new 50 contracts.
+- Per-article 3–5 research runs, 5–8 sources with official/primary preference, claim ledger, source dates, and at least two materially used article-specific details.
+- At least 3,500 reader-visible Korean characters, 3–5 valid internal links, distinct structure/intro/H2/CTA, visible citations, and YMYL boundaries.
+- Independent QA score >=95 with every hard gate boolean true; no score-only promotion.
+- Five-article dry run before scale, then five-article checkpoint waves with independent review.
+- Catalog/search/topic/JSON-LD/sitemap integration and 50 KST slots exactly five hours apart after 2026-08-26 00:00 KST.
+- Tests, TypeScript, build, preview/production smoke, sitemap/GSC continuity, and durable handoff.
+
+### Non-Goals
+- Diagnosis, treatment choice, medication dosage, or personalized medical advice.
+- Rewriting the existing 89 articles without a demonstrated gate failure.
+- Template-based scaled-content generation or ranking guarantees.
+- Credential, DNS, GA4, AdSense, or GSC property changes unrelated to the new sitemap URLs.
+
+### Done Conditions
+- Batch manifest exactly 50/50 `done`, minimum score 95, failed/review_needed 0.
+- 50 complete draft/research/QA triplets and final corpus originality/provenance audit PASS.
+- Unified catalog exactly 139 unique article slugs.
+- New schedule begins 2026-08-26 05:00 KST and contains 50 exact five-hour gaps, ending 2026-09-05 10:00 KST.
+- Future routes remain 404/noindex and absent from discovery until their slot.
+- Local and Vercel builds, live route smoke, sitemap, RSS, and GSC sitemap continuity pass.
+
+### User-Visible Result
+Fifty independently useful health articles publish automatically one at a time every five hours after the existing queue, without leaking future content or lowering the 95-point editorial floor.
+
 ## Active Goal — GSC Sitemap Success And 95-Point Content Gate
 
 - Final deliverable: confirm the site is Next.js or WordPress, submit `https://wonon.ehon365.kr/sitemap.xml` to the matching Google Search Console property through the Search Console API, and verify the API reports a completed sitemap with zero errors. Independently confirm published and scheduled editorial packets meet the requested minimum 95-point gate.

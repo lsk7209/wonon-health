@@ -1,0 +1,47 @@
+{
+  "article_id": "d033",
+  "slug": "antidepressant-early-symptom-log",
+  "title": "항우울제를 시작한 첫 달: 수면·불안·일상 기능을 나누는 변화 기록",
+  "researched_at": "2026-08-12",
+  "accessed": "2026-08-12",
+  "research_runs": [
+    {"query": "NIMH mental health medications antidepressants 4 to 8 weeks sleep appetite energy concentration", "date": "2026-08-12", "purpose": "첫 달의 시간축을 약효 판정이 아닌 상담용 관찰 기간으로 설명"},
+    {"query": "FDA depression medicines side effects sleep agitation women health", "date": "2026-08-12", "purpose": "처방자에게 확인할 부작용과 병용 질문의 범위를 확인"},
+    {"query": "DailyMed fluoxetine medication guide anxiety agitation insomnia early treatment dose changes", "date": "2026-08-12", "purpose": "초기 변화 중 바로 전달할 행동·기분·수면 변화의 공식 경계 확인"},
+    {"query": "MedlinePlus antidepressants do not stop suddenly side effects medication list", "date": "2026-08-12", "purpose": "임의 중단 대신 약 이름과 동반 복용을 기록해야 하는 이유 확인"},
+    {"query": "NHS antidepressants side effects follow up sleep anxiety", "date": "2026-08-12", "purpose": "수면·불안·일상 기능을 각각 적는 관찰 틀 확인"}
+  ],
+  "search_intent_insight": "독자는 시작 직후의 불편을 약이 맞지 않는다는 결론으로 바꾸기 전에, 처방자에게 무엇을 어떤 순서로 말해야 하는지 찾는다.",
+  "competitor_gap": "일반적인 항우울제 설명은 많지만, 복용 시각과 수면·불안·생활 기능을 한 장에서 섞지 않고 기록해 상담으로 넘기는 도구는 드물다.",
+  "article_research_question": "항우울제를 시작한 뒤 첫 한 달에 수면·불안·위장 변화와 일·돌봄·운전 기능을 어떻게 분리해 기록해야, 약을 스스로 바꾸지 않고 처방자와 안전하게 상담할 수 있는가?",
+  "reader_outcome": "독자는 첫 4주를 네 개의 주별 칸으로 나누어 복용 사실, 느낀 변화, 생활 기능, 바로 전달할 신호와 질문을 구분해 가져간다.",
+  "original_contribution": {"type": "four-week-medication-function-record", "description": "기분 점수표가 아니라 시작일과 복용 시각, 수면·불안·몸 변화, 일·돌봄·운전 기능, 즉시 연락 신호와 처방자 질문을 서로 다른 줄에 두는 첫 4주 기록", "source_ids": ["S1", "S3", "S4", "S5", "S6"]},
+  "unique_angle": "항우울제 초기의 변화를 약효 평가나 자가 중단 조언이 아닌 ‘복용-수면-기능’의 네 주 기록으로 번역한다.",
+  "source_interpretation": "NIMH는 항우울제가 효과를 보이는 데 시간이 걸릴 수 있고 수면·식욕·에너지·집중 변화가 기분보다 먼저 달라질 수 있음을 시간축의 근거로 쓴다. DailyMed는 새롭거나 악화하는 불안·초조·불면·비정상적 행동 변화를 안전 연락 기준으로 쓴다. MedlinePlus와 NHS는 약을 임의로 끊지 않고 부작용과 복용 정보를 처방자에게 전달해야 한다는 경계에만 사용한다.",
+  "ymyl_category": "health-medication-safety-mental-health",
+  "ymyl_review": "진단명, 약의 적합성, 중단·증량·감량, 치료법 선택을 지시하지 않는다. 자해 생각·위험 행동·갑작스럽고 심한 변화는 기록을 끝내지 말고 즉시 지역 긴급 의료 체계 또는 위기 지원에 연락하도록 분리한다.",
+  "ymyl_boundaries": ["이 글은 항우울제의 시작·중단·증량·감량이나 복용 시각 변경을 지시하지 않는다.", "수면·불안·위장 변화만으로 약이 원인인지 또는 질환이 악화했는지 판정하지 않는다.", "자해 생각, 위험 행동, 심한 혼란, 갑작스럽고 심한 악화가 있으면 기록을 완성하려 기다리지 않고 즉시 도움을 요청한다."],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "article_specific_details": [
+    {"claim": "NIMH는 항우울제가 효과를 보이는 데 보통 4~8주가 걸릴 수 있고, 수면·식욕·에너지·집중 변화가 기분보다 먼저 좋아질 수 있다고 설명한다.", "source_id": "S1"},
+    {"claim": "DailyMed의 플루옥세틴 의약품 안내는 초기 치료나 용량 변경 시 새롭거나 악화하는 불안, 초조, 공황, 불면, 충동성, 비정상적 행동 변화와 자살 생각을 처방자에게 알리도록 한다.", "source_id": "S3"},
+    {"claim": "MedlinePlus는 항우울제를 처방자와 상의하지 않고 중단해서는 안 된다고 안내한다.", "source_id": "S4"}
+  ],
+  "sources": [
+    {"id": "S1", "organization": "National Institute of Mental Health", "title": "Mental Health Medications", "url": "https://www.nimh.nih.gov/health/topics/mental-health-medications", "source_date": "2023-12-12", "accessed": "2026-08-12", "source_role": "official", "get_status": 200, "used_for": "4~8주 시간축과 수면·식욕·에너지·집중 변화를 기분과 분리해 적는 이유"},
+    {"id": "S3", "organization": "DailyMed, National Library of Medicine", "title": "Fluoxetine tablets: prescribing information and Medication Guide", "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=09fb3100-1e06-4cdc-8016-7e4f5d097490&type=display", "source_date": "2026-02-12", "accessed": "2026-08-12", "source_role": "primary", "get_status": 200, "used_for": "초기 치료와 용량 변화 때 새롭거나 악화하는 불안·초조·불면·행동 변화를 바로 알릴 경계"},
+    {"id": "S4", "organization": "MedlinePlus, National Library of Medicine", "title": "Antidepressants", "url": "https://medlineplus.gov/antidepressants.html", "source_date": "2025-05-10", "accessed": "2026-08-12", "source_role": "official", "get_status": 200, "used_for": "약을 임의로 중단하지 않고 부작용·복용 변화와 복용 중인 약을 의료진에게 알리는 원칙"},
+    {"id": "S5", "organization": "National Health Service", "title": "Antidepressants", "url": "https://www.nhs.uk/medicines/antidepressants/", "source_date": "2025-03-10", "accessed": "2026-08-12", "source_role": "official", "get_status": 200, "used_for": "초기 부작용과 상담을 위한 수면·불안 관찰 맥락"},
+    {"id": "S6", "organization": "National Institute of Mental Health", "title": "Suicide: Frequently Asked Questions", "url": "https://www.nimh.nih.gov/health/publications/suicide-faq", "source_date": "2025-07-21", "accessed": "2026-08-12", "source_role": "official", "get_status": 200, "used_for": "자해 생각이나 즉각적 위험에서 기록보다 위기 지원과 긴급 도움을 우선하는 경계"}
+  ],
+  "data_points": [
+    {"claim": "항우울제는 효과를 보이는 데 보통 4~8주가 걸릴 수 있으며 수면·식욕·에너지·집중 변화가 기분보다 먼저 달라질 수 있다.", "source_id": "S1", "claim_type": "clinical-context", "source_date": "2023-12-12", "supports_section": "첫 주의 시작일·약 이름·복용 시각은 사실로 고정하기"},
+    {"claim": "의약품 정보는 자주 갱신되며 개인의 의료 상황에 맞는 치료 계획은 의료진과 함께 세워야 한다.", "source_id": "S1", "claim_type": "professional-guidance", "source_date": "2023-12-12", "supports_section": "둘째 주의 수면·불안·몸 변화를 서로 다른 줄에 적기"},
+    {"claim": "플루옥세틴 의약품 안내는 초기 치료나 용량 변경 때 새롭거나 악화하는 불안, 초조, 공황, 불면, 충동성, 비정상적 행동 변화와 자살 생각을 처방자에게 알리도록 한다.", "source_id": "S3", "claim_type": "safety-guidance", "source_date": "2026-02-12", "supports_section": "새롭거나 심한 위험 신호는 기록보다 먼저 알리기"},
+    {"claim": "MedlinePlus는 항우울제 정보에서 부작용과 약의 변화는 처방자와 상의하도록 안내한다.", "source_id": "S4", "claim_type": "professional-guidance", "source_date": "2025-05-10", "supports_section": "셋째 주의 일·돌봄·운전 기능은 결과가 아닌 장면으로 쓰기"},
+    {"claim": "MedlinePlus는 항우울제를 처방자와 상의하지 않고 중단해서는 안 된다고 안내한다.", "source_id": "S4", "claim_type": "safety-guidance", "source_date": "2025-05-10", "supports_section": "넷째 주의 약 목록과 상담 질문은 조정 지시와 분리하기"},
+    {"claim": "NIMH는 의약품 정보가 자주 갱신되며 개인의 의료 상황에 맞는 치료 계획은 의료진과 함께 세워야 한다고 안내한다.", "source_id": "S1", "claim_type": "professional-guidance", "source_date": "2023-12-12", "supports_section": "첫 4주 기록은 네 장의 결론이 아니라 한 번의 상담 순서다"}
+  ]
+}

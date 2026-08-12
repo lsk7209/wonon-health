@@ -1,0 +1,76 @@
+{
+  "id": "d014",
+  "slug": "fecal-urgency-incontinence-log",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "2c00f833d19682e1d8ec261a02167d65fc87e68b0a059c3ae2b5fa2b5971d144",
+    "research_sha256": "37c213c38b232f09d93eeb1a12d1cd53164d3ad5a5adbc41c9126918cd922463",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4806,
+    "visible_korean_body_count": 4806,
+    "h2_count_before_reader_references": 6,
+    "h2_count": 6,
+    "data_points": 6,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/medication-reconciliation-sheet",
+      "/article/health-checkup-questions",
+      "/article/positive-stool-test-followup",
+      "/article/changed-constipation-calendar"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D14-S1": 200,
+      "D14-S2": 200,
+      "D14-S3": 200,
+      "D14-S4": 200,
+      "D14-S5": 200
+    },
+    "article_specific_details": 2,
+    "max_prose_7_token_jaccard": 0,
+    "closest_prose_comparator": "d001-menopause-migraine-pattern"
+  },
+  "compared_rows": [
+    "89 released corpus articles",
+    "batch-20",
+    "batch-30",
+    "batch-60",
+    "d001-d013",
+    "d015-d017"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

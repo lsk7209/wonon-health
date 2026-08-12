@@ -1,0 +1,2064 @@
+[
+  {
+    "id": "d035",
+    "slug": "caregiver-burnout-support-map",
+    "title": "돌봄을 하며 내 건강이 무너지는 느낌이 들 때: 소진 지원 지도를 만드는 법",
+    "cluster": "caregiving-mental-health",
+    "reader_job": "돌봄 업무를 버리지 않으면서 자신의 수면·식사·진료 공백과 지원 요청 우선순위를 정한다.",
+    "decision_moment": "피로가 휴식 뒤에도 회복되지 않고 본인 진료를 미루기 시작했을 때.",
+    "artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+    "architecture": [
+      "돌봄 부담의 기능 신호",
+      "이번 주 미룬 자기돌봄 찾기",
+      "대체 가능한 일 분류",
+      "지원 요청 문장",
+      "위기·상담 연결"
+    ],
+    "faq_plan": "죄책감 없이 지원을 요청하는 기준과 즉시 도움을 받아야 할 정신건강 신호",
+    "cta": "이번 주에 대신 맡길 수 있는 한 일을 한 사람에게 요청한다.",
+    "nearest_existing": [
+      {
+        "slug": "caregiving-own-medication-two-column",
+        "changed_decision": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+        "changed_architecture": [
+          "돌봄 부담의 기능 신호",
+          "이번 주 미룬 자기돌봄 찾기",
+          "대체 가능한 일 분류",
+          "지원 요청 문장",
+          "위기·상담 연결"
+        ]
+      },
+      {
+        "slug": "caregiving-appointment-questionnaire",
+        "changed_decision": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+        "changed_architecture": [
+          "돌봄 부담의 기능 신호",
+          "이번 주 미룬 자기돌봄 찾기",
+          "대체 가능한 일 분류",
+          "지원 요청 문장",
+          "위기·상담 연결"
+        ]
+      }
+    ],
+    "non_overlap": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+    "sources": [
+      [
+        "https://www.caregiver.org/resource/taking-care-you-self-care-family-caregivers/",
+        "자기돌봄·지원",
+        "official"
+      ],
+      [
+        "https://www.cdc.gov/healthy-aging/media/pdfs/2024/06/Promoting-Caregiving-Across-the-Full-Community-Call-to-Action-for-PH-Professionals_executive-summary.pdf",
+        "돌봄자 부담의 공중보건 맥락",
+        "official"
+      ],
+      [
+        "https://www.nimh.nih.gov/health/topics/suicide-prevention",
+        "위기 연결",
+        "official"
+      ]
+    ],
+    "ymyl": "자살 생각, 자신·타인 안전 우려, 기능 상실은 기록보다 즉시 지역 응급·위기 지원을 우선한다. 진단·상담 대체가 아니다.",
+    "situation": "건강 상담을 위한 기록과 안전 확인",
+    "answer_claim": "돌봄 업무를 버리지 않으면서 자신의 수면·식사·진료 공백과 지원 요청 우선순위를 정한다.",
+    "subtitle": "건강 상담을 위한 기록과 안전 확인",
+    "long_tail": "건강 상담을 위한 기록과 안전 확인",
+    "main_keyword": "건강 상담을 위한 기록과 안전 확인",
+    "extended_keywords": [
+      "건강 상담을 위한 기록과 안전 확인",
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "search_intent": "건강 상담을 위한 기록과 안전 확인",
+    "unique_angle": "건강 상담을 위한 기록과 안전 확인",
+    "evidence_plan": "건강 상담을 위한 기록과 안전 확인",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "caregiving-own-medication-two-column | caregiving-appointment-questionnaire | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "건강 상담을 위한 기록과 안전 확인",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "article_research_question_seed": "건강 상담을 위한 기록과 안전 확인",
+    "reader_outcome_seed": "건강 상담을 위한 기록과 안전 확인",
+    "ymyl_boundaries": [
+      "caregiver-burnout-support-map: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "caregiver-burnout-support-map: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "caregiver-burnout-support-map: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "caregiving-own-medication-two-column",
+        "caregiving-appointment-questionnaire"
+      ],
+      "changed_reader_decision": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+      "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+      "changed_artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+      "changed_architecture": [
+        "돌봄 부담의 기능 신호",
+        "이번 주 미룬 자기돌봄 찾기",
+        "대체 가능한 일 분류",
+        "지원 요청 문장",
+        "위기·상담 연결"
+      ]
+    },
+    "article_specific_detail": "건강 상담을 위한 기록과 안전 확인",
+    "historical_comparisons": [
+      {
+        "slug": "caregiving-own-medication-two-column",
+        "changed_decision": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+        "changed_architecture": [
+          "돌봄 부담의 기능 신호",
+          "이번 주 미룬 자기돌봄 찾기",
+          "대체 가능한 일 분류",
+          "지원 요청 문장",
+          "위기·상담 연결"
+        ]
+      },
+      {
+        "slug": "caregiving-appointment-questionnaire",
+        "changed_decision": "기존 글은 돌봄 중 약·예약 누락 방지; 본문은 돌봄자 자신의 소진과 지원망 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "역할·대체인력·내 건강경고신호 3열 지원지도",
+        "changed_architecture": [
+          "돌봄 부담의 기능 신호",
+          "이번 주 미룬 자기돌봄 찾기",
+          "대체 가능한 일 분류",
+          "지원 요청 문장",
+          "위기·상담 연결"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d036",
+    "slug": "adult-vaccine-record-rebuild",
+    "title": "50대 이후 예방접종 기록이 비어 있을 때: 확인 경로부터 정리하는 카드",
+    "cluster": "preventive-care",
+    "reader_job": "기억·종이기록·전자기록을 구분해 접종기관에 확인할 질문을 준비한다.",
+    "decision_moment": "접종력을 모르거나 여러 기관 기록이 달라 다음 접종을 예약하기 전.",
+    "artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+    "architecture": [
+      "기록 부재가 뜻하는 것",
+      "찾을 수 있는 기록 경로",
+      "연령과 위험요인 분리",
+      "예약 전 질문",
+      "접종 뒤 기록 보관"
+    ],
+    "faq_plan": "기록이 없으면 다시 맞아도 되는지에 대해 왜 개별 확인이 필요한가",
+    "cta": "확인 가능한 마지막 접종 날짜와 기관 한 곳을 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "shingles-vaccine-visit-prep",
+        "changed_decision": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+        "changed_architecture": [
+          "기록 부재가 뜻하는 것",
+          "찾을 수 있는 기록 경로",
+          "연령과 위험요인 분리",
+          "예약 전 질문",
+          "접종 뒤 기록 보관"
+        ]
+      },
+      {
+        "slug": "covid-vaccine-appointment-note",
+        "changed_decision": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+        "changed_architecture": [
+          "기록 부재가 뜻하는 것",
+          "찾을 수 있는 기록 경로",
+          "연령과 위험요인 분리",
+          "예약 전 질문",
+          "접종 뒤 기록 보관"
+        ]
+      }
+    ],
+    "non_overlap": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+    "sources": [
+      [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult.html",
+        "성인 일정 확인",
+        "official"
+      ],
+      [
+        "https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do",
+        "국내 예방접종 기록 경로",
+        "official"
+      ],
+      [
+        "https://www.cdc.gov/vaccines-adults/recommended-vaccines/index.html",
+        "환자용 일정 설명",
+        "official"
+      ]
+    ],
+    "ymyl": "백신 종류·횟수·간격은 연령, 면역상태, 과거력에 따라 달라진다. 카드만으로 접종 여부를 결정하지 않는다.",
+    "situation": "건강 상담을 위한 기록과 안전 확인",
+    "answer_claim": "기억·종이기록·전자기록을 구분해 접종기관에 확인할 질문을 준비한다.",
+    "subtitle": "건강 상담을 위한 기록과 안전 확인",
+    "long_tail": "건강 상담을 위한 기록과 안전 확인",
+    "main_keyword": "건강 상담을 위한 기록과 안전 확인",
+    "extended_keywords": [
+      "건강 상담을 위한 기록과 안전 확인",
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "search_intent": "건강 상담을 위한 기록과 안전 확인",
+    "unique_angle": "건강 상담을 위한 기록과 안전 확인",
+    "evidence_plan": "건강 상담을 위한 기록과 안전 확인",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "shingles-vaccine-visit-prep | covid-vaccine-appointment-note | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "건강 상담을 위한 기록과 안전 확인",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "article_research_question_seed": "건강 상담을 위한 기록과 안전 확인",
+    "reader_outcome_seed": "건강 상담을 위한 기록과 안전 확인",
+    "ymyl_boundaries": [
+      "adult-vaccine-record-rebuild: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "adult-vaccine-record-rebuild: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "adult-vaccine-record-rebuild: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "shingles-vaccine-visit-prep",
+        "covid-vaccine-appointment-note"
+      ],
+      "changed_reader_decision": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+      "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+      "changed_artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+      "changed_architecture": [
+        "기록 부재가 뜻하는 것",
+        "찾을 수 있는 기록 경로",
+        "연령과 위험요인 분리",
+        "예약 전 질문",
+        "접종 뒤 기록 보관"
+      ]
+    },
+    "article_specific_detail": "건강 상담을 위한 기록과 안전 확인",
+    "historical_comparisons": [
+      {
+        "slug": "shingles-vaccine-visit-prep",
+        "changed_decision": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+        "changed_architecture": [
+          "기록 부재가 뜻하는 것",
+          "찾을 수 있는 기록 경로",
+          "연령과 위험요인 분리",
+          "예약 전 질문",
+          "접종 뒤 기록 보관"
+        ]
+      },
+      {
+        "slug": "covid-vaccine-appointment-note",
+        "changed_decision": "단일 백신 예약이 아니라 여러 성인 예방접종의 기록 재구성과 확인 경로가 핵심이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "백신명·날짜·기관·증빙·확인할 질문 5칸 카드",
+        "changed_architecture": [
+          "기록 부재가 뜻하는 것",
+          "찾을 수 있는 기록 경로",
+          "연령과 위험요인 분리",
+          "예약 전 질문",
+          "접종 뒤 기록 보관"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d037",
+    "slug": "prolonged-fatigue-after-respiratory-infection",
+    "title": "감기·독감 뒤 피로가 오래갈 때: 회복 기록과 재평가 신호를 나누는 법",
+    "cluster": "infection-recovery",
+    "reader_job": "회복 경과를 기록하면서 호흡·흉통·기능저하가 있는지 구분해 재평가 시점을 정한다.",
+    "decision_moment": "급성 감염은 지나갔지만 일상 활동이 회복되지 않을 때.",
+    "artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+    "architecture": [
+      "회복 속도의 개인차",
+      "활동 후 변화 기록",
+      "기존질환·약물 확인",
+      "진료를 앞당길 신호",
+      "다음 상담 질문"
+    ],
+    "faq_plan": "휴식과 활동 조절이 왜 진단이나 치료계획을 대신하지 않는가",
+    "cta": "오늘 가능한 활동 하나와 그 뒤 증상을 같은 줄에 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "post-flu-cough-recovery-log",
+        "changed_decision": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+        "changed_architecture": [
+          "회복 속도의 개인차",
+          "활동 후 변화 기록",
+          "기존질환·약물 확인",
+          "진료를 앞당길 신호",
+          "다음 상담 질문"
+        ]
+      },
+      {
+        "slug": "fatigue-pacing-week-map",
+        "changed_decision": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+        "changed_architecture": [
+          "회복 속도의 개인차",
+          "활동 후 변화 기록",
+          "기존질환·약물 확인",
+          "진료를 앞당길 신호",
+          "다음 상담 질문"
+        ]
+      }
+    ],
+    "non_overlap": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+    "sources": [
+      [
+        "https://www.cdc.gov/covid/long-term-effects/index.html",
+        "감염 후 지속 증상",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/long-covid/",
+        "환자 경로",
+        "official"
+      ],
+      [
+        "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+        "호흡기 감염 맥락",
+        "official"
+      ]
+    ],
+    "ymyl": "새 흉통, 호흡곤란, 실신, 청색증, 혼돈은 회복 기록 대상이 아니라 즉시 평가 신호다.",
+    "situation": "건강 상담을 위한 기록과 안전 확인",
+    "answer_claim": "회복 경과를 기록하면서 호흡·흉통·기능저하가 있는지 구분해 재평가 시점을 정한다.",
+    "subtitle": "건강 상담을 위한 기록과 안전 확인",
+    "long_tail": "건강 상담을 위한 기록과 안전 확인",
+    "main_keyword": "건강 상담을 위한 기록과 안전 확인",
+    "extended_keywords": [
+      "건강 상담을 위한 기록과 안전 확인",
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "search_intent": "건강 상담을 위한 기록과 안전 확인",
+    "unique_angle": "건강 상담을 위한 기록과 안전 확인",
+    "evidence_plan": "건강 상담을 위한 기록과 안전 확인",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "post-flu-cough-recovery-log | fatigue-pacing-week-map | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "건강 상담을 위한 기록과 안전 확인",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "article_research_question_seed": "건강 상담을 위한 기록과 안전 확인",
+    "reader_outcome_seed": "건강 상담을 위한 기록과 안전 확인",
+    "ymyl_boundaries": [
+      "prolonged-fatigue-after-respiratory-infection: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "prolonged-fatigue-after-respiratory-infection: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "prolonged-fatigue-after-respiratory-infection: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "post-flu-cough-recovery-log",
+        "fatigue-pacing-week-map"
+      ],
+      "changed_reader_decision": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+      "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+      "changed_artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+      "changed_architecture": [
+        "회복 속도의 개인차",
+        "활동 후 변화 기록",
+        "기존질환·약물 확인",
+        "진료를 앞당길 신호",
+        "다음 상담 질문"
+      ]
+    },
+    "article_specific_detail": "건강 상담을 위한 기록과 안전 확인",
+    "historical_comparisons": [
+      {
+        "slug": "post-flu-cough-recovery-log",
+        "changed_decision": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+        "changed_architecture": [
+          "회복 속도의 개인차",
+          "활동 후 변화 기록",
+          "기존질환·약물 확인",
+          "진료를 앞당길 신호",
+          "다음 상담 질문"
+        ]
+      },
+      {
+        "slug": "fatigue-pacing-week-map",
+        "changed_decision": "기침 단독 또는 만성 피로 일반론이 아닌 감염 후 기능 회복 곡선과 재평가 결정을 다룬다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "활동 후 악화·휴식·호흡증상 7일 회복선",
+        "changed_architecture": [
+          "회복 속도의 개인차",
+          "활동 후 변화 기록",
+          "기존질환·약물 확인",
+          "진료를 앞당길 신호",
+          "다음 상담 질문"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d038",
+    "slug": "postherpetic-neuralgia-visit-note",
+    "title": "대상포진 발진 뒤 통증이 남을 때: 신경통 상담 메모",
+    "cluster": "pain-neurology",
+    "reader_job": "피부 병변이 가라앉은 뒤에도 남는 통증의 위치·성격·수면 영향을 진료 질문으로 바꾼다.",
+    "decision_moment": "발진이 좋아졌는데 화끈거림·찌릿함이 계속되어 진통제를 임의로 늘리려 할 때.",
+    "artifact": "피부변화·통증질·접촉민감도·수면 4칸 메모",
+    "architecture": [
+      "발진과 통증의 시간차",
+      "통증 언어 고르기",
+      "생활기능 영향",
+      "약물 안전 질문",
+      "긴급한 눈·얼굴 침범"
+    ],
+    "faq_plan": "대상포진 백신 글과 통증상담 글이 다른 이유",
+    "cta": "통증이 가장 심한 시간과 방해받은 활동을 하나 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "shingles-vaccine-visit-prep",
+        "changed_decision": "예방접종 준비가 아니라 대상포진 이후 지속 통증의 기능·상담 문제다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "피부변화·통증질·접촉민감도·수면 4칸 메모",
+        "changed_architecture": [
+          "발진과 통증의 시간차",
+          "통증 언어 고르기",
+          "생활기능 영향",
+          "약물 안전 질문",
+          "긴급한 눈·얼굴 침범"
+        ]
+      }
+    ],
+    "non_overlap": "예방접종 준비가 아니라 대상포진 이후 지속 통증의 기능·상담 문제다.",
+    "sources": [
+      [
+        "https://www.cdc.gov/shingles/about/index.html",
+        "대상포진·합병증",
+        "official"
+      ],
+      [
+        "https://www.cdc.gov/shingles/vaccines/index.html",
+        "신경통 예방 맥락",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/shingles/",
+        "진료 신호",
+        "official"
+      ]
+    ],
+    "ymyl": "눈 주변 발진·시력 변화, 얼굴 약화, 급격한 악화는 통증 기록보다 당일 평가를 우선한다. 약물 용량을 조정하지 않는다.",
+    "situation": "건강 상담을 위한 기록과 안전 확인",
+    "answer_claim": "피부 병변이 가라앉은 뒤에도 남는 통증의 위치·성격·수면 영향을 진료 질문으로 바꾼다.",
+    "subtitle": "건강 상담을 위한 기록과 안전 확인",
+    "long_tail": "건강 상담을 위한 기록과 안전 확인",
+    "main_keyword": "건강 상담을 위한 기록과 안전 확인",
+    "extended_keywords": [
+      "건강 상담을 위한 기록과 안전 확인",
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "search_intent": "건강 상담을 위한 기록과 안전 확인",
+    "unique_angle": "건강 상담을 위한 기록과 안전 확인",
+    "evidence_plan": "건강 상담을 위한 기록과 안전 확인",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "shingles-vaccine-visit-prep | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "건강 상담을 위한 기록과 안전 확인",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "article_research_question_seed": "건강 상담을 위한 기록과 안전 확인",
+    "reader_outcome_seed": "건강 상담을 위한 기록과 안전 확인",
+    "ymyl_boundaries": [
+      "postherpetic-neuralgia-visit-note: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "postherpetic-neuralgia-visit-note: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "postherpetic-neuralgia-visit-note: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "shingles-vaccine-visit-prep"
+      ],
+      "changed_reader_decision": "예방접종 준비가 아니라 대상포진 이후 지속 통증의 기능·상담 문제다.",
+      "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+      "changed_artifact": "피부변화·통증질·접촉민감도·수면 4칸 메모",
+      "changed_architecture": [
+        "발진과 통증의 시간차",
+        "통증 언어 고르기",
+        "생활기능 영향",
+        "약물 안전 질문",
+        "긴급한 눈·얼굴 침범"
+      ]
+    },
+    "article_specific_detail": "건강 상담을 위한 기록과 안전 확인",
+    "historical_comparisons": [
+      {
+        "slug": "shingles-vaccine-visit-prep",
+        "changed_decision": "예방접종 준비가 아니라 대상포진 이후 지속 통증의 기능·상담 문제다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "피부변화·통증질·접촉민감도·수면 4칸 메모",
+        "changed_architecture": [
+          "발진과 통증의 시간차",
+          "통증 언어 고르기",
+          "생활기능 영향",
+          "약물 안전 질문",
+          "긴급한 눈·얼굴 침범"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d039",
+    "slug": "changing-mole-photo-rule",
+    "title": "점이 달라져 보일 때: 사진 비교와 피부과 상담 기준",
+    "cluster": "skin-cancer-awareness",
+    "reader_job": "새 점 또는 변하는 병변을 같은 조건 사진과 변화기록으로 정리해 피부 평가 필요성을 판단한다.",
+    "decision_moment": "색·크기·경계·출혈이 예전과 다르게 보여 인터넷 사진과 비교하고 싶을 때.",
+    "artifact": "날짜·위치·크기 기준물·변화 4항목 사진 규칙",
+    "architecture": [
+      "사진이 할 수 없는 일",
+      "변화를 남기는 조건",
+      "관찰보다 평가를 앞당길 변화",
+      "가족력 질문",
+      "자외선 노출 예방"
+    ],
+    "faq_plan": "ABCDE가 자가진단 도구가 아닌 상담 언어인 이유",
+    "cta": "같은 조명에서 기준물과 함께 한 장만 기록한다.",
+    "nearest_existing": [
+      {
+        "slug": "itch-rash-safety-note",
+        "changed_decision": "가려움·발진 안전 메모가 아니라 색소병변 변화와 피부암 평가 결정이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "날짜·위치·크기 기준물·변화 4항목 사진 규칙",
+        "changed_architecture": [
+          "사진이 할 수 없는 일",
+          "변화를 남기는 조건",
+          "관찰보다 평가를 앞당길 변화",
+          "가족력 질문",
+          "자외선 노출 예방"
+        ]
+      }
+    ],
+    "non_overlap": "가려움·발진 안전 메모가 아니라 색소병변 변화와 피부암 평가 결정이다.",
+    "sources": [
+      [
+        "https://www.cancer.gov/types/skin/patient/skin-prevention-pdq",
+        "피부암 예방·위험",
+        "official"
+      ],
+      [
+        "https://www.aad.org/public/diseases/skin-cancer/find/at-risk/abcdes",
+        "변화 관찰 언어",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/melanoma-skin-cancer/",
+        "평가 신호",
+        "official"
+      ]
+    ],
+    "ymyl": "출혈·빠른 변화·치유되지 않는 병변은 사진 추적만 하지 말고 진료를 받는다. 사진으로 양성을 판단하지 않는다.",
+    "situation": "건강 상담을 위한 기록과 안전 확인",
+    "answer_claim": "새 점 또는 변하는 병변을 같은 조건 사진과 변화기록으로 정리해 피부 평가 필요성을 판단한다.",
+    "subtitle": "건강 상담을 위한 기록과 안전 확인",
+    "long_tail": "건강 상담을 위한 기록과 안전 확인",
+    "main_keyword": "건강 상담을 위한 기록과 안전 확인",
+    "extended_keywords": [
+      "건강 상담을 위한 기록과 안전 확인",
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "search_intent": "건강 상담을 위한 기록과 안전 확인",
+    "unique_angle": "건강 상담을 위한 기록과 안전 확인",
+    "evidence_plan": "건강 상담을 위한 기록과 안전 확인",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "itch-rash-safety-note | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "건강 상담을 위한 기록과 안전 확인",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "건강 상담을 위한 기록과 안전 확인"
+    ],
+    "article_research_question_seed": "건강 상담을 위한 기록과 안전 확인",
+    "reader_outcome_seed": "건강 상담을 위한 기록과 안전 확인",
+    "ymyl_boundaries": [
+      "changing-mole-photo-rule: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "changing-mole-photo-rule: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "changing-mole-photo-rule: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "itch-rash-safety-note"
+      ],
+      "changed_reader_decision": "가려움·발진 안전 메모가 아니라 색소병변 변화와 피부암 평가 결정이다.",
+      "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+      "changed_artifact": "날짜·위치·크기 기준물·변화 4항목 사진 규칙",
+      "changed_architecture": [
+        "사진이 할 수 없는 일",
+        "변화를 남기는 조건",
+        "관찰보다 평가를 앞당길 변화",
+        "가족력 질문",
+        "자외선 노출 예방"
+      ]
+    },
+    "article_specific_detail": "건강 상담을 위한 기록과 안전 확인",
+    "historical_comparisons": [
+      {
+        "slug": "itch-rash-safety-note",
+        "changed_decision": "가려움·발진 안전 메모가 아니라 색소병변 변화와 피부암 평가 결정이다.",
+        "changed_evidence_question": "건강 상담을 위한 기록과 안전 확인",
+        "changed_artifact": "날짜·위치·크기 기준물·변화 4항목 사진 규칙",
+        "changed_architecture": [
+          "사진이 할 수 없는 일",
+          "변화를 남기는 조건",
+          "관찰보다 평가를 앞당길 변화",
+          "가족력 질문",
+          "자외선 노출 예방"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d040",
+    "slug": "facial-flushing-not-hot-flash",
+    "title": "얼굴 홍조가 열감과 다를 때: 갱년기 증상으로 단정하기 전 체크",
+    "cluster": "skin-menopause",
+    "reader_job": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+    "decision_moment": "열감 기록을 해도 얼굴 따가움·실핏줄·발진이 반복될 때.",
+    "artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+    "architecture": [
+      "같아 보이는 홍조",
+      "위치와 피부감각",
+      "음식·음주·제품 노출",
+      "약·질환 확인 질문",
+      "급성 알레르기 신호"
+    ],
+    "faq_plan": "왜 열감 일지와 피부 홍조 표를 분리하는가",
+    "cta": "다음 홍조 때 몸 전체 열감과 피부 따가움을 따로 표시한다.",
+    "nearest_existing": [
+      {
+        "slug": "hot-flash-daily-record",
+        "changed_decision": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+        "changed_evidence_question": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+        "changed_artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+        "changed_architecture": [
+          "같아 보이는 홍조",
+          "위치와 피부감각",
+          "음식·음주·제품 노출",
+          "약·질환 확인 질문",
+          "급성 알레르기 신호"
+        ]
+      },
+      {
+        "slug": "itch-rash-safety-note",
+        "changed_decision": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+        "changed_evidence_question": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+        "changed_artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+        "changed_architecture": [
+          "같아 보이는 홍조",
+          "위치와 피부감각",
+          "음식·음주·제품 노출",
+          "약·질환 확인 질문",
+          "급성 알레르기 신호"
+        ]
+      }
+    ],
+    "non_overlap": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+    "sources": [
+      [
+        "https://www.aad.org/public/diseases/rosacea/what-is",
+        "주사 관련 증상",
+        "official"
+      ],
+      [
+        "https://www.acog.org/womens-health/faqs/the-menopause-years",
+        "폐경 열감 맥락",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/rosacea/",
+        "진료 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "입술·혀 부종, 숨참, 전신 두드러기는 홍조 기록이 아니라 응급 평가 신호다. 원인·치료제를 단정하지 않는다.",
+    "situation": "열감 기록을 해도 얼굴 따가움·실핏줄·발진이 반복될 때.",
+    "answer_claim": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+    "subtitle": "얼굴 홍조가 열감과 다를 때: 갱년기 증상으로 단정하기 전 체크",
+    "long_tail": "facial flushing not hot flash",
+    "main_keyword": "얼굴 홍조가 열감과 다를 때: 갱년기 증상으로 단정하기 전 체크",
+    "extended_keywords": [
+      "skin-menopause"
+    ],
+    "search_intent": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+    "unique_angle": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+    "evidence_plan": "주사 관련 증상, 폐경 열감 맥락, 진료 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "hot-flash-daily-record | itch-rash-safety-note | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "전신 열감/얼굴피부/유발요인 3축 비교표",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "전신 열감/얼굴피부/유발요인 3축 비교표"
+    ],
+    "article_research_question_seed": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+    "reader_outcome_seed": "다음 홍조 때 몸 전체 열감과 피부 따가움을 따로 표시한다.",
+    "ymyl_boundaries": [
+      "facial-flushing-not-hot-flash: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "facial-flushing-not-hot-flash: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "facial-flushing-not-hot-flash: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "hot-flash-daily-record",
+        "itch-rash-safety-note"
+      ],
+      "changed_reader_decision": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+      "changed_evidence_question": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+      "changed_artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+      "changed_architecture": [
+        "같아 보이는 홍조",
+        "위치와 피부감각",
+        "음식·음주·제품 노출",
+        "약·질환 확인 질문",
+        "급성 알레르기 신호"
+      ]
+    },
+    "article_specific_detail": "전신 열감/얼굴피부/유발요인 3축 비교표",
+    "historical_comparisons": [
+      {
+        "slug": "hot-flash-daily-record",
+        "changed_decision": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+        "changed_evidence_question": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+        "changed_artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+        "changed_architecture": [
+          "같아 보이는 홍조",
+          "위치와 피부감각",
+          "음식·음주·제품 노출",
+          "약·질환 확인 질문",
+          "급성 알레르기 신호"
+        ]
+      },
+      {
+        "slug": "itch-rash-safety-note",
+        "changed_decision": "열감의 생활패턴이나 일반 발진이 아니라 두 현상을 구별하는 관찰과 피부 상담 결정이다.",
+        "changed_evidence_question": "전신 열감과 얼굴 중심 홍조의 위치·지속·피부증상을 구분해 진료 질문을 정한다.",
+        "changed_artifact": "전신 열감/얼굴피부/유발요인 3축 비교표",
+        "changed_architecture": [
+          "같아 보이는 홍조",
+          "위치와 피부감각",
+          "음식·음주·제품 노출",
+          "약·질환 확인 질문",
+          "급성 알레르기 신호"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d041",
+    "slug": "hair-loss-scalp-pain-red-flags",
+    "title": "머리카락이 빠지면서 두피가 아플 때: 사진보다 먼저 확인할 신호",
+    "cluster": "dermatology",
+    "reader_job": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+    "decision_moment": "탈모 사진을 남기고 있지만 통증·가려움·비늘·국소 탈락이 동반될 때.",
+    "artifact": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+    "architecture": [
+      "정상 탈락과 경고 신호",
+      "두피 자체의 변화",
+      "약·질환·영양 질문",
+      "사진의 한계",
+      "진료 전 피해야 할 행동"
+    ],
+    "faq_plan": "보충제 추가가 평가를 대신하지 않는 이유",
+    "cta": "통증이 있는 부위와 시작 날짜를 사진 밖 메모에 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "hair-loss-photo-rule",
+        "changed_decision": "기존 글은 일정한 사진 기록법; 이 글은 두피 염증·흉터 가능성의 신속한 평가 신호다.",
+        "changed_evidence_question": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+        "changed_artifact": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+        "changed_architecture": [
+          "정상 탈락과 경고 신호",
+          "두피 자체의 변화",
+          "약·질환·영양 질문",
+          "사진의 한계",
+          "진료 전 피해야 할 행동"
+        ]
+      }
+    ],
+    "non_overlap": "기존 글은 일정한 사진 기록법; 이 글은 두피 염증·흉터 가능성의 신속한 평가 신호다.",
+    "sources": [
+      [
+        "https://www.aad.org/public/diseases/hair-loss/causes/18-causes",
+        "탈모 원인 맥락",
+        "official"
+      ],
+      [
+        "https://www.niams.nih.gov/health-topics/alopecia-areata",
+        "국소 탈락 참고",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/hair-loss/",
+        "진료 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "통증·고름·딱지·흉터성 변화 또는 급격한 국소 탈락은 자가 제품시험보다 진료가 우선이다. 영양제·약을 처방하지 않는다.",
+    "situation": "탈모 사진을 남기고 있지만 통증·가려움·비늘·국소 탈락이 동반될 때.",
+    "answer_claim": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+    "subtitle": "머리카락이 빠지면서 두피가 아플 때: 사진보다 먼저 확인할 신호",
+    "long_tail": "hair loss scalp pain red flags",
+    "main_keyword": "머리카락이 빠지면서 두피가 아플 때: 사진보다 먼저 확인할 신호",
+    "extended_keywords": [
+      "dermatology"
+    ],
+    "search_intent": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+    "unique_angle": "기존 글은 일정한 사진 기록법; 이 글은 두피 염증·흉터 가능성의 신속한 평가 신호다.",
+    "evidence_plan": "탈모 원인 맥락, 국소 탈락 참고, 진료 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "hair-loss-photo-rule | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "가르마·탈락부위·두피감각·새 제품 4칸 기록"
+    ],
+    "article_research_question_seed": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+    "reader_outcome_seed": "통증이 있는 부위와 시작 날짜를 사진 밖 메모에 적는다.",
+    "ymyl_boundaries": [
+      "hair-loss-scalp-pain-red-flags: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "hair-loss-scalp-pain-red-flags: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "hair-loss-scalp-pain-red-flags: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "hair-loss-photo-rule"
+      ],
+      "changed_reader_decision": "기존 글은 일정한 사진 기록법; 이 글은 두피 염증·흉터 가능성의 신속한 평가 신호다.",
+      "changed_evidence_question": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+      "changed_artifact": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+      "changed_architecture": [
+        "정상 탈락과 경고 신호",
+        "두피 자체의 변화",
+        "약·질환·영양 질문",
+        "사진의 한계",
+        "진료 전 피해야 할 행동"
+      ]
+    },
+    "article_specific_detail": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+    "historical_comparisons": [
+      {
+        "slug": "hair-loss-photo-rule",
+        "changed_decision": "기존 글은 일정한 사진 기록법; 이 글은 두피 염증·흉터 가능성의 신속한 평가 신호다.",
+        "changed_evidence_question": "탈락 양상과 두피 통증·붉음·흉터 가능성을 분리해 피부과 평가 시점을 정한다.",
+        "changed_artifact": "가르마·탈락부위·두피감각·새 제품 4칸 기록",
+        "changed_architecture": [
+          "정상 탈락과 경고 신호",
+          "두피 자체의 변화",
+          "약·질환·영양 질문",
+          "사진의 한계",
+          "진료 전 피해야 할 행동"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d042",
+    "slug": "blurred-vision-diabetes-hypertension",
+    "title": "당뇨·고혈압이 있는데 시야가 흐릴 때: 안과 상담 전 기록",
+    "cluster": "eye-metabolic",
+    "reader_job": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+    "decision_moment": "안경 문제라 생각했지만 흐림이 반복되거나 기존 대사질환이 있을 때.",
+    "artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+    "architecture": [
+      "흐림의 모양",
+      "대사질환과 눈 검진",
+      "기록할 측정값",
+      "당일 평가 신호",
+      "정기검진 질문"
+    ],
+    "faq_plan": "망막검진과 새 시력변화 평가가 다른 이유",
+    "cta": "다음 증상 때 한쪽씩 가려 시야 차이를 기록한다.",
+    "nearest_existing": [
+      {
+        "slug": "new-floaters-flashes-contact-card",
+        "changed_decision": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+        "changed_evidence_question": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+        "changed_artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+        "changed_architecture": [
+          "흐림의 모양",
+          "대사질환과 눈 검진",
+          "기록할 측정값",
+          "당일 평가 신호",
+          "정기검진 질문"
+        ]
+      },
+      {
+        "slug": "fasting-glucose-result-context",
+        "changed_decision": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+        "changed_evidence_question": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+        "changed_artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+        "changed_architecture": [
+          "흐림의 모양",
+          "대사질환과 눈 검진",
+          "기록할 측정값",
+          "당일 평가 신호",
+          "정기검진 질문"
+        ]
+      }
+    ],
+    "non_overlap": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+    "sources": [
+      [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+        "당뇨망막병증",
+        "official"
+      ],
+      [
+        "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems",
+        "당뇨 합병증",
+        "official"
+      ],
+      [
+        "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/refractive-errors",
+        "시야 흐림 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "갑작스러운 시력저하, 말·팔다리 이상, 심한 눈통증은 기록이 아니라 응급 평가 신호다. 혈당·혈압 약을 임의 조절하지 않는다.",
+    "situation": "안경 문제라 생각했지만 흐림이 반복되거나 기존 대사질환이 있을 때.",
+    "answer_claim": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+    "subtitle": "당뇨·고혈압이 있는데 시야가 흐릴 때: 안과 상담 전 기록",
+    "long_tail": "blurred vision diabetes hypertension",
+    "main_keyword": "당뇨·고혈압이 있는데 시야가 흐릴 때: 안과 상담 전 기록",
+    "extended_keywords": [
+      "eye-metabolic"
+    ],
+    "search_intent": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+    "unique_angle": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+    "evidence_plan": "당뇨망막병증, 당뇨 합병증, 시야 흐림 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "new-floaters-flashes-contact-card | fasting-glucose-result-context | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "한쪽/양쪽·갑작스러움·동반통증·측정값 메모"
+    ],
+    "article_research_question_seed": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+    "reader_outcome_seed": "다음 증상 때 한쪽씩 가려 시야 차이를 기록한다.",
+    "ymyl_boundaries": [
+      "blurred-vision-diabetes-hypertension: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "blurred-vision-diabetes-hypertension: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "blurred-vision-diabetes-hypertension: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "new-floaters-flashes-contact-card",
+        "fasting-glucose-result-context"
+      ],
+      "changed_reader_decision": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+      "changed_evidence_question": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+      "changed_artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+      "changed_architecture": [
+        "흐림의 모양",
+        "대사질환과 눈 검진",
+        "기록할 측정값",
+        "당일 평가 신호",
+        "정기검진 질문"
+      ]
+    },
+    "article_specific_detail": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+    "historical_comparisons": [
+      {
+        "slug": "new-floaters-flashes-contact-card",
+        "changed_decision": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+        "changed_evidence_question": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+        "changed_artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+        "changed_architecture": [
+          "흐림의 모양",
+          "대사질환과 눈 검진",
+          "기록할 측정값",
+          "당일 평가 신호",
+          "정기검진 질문"
+        ]
+      },
+      {
+        "slug": "fasting-glucose-result-context",
+        "changed_decision": "비문증·번쩍임 응급 신호나 공복혈당 결과가 아니라 대사질환 맥락의 흐린 시야 평가다.",
+        "changed_evidence_question": "시야 흐림의 시간·한쪽/양쪽·혈당·반복 코피의 의학적 맥락을 기록해 긴급도와 안과 질문을 정한다.",
+        "changed_artifact": "한쪽/양쪽·갑작스러움·동반통증·측정값 메모",
+        "changed_architecture": [
+          "흐림의 모양",
+          "대사질환과 눈 검진",
+          "기록할 측정값",
+          "당일 평가 신호",
+          "정기검진 질문"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d043",
+    "slug": "cataract-surgery-daily-function-questions",
+    "title": "백내장 수술 권유를 받았을 때: 시력표보다 일상기능으로 묻는 질문",
+    "cluster": "eye-aging",
+    "reader_job": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+    "decision_moment": "백내장 진단은 들었지만 지금 수술할지 고민될 때.",
+    "artifact": "운전·계단·독서·야간빛번짐 기능카드",
+    "architecture": [
+      "백내장과 기능저하",
+      "일상 장면 기록",
+      "수술 전 질문",
+      "렌즈·동반질환 상담 범위",
+      "수술 뒤 즉시 연락할 신호"
+    ],
+    "faq_plan": "수술 시기를 시력표 숫자 하나로 정하지 않는 이유",
+    "cta": "가장 피하고 있는 일상 장면 하나를 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "new-floaters-flashes-contact-card",
+        "changed_decision": "망막 응급 연락카드가 아니라 계획수술의 기능·공유의사결정 준비다.",
+        "changed_evidence_question": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+        "changed_artifact": "운전·계단·독서·야간빛번짐 기능카드",
+        "changed_architecture": [
+          "백내장과 기능저하",
+          "일상 장면 기록",
+          "수술 전 질문",
+          "렌즈·동반질환 상담 범위",
+          "수술 뒤 즉시 연락할 신호"
+        ]
+      }
+    ],
+    "non_overlap": "망막 응급 연락카드가 아니라 계획수술의 기능·공유의사결정 준비다.",
+    "sources": [
+      [
+        "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+        "백내장 기본",
+        "official"
+      ],
+      [
+        "https://www.aao.org/eye-health/diseases/what-are-cataracts",
+        "수술 결정 맥락",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/cataracts/",
+        "환자 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "갑작스러운 통증·시력상실은 백내장 대기 문제가 아니다. 수술 여부·렌즈 선택을 권하지 않는다.",
+    "situation": "백내장 진단은 들었지만 지금 수술할지 고민될 때.",
+    "answer_claim": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+    "subtitle": "백내장 수술 권유를 받았을 때: 시력표보다 일상기능으로 묻는 질문",
+    "long_tail": "cataract surgery daily function questions",
+    "main_keyword": "백내장 수술 권유를 받았을 때: 시력표보다 일상기능으로 묻는 질문",
+    "extended_keywords": [
+      "eye-aging"
+    ],
+    "search_intent": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+    "unique_angle": "망막 응급 연락카드가 아니라 계획수술의 기능·공유의사결정 준비다.",
+    "evidence_plan": "백내장 기본, 수술 결정 맥락, 환자 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "new-floaters-flashes-contact-card | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "운전·계단·독서·야간빛번짐 기능카드",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "운전·계단·독서·야간빛번짐 기능카드"
+    ],
+    "article_research_question_seed": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+    "reader_outcome_seed": "가장 피하고 있는 일상 장면 하나를 적는다.",
+    "ymyl_boundaries": [
+      "cataract-surgery-daily-function-questions: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "cataract-surgery-daily-function-questions: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "cataract-surgery-daily-function-questions: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "new-floaters-flashes-contact-card"
+      ],
+      "changed_reader_decision": "망막 응급 연락카드가 아니라 계획수술의 기능·공유의사결정 준비다.",
+      "changed_evidence_question": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+      "changed_artifact": "운전·계단·독서·야간빛번짐 기능카드",
+      "changed_architecture": [
+        "백내장과 기능저하",
+        "일상 장면 기록",
+        "수술 전 질문",
+        "렌즈·동반질환 상담 범위",
+        "수술 뒤 즉시 연락할 신호"
+      ]
+    },
+    "article_specific_detail": "운전·계단·독서·야간빛번짐 기능카드",
+    "historical_comparisons": [
+      {
+        "slug": "new-floaters-flashes-contact-card",
+        "changed_decision": "망막 응급 연락카드가 아니라 계획수술의 기능·공유의사결정 준비다.",
+        "changed_evidence_question": "검사 수치가 아니라 운전·계단·독서·빛번짐의 실제 제한을 바탕으로 수술 상담 질문을 준비한다.",
+        "changed_artifact": "운전·계단·독서·야간빛번짐 기능카드",
+        "changed_architecture": [
+          "백내장과 기능저하",
+          "일상 장면 기록",
+          "수술 전 질문",
+          "렌즈·동반질환 상담 범위",
+          "수술 뒤 즉시 연락할 신호"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d044",
+    "slug": "hearing-test-hearing-aid-next-questions",
+    "title": "청력검사 결과를 받았을 때: 보청기 선택 전 먼저 물을 질문",
+    "cluster": "hearing-function",
+    "reader_job": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+    "decision_moment": "검사에서 저하를 들었고 곧바로 기기 구매를 권유받았을 때.",
+    "artifact": "대화·전화·TV·소음장소 4상황 기능표",
+    "architecture": [
+      "검사와 생활기능",
+      "양쪽 차이·갑작스러움",
+      "기기 전 의료평가 질문",
+      "시험착용 비교 기준",
+      "소통 전략"
+    ],
+    "faq_plan": "온라인 증폭기와 청력평가가 같은 일이 아닌 이유",
+    "cta": "가장 자주 놓치는 대화 상황 하나를 기록한다.",
+    "nearest_existing": [
+      {
+        "slug": "sudden-hearing-change-note",
+        "changed_decision": "돌발 청력저하의 응급 경로가 아니라 안정적 청력검사 후 기능·기기상담 준비다.",
+        "changed_evidence_question": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+        "changed_artifact": "대화·전화·TV·소음장소 4상황 기능표",
+        "changed_architecture": [
+          "검사와 생활기능",
+          "양쪽 차이·갑작스러움",
+          "기기 전 의료평가 질문",
+          "시험착용 비교 기준",
+          "소통 전략"
+        ]
+      }
+    ],
+    "non_overlap": "돌발 청력저하의 응급 경로가 아니라 안정적 청력검사 후 기능·기기상담 준비다.",
+    "sources": [
+      [
+        "https://www.nidcd.nih.gov/health/hearing-aids",
+        "보청기 정보",
+        "official"
+      ],
+      [
+        "https://www.nidcd.nih.gov/health/age-related-hearing-loss",
+        "청력 건강",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/hearing-loss/",
+        "진료 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "갑작스러운 한쪽 청력저하, 심한 어지럼·신경증상은 기기 비교 전에 긴급 평가가 필요하다. 기기 제품을 추천하지 않는다.",
+    "situation": "검사에서 저하를 들었고 곧바로 기기 구매를 권유받았을 때.",
+    "answer_claim": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+    "subtitle": "청력검사 결과를 받았을 때: 보청기 선택 전 먼저 물을 질문",
+    "long_tail": "hearing test hearing aid next questions",
+    "main_keyword": "청력검사 결과를 받았을 때: 보청기 선택 전 먼저 물을 질문",
+    "extended_keywords": [
+      "hearing-function"
+    ],
+    "search_intent": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+    "unique_angle": "돌발 청력저하의 응급 경로가 아니라 안정적 청력검사 후 기능·기기상담 준비다.",
+    "evidence_plan": "보청기 정보, 청력 건강, 진료 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "sudden-hearing-change-note | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "대화·전화·TV·소음장소 4상황 기능표",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "대화·전화·TV·소음장소 4상황 기능표"
+    ],
+    "article_research_question_seed": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+    "reader_outcome_seed": "가장 자주 놓치는 대화 상황 하나를 기록한다.",
+    "ymyl_boundaries": [
+      "hearing-test-hearing-aid-next-questions: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "hearing-test-hearing-aid-next-questions: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "hearing-test-hearing-aid-next-questions: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "sudden-hearing-change-note"
+      ],
+      "changed_reader_decision": "돌발 청력저하의 응급 경로가 아니라 안정적 청력검사 후 기능·기기상담 준비다.",
+      "changed_evidence_question": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+      "changed_artifact": "대화·전화·TV·소음장소 4상황 기능표",
+      "changed_architecture": [
+        "검사와 생활기능",
+        "양쪽 차이·갑작스러움",
+        "기기 전 의료평가 질문",
+        "시험착용 비교 기준",
+        "소통 전략"
+      ]
+    },
+    "article_specific_detail": "대화·전화·TV·소음장소 4상황 기능표",
+    "historical_comparisons": [
+      {
+        "slug": "sudden-hearing-change-note",
+        "changed_decision": "돌발 청력저하의 응급 경로가 아니라 안정적 청력검사 후 기능·기기상담 준비다.",
+        "changed_evidence_question": "청력도 숫자와 실제 대화·전화·소음환경의 어려움을 연결해 후속 상담을 준비한다.",
+        "changed_artifact": "대화·전화·TV·소음장소 4상황 기능표",
+        "changed_architecture": [
+          "검사와 생활기능",
+          "양쪽 차이·갑작스러움",
+          "기기 전 의료평가 질문",
+          "시험착용 비교 기준",
+          "소통 전략"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d045",
+    "slug": "recurrent-nosebleed-medication-context",
+    "title": "코피가 반복될 때: 건조함·혈압·복용약을 함께 적는 메모",
+    "cluster": "ent-medication-safety",
+    "reader_job": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+    "decision_moment": "짧은 코피가 자주 나거나 약을 복용 중이라 중단 여부가 걱정될 때.",
+    "artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+    "architecture": [
+      "반복과 대량 출혈 구분",
+      "건조·자극 요인",
+      "약물 확인의 원칙",
+      "압박 뒤 연락 신호",
+      "진료에 가져갈 정보"
+    ],
+    "faq_plan": "혈압약·항응고제를 스스로 끊지 말아야 하는 이유",
+    "cta": "다음 코피 때 시계로 지속시간을 잰다.",
+    "nearest_existing": [
+      {
+        "slug": "rhinitis-exposure-sleep-log",
+        "changed_decision": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+        "changed_evidence_question": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+        "changed_artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+        "changed_architecture": [
+          "반복과 대량 출혈 구분",
+          "건조·자극 요인",
+          "약물 확인의 원칙",
+          "압박 뒤 연락 신호",
+          "진료에 가져갈 정보"
+        ]
+      },
+      {
+        "slug": "blood-pressure-medicine-dizziness-table",
+        "changed_decision": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+        "changed_evidence_question": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+        "changed_artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+        "changed_architecture": [
+          "반복과 대량 출혈 구분",
+          "건조·자극 요인",
+          "약물 확인의 원칙",
+          "압박 뒤 연락 신호",
+          "진료에 가져갈 정보"
+        ]
+      }
+    ],
+    "non_overlap": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+    "sources": [
+      [
+        "https://www.nhs.uk/conditions/nosebleed/",
+        "코피 응급 신호",
+        "official"
+      ],
+      [
+        "https://www.enthealth.org/conditions/nosebleeds/",
+        "반복 코피 맥락",
+        "expert_reference"
+      ],
+      [
+        "https://medlineplus.gov/ency/article/003106.htm",
+        "반복 코피의 의학적 맥락",
+        "official"
+      ]
+    ],
+    "ymyl": "20분 이상 압박해도 멎지 않음, 많은 출혈, 실신·호흡곤란은 응급 평가 대상이다. 처방약을 중단·변경하지 않는다.",
+    "situation": "짧은 코피가 자주 나거나 약을 복용 중이라 중단 여부가 걱정될 때.",
+    "answer_claim": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+    "subtitle": "코피가 반복될 때: 건조함·혈압·복용약을 함께 적는 메모",
+    "long_tail": "recurrent nosebleed medication context",
+    "main_keyword": "코피가 반복될 때: 건조함·혈압·복용약을 함께 적는 메모",
+    "extended_keywords": [
+      "ent-medication-safety"
+    ],
+    "search_intent": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+    "unique_angle": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+    "evidence_plan": "코피 응급 신호, 반복 코피 맥락, 반복 코피의 의학적 맥락",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "rhinitis-exposure-sleep-log | blood-pressure-medicine-dizziness-table | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록"
+    ],
+    "article_research_question_seed": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+    "reader_outcome_seed": "다음 코피 때 시계로 지속시간을 잰다.",
+    "ymyl_boundaries": [
+      "recurrent-nosebleed-medication-context: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "recurrent-nosebleed-medication-context: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "recurrent-nosebleed-medication-context: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "rhinitis-exposure-sleep-log",
+        "blood-pressure-medicine-dizziness-table"
+      ],
+      "changed_reader_decision": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+      "changed_evidence_question": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+      "changed_artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+      "changed_architecture": [
+        "반복과 대량 출혈 구분",
+        "건조·자극 요인",
+        "약물 확인의 원칙",
+        "압박 뒤 연락 신호",
+        "진료에 가져갈 정보"
+      ]
+    },
+    "article_specific_detail": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+    "historical_comparisons": [
+      {
+        "slug": "rhinitis-exposure-sleep-log",
+        "changed_decision": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+        "changed_evidence_question": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+        "changed_artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+        "changed_architecture": [
+          "반복과 대량 출혈 구분",
+          "건조·자극 요인",
+          "약물 확인의 원칙",
+          "압박 뒤 연락 신호",
+          "진료에 가져갈 정보"
+        ]
+      },
+      {
+        "slug": "blood-pressure-medicine-dizziness-table",
+        "changed_decision": "비염 노출/수면 또는 혈압약 어지럼이 아니라 출혈 사건과 약물 안전의 조율이다.",
+        "changed_evidence_question": "반복 코피의 빈도·지속시간·양·외상·복용약을 정리해 자가관리와 진료 필요성을 가른다.",
+        "changed_artifact": "날짜·지속시간·한쪽/양쪽·약·압박 반응 기록",
+        "changed_architecture": [
+          "반복과 대량 출혈 구분",
+          "건조·자극 요인",
+          "약물 확인의 원칙",
+          "압박 뒤 연락 신호",
+          "진료에 가져갈 정보"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d046",
+    "slug": "gum-bleeding-anticoagulant-dental-coordination",
+    "title": "잇몸 출혈과 항응고제·골다공증약: 치과와 처방의를 연결하는 질문",
+    "cluster": "oral-medication-coordination",
+    "reader_job": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+    "decision_moment": "출혈이 있어 치과 예약을 잡았거나 발치·치주치료를 앞두고 있을 때.",
+    "artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+    "architecture": [
+      "출혈과 구강위생",
+      "약 목록의 정확한 전달",
+      "시술 전 양쪽 연락",
+      "변경하면 안 되는 것",
+      "지속 출혈 경고"
+    ],
+    "faq_plan": "약을 멈추는 결정이 왜 치과 단독 결정이 아닌가",
+    "cta": "약 이름과 마지막 복용 시간을 원문대로 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "bleeding-gums-dental-note",
+        "changed_decision": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+        "changed_evidence_question": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+        "changed_artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+        "changed_architecture": [
+          "출혈과 구강위생",
+          "약 목록의 정확한 전달",
+          "시술 전 양쪽 연락",
+          "변경하면 안 되는 것",
+          "지속 출혈 경고"
+        ]
+      },
+      {
+        "slug": "medication-reconciliation-sheet",
+        "changed_decision": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+        "changed_evidence_question": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+        "changed_artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+        "changed_architecture": [
+          "출혈과 구강위생",
+          "약 목록의 정확한 전달",
+          "시술 전 양쪽 연락",
+          "변경하면 안 되는 것",
+          "지속 출혈 경고"
+        ]
+      }
+    ],
+    "non_overlap": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+    "sources": [
+      [
+        "https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures",
+        "항응고제와 치과 시술",
+        "official"
+      ],
+      [
+        "https://www.ada.org/resources/ada-library/oral-health-topics/osteoporosis-medications",
+        "골다공증약과 턱뼈 위험",
+        "official"
+      ],
+      [
+        "https://www.nidcr.nih.gov/health-info/gum-disease",
+        "잇몸 출혈 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "처방의와 상의 없이 항응고제·골다공증약을 중단하지 않는다. 멎지 않는 출혈·어지럼은 긴급 평가가 필요하다.",
+    "situation": "출혈이 있어 치과 예약을 잡았거나 발치·치주치료를 앞두고 있을 때.",
+    "answer_claim": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+    "subtitle": "잇몸 출혈과 항응고제·골다공증약: 치과와 처방의를 연결하는 질문",
+    "long_tail": "gum bleeding anticoagulant dental coordination",
+    "main_keyword": "잇몸 출혈과 항응고제·골다공증약: 치과와 처방의를 연결하는 질문",
+    "extended_keywords": [
+      "oral-medication-coordination"
+    ],
+    "search_intent": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+    "unique_angle": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+    "evidence_plan": "항응고제와 치과 시술, 골다공증약과 턱뼈 위험, 잇몸 출혈 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "bleeding-gums-dental-note | medication-reconciliation-sheet | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "치과 시술·약명·처방의·출혈경과 조율표",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "치과 시술·약명·처방의·출혈경과 조율표"
+    ],
+    "article_research_question_seed": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+    "reader_outcome_seed": "약 이름과 마지막 복용 시간을 원문대로 적는다.",
+    "ymyl_boundaries": [
+      "gum-bleeding-anticoagulant-dental-coordination: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "gum-bleeding-anticoagulant-dental-coordination: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "gum-bleeding-anticoagulant-dental-coordination: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "bleeding-gums-dental-note",
+        "medication-reconciliation-sheet"
+      ],
+      "changed_reader_decision": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+      "changed_evidence_question": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+      "changed_artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+      "changed_architecture": [
+        "출혈과 구강위생",
+        "약 목록의 정확한 전달",
+        "시술 전 양쪽 연락",
+        "변경하면 안 되는 것",
+        "지속 출혈 경고"
+      ]
+    },
+    "article_specific_detail": "치과 시술·약명·처방의·출혈경과 조율표",
+    "historical_comparisons": [
+      {
+        "slug": "bleeding-gums-dental-note",
+        "changed_decision": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+        "changed_evidence_question": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+        "changed_artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+        "changed_architecture": [
+          "출혈과 구강위생",
+          "약 목록의 정확한 전달",
+          "시술 전 양쪽 연락",
+          "변경하면 안 되는 것",
+          "지속 출혈 경고"
+        ]
+      },
+      {
+        "slug": "medication-reconciliation-sheet",
+        "changed_decision": "기존은 잇몸 출혈 일반 치과 메모/전체 약정리; 본문은 항응고·골다공증약과 치과 시술의 조정 문제다.",
+        "changed_evidence_question": "잇몸 출혈·치과 시술 계획·복용약 정보를 한 장에 정리해 양쪽 의료진에게 같은 질문을 한다.",
+        "changed_artifact": "치과 시술·약명·처방의·출혈경과 조율표",
+        "changed_architecture": [
+          "출혈과 구강위생",
+          "약 목록의 정확한 전달",
+          "시술 전 양쪽 연락",
+          "변경하면 안 되는 것",
+          "지속 출혈 경고"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d047",
+    "slug": "dry-mouth-cavity-swallowing-context",
+    "title": "입이 계속 마르고 충치·삼킴 불편이 겹칠 때: 약과 증상을 정리하는 법",
+    "cluster": "oral-systemic",
+    "reader_job": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+    "decision_moment": "물만 자주 마시며 버티는데 충치·말하기·삼킴 불편이 생길 때.",
+    "artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+    "architecture": [
+      "건조가 생활에 미치는 영향",
+      "약과 전신질환 질문",
+      "충치 위험 관리",
+      "삼킴·체중 변화 경고",
+      "치과·진료 역할 분리"
+    ],
+    "faq_plan": "구강건조 보조제품이 원인 평가를 대신하지 않는 이유",
+    "cta": "건조가 가장 심한 시간과 함께 복용한 약을 한 줄로 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "taste-change-context-table",
+        "changed_decision": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+        "changed_evidence_question": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+        "changed_artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+        "changed_architecture": [
+          "건조가 생활에 미치는 영향",
+          "약과 전신질환 질문",
+          "충치 위험 관리",
+          "삼킴·체중 변화 경고",
+          "치과·진료 역할 분리"
+        ]
+      },
+      {
+        "slug": "swallowing-difficulty-visit-note",
+        "changed_decision": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+        "changed_evidence_question": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+        "changed_artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+        "changed_architecture": [
+          "건조가 생활에 미치는 영향",
+          "약과 전신질환 질문",
+          "충치 위험 관리",
+          "삼킴·체중 변화 경고",
+          "치과·진료 역할 분리"
+        ]
+      }
+    ],
+    "non_overlap": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+    "sources": [
+      [
+        "https://www.nidcr.nih.gov/health-info/dry-mouth",
+        "구강건조",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/dry-mouth/",
+        "환자 경로",
+        "official"
+      ],
+      [
+        "https://www.nidcr.nih.gov/health-info/tooth-decay",
+        "충치 위험",
+        "official"
+      ]
+    ],
+    "ymyl": "진행하는 삼킴곤란, 체중감소, 탈수, 구강 궤양 지속은 제품 선택보다 신속한 평가가 필요하다. 원인 진단·처방을 하지 않는다.",
+    "situation": "물만 자주 마시며 버티는데 충치·말하기·삼킴 불편이 생길 때.",
+    "answer_claim": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+    "subtitle": "입이 계속 마르고 충치·삼킴 불편이 겹칠 때: 약과 증상을 정리하는 법",
+    "long_tail": "dry mouth cavity swallowing context",
+    "main_keyword": "입이 계속 마르고 충치·삼킴 불편이 겹칠 때: 약과 증상을 정리하는 법",
+    "extended_keywords": [
+      "oral-systemic"
+    ],
+    "search_intent": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+    "unique_angle": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+    "evidence_plan": "구강건조, 환자 경로, 충치 위험",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "taste-change-context-table | swallowing-difficulty-visit-note | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "밤/낮 건조·구강통증·삼킴·약물 4축 표"
+    ],
+    "article_research_question_seed": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+    "reader_outcome_seed": "건조가 가장 심한 시간과 함께 복용한 약을 한 줄로 적는다.",
+    "ymyl_boundaries": [
+      "dry-mouth-cavity-swallowing-context: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "dry-mouth-cavity-swallowing-context: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "dry-mouth-cavity-swallowing-context: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "taste-change-context-table",
+        "swallowing-difficulty-visit-note"
+      ],
+      "changed_reader_decision": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+      "changed_evidence_question": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+      "changed_artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+      "changed_architecture": [
+        "건조가 생활에 미치는 영향",
+        "약과 전신질환 질문",
+        "충치 위험 관리",
+        "삼킴·체중 변화 경고",
+        "치과·진료 역할 분리"
+      ]
+    },
+    "article_specific_detail": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+    "historical_comparisons": [
+      {
+        "slug": "taste-change-context-table",
+        "changed_decision": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+        "changed_evidence_question": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+        "changed_artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+        "changed_architecture": [
+          "건조가 생활에 미치는 영향",
+          "약과 전신질환 질문",
+          "충치 위험 관리",
+          "삼킴·체중 변화 경고",
+          "치과·진료 역할 분리"
+        ]
+      },
+      {
+        "slug": "swallowing-difficulty-visit-note",
+        "changed_decision": "맛 변화나 연하곤란 단독이 아니라 지속 구강건조의 치아·약물·삼킴 연결을 다룬다.",
+        "changed_evidence_question": "건조 시간·구강통증·충치·삼킴·복용약을 나눠 치과와 진료상담의 출발점을 만든다.",
+        "changed_artifact": "밤/낮 건조·구강통증·삼킴·약물 4축 표",
+        "changed_architecture": [
+          "건조가 생활에 미치는 영향",
+          "약과 전신질환 질문",
+          "충치 위험 관리",
+          "삼킴·체중 변화 경고",
+          "치과·진료 역할 분리"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d048",
+    "slug": "jaw-pain-bruxism-visit-note",
+    "title": "아침 턱 통증과 이갈이가 의심될 때: 치과 상담 전 기록",
+    "cluster": "orofacial-pain",
+    "reader_job": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+    "decision_moment": "아침에 턱이 뻐근하거나 딱딱 소리가 나서 보호장치를 바로 사고 싶을 때.",
+    "artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+    "architecture": [
+      "이갈이와 턱관절 증상",
+      "통증 위치·기능 확인",
+      "수면·스트레스 맥락",
+      "보호장치 전 질문",
+      "턱 잠김·감염 경고"
+    ],
+    "faq_plan": "온라인 마우스가드가 평가를 대체하지 않는 이유",
+    "cta": "입을 벌릴 때 막히는지와 통증 위치를 표시한다.",
+    "nearest_existing": [
+      {
+        "slug": "night-leg-discomfort-description",
+        "changed_decision": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+        "changed_evidence_question": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+        "changed_artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+        "changed_architecture": [
+          "이갈이와 턱관절 증상",
+          "통증 위치·기능 확인",
+          "수면·스트레스 맥락",
+          "보호장치 전 질문",
+          "턱 잠김·감염 경고"
+        ]
+      },
+      {
+        "slug": "new-headache-pattern-card",
+        "changed_decision": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+        "changed_evidence_question": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+        "changed_artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+        "changed_architecture": [
+          "이갈이와 턱관절 증상",
+          "통증 위치·기능 확인",
+          "수면·스트레스 맥락",
+          "보호장치 전 질문",
+          "턱 잠김·감염 경고"
+        ]
+      }
+    ],
+    "non_overlap": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+    "sources": [
+      [
+        "https://www.nidcr.nih.gov/health-info/tmd",
+        "턱관절 질환",
+        "official"
+      ],
+      [
+        "https://www.nidcr.nih.gov/health-info/publications/less-often-best-treating-tmd",
+        "구강안면통",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/temporomandibular-disorder-tmd/",
+        "환자 경로",
+        "official"
+      ]
+    ],
+    "ymyl": "턱이 잠겨 열리지 않음, 얼굴 붓기·발열, 외상 뒤 부정교합은 자가장치가 아니라 신속한 평가 대상이다. 기기를 추천하지 않는다.",
+    "situation": "아침에 턱이 뻐근하거나 딱딱 소리가 나서 보호장치를 바로 사고 싶을 때.",
+    "answer_claim": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+    "subtitle": "아침 턱 통증과 이갈이가 의심될 때: 치과 상담 전 기록",
+    "long_tail": "jaw pain bruxism visit note",
+    "main_keyword": "아침 턱 통증과 이갈이가 의심될 때: 치과 상담 전 기록",
+    "extended_keywords": [
+      "orofacial-pain"
+    ],
+    "search_intent": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+    "unique_angle": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+    "evidence_plan": "턱관절 질환, 구강안면통, 환자 경로",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "night-leg-discomfort-description | new-headache-pattern-card | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "아침통증·벌어짐·소리·두통·수면 5칸 일지"
+    ],
+    "article_research_question_seed": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+    "reader_outcome_seed": "입을 벌릴 때 막히는지와 통증 위치를 표시한다.",
+    "ymyl_boundaries": [
+      "jaw-pain-bruxism-visit-note: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "jaw-pain-bruxism-visit-note: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "jaw-pain-bruxism-visit-note: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "night-leg-discomfort-description",
+        "new-headache-pattern-card"
+      ],
+      "changed_reader_decision": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+      "changed_evidence_question": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+      "changed_artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+      "changed_architecture": [
+        "이갈이와 턱관절 증상",
+        "통증 위치·기능 확인",
+        "수면·스트레스 맥락",
+        "보호장치 전 질문",
+        "턱 잠김·감염 경고"
+      ]
+    },
+    "article_specific_detail": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+    "historical_comparisons": [
+      {
+        "slug": "night-leg-discomfort-description",
+        "changed_decision": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+        "changed_evidence_question": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+        "changed_artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+        "changed_architecture": [
+          "이갈이와 턱관절 증상",
+          "통증 위치·기능 확인",
+          "수면·스트레스 맥락",
+          "보호장치 전 질문",
+          "턱 잠김·감염 경고"
+        ]
+      },
+      {
+        "slug": "new-headache-pattern-card",
+        "changed_decision": "수면 중 다리불편·새 두통이 아니라 턱 기능과 치과평가 준비다.",
+        "changed_evidence_question": "턱 통증·입 벌어짐·소리·두통·수면 상황을 나눠 치과/의료 평가 질문을 만든다.",
+        "changed_artifact": "아침통증·벌어짐·소리·두통·수면 5칸 일지",
+        "changed_architecture": [
+          "이갈이와 턱관절 증상",
+          "통증 위치·기능 확인",
+          "수면·스트레스 맥락",
+          "보호장치 전 질문",
+          "턱 잠김·감염 경고"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d049",
+    "slug": "menopause-low-libido-context",
+    "title": "폐경 전후 성욕 변화가 고민될 때: 통증·관계·약을 나눠 묻는 메모",
+    "cluster": "sexual-health-menopause",
+    "reader_job": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+    "decision_moment": "성욕 저하를 나이 탓으로 넘기거나 호르몬·보충제를 바로 시작하려 할 때.",
+    "artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+    "architecture": [
+      "성욕 변화의 여러 맥락",
+      "통증과 욕구 분리",
+      "약·기분·수면 확인",
+      "파트너와 상담 준비",
+      "원치 않는 성관계·안전 지원"
+    ],
+    "faq_plan": "성욕 변화와 성교통 글을 분리하는 이유",
+    "cta": "없애고 싶은 문제가 통증인지 욕구인지 대화 부담인지 한 단어로 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "sexual-pain-visit-note",
+        "changed_decision": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+        "changed_evidence_question": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+        "changed_artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+        "changed_architecture": [
+          "성욕 변화의 여러 맥락",
+          "통증과 욕구 분리",
+          "약·기분·수면 확인",
+          "파트너와 상담 준비",
+          "원치 않는 성관계·안전 지원"
+        ]
+      },
+      {
+        "slug": "gsm-dryness-urinary-signs",
+        "changed_decision": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+        "changed_evidence_question": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+        "changed_artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+        "changed_architecture": [
+          "성욕 변화의 여러 맥락",
+          "통증과 욕구 분리",
+          "약·기분·수면 확인",
+          "파트너와 상담 준비",
+          "원치 않는 성관계·안전 지원"
+        ]
+      }
+    ],
+    "non_overlap": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+    "sources": [
+      [
+        "https://www.acog.org/womens-health/faqs/your-sexual-health",
+        "여성 성건강",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/live-well/sexual-health/",
+        "폐경 맥락",
+        "official"
+      ],
+      [
+        "https://www.nhs.uk/conditions/menopause/symptoms/",
+        "증상 맥락",
+        "official"
+      ]
+    ],
+    "ymyl": "강요·폭력, 새 출혈, 심한 통증, 우울·자해 생각은 일반 기록을 넘는 안전·의료 지원 신호다. 호르몬·테스토스테론·보충제를 권하지 않는다.",
+    "situation": "성욕 저하를 나이 탓으로 넘기거나 호르몬·보충제를 바로 시작하려 할 때.",
+    "answer_claim": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+    "subtitle": "폐경 전후 성욕 변화가 고민될 때: 통증·관계·약을 나눠 묻는 메모",
+    "long_tail": "menopause low libido context",
+    "main_keyword": "폐경 전후 성욕 변화가 고민될 때: 통증·관계·약을 나눠 묻는 메모",
+    "extended_keywords": [
+      "sexual-health-menopause"
+    ],
+    "search_intent": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+    "unique_angle": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+    "evidence_plan": "여성 성건강, 폐경 맥락, 증상 맥락",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "sexual-pain-visit-note | gsm-dryness-urinary-signs | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "변화시점·통증/건조·기분·관계·약물 5영역 메모"
+    ],
+    "article_research_question_seed": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+    "reader_outcome_seed": "없애고 싶은 문제가 통증인지 욕구인지 대화 부담인지 한 단어로 적는다.",
+    "ymyl_boundaries": [
+      "menopause-low-libido-context: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "menopause-low-libido-context: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "menopause-low-libido-context: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "sexual-pain-visit-note",
+        "gsm-dryness-urinary-signs"
+      ],
+      "changed_reader_decision": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+      "changed_evidence_question": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+      "changed_artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+      "changed_architecture": [
+        "성욕 변화의 여러 맥락",
+        "통증과 욕구 분리",
+        "약·기분·수면 확인",
+        "파트너와 상담 준비",
+        "원치 않는 성관계·안전 지원"
+      ]
+    },
+    "article_specific_detail": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+    "historical_comparisons": [
+      {
+        "slug": "sexual-pain-visit-note",
+        "changed_decision": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+        "changed_evidence_question": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+        "changed_artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+        "changed_architecture": [
+          "성욕 변화의 여러 맥락",
+          "통증과 욕구 분리",
+          "약·기분·수면 확인",
+          "파트너와 상담 준비",
+          "원치 않는 성관계·안전 지원"
+        ]
+      },
+      {
+        "slug": "gsm-dryness-urinary-signs",
+        "changed_decision": "기존은 성교통 또는 GSM 증상 위치; 본문은 성욕 변화의 다요인 상담 우선순위다.",
+        "changed_evidence_question": "성욕 변화의 시간, 통증·건조, 기분, 관계 상황, 약물을 구분해 상담의 우선 질문을 정한다.",
+        "changed_artifact": "변화시점·통증/건조·기분·관계·약물 5영역 메모",
+        "changed_architecture": [
+          "성욕 변화의 여러 맥락",
+          "통증과 욕구 분리",
+          "약·기분·수면 확인",
+          "파트너와 상담 준비",
+          "원치 않는 성관계·안전 지원"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d050",
+    "slug": "family-cancer-genetic-counseling-prep",
+    "title": "가족의 난소·유방·대장암을 들었을 때: 유전상담 전 가족력 카드",
+    "cluster": "hereditary-cancer",
+    "reader_job": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+    "decision_moment": "가족의 암 소식을 들었지만 내 검진이나 유전자검사를 바로 예약해야 할지 모를 때.",
+    "artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+    "architecture": [
+      "가족력의 정확한 단위",
+      "암종과 진단나이 수집",
+      "유전상담에서 묻는 것",
+      "일반 검진과 개인위험 구분",
+      "불안을 키우지 않는 다음 단계"
+    ],
+    "faq_plan": "가족력만으로 검사 결과나 암 위험을 단정할 수 없는 이유",
+    "cta": "가족 한 명의 암종과 진단 나이를 확인해 적는다.",
+    "nearest_existing": [
+      {
+        "slug": "colorectal-family-history-card",
+        "changed_decision": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+        "changed_evidence_question": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+        "changed_artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+        "changed_architecture": [
+          "가족력의 정확한 단위",
+          "암종과 진단나이 수집",
+          "유전상담에서 묻는 것",
+          "일반 검진과 개인위험 구분",
+          "불안을 키우지 않는 다음 단계"
+        ]
+      },
+      {
+        "slug": "breast-screening-notice-personal-context",
+        "changed_decision": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+        "changed_evidence_question": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+        "changed_artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+        "changed_architecture": [
+          "가족력의 정확한 단위",
+          "암종과 진단나이 수집",
+          "유전상담에서 묻는 것",
+          "일반 검진과 개인위험 구분",
+          "불안을 키우지 않는 다음 단계"
+        ]
+      }
+    ],
+    "non_overlap": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+    "sources": [
+      [
+        "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+        "암 유전학 기본",
+        "official"
+      ],
+      [
+        "https://www.acog.org/womens-health/faqs/ovarian-cancer",
+        "난소암 위험·가족력",
+        "official"
+      ],
+      [
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing",
+        "가족력 수집",
+        "official"
+      ]
+    ],
+    "ymyl": "가족력 카드는 유전자검사 필요성·위험도·검진간격을 결정하지 않는다. 유전상담과 검사 선택은 개인·가족 병력으로 전문 상담을 거친다.",
+    "situation": "가족의 암 소식을 들었지만 내 검진이나 유전자검사를 바로 예약해야 할지 모를 때.",
+    "answer_claim": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+    "subtitle": "가족의 난소·유방·대장암을 들었을 때: 유전상담 전 가족력 카드",
+    "long_tail": "family cancer genetic counseling prep",
+    "main_keyword": "가족의 난소·유방·대장암을 들었을 때: 유전상담 전 가족력 카드",
+    "extended_keywords": [
+      "hereditary-cancer"
+    ],
+    "search_intent": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+    "unique_angle": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+    "evidence_plan": "암 유전학 기본, 난소암 위험·가족력, 가족력 수집",
+    "not_answered_here": "건강 상담을 위한 기록과 안전 확인",
+    "structure_reason": "건강 상담을 위한 기록과 안전 확인",
+    "internal_link_targets": "colorectal-family-history-card | breast-screening-notice-personal-context | health-checkup-questions",
+    "serp_gap": "건강 상담을 위한 기록과 안전 확인",
+    "information_gain": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+    "source_interpretation": "건강 상담을 위한 기록과 안전 확인",
+    "article_specific_details": [
+      "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드"
+    ],
+    "article_research_question_seed": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+    "reader_outcome_seed": "가족 한 명의 암종과 진단 나이를 확인해 적는다.",
+    "ymyl_boundaries": [
+      "family-cancer-genetic-counseling-prep: 응급 신호는 기록을 중단하고 즉시 평가를 받는다.",
+      "family-cancer-genetic-counseling-prep: 새롭거나 지속하는 증상은 진료 상담으로 연결한다.",
+      "family-cancer-genetic-counseling-prep: 진단·처방·약물 변경을 대신하지 않는다."
+    ],
+    "historical_comparison": {
+      "nearest_slugs": [
+        "colorectal-family-history-card",
+        "breast-screening-notice-personal-context"
+      ],
+      "changed_reader_decision": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+      "changed_evidence_question": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+      "changed_artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+      "changed_architecture": [
+        "가족력의 정확한 단위",
+        "암종과 진단나이 수집",
+        "유전상담에서 묻는 것",
+        "일반 검진과 개인위험 구분",
+        "불안을 키우지 않는 다음 단계"
+      ]
+    },
+    "article_specific_detail": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+    "historical_comparisons": [
+      {
+        "slug": "colorectal-family-history-card",
+        "changed_decision": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+        "changed_evidence_question": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+        "changed_artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+        "changed_architecture": [
+          "가족력의 정확한 단위",
+          "암종과 진단나이 수집",
+          "유전상담에서 묻는 것",
+          "일반 검진과 개인위험 구분",
+          "불안을 키우지 않는 다음 단계"
+        ]
+      },
+      {
+        "slug": "breast-screening-notice-personal-context",
+        "changed_decision": "대장암 가족력 또는 유방검진 안내가 아니라 여러 관련 암종을 묶은 유전상담 준비와 가족력 정확도다.",
+        "changed_evidence_question": "가족의 암 종류·진단 나이·양쪽 계통·검사 여부를 모아 유전상담이 필요한지 물을 준비를 한다.",
+        "changed_artifact": "친가/외가·암종·진단나이·유전자검사 4열 가족력 카드",
+        "changed_architecture": [
+          "가족력의 정확한 단위",
+          "암종과 진단나이 수집",
+          "유전상담에서 묻는 것",
+          "일반 검진과 개인위험 구분",
+          "불안을 키우지 않는 다음 단계"
+        ]
+      }
+    ]
+  }
+]

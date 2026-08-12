@@ -1,0 +1,43 @@
+{
+  "article_id": "d027",
+  "slug": "wearable-irregular-pulse-af-evidence",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "research_runs": [
+    {"query": "NHLBI arrhythmias diagnosis official", "date": "2026-08-12"},
+    {"query": "NHLBI arrhythmias symptoms official", "date": "2026-08-12"},
+    {"query": "NHLBI arrhythmias treatment official", "date": "2026-08-12"},
+    {"query": "MedlinePlus arrhythmia official", "date": "2026-08-12"},
+    {"query": "MedlinePlus arrhythmias medical encyclopedia official", "date": "2026-08-12"}
+  ],
+  "article_research_question": "웨어러블 불규칙 맥박 알림을 진단으로 단정하지 않고 어떤 시간·증상·측정 조건을 상담에 전달하는가?",
+  "reader_outcome": "알림 화면과 실제 증상을 분리한 웨어러블 알림 증거 카드를 만든다.",
+  "original_contribution": {
+    "type": "wearable-evidence-card",
+    "description": "알림, 맥락, 재측정 조건, 진단 구분, 안전 신호, 상담 질문을 분리한다.",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  "source_interpretation": "공식 부정맥 자료를 자가진단에 쓰지 않고, 기기 알림과 실제 증상을 의료진이 검토할 사건 기록으로 전환한다.",
+  "sources": [
+    {"id": "S1", "title": "Arrhythmias Diagnosis", "publisher": "NHLBI", "url": "https://www.nhlbi.nih.gov/health/arrhythmias/diagnosis", "source_date": "2022-03-24", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "증상·생활 맥락·검사를 함께 보는 진단 맥락", "fresh_get_status": 200},
+    {"id": "S2", "title": "Arrhythmias Symptoms", "publisher": "NHLBI", "url": "https://www.nhlbi.nih.gov/health/arrhythmias/symptoms", "source_date": "2022-03-24", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "증상 유무와 시간 순서 기록", "fresh_get_status": 200},
+    {"id": "S3", "title": "Arrhythmias Treatment", "publisher": "NHLBI", "url": "https://www.nhlbi.nih.gov/health/arrhythmias/treatment", "source_date": "2022-03-24", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "치료 결정과 단일 기기 수치를 구분하는 경계", "fresh_get_status": 200},
+    {"id": "S4", "title": "Arrhythmia", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/arrhythmia.html", "source_date": "2025-06-19", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "환자용 부정맥 정보와 평가 필요성", "fresh_get_status": 200},
+    {"id": "S5", "title": "Arrhythmias", "publisher": "NHLBI", "url": "https://www.nhlbi.nih.gov/health/arrhythmias", "source_date": "2022-03-24", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "부정맥의 속도·리듬 문제 및 평가 맥락", "fresh_get_status": 200},
+    {"id": "S6", "title": "Arrhythmias", "publisher": "MedlinePlus Medical Encyclopedia", "url": "https://medlineplus.gov/ency/article/001101.htm", "source_date": "2024-05-27", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "흉통·실신·호흡곤란 등 안전 경계", "fresh_get_status": 200}
+  ],
+  "data_points": [
+    {"claim": "의료진의 부정맥 평가는 증상, 생활 습관과 위험 요인, 필요한 검사를 함께 본다.", "source_id": "S1", "supports_section": "알림은 스크린샷과 정확한 시각을 함께 보관합니다"},
+    {"claim": "부정맥은 증상이 있을 수도 없을 수도 있어 증상과 활동의 시간 순서 기록이 평가에 도움이 된다.", "source_id": "S2", "supports_section": "증상·운동·카페인 맥락은 원인 대신 시간 순서로 적습니다"},
+    {"claim": "치료 결정은 부정맥의 종류, 증상, 원인과 위험을 바탕으로 하므로 단일 기기 수치와 구분한다.", "source_id": "S3", "supports_section": "맥박을 다시 확인한 방식은 값보다 조건을 먼저 적습니다"},
+    {"claim": "부정맥 정보는 환자용 건강 정보이며 기기 알림만으로 개인의 진단을 확정하지 않는다.", "source_id": "S4", "supports_section": "기기 알림과 진단은 다른 단계라는 점을 카드에 적습니다"},
+    {"claim": "흉통, 실신, 어지럼, 호흡곤란은 부정맥과 함께 나타날 수 있고 일부 상황은 즉각적인 위험이 될 수 있다.", "source_id": "S6", "supports_section": "흉통·실신·호흡곤란이 있으면 카드를 채우지 않고 즉시 도움을 요청합니다"},
+    {"claim": "부정맥은 심장 박동의 속도나 리듬 문제를 가리키며 의료적 평가 맥락에서 해석한다.", "source_id": "S5", "supports_section": "상담에서는 기기에 대한 질문과 몸의 변화를 따로 묻습니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "알림 화면에는 사건별 시각, 문구, 기기 정보를 붙여 보관해 반복 간격을 추측으로 채우지 않는다.", "source_id": "S1"},
+    {"claim": "재측정 실패도 당시 자세·활동·착용 상태와 함께 기록해 기기 한계를 숨기지 않는다.", "source_id": "S3"}
+  ],
+  "fact_traceability_pass": true
+}

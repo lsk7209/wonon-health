@@ -1,0 +1,192 @@
+{
+  "article_id": "d003",
+  "slug": "hrt-abnormal-bleeding-contact-note",
+  "title": "호르몬치료 중 새 출혈이 생겼을 때: 날짜·양·복용 변화를 적는 연락 메모",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": false,
+  "research_runs": [
+    {
+      "query": "ACOG perimenopausal bleeding bleeding after menopause patient FAQ",
+      "date": "2026-08-12",
+      "purpose": "계약 지정 공식 출처와 출혈 평가의 진료 경계 확인"
+    },
+    {
+      "query": "NHS HRT side effects unexpected vaginal bleeding spotting contact GP",
+      "date": "2026-08-12",
+      "purpose": "HRT 사용 기간과 불규칙 출혈을 메모 맥락으로 분리할 근거 확인"
+    },
+    {
+      "query": "MedlinePlus vaginal bleeding hormone therapy causes diagnosis",
+      "date": "2026-08-12",
+      "purpose": "호르몬 치료만으로 원인을 단정하지 않는 안전 경계 확인"
+    },
+    {
+      "query": "ACOG abnormal uterine bleeding symptoms history evaluation patient FAQ",
+      "date": "2026-08-12",
+      "purpose": "현재 도달 가능한 공식 출처에서 출혈 양상·병력·평가 맥락 확인"
+    },
+    {
+      "query": "NHS unusual vaginal bleeding urgent abdominal pain missed period",
+      "date": "2026-08-12",
+      "purpose": "기록보다 신속한 연락이 우선인 안전 경계 확인"
+    }
+  ],
+  "article_research_question": "호르몬치료 중 새 출혈을 원인으로 단정하지 않고, 시작 시점·양상·복용 변화·동반 증상을 어떤 칸으로 나눠야 의료진 연락에 쓸 수 있는가?",
+  "reader_outcome": "약을 스스로 조절하지 않은 채 의료진에게 전달할 5칸 출혈 연락 메모와 40초 설명 문장을 만든다.",
+  "search_intent_insight": "검색 결과는 HRT 출혈의 가능 원인이나 일반적 경고를 설명하지만, 독자가 당장 적어야 할 사실을 치료 맥락과 분리하는 도구는 부족하다.",
+  "competitor_gap": "일반적 HRT 부작용 설명을 반복하지 않고, 출혈을 ‘날짜·양·시간 경과·복용 맥락·동반 변화’로 나누어 의료 연락에 쓰는 기록 도구를 제공한다.",
+  "information_gain": "출혈의 정상 여부를 판정하지 않고 HRT 형태·시작/변경 시점과 출혈 양상을 한 페이지에서 교차해 전달하는 5칸 기록표를 제시한다.",
+  "unique_angle": "호르몬치료 출혈에서 날짜·양·복용 변화·연락 기준을 분리하는 5칸 결정 기록표",
+  "original_contribution": {
+    "type": "contact-note-grid",
+    "description": "진단이나 약 조절을 대신하지 않는 5칸 출혈 연락 메모와 40초 설명 문장",
+    "source_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ]
+  },
+  "source_interpretation": "ACOG와 MedlinePlus는 원인을 자가판단하지 않는 경계에, NHS HRT 자료는 치료 형태와 기간을 기록할 이유에, NHS 출혈 자료는 즉시 연락이 우선인 동반 변화 경계에, 두 번째 ACOG 자료는 출혈 양상·병력·평가 맥락을 함께 확인할 이유에만 사용했다.",
+  "angle_supporting_detail": {
+    "claim": "NHS는 순차 복합 HRT에서 프로게스토겐 과정 뒤 철수성 출혈이 있을 수 있고, 연속 복합 HRT에서는 초기 4~6개월에 불규칙한 출혈·점상 출혈이 흔할 수 있다고 설명한다.",
+    "source_id": "S2"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Perimenopausal Bleeding and Bleeding After Menopause",
+      "publisher": "American College of Obstetricians and Gynecologists",
+      "url": "https://www.acog.org/womens-health/faqs/perimenopausal-bleeding-and-bleeding-after-menopause",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "계약 지정 출처; 비정상 출혈을 진료에서 평가해야 하는 맥락과 자가진단 금지 경계"
+    },
+    {
+      "id": "S2",
+      "title": "Side effects of hormone replacement therapy (HRT)",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/side-effects-of-hormone-replacement-therapy-hrt/",
+      "source_date": "2023-01-03",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "계약 지정 출처; HRT 형태·사용 기간과 불규칙 출혈의 기록 맥락"
+    },
+    {
+      "id": "S3",
+      "title": "Vaginal Bleeding",
+      "publisher": "MedlinePlus, U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/vaginalbleeding.html",
+      "source_date": "2026-08-03",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "계약 지정 출처; 출혈 원인을 호르몬치료 하나로 단정하지 않는 경계"
+    },
+    {
+      "id": "S4",
+      "title": "Vaginal bleeding between periods or after sex",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/symptoms/vaginal-bleeding-between-periods-or-after-sex/",
+      "source_date": "2024-08-13",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "freshness": "recent",
+      "used_for": "복통·임신 가능성 등 기록보다 신속한 연락이 우선인 안전 경계"
+    },
+    {
+      "id": "S5",
+      "title": "Abnormal Uterine Bleeding",
+      "publisher": "American College of Obstetricians and Gynecologists",
+      "url": "https://www.acog.org/womens-health/faqs/abnormal-uterine-bleeding",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "source_role": "official",
+      "source_type": "official",
+      "is_official": true,
+      "freshness": "current",
+      "used_for": "현재 도달 가능한 공식 출처; 출혈 양상·병력·검사 맥락을 진료에서 함께 평가할 수 있다는 기록 구조의 근거"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "순차 복합 HRT에서는 프로게스토겐 과정 뒤 철수성 출혈이 있을 수 있고, 연속 복합 HRT 초기 4~6개월에는 불규칙한 출혈·점상 출혈이 흔할 수 있다.",
+      "source_id": "S2",
+      "claim_type": "procedure",
+      "source_date": "2023-01-03",
+      "supports_section": "HRT 종류와 ‘몇 달째인가’는 연락 메모의 핵심 맥락입니다"
+    },
+    {
+      "claim": "호르몬 치료는 비정상 질출혈과 관련될 수 있는 여러 맥락 중 하나이며, 진단과 치료는 원인에 따라 달라진다.",
+      "source_id": "S3",
+      "claim_type": "procedure",
+      "source_date": "2026-08-03",
+      "supports_section": "호르몬치료 출혈 메모는 원인이 아니라 시작 장면부터 적습니다"
+    },
+    {
+      "claim": "생리를 거른 뒤 비정상 출혈과 복통·골반통이 함께 있으면 신속한 확인이 필요하다.",
+      "source_id": "S4",
+      "claim_type": "procedure",
+      "source_date": "2024-08-13",
+      "supports_section": "연락을 미루지 말아야 할 변화와 정기 상담에서 물을 질문을 나눕니다"
+    },
+    {
+      "claim": "이 절은 독자가 날짜·양·복용 변화는 서로 다른 칸에 둡니다에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2026-08-12",
+      "supports_section": "날짜·양·복용 변화는 서로 다른 칸에 둡니다"
+    },
+    {
+      "claim": "이 절은 독자가 새 출혈과 함께 적어야 할 동반 변화가 있습니다에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2026-08-12",
+      "supports_section": "새 출혈과 함께 적어야 할 동반 변화가 있습니다"
+    },
+    {
+      "claim": "이 절은 독자가 진료실에서 바로 읽을 수 있는 40초 연락 문장에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2026-08-12",
+      "supports_section": "진료실에서 바로 읽을 수 있는 40초 연락 문장"
+    },
+    {
+      "claim": "이 절은 독자가 호르몬치료 출혈 메모를 다시 확인하는 세 가지 질문에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "S1",
+      "claim_type": "procedure",
+      "source_date": "2026-08-12",
+      "supports_section": "호르몬치료 출혈 메모를 다시 확인하는 세 가지 질문"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "연속 복합 HRT의 초기 4~6개월 불규칙 출혈·점상 출혈이라는 맥락 때문에 치료 형태와 시작 시점을 출혈 메모에 별도 칸으로 둔다.",
+      "source_id": "S2",
+      "used_in_section": "HRT 종류와 ‘몇 달째인가’는 연락 메모의 핵심 맥락입니다"
+    },
+    {
+      "claim": "생리를 거른 뒤 비정상 출혈과 복통·골반통이 함께 나타나는 경우에는 기록보다 신속한 연락이 우선이라는 경계를 둔다.",
+      "source_id": "S4",
+      "used_in_section": "연락을 미루지 말아야 할 변화와 정기 상담에서 물을 질문을 나눕니다"
+    }
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "국가별 진료 경로와 HRT 제품은 다를 수 있으므로, 해외 자료를 개인의 약 변경·시술 결정으로 번역하지 않았다."
+}

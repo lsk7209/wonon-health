@@ -1,5 +1,14 @@
 # RISKS
 
+# Risk Notice — Fifty Scheduled Health Articles
+
+Task: Create, integrate, deploy, and schedule fifty YMYL health articles at five-hour intervals.
+Why Needed: The user explicitly requested fifty high-quality researched articles and automatic publication.
+Impact Scope: New batch content, site catalog/discovery surfaces, publication schedule, GitHub main, Vercel production, and sitemap/RSS URL growth. Existing DNS, credentials, GA4, AdSense, and GSC property settings are excluded.
+Rollback: Keep drafts gated until QA; revert the integration/schedule commit and promote the previous Vercel production deployment if release verification fails.
+Safer Alternative: Draft-only delivery, which would not satisfy the requested scheduled publication outcome.
+Approval Needed: Explicitly authorized by the user in the current request.
+
 # Risk Notice — Search Console API Sitemap Submission
 
 Task: Authenticate with an existing Google credential under `D:\env` and submit the canonical sitemap to the matching Search Console property.

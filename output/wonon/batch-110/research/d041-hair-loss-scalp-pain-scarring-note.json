@@ -1,0 +1,40 @@
+{
+  "id":"d041",
+  "slug":"hair-loss-scalp-pain-scarring-note",
+  "researched_at":"2026-08-12",
+  "research_runs":[
+    {"query":"AAD CCCA symptoms scalp pain itch shiny smooth scarring hair loss","date":"2026-08-12","purpose":"통증·가려움·매끈한 두피 표면을 별도 기록할 공식 근거 확인"},
+    {"query":"NHS hair loss sudden unexplained see GP scalp","date":"2026-08-12","purpose":"다양한 탈모 양상과 상담 경계 확인"},
+    {"query":"AAD hair loss diagnosis dermatologist scalp examination","date":"2026-08-12","purpose":"사진이 진단을 대신하지 않는 경계 확인"},
+    {"query":"AAD scarring alopecia symptoms scalp pain itching hair loss","date":"2026-08-12","purpose":"흉터처럼 보이는 표면과 감각을 자가진단 없이 관찰하는 근거 확인"},
+    {"query":"AAD hair loss 18 causes not self diagnose","date":"2026-08-12","purpose":"제품·약 변경을 지시하지 않는 YMYL 경계 확인"}
+  ],
+  "article_research_question":"탈모와 두피 통증이 함께 있을 때, 빠진 양만 세지 않고 두피 표면·가려움·사진 조건·생활 맥락을 어떻게 분리해 피부과 상담에 전달할 수 있는가?",
+  "reader_outcome":"독자는 사진으로 탈모 유형을 확정하지 않고, 같은 위치의 사진과 표면·감각·시간표를 준비해 상담을 앞당길 변화와 일반적인 머리 빠짐을 구분 없이 사실로 전달한다.",
+  "search_intent_insight":"검색 결과는 탈모 원인과 제품 추천 또는 사진 비교로 기울어져 있으며, 두피 통증·가려움·매끈한 표면을 빠진 양과 분리해 기록하는 규칙이 부족하다.",
+  "competitor_gap":"이 글은 탈모 치료법을 제시하지 않고, 같은 위치 사진과 빠짐·표면·감각·사진 밖 맥락의 네 갈래 기록으로 의료 평가를 준비하게 한다.",
+  "unique_angle":"빠진 양보다 같은 위치, 표면 변화, 손대기 어려웠던 장면을 먼저 기록하며 흉터라는 진단어 대신 보이는 사실을 쓴다.",
+  "original_contribution":{"type":"photo-and-symptom separation rule","description":"두피 사진에는 같은 위치와 표면만, 메모에는 빠짐·감각·머리 관리·복용 변화만 놓아 사진의 한계를 유지하는 네 갈래 기록","source_ids":["D41-S1","D41-S2","D41-S3"]},
+  "source_interpretation":"AAD의 CCCA 자료는 특정 진단의 증거가 아니라 통증·가려움·매끈한 표면을 별도 관찰할 이유로 사용한다. NHS의 탈모 자료는 여러 양상과 상담 필요성의 경계로 쓴다. 두 출처 모두 특정 샴푸·약·시술의 선택이나 자가치료 지침으로 확장하지 않는다.",
+  "sources":[
+    {"id":"D41-S1","organization":"American Academy of Dermatology","title":"Hair loss types: Central centrifugal cicatricial alopecia signs and symptoms","url":"https://www.aad.org/public/diseases/hair-loss/types/ccca/symptoms","source_role":"official","source_date":"2022-04-01","accessed_date":"2026-08-12","used_for":"통증·가려움·화끈거림과 매끈하고 반짝여 보일 수 있는 두피 표면을 별도 관찰하는 근거","official_or_primary":true},
+    {"id":"D41-S2","organization":"NHS","title":"Hair loss","url":"https://www.nhs.uk/conditions/hair-loss/","source_role":"official","source_date":"2025-11-18","accessed_date":"2026-08-12","used_for":"탈모가 다양한 형태로 나타나고 갑작스럽거나 원인이 불분명한 변화는 진료에서 상담할 수 있다는 경계","official_or_primary":true},
+    {"id":"D41-S3","organization":"American Academy of Dermatology","title":"Hair loss: Diagnosis and treatment","url":"https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat","source_role":"official","source_date":"2022-11-01","accessed_date":"2026-08-12","used_for":"피부과 진료에서 두피와 병력을 직접 보고 필요 시 추가 평가를 정한다는 사진의 한계","official_or_primary":true},
+    {"id":"D41-S4","organization":"American Academy of Dermatology","title":"Hair loss types: Central centrifugal cicatricial alopecia overview","url":"https://www.aad.org/public/diseases/hair-loss/types/ccca","source_role":"official","source_date":"2024-10-01","accessed_date":"2026-08-12","used_for":"초기 상담과 평가를 미루지 않는 맥락","official_or_primary":true},
+    {"id":"D41-S5","organization":"American Academy of Dermatology","title":"Hair loss: 18 causes","url":"https://www.aad.org/public/diseases/hair-loss/causes/18-causes","source_role":"official","source_date":"2022-01-01","accessed_date":"2026-08-12","used_for":"원인이 다양한 탈모에서 제품·약의 자가 변경을 피하고 상담용 맥락을 준비하는 경계","official_or_primary":true}
+  ],
+  "data_points":[
+    {"claim":"일부 탈모에서는 가려움·통증·압통·화끈거림과 함께 두피가 매끈하고 반짝여 보이는 변화가 나타날 수 있으므로, 빠진 양과 표면·감각을 분리해 관찰한다.","source_id":"D41-S1","claim_type":"official symptom guidance","source_date":"2022-04-01","supports_section":"흉터처럼 매끈한 부위·비늘·가려움은 빠진 수와 다른 칸에 둔다"},
+    {"claim":"탈모는 여러 형태로 나타날 수 있고 갑작스럽거나 원인이 불분명한 탈모는 진료에서 상담할 수 있어, 사진으로 유형을 확정하지 않는다.","source_id":"D41-S2","claim_type":"official evaluation guidance","source_date":"2025-11-18","supports_section":"진료를 미루지 않을 신호와 상담에서 보여 줄 질문"},
+    {"claim":"탈모 평가는 두피와 병력의 직접 확인을 포함할 수 있으므로 사진은 위치와 변화의 시간표 보조 자료로 한정한다.","source_id":"D41-S3","claim_type":"diagnostic boundary","source_date":"2022-11-01","supports_section":"탈모 두피 통증 사진은 빠진 양보다 같은 위치를 먼저 고정한다"},
+    {"claim":"통증이나 심한 가려움과 표면 변화가 탈모와 동반될 수 있어, 빠진 양만 세며 평가를 늦추지 않는다.","source_id":"D41-S4","claim_type":"official symptom guidance","source_date":"2024-10-01","supports_section":"통증의 강도보다 언제 손대기 어려웠는지 적는 이유"},
+    {"claim":"탈모의 원인은 다양할 수 있어 제품·약·생활 변화를 날짜로 기록하되, 특정 원인으로 확정하거나 자가 변경하지 않는다.","source_id":"D41-S5","claim_type":"official consultation guidance","source_date":"2025-11-18","supports_section":"염색·당김·새 약·회복기 변화는 사진 밖의 기록으로 남긴다"}
+  ],
+  "article_specific_details":[
+    {"claim":"사진에는 같은 위치·가르마 방향·머리 상태를, 메모에는 표면 변화와 통증·가려움을 나눠 남긴다.","source_id":"D41-S3","materially_used_in":"탈모 두피 통증 사진은 빠진 양보다 같은 위치를 먼저 고정한다"},
+    {"claim":"매끈하고 반짝여 보임, 비늘, 작은 돌기, 진물은 실제로 본 말로 적고 ‘흉터가 생겼다’는 진단어로 확정하지 않는다.","source_id":"D41-S1","materially_used_in":"흉터처럼 매끈한 부위·비늘·가려움은 빠진 수와 다른 칸에 둔다"},
+    {"claim":"통증 점수 대신 빗질·묶기·베개에 닿기처럼 손대기 어려웠던 장면을 적어 생활 영향을 전달한다.","source_id":"D41-S4","materially_used_in":"통증의 강도보다 언제 손대기 어려웠는지 적는 이유"}
+  ],
+  "h2_traceability":{"탈모 두피 통증 사진은 빠진 양보다 같은 위치를 먼저 고정한다":["D41-S3"],"흉터처럼 매끈한 부위·비늘·가려움은 빠진 수와 다른 칸에 둔다":["D41-S1","D41-S2"],"통증의 강도보다 언제 손대기 어려웠는지 적는 이유":["D41-S1","D41-S4"],"염색·당김·새 약·회복기 변화는 사진 밖의 기록으로 남긴다":["D41-S5"],"진료를 미루지 않을 신호와 상담에서 보여 줄 질문":["D41-S2","D41-S4"]},
+  "ymyl_category":"health","ymyl_review":"pass: 흉터성 탈모나 다른 탈모 유형을 진단하지 않고, 약·샴푸·시술·보충제의 시작·중단·변경을 지시하지 않는다. 피·진물·부기·심해지는 통증은 사진 기록보다 의료 평가를 우선하게 한다.","volatile":true,"fact_traceability_pass":true,"unresolved_claims":[],"source_conflicts":[]
+}

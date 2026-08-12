@@ -1,0 +1,47 @@
+{
+  "article_id": "d030",
+  "slug": "smoking-cessation-weight-gain-plan",
+  "title": "금연 뒤 체중이 늘까 걱정될 때: 식욕·갈망·활동을 나누는 준비표",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {"query": "Smokefree managing nicotine withdrawal hunger weight gain official", "date": "2026-08-12", "purpose": "금단·배고픔·기분 변화의 공식 범위 확인"},
+    {"query": "Smokefree manage weight gain appetite quitting smoking", "date": "2026-08-12", "purpose": "체중 걱정과 금연 지원을 함께 다루는 공식 맥락 확인"},
+    {"query": "Smokefree nutrition appetite while quitting taste smell official", "date": "2026-08-12", "purpose": "식욕·맛·냄새·손과 입의 습관을 구분할 근거 확인"},
+    {"query": "NCI tobacco withdrawal triggers coffee alcohol meals quit smoking", "date": "2026-08-12", "purpose": "갈망 유발 장면과 대체 행동 기록의 근거 확인"},
+    {"query": "Smokefree smoking depression quit emergency help official", "date": "2026-08-12", "purpose": "기분 악화와 즉시 지원 연결의 안전 경계 확인"}
+  ],
+  "article_research_question": "금연 뒤 체중 변화가 걱정되는 사람이 금연을 미루거나 극단적 식이를 시작하지 않고 식욕·담배 갈망·활동·체중 측정 충동·기분 변화를 어떻게 분리해 상담에 전달할 수 있는가?",
+  "reader_outcome": "금연-식욕 대체 행동 계획표로 배고픔과 담배 생각을 구분하고, 반복 시간대·대체 행동·체중 불안·기분 변화를 금연 지원 상담에 가져간다.",
+  "search_intent_insight": "독자는 체중을 늘리지 않는 비법보다 금연을 유지하면서 반복 간식·갈망·불안을 어떻게 구분하고 언제 상담해야 하는지 알고 싶어 한다.",
+  "competitor_gap": "체중 증가 글은 칼로리와 운동 조언으로 곧장 넘어가기 쉽지만, 식욕·흡연 갈망·스트레스성 먹기·체중 측정 불안을 구분하는 상담용 기록 도구는 드물다.",
+  "information_gain": "금연-식욕 대체 행동 계획표는 금연 날짜, 갈망 장면, 대체 행동, 체중 측정 뒤의 생각, 기분 변화를 다섯 칸으로 나누고 체중 감량 처방으로 쓰지 않는다.",
+  "unique_angle": "식욕·갈망·활동·체중 불안·기분 변화를 원인 추정 없이 나누는 금연-식욕 대체 행동 계획표",
+  "original_contribution": {"type": "five-field-cessation-support-plan", "description": "금연 시작점·갈망 장면·대체 행동·체중 측정 불안·기분 지원을 분리한 상담용 준비표", "source_ids": ["D30-S1", "D30-S2", "D30-S3", "D30-S4", "D30-S5"]},
+  "source_interpretation": "Smokefree와 NCI 자료는 체중 수치를 통제하라는 지시가 아니라, 금단에서 나타날 수 있는 배고픔·갈망·기분 변화와 유발 상황을 구분해 금연 지원으로 연결하는 근거로만 사용했다.",
+  "sources": [
+    {"id": "D30-S1", "title": "Managing Nicotine Withdrawal", "publisher": "Smokefree.gov, National Cancer Institute", "url": "https://smokefree.gov/challenges-when-quitting/withdrawal/managing-nicotine-withdrawal", "final_url": "https://smokefree.gov/challenges-when-quitting/withdrawal/managing-nicotine-withdrawal", "source_date": "2026-08-06", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "금연 날짜·금단·배고픔·기분 변화를 같은 시간축에서 보고 지원을 요청하는 맥락"},
+    {"id": "D30-S2", "title": "Manage Weight Gain After Quitting", "publisher": "Smokefree.gov, National Cancer Institute", "url": "https://smokefree.gov/challenges-when-quitting/weight-gain-appetite/manage-weight-gain", "final_url": "https://smokefree.gov/challenges-when-quitting/weight-gain-appetite/manage-weight-gain", "source_date": "2025-07-07", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "체중 걱정 때문에 금연을 미루지 않고 활동·식사 패턴·금연 지원을 함께 상담하는 맥락"},
+    {"id": "D30-S3", "title": "Nutrition & Appetite While Quitting", "publisher": "Smokefree.gov, National Cancer Institute", "url": "https://smokefree.gov/challenges-when-quitting/weight-gain-appetite/nutrition-appetite-while-quitting", "final_url": "https://smokefree.gov/challenges-when-quitting/weight-gain-appetite/nutrition-appetite-while-quitting", "source_date": "2025-07-07", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "식욕·맛·냄새·손과 입의 습관을 하나의 실패로 묶지 않고 구분하는 기록 맥락"},
+    {"id": "D30-S4", "title": "Handling Nicotine Withdrawal and Triggers When You Decide To Quit Tobacco", "publisher": "National Cancer Institute", "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/withdrawal-fact-sheet", "final_url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/withdrawal-fact-sheet", "source_date": "2022-01-13", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "식사·커피·음주·사람·장소 같은 갈망 유발 장면과 시도한 대체 행동을 함께 기록하는 맥락"},
+    {"id": "D30-S5", "title": "Smoking & Depression", "publisher": "Smokefree.gov, National Cancer Institute", "url": "https://smokefree.gov/challenges-when-quitting/mood/smoking-depression", "final_url": "https://smokefree.gov/challenges-when-quitting/mood/smoking-depression", "source_date": "2025-07-07", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "금연 중 기분 변화와 자해 생각을 포함한 즉시 도움 요청 안전 경계"}
+  ],
+  "data_points": [
+    {"claim": "금연 날짜와 마지막 흡연 시각을 적으면 이후의 배고픔·갈망·기분 변화를 같은 시간축에서 상담할 수 있다.", "source_id": "D30-S1", "claim_type": "consultation-context", "source_date": "2026-08-06", "supports_section": "금연 이유와 날짜"},
+    {"claim": "금연 뒤 식욕과 맛·냄새 변화는 담배 갈망이나 스트레스성 먹기와 다른 정보이므로 발생 시간과 직전 상황을 분리해 기록한다.", "source_id": "D30-S3", "claim_type": "consultation-context", "source_date": "2025-07-07", "supports_section": "갈망 시간·음식 충동 구분"},
+    {"claim": "식사·커피·음주·특정 사람이나 장소는 갈망을 유발할 수 있어 유발 장면과 시도한 대체 행동을 함께 기록한다.", "source_id": "D30-S4", "claim_type": "procedure", "source_date": "2022-01-13", "supports_section": "활동·간식 대체안"},
+    {"claim": "체중 걱정 때문에 금연을 미루기보다 활동·식사 패턴과 금연 지원을 함께 상담하며, 체중 측정은 금연 실패 판정으로 쓰지 않는다.", "source_id": "D30-S2", "claim_type": "safety-boundary", "source_date": "2025-07-07", "supports_section": "체중 측정 빈도와 집착 경고"},
+    {"claim": "금연 중 기분 저하·불안·우울감이 심해지거나 자해 생각이 있으면 기록보다 즉시 도움 요청과 안전 확보를 우선한다.", "source_id": "D30-S5", "claim_type": "safety-boundary", "source_date": "2025-07-07", "supports_section": "금단·우울 악화 시 지원 연결"}
+  ],
+  "article_specific_details": [
+    {"claim": "식사 뒤 담배 생각이 날 때는 배고픔이라고만 적지 않고 식사 시간·함께 있던 사람·음주 여부·갈망 지속 시간을 따로 적는다.", "source_id": "D30-S4", "used_in_section": "갈망 시간·음식 충동 구분"},
+    {"claim": "체중계 숫자를 본 뒤 식사를 건너뛰고 싶은 생각이나 금연을 포기하고 싶은 생각이 들었는지를 체중값과 다른 줄에 적는다.", "source_id": "D30-S2", "used_in_section": "체중 측정 빈도와 집착 경고"}
+  ],
+  "h2_traceability": {"금연 이유와 날짜": ["D30-S1"], "갈망 시간·음식 충동 구분": ["D30-S3"], "활동·간식 대체안": ["D30-S4"], "체중 측정 빈도와 집착 경고": ["D30-S2"], "금단·우울 악화 시 지원 연결": ["D30-S5"]},
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "체중 감량 목표, 약물·보조제 선택, 식사·운동 처방을 제공하지 않고 공식 자료를 상담용 사실 분리와 지원 연결에만 사용했다."
+}

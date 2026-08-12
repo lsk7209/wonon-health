@@ -1,0 +1,47 @@
+{
+  "article_id": "d023",
+  "slug": "thyroid-nodule-followup-questions",
+  "title": "갑상선 결절 추적을 들었을 때: 초음파 날짜와 목 변화 질문지",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health",
+  "ymyl_review": "pass",
+  "volatile": true,
+  "research_runs": [
+    {"query": "American Thyroid Association thyroid nodules ultrasound follow-up", "date": "2026-08-12", "purpose": "초음파 보고서와 추적 질문의 공식 근거 확인"},
+    {"query": "NCI thyroid cancer patient thyroid nodules neck lump radiation family history", "date": "2026-08-12", "purpose": "목 변화·가족력·방사선 노출의 의료상담 맥락 확인"},
+    {"query": "NHS thyroid cancer symptoms swallowing breathing hoarse voice", "date": "2026-08-12", "purpose": "기록보다 현재 평가를 우선할 안전 경계 확인"},
+    {"query": "American Thyroid Association thyroid function tests patient information", "date": "2026-08-12", "purpose": "검사명·날짜를 결과지 원문으로 보관할 보조 근거 확인"},
+    {"query": "MedlinePlus thyroid diseases patient information", "date": "2026-08-12", "purpose": "소비자 건강정보의 진단·치료 비대체 경계 확인"}
+  ],
+  "article_research_question": "갑상선 결절 추적을 들은 사람이 초음파 날짜, 이전 영상, 목 변화, 가족력·방사선 노출을 어떻게 분리해 의료진에게 비교 질문으로 전달할 수 있는가?",
+  "reader_outcome": "결절 영상 이력 질문지에 결과지 원문, 이전 영상 위치, 목 변화의 시작점, 가족력·노출의 출처와 다음 예약 질문을 분리해 적는다.",
+  "search_intent_insight": "결절의 의미를 단정하는 설명보다, 기존 영상과 현재 변화 중 무엇을 다음 상담에서 확인할지 정리하는 도구가 필요하다.",
+  "competitor_gap": "일반 결절 설명은 많지만 초음파 보고서·이전 영상·목 변화·가족력의 출처를 분리해 비교 질문으로 바꾸는 소비자용 기록 도구는 드물다.",
+  "information_gain": "결절 영상 이력 질문지는 검사일·기관·보고서 원문·이전 영상 위치·목 변화 시작점·가족력 출처를 결론 칸 없이 분리한다.",
+  "unique_angle": "크기 추정 없이 초음파 날짜·목 변화·가족력의 출처를 영상 비교 질문으로 바꾸는 결절 영상 이력 질문지",
+  "original_contribution": {"type": "five-field-imaging-history-questionnaire", "description": "보고서 원문, 이전 영상, 목 변화, 가족력·노출, 연락·예약 질문을 분리한 기록", "source_ids": ["D23-S1", "D23-S2", "D23-S3", "D23-S4", "D23-S5"]},
+  "source_interpretation": "ATA 자료는 초음파와 검사 정보를 원문·날짜·비교 질문으로 바꾸는 데, NCI와 NHS 자료는 목 변화와 가족력·방사선 노출을 진단 근거가 아닌 현재 상태 전달·상담 맥락으로 한정하는 데, MedlinePlus는 소비자용 정보의 경계를 확인하는 데 사용했다.",
+  "sources": [
+    {"id": "D23-S1", "title": "Thyroid Nodules", "publisher": "American Thyroid Association", "url": "https://www.thyroid.org/thyroid-nodules/", "final_url": "https://www.thyroid.org/thyroid-nodules/", "source_date": "2025-07-26", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "초음파의 역할과 결절 추적을 결과 해석이 아닌 보고서 원문·날짜·비교 질문으로 정리하는 맥락"},
+    {"id": "D23-S2", "title": "Thyroid Cancer Treatment (PDQ®)–Patient Version", "publisher": "National Cancer Institute", "url": "https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq", "final_url": "https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq", "source_date": "2025-05-02", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "초음파·혈액검사·목 변화·가족력·방사선 노출을 개인 진단이 아닌 의료진에게 전달할 상담 정보로 제한"},
+    {"id": "D23-S3", "title": "Thyroid cancer", "publisher": "NHS", "url": "https://www.nhs.uk/conditions/thyroid-cancer/", "final_url": "https://www.nhs.uk/conditions/thyroid-cancer/", "source_date": "2025-06-04", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "새롭거나 지속·악화하는 목의 덩이·목소리·삼킴·호흡 변화를 기록보다 먼저 의료 평가로 연결하는 안전 경계"},
+    {"id": "D23-S4", "title": "Thyroid Function Tests", "publisher": "American Thyroid Association", "url": "https://www.thyroid.org/thyroid-function-tests/", "final_url": "https://www.thyroid.org/thyroid-function-tests/", "source_date": "2025-02-20", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "갑상선 혈액검사의 검사명·날짜·결과지 원문을 진료에서 확인할 보조 맥락"},
+    {"id": "D23-S5", "title": "Thyroid Diseases", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/thyroiddiseases.html", "final_url": "https://medlineplus.gov/thyroiddiseases.html", "source_date": "2025-05-01", "accessed_date": "2026-08-12", "source_role": "official", "source_type": "official", "is_official": true, "official_or_primary": true, "freshness": "current", "http_status": 200, "redirect_followed": true, "used_for": "갑상선 소비자 건강정보가 개인별 진단·치료 선택을 대신하지 않는 경계"}
+  ],
+  "data_points": [
+    {"claim": "초음파는 결절의 크기와 모습을 확인하고 시간에 따른 변화를 살피는 데 사용될 수 있으므로 보고서 원문과 날짜는 자가판정이 아니라 비교 질문의 출발점으로 남긴다.", "source_id": "D23-S1", "claim_type": "clinical-context", "source_date": "2025-07-26", "supports_section": "보고서 원문과 날짜 보관"},
+    {"claim": "결절이 발견되면 목을 보는 검사와 혈액검사가 함께 사용될 수 있으므로 이전 영상의 유무와 현재 보고서를 분리해 의료진에게 비교 가능 여부를 묻는다.", "source_id": "D23-S2", "claim_type": "clinical-context", "source_date": "2025-05-02", "supports_section": "이전 영상 비교 질문"},
+    {"claim": "목의 덩이·쉰 목소리·삼킴 또는 호흡의 어려움처럼 걱정되는 변화는 원인을 자가판정하지 않고 시작 시점과 현재 상태를 알리며 평가를 요청한다.", "source_id": "D23-S3", "claim_type": "safety-boundary", "source_date": "2025-06-04", "supports_section": "목 압박·목소리·삼킴 변화 분리"},
+    {"claim": "가족력과 어린 시절 머리·목 부위 방사선 노출은 위험을 확정하는 점수가 아니라 의료진과 논의할 병력 정보이므로 출처와 확인 가능 여부를 함께 기록한다.", "source_id": "D23-S2", "claim_type": "consultation-context", "source_date": "2025-05-02", "supports_section": "가족력·방사선 노출 전달"},
+    {"claim": "초음파·혈액검사·필요에 따른 추가 검사는 개인 상황에서 선택되므로 기록은 결론이 아니라 다음 연락 기준과 예약 질문을 준비하는 데 사용한다.", "source_id": "D23-S4", "claim_type": "consultation-context", "source_date": "2025-02-20", "supports_section": "빠른 평가가 필요한 변화와 추적 예약 확인"}
+  ],
+  "article_specific_details": [
+    {"claim": "결절 영상 이력 질문지에는 검사일·기관·보고서 원문·이전 영상 위치·목 변화 시작일·가족력·노출의 출처를 서로 다른 칸에 둔다.", "source_id": "D23-S1", "used_in_section": "보고서 원문과 날짜 보관"},
+    {"claim": "목 변화는 압박감·목소리 변화·삼킴 변화를 하나의 심각도 점수로 합치지 않고 각각 시작일·지속 여부·현재 상태로 적는다.", "source_id": "D23-S3", "used_in_section": "목 압박·목소리·삼킴 변화 분리"}
+  ],
+  "h2_traceability": {"보고서 원문과 날짜 보관": ["D23-S1"], "이전 영상 비교 질문": ["D23-S2"], "목 압박·목소리·삼킴 변화 분리": ["D23-S3"], "가족력·방사선 노출 전달": ["D23-S2"], "빠른 평가가 필요한 변화와 추적 예약 확인": ["D23-S4"]},
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": [],
+  "conflict_note": "수치 기준, 추적 간격, 생검·수술·약물 선택은 제공하지 않고 공식 자료를 상담용 사실 정리와 안전한 진료 연결에만 사용했다."
+}

@@ -89,6 +89,59 @@ const batch60TopicSlugs: Record<string, string> = {
   'caregiving-appointment-questionnaire': 'everyday-care',
 };
 
+const batch110TopicSlugs: Record<string, string> = {
+  'menopause-migraine-pattern': 'menopause',
+  'hrt-personal-risk-questions': 'menopause',
+  'hrt-abnormal-bleeding-contact-note': 'menopause',
+  'recurrent-postmenopause-uti-context': 'menopause',
+  'osteoporosis-medication-dental-prep': 'bone-muscle',
+  'fracture-rehab-worsening-pain-log': 'bone-muscle',
+  'wrist-fragility-fracture-evaluation': 'bone-muscle',
+  'head-impact-after-fall-card': 'bone-muscle',
+  'knee-pain-swelling-signal': 'bone-muscle',
+  'finger-stiffness-psoriasis-eye-note': 'bone-muscle',
+  'heel-pain-first-step-log': 'bone-muscle',
+  'mixed-incontinence-situation-log': 'everyday-care',
+  'pelvic-organ-prolapse-function-note': 'everyday-care',
+  'fecal-urgency-incontinence-log': 'everyday-care',
+  'long-term-laxative-log': 'everyday-care',
+  'persistent-bloating-early-satiety-log': 'everyday-care',
+  'postmeal-upper-abdominal-pain-note': 'everyday-care',
+  'fatty-liver-medication-metabolic-sheet': 'everyday-care',
+  'egfr-urine-albumin-context': 'everyday-care',
+  'cold-pain-medicine-bp-kidney-card': 'everyday-care',
+  'hba1c-prediabetes-context': 'everyday-care',
+  'sweating-tremor-hypoglycemia-like-log': 'everyday-care',
+  'thyroid-nodule-followup-questions': 'everyday-care',
+  'anemia-result-context-questions': 'everyday-care',
+  'b12-numbness-balance-context': 'bone-muscle',
+  'postmenopause-cardiovascular-risk-questions': 'menopause',
+  'wearable-irregular-pulse-af-evidence': 'everyday-care',
+  'home-bp-cuff-device-error-note': 'everyday-care',
+  'new-snoring-hypertension-log': 'sleep-mood',
+  'smoking-cessation-weight-gain-plan': 'everyday-care',
+  'vaping-cough-breathlessness-log': 'everyday-care',
+  'sedative-fall-risk-context-card': 'sleep-mood',
+  'antidepressant-early-symptom-log': 'sleep-mood',
+  'increased-alcohol-menopause-review': 'menopause',
+  'caregiver-burnout-support-map': 'sleep-mood',
+  'adult-vaccine-record-rebuild': 'everyday-care',
+  'prolonged-fatigue-after-respiratory-infection': 'everyday-care',
+  'postherpetic-neuralgia-visit-note': 'everyday-care',
+  'changing-mole-photo-rule': 'everyday-care',
+  'facial-flushing-hot-flash-difference': 'menopause',
+  'hair-loss-scalp-pain-scarring-note': 'everyday-care',
+  'blurred-vision-diabetes-hypertension': 'everyday-care',
+  'cataract-surgery-daily-function-questions': 'everyday-care',
+  'hearing-test-hearing-aid-next-questions': 'everyday-care',
+  'recurrent-nosebleed-medication-context': 'everyday-care',
+  'gum-bleeding-anticoagulant-dental-coordination': 'everyday-care',
+  'dry-mouth-cavity-swallowing-context': 'everyday-care',
+  'jaw-pain-bruxism-visit-note': 'everyday-care',
+  'postmenopause-libido-change-note': 'menopause',
+  'family-cancer-genetic-counseling-prep': 'everyday-care',
+};
+
 const topicNames = new Map(topics.map((topic) => [topic.slug, topic.name]));
 
 const catalogLongformSlugs = new Set([
@@ -114,6 +167,7 @@ const catalogLongformSlugs = new Set([
   'cervical-screening-follow-up-result-questions',
   ...Object.keys(batch30TopicSlugs),
   ...Object.keys(batch60TopicSlugs),
+  ...Object.keys(batch110TopicSlugs),
 ]);
 
 const batchLongformArticles: Article[] = getLongformArticles()
@@ -122,6 +176,7 @@ const batchLongformArticles: Article[] = getLongformArticles()
     const topicSlug = longformTopicSlugs[article.cluster]
       ?? batch30TopicSlugs[article.slug]
       ?? batch60TopicSlugs[article.slug]
+      ?? batch110TopicSlugs[article.slug]
       ?? 'everyday-care';
     const topic = topicNames.get(topicSlug);
     if (!topic) throw new Error(`Unknown topic for long-form cluster: ${article.cluster}`);

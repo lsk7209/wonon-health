@@ -1,0 +1,45 @@
+{
+  "article_id": "d026",
+  "slug": "postmenopause-cardiovascular-risk-questions",
+  "title": "폐경 후 심혈관 위험 상담: 수치·기록·생활 변화를 무엇부터 물을까",
+  "accessed": "2026-08-12",
+  "ymyl_category": "health-cardiometabolic",
+  "ymyl_review": "pass-no-diagnosis-or-treatment-direction",
+  "research_runs": [
+    {"query": "Office on Women's Health menopause and your health heart disease", "date": "2026-08-12", "purpose": "폐경 이후 건강 변화와 심장 건강 상담의 일반 맥락 확인"},
+    {"query": "NHLBI high blood pressure measurement two numbers official", "date": "2026-08-12", "purpose": "혈압 기록을 측정 조건과 함께 보아야 하는 맥락 확인"},
+    {"query": "NIDDK diabetes heart disease family history high cholesterol official", "date": "2026-08-12", "purpose": "가족력을 자가 위험 계산이 아닌 상담 배경으로 다루기 위한 확인"},
+    {"query": "Office on Women's Health heart disease women physical activity sleep medicines", "date": "2026-08-12", "purpose": "여성의 심장 건강에서 생활 변화와 상담 맥락을 기록하는 경계 확인"},
+    {"query": "MedlinePlus heart disease symptoms emergency care", "date": "2026-08-12", "purpose": "응급 증상을 기록으로 지연하지 않는 안전 경계 확인"}
+  ],
+  "article_research_question": "폐경 이후 검사 수치가 신경 쓰일 때, 독자가 개인 위험도를 계산하거나 치료를 정하지 않으면서 어떤 사실을 시간순으로 정리해 진료 상담에 가져갈 수 있는가?",
+  "reader_outcome": "폐경 시점, 같은 날의 검사 결과, 가족력, 최근 생활·복용약 변화, 긴급 증상을 서로 다른 칸으로 기록해 다음 상담 질문을 준비한다.",
+  "original_contribution": {
+    "type": "five-lane-consult-sheet",
+    "description": "폐경 후 심혈관 걱정을 단일 수치가 아닌 시점·검사 맥락·가족력·최근 변화·긴급 신호의 다섯 기록 칸으로 분리하는 상담 준비 글",
+    "source_ids": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  "source_interpretation": "공식 자료는 개인 위험 점수, 약물 시작·중단, 검사 간격을 결정하는 근거로 사용하지 않는다. 각 자료는 상담에서 확인할 사실과 즉시 진료가 우선인 상황을 구분하는 배경으로만 사용한다.",
+  "sources": [
+    {"id": "S1", "title": "Menopause and Your Health", "organization": "Office on Women's Health", "url": "https://womenshealth.gov/menopause/menopause-and-your-health", "source_date": "2025-03-12", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "폐경 시점과 기존 건강 정보를 함께 상담하는 일반 맥락"},
+    {"id": "S2", "title": "High Blood Pressure: What Is High Blood Pressure?", "organization": "National Heart, Lung, and Blood Institute", "url": "https://www.nhlbi.nih.gov/health/high-blood-pressure", "source_date": "2024-04-25", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "혈압을 수축기·이완기와 측정 시점 맥락으로 확인하는 이유"},
+    {"id": "S3", "title": "Diabetes, Heart Disease, & Stroke", "organization": "National Institute of Diabetes and Digestive and Kidney Diseases", "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/heart-disease-stroke", "source_date": "2024-04-24", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "가족력·혈압·콜레스테롤·흡연 등 다른 건강 정보를 함께 확인해야 하는 이유"},
+    {"id": "S4", "title": "Heart Disease", "organization": "Office on Women's Health", "url": "https://womenshealth.gov/heart-disease-and-stroke/heart-disease", "source_date": "2024-02-27", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "활동·수면·복용약 등 최근 변화의 시간순 기록과 여성 심장 건강 상담 맥락"},
+    {"id": "S5", "title": "Heart Diseases", "organization": "MedlinePlus", "url": "https://medlineplus.gov/heartdiseases.html", "source_date": "2024-11-21", "accessed_date": "2026-08-12", "source_role": "official", "used_for": "흉통·호흡곤란 등 즉시 의료 평가가 필요한 증상에 대한 안전 경계"}
+  ],
+  "data_points": [
+    {"claim": "폐경 이후의 건강 변화는 기존 위험 요인과 함께 상담할 맥락이며, 폐경 자체가 개인 진단이나 위험 점수를 확정하지는 않는다.", "source_id": "S1", "supports_section": "폐경 시점은 위험 점수로 바꾸지 않고 기록합니다"},
+    {"claim": "혈압은 수축기와 이완기 두 수치로 제시되며 활동에 따라 달라질 수 있어, 날짜와 측정 조건을 함께 남기는 것이 상담의 맥락이 된다.", "source_id": "S2", "supports_section": "혈압·지질·혈당은 같은 날의 맥락으로 묶습니다"},
+    {"claim": "당뇨병이 있는 사람의 심혈관 건강 논의에는 가족력, 혈압, 콜레스테롤, 흡연 같은 다른 정보도 함께 검토될 수 있어, 가족력은 사실로 기록해 상담에 전달할 배경이 된다.", "source_id": "S3", "supports_section": "흡연과 가족력은 추정 없이 사실로 남깁니다"},
+    {"claim": "여성의 심장 건강은 생활 습관과 건강 이력을 포함해 의료진과 논의할 수 있으며, 최근 변화의 시점은 상담에 유용한 정보다.", "source_id": "S4", "supports_section": "활동·수면·복용약의 최근 변화는 시간순으로 적습니다"},
+    {"claim": "새롭거나 악화되는 흉통, 호흡곤란, 실신 같은 증상은 기록을 완성하느라 지연하지 말고 즉시 의료 평가를 요청해야 하는 안전 신호다.", "source_id": "S5", "supports_section": "응급 신호와 다음 상담 질문은 따로 적습니다"}
+  ],
+  "article_specific_details": [
+    {"claim": "검사 결과는 LDL 한 항목만 옮기지 않고 같은 날짜의 혈압, 지질 패널, 혈당 검사 여부와 검사 전후의 변화를 한 묶음으로 남긴다.", "source_id": "S2"},
+    {"claim": "가족력은 가족 구성원, 알려진 질환명, 대략의 진단 시기처럼 확인된 사실만 적고, 모르는 내용은 빈칸으로 남겨 다음 상담에서 확인한다.", "source_id": "S3"},
+    {"claim": "최근 두 달의 야간 각성, 걷기 시간 변화, 새로 시작한 처방약·일반의약품·보충제는 원인으로 단정하지 않고 날짜가 있는 사건으로 기록한다.", "source_id": "S4"}
+  ],
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

@@ -1,0 +1,221 @@
+{
+  "id": "d008",
+  "slug": "head-impact-after-fall-card",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "CDC mild TBI concussion symptoms danger signs adults",
+      "date": "2026-08-12",
+      "purpose": "공식 위험 신호와 시간차 증상 확인"
+    },
+    {
+      "query": "NHS head injury concussion urgent medical help vomiting blood thinners",
+      "date": "2026-08-12",
+      "purpose": "연락 우선 상황과 복용약 맥락 확인"
+    },
+    {
+      "query": "MedlinePlus concussion adults discharge memory behavior when call doctor",
+      "date": "2026-08-12",
+      "purpose": "기억·행동 변화 기록 및 귀가 후 경계 확인"
+    },
+    {
+      "query": "NINDS traumatic brain injury current overview",
+      "date": "2026-08-12",
+      "purpose": "공식 질환 범위와 비진단 경계 확인"
+    },
+    {
+      "query": "낙상 머리 부딪힘 기록 카드 검색 결과 진료 준비",
+      "date": "2026-08-12",
+      "purpose": "일반 응급 설명과 구별되는 기록 도구의 공백 확인"
+    }
+  ],
+  "article_research_question": "낙상 뒤 머리를 부딪힌 사람이 충격 시각·구토·기억 변화를 어떤 순서로 적어 의료 연락의 사실 자료로 만들 수 있는가?",
+  "reader_outcome": "원인을 추측하지 않고 충격 시각, 구토의 횟수·첫 시점, 반복 질문 같은 기억 변화를 한 카드로 전달한다.",
+  "search_intent_insight": "검색자는 집에서 안전 여부를 단정할 답보다, 전화 또는 진료에서 빠뜨리지 않을 사실과 즉시 연락할 경고 신호의 구분을 필요로 한다.",
+  "competitor_gap": "현재 결과는 증상 목록 또는 자가관리 조언이 중심이다. 이 글은 충격-구토-기억-복용약-동행을 시간축 메모로 바꾸되, 그 메모가 응급 판단을 대신하지 않는 경계를 제시한다.",
+  "unique_angle": "충격 시각·구토·기억 변화를 분리하는 연락 카드",
+  "angle_supporting_detail": "CDC는 증상이 즉시 또는 몇 시간·며칠 뒤 나타날 수 있다고 설명하고, NHS는 최근 머리 손상 뒤 구토와 혈액을 묽게 하는 약 복용을 긴급 도움 맥락으로 제시한다.",
+  "original_contribution": {
+    "type": "time-sequenced contact card",
+    "description": "사건 시각, 구토의 첫 시점·횟수, 기억·행동 변화, 복용약, 동행 여부를 분리한 5칸 연락 카드",
+    "source_ids": [
+      "D8-S1",
+      "D8-S2",
+      "D8-S3"
+    ]
+  },
+  "source_interpretation": "CDC 증상 자료는 시간차가 있는 증상과 즉시 평가가 필요한 위험 신호를 카드 상단의 안전 경계로 사용한다. 별도의 CDC 개요 자료는 머리 또는 몸의 충격 뒤 의료 평가가 필요하다는 비진단 경계에 사용한다. NHS는 구토·혈액을 묽게 하는 약·운전 금지처럼 통화에서 덧붙일 맥락으로 사용한다. MedlinePlus는 기억·행동 변화와 동행 정보를 시간순 기록에 연결한다. 모든 출처는 치료 지시에는 사용하지 않는다.",
+  "sources": [
+    {
+      "id": "D8-S1",
+      "organization": "Centers for Disease Control and Prevention",
+      "title": "Symptoms of Mild TBI and Concussion",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/traumatic-brain-injury-tbi",
+      "source_role": "official",
+      "source_date": "2025-09-15",
+      "accessed_date": "2026-08-12",
+      "used_for": "시간차 증상, 기억 영역, 성인 위험 신호",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D8-S2",
+      "organization": "NHS",
+      "title": "Head injury and concussion",
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "source_role": "official",
+      "source_date": "2025-05-29",
+      "accessed_date": "2026-08-12",
+      "used_for": "구토·혈액을 묽게 하는 약·응급 도움 맥락",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D8-S3",
+      "organization": "MedlinePlus / U.S. National Library of Medicine",
+      "title": "Concussion in adults - discharge",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000126.htm",
+      "source_role": "official",
+      "source_date": "2024-06-13",
+      "accessed_date": "2026-08-12",
+      "used_for": "기억·행동 변화, 동행, 의료진 연락 변화",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D8-S4",
+      "organization": "Centers for Disease Control and Prevention",
+      "title": "About Mild TBI and Concussion",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/traumatic-brain-injury-tbi",
+      "source_role": "official",
+      "source_date": "2025-09-15",
+      "accessed_date": "2026-08-12",
+      "used_for": "머리 또는 몸의 충격 뒤 의료 평가가 필요하다는 비진단 경계",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    },
+    {
+      "id": "D8-S5",
+      "organization": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "title": "Traumatic Brain Injury",
+      "url": "https://www.nichd.nih.gov/health/topics/tbi",
+      "source_role": "official",
+      "source_date": "2026-08-12",
+      "accessed_date": "2026-08-12",
+      "used_for": "외상성 뇌손상 공공보건 정보의 교차 확인",
+      "official_or_primary": true,
+      "source_type": "official",
+      "is_official": true
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "증상은 바로 또는 몇 시간·며칠 뒤 나타날 수 있고 기억·생각·수면에도 영향을 줄 수 있다.",
+      "source_id": "D8-S1",
+      "claim_type": "current clinical guidance",
+      "source_date": "2025-09-15",
+      "supports_section": "충격 시각은 ‘대략’이라도 한 줄로 고정한다"
+    },
+    {
+      "claim": "반복 구토, 악화되는 두통, 새 약화·말하기 문제·혼란·깨우기 어려움은 즉시 응급 평가가 필요한 위험 신호다.",
+      "source_id": "D8-S1",
+      "claim_type": "danger-sign guidance",
+      "source_date": "2025-09-15",
+      "supports_section": "연락을 미루지 말아야 할 변화는 카드 위에 둔다"
+    },
+    {
+      "claim": "최근 머리 손상 뒤 구토 또는 혈액을 묽게 하는 약 복용은 긴급 도움을 받을 상황으로 안내된다.",
+      "source_id": "D8-S2",
+      "claim_type": "urgent-care guidance",
+      "source_date": "2025-05-29",
+      "supports_section": "약·기저질환·동행 여부는 마지막 칸에 모은다"
+    },
+    {
+      "claim": "기억·집중 어려움, 행동 변화, 걷기·말하기 문제는 의료진에게 더 빨리 연락할 변화로 제시된다.",
+      "source_id": "D8-S3",
+      "claim_type": "post-discharge guidance",
+      "source_date": "2024-06-13",
+      "supports_section": "기억 변화는 질문 하나로 반복 확인한다"
+    },
+    {
+      "claim": "이 절은 독자가 구토는 횟수와 첫 시점을 따로 쓴다에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "D8-S1",
+      "claim_type": "procedure",
+      "source_date": "2025-09-15",
+      "supports_section": "구토는 횟수와 첫 시점을 따로 쓴다"
+    },
+    {
+      "claim": "이 절은 독자가 전화나 진료에서 그대로 읽을 질문 세 가지에 관한 관찰과 진료 전달 정보를 분리하도록 돕는다.",
+      "source_id": "D8-S1",
+      "claim_type": "procedure",
+      "source_date": "2025-09-15",
+      "supports_section": "전화나 진료에서 그대로 읽을 질문 세 가지"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "구토는 첫 시각·횟수·마지막 시각을 분리하고, 반복 구토는 카드 작성보다 즉시 평가가 우선인 위험 신호로 둔다.",
+      "source_id": "D8-S1",
+      "materially_used_in": "구토는 횟수와 첫 시점을 따로 쓴다"
+    },
+    {
+      "claim": "반복 질문, 사람·장소 혼란, 말하기·걷기 변화는 ‘기억이 나쁘다’가 아닌 관찰 가능한 장면으로 기록한다.",
+      "source_id": "D8-S1",
+      "materially_used_in": "기억 변화는 질문 하나로 반복 확인한다"
+    },
+    {
+      "claim": "혈액을 묽게 하는 약의 임의 중단 대신 약 이름·마지막 복용 시각을 전달 자료로 준비한다.",
+      "source_id": "D8-S2",
+      "materially_used_in": "약·기저질환·동행 여부는 마지막 칸에 모은다"
+    },
+    {
+      "claim": "머리뿐 아니라 몸에 가해진 충격 뒤에도 의료 평가의 맥락이 될 수 있음을 카드의 사건 장면에 남긴다.",
+      "source_id": "D8-S4",
+      "materially_used_in": "충격 시각은 ‘대략’이라도 한 줄로 고정한다"
+    }
+  ],
+  "h2_traceability": {
+    "충격 시각은 ‘대략’이라도 한 줄로 고정한다": [
+      "D8-S1",
+      "D8-S2",
+      "D8-S4"
+    ],
+    "구토는 횟수와 첫 시점을 따로 쓴다": [
+      "D8-S1",
+      "D8-S2"
+    ],
+    "기억 변화는 질문 하나로 반복 확인한다": [
+      "D8-S1",
+      "D8-S3"
+    ],
+    "약·기저질환·동행 여부는 마지막 칸에 모은다": [
+      "D8-S2",
+      "D8-S3"
+    ],
+    "연락을 미루지 말아야 할 변화는 카드 위에 둔다": [
+      "D8-S1",
+      "D8-S2"
+    ],
+    "전화나 진료에서 그대로 읽을 질문 세 가지": [
+      "D8-S1",
+      "D8-S2",
+      "D8-S3",
+      "D8-S4"
+    ]
+  },
+  "ymyl_category": "health / acute head injury safety",
+  "ymyl_review": "기록·연락 준비만 제공하며 진단·처방·귀가·검사 결정을 하지 않는다.",
+  "ymyl_boundaries": [
+    "뇌진탕 또는 다른 질환을 자가진단하지 않는다.",
+    "약의 중단·용량 변경·귀가·검사 여부를 지시하지 않는다.",
+    "의식 변화·반복 구토·새 신경학적 변화 등 위험 신호는 기록보다 즉시 지역 응급 의료체계 이용을 우선한다."
+  ],
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

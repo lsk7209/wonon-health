@@ -1,0 +1,200 @@
+{
+  "id": "d042",
+  "slug": "blurred-vision-diabetes-hypertension",
+  "researched_at": "2026-08-12",
+  "research_runs": [
+    {
+      "query": "NEI diabetic retinopathy blurred vision symptoms",
+      "date": "2026-08-12",
+      "purpose": "당뇨와 시야 변화의 공식 맥락 확인"
+    },
+    {
+      "query": "NIDDK diabetes eye problems prevention official",
+      "date": "2026-08-12",
+      "purpose": "당뇨 합병증 검진 맥락 확인"
+    },
+    {
+      "query": "NEI refractive errors sudden blurry vision official",
+      "date": "2026-08-12",
+      "purpose": "안경 도수 변화와 질환 추정을 분리"
+    },
+    {
+      "query": "National Institute on Aging stroke signs sudden vision changes official",
+      "date": "2026-08-12",
+      "purpose": "기록을 중단할 신경학적 경계 확인"
+    },
+    {
+      "query": "AAO diabetic retinopathy symptoms regular dilated eye exam",
+      "date": "2026-08-12",
+      "purpose": "안과 상담에 필요한 증상 맥락 확인"
+    }
+  ],
+  "article_research_question": "당뇨 또는 고혈압이 있는 사람이 흐린 시야를 혈당·혈압 숫자 하나로 단정하지 않고, 한쪽·양쪽 차이와 시작 시점, 동반 증상을 어떻게 안과 상담용 기록으로 만들 수 있는가?",
+  "reader_outcome": "응급 평가가 먼저인 변화를 구분하고, 그렇지 않은 경우에도 안과에 전달할 시간선과 측정·복용 맥락을 한 장에 정리한다.",
+  "search_intent_insight": "독자는 ‘혈당이 높아서 그런가’라는 원인 답보다 오늘 바로 진료가 필요한지와 안과에서 빠뜨리지 않고 말할 항목을 원한다.",
+  "competitor_gap": "일반 검색은 당뇨망막병증의 정의나 혈당 관리에 치우친다. 이 글은 시야가 실제로 언제·어느 눈에서·어떤 작업 중 달라졌는지와 측정값의 시간 차이를 분리하는 기록 도구를 제공한다.",
+  "unique_angle": "한쪽/양쪽·갑작스러움·동반 통증·측정값을 같은 시간선에 놓는 안과 상담 메모",
+  "original_contribution": {
+    "type": "timeline-note",
+    "description": "시야 변화와 혈당·혈압 측정값, 복용·두통·말 어눌함을 서로 다른 칸에 적어 잘못된 인과 단정을 줄이는 4칸 시간선",
+    "source_ids": [
+      "D42-S1",
+      "D42-S3",
+      "D42-S4"
+    ]
+  },
+  "source_interpretation": "NEI와 NIDDK 자료는 당뇨가 눈 건강과 정기 안과 검진에 연결되는 맥락으로, AAO 자료는 증상과 확장 안저검사의 상담 맥락으로 사용한다. NIA와 NEI 녹내장 자료는 원인을 가르는 자가진단 근거가 아니라 갑작스러운 시야 변화·신경 증상·심한 통증에서 기록을 멈추는 안전 경계에만 사용한다.",
+  "sources": [
+    {
+      "id": "D42-S1",
+      "organization": "National Eye Institute",
+      "title": "Diabetic Retinopathy",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+      "source_role": "official",
+      "source_date": "2025-09-11",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "당뇨망막병증이 시야 흐림을 포함할 수 있다는 맥락과 정기 확장 안저검사"
+    },
+    {
+      "id": "D42-S2",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Preventing Diabetes Problems",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems",
+      "source_role": "official",
+      "source_date": "2024-10-01",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "당뇨 합병증 예방과 눈 검진의 맥락"
+    },
+    {
+      "id": "D42-S3",
+      "organization": "National Eye Institute",
+      "title": "Refractive Errors",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "source_role": "official",
+      "source_date": "2025-10-30",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "흐린 시야에 여러 원인이 있을 수 있어 도수 변화로 단정하지 않는 경계"
+    },
+    {
+      "id": "D42-S4",
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "title": "Stroke",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/stroke",
+      "source_role": "official",
+      "source_date": "2025-05-15",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "갑작스러운 시야 변화와 동반 신경학적 증상의 즉시 평가 경계"
+    },
+    {
+      "id": "D42-S5",
+      "organization": "American Academy of Ophthalmology",
+      "title": "What Is Diabetic Retinopathy?",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-diabetic-retinopathy",
+      "source_role": "official",
+      "source_date": "2025-03-19",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "증상 변화와 안과 검사의 상담 맥락"
+    },
+    {
+      "id": "D42-S6",
+      "organization": "National Eye Institute",
+      "title": "Glaucoma",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "source_role": "official",
+      "source_date": "2025-10-30",
+      "accessed_date": "2026-08-12",
+      "http_status": 200,
+      "used_for": "심한 눈 통증·충혈·메스꺼움과 시야 변화에서 긴급 평가 경계"
+    }
+  ],
+  "data_points": [
+    {
+      "claim": "당뇨망막병증은 초기에는 증상이 없을 수 있고, 진행하면 흐린 시야나 시력 상실을 일으킬 수 있다.",
+      "source_id": "D42-S1",
+      "supports_section": "당뇨가 있어도 흐린 시야의 원인을 한 줄로 쓰지 않는다"
+    },
+    {
+      "claim": "당뇨가 있는 사람은 증상이 없더라도 정기적인 확장 안저검사가 필요할 수 있다.",
+      "source_id": "D42-S1",
+      "supports_section": "평소 검사 일정과 오늘의 증상 메모를 분리한다"
+    },
+    {
+      "claim": "굴절 이상도 흐린 시야를 만들 수 있어, 흐림만으로 특정 원인을 확정할 수 없다.",
+      "source_id": "D42-S3",
+      "supports_section": "‘양쪽 차이’는 진단명이 아니라 전달할 사실이다"
+    },
+    {
+      "claim": "뇌졸중은 갑작스러운 시야 문제를 포함할 수 있으며 즉시 평가가 중요하다.",
+      "source_id": "D42-S4",
+      "supports_section": "갑작스러운 변화와 신경 증상은 기록보다 먼저 평가한다"
+    },
+    {
+      "claim": "급성 폐쇄각 녹내장은 심한 눈 통증, 충혈, 흐린 시야, 메스꺼움·구토를 동반할 수 있다.",
+      "source_id": "D42-S6",
+      "supports_section": "눈 자체의 심한 통증도 별도 경계로 적는다"
+    },
+    {
+      "claim": "당뇨망막병증의 평가는 안과 검사를 통해 이루어지며 증상만으로 자가진단하지 않는다.",
+      "source_id": "D42-S5",
+      "supports_section": "상담 메모에는 측정값보다 검사·복용 맥락을 함께 둔다"
+    }
+  ],
+  "article_specific_details": [
+    {
+      "claim": "‘오전 9시 양쪽이 뿌옇다’와 ‘왼쪽만 갑자기 흐려졌다’를 같은 항목으로 합치지 않고, 눈별 차이와 시작 방식의 두 칸으로 적는다.",
+      "source_id": "D42-S3",
+      "materially_used_in": "‘양쪽 차이’는 진단명이 아니라 전달할 사실이다"
+    },
+    {
+      "claim": "혈당·혈압 수치는 숫자만 적지 않고 측정 시각, 식사·운동과의 간격, 그때의 시야 상태를 나란히 적어 수치 하나를 원인으로 단정하지 않는다.",
+      "source_id": "D42-S1",
+      "materially_used_in": "상담 메모에는 측정값보다 검사·복용 맥락을 함께 둔다"
+    },
+    {
+      "claim": "갑작스러운 시야 변화에 한쪽 팔다리 힘 빠짐, 말이 어눌함, 새 두통이 함께 있으면 기록을 채우지 않고 즉시 응급 평가를 우선한다.",
+      "source_id": "D42-S4",
+      "materially_used_in": "갑작스러운 변화와 신경 증상은 기록보다 먼저 평가한다"
+    }
+  ],
+  "h2_traceability": {
+    "당뇨가 있어도 흐린 시야의 원인을 한 줄로 쓰지 않는다": [
+      "D42-S1",
+      "D42-S3"
+    ],
+    "‘양쪽 차이’는 진단명이 아니라 전달할 사실이다": [
+      "D42-S3",
+      "D42-S5"
+    ],
+    "상담 메모에는 측정값보다 검사·복용 맥락을 함께 둔다": [
+      "D42-S1",
+      "D42-S2",
+      "D42-S5"
+    ],
+    "평소 검사 일정과 오늘의 증상 메모를 분리한다": [
+      "D42-S1",
+      "D42-S2"
+    ],
+    "갑작스러운 변화와 신경 증상은 기록보다 먼저 평가한다": [
+      "D42-S4"
+    ],
+    "눈 자체의 심한 통증도 별도 경계로 적는다": [
+      "D42-S6"
+    ]
+  },
+  "ymyl_category": "eye symptoms / diabetes / hypertension",
+  "ymyl_review": "원인·혈당 목표·혈압 목표·약물 조정·안과 치료를 지시하지 않고, 긴급 경계와 상담용 기록만 제시한다.",
+  "ymyl_boundaries": [
+    "시야 흐림의 원인이나 진단명을 추정하지 않는다.",
+    "당뇨·혈압 약을 임의로 변경하거나 수치 목표를 제시하지 않는다.",
+    "갑작스러운 시야 변화 또는 신경학적 증상은 기록보다 즉시 평가를 우선한다."
+  ],
+  "volatile": true,
+  "fact_traceability_pass": true,
+  "unresolved_claims": [],
+  "source_conflicts": []
+}

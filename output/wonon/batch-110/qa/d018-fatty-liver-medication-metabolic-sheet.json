@@ -1,0 +1,70 @@
+{
+  "id": "d018",
+  "slug": "fatty-liver-medication-metabolic-sheet",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 30,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 14
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "d43336980f33311007e992c3b5b4fd3ce01d31e70978b1e583ace3e3b9c45448",
+    "research_sha256": "3e599b68eecda247233a9fbc868826fe0b17f11b5d6a4c1e0a9d6d602da41998",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 5808,
+    "visible_korean_body_count": 5808,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/health-checkup-questions",
+      "/article/medication-reconciliation-sheet",
+      "/article/menopause-when-to-see-a-doctor"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D18-S1": 200,
+      "D18-S2": 200,
+      "D18-S3": 200,
+      "D18-S4": 200,
+      "D18-S5": 200
+    },
+    "article_specific_details": 0,
+    "max_prose_7_token_jaccard": 0.001701,
+    "closest_prose_comparator": "d019-egfr-urine-albumin-context"
+  },
+  "compared_rows": [
+    "all 108 available draft documents excluding self"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "d002",
+  "slug": "hrt-personal-risk-questions",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "4d0ced8c7649f875378875ba20ade4db8ec1b02271dc174938b35ff67bd19ae2",
+    "research_sha256": "67d18a6871f1586f0f945d5881dce45bd5a17cecc576e9100fcea97d84bcba03",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4447,
+    "visible_korean_body_count": 4447,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/medication-reconciliation-sheet",
+      "/article/health-checkup-questions",
+      "/article/menopause-when-to-see-a-doctor"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "S1": 200,
+      "S2": 200,
+      "S3": 200,
+      "S4": 200,
+      "S5": 200
+    },
+    "article_specific_details": 3,
+    "max_prose_7_token_jaccard": 0.0053835801,
+    "closest_prose_comparator": "c025-smell-change-home-safety-plan"
+  },
+  "compared_rows": [
+    "89 released corpus articles",
+    "d003",
+    "d008",
+    "d021",
+    "d035",
+    "d050",
+    "d001",
+    "d004",
+    "d005",
+    "d006"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": true,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}

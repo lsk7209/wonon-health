@@ -1,0 +1,71 @@
+{
+  "id": "d036",
+  "slug": "adult-vaccine-record-rebuild",
+  "audit_type": "final_independent_batch110_current_packet_revalidation",
+  "audited_at": "2026-08-12T02:51:20.499Z",
+  "status": "done",
+  "score": 97,
+  "category_scores": {
+    "content_quality": 29,
+    "seo": 24,
+    "eeat": 15,
+    "technical_elements": 14,
+    "ai_citation_readiness": 15
+  },
+  "hard_gate_results": {
+    "packet_alignment": true,
+    "manifest_row_matches_packet": true,
+    "score_at_least_95_and_category_sum_exact": true,
+    "research_packet_json_valid": true,
+    "utf8_no_corruption": true,
+    "prose_only_hangul_at_least_4300": true,
+    "visible_h2_data_point_exact_one_to_one": true,
+    "substantive_h2_at_least_5": true,
+    "current_internal_routes_3_to_5": true,
+    "source_metadata_complete_and_restricted": true,
+    "reader_visible_source_urls_before_references": true,
+    "declared_source_urls_final_http_200": true,
+    "article_specific_details_field_valid_when_declared": true
+  },
+  "evidence": {
+    "audit_basis": "final-current-draft-and-research-packet",
+    "draft_sha256": "b12e8bf47cd33ce4ece6b014c06c109025d496e6e112388282df195a2e0dd6f6",
+    "research_sha256": "3a220e775381e9752ca7b8b735bab0789d8fb62d1b68c5eb0d975682c1a1ef58",
+    "utf8_roundtrip": true,
+    "replacement_characters": 0,
+    "placeholders": [],
+    "prose_only_hangul_count_before_reader_references": 4420,
+    "visible_korean_body_count": 4420,
+    "h2_count_before_reader_references": 5,
+    "h2_count": 5,
+    "data_points": 5,
+    "data_point_h2_mismatches": 0,
+    "internal_routes": [
+      "/article/health-checkup-questions",
+      "/article/shingles-vaccine-visit-prep",
+      "/article/medication-reconciliation-sheet"
+    ],
+    "research_runs": 5,
+    "sources": 5,
+    "source_metadata_complete": true,
+    "reader_visible_source_urls_before_references": 5,
+    "source_get_statuses": {
+      "D36-S1": 200,
+      "D36-S2": 200,
+      "D36-S3": 200,
+      "D36-S4": 200,
+      "D36-S5": 200
+    },
+    "article_specific_details": 2,
+    "max_prose_7_token_jaccard": 0.000968367,
+    "closest_prose_comparator": "d032-sedative-fall-risk-context-card"
+  },
+  "compared_rows": [
+    "84 prior-corpus drafts",
+    "38 other available batch-110 drafts"
+  ],
+  "similarity_signals": [],
+  "repair_attempted": false,
+  "remaining_risks": [],
+  "exact_repair_list": []
+}
